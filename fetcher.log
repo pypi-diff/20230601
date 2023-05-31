@@ -314,3 +314,67 @@
 [2023-06-01 00:21:00] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
 [2023-06-01 00:21:05] INFO root fetch - main [MainThread]: End processing [injective-py]: success
 [2023-06-01 00:21:05] INFO root fetch - main [MainThread]: Store serial: [18323122]
+[2023-06-01 00:26:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18323122]
+[2023-06-01 00:26:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-01 00:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-dllib-spark2
+[2023-06-01 00:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lanarky
+[2023-06-01 00:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-orca-spark2
+[2023-06-01 00:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-friesian-spark2
+[2023-06-01 00:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-chronos-spark2
+[2023-06-01 00:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-spark2
+[2023-06-01 00:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nextstrain-cli
+[2023-06-01 00:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: genomenotebook
+[2023-06-01 00:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odb-plotter
+[2023-06-01 00:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: naif-eop-high-prec
+[2023-06-01 00:26:14] INFO root fetch - processPackages [lanarky]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-06-01 00:26:14] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230531] Old Version: [2.4.0b20230530]
+[2023-06-01 00:26:14] WARNING root fetch - processPackages [naif-eop-high-prec]: Skipping, unable to determine old version
+[2023-06-01 00:26:14] INFO root fetch - processPackages [naif-eop-high-prec]: Start processing: catencfamily
+[2023-06-01 00:26:14] INFO root fetch - processPackages [genomenotebook]: New version: [0.8.1] Old Version: [0.7.4]
+[2023-06-01 00:26:14] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec] error
+[2023-06-01 00:26:14] INFO root fetch - processPackages [odb-plotter]: New version: [0.5.0] Old Version: [0.4.6]
+[2023-06-01 00:26:14] INFO root fetch - processPackages [nextstrain-cli]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-06-01 00:26:14] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230531] Old Version: [2.4.0b20230530]
+[2023-06-01 00:26:14] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230531] Old Version: [2.4.0b20230530]
+[2023-06-01 00:26:14] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230531] Old Version: [2.4.0b20230530]
+[2023-06-01 00:26:14] INFO root fetch - processPackages [catencfamily]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-01 00:26:14] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230531] Old Version: [2.4.0b20230530]
+[2023-06-01 00:26:14] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/84/e2/f62dfd40e558dcd84cd3b2e699f49998e2f14cf768337455c65351668db0/bigdl_orca_spark2-2.4.0b20230530-py3-none-manylinux1_x86_64.whl
+[2023-06-01 00:26:15] INFO root fetch - processPackages [genomenotebook]: Downloading https://files.pythonhosted.org/packages/a8/49/caf14ae2e1f6f93eacacaa38633d260b5da4467d5827647cc6454bfb82b9/genomenotebook-0.7.4.tar.gz
+[2023-06-01 00:26:15] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/8d/14/02fbc52d95f0bf76d5ddda7b24d3e8638668c57327273f9d6114b353aae8/bigdl-dllib-spark2-2.4.0b20230530.tar.gz
+[2023-06-01 00:26:15] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/95/2d/f0d342c9321995156fe65e187093e510ecf37fe9275a9a7b800c856e9802/catencfamily-0.0.3.tar.gz
+[2023-06-01 00:26:15] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/06/f2/053daa70a69d4a6373467ff99716ecf5c1e622456ee511d34f8e12348383/bigdl_chronos_spark2-2.4.0b20230531-py3-none-manylinux1_x86_64.whl
+[2023-06-01 00:26:15] INFO root fetch - processPackages [nextstrain-cli]: Downloading https://files.pythonhosted.org/packages/ee/28/af9ce0fa7525aff3b4f0436e2a1d05d0462d0b949def62aee82b654cef25/nextstrain-cli-7.0.1.tar.gz
+[2023-06-01 00:26:15] INFO root fetch - processPackages [odb-plotter]: Downloading https://files.pythonhosted.org/packages/74/11/ad2c577b3e954ff4e14a68cfd73acd29d1bd181150943795752d42867b44/odb-plotter-0.4.6.tar.gz
+[2023-06-01 00:26:15] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/66/92/b54e84159d7d3714bce99e9e8db87339d415d7a02bb4b6bcc37ae1ce81b0/bigdl_spark2-2.4.0b20230531-py3-none-manylinux1_x86_64.whl
+[2023-06-01 00:26:15] INFO root fetch - processPackages [lanarky]: Downloading https://files.pythonhosted.org/packages/da/5e/f3bfa589060dc495f282ff12167e1f4538928b6adec7f818a174845bf59c/lanarky-0.7.5.tar.gz
+[2023-06-01 00:26:15] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/c5/a6/d16dfda6c9f1e99222ba6f3f1b5818223dd4159649c884f733d486b8ad2d/bigdl_friesian_spark2-2.4.0b20230531-py3-none-manylinux1_x86_64.whl
+[2023-06-01 00:26:16] INFO root fetch - processPackages [lanarky]: executing diffoscope
+[2023-06-01 00:26:16] INFO root fetch - processPackages [lanarky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanarky-0.7.4.tar.gz tmp/lanarky-0.7.5.tar.gz --markdown 20230601/l/lanarky/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-06-01 00:26:16] INFO root fetch - processPackages [catencfamily]: executing diffoscope
+[2023-06-01 00:26:16] INFO root fetch - processPackages [catencfamily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catencfamily-0.0.2.tar.gz tmp/catencfamily-0.0.3.tar.gz --markdown 20230601/c/catencfamily/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-01 00:26:16] INFO root fetch - processPackages [nextstrain-cli]: executing diffoscope
+[2023-06-01 00:26:16] INFO root fetch - processPackages [nextstrain-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextstrain-cli-7.0.0.tar.gz tmp/nextstrain-cli-7.0.1.tar.gz --markdown 20230601/n/nextstrain-cli/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-06-01 00:26:16] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53559944>=10485760
+[2023-06-01 00:26:16] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-06-01 00:26:16] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-06-01 00:26:16] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230530-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230531-py3-none-manylinux1_x86_64.whl.zip --markdown 20230601/b/bigdl-spark2/2.4.0b20230530-2.4.0b20230531/diff.md --exclude *.pyd
+[2023-06-01 00:26:16] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-06-01 00:26:16] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230530-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230531-py3-none-manylinux1_x86_64.whl.zip --markdown 20230601/b/bigdl-friesian-spark2/2.4.0b20230530-2.4.0b20230531/diff.md --exclude *.pyd
+[2023-06-01 00:26:16] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-06-01 00:26:16] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230530-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230531-py3-none-manylinux1_x86_64.whl.zip --markdown 20230601/b/bigdl-chronos-spark2/2.4.0b20230530-2.4.0b20230531/diff.md --exclude *.pyd
+[2023-06-01 00:26:16] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369422>=10485760
+[2023-06-01 00:26:16] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-06-01 00:26:16] INFO root fetch - processPackages [odb-plotter]: Downloading https://files.pythonhosted.org/packages/ab/53/af6fd20a5ea1265c7a8b197daf43a021da995604576162eb354bf7bb3544/odb-plotter-0.5.0.tar.gz
+[2023-06-01 00:26:16] WARNING root fetch - processPackages [genomenotebook]: Skipping package: exceeds size limit 21359096>=10485760
+[2023-06-01 00:26:16] INFO root fetch - main [MainThread]: End processing [genomenotebook] error
+[2023-06-01 00:26:16] INFO root fetch - processPackages [odb-plotter]: executing diffoscope
+[2023-06-01 00:26:16] INFO root fetch - processPackages [odb-plotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odb-plotter-0.4.6.tar.gz tmp/odb-plotter-0.5.0.tar.gz --markdown 20230601/o/odb-plotter/0.4.6-0.5.0/diff.md --exclude *.pyd
+[2023-06-01 00:26:17] INFO root fetch - main [MainThread]: End processing [lanarky]: success
+[2023-06-01 00:26:17] INFO root fetch - main [MainThread]: End processing [catencfamily]: success
+[2023-06-01 00:26:17] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-06-01 00:26:17] INFO root fetch - main [MainThread]: End processing [nextstrain-cli]: success
+[2023-06-01 00:26:18] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-06-01 00:26:18] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-06-01 00:26:18] INFO root fetch - main [MainThread]: End processing [odb-plotter]: success
+[2023-06-01 00:26:18] INFO root fetch - main [MainThread]: Store serial: [18323162]
