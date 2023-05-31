@@ -2837,3 +2837,56 @@
 [2023-06-01 01:43:50] INFO root fetch - main [MainThread]: End processing [tpds-extension-ecc204-support]: success
 [2023-06-01 01:43:53] INFO root fetch - main [MainThread]: End processing [tpds-extension-ta010-support]: success
 [2023-06-01 01:43:53] INFO root fetch - main [MainThread]: Store serial: [18324553]
+[2023-06-01 01:48:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18324553]
+[2023-06-01 01:49:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-01 01:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: downscale-image
+[2023-06-01 01:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strongdm
+[2023-06-01 01:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spotPython
+[2023-06-01 01:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roundup
+[2023-06-01 01:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moto
+[2023-06-01 01:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RegScale-CLI
+[2023-06-01 01:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: postgres-lock
+[2023-06-01 01:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SPRT-TANDEM
+[2023-06-01 01:49:03] INFO root fetch - processPackages [downscale-image]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-01 01:49:03] INFO root fetch - processPackages [postgres-lock]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-01 01:49:03] INFO root fetch - processPackages [strongdm]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-06-01 01:49:03] INFO root fetch - processPackages [spotPython]: New version: [0.2.7] Old Version: [0.2.4]
+[2023-06-01 01:49:03] INFO root fetch - processPackages [RegScale-CLI]: New version: [5.5.0] Old Version: [5.4.0]
+[2023-06-01 01:49:03] INFO root fetch - processPackages [SPRT-TANDEM]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-01 01:49:03] INFO root fetch - processPackages [roundup]: New version: [2.3.0b2] Old Version: [2.2.0b1]
+[2023-06-01 01:49:03] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-01 01:49:03] INFO root fetch - processPackages [strongdm]: Downloading https://files.pythonhosted.org/packages/36/38/cf59ccf2258e3dd7b8d58f2bdfd7bbb45c61f016917d4d3a615d926810b5/strongdm-3.8.0.zip
+[2023-06-01 01:49:03] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-01 01:49:03] INFO root fetch - processPackages [postgres-lock]: Downloading https://files.pythonhosted.org/packages/d0/9b/b8cb3c8b2b75fc95a05f257575819007e4f0795af2817d16d9caf2e670bb/postgres_lock-0.1.0.tar.gz
+[2023-06-01 01:49:03] INFO root fetch - processPackages [roundup]: Downloading https://files.pythonhosted.org/packages/51/58/851e7e57c55cf258d76deef892499eaba91d714341c64a4af1e84be7ddf2/roundup-2.2.0b1.tar.gz
+[2023-06-01 01:49:03] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-01 01:49:03] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230601/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-01 01:49:03] INFO root fetch - processPackages [downscale-image]: Downloading https://files.pythonhosted.org/packages/f6/ed/a3b75afcf95dfbd5ae6717f0017c17de96a5868798d665be245f7f542254/downscale_image-1.4.2.tar.gz
+[2023-06-01 01:49:03] INFO root fetch - processPackages [SPRT-TANDEM]: Downloading https://files.pythonhosted.org/packages/ab/47/e02c4b28f80fbeebab59c1c4ce31e32ed400f31da82cc93732297682779b/SPRT-TANDEM-0.1.6.tar.gz
+[2023-06-01 01:49:04] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-01 01:49:04] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.4.tar.gz tmp/spotPython-0.2.7.tar.gz --markdown 20230601/s/spotPython/0.2.4-0.2.7/diff.md --exclude *.pyd
+[2023-06-01 01:49:04] INFO root fetch - processPackages [downscale-image]: executing diffoscope
+[2023-06-01 01:49:04] INFO root fetch - processPackages [downscale-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/downscale_image-1.4.1.tar.gz tmp/downscale_image-1.4.2.tar.gz --markdown 20230601/d/downscale-image/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-01 01:49:04] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/07/81/de15805aeebc9fb8cf1935d7ceb8ef6e7b858fdcbd92ae17b27a0a41dcd8/RegScale_CLI-5.5.0-py3-none-any.whl
+[2023-06-01 01:49:04] INFO root fetch - processPackages [SPRT-TANDEM]: executing diffoscope
+[2023-06-01 01:49:04] INFO root fetch - processPackages [SPRT-TANDEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPRT-TANDEM-0.1.5.tar.gz tmp/SPRT-TANDEM-0.1.6.tar.gz --markdown 20230601/S/SPRT-TANDEM/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-01 01:49:04] INFO root fetch - processPackages [RegScale-CLI]: executing diffoscope
+[2023-06-01 01:49:04] INFO root fetch - processPackages [RegScale-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RegScale_CLI-5.4.0-py3-none-any.whl.zip tmp/RegScale_CLI-5.5.0-py3-none-any.whl.zip --markdown 20230601/R/RegScale-CLI/5.4.0-5.5.0/diff.md --exclude *.pyd
+[2023-06-01 01:49:04] INFO root fetch - processPackages [postgres-lock]: Downloading https://files.pythonhosted.org/packages/6f/25/710bcd31402b33402593811774f450b7ea1d0500c433a949cbe3cb8273f4/postgres_lock-0.1.1.tar.gz
+[2023-06-01 01:49:04] INFO root fetch - processPackages [postgres-lock]: executing diffoscope
+[2023-06-01 01:49:04] INFO root fetch - processPackages [postgres-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postgres_lock-0.1.0.tar.gz tmp/postgres_lock-0.1.1.tar.gz --markdown 20230601/p/postgres-lock/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-01 01:49:04] INFO root fetch - processPackages [strongdm]: Downloading https://files.pythonhosted.org/packages/de/3d/284dab2f26c0df8ebc1ebf789316bfabb62b6be330fb3d9f01c0ed4cc5d6/strongdm-3.9.0.zip
+[2023-06-01 01:49:04] INFO root fetch - processPackages [strongdm]: executing diffoscope
+[2023-06-01 01:49:04] INFO root fetch - processPackages [strongdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongdm-3.8.0.zip tmp/strongdm-3.9.0.zip --markdown 20230601/s/strongdm/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-06-01 01:49:05] INFO root fetch - processPackages [roundup]: Downloading https://files.pythonhosted.org/packages/40/7f/13458fdb04ebb7e531e3bc5d19a20ffb20ab8f5d93fd3c6afbd3e18afd5e/roundup-2.3.0b2.tar.gz
+[2023-06-01 01:49:05] INFO root fetch - main [MainThread]: End processing [downscale-image]: success
+[2023-06-01 01:49:05] INFO root fetch - main [MainThread]: End processing [postgres-lock]: success
+[2023-06-01 01:49:05] INFO root fetch - main [MainThread]: End processing [SPRT-TANDEM]: success
+[2023-06-01 01:49:06] INFO root fetch - main [MainThread]: End processing [RegScale-CLI]: success
+[2023-06-01 01:49:06] INFO root fetch - main [MainThread]: End processing [strongdm]: success
+[2023-06-01 01:49:06] INFO root fetch - processPackages [roundup]: executing diffoscope
+[2023-06-01 01:49:06] INFO root fetch - processPackages [roundup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roundup-2.2.0b1.tar.gz tmp/roundup-2.3.0b2.tar.gz --markdown 20230601/r/roundup/2.2.0b1-2.3.0b2/diff.md --exclude *.pyd
+[2023-06-01 01:49:31] INFO root fetch - main [MainThread]: End processing [roundup]: success
+[2023-06-01 01:49:36] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-01 01:51:03] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-01 01:51:03] INFO root fetch - main [MainThread]: Store serial: [18324574]
