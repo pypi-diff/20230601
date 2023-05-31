@@ -2548,3 +2548,62 @@
 [2023-06-01 01:26:16] INFO root fetch - main [MainThread]: End processing [quantecon_book_networks]: success
 [2023-06-01 01:26:17] INFO root fetch - main [MainThread]: End processing [opentype-sanitizer]: success
 [2023-06-01 01:26:17] INFO root fetch - main [MainThread]: Store serial: [18324401]
+[2023-06-01 01:31:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18324401]
+[2023-06-01 01:31:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-01 01:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqdconvert
+[2023-06-01 01:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycarot
+[2023-06-01 01:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coolpandas
+[2023-06-01 01:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mrpyconvert
+[2023-06-01 01:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diskolored
+[2023-06-01 01:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dropchain-sdk
+[2023-06-01 01:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-selve-new
+[2023-06-01 01:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqdconvert
+[2023-06-01 01:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bottomofthesea
+[2023-06-01 01:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: twofas-cli
+[2023-06-01 01:31:27] INFO root fetch - processPackages [python-selve-new]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-01 01:31:27] INFO root fetch - processPackages [sqdconvert]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-06-01 01:31:27] INFO root fetch - processPackages [mrpyconvert]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-01 01:31:27] WARNING root fetch - processPackages [bottomofthesea]: Skipping, unable to determine old version
+[2023-06-01 01:31:27] INFO root fetch - processPackages [coolpandas]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-01 01:31:27] INFO root fetch - processPackages [pycarot]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-01 01:31:27] INFO root fetch - processPackages [dropchain-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-01 01:31:27] WARNING root fetch - processPackages [diskolored]: Skipping, unable to determine old version
+[2023-06-01 01:31:27] INFO root fetch - main [MainThread]: End processing [bottomofthesea] error
+[2023-06-01 01:31:27] INFO root fetch - processPackages [sqdconvert]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-06-01 01:31:27] INFO root fetch - main [MainThread]: End processing [diskolored] error
+[2023-06-01 01:31:27] INFO root fetch - processPackages [twofas-cli]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 01:31:27] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-06-01 01:31:27] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.0.8.tar.gz tmp/python-selve-new-2.0.9.tar.gz --markdown 20230601/p/python-selve-new/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-01 01:31:27] INFO root fetch - processPackages [pycarot]: Downloading https://files.pythonhosted.org/packages/11/63/6469612c0669f3fe9445424284b992e6313ac0c8147f4a9765fba35051fa/pycarot-0.0.3.tar.gz
+[2023-06-01 01:31:27] INFO root fetch - processPackages [dropchain-sdk]: Downloading https://files.pythonhosted.org/packages/45/c4/701ccc3557aab11439002ded6c3ca30a5e9893618c9917c13da2e97ee4ba/dropchain-sdk-0.1.1.tar.gz
+[2023-06-01 01:31:27] INFO root fetch - processPackages [mrpyconvert]: Downloading https://files.pythonhosted.org/packages/cf/4b/8e25a83a6ec9e078b559a27d36e1f8e5f4abe07f8fea149fb0d3d96578f5/mrpyconvert-0.1.6.tar.gz
+[2023-06-01 01:31:27] INFO root fetch - processPackages [twofas-cli]: Downloading https://files.pythonhosted.org/packages/03/b3/7e4e2a4a309fa5487642e35c09606b861cf6c156c8d15d49e566a78cc88b/twofas-cli-0.0.1.tar.gz
+[2023-06-01 01:31:27] INFO root fetch - processPackages [mrpyconvert]: executing diffoscope
+[2023-06-01 01:31:27] INFO root fetch - processPackages [mrpyconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrpyconvert-0.1.5.tar.gz tmp/mrpyconvert-0.1.6.tar.gz --markdown 20230601/m/mrpyconvert/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-01 01:31:27] INFO root fetch - processPackages [sqdconvert]: Downloading https://files.pythonhosted.org/packages/85/73/9f584d6554e364d96d410e27658aafce4f8e7dc9d957bfe870cba1a8168a/sqdconvert-1.1.0.tar.gz
+[2023-06-01 01:31:27] INFO root fetch - processPackages [sqdconvert]: Downloading https://files.pythonhosted.org/packages/85/73/9f584d6554e364d96d410e27658aafce4f8e7dc9d957bfe870cba1a8168a/sqdconvert-1.1.0.tar.gz
+[2023-06-01 01:31:27] INFO root fetch - processPackages [coolpandas]: Downloading https://files.pythonhosted.org/packages/c8/c3/b87cd29cb928b46b6172d5bea1f5d4f6fe17eb60fc43554d6cba5508b2fd/coolpandas-0.4.0.tar.gz
+[2023-06-01 01:31:27] INFO root fetch - processPackages [sqdconvert]: executing diffoscope
+[2023-06-01 01:31:27] INFO root fetch - processPackages [sqdconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqdconvert-1.0.2.tar.gz tmp/sqdconvert-1.1.0.tar.gz --markdown 20230601/s/sqdconvert/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-06-01 01:31:27] INFO root fetch - processPackages [sqdconvert]: executing diffoscope
+[2023-06-01 01:31:27] INFO root fetch - processPackages [sqdconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqdconvert-1.0.2.tar.gz tmp/sqdconvert-1.1.0.tar.gz --markdown 20230601/s/sqdconvert/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-06-01 01:31:27] INFO root fetch - processPackages [coolpandas]: executing diffoscope
+[2023-06-01 01:31:27] INFO root fetch - processPackages [coolpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolpandas-0.3.2.tar.gz tmp/coolpandas-0.4.0.tar.gz --markdown 20230601/c/coolpandas/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-01 01:31:27] INFO root fetch - processPackages [pycarot]: Downloading https://files.pythonhosted.org/packages/fc/51/ee2b4845cf1d1467c876058890cbc114545b66ffd7fd0489be1602f10f4e/pycarot-0.0.4.tar.gz
+[2023-06-01 01:31:27] INFO root fetch - processPackages [twofas-cli]: Downloading https://files.pythonhosted.org/packages/30/d4/6d649fbc2d33a9dd3dc2a016e658ccd6e76ff8624fec2132724e7fbeeebf/twofas-cli-0.0.2.tar.gz
+[2023-06-01 01:31:27] INFO root fetch - processPackages [dropchain-sdk]: Downloading https://files.pythonhosted.org/packages/6c/e4/e3c40c373c44c89bac17c2b2ba1899e264b4c013d98e72db65a7d0767e94/dropchain-sdk-0.1.2.tar.gz
+[2023-06-01 01:31:27] INFO root fetch - processPackages [pycarot]: executing diffoscope
+[2023-06-01 01:31:27] INFO root fetch - processPackages [pycarot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycarot-0.0.3.tar.gz tmp/pycarot-0.0.4.tar.gz --markdown 20230601/p/pycarot/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-01 01:31:27] INFO root fetch - processPackages [twofas-cli]: executing diffoscope
+[2023-06-01 01:31:27] INFO root fetch - processPackages [twofas-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twofas-cli-0.0.1.tar.gz tmp/twofas-cli-0.0.2.tar.gz --markdown 20230601/t/twofas-cli/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 01:31:27] INFO root fetch - processPackages [dropchain-sdk]: executing diffoscope
+[2023-06-01 01:31:27] INFO root fetch - processPackages [dropchain-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dropchain-sdk-0.1.1.tar.gz tmp/dropchain-sdk-0.1.2.tar.gz --markdown 20230601/d/dropchain-sdk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-01 01:31:28] INFO root fetch - main [MainThread]: End processing [mrpyconvert]: success
+[2023-06-01 01:31:28] INFO root fetch - main [MainThread]: End processing [sqdconvert]: success
+[2023-06-01 01:31:28] INFO root fetch - main [MainThread]: End processing [sqdconvert]: success
+[2023-06-01 01:31:29] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-06-01 01:31:29] INFO root fetch - main [MainThread]: End processing [twofas-cli]: success
+[2023-06-01 01:31:29] INFO root fetch - main [MainThread]: End processing [coolpandas]: success
+[2023-06-01 01:31:29] INFO root fetch - main [MainThread]: End processing [dropchain-sdk]: success
+[2023-06-01 01:32:21] INFO root fetch - main [MainThread]: End processing [pycarot]: success
+[2023-06-01 01:32:21] INFO root fetch - main [MainThread]: Store serial: [18324434]
