@@ -67,3 +67,85 @@
 [2023-06-01 00:04:13] INFO root fetch - main [MainThread]: End processing [nanobind]: success
 [2023-06-01 00:04:13] INFO root fetch - main [MainThread]: End processing [sqlite-hello]: success
 [2023-06-01 00:04:13] INFO root fetch - main [MainThread]: Store serial: [18322983]
+[2023-06-01 00:09:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18322983]
+[2023-06-01 00:09:21] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-01 00:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-plugin-manager
+[2023-06-01 00:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kalpy-kaldi
+[2023-06-01 00:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyter-Pandas-GUI
+[2023-06-01 00:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: purdy
+[2023-06-01 00:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spotfire
+[2023-06-01 00:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arize-phoenix
+[2023-06-01 00:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Topyfic
+[2023-06-01 00:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MS-visualizer-lite
+[2023-06-01 00:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vsmuxtools
+[2023-06-01 00:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ezqc
+[2023-06-01 00:09:22] WARNING root fetch - processPackages [vsmuxtools]: Skipping, unable to determine old version
+[2023-06-01 00:09:22] INFO root fetch - processPackages [vsmuxtools]: Start processing: muxtools
+[2023-06-01 00:09:22] INFO root fetch - main [MainThread]: End processing [vsmuxtools] error
+[2023-06-01 00:09:22] INFO root fetch - processPackages [spotfire]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-01 00:09:22] INFO root fetch - processPackages [arize-phoenix]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 00:09:22] INFO root fetch - processPackages [MS-visualizer-lite]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 00:09:22] INFO root fetch - processPackages [purdy]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-01 00:09:22] INFO root fetch - processPackages [kalpy-kaldi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 00:09:22] WARNING root fetch - processPackages [muxtools]: Skipping, unable to determine old version
+[2023-06-01 00:09:22] INFO root fetch - processPackages [muxtools]: Start processing: gitautobackup
+[2023-06-01 00:09:22] INFO root fetch - main [MainThread]: End processing [muxtools] error
+[2023-06-01 00:09:22] INFO root fetch - processPackages [ovos-plugin-manager]: New version: [0.0.9] Old Version: [0.0.8a3]
+[2023-06-01 00:09:22] WARNING root fetch - processPackages [ezqc]: Skipping, unable to determine old version
+[2023-06-01 00:09:22] INFO root fetch - processPackages [ezqc]: Start processing: demcompare
+[2023-06-01 00:09:22] INFO root fetch - processPackages [jupyter-Pandas-GUI]: New version: [0.8.0.dev4] Old Version: [0.8.0.dev3]
+[2023-06-01 00:09:22] INFO root fetch - main [MainThread]: End processing [ezqc] error
+[2023-06-01 00:09:22] INFO root fetch - processPackages [Topyfic]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-01 00:09:22] INFO root fetch - processPackages [demcompare]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-01 00:09:22] INFO root fetch - processPackages [ovos-plugin-manager]: executing diffoscope
+[2023-06-01 00:09:22] INFO root fetch - processPackages [ovos-plugin-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_plugin_manager-0.0.8a3-py3-none-any.whl.zip tmp/ovos_plugin_manager-0.0.9-py3-none-any.whl.zip --markdown 20230601/o/ovos-plugin-manager/0.0.8a3-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 00:09:22] WARNING root fetch - processPackages [gitautobackup]: Skipping, unable to determine old version
+[2023-06-01 00:09:22] INFO root fetch - processPackages [gitautobackup]: Start processing: ossr-utils
+[2023-06-01 00:09:22] INFO root fetch - main [MainThread]: End processing [gitautobackup] error
+[2023-06-01 00:09:22] INFO root fetch - processPackages [MS-visualizer-lite]: Downloading https://files.pythonhosted.org/packages/a1/22/d082ac0e1d6c06df88e9fdf3d2b079466d313510db356c261b49fad034f6/MS_visualizer_lite-0.0.1.tar.gz
+[2023-06-01 00:09:22] INFO root fetch - processPackages [ossr-utils]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-01 00:09:22] INFO root fetch - processPackages [spotfire]: Downloading https://files.pythonhosted.org/packages/1c/81/142c0e82219108e9df517a7747a35cb975e85e50ddadb0dd0cc2bb862763/spotfire-2.0.0.tar.gz
+[2023-06-01 00:09:22] INFO root fetch - processPackages [purdy]: Downloading https://files.pythonhosted.org/packages/ef/0f/e7b04b0676e236dd07493e32004bd58cdf4896759c1d2f0c4f109e6be23e/purdy-1.9.0.tar.gz
+[2023-06-01 00:09:22] INFO root fetch - processPackages [kalpy-kaldi]: Downloading https://files.pythonhosted.org/packages/9d/45/ac4d0d2ec91f3a785d884afab9a9c60d141f870abffc845647bbb40791b0/kalpy-kaldi-0.0.1.tar.gz
+[2023-06-01 00:09:22] INFO root fetch - processPackages [demcompare]: Downloading https://files.pythonhosted.org/packages/e6/40/6ac4a75eafdb0b9ff2104bf82de4764c5a83c850cb2b06e367b546766c9f/demcompare-0.5.1.tar.gz
+[2023-06-01 00:09:22] INFO root fetch - processPackages [jupyter-Pandas-GUI]: Downloading https://files.pythonhosted.org/packages/0c/35/9a018764a3ac1e9a63074f8f7d5f82209475106eb7d7530ec5e0734cc6f6/jupyter_Pandas_GUI-0.8.0.dev3.tar.gz
+[2023-06-01 00:09:22] INFO root fetch - processPackages [arize-phoenix]: executing diffoscope
+[2023-06-01 00:09:22] INFO root fetch - processPackages [arize-phoenix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix-0.0.8.tar.gz tmp/arize_phoenix-0.0.9.tar.gz --markdown 20230601/a/arize-phoenix/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 00:09:22] WARNING root fetch - processPackages [demcompare]: Skipping package: exceeds size limit 67151138>=10485760
+[2023-06-01 00:09:22] INFO root fetch - processPackages [demcompare]: Start processing: oceano-algos
+[2023-06-01 00:09:22] INFO root fetch - main [MainThread]: End processing [demcompare] error
+[2023-06-01 00:09:22] INFO root fetch - processPackages [ossr-utils]: Downloading https://files.pythonhosted.org/packages/0f/35/8ed2fc9b79dc13029482fc31ea13c42ee4f0956b4f9e005c588c31b4128e/ossr_utils-0.1.6.tar.gz
+[2023-06-01 00:09:22] INFO root fetch - processPackages [MS-visualizer-lite]: Downloading https://files.pythonhosted.org/packages/d6/56/aaccf697ecadbb592b324e5a84f0a7af32a414a791e21a4c4bb0fdf3d931/MS_visualizer_lite-0.0.2.tar.gz
+[2023-06-01 00:09:22] INFO root fetch - processPackages [Topyfic]: Downloading https://files.pythonhosted.org/packages/3b/ae/862ed0ef5af568a7a2010af728cdaa63dc81773b376d1b2f3fa003eaaa9d/Topyfic-0.3.0.tar.gz
+[2023-06-01 00:09:22] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 00:09:22] INFO root fetch - processPackages [MS-visualizer-lite]: executing diffoscope
+[2023-06-01 00:09:22] INFO root fetch - processPackages [MS-visualizer-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MS_visualizer_lite-0.0.1.tar.gz tmp/MS_visualizer_lite-0.0.2.tar.gz --markdown 20230601/M/MS-visualizer-lite/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 00:09:22] INFO root fetch - processPackages [Topyfic]: executing diffoscope
+[2023-06-01 00:09:22] INFO root fetch - processPackages [Topyfic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Topyfic-0.2.2.tar.gz tmp/Topyfic-0.3.0.tar.gz --markdown 20230601/T/Topyfic/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-01 00:09:22] INFO root fetch - processPackages [kalpy-kaldi]: Downloading https://files.pythonhosted.org/packages/36/dc/8e4f82b2ede86dac2b2e1cd372db5e7c5f4afab9526c2419017f24b0c624/kalpy-kaldi-0.0.2.tar.gz
+[2023-06-01 00:09:22] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-06-01 00:09:22] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230601/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 00:09:22] INFO root fetch - processPackages [spotfire]: Downloading https://files.pythonhosted.org/packages/f1/5f/7571113fcba37b80f2e765061fc47da35f195643ff2db57c60d69a6e3527/spotfire-2.0.1.tar.gz
+[2023-06-01 00:09:22] INFO root fetch - processPackages [ossr-utils]: executing diffoscope
+[2023-06-01 00:09:22] INFO root fetch - processPackages [ossr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ossr_utils-0.1.5.tar.gz tmp/ossr_utils-0.1.6.tar.gz --markdown 20230601/o/ossr-utils/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-01 00:09:22] INFO root fetch - processPackages [kalpy-kaldi]: executing diffoscope
+[2023-06-01 00:09:22] INFO root fetch - processPackages [kalpy-kaldi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalpy-kaldi-0.0.1.tar.gz tmp/kalpy-kaldi-0.0.2.tar.gz --markdown 20230601/k/kalpy-kaldi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 00:09:22] INFO root fetch - processPackages [jupyter-Pandas-GUI]: Downloading https://files.pythonhosted.org/packages/4d/3d/9964b38165a8984adcea6610a38cf6551fe376fd14f06159527293f9af38/jupyter_Pandas_GUI-0.8.0.dev4.tar.gz
+[2023-06-01 00:09:22] INFO root fetch - processPackages [spotfire]: executing diffoscope
+[2023-06-01 00:09:22] INFO root fetch - processPackages [spotfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotfire-2.0.0.tar.gz tmp/spotfire-2.0.1.tar.gz --markdown 20230601/s/spotfire/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-01 00:09:22] INFO root fetch - processPackages [jupyter-Pandas-GUI]: executing diffoscope
+[2023-06-01 00:09:22] INFO root fetch - processPackages [jupyter-Pandas-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_Pandas_GUI-0.8.0.dev3.tar.gz tmp/jupyter_Pandas_GUI-0.8.0.dev4.tar.gz --markdown 20230601/j/jupyter-Pandas-GUI/0.8.0.dev3-0.8.0.dev4/diff.md --exclude *.pyd
+[2023-06-01 00:09:22] INFO root fetch - processPackages [purdy]: Downloading https://files.pythonhosted.org/packages/ce/80/6386267e56056121e05c05787cb83714c063622f3ab949af0e61262889f6/purdy-1.9.1.tar.gz
+[2023-06-01 00:09:23] INFO root fetch - processPackages [purdy]: executing diffoscope
+[2023-06-01 00:09:23] INFO root fetch - processPackages [purdy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/purdy-1.9.0.tar.gz tmp/purdy-1.9.1.tar.gz --markdown 20230601/p/purdy/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-01 00:09:23] INFO root fetch - main [MainThread]: End processing [ovos-plugin-manager]: success
+[2023-06-01 00:09:24] INFO root fetch - main [MainThread]: End processing [ossr-utils]: success
+[2023-06-01 00:09:24] INFO root fetch - main [MainThread]: End processing [Topyfic]: success
+[2023-06-01 00:09:24] INFO root fetch - main [MainThread]: End processing [MS-visualizer-lite]: success
+[2023-06-01 00:09:24] INFO root fetch - main [MainThread]: End processing [jupyter-Pandas-GUI]: success
+[2023-06-01 00:09:24] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-06-01 00:09:24] INFO root fetch - main [MainThread]: End processing [purdy]: success
+[2023-06-01 00:09:25] INFO root fetch - main [MainThread]: End processing [spotfire]: success
+[2023-06-01 00:09:26] INFO root fetch - main [MainThread]: End processing [kalpy-kaldi]: success
+[2023-06-01 00:09:42] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
+[2023-06-01 00:09:42] INFO root fetch - main [MainThread]: Store serial: [18323039]
