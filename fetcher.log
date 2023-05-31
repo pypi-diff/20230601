@@ -575,3 +575,89 @@
 [2023-06-01 00:47:07] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
 [2023-06-01 00:47:07] INFO root fetch - main [MainThread]: End processing [datawrapper]: success
 [2023-06-01 00:47:07] INFO root fetch - main [MainThread]: Store serial: [18323309]
+[2023-06-01 00:52:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18323309]
+[2023-06-01 00:52:17] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-01 00:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nimblephysics
+[2023-06-01 00:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: referencing
+[2023-06-01 00:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kalpy-kaldi
+[2023-06-01 00:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: THzTools
+[2023-06-01 00:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: granular-engine
+[2023-06-01 00:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quantconnect-stubs
+[2023-06-01 00:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: VidBarcodeSimilarities
+[2023-06-01 00:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: realnet
+[2023-06-01 00:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dapr-dev
+[2023-06-01 00:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: brainwalk
+[2023-06-01 00:52:17] INFO root fetch - processPackages [THzTools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 00:52:17] INFO root fetch - processPackages [nimblephysics]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 00:52:17] INFO root fetch - processPackages [granular-engine]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-01 00:52:17] INFO root fetch - processPackages [kalpy-kaldi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-01 00:52:17] INFO root fetch - processPackages [referencing]: New version: [0.9.2] Old Version: [0.8.9]
+[2023-06-01 00:52:17] INFO root fetch - processPackages [dapr-dev]: New version: [1.9.0rc1.dev1601] Old Version: [1.9.0rc1.dev1580]
+[2023-06-01 00:52:17] INFO root fetch - processPackages [brainwalk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 00:52:17] INFO root fetch - processPackages [realnet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 00:52:17] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-06-01 00:52:17] WARNING root fetch - processPackages [VidBarcodeSimilarities]: Skipping, unable to determine old version
+[2023-06-01 00:52:17] INFO root fetch - processPackages [VidBarcodeSimilarities]: Start processing: aws-cdk.alexa-ask
+[2023-06-01 00:52:17] INFO root fetch - main [MainThread]: End processing [VidBarcodeSimilarities] error
+[2023-06-01 00:52:17] INFO root fetch - processPackages [brainwalk]: executing diffoscope
+[2023-06-01 00:52:17] INFO root fetch - processPackages [brainwalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainwalk-0.0.1.tar.gz tmp/brainwalk-0.0.2.tar.gz --markdown 20230601/b/brainwalk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 00:52:17] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-06-01 00:52:17] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230601/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-06-01 00:52:17] INFO root fetch - processPackages [nimblephysics]: Downloading https://files.pythonhosted.org/packages/c8/d0/47b1635d4f4419ac454faed8c7658bcbb958930ff47c435fc81fb7a300eb/nimblephysics-0.9.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-01 00:52:17] INFO root fetch - processPackages [THzTools]: Downloading https://files.pythonhosted.org/packages/89/97/2ad0863ee53aaee0826cb8cbc444193b24e270f1f10401d30f82326e3c4c/thztools-0.0.1.tar.gz
+[2023-06-01 00:52:17] INFO root fetch - processPackages [kalpy-kaldi]: Downloading https://files.pythonhosted.org/packages/13/c5/953dfe24413a06f56389f9654414aa1752224ebb27ce5a482e0539544150/kalpy-kaldi-0.0.3.tar.gz
+[2023-06-01 00:52:17] INFO root fetch - processPackages [dapr-dev]: executing diffoscope
+[2023-06-01 00:52:17] INFO root fetch - processPackages [dapr-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-dev-1.9.0rc1.dev1580.tar.gz tmp/dapr-dev-1.9.0rc1.dev1601.tar.gz --markdown 20230601/d/dapr-dev/1.9.0rc1.dev1580-1.9.0rc1.dev1601/diff.md --exclude *.pyd
+[2023-06-01 00:52:17] INFO root fetch - processPackages [referencing]: executing diffoscope
+[2023-06-01 00:52:17] INFO root fetch - processPackages [referencing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/referencing-0.8.9.tar.gz tmp/referencing-0.9.2.tar.gz --markdown 20230601/r/referencing/0.8.9-0.9.2/diff.md --exclude *.pyd
+[2023-06-01 00:52:17] INFO root fetch - processPackages [realnet]: executing diffoscope
+[2023-06-01 00:52:17] INFO root fetch - processPackages [realnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/realnet-0.0.98.tar.gz tmp/realnet-0.0.99.tar.gz --markdown 20230601/r/realnet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 00:52:17] INFO root fetch - processPackages [kalpy-kaldi]: executing diffoscope
+[2023-06-01 00:52:17] INFO root fetch - processPackages [kalpy-kaldi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalpy-kaldi-0.0.2.tar.gz tmp/kalpy-kaldi-0.0.3.tar.gz --markdown 20230601/k/kalpy-kaldi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-01 00:52:17] WARNING root fetch - processPackages [nimblephysics]: Skipping package: exceeds size limit 67807684>=10485760
+[2023-06-01 00:52:17] INFO root fetch - processPackages [nimblephysics]: Start processing: dapr-ext-workflow-dev
+[2023-06-01 00:52:17] INFO root fetch - main [MainThread]: End processing [nimblephysics] error
+[2023-06-01 00:52:17] INFO root fetch - processPackages [dapr-ext-workflow-dev]: New version: [0.0.1rc1.dev1601] Old Version: [0.0.1rc1.dev1580]
+[2023-06-01 00:52:18] INFO root fetch - processPackages [granular-engine]: executing diffoscope
+[2023-06-01 00:52:18] INFO root fetch - processPackages [granular-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granular_engine-0.2.8.tar.gz tmp/granular_engine-0.2.9.tar.gz --markdown 20230601/g/granular-engine/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-01 00:52:18] INFO root fetch - processPackages [aws-cdk.alexa-ask]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-01 00:52:18] INFO root fetch - processPackages [THzTools]: Downloading https://files.pythonhosted.org/packages/49/c6/8f9c556ce9c83dd80f98bb8454c2de89c8a8ded241d1fdff83f46ca57148/thztools-0.0.2.tar.gz
+[2023-06-01 00:52:18] INFO root fetch - processPackages [dapr-ext-workflow-dev]: executing diffoscope
+[2023-06-01 00:52:18] INFO root fetch - processPackages [dapr-ext-workflow-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1580.tar.gz tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1601.tar.gz --markdown 20230601/d/dapr-ext-workflow-dev/0.0.1rc1.dev1580-0.0.1rc1.dev1601/diff.md --exclude *.pyd
+[2023-06-01 00:52:18] INFO root fetch - processPackages [THzTools]: executing diffoscope
+[2023-06-01 00:52:18] INFO root fetch - processPackages [THzTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thztools-0.0.1.tar.gz tmp/thztools-0.0.2.tar.gz --markdown 20230601/T/THzTools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 00:52:18] INFO root fetch - processPackages [aws-cdk.alexa-ask]: executing diffoscope
+[2023-06-01 00:52:18] INFO root fetch - processPackages [aws-cdk.alexa-ask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.alexa-ask-1.98.0.tar.gz tmp/aws-cdk.alexa-ask-1.99.0.tar.gz --markdown 20230601/a/aws-cdk.alexa-ask/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-01 00:52:19] INFO root fetch - processPackages [brainwalk]: Start processing: aws-cdk.app-delivery
+[2023-06-01 00:52:19] INFO root fetch - main [MainThread]: End processing [brainwalk]: success
+[2023-06-01 00:52:19] INFO root fetch - processPackages [aws-cdk.app-delivery]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-01 00:52:19] INFO root fetch - processPackages [referencing]: Start processing: aws-cdk.assertions
+[2023-06-01 00:52:19] INFO root fetch - main [MainThread]: End processing [referencing]: success
+[2023-06-01 00:52:19] INFO root fetch - processPackages [dapr-dev]: Start processing: flask-dapr-dev
+[2023-06-01 00:52:19] INFO root fetch - main [MainThread]: End processing [dapr-dev]: success
+[2023-06-01 00:52:19] INFO root fetch - processPackages [flask-dapr-dev]: New version: [1.9.0rc1.dev1601] Old Version: [1.9.0rc1.dev1580]
+[2023-06-01 00:52:19] INFO root fetch - processPackages [aws-cdk.assertions]: New version: [1.203.0] Old Version: [1.202.0]
+[2023-06-01 00:52:19] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Start processing: aws-cdk.assets
+[2023-06-01 00:52:19] INFO root fetch - main [MainThread]: End processing [dapr-ext-workflow-dev]: success
+[2023-06-01 00:52:19] INFO root fetch - processPackages [flask-dapr-dev]: executing diffoscope
+[2023-06-01 00:52:19] INFO root fetch - processPackages [flask-dapr-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-dapr-dev-1.9.0rc1.dev1580.tar.gz tmp/flask-dapr-dev-1.9.0rc1.dev1601.tar.gz --markdown 20230601/f/flask-dapr-dev/1.9.0rc1.dev1580-1.9.0rc1.dev1601/diff.md --exclude *.pyd
+[2023-06-01 00:52:19] INFO root fetch - processPackages [aws-cdk.app-delivery]: executing diffoscope
+[2023-06-01 00:52:19] INFO root fetch - processPackages [aws-cdk.app-delivery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.app-delivery-1.98.0.tar.gz tmp/aws-cdk.app-delivery-1.99.0.tar.gz --markdown 20230601/a/aws-cdk.app-delivery/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-01 00:52:19] INFO root fetch - processPackages [aws-cdk.assertions]: Downloading https://files.pythonhosted.org/packages/c4/79/7f1b1ec1e0f79046c3ab0711d8b2ae91ed4ac84e5b8471522898058996cf/aws-cdk.assertions-1.202.0.tar.gz
+[2023-06-01 00:52:19] INFO root fetch - main [MainThread]: End processing [aws-cdk.alexa-ask]: success
+[2023-06-01 00:52:19] INFO root fetch - processPackages [aws-cdk.assets]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-01 00:52:20] INFO root fetch - main [MainThread]: End processing [granular-engine]: success
+[2023-06-01 00:52:20] INFO root fetch - processPackages [aws-cdk.assertions]: Downloading https://files.pythonhosted.org/packages/ac/0c/5aca86e4866a980fc86faa2617b4bd3e316880bb4992f258273bc2ffb988/aws_cdk.assertions-1.203.0-py3-none-any.whl
+[2023-06-01 00:52:20] INFO root fetch - processPackages [aws-cdk.assets]: executing diffoscope
+[2023-06-01 00:52:20] INFO root fetch - processPackages [aws-cdk.assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.assets-1.98.0.tar.gz tmp/aws-cdk.assets-1.99.0.tar.gz --markdown 20230601/a/aws-cdk.assets/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-01 00:52:20] INFO root fetch - processPackages [aws-cdk.assertions]: executing diffoscope
+[2023-06-01 00:52:20] INFO root fetch - processPackages [aws-cdk.assertions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.assertions-1.202.0.tar.gz tmp/aws_cdk.assertions-1.203.0-py3-none-any.whl.zip --markdown 20230601/a/aws-cdk.assertions/1.202.0-1.203.0/diff.md --exclude *.pyd
+[2023-06-01 00:52:20] INFO root fetch - main [MainThread]: End processing [flask-dapr-dev]: success
+[2023-06-01 00:52:21] INFO root fetch - main [MainThread]: End processing [aws-cdk.app-delivery]: success
+[2023-06-01 00:52:21] INFO root fetch - main [MainThread]: End processing [realnet]: success
+[2023-06-01 00:52:21] INFO root fetch - main [MainThread]: End processing [aws-cdk.assertions]: success
+[2023-06-01 00:52:21] INFO root fetch - main [MainThread]: End processing [aws-cdk.assets]: success
+[2023-06-01 00:52:22] INFO root fetch - main [MainThread]: End processing [kalpy-kaldi]: success
+[2023-06-01 00:52:25] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-06-01 00:52:27] INFO root fetch - main [MainThread]: End processing [THzTools]: success
+[2023-06-01 00:52:27] INFO root fetch - main [MainThread]: Store serial: [18323357]
