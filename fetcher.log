@@ -467,3 +467,52 @@
 [2023-06-01 00:36:43] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
 [2023-06-01 00:36:44] INFO root fetch - main [MainThread]: End processing [realnet]: success
 [2023-06-01 00:36:44] INFO root fetch - main [MainThread]: Store serial: [18323236]
+[2023-06-01 00:41:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18323236]
+[2023-06-01 00:41:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-01 00:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: catencfamily
+[2023-06-01 00:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gwemopt
+[2023-06-01 00:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: landingai
+[2023-06-01 00:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqdconvert
+[2023-06-01 00:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wirewalk
+[2023-06-01 00:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-selve-new
+[2023-06-01 00:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: halborn-ctf
+[2023-06-01 00:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: core-universal
+[2023-06-01 00:41:53] INFO root fetch - processPackages [catencfamily]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-01 00:41:53] INFO root fetch - processPackages [sqdconvert]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-01 00:41:53] INFO root fetch - processPackages [python-selve-new]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-01 00:41:53] INFO root fetch - processPackages [wirewalk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 00:41:53] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-01 00:41:53] INFO root fetch - processPackages [gwemopt]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-06-01 00:41:53] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-06-01 00:41:53] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.0.8.tar.gz tmp/python-selve-new-2.0.9.tar.gz --markdown 20230601/p/python-selve-new/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-01 00:41:53] INFO root fetch - processPackages [halborn-ctf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 00:41:53] INFO root fetch - processPackages [core-universal]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-06-01 00:41:53] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-06-01 00:41:53] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230601/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-01 00:41:53] INFO root fetch - processPackages [sqdconvert]: Downloading https://files.pythonhosted.org/packages/5a/70/fbdd9332e1e91ec0e4f0b86f321121b7824598d5f4b9ac01163aef3275a5/sqdconvert-1.0.2.tar.gz
+[2023-06-01 00:41:53] INFO root fetch - processPackages [wirewalk]: Downloading https://files.pythonhosted.org/packages/0a/47/d4bceba0e75bccb725ebe8d98999beb992925e0f80b4baebd2445a0efd9f/wirewalk-0.0.1.tar.gz
+[2023-06-01 00:41:53] INFO root fetch - processPackages [gwemopt]: Downloading https://files.pythonhosted.org/packages/4d/5a/3c323908041f37eafe5b367568260b10bff950d8ca726d1f504e83caeab6/gwemopt-0.1.1.tar.gz
+[2023-06-01 00:41:53] INFO root fetch - processPackages [sqdconvert]: executing diffoscope
+[2023-06-01 00:41:53] INFO root fetch - processPackages [sqdconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqdconvert-1.0.1.tar.gz tmp/sqdconvert-1.0.2.tar.gz --markdown 20230601/s/sqdconvert/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-01 00:41:53] WARNING root fetch - processPackages [gwemopt]: Skipping package: exceeds size limit 128379785>=10485760
+[2023-06-01 00:41:53] INFO root fetch - main [MainThread]: End processing [gwemopt] error
+[2023-06-01 00:41:53] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/db/b4/56d78e761e599b4f58ee351724a29cf7b8b0a2c1a6c9cf1eec61b0ada20f/halborn_ctf-0.1.8.tar.gz
+[2023-06-01 00:41:53] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/2f/01/b2af73727eff5d4eab837f70adf1e405aea99963d05043e3f027d94f43c6/catencfamily-0.0.4.tar.gz
+[2023-06-01 00:41:53] INFO root fetch - processPackages [core-universal]: Downloading https://files.pythonhosted.org/packages/4a/ff/8b4422f1bcdeee9d7dcc0a2a8a349c36d39d747fd43c7e6a9b7006f3196b/core_universal-3.2.0-py2.py3-none-win_amd64.whl
+[2023-06-01 00:41:53] WARNING root fetch - processPackages [core-universal]: Skipping package: exceeds size limit 24639941>=10485760
+[2023-06-01 00:41:53] INFO root fetch - main [MainThread]: End processing [core-universal] error
+[2023-06-01 00:41:53] INFO root fetch - processPackages [catencfamily]: executing diffoscope
+[2023-06-01 00:41:53] INFO root fetch - processPackages [catencfamily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catencfamily-0.0.3.tar.gz tmp/catencfamily-0.0.4.tar.gz --markdown 20230601/c/catencfamily/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-01 00:41:53] INFO root fetch - processPackages [wirewalk]: Downloading https://files.pythonhosted.org/packages/db/89/6d6f4f5856b55b46dc20b6bf9817403faa43c02143aa3c5ac9100b58d4e4/wirewalk-0.0.2.tar.gz
+[2023-06-01 00:41:54] INFO root fetch - processPackages [wirewalk]: executing diffoscope
+[2023-06-01 00:41:54] INFO root fetch - processPackages [wirewalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wirewalk-0.0.1.tar.gz tmp/wirewalk-0.0.2.tar.gz --markdown 20230601/w/wirewalk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 00:41:54] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/d4/15/0d96471ae6da3b2d8b3c05b689aa60f3d6113cb9a8948a402bcbc0c8506b/halborn_ctf-0.1.9.tar.gz
+[2023-06-01 00:41:54] INFO root fetch - processPackages [halborn-ctf]: executing diffoscope
+[2023-06-01 00:41:54] INFO root fetch - processPackages [halborn-ctf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halborn_ctf-0.1.8.tar.gz tmp/halborn_ctf-0.1.9.tar.gz --markdown 20230601/h/halborn-ctf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 00:41:54] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-06-01 00:41:54] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-06-01 00:41:55] INFO root fetch - main [MainThread]: End processing [sqdconvert]: success
+[2023-06-01 00:41:55] INFO root fetch - main [MainThread]: End processing [wirewalk]: success
+[2023-06-01 00:41:55] INFO root fetch - main [MainThread]: End processing [halborn-ctf]: success
+[2023-06-01 00:41:55] INFO root fetch - main [MainThread]: End processing [catencfamily]: success
+[2023-06-01 00:41:55] INFO root fetch - main [MainThread]: Store serial: [18323266]
