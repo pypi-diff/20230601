@@ -417,3 +417,53 @@
 [2023-06-01 00:31:29] INFO root fetch - main [MainThread]: End processing [neon-skill-update]: success
 [2023-06-01 00:31:32] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
 [2023-06-01 00:31:32] INFO root fetch - main [MainThread]: Store serial: [18323185]
+[2023-06-01 00:36:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18323185]
+[2023-06-01 00:36:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-01 00:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wirewalk
+[2023-06-01 00:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reddit-sentiment
+[2023-06-01 00:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reddit-analyze
+[2023-06-01 00:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reddit-sentiment
+[2023-06-01 00:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discolored
+[2023-06-01 00:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ntrfc
+[2023-06-01 00:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdlpy
+[2023-06-01 00:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: realnet
+[2023-06-01 00:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ngscrape
+[2023-06-01 00:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: reasoner-validator
+[2023-06-01 00:36:41] WARNING root fetch - processPackages [reddit-sentiment]: Skipping, unable to determine old version
+[2023-06-01 00:36:41] INFO root fetch - processPackages [reddit-sentiment]: Start processing: vision6D
+[2023-06-01 00:36:41] INFO root fetch - main [MainThread]: End processing [reddit-sentiment] error
+[2023-06-01 00:36:41] WARNING root fetch - processPackages [discolored]: Skipping, unable to determine old version
+[2023-06-01 00:36:41] WARNING root fetch - processPackages [wirewalk]: Skipping, unable to determine old version
+[2023-06-01 00:36:41] WARNING root fetch - processPackages [ntrfc]: Skipping, unable to determine old version
+[2023-06-01 00:36:41] WARNING root fetch - processPackages [reddit-analyze]: Skipping, unable to determine old version
+[2023-06-01 00:36:41] INFO root fetch - main [MainThread]: End processing [discolored] error
+[2023-06-01 00:36:41] WARNING root fetch - processPackages [reddit-sentiment]: Skipping, unable to determine old version
+[2023-06-01 00:36:41] INFO root fetch - processPackages [pdlpy]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-01 00:36:41] INFO root fetch - main [MainThread]: End processing [wirewalk] error
+[2023-06-01 00:36:41] INFO root fetch - main [MainThread]: End processing [ntrfc] error
+[2023-06-01 00:36:41] INFO root fetch - main [MainThread]: End processing [reddit-analyze] error
+[2023-06-01 00:36:41] INFO root fetch - main [MainThread]: End processing [reddit-sentiment] error
+[2023-06-01 00:36:41] INFO root fetch - processPackages [realnet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 00:36:41] INFO root fetch - processPackages [vision6D]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-01 00:36:41] INFO root fetch - processPackages [ngscrape]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-06-01 00:36:41] INFO root fetch - processPackages [reasoner-validator]: New version: [3.5.3] Old Version: [3.5.2]
+[2023-06-01 00:36:41] INFO root fetch - processPackages [vision6D]: executing diffoscope
+[2023-06-01 00:36:41] INFO root fetch - processPackages [vision6D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision6D-0.2.0.tar.gz tmp/vision6D-0.2.1.tar.gz --markdown 20230601/v/vision6D/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-01 00:36:41] INFO root fetch - processPackages [pdlpy]: Downloading https://files.pythonhosted.org/packages/83/a0/f5e5a549435d7420ab58fbbecb1ecffff674ff08e32d2534d7cce5ea1800/pdlpy-0.4.0.tar.gz
+[2023-06-01 00:36:41] INFO root fetch - processPackages [ngscrape]: Downloading https://files.pythonhosted.org/packages/4c/a5/6bd2264db49ef832353b90e4093254b860fe6daee7bb1f0b992fc22bbeb0/ngscrape-1.3.0.tar.gz
+[2023-06-01 00:36:41] INFO root fetch - processPackages [ngscrape]: executing diffoscope
+[2023-06-01 00:36:41] INFO root fetch - processPackages [ngscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngscrape-1.2.1.tar.gz tmp/ngscrape-1.3.0.tar.gz --markdown 20230601/n/ngscrape/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-06-01 00:36:41] INFO root fetch - processPackages [pdlpy]: Downloading https://files.pythonhosted.org/packages/8b/5e/1c4b2f84e062ca6b516c42ad0fa23d0b1d3c25393d06e9e68b408e1b7e43/pdlpy-0.4.1.tar.gz
+[2023-06-01 00:36:41] INFO root fetch - processPackages [pdlpy]: executing diffoscope
+[2023-06-01 00:36:41] INFO root fetch - processPackages [pdlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdlpy-0.4.0.tar.gz tmp/pdlpy-0.4.1.tar.gz --markdown 20230601/p/pdlpy/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-01 00:36:42] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/91/7a/6c404748a8f2d8f01734d0ab463caf2379bc16fd867d5442e490ec4ce0f7/reasoner_validator-3.5.3.tar.gz
+[2023-06-01 00:36:42] INFO root fetch - processPackages [realnet]: executing diffoscope
+[2023-06-01 00:36:42] INFO root fetch - processPackages [realnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/realnet-0.0.98.tar.gz tmp/realnet-0.0.99.tar.gz --markdown 20230601/r/realnet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 00:36:42] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2023-06-01 00:36:42] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-3.5.2.tar.gz tmp/reasoner_validator-3.5.3.tar.gz --markdown 20230601/r/reasoner-validator/3.5.2-3.5.3/diff.md --exclude *.pyd
+[2023-06-01 00:36:42] INFO root fetch - main [MainThread]: End processing [ngscrape]: success
+[2023-06-01 00:36:43] INFO root fetch - main [MainThread]: End processing [pdlpy]: success
+[2023-06-01 00:36:43] INFO root fetch - main [MainThread]: End processing [vision6D]: success
+[2023-06-01 00:36:43] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2023-06-01 00:36:44] INFO root fetch - main [MainThread]: End processing [realnet]: success
+[2023-06-01 00:36:44] INFO root fetch - main [MainThread]: Store serial: [18323236]
