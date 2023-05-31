@@ -221,3 +221,96 @@
 [2023-06-01 00:14:56] INFO root fetch - main [MainThread]: End processing [dynast]: success
 [2023-06-01 00:15:47] INFO root fetch - main [MainThread]: End processing [bmtool]: success
 [2023-06-01 00:15:47] INFO root fetch - main [MainThread]: Store serial: [18323076]
+[2023-06-01 00:20:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18323076]
+[2023-06-01 00:20:56] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-01 00:20:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voxelfarm
+[2023-06-01 00:20:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-selve-new
+[2023-06-01 00:20:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-speech
+[2023-06-01 00:20:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: msetoolbox
+[2023-06-01 00:20:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: browsr
+[2023-06-01 00:20:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apeye-core
+[2023-06-01 00:20:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neon-skill-update
+[2023-06-01 00:20:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oneoneoneexample
+[2023-06-01 00:20:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tooljob
+[2023-06-01 00:20:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oceano-algos
+[2023-06-01 00:20:56] INFO root fetch - processPackages [browsr]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-01 00:20:56] WARNING root fetch - processPackages [msetoolbox]: Skipping, unable to determine old version
+[2023-06-01 00:20:56] INFO root fetch - processPackages [msetoolbox]: Start processing: bigdl-dllib
+[2023-06-01 00:20:56] INFO root fetch - main [MainThread]: End processing [msetoolbox] error
+[2023-06-01 00:20:56] INFO root fetch - processPackages [apeye-core]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-01 00:20:56] INFO root fetch - processPackages [oneoneoneexample]: New version: [0.4] Old Version: [0.3]
+[2023-06-01 00:20:56] INFO root fetch - processPackages [tooljob]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-01 00:20:56] INFO root fetch - processPackages [neon-skill-update]: New version: [0.3.1a2] Old Version: [0.3.1a1]
+[2023-06-01 00:20:56] INFO root fetch - processPackages [voxelfarm]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 00:20:56] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 00:20:56] INFO root fetch - processPackages [neon-speech]: New version: [3.3.2a8] Old Version: [3.3.2a7]
+[2023-06-01 00:20:56] INFO root fetch - processPackages [python-selve-new]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-01 00:20:56] INFO root fetch - processPackages [apeye-core]: Downloading https://files.pythonhosted.org/packages/03/38/7a055e04979ac75554676c9047e79dbc173dbc1785051fa4f3d2034e367a/apeye_core-1.1.2.tar.gz
+[2023-06-01 00:20:56] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230531] Old Version: [2.4.0b20230530]
+[2023-06-01 00:20:56] INFO root fetch - processPackages [browsr]: executing diffoscope
+[2023-06-01 00:20:56] INFO root fetch - processPackages [browsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browsr-1.8.0.tar.gz tmp/browsr-1.9.0.tar.gz --markdown 20230601/b/browsr/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-01 00:20:56] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-06-01 00:20:56] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230601/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 00:20:56] INFO root fetch - processPackages [tooljob]: Downloading https://files.pythonhosted.org/packages/a7/2d/2033fe1b533016e2c487755fdc49c5ee9b20a972c6a71d71a9b73e607715/tooljob-0.1.5.tar.gz
+[2023-06-01 00:20:56] INFO root fetch - processPackages [oneoneoneexample]: Downloading https://files.pythonhosted.org/packages/f5/8b/8152d88d7d4c32766b9d1d517a2ce16dc4d1135dcd4aacd7e97ed67a44ec/oneoneoneexample-0.4.tar.gz
+[2023-06-01 00:20:56] INFO root fetch - processPackages [neon-skill-update]: Downloading https://files.pythonhosted.org/packages/b7/a9/e8cb9bf3305adbaa3958811a780dd33317320b746904a9bea5c9a97a5d83/neon_skill_update-0.3.1a1-py3-none-any.whl
+[2023-06-01 00:20:56] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/c7/d7/912ff14842fd30a5731b6aa354c11a17418ffc05022e58fd0025ee5344e8/bigdl-dllib-2.4.0b20230530.tar.gz
+[2023-06-01 00:20:56] INFO root fetch - processPackages [apeye-core]: Downloading https://files.pythonhosted.org/packages/9b/16/1b491d3280fa92af0f5520ff9bccd8da6e4427ebcee5dd1940a53a6dbcf5/apeye_core-1.1.3.tar.gz
+[2023-06-01 00:20:56] INFO root fetch - processPackages [oneoneoneexample]: executing diffoscope
+[2023-06-01 00:20:56] INFO root fetch - processPackages [oneoneoneexample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneoneoneexample-0.3.tar.gz tmp/oneoneoneexample-0.4.tar.gz --markdown 20230601/o/oneoneoneexample/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-01 00:20:56] INFO root fetch - processPackages [neon-speech]: Downloading https://files.pythonhosted.org/packages/90/cc/4beb6414b84b3c7fe054460b55c08e553a49deae642149773b45037eb4e4/neon_speech-3.3.2a8-py3-none-any.whl
+[2023-06-01 00:20:56] INFO root fetch - processPackages [voxelfarm]: executing diffoscope
+[2023-06-01 00:20:56] INFO root fetch - processPackages [voxelfarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxelfarm-0.0.98.tar.gz tmp/voxelfarm-0.0.99.tar.gz --markdown 20230601/v/voxelfarm/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 00:20:56] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53559907>=10485760
+[2023-06-01 00:20:56] INFO root fetch - processPackages [bigdl-dllib]: Start processing: spida
+[2023-06-01 00:20:56] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-06-01 00:20:56] INFO root fetch - processPackages [apeye-core]: executing diffoscope
+[2023-06-01 00:20:56] INFO root fetch - processPackages [apeye-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apeye_core-1.1.2.tar.gz tmp/apeye_core-1.1.3.tar.gz --markdown 20230601/a/apeye-core/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-01 00:20:56] INFO root fetch - processPackages [spida]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-01 00:20:56] INFO root fetch - processPackages [neon-speech]: executing diffoscope
+[2023-06-01 00:20:56] INFO root fetch - processPackages [neon-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_speech-3.3.2a7-py3-none-any.whl.zip tmp/neon_speech-3.3.2a8-py3-none-any.whl.zip --markdown 20230601/n/neon-speech/3.3.2a7-3.3.2a8/diff.md --exclude *.pyd
+[2023-06-01 00:20:56] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-06-01 00:20:56] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.0.8.tar.gz tmp/python-selve-new-2.0.9.tar.gz --markdown 20230601/p/python-selve-new/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-01 00:20:56] INFO root fetch - processPackages [tooljob]: Downloading https://files.pythonhosted.org/packages/6f/0a/716945beb5eb34b24cc219d9447e69475d0f67f1bd357ec8e4c4bc918c7f/tooljob-0.1.6.tar.gz
+[2023-06-01 00:20:56] INFO root fetch - processPackages [neon-skill-update]: Downloading https://files.pythonhosted.org/packages/d6/35/79568a771768037000aec112b57b519e38e019c5dca21c6cda902c4661b1/neon_skill_update-0.3.1a2-py3-none-any.whl
+[2023-06-01 00:20:57] INFO root fetch - processPackages [spida]: Downloading https://files.pythonhosted.org/packages/37/14/ebcd7a1c33e5c813e04770dc6057679977d13d37f0792401f2349540d573/spida-0.3.9.tar.gz
+[2023-06-01 00:20:57] INFO root fetch - processPackages [tooljob]: executing diffoscope
+[2023-06-01 00:20:57] INFO root fetch - processPackages [tooljob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooljob-0.1.5.tar.gz tmp/tooljob-0.1.6.tar.gz --markdown 20230601/t/tooljob/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-01 00:20:57] INFO root fetch - processPackages [neon-skill-update]: executing diffoscope
+[2023-06-01 00:20:57] INFO root fetch - processPackages [neon-skill-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_update-0.3.1a1-py3-none-any.whl.zip tmp/neon_skill_update-0.3.1a2-py3-none-any.whl.zip --markdown 20230601/n/neon-skill-update/0.3.1a1-0.3.1a2/diff.md --exclude *.pyd
+[2023-06-01 00:20:57] INFO root fetch - processPackages [spida]: executing diffoscope
+[2023-06-01 00:20:57] INFO root fetch - processPackages [spida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spida-0.3.8.tar.gz tmp/spida-0.3.9.tar.gz --markdown 20230601/s/spida/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-01 00:20:58] INFO root fetch - processPackages [oceano-algos]: Start processing: injective-py
+[2023-06-01 00:20:58] INFO root fetch - processPackages [oneoneoneexample]: Start processing: bigdl-orca
+[2023-06-01 00:20:58] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-06-01 00:20:58] INFO root fetch - main [MainThread]: End processing [oneoneoneexample]: success
+[2023-06-01 00:20:58] INFO root fetch - processPackages [injective-py]: New version: [0.6.3.0] Old Version: [0.6.2.9]
+[2023-06-01 00:20:58] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230531] Old Version: [2.4.0b20230530]
+[2023-06-01 00:20:58] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/7f/c6/28b6d463c95e9dfa800a7fb04b106fc08ae20bedf77fe72981e22825295e/bigdl_orca-2.4.0b20230530-py3-none-manylinux1_x86_64.whl
+[2023-06-01 00:20:58] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369342>=10485760
+[2023-06-01 00:20:58] INFO root fetch - processPackages [bigdl-orca]: Start processing: bigdl-friesian
+[2023-06-01 00:20:58] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-06-01 00:20:58] INFO root fetch - processPackages [injective-py]: Downloading https://files.pythonhosted.org/packages/38/7c/5e094e34f1f4567743bd2ee815dccf1c6cf75f5202a5758ba072788cb670/injective-py-0.6.3.0.tar.gz
+[2023-06-01 00:20:58] INFO root fetch - processPackages [apeye-core]: Start processing: bigdl
+[2023-06-01 00:20:58] INFO root fetch - main [MainThread]: End processing [apeye-core]: success
+[2023-06-01 00:20:58] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230531] Old Version: [2.4.0b20230530]
+[2023-06-01 00:20:58] INFO root fetch - main [MainThread]: End processing [tooljob]: success
+[2023-06-01 00:20:58] INFO root fetch - processPackages [injective-py]: executing diffoscope
+[2023-06-01 00:20:58] INFO root fetch - processPackages [injective-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/injective-py-0.6.2.9.tar.gz tmp/injective-py-0.6.3.0.tar.gz --markdown 20230601/i/injective-py/0.6.2.9-0.6.3.0/diff.md --exclude *.pyd
+[2023-06-01 00:20:58] INFO root fetch - main [MainThread]: End processing [neon-speech]: success
+[2023-06-01 00:20:58] INFO root fetch - main [MainThread]: End processing [spida]: success
+[2023-06-01 00:20:58] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/5c/9d/bab4247088eca66d0c614dde41ef22a0451c892e7bb1c82301ea87d6e375/bigdl_friesian-2.4.0b20230531-py3-none-manylinux1_x86_64.whl
+[2023-06-01 00:20:58] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230531] Old Version: [2.4.0b20230530]
+[2023-06-01 00:20:59] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-06-01 00:20:59] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230530-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230531-py3-none-manylinux1_x86_64.whl.zip --markdown 20230601/b/bigdl-friesian/2.4.0b20230530-2.4.0b20230531/diff.md --exclude *.pyd
+[2023-06-01 00:20:59] INFO root fetch - main [MainThread]: End processing [browsr]: success
+[2023-06-01 00:20:59] INFO root fetch - main [MainThread]: End processing [voxelfarm]: success
+[2023-06-01 00:20:59] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-06-01 00:20:59] INFO root fetch - main [MainThread]: End processing [neon-skill-update]: success
+[2023-06-01 00:20:59] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/a5/dc/9bfa88fdfcb741ff6e6a000bcf15368979454c14a772d2970e98e72cb46d/bigdl-2.4.0b20230531-py3-none-manylinux1_x86_64.whl
+[2023-06-01 00:20:59] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-06-01 00:20:59] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230530-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230531-py3-none-manylinux1_x86_64.whl.zip --markdown 20230601/b/bigdl/2.4.0b20230530-2.4.0b20230531/diff.md --exclude *.pyd
+[2023-06-01 00:21:00] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-06-01 00:21:00] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-06-01 00:21:05] INFO root fetch - main [MainThread]: End processing [injective-py]: success
+[2023-06-01 00:21:05] INFO root fetch - main [MainThread]: Store serial: [18323122]
