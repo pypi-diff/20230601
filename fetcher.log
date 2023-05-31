@@ -1,0 +1,69 @@
+[2023-06-01 00:04:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18322954]
+[2023-06-01 00:04:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-01 00:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openet-ssebop
+[2023-06-01 00:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TSADeval
+[2023-06-01 00:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datasette-sqlite-hello
+[2023-06-01 00:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-sale-stock-picking-note
+[2023-06-01 00:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlite-hello
+[2023-06-01 00:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: loophost
+[2023-06-01 00:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abstract-ai
+[2023-06-01 00:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nanobind
+[2023-06-01 00:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jaaql-monitor
+[2023-06-01 00:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oneoneoneexample
+[2023-06-01 00:04:10] INFO root fetch - processPackages [openet-ssebop]: New version: [0.2.8] Old Version: [0.2.6]
+[2023-06-01 00:04:10] INFO root fetch - processPackages [abstract-ai]: New version: [0.0.725] Old Version: [0.0.72]
+[2023-06-01 00:04:10] INFO root fetch - processPackages [datasette-sqlite-hello]: New version: [0.1.0a50] Old Version: [0.1.0a49]
+[2023-06-01 00:04:10] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-note]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.2]
+[2023-06-01 00:04:10] INFO root fetch - processPackages [sqlite-hello]: New version: [0.1.0a50] Old Version: [0.1.0a49]
+[2023-06-01 00:04:10] INFO root fetch - processPackages [TSADeval]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 00:04:10] INFO root fetch - processPackages [loophost]: New version: [1.1.5] Old Version: [1.1.2]
+[2023-06-01 00:04:10] INFO root fetch - processPackages [oneoneoneexample]: New version: [0.3] Old Version: [0.2]
+[2023-06-01 00:04:10] INFO root fetch - processPackages [nanobind]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-01 00:04:10] INFO root fetch - processPackages [jaaql-monitor]: New version: [1.2.62] Old Version: [1.2.61]
+[2023-06-01 00:04:10] INFO root fetch - processPackages [TSADeval]: Downloading https://files.pythonhosted.org/packages/86/02/9e63a09a53e2ad00749ea9afeba2f8180a916169684d338470b7f574d626/tsadeval-0.0.1.tar.gz
+[2023-06-01 00:04:10] INFO root fetch - processPackages [sqlite-hello]: Downloading https://files.pythonhosted.org/packages/98/3c/eca07f9e6d8cbdbd8955c28640d38f641ce8c959bf3cd2e516c97669d6a7/sqlite_hello-0.1.0a50-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-06-01 00:04:10] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-note]: Downloading https://files.pythonhosted.org/packages/27/b9/fd90574ca928e97a8714526b0a3c2b884b568bc581c68b328f4247633724/odoo_addon_sale_stock_picking_note-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-01 00:04:10] INFO root fetch - processPackages [oneoneoneexample]: Downloading https://files.pythonhosted.org/packages/0c/a1/fac98aa1330d1c442674964dcce00c1989a067d88effd72ff88db7638db3/oneoneoneexample-0.2.tar.gz
+[2023-06-01 00:04:10] INFO root fetch - processPackages [datasette-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/79/40/06ea6a169e5f4691cc4a4956aad73004582c4c754716c4d60a05b27b7fe4/datasette_sqlite_hello-0.1.0a50-py3-none-any.whl
+[2023-06-01 00:04:10] INFO root fetch - processPackages [openet-ssebop]: Downloading https://files.pythonhosted.org/packages/f4/7d/9e419f37dbc2a58f0a687d933cdf9bd1050aa095cec5e98c6a7e7ebbc1fe/openet-ssebop-0.2.6.tar.gz
+[2023-06-01 00:04:10] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/bc/8e/2c0a24235827484c4a0af9612c8d075ab8ff4f941bc9b525dfd412696478/jaaql-monitor-1.2.62.tar.gz
+[2023-06-01 00:04:10] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/f8/4b/2b8a0a67c02b0a9728322c34678e413e2ac5b55bcd83d2d016c8904a941a/abstract_ai-0.0.725.tar.gz
+[2023-06-01 00:04:10] INFO root fetch - processPackages [nanobind]: Downloading https://files.pythonhosted.org/packages/e6/04/ff8c4cb80df32fa3ceda3c379021290789fc467816ec58f6126cb175e344/nanobind-1.3.1-py3-none-any.whl
+[2023-06-01 00:04:10] INFO root fetch - processPackages [jaaql-monitor]: executing diffoscope
+[2023-06-01 00:04:10] INFO root fetch - processPackages [jaaql-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-monitor-1.2.61.tar.gz tmp/jaaql-monitor-1.2.62.tar.gz --markdown 20230601/j/jaaql-monitor/1.2.61-1.2.62/diff.md --exclude *.pyd
+[2023-06-01 00:04:10] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-06-01 00:04:10] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.0.72.tar.gz tmp/abstract_ai-0.0.725.tar.gz --markdown 20230601/a/abstract-ai/0.0.72-0.0.725/diff.md --exclude *.pyd
+[2023-06-01 00:04:10] INFO root fetch - processPackages [loophost]: Downloading https://files.pythonhosted.org/packages/38/1a/8ed191083184796a30df50b40e2883e76107d91e0604f7602338570a4bf7/loophost-1.1.5-py3-none-any.whl
+[2023-06-01 00:04:10] INFO root fetch - processPackages [nanobind]: executing diffoscope
+[2023-06-01 00:04:10] INFO root fetch - processPackages [nanobind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanobind-1.3.0-py3-none-any.whl.zip tmp/nanobind-1.3.1-py3-none-any.whl.zip --markdown 20230601/n/nanobind/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-01 00:04:10] INFO root fetch - processPackages [sqlite-hello]: executing diffoscope
+[2023-06-01 00:04:10] INFO root fetch - processPackages [sqlite-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_hello-0.1.0a49-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_hello-0.1.0a50-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230601/s/sqlite-hello/0.1.0a49-0.1.0a50/diff.md --exclude *.pyd
+[2023-06-01 00:04:10] WARNING root fetch - processPackages [loophost]: Skipping package: exceeds size limit 18732866>=10485760
+[2023-06-01 00:04:10] INFO root fetch - processPackages [loophost]: Start processing: MS-visualizer-lite
+[2023-06-01 00:04:10] INFO root fetch - main [MainThread]: End processing [loophost] error
+[2023-06-01 00:04:10] INFO root fetch - processPackages [datasette-sqlite-hello]: executing diffoscope
+[2023-06-01 00:04:10] INFO root fetch - processPackages [datasette-sqlite-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_hello-0.1.0a49-py3-none-any.whl.zip tmp/datasette_sqlite_hello-0.1.0a50-py3-none-any.whl.zip --markdown 20230601/d/datasette-sqlite-hello/0.1.0a49-0.1.0a50/diff.md --exclude *.pyd
+[2023-06-01 00:04:10] INFO root fetch - processPackages [TSADeval]: Downloading https://files.pythonhosted.org/packages/0b/8e/3c934bc4cfcf5ff5301105e32a7a42ef118fe2318e129b7603ce800ab706/tsadeval-0.0.2.tar.gz
+[2023-06-01 00:04:10] INFO root fetch - processPackages [oneoneoneexample]: Downloading https://files.pythonhosted.org/packages/6e/0d/92c264c32f615962911c7982755580ec16789db50e68cad612672d25c076/oneoneoneexample-0.3.tar.gz
+[2023-06-01 00:04:10] WARNING root fetch - processPackages [MS-visualizer-lite]: Skipping, unable to determine old version
+[2023-06-01 00:04:10] INFO root fetch - main [MainThread]: End processing [MS-visualizer-lite] error
+[2023-06-01 00:04:10] INFO root fetch - processPackages [oneoneoneexample]: executing diffoscope
+[2023-06-01 00:04:10] INFO root fetch - processPackages [oneoneoneexample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneoneoneexample-0.2.tar.gz tmp/oneoneoneexample-0.3.tar.gz --markdown 20230601/o/oneoneoneexample/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-01 00:04:11] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-note]: Downloading https://files.pythonhosted.org/packages/11/9d/b096f6d2fdd63db0d823fcb195a2a0e5343daab672e50d6d2befd0c9f53d/odoo_addon_sale_stock_picking_note-15.0.1.0.1-py3-none-any.whl
+[2023-06-01 00:04:11] INFO root fetch - processPackages [openet-ssebop]: Downloading https://files.pythonhosted.org/packages/08/26/7ba8633a4bc8129b6f0b49b811cfa357aa3446d8e1966adf412d9bd88846/openet-ssebop-0.2.8.tar.gz
+[2023-06-01 00:04:11] INFO root fetch - processPackages [TSADeval]: executing diffoscope
+[2023-06-01 00:04:11] INFO root fetch - processPackages [TSADeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsadeval-0.0.1.tar.gz tmp/tsadeval-0.0.2.tar.gz --markdown 20230601/T/TSADeval/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 00:04:11] INFO root fetch - processPackages [openet-ssebop]: executing diffoscope
+[2023-06-01 00:04:11] INFO root fetch - processPackages [openet-ssebop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openet-ssebop-0.2.6.tar.gz tmp/openet-ssebop-0.2.8.tar.gz --markdown 20230601/o/openet-ssebop/0.2.6-0.2.8/diff.md --exclude *.pyd
+[2023-06-01 00:04:11] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-note]: executing diffoscope
+[2023-06-01 00:04:11] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_stock_picking_note-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_stock_picking_note-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230601/o/odoo-addon-sale-stock-picking-note/15.0.1.0.0.2-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-01 00:04:12] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-hello]: success
+[2023-06-01 00:04:12] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-06-01 00:04:12] INFO root fetch - main [MainThread]: End processing [oneoneoneexample]: success
+[2023-06-01 00:04:12] INFO root fetch - main [MainThread]: End processing [jaaql-monitor]: success
+[2023-06-01 00:04:12] INFO root fetch - main [MainThread]: End processing [openet-ssebop]: success
+[2023-06-01 00:04:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-stock-picking-note]: success
+[2023-06-01 00:04:13] INFO root fetch - main [MainThread]: End processing [TSADeval]: success
+[2023-06-01 00:04:13] INFO root fetch - main [MainThread]: End processing [nanobind]: success
+[2023-06-01 00:04:13] INFO root fetch - main [MainThread]: End processing [sqlite-hello]: success
+[2023-06-01 00:04:13] INFO root fetch - main [MainThread]: Store serial: [18322983]
