@@ -2674,3 +2674,166 @@
 [2023-06-01 01:37:34] INFO root fetch - main [MainThread]: End processing [circuitpython-display-ht16k33]: success
 [2023-06-01 01:38:23] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-06-01 01:38:23] INFO root fetch - main [MainThread]: Store serial: [18324473]
+[2023-06-01 01:43:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18324473]
+[2023-06-01 01:43:33] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-06-01 01:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aurora-asi-lib
+[2023-06-01 01:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diskolord
+[2023-06-01 01:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biolink-model
+[2023-06-01 01:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tpds-application
+[2023-06-01 01:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tpds-core
+[2023-06-01 01:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tpds-extension-ecc204-support
+[2023-06-01 01:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tpds-extension-ecc608-sip-support
+[2023-06-01 01:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tpds-extension-sha104-105-support
+[2023-06-01 01:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opvious
+[2023-06-01 01:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tpds-extension-spg-cloud-connect
+[2023-06-01 01:43:33] WARNING root fetch - processPackages [diskolord]: Skipping, unable to determine old version
+[2023-06-01 01:43:33] INFO root fetch - processPackages [diskolord]: Start processing: tpds-extension-ta010-support
+[2023-06-01 01:43:33] INFO root fetch - main [MainThread]: End processing [diskolord] error
+[2023-06-01 01:43:33] INFO root fetch - processPackages [aurora-asi-lib]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-core]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-extension-ecc204-support]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-06-01 01:43:33] WARNING root fetch - processPackages [tpds-extension-sha104-105-support]: Skipping, unable to determine old version
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-application]: New version: [2.3.9] Old Version: [2.3.7]
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-extension-sha104-105-support]: Start processing: tpds-helper
+[2023-06-01 01:43:33] INFO root fetch - main [MainThread]: End processing [tpds-extension-sha104-105-support] error
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-extension-ecc608-sip-support]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-06-01 01:43:33] INFO root fetch - processPackages [biolink-model]: New version: [3.4.3] Old Version: [3.4.2]
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-extension-spg-cloud-connect]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-extension-ta010-support]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-01 01:43:33] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-helper]: New version: [2.3.7] Old Version: [2.3.6]
+[2023-06-01 01:43:33] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-06-01 01:43:33] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230601/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-01 01:43:33] INFO root fetch - processPackages [aurora-asi-lib]: Downloading https://files.pythonhosted.org/packages/50/32/eaeef4189b1bcae22ea93fa52172a68c954ff7b81af1b3c5bbfa6aa2df30/aurora-asi-lib-0.9.4.tar.gz
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-application]: Downloading https://files.pythonhosted.org/packages/80/67/3ce84bee32ea6ad0625a2decf6c52236a638171fc07c62aa9e5e7464592c/tpds_application-2.3.7-py3-none-any.whl
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-extension-ta010-support]: Downloading https://files.pythonhosted.org/packages/45/25/22f53bc85d86322783abf382043622de236e264e9606859f9ad5c1fcfc02/tpds_extension_ta010_support-1.5.2-py3-none-any.whl
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-extension-ecc204-support]: Downloading https://files.pythonhosted.org/packages/64/0d/86bf2b27978b4bd13bbd064eb478b49417de060d75a3f52b70b36de18c3f/tpds_extension_ecc204_support-1.8.2-py3-none-any.whl
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-core]: Downloading https://files.pythonhosted.org/packages/ee/a2/e75aa65eb7cfaaadb661ebe5cc16c1d87320ff0be7fa08fa4c05e0772d0c/tpds_core-2.3.4-py3-none-any.whl
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-extension-ecc608-sip-support]: Downloading https://files.pythonhosted.org/packages/61/c9/e93e426257e0434c1ec9d78122109d3b095423e06179c47e0db0cf17215e/tpds_extension_ecc608_sip_support-1.5.0-py3-none-any.whl
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-helper]: Downloading https://files.pythonhosted.org/packages/cf/58/4626cce699ccc3fc8b4e96775bf728a3c50637df9feee93066ff5d166f96/tpds_helper-2.3.6-py3-none-any.whl
+[2023-06-01 01:43:33] INFO root fetch - processPackages [biolink-model]: Downloading https://files.pythonhosted.org/packages/d5/45/4239277459754f5ab6f4b7768598d2c365c359e7efa36e22fe5f0f3628f8/biolink-model-3.4.2.tar.gz
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-extension-spg-cloud-connect]: Downloading https://files.pythonhosted.org/packages/bc/f9/a183c075af7372681d96c84d5e1ed11db92e044e2a05286217548934af86/tpds_extension_spg_cloud_connect-2.3.2-py3-none-any.whl
+[2023-06-01 01:43:33] WARNING root fetch - processPackages [tpds-extension-ecc608-sip-support]: Skipping package: exceeds size limit 41369973>=10485760
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-extension-ecc608-sip-support]: Start processing: tpds-manifest
+[2023-06-01 01:43:33] INFO root fetch - main [MainThread]: End processing [tpds-extension-ecc608-sip-support] error
+[2023-06-01 01:43:33] WARNING root fetch - processPackages [tpds-extension-spg-cloud-connect]: Skipping package: exceeds size limit 20600868>=10485760
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-extension-spg-cloud-connect]: Start processing: tpds-schema
+[2023-06-01 01:43:33] INFO root fetch - main [MainThread]: End processing [tpds-extension-spg-cloud-connect] error
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-manifest]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-schema]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-01 01:43:33] INFO root fetch - processPackages [aurora-asi-lib]: Downloading https://files.pythonhosted.org/packages/84/0c/8c7e5b70ee5634837d944d978f39d8a697185c2b5ff320762f7a71817094/aurora-asi-lib-0.9.5.tar.gz
+[2023-06-01 01:43:33] INFO root fetch - processPackages [tpds-core]: Downloading https://files.pythonhosted.org/packages/96/50/aa825a361de0ae38e40fed82cae20838194183f095ef259b93c03c8ae770/tpds_core-2.3.5-py3-none-any.whl
+[2023-06-01 01:43:33] INFO root fetch - processPackages [biolink-model]: Downloading https://files.pythonhosted.org/packages/50/0b/742b549ee4d3ece2a72e015ac240fe75dfea55be5e401d1a04b44e04ea19/biolink-model-3.4.3.tar.gz
+[2023-06-01 01:43:34] INFO root fetch - processPackages [tpds-helper]: Downloading https://files.pythonhosted.org/packages/30/5c/3fd51747bc495e4e5faa136ba2ad889e888fee9f7357e62e7e03fbfb4b00/tpds_helper-2.3.7-py3-none-any.whl
+[2023-06-01 01:43:34] INFO root fetch - processPackages [tpds-core]: executing diffoscope
+[2023-06-01 01:43:34] INFO root fetch - processPackages [tpds-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpds_core-2.3.4-py3-none-any.whl.zip tmp/tpds_core-2.3.5-py3-none-any.whl.zip --markdown 20230601/t/tpds-core/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-06-01 01:43:34] INFO root fetch - processPackages [biolink-model]: executing diffoscope
+[2023-06-01 01:43:34] INFO root fetch - processPackages [biolink-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biolink-model-3.4.2.tar.gz tmp/biolink-model-3.4.3.tar.gz --markdown 20230601/b/biolink-model/3.4.2-3.4.3/diff.md --exclude *.pyd
+[2023-06-01 01:43:34] INFO root fetch - processPackages [tpds-manifest]: Downloading https://files.pythonhosted.org/packages/4e/97/2724cbfa9a1849931634af8ab387f87157e963227dd267b80847b7fe73dc/tpds_manifest-1.0.4-py3-none-any.whl
+[2023-06-01 01:43:34] INFO root fetch - processPackages [tpds-schema]: Downloading https://files.pythonhosted.org/packages/4b/4a/ca20b0c0ba2ea2cc4c1d7f271b99cd1cae7e4d4d5508249c7fbff95cf920/tpds_schema-1.0.1-py3-none-any.whl
+[2023-06-01 01:43:34] INFO root fetch - processPackages [aurora-asi-lib]: executing diffoscope
+[2023-06-01 01:43:34] INFO root fetch - processPackages [aurora-asi-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aurora-asi-lib-0.9.4.tar.gz tmp/aurora-asi-lib-0.9.5.tar.gz --markdown 20230601/a/aurora-asi-lib/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-01 01:43:34] INFO root fetch - processPackages [tpds-helper]: executing diffoscope
+[2023-06-01 01:43:34] INFO root fetch - processPackages [tpds-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpds_helper-2.3.6-py3-none-any.whl.zip tmp/tpds_helper-2.3.7-py3-none-any.whl.zip --markdown 20230601/t/tpds-helper/2.3.6-2.3.7/diff.md --exclude *.pyd
+[2023-06-01 01:43:34] INFO root fetch - processPackages [tpds-application]: Downloading https://files.pythonhosted.org/packages/02/f7/27443b818f19e31278083f3f3f5d71518353974e2f423df68e74349e48ad/tpds_application-2.3.9-py3-none-any.whl
+[2023-06-01 01:43:34] INFO root fetch - processPackages [tpds-manifest]: Downloading https://files.pythonhosted.org/packages/30/cd/da7688900aa0a5acecedadad81bd119bd881eefa0a9d55c38b49d75cc6ef/tpds_manifest-1.0.5-py3-none-any.whl
+[2023-06-01 01:43:34] INFO root fetch - processPackages [tpds-application]: executing diffoscope
+[2023-06-01 01:43:34] INFO root fetch - processPackages [tpds-application]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpds_application-2.3.7-py3-none-any.whl.zip tmp/tpds_application-2.3.9-py3-none-any.whl.zip --markdown 20230601/t/tpds-application/2.3.7-2.3.9/diff.md --exclude *.pyd
+[2023-06-01 01:43:34] INFO root fetch - processPackages [tpds-schema]: Downloading https://files.pythonhosted.org/packages/a9/2d/0a366afce16fea9fa31e57546a2658a4ca3dbb4523d009f9793a60aff7bc/tpds_schema-1.1.0-py3-none-any.whl
+[2023-06-01 01:43:34] INFO root fetch - processPackages [tpds-manifest]: executing diffoscope
+[2023-06-01 01:43:34] INFO root fetch - processPackages [tpds-manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpds_manifest-1.0.4-py3-none-any.whl.zip tmp/tpds_manifest-1.0.5-py3-none-any.whl.zip --markdown 20230601/t/tpds-manifest/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-01 01:43:34] INFO root fetch - processPackages [tpds-schema]: executing diffoscope
+[2023-06-01 01:43:34] INFO root fetch - processPackages [tpds-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpds_schema-1.0.1-py3-none-any.whl.zip tmp/tpds_schema-1.1.0-py3-none-any.whl.zip --markdown 20230601/t/tpds-schema/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-01 01:43:35] INFO root fetch - processPackages [opvious]: Start processing: strategais
+[2023-06-01 01:43:35] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-06-01 01:43:35] INFO root fetch - processPackages [strategais]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-01 01:43:35] INFO root fetch - processPackages [tpds-extension-ecc204-support]: Downloading https://files.pythonhosted.org/packages/46/de/89fb24ae2633d41c89c646b3f5e9f95dad7665f82f4f24f8b012f2285a43/tpds_extension_ecc204_support-1.8.3-py3-none-any.whl
+[2023-06-01 01:43:35] INFO root fetch - processPackages [strategais]: Downloading https://files.pythonhosted.org/packages/cd/5a/3bec4ada4ad233dad69da8651355ff69f3c3901fcf437e5b2012e2816dc3/strategais-0.1.tar.gz
+[2023-06-01 01:43:35] INFO root fetch - processPackages [tpds-manifest]: Start processing: glass
+[2023-06-01 01:43:35] INFO root fetch - main [MainThread]: End processing [tpds-manifest]: success
+[2023-06-01 01:43:35] INFO root fetch - processPackages [glass]: New version: [2023.5] Old Version: [2023.2]
+[2023-06-01 01:43:35] INFO root fetch - processPackages [tpds-extension-ecc204-support]: executing diffoscope
+[2023-06-01 01:43:35] INFO root fetch - processPackages [tpds-extension-ecc204-support]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpds_extension_ecc204_support-1.8.2-py3-none-any.whl.zip tmp/tpds_extension_ecc204_support-1.8.3-py3-none-any.whl.zip --markdown 20230601/t/tpds-extension-ecc204-support/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-06-01 01:43:35] INFO root fetch - processPackages [strategais]: Downloading https://files.pythonhosted.org/packages/bf/8a/bc2725c52b840c7489bfd4a2f1ca24d486a4205ed69852edb873c6b8ec0a/strategais-0.1.1.tar.gz
+[2023-06-01 01:43:35] INFO root fetch - processPackages [glass]: Downloading https://files.pythonhosted.org/packages/9d/00/b291a8880721272a48d893fffbdc7c1ff623f0b89a717847212585f355c8/glass-2023.2.tar.gz
+[2023-06-01 01:43:36] INFO root fetch - processPackages [strategais]: executing diffoscope
+[2023-06-01 01:43:36] INFO root fetch - processPackages [strategais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strategais-0.1.tar.gz tmp/strategais-0.1.1.tar.gz --markdown 20230601/s/strategais/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-01 01:43:36] INFO root fetch - processPackages [tpds-core]: Start processing: benchling-cli
+[2023-06-01 01:43:36] INFO root fetch - main [MainThread]: End processing [tpds-core]: success
+[2023-06-01 01:43:36] INFO root fetch - processPackages [benchling-cli]: New version: [0.8.2a0] Old Version: [0.8.1a0]
+[2023-06-01 01:43:36] INFO root fetch - processPackages [biolink-model]: Start processing: cpp-automation-utility
+[2023-06-01 01:43:36] INFO root fetch - main [MainThread]: End processing [biolink-model]: success
+[2023-06-01 01:43:36] INFO root fetch - processPackages [benchling-cli]: Downloading https://files.pythonhosted.org/packages/c5/64/991bd8139113c0c30da2276bccc83d666e473eb2c90ecd6a2c1f9c2fe9d1/benchling_cli-0.8.1a0.tar.gz
+[2023-06-01 01:43:36] INFO root fetch - processPackages [cpp-automation-utility]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-01 01:43:36] INFO root fetch - processPackages [tpds-extension-ta010-support]: Downloading https://files.pythonhosted.org/packages/9a/f5/adcc2e3374bf26c13bc3297b9539bb3689d767d3b10b2373288718979171/tpds_extension_ta010_support-1.5.3-py3-none-any.whl
+[2023-06-01 01:43:36] INFO root fetch - processPackages [aurora-asi-lib]: Start processing: arithmetica-py
+[2023-06-01 01:43:36] INFO root fetch - main [MainThread]: End processing [aurora-asi-lib]: success
+[2023-06-01 01:43:36] INFO root fetch - processPackages [glass]: Downloading https://files.pythonhosted.org/packages/12/23/ae4ff4ab6e6ac4ab14962f7726ecd0f209245e45546fae0eb3a3e1675d7d/glass-2023.5.tar.gz
+[2023-06-01 01:43:36] INFO root fetch - processPackages [tpds-schema]: Start processing: opvious
+[2023-06-01 01:43:36] INFO root fetch - main [MainThread]: End processing [tpds-schema]: success
+[2023-06-01 01:43:36] INFO root fetch - processPackages [arithmetica-py]: New version: [1.0.209] Old Version: [1.0.208]
+[2023-06-01 01:43:36] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-01 01:43:36] INFO root fetch - processPackages [glass]: executing diffoscope
+[2023-06-01 01:43:36] INFO root fetch - processPackages [glass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glass-2023.2.tar.gz tmp/glass-2023.5.tar.gz --markdown 20230601/g/glass/2023.2-2023.5/diff.md --exclude *.pyd
+[2023-06-01 01:43:36] INFO root fetch - processPackages [cpp-automation-utility]: Downloading https://files.pythonhosted.org/packages/ea/b9/fbd3397f6a36e1d040236b42a4902ac5644e63458db663b7a109b6101d14/cpp-automation-utility-0.0.4.tar.gz
+[2023-06-01 01:43:36] INFO root fetch - processPackages [tpds-extension-ta010-support]: executing diffoscope
+[2023-06-01 01:43:36] INFO root fetch - processPackages [tpds-extension-ta010-support]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpds_extension_ta010_support-1.5.2-py3-none-any.whl.zip tmp/tpds_extension_ta010_support-1.5.3-py3-none-any.whl.zip --markdown 20230601/t/tpds-extension-ta010-support/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-06-01 01:43:36] INFO root fetch - processPackages [benchling-cli]: Downloading https://files.pythonhosted.org/packages/c3/d8/b39b55334f7386141d20d3c82f8e3ada158fcf4621fdb00c1563350c7294/benchling_cli-0.8.2a0.tar.gz
+[2023-06-01 01:43:36] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-06-01 01:43:36] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230601/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-01 01:43:36] INFO root fetch - processPackages [cpp-automation-utility]: executing diffoscope
+[2023-06-01 01:43:36] INFO root fetch - processPackages [cpp-automation-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpp-automation-utility-0.0.3.tar.gz tmp/cpp-automation-utility-0.0.4.tar.gz --markdown 20230601/c/cpp-automation-utility/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-01 01:43:36] INFO root fetch - processPackages [benchling-cli]: executing diffoscope
+[2023-06-01 01:43:36] INFO root fetch - processPackages [benchling-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_cli-0.8.1a0.tar.gz tmp/benchling_cli-0.8.2a0.tar.gz --markdown 20230601/b/benchling-cli/0.8.1a0-0.8.2a0/diff.md --exclude *.pyd
+[2023-06-01 01:43:36] INFO root fetch - processPackages [arithmetica-py]: Downloading https://files.pythonhosted.org/packages/26/58/6351af14ce3f301e856d7d4d67857cbe7f8552eea14b76cc4829e3d9ec0f/arithmetica-py-1.0.209.tar.gz
+[2023-06-01 01:43:36] INFO root fetch - processPackages [arithmetica-py]: executing diffoscope
+[2023-06-01 01:43:36] INFO root fetch - processPackages [arithmetica-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arithmetica-py-1.0.208.tar.gz tmp/arithmetica-py-1.0.209.tar.gz --markdown 20230601/a/arithmetica-py/1.0.208-1.0.209/diff.md --exclude *.pyd
+[2023-06-01 01:43:36] INFO root fetch - processPackages [tpds-helper]: Start processing: itutor-fastapi-middlewares
+[2023-06-01 01:43:36] INFO root fetch - main [MainThread]: End processing [tpds-helper]: success
+[2023-06-01 01:43:36] INFO root fetch - processPackages [itutor-fastapi-middlewares]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-01 01:43:37] INFO root fetch - processPackages [itutor-fastapi-middlewares]: Downloading https://files.pythonhosted.org/packages/29/80/4258347974c903b15f045ccae62fe59480e9eed691bb2002acce01476984/itutor_fastapi_middlewares-0.0.7.tar.gz
+[2023-06-01 01:43:37] INFO root fetch - processPackages [itutor-fastapi-middlewares]: executing diffoscope
+[2023-06-01 01:43:37] INFO root fetch - processPackages [itutor-fastapi-middlewares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itutor_fastapi_middlewares-0.0.6.tar.gz tmp/itutor_fastapi_middlewares-0.0.7.tar.gz --markdown 20230601/i/itutor-fastapi-middlewares/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-01 01:43:37] INFO root fetch - processPackages [strategais]: Start processing: lsl-relay
+[2023-06-01 01:43:37] INFO root fetch - main [MainThread]: End processing [strategais]: success
+[2023-06-01 01:43:37] INFO root fetch - processPackages [lsl-relay]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-06-01 01:43:37] INFO root fetch - processPackages [lsl-relay]: Downloading https://files.pythonhosted.org/packages/ba/3b/cf97e618940d54f1b3e99b67f80bfa1788eba6e456e2a1ecff8f002ec64a/lsl_relay-3.1.0.tar.gz
+[2023-06-01 01:43:37] INFO root fetch - processPackages [glass]: Start processing: netspresso
+[2023-06-01 01:43:37] INFO root fetch - main [MainThread]: End processing [glass]: success
+[2023-06-01 01:43:37] INFO root fetch - processPackages [lsl-relay]: Downloading https://files.pythonhosted.org/packages/f6/c9/2c2edc82fac11687982addaf6e243b380be8518a849e6eacc7f6c6288098/lsl_relay-3.1.1.tar.gz
+[2023-06-01 01:43:37] INFO root fetch - processPackages [netspresso]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-01 01:43:38] INFO root fetch - processPackages [lsl-relay]: executing diffoscope
+[2023-06-01 01:43:38] INFO root fetch - processPackages [lsl-relay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsl_relay-3.1.0.tar.gz tmp/lsl_relay-3.1.1.tar.gz --markdown 20230601/l/lsl-relay/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-06-01 01:43:38] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/a0/46/c03c79f3c9a158e6d6ecf6ef5f522c3567ff5a4f8571825984de5c6e2683/netspresso-0.1.0-py3-none-any.whl
+[2023-06-01 01:43:38] INFO root fetch - processPackages [opvious]: Start processing: datadm
+[2023-06-01 01:43:38] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-06-01 01:43:38] INFO root fetch - processPackages [datadm]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-01 01:43:38] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/37/5c/56af0b6497aa81575b18448e6c0e505013f7743cdc1589bbf80fef906f8c/netspresso-0.1.1-py3-none-any.whl
+[2023-06-01 01:43:38] INFO root fetch - processPackages [netspresso]: executing diffoscope
+[2023-06-01 01:43:38] INFO root fetch - processPackages [netspresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netspresso-0.1.0-py3-none-any.whl.zip tmp/netspresso-0.1.1-py3-none-any.whl.zip --markdown 20230601/n/netspresso/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-01 01:43:38] INFO root fetch - processPackages [arithmetica-py]: Start processing: deepview-validator
+[2023-06-01 01:43:38] INFO root fetch - main [MainThread]: End processing [arithmetica-py]: success
+[2023-06-01 01:43:38] INFO root fetch - processPackages [deepview-validator]: New version: [3.0.8] Old Version: [3.0.7]
+[2023-06-01 01:43:38] INFO root fetch - processPackages [datadm]: Downloading https://files.pythonhosted.org/packages/ca/d9/844f96759e4d9e7995f3658981052faffe12e72601bbf8e1757fd24d55d8/datadm-0.0.3.tar.gz
+[2023-06-01 01:43:38] INFO root fetch - processPackages [tpds-application]: Start processing: python-selve-new
+[2023-06-01 01:43:38] INFO root fetch - main [MainThread]: End processing [tpds-application]: success
+[2023-06-01 01:43:38] INFO root fetch - processPackages [python-selve-new]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-01 01:43:38] INFO root fetch - main [MainThread]: End processing [cpp-automation-utility]: success
+[2023-06-01 01:43:38] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-06-01 01:43:38] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.0.8.tar.gz tmp/python-selve-new-2.0.9.tar.gz --markdown 20230601/p/python-selve-new/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-01 01:43:38] INFO root fetch - processPackages [deepview-validator]: Downloading https://files.pythonhosted.org/packages/9f/63/2d4609e9acd2d82926088bf11f5a914af216c02ecb0a8bd434a52b174f6b/deepview_validator-3.0.7-py3-none-any.whl
+[2023-06-01 01:43:38] INFO root fetch - processPackages [datadm]: executing diffoscope
+[2023-06-01 01:43:38] INFO root fetch - processPackages [datadm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadm-0.0.2.tar.gz tmp/datadm-0.0.3.tar.gz --markdown 20230601/d/datadm/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-01 01:43:38] INFO root fetch - main [MainThread]: End processing [benchling-cli]: success
+[2023-06-01 01:43:39] INFO root fetch - processPackages [deepview-validator]: Downloading https://files.pythonhosted.org/packages/e5/d8/e407716175c82277181dba75a9997de8f27fb16bc82d8dd6d287e4571b26/deepview_validator-3.0.8-py3-none-any.whl
+[2023-06-01 01:43:39] INFO root fetch - processPackages [deepview-validator]: executing diffoscope
+[2023-06-01 01:43:39] INFO root fetch - processPackages [deepview-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepview_validator-3.0.7-py3-none-any.whl.zip tmp/deepview_validator-3.0.8-py3-none-any.whl.zip --markdown 20230601/d/deepview-validator/3.0.7-3.0.8/diff.md --exclude *.pyd
+[2023-06-01 01:43:39] INFO root fetch - main [MainThread]: End processing [lsl-relay]: success
+[2023-06-01 01:43:39] INFO root fetch - main [MainThread]: End processing [netspresso]: success
+[2023-06-01 01:43:40] INFO root fetch - main [MainThread]: End processing [datadm]: success
+[2023-06-01 01:43:40] INFO root fetch - main [MainThread]: End processing [deepview-validator]: success
+[2023-06-01 01:43:40] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-06-01 01:43:41] INFO root fetch - main [MainThread]: End processing [itutor-fastapi-middlewares]: success
+[2023-06-01 01:43:50] INFO root fetch - main [MainThread]: End processing [tpds-extension-ecc204-support]: success
+[2023-06-01 01:43:53] INFO root fetch - main [MainThread]: End processing [tpds-extension-ta010-support]: success
+[2023-06-01 01:43:53] INFO root fetch - main [MainThread]: Store serial: [18324553]
