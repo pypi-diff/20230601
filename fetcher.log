@@ -2472,3 +2472,79 @@
 [2023-06-01 01:21:01] INFO root fetch - main [MainThread]: End processing [opvious]: success
 [2023-06-01 01:21:03] INFO root fetch - main [MainThread]: End processing [quickstats]: success
 [2023-06-01 01:21:03] INFO root fetch - main [MainThread]: Store serial: [18324355]
+[2023-06-01 01:26:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18324355]
+[2023-06-01 01:26:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-01 01:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gke-logging
+[2023-06-01 01:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhealth
+[2023-06-01 01:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-selve-new
+[2023-06-01 01:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudformation-cli
+[2023-06-01 01:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mythic-container
+[2023-06-01 01:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opentype-sanitizer
+[2023-06-01 01:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moptipyapps
+[2023-06-01 01:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: poetry-plugin-pypi-mirror
+[2023-06-01 01:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quantecon_book_networks
+[2023-06-01 01:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: control-rod
+[2023-06-01 01:26:11] INFO root fetch - processPackages [gke-logging]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-01 01:26:11] INFO root fetch - processPackages [moptipyapps]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-01 01:26:11] INFO root fetch - processPackages [python-selve-new]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-01 01:26:11] INFO root fetch - processPackages [mythic-container]: New version: [0.2.9] Old Version: [0.2.8rc5]
+[2023-06-01 01:26:11] INFO root fetch - processPackages [quantecon_book_networks]: New version: [0.5] Old Version: [0.4]
+[2023-06-01 01:26:11] INFO root fetch - processPackages [control-rod]: New version: [2023.5.6.1] Old Version: [2023.5.6.0]
+[2023-06-01 01:26:11] INFO root fetch - processPackages [poetry-plugin-pypi-mirror]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-01 01:26:11] INFO root fetch - processPackages [cloudformation-cli]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-01 01:26:11] INFO root fetch - processPackages [opentype-sanitizer]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-06-01 01:26:11] INFO root fetch - processPackages [pyhealth]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-01 01:26:11] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-06-01 01:26:11] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.0.8.tar.gz tmp/python-selve-new-2.0.9.tar.gz --markdown 20230601/p/python-selve-new/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-01 01:26:11] INFO root fetch - processPackages [gke-logging]: Downloading https://files.pythonhosted.org/packages/b6/04/80ada5db9b5fd2f35c4bb86e42fd8e43dbcd469df6e75734894702e5f7c8/gke-logging-0.0.4.tar.gz
+[2023-06-01 01:26:11] INFO root fetch - processPackages [moptipyapps]: Downloading https://files.pythonhosted.org/packages/c8/9e/185ca4b85801bb17f79744f4ff1461170cb2d01d3127ea6fd26f1cdd78bd/moptipyapps-0.8.3.tar.gz
+[2023-06-01 01:26:11] INFO root fetch - processPackages [poetry-plugin-pypi-mirror]: Downloading https://files.pythonhosted.org/packages/e1/1e/63b3de8fd69f2b48a66cca33e2076f0c46bd1f4c5ba824433132cb9426bd/poetry_plugin_pypi_mirror-0.3.1.tar.gz
+[2023-06-01 01:26:11] INFO root fetch - processPackages [quantecon_book_networks]: Downloading https://files.pythonhosted.org/packages/b4/55/a25e5cf5566225478cfc08001a3b42e1d1d83b5df7cad316f821570f743c/quantecon_book_networks-0.4.tar.gz
+[2023-06-01 01:26:11] INFO root fetch - processPackages [pyhealth]: Downloading https://files.pythonhosted.org/packages/0b/f9/b81343b783f0a92840a19691ca92e3105cd7434282062c8a4bf8d25a9a7c/pyhealth-1.1.3.tar.gz
+[2023-06-01 01:26:12] INFO root fetch - processPackages [opentype-sanitizer]: Downloading https://files.pythonhosted.org/packages/f8/9d/ca182c344de00fd6452f911d88cce74840b7f826c32266707423b7fdaf02/opentype-sanitizer-9.0.0.tar.gz
+[2023-06-01 01:26:12] INFO root fetch - processPackages [cloudformation-cli]: Downloading https://files.pythonhosted.org/packages/1b/43/cfe7f7fe6a2c855315e0c4ea2f38828cc1538c3444bfec4b1c75bb91e918/cloudformation-cli-0.2.8.tar.gz
+[2023-06-01 01:26:12] INFO root fetch - processPackages [control-rod]: executing diffoscope
+[2023-06-01 01:26:12] INFO root fetch - processPackages [control-rod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control_rod-2023.5.6.0.tar.gz tmp/control_rod-2023.5.6.1.tar.gz --markdown 20230601/c/control-rod/2023.5.6.0-2023.5.6.1/diff.md --exclude *.pyd
+[2023-06-01 01:26:12] INFO root fetch - processPackages [gke-logging]: Downloading https://files.pythonhosted.org/packages/91/7d/b6fbf4ff34cb5210d1b5d1ccb4f14b47b7a1fc4cc26284cb90a87eee053d/gke_logging-0.0.5.tar.gz
+[2023-06-01 01:26:12] INFO root fetch - processPackages [poetry-plugin-pypi-mirror]: Downloading https://files.pythonhosted.org/packages/19/23/bc5fa250e4c1857151f636575d231556ef69de42f612b6185cf7ceec47bd/poetry_plugin_pypi_mirror-0.3.2.tar.gz
+[2023-06-01 01:26:12] INFO root fetch - processPackages [mythic-container]: executing diffoscope
+[2023-06-01 01:26:12] INFO root fetch - processPackages [mythic-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mythic_container-0.2.8rc5.tar.gz tmp/mythic_container-0.2.9.tar.gz --markdown 20230601/m/mythic-container/0.2.8rc5-0.2.9/diff.md --exclude *.pyd
+[2023-06-01 01:26:12] INFO root fetch - processPackages [pyhealth]: Downloading https://files.pythonhosted.org/packages/78/b3/49a1118efb3d033a75f4f412879f8bd045420db8707be24a5bfbe1a141fb/pyhealth-1.1.4.tar.gz
+[2023-06-01 01:26:12] INFO root fetch - processPackages [quantecon_book_networks]: Downloading https://files.pythonhosted.org/packages/76/16/1402490bb0f1c52e58be87210cc400dce3d00f1564bfede1dedd74f1156a/quantecon_book_networks-0.5.tar.gz
+[2023-06-01 01:26:12] INFO root fetch - processPackages [gke-logging]: executing diffoscope
+[2023-06-01 01:26:12] INFO root fetch - processPackages [gke-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gke-logging-0.0.4.tar.gz tmp/gke_logging-0.0.5.tar.gz --markdown 20230601/g/gke-logging/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-01 01:26:12] INFO root fetch - processPackages [opentype-sanitizer]: Downloading https://files.pythonhosted.org/packages/c0/ae/c50ab615804a80f811d87f632db692e7c43e8a945ba8f8d864ba96874f9c/opentype-sanitizer-9.1.0.tar.gz
+[2023-06-01 01:26:12] INFO root fetch - processPackages [poetry-plugin-pypi-mirror]: executing diffoscope
+[2023-06-01 01:26:12] INFO root fetch - processPackages [poetry-plugin-pypi-mirror]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_pypi_mirror-0.3.1.tar.gz tmp/poetry_plugin_pypi_mirror-0.3.2.tar.gz --markdown 20230601/p/poetry-plugin-pypi-mirror/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-01 01:26:12] INFO root fetch - processPackages [pyhealth]: executing diffoscope
+[2023-06-01 01:26:12] INFO root fetch - processPackages [pyhealth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhealth-1.1.3.tar.gz tmp/pyhealth-1.1.4.tar.gz --markdown 20230601/p/pyhealth/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-01 01:26:12] INFO root fetch - processPackages [cloudformation-cli]: Downloading https://files.pythonhosted.org/packages/89/5e/5b7061fe89bd12be005b094b1aa48851b4c3c5c058e0dbe6f0363dd411d0/cloudformation-cli-0.2.9.tar.gz
+[2023-06-01 01:26:12] INFO root fetch - processPackages [quantecon_book_networks]: executing diffoscope
+[2023-06-01 01:26:12] INFO root fetch - processPackages [quantecon_book_networks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantecon_book_networks-0.4.tar.gz tmp/quantecon_book_networks-0.5.tar.gz --markdown 20230601/q/quantecon_book_networks/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-01 01:26:12] INFO root fetch - processPackages [moptipyapps]: executing diffoscope
+[2023-06-01 01:26:12] INFO root fetch - processPackages [moptipyapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipyapps-0.8.2.tar.gz tmp/moptipyapps-0.8.3.tar.gz --markdown 20230601/m/moptipyapps/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-01 01:26:12] INFO root fetch - processPackages [opentype-sanitizer]: executing diffoscope
+[2023-06-01 01:26:12] INFO root fetch - processPackages [opentype-sanitizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentype-sanitizer-9.0.0.tar.gz tmp/opentype-sanitizer-9.1.0.tar.gz --markdown 20230601/o/opentype-sanitizer/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-06-01 01:26:12] INFO root fetch - processPackages [cloudformation-cli]: executing diffoscope
+[2023-06-01 01:26:12] INFO root fetch - processPackages [cloudformation-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudformation-cli-0.2.8.tar.gz tmp/cloudformation-cli-0.2.9.tar.gz --markdown 20230601/c/cloudformation-cli/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-01 01:26:13] INFO root fetch - processPackages [python-selve-new]: Start processing: twofas-cli
+[2023-06-01 01:26:13] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-06-01 01:26:13] ERROR root fetch - processPackages [twofas-cli]: Unable to get metadata: No such project 'twofas-cli'
+[2023-06-01 01:26:13] INFO root fetch - processPackages [twofas-cli]: Start processing: otherworlds
+[2023-06-01 01:26:13] INFO root fetch - main [MainThread]: End processing [twofas-cli] error
+[2023-06-01 01:26:13] INFO root fetch - processPackages [otherworlds]: New version: [0.9.1] Old Version: [0.9.0b1]
+[2023-06-01 01:26:13] INFO root fetch - processPackages [otherworlds]: Downloading https://files.pythonhosted.org/packages/76/56/d03e1e1208940bc2fdae3125fea03135099fa14ab6abd622eb8fc3a984c7/otherworlds-0.9.0b1.tar.gz
+[2023-06-01 01:26:13] INFO root fetch - main [MainThread]: End processing [poetry-plugin-pypi-mirror]: success
+[2023-06-01 01:26:13] INFO root fetch - main [MainThread]: End processing [gke-logging]: success
+[2023-06-01 01:26:14] INFO root fetch - main [MainThread]: End processing [control-rod]: success
+[2023-06-01 01:26:14] INFO root fetch - processPackages [otherworlds]: Downloading https://files.pythonhosted.org/packages/07/c4/45f78fdbd5870fbdc18a096f8ca099cb7578b3f9df31d19c53ea1a88fa0c/otherworlds-0.9.1.tar.gz
+[2023-06-01 01:26:14] INFO root fetch - processPackages [otherworlds]: executing diffoscope
+[2023-06-01 01:26:14] INFO root fetch - processPackages [otherworlds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otherworlds-0.9.0b1.tar.gz tmp/otherworlds-0.9.1.tar.gz --markdown 20230601/o/otherworlds/0.9.0b1-0.9.1/diff.md --exclude *.pyd
+[2023-06-01 01:26:15] INFO root fetch - main [MainThread]: End processing [otherworlds]: success
+[2023-06-01 01:26:15] INFO root fetch - main [MainThread]: End processing [mythic-container]: success
+[2023-06-01 01:26:15] INFO root fetch - main [MainThread]: End processing [cloudformation-cli]: success
+[2023-06-01 01:26:15] INFO root fetch - main [MainThread]: End processing [moptipyapps]: success
+[2023-06-01 01:26:15] INFO root fetch - main [MainThread]: End processing [pyhealth]: success
+[2023-06-01 01:26:16] INFO root fetch - main [MainThread]: End processing [quantecon_book_networks]: success
+[2023-06-01 01:26:17] INFO root fetch - main [MainThread]: End processing [opentype-sanitizer]: success
+[2023-06-01 01:26:17] INFO root fetch - main [MainThread]: Store serial: [18324401]
