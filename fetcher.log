@@ -2607,3 +2607,70 @@
 [2023-06-01 01:31:29] INFO root fetch - main [MainThread]: End processing [dropchain-sdk]: success
 [2023-06-01 01:32:21] INFO root fetch - main [MainThread]: End processing [pycarot]: success
 [2023-06-01 01:32:21] INFO root fetch - main [MainThread]: Store serial: [18324434]
+[2023-06-01 01:37:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18324434]
+[2023-06-01 01:37:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-01 01:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: serializer-from-hell
+[2023-06-01 01:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chatarena
+[2023-06-01 01:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dxtils
+[2023-06-01 01:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: itutor-fastapi-middlewares
+[2023-06-01 01:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netdata
+[2023-06-01 01:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eva-shell
+[2023-06-01 01:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: circuitpython-display-ht16k33
+[2023-06-01 01:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mrpyconvert
+[2023-06-01 01:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: motion-python
+[2023-06-01 01:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mage-ai
+[2023-06-01 01:37:30] INFO root fetch - processPackages [dxtils]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-01 01:37:30] INFO root fetch - processPackages [itutor-fastapi-middlewares]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-01 01:37:30] INFO root fetch - processPackages [chatarena]: New version: [0.1.9] Old Version: [0.1.8.dev0]
+[2023-06-01 01:37:30] INFO root fetch - processPackages [netdata]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-01 01:37:30] WARNING root fetch - processPackages [serializer-from-hell]: Skipping, unable to determine old version
+[2023-06-01 01:37:30] INFO root fetch - processPackages [serializer-from-hell]: Start processing: stefutils
+[2023-06-01 01:37:30] INFO root fetch - main [MainThread]: End processing [serializer-from-hell] error
+[2023-06-01 01:37:30] INFO root fetch - processPackages [circuitpython-display-ht16k33]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-01 01:37:30] INFO root fetch - processPackages [motion-python]: New version: [0.1.45] Old Version: [0.1.44]
+[2023-06-01 01:37:30] INFO root fetch - processPackages [mrpyconvert]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-01 01:37:30] INFO root fetch - processPackages [stefutils]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-01 01:37:30] INFO root fetch - processPackages [eva-shell]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-06-01 01:37:30] INFO root fetch - processPackages [mage-ai]: New version: [0.8.9] Old Version: [0.8.87]
+[2023-06-01 01:37:30] INFO root fetch - processPackages [dxtils]: Downloading https://files.pythonhosted.org/packages/46/26/1899671cb735bf5e03c89d6bb6961368a136abf89696f9cfee338748db71/dxtils-0.0.4.tar.gz
+[2023-06-01 01:37:30] INFO root fetch - processPackages [netdata]: Downloading https://files.pythonhosted.org/packages/d3/01/da3f6c286244069656b23e07a031838e88c34a112816927b99c581532404/netdata-1.0.3.tar.gz
+[2023-06-01 01:37:30] INFO root fetch - processPackages [itutor-fastapi-middlewares]: Downloading https://files.pythonhosted.org/packages/0f/3a/58a9de1cd6a687d1cf97860e624bb210a85ae1b0bbffa060e1f37ad72d1d/itutor_fastapi_middlewares-0.0.5.tar.gz
+[2023-06-01 01:37:30] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/6d/08/8cd09165547ffbbe225a9c2031fb83297532b6d4c03183013504562eadd9/mage-ai-0.8.87.tar.gz
+[2023-06-01 01:37:30] INFO root fetch - processPackages [mrpyconvert]: Downloading https://files.pythonhosted.org/packages/76/d6/e0201dfec6a6519c0d83a133286af1a2e81f92363d5dac690645b6299d02/mrpyconvert-0.1.7.tar.gz
+[2023-06-01 01:37:30] INFO root fetch - processPackages [eva-shell]: Downloading https://files.pythonhosted.org/packages/b6/88/09c98e6655025fb3057559d0c44c4396702a2cc87c489243f46ec9536e44/eva-shell-0.0.92.tar.gz
+[2023-06-01 01:37:30] INFO root fetch - processPackages [dxtils]: executing diffoscope
+[2023-06-01 01:37:30] INFO root fetch - processPackages [dxtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxtils-0.0.3.tar.gz tmp/dxtils-0.0.4.tar.gz --markdown 20230601/d/dxtils/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-01 01:37:30] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/d5/89/0e07edae1c2b7f2bd80b03caeddf184e752469743ad4baedd86611490216/motion_python-0.1.45.tar.gz
+[2023-06-01 01:37:30] INFO root fetch - processPackages [circuitpython-display-ht16k33]: Downloading https://files.pythonhosted.org/packages/38/e6/c6b27ae33eb54166595e1e7729987014ba8793360697d817b086caa8a4dd/circuitpython-display_ht16k33-0.4.1.tar.gz
+[2023-06-01 01:37:30] INFO root fetch - processPackages [mrpyconvert]: executing diffoscope
+[2023-06-01 01:37:30] INFO root fetch - processPackages [mrpyconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrpyconvert-0.1.6.tar.gz tmp/mrpyconvert-0.1.7.tar.gz --markdown 20230601/m/mrpyconvert/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-01 01:37:30] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-06-01 01:37:30] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.44.tar.gz tmp/motion_python-0.1.45.tar.gz --markdown 20230601/m/motion-python/0.1.44-0.1.45/diff.md --exclude *.pyd
+[2023-06-01 01:37:30] INFO root fetch - processPackages [chatarena]: executing diffoscope
+[2023-06-01 01:37:30] INFO root fetch - processPackages [chatarena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatarena-0.1.8.dev0.tar.gz tmp/chatarena-0.1.9.tar.gz --markdown 20230601/c/chatarena/0.1.8.dev0-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 01:37:30] INFO root fetch - processPackages [circuitpython-display-ht16k33]: executing diffoscope
+[2023-06-01 01:37:30] INFO root fetch - processPackages [circuitpython-display-ht16k33]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-display_ht16k33-0.4.0.tar.gz tmp/circuitpython-display_ht16k33-0.4.1.tar.gz --markdown 20230601/c/circuitpython-display-ht16k33/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-01 01:37:30] INFO root fetch - processPackages [stefutils]: executing diffoscope
+[2023-06-01 01:37:30] INFO root fetch - processPackages [stefutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stefutils-0.8.2.tar.gz tmp/stefutils-0.9.0.tar.gz --markdown 20230601/s/stefutils/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 01:37:30] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-06-01 01:37:30] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.87.tar.gz tmp/mage-ai-0.8.9.tar.gz --markdown 20230601/m/mage-ai/0.8.87-0.8.9/diff.md --exclude *.pyd
+[2023-06-01 01:37:30] INFO root fetch - processPackages [netdata]: Downloading https://files.pythonhosted.org/packages/32/f4/8df9d2dc9416cca42b7c413158029352396ae3d43e36df7058e76fe63a59/netdata-1.1.0.tar.gz
+[2023-06-01 01:37:30] INFO root fetch - processPackages [itutor-fastapi-middlewares]: Downloading https://files.pythonhosted.org/packages/b1/49/566c96c30614c4efe3985d8f078122841c341bad19dbbc78fe7be8e32a31/itutor_fastapi_middlewares-0.0.6.tar.gz
+[2023-06-01 01:37:30] INFO root fetch - processPackages [netdata]: executing diffoscope
+[2023-06-01 01:37:30] INFO root fetch - processPackages [netdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdata-1.0.3.tar.gz tmp/netdata-1.1.0.tar.gz --markdown 20230601/n/netdata/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-01 01:37:30] INFO root fetch - processPackages [eva-shell]: Downloading https://files.pythonhosted.org/packages/33/c7/5c9747a8959cecbbf4ab83cb408b14f8deb8d3571de8123403bc92b5850e/eva-shell-0.0.93.tar.gz
+[2023-06-01 01:37:30] INFO root fetch - processPackages [itutor-fastapi-middlewares]: executing diffoscope
+[2023-06-01 01:37:30] INFO root fetch - processPackages [itutor-fastapi-middlewares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itutor_fastapi_middlewares-0.0.5.tar.gz tmp/itutor_fastapi_middlewares-0.0.6.tar.gz --markdown 20230601/i/itutor-fastapi-middlewares/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-01 01:37:30] INFO root fetch - processPackages [eva-shell]: executing diffoscope
+[2023-06-01 01:37:30] INFO root fetch - processPackages [eva-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eva-shell-0.0.92.tar.gz tmp/eva-shell-0.0.93.tar.gz --markdown 20230601/e/eva-shell/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-06-01 01:37:31] INFO root fetch - main [MainThread]: End processing [dxtils]: success
+[2023-06-01 01:37:31] INFO root fetch - main [MainThread]: End processing [mrpyconvert]: success
+[2023-06-01 01:37:32] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-06-01 01:37:32] INFO root fetch - main [MainThread]: End processing [netdata]: success
+[2023-06-01 01:37:32] INFO root fetch - main [MainThread]: End processing [itutor-fastapi-middlewares]: success
+[2023-06-01 01:37:32] INFO root fetch - main [MainThread]: End processing [stefutils]: success
+[2023-06-01 01:37:32] INFO root fetch - main [MainThread]: End processing [chatarena]: success
+[2023-06-01 01:37:32] INFO root fetch - main [MainThread]: End processing [eva-shell]: success
+[2023-06-01 01:37:34] INFO root fetch - main [MainThread]: End processing [circuitpython-display-ht16k33]: success
+[2023-06-01 01:38:23] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-06-01 01:38:23] INFO root fetch - main [MainThread]: Store serial: [18324473]
