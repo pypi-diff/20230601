@@ -2272,3 +2272,67 @@
 [2023-06-01 01:03:58] INFO root fetch - main [MainThread]: End processing [aws-cdk.core]: success
 [2023-06-01 01:03:58] INFO root fetch - main [MainThread]: End processing [aws-cdk.lambda-layer-node-proxy-agent]: success
 [2023-06-01 01:03:58] INFO root fetch - main [MainThread]: Store serial: [18324114]
+[2023-06-01 01:09:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18324114]
+[2023-06-01 01:09:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-01 01:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fad-pytorch
+[2023-06-01 01:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vscode-task-runner
+[2023-06-01 01:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: terrascope-sdk
+[2023-06-01 01:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezqc
+[2023-06-01 01:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: VidBarcodeSimilarities
+[2023-06-01 01:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mongo-tooling-metrics
+[2023-06-01 01:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agixt
+[2023-06-01 01:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: meerkat-ml
+[2023-06-01 01:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kattis-problem-setup
+[2023-06-01 01:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apigratis-sdk-python
+[2023-06-01 01:09:07] INFO root fetch - processPackages [fad-pytorch]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-01 01:09:07] INFO root fetch - processPackages [VidBarcodeSimilarities]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 01:09:07] INFO root fetch - processPackages [terrascope-sdk]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-01 01:09:07] WARNING root fetch - processPackages [apigratis-sdk-python]: Skipping, unable to determine old version
+[2023-06-01 01:09:07] INFO root fetch - processPackages [apigratis-sdk-python]: Start processing: wicked-expressions
+[2023-06-01 01:09:07] WARNING root fetch - processPackages [ezqc]: Skipping, unable to determine old version
+[2023-06-01 01:09:07] INFO root fetch - main [MainThread]: End processing [apigratis-sdk-python] error
+[2023-06-01 01:09:07] INFO root fetch - main [MainThread]: End processing [ezqc] error
+[2023-06-01 01:09:07] INFO root fetch - processPackages [meerkat-ml]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-01 01:09:07] INFO root fetch - processPackages [mongo-tooling-metrics]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-01 01:09:07] INFO root fetch - processPackages [agixt]: New version: [1.1.76b0] Old Version: [1.1.75b0]
+[2023-06-01 01:09:07] INFO root fetch - processPackages [wicked-expressions]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-01 01:09:07] INFO root fetch - processPackages [mongo-tooling-metrics]: executing diffoscope
+[2023-06-01 01:09:07] INFO root fetch - processPackages [mongo-tooling-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_tooling_metrics-1.0.6.tar.gz tmp/mongo_tooling_metrics-1.0.7.tar.gz --markdown 20230601/m/mongo-tooling-metrics/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-01 01:09:07] INFO root fetch - processPackages [kattis-problem-setup]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-01 01:09:07] INFO root fetch - processPackages [vscode-task-runner]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-01 01:09:07] INFO root fetch - processPackages [wicked-expressions]: executing diffoscope
+[2023-06-01 01:09:07] INFO root fetch - processPackages [wicked-expressions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wicked_expressions-0.6.2.tar.gz tmp/wicked_expressions-0.6.3.tar.gz --markdown 20230601/w/wicked-expressions/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-01 01:09:07] INFO root fetch - processPackages [VidBarcodeSimilarities]: Downloading https://files.pythonhosted.org/packages/40/94/b70736a1f05c645f576e150693e13ca63a851beb1e58b27e4277b65d8c39/VidBarcodeSimilarities-0.0.1.tar.gz
+[2023-06-01 01:09:08] INFO root fetch - processPackages [fad-pytorch]: Downloading https://files.pythonhosted.org/packages/81/91/971c91c74c60a5543bb5b03ffcce8ba060de7e340849c4afcce370a3841b/fad_pytorch-0.0.2.tar.gz
+[2023-06-01 01:09:08] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/e7/d6/0069f19d1382fb25d197da9a0d60ed6ffdd77de9875d15f022c362ea03bd/agixt-1.1.76b0.tar.gz
+[2023-06-01 01:09:08] INFO root fetch - processPackages [meerkat-ml]: Downloading https://files.pythonhosted.org/packages/fd/f4/294748f5496e17dc30f6ad18f720ebfacab589c26d5da45c8a358ab70473/meerkat-ml-0.4.8.tar.gz
+[2023-06-01 01:09:08] INFO root fetch - processPackages [kattis-problem-setup]: Downloading https://files.pythonhosted.org/packages/b0/fc/2a6a140701f3f7ad70c780915a1f38297e8390d190b5a6324fd0104fb11c/kattis-problem-setup-1.0.2.tar.gz
+[2023-06-01 01:09:08] INFO root fetch - processPackages [VidBarcodeSimilarities]: Downloading https://files.pythonhosted.org/packages/e0/d9/71900bf3ed5b54c2d9e727a84f64ed6e8b67b89740dc22627c1840618584/VidBarcodeSimilarities-0.0.2.tar.gz
+[2023-06-01 01:09:08] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-06-01 01:09:08] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.1.75b0.tar.gz tmp/agixt-1.1.76b0.tar.gz --markdown 20230601/a/agixt/1.1.75b0-1.1.76b0/diff.md --exclude *.pyd
+[2023-06-01 01:09:08] INFO root fetch - processPackages [fad-pytorch]: Downloading https://files.pythonhosted.org/packages/b3/51/f39dd144d44f334611b5d05120fa53b4752d43e126ce63616165c92c186a/fad_pytorch-0.0.3.tar.gz
+[2023-06-01 01:09:08] INFO root fetch - processPackages [terrascope-sdk]: executing diffoscope
+[2023-06-01 01:09:08] INFO root fetch - processPackages [terrascope-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrascope-sdk-1.0.4.tar.gz tmp/terrascope-sdk-1.0.5.tar.gz --markdown 20230601/t/terrascope-sdk/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-01 01:09:08] INFO root fetch - processPackages [VidBarcodeSimilarities]: executing diffoscope
+[2023-06-01 01:09:08] INFO root fetch - processPackages [VidBarcodeSimilarities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VidBarcodeSimilarities-0.0.1.tar.gz tmp/VidBarcodeSimilarities-0.0.2.tar.gz --markdown 20230601/V/VidBarcodeSimilarities/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 01:09:08] INFO root fetch - processPackages [vscode-task-runner]: Downloading https://files.pythonhosted.org/packages/3f/6a/6dc7a3e148889f479851ee90f14b621938d83f78849549650ba8594c361d/vscode_task_runner-0.1.5.tar.gz
+[2023-06-01 01:09:08] INFO root fetch - processPackages [fad-pytorch]: executing diffoscope
+[2023-06-01 01:09:08] INFO root fetch - processPackages [fad-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fad_pytorch-0.0.2.tar.gz tmp/fad_pytorch-0.0.3.tar.gz --markdown 20230601/f/fad-pytorch/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-01 01:09:08] INFO root fetch - processPackages [vscode-task-runner]: executing diffoscope
+[2023-06-01 01:09:08] INFO root fetch - processPackages [vscode-task-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vscode_task_runner-0.1.4.tar.gz tmp/vscode_task_runner-0.1.5.tar.gz --markdown 20230601/v/vscode-task-runner/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-01 01:09:08] INFO root fetch - processPackages [kattis-problem-setup]: Downloading https://files.pythonhosted.org/packages/ce/9b/81e47e8b7bb603e4809e25d383427be478bae97611d079f3383160a0dcef/kattis-problem-setup-1.0.3.tar.gz
+[2023-06-01 01:09:08] INFO root fetch - processPackages [kattis-problem-setup]: executing diffoscope
+[2023-06-01 01:09:08] INFO root fetch - processPackages [kattis-problem-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kattis-problem-setup-1.0.2.tar.gz tmp/kattis-problem-setup-1.0.3.tar.gz --markdown 20230601/k/kattis-problem-setup/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-01 01:09:08] INFO root fetch - processPackages [meerkat-ml]: Downloading https://files.pythonhosted.org/packages/4a/c8/03b4e33206c80db1eadd12a8da2cb373ac9c7108facc6812dcfd83dcb630/meerkat-ml-0.4.9.tar.gz
+[2023-06-01 01:09:09] INFO root fetch - main [MainThread]: End processing [mongo-tooling-metrics]: success
+[2023-06-01 01:09:09] INFO root fetch - processPackages [meerkat-ml]: executing diffoscope
+[2023-06-01 01:09:09] INFO root fetch - processPackages [meerkat-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerkat-ml-0.4.8.tar.gz tmp/meerkat-ml-0.4.9.tar.gz --markdown 20230601/m/meerkat-ml/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-01 01:09:09] INFO root fetch - main [MainThread]: End processing [wicked-expressions]: success
+[2023-06-01 01:09:09] INFO root fetch - main [MainThread]: End processing [VidBarcodeSimilarities]: success
+[2023-06-01 01:09:09] INFO root fetch - main [MainThread]: End processing [kattis-problem-setup]: success
+[2023-06-01 01:09:09] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-06-01 01:09:10] INFO root fetch - main [MainThread]: End processing [vscode-task-runner]: success
+[2023-06-01 01:09:10] INFO root fetch - main [MainThread]: End processing [fad-pytorch]: success
+[2023-06-01 01:09:10] INFO root fetch - main [MainThread]: End processing [terrascope-sdk]: success
+[2023-06-01 01:09:44] INFO root fetch - main [MainThread]: End processing [meerkat-ml]: success
+[2023-06-01 01:09:44] INFO root fetch - main [MainThread]: Store serial: [18324271]
