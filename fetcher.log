@@ -2890,3 +2890,53 @@
 [2023-06-01 01:49:36] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-01 01:51:03] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-01 01:51:03] INFO root fetch - main [MainThread]: Store serial: [18324574]
+[2023-06-01 01:56:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18324574]
+[2023-06-01 01:56:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-01 01:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ngscrape
+[2023-06-01 01:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: motion-python
+[2023-06-01 01:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Ekidna
+[2023-06-01 01:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyaipersonality
+[2023-06-01 01:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sktime
+[2023-06-01 01:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: un-yaml
+[2023-06-01 01:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ngscrape
+[2023-06-01 01:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fontbakery
+[2023-06-01 01:56:13] INFO root fetch - processPackages [Ekidna]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-01 01:56:13] INFO root fetch - processPackages [sktime]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-01 01:56:13] INFO root fetch - processPackages [motion-python]: New version: [0.1.46] Old Version: [0.1.45]
+[2023-06-01 01:56:13] INFO root fetch - processPackages [ngscrape]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-01 01:56:13] INFO root fetch - processPackages [pyaipersonality]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-06-01 01:56:13] INFO root fetch - processPackages [un-yaml]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-01 01:56:13] INFO root fetch - processPackages [ngscrape]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-01 01:56:13] INFO root fetch - processPackages [fontbakery]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-01 01:56:13] INFO root fetch - processPackages [Ekidna]: Downloading https://files.pythonhosted.org/packages/82/f2/981d28efd20d4fba0a3104e0d4112d8f2d06b2e1fedbb5acca39b1123551/Ekidna-0.0.4.tar.gz
+[2023-06-01 01:56:13] INFO root fetch - processPackages [sktime]: Downloading https://files.pythonhosted.org/packages/14/3c/02b40dd3133f7607421dcc3c5b44747f5bc0f6af14cc7a14e83b686f1ed1/sktime-0.8.1.tar.gz
+[2023-06-01 01:56:13] INFO root fetch - processPackages [un-yaml]: Downloading https://files.pythonhosted.org/packages/a8/53/4b85a4b1e00caf0520c568a83e49588d4bd0056688be1785a47315ee3d68/un_yaml-0.1.2.tar.gz
+[2023-06-01 01:56:13] INFO root fetch - processPackages [un-yaml]: executing diffoscope
+[2023-06-01 01:56:13] INFO root fetch - processPackages [un-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/un_yaml-0.1.1.tar.gz tmp/un_yaml-0.1.2.tar.gz --markdown 20230601/u/un-yaml/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-01 01:56:13] INFO root fetch - processPackages [pyaipersonality]: Downloading https://files.pythonhosted.org/packages/30/74/6f5d15276dd29b0bb192ec77523b29f0bf27f8ef2befe4d31c2319c5a870/pyaipersonality-1.0.0.tar.gz
+[2023-06-01 01:56:13] WARNING root fetch - processPackages [sktime]: Skipping package: exceeds size limit 11076866>=10485760
+[2023-06-01 01:56:13] INFO root fetch - main [MainThread]: End processing [sktime] error
+[2023-06-01 01:56:13] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/1c/02/59ca59f9e442124b5bf68b0fb2831db7e1b3a31f481381412d31c4d51892/motion_python-0.1.46.tar.gz
+[2023-06-01 01:56:13] INFO root fetch - processPackages [pyaipersonality]: executing diffoscope
+[2023-06-01 01:56:13] INFO root fetch - processPackages [pyaipersonality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaipersonality-0.0.9.tar.gz tmp/pyaipersonality-1.0.0.tar.gz --markdown 20230601/p/pyaipersonality/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-06-01 01:56:13] INFO root fetch - processPackages [ngscrape]: Downloading https://files.pythonhosted.org/packages/c7/bc/e92494df26cd5ecf9807c65269a4d82921123682ef1a1887019726b689d1/ngscrape-1.3.2.tar.gz
+[2023-06-01 01:56:13] INFO root fetch - processPackages [ngscrape]: Downloading https://files.pythonhosted.org/packages/c7/bc/e92494df26cd5ecf9807c65269a4d82921123682ef1a1887019726b689d1/ngscrape-1.3.2.tar.gz
+[2023-06-01 01:56:13] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-06-01 01:56:13] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.45.tar.gz tmp/motion_python-0.1.46.tar.gz --markdown 20230601/m/motion-python/0.1.45-0.1.46/diff.md --exclude *.pyd
+[2023-06-01 01:56:13] INFO root fetch - processPackages [ngscrape]: executing diffoscope
+[2023-06-01 01:56:13] INFO root fetch - processPackages [ngscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngscrape-1.3.1.tar.gz tmp/ngscrape-1.3.2.tar.gz --markdown 20230601/n/ngscrape/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-01 01:56:13] INFO root fetch - processPackages [ngscrape]: executing diffoscope
+[2023-06-01 01:56:13] INFO root fetch - processPackages [ngscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngscrape-1.3.1.tar.gz tmp/ngscrape-1.3.2.tar.gz --markdown 20230601/n/ngscrape/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-01 01:56:13] INFO root fetch - processPackages [fontbakery]: Downloading https://files.pythonhosted.org/packages/9a/0a/0236197c37f53277b73f9e7f5fcfbfe15d3ed57aa1f93cf53ad11be8a208/fontbakery-0.8.8.tar.gz
+[2023-06-01 01:56:13] INFO root fetch - processPackages [Ekidna]: Downloading https://files.pythonhosted.org/packages/c3/98/1b3d7ca03faee6a0918213249bc4f4f67bf359c75508f5cbfcd54bc10987/Ekidna-0.0.5.tar.gz
+[2023-06-01 01:56:13] INFO root fetch - processPackages [Ekidna]: executing diffoscope
+[2023-06-01 01:56:13] INFO root fetch - processPackages [Ekidna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Ekidna-0.0.4.tar.gz tmp/Ekidna-0.0.5.tar.gz --markdown 20230601/E/Ekidna/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-01 01:56:14] WARNING root fetch - processPackages [fontbakery]: Skipping package: exceeds size limit 31854112>=10485760
+[2023-06-01 01:56:14] INFO root fetch - main [MainThread]: End processing [fontbakery] error
+[2023-06-01 01:56:14] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-06-01 01:56:14] INFO root fetch - main [MainThread]: End processing [un-yaml]: success
+[2023-06-01 01:56:14] INFO root fetch - main [MainThread]: End processing [pyaipersonality]: success
+[2023-06-01 01:56:15] INFO root fetch - main [MainThread]: End processing [ngscrape]: success
+[2023-06-01 01:56:15] INFO root fetch - main [MainThread]: End processing [Ekidna]: success
+[2023-06-01 01:56:15] INFO root fetch - main [MainThread]: End processing [ngscrape]: success
+[2023-06-01 01:56:15] INFO root fetch - main [MainThread]: Store serial: [18324597]
