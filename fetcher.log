@@ -14494,3 +14494,118 @@
 [2023-06-01 11:27:11] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2023-06-01 11:27:19] INFO root fetch - main [MainThread]: End processing [cornflakes]: success
 [2023-06-01 11:27:19] INFO root fetch - main [MainThread]: Store serial: [18330972]
+[2023-06-01 11:32:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18330972]
+[2023-06-01 11:32:29] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-01 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-client
+[2023-06-01 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-dataset
+[2023-06-01 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-models
+[2023-06-01 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-protos
+[2023-06-01 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-sdk
+[2023-06-01 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-utils
+[2023-06-01 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: strawberry-graphql
+[2023-06-01 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-ipghrms-contract
+[2023-06-01 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lsst-pipe-base
+[2023-06-01 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lsst-ctrl-bps
+[2023-06-01 11:32:29] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 11:32:29] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 11:32:29] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 11:32:29] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 11:32:29] INFO root fetch - processPackages [django-ipghrms-contract]: New version: [1.8] Old Version: [1.6]
+[2023-06-01 11:32:29] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 11:32:29] INFO root fetch - processPackages [lsst-pipe-base]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-01 11:32:29] INFO root fetch - processPackages [lsst-ctrl-bps]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-01 11:32:29] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 11:32:29] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-06-01 11:32:29] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-06-01 11:32:29] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 11:32:29] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-06-01 11:32:29] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230601/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-06-01 11:32:29] INFO root fetch - processPackages [django-ipghrms-contract]: Downloading https://files.pythonhosted.org/packages/96/61/d4eb2207a73f569b80c247aef57b13b043307f6b86b4c9af09ba39316660/django-ipghrms-contract-1.8.tar.gz
+[2023-06-01 11:32:29] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-06-01 11:32:29] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-06-01 11:32:29] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 11:32:29] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 11:32:29] INFO root fetch - processPackages [lsst-ctrl-bps]: executing diffoscope
+[2023-06-01 11:32:29] INFO root fetch - processPackages [lsst-ctrl-bps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-26.0.0a20230500.tar.gz --markdown 20230601/l/lsst-ctrl-bps/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-01 11:32:29] INFO root fetch - processPackages [django-ipghrms-contract]: executing diffoscope
+[2023-06-01 11:32:29] INFO root fetch - processPackages [django-ipghrms-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-contract-1.6.tar.gz tmp/django-ipghrms-contract-1.8.tar.gz --markdown 20230601/d/django-ipghrms-contract/1.6-1.8/diff.md --exclude *.pyd
+[2023-06-01 11:32:29] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-06-01 11:32:29] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-06-01 11:32:29] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 11:32:29] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 11:32:29] INFO root fetch - processPackages [lsst-pipe-base]: executing diffoscope
+[2023-06-01 11:32:29] INFO root fetch - processPackages [lsst-pipe-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pipe-base-26.0.0a20230400.tar.gz tmp/lsst-pipe-base-26.0.0a20230500.tar.gz --markdown 20230601/l/lsst-pipe-base/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-01 11:32:29] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-06-01 11:32:29] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 11:32:30] INFO root fetch - processPackages [nucliadb-client]: Start processing: colablib
+[2023-06-01 11:32:30] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-06-01 11:32:30] INFO root fetch - processPackages [colablib]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-01 11:32:31] INFO root fetch - processPackages [colablib]: Downloading https://files.pythonhosted.org/packages/fb/39/888534ff1c7965266f9651f47f71a26816f70a757387c854ff4f7958f4e4/colablib-0.1.0.tar.gz
+[2023-06-01 11:32:31] INFO root fetch - processPackages [colablib]: Downloading https://files.pythonhosted.org/packages/0c/26/d509047d078f7bb7d9ba7bcf7bd160a148d8beb7c3a8aec700d79a201972/colablib-0.1.1.tar.gz
+[2023-06-01 11:32:31] INFO root fetch - processPackages [colablib]: executing diffoscope
+[2023-06-01 11:32:31] INFO root fetch - processPackages [colablib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colablib-0.1.0.tar.gz tmp/colablib-0.1.1.tar.gz --markdown 20230601/c/colablib/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-01 11:32:31] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: lsst-ctrl-mpexec
+[2023-06-01 11:32:31] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-06-01 11:32:31] INFO root fetch - processPackages [lsst-ctrl-mpexec]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-01 11:32:31] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: nonebot-plugin-arkgacha
+[2023-06-01 11:32:31] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-06-01 11:32:31] INFO root fetch - processPackages [nonebot-plugin-arkgacha]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-01 11:32:31] INFO root fetch - processPackages [lsst-ctrl-mpexec]: executing diffoscope
+[2023-06-01 11:32:31] INFO root fetch - processPackages [lsst-ctrl-mpexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz tmp/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz --markdown 20230601/l/lsst-ctrl-mpexec/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-01 11:32:32] INFO root fetch - processPackages [lsst-ctrl-bps]: Start processing: twigs
+[2023-06-01 11:32:32] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
+[2023-06-01 11:32:32] INFO root fetch - processPackages [twigs]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-01 11:32:32] INFO root fetch - processPackages [strawberry-graphql]: Start processing: rpl
+[2023-06-01 11:32:32] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-06-01 11:32:32] INFO root fetch - processPackages [rpl]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-01 11:32:32] INFO root fetch - processPackages [nonebot-plugin-arkgacha]: Downloading https://files.pythonhosted.org/packages/cb/20/07b788a2625e45a3d97cec9bddb31dbb4a46a18280ff4b8d3b5849e65be3/nonebot_plugin_arkgacha-0.3.0.tar.gz
+[2023-06-01 11:32:32] INFO root fetch - processPackages [nucliadb-protos]: Start processing: hdf5plugin
+[2023-06-01 11:32:32] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-06-01 11:32:32] INFO root fetch - processPackages [hdf5plugin]: New version: [4.1.2] Old Version: [4.1.1]
+[2023-06-01 11:32:32] INFO root fetch - processPackages [nucliadb-utils]: Start processing: spaces
+[2023-06-01 11:32:32] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-06-01 11:32:32] INFO root fetch - processPackages [nucliadb-models]: Start processing: django-ipghrms-employee
+[2023-06-01 11:32:32] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-06-01 11:32:32] INFO root fetch - processPackages [django-ipghrms-employee]: New version: [1.4] Old Version: [1.3]
+[2023-06-01 11:32:32] INFO root fetch - processPackages [spaces]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-01 11:32:32] INFO root fetch - processPackages [nonebot-plugin-arkgacha]: executing diffoscope
+[2023-06-01 11:32:32] INFO root fetch - processPackages [nonebot-plugin-arkgacha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_arkgacha-0.2.2.tar.gz tmp/nonebot_plugin_arkgacha-0.3.0.tar.gz --markdown 20230601/n/nonebot-plugin-arkgacha/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-01 11:32:32] INFO root fetch - processPackages [twigs]: Downloading https://files.pythonhosted.org/packages/48/d4/68adcc842577341551e4f4268c3f78866b55de0c9e324483d9de1b666386/twigs-1.1.8.tar.gz
+[2023-06-01 11:32:32] INFO root fetch - processPackages [hdf5plugin]: Downloading https://files.pythonhosted.org/packages/2d/4c/9ac23ee6fb3f85e96f92ed0592e073764346e02db68637e3f82cf24c69df/hdf5plugin-4.1.1.tar.gz
+[2023-06-01 11:32:32] INFO root fetch - processPackages [django-ipghrms-employee]: Downloading https://files.pythonhosted.org/packages/20/77/c799f9c5500d0236b8adfe26ffe12f365d915dc3ee09280f12103d8ee72f/django-ipghrms-employee-1.4.tar.gz
+[2023-06-01 11:32:32] INFO root fetch - processPackages [rpl]: Downloading https://files.pythonhosted.org/packages/48/8c/da3d490214ee20fe49db7cd19fee78c4dffb37455b307d4ae4405b1428e3/rpl-1.9.1.tar.gz
+[2023-06-01 11:32:32] WARNING root fetch - processPackages [hdf5plugin]: Skipping package: exceeds size limit 24308737>=10485760
+[2023-06-01 11:32:32] INFO root fetch - processPackages [hdf5plugin]: Start processing: inhandtest
+[2023-06-01 11:32:32] INFO root fetch - main [MainThread]: End processing [hdf5plugin] error
+[2023-06-01 11:32:32] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/99/42/141dfbc352bc7fb9a53381f125ff03c56ea176dc94d381441b2cdc9172a1/spaces-0.1.3.tar.gz
+[2023-06-01 11:32:32] INFO root fetch - processPackages [inhandtest]: New version: [0.0.51] Old Version: [0.0.50]
+[2023-06-01 11:32:32] INFO root fetch - processPackages [django-ipghrms-employee]: executing diffoscope
+[2023-06-01 11:32:32] INFO root fetch - processPackages [django-ipghrms-employee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-employee-1.3.tar.gz tmp/django-ipghrms-employee-1.4.tar.gz --markdown 20230601/d/django-ipghrms-employee/1.3-1.4/diff.md --exclude *.pyd
+[2023-06-01 11:32:32] INFO root fetch - processPackages [twigs]: Downloading https://files.pythonhosted.org/packages/87/16/2f49ac4cac24277167593805bf404e8590aaab1f2e1fa161752ff48a2074/twigs-1.1.9.tar.gz
+[2023-06-01 11:32:32] INFO root fetch - processPackages [rpl]: Downloading https://files.pythonhosted.org/packages/a8/66/cf038e4e3b0b1895e2518c9bbfce0168f4ce16706ea957546643064d92f5/rpl-1.9.2.tar.gz
+[2023-06-01 11:32:32] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/77/de/725ce1248ced0451786a8829ae6073f4ec59c91d22f364c3257dfc72fc21/spaces-0.2.0.tar.gz
+[2023-06-01 11:32:32] INFO root fetch - processPackages [rpl]: executing diffoscope
+[2023-06-01 11:32:32] INFO root fetch - processPackages [rpl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpl-1.9.1.tar.gz tmp/rpl-1.9.2.tar.gz --markdown 20230601/r/rpl/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-01 11:32:32] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/13/2f/24565830cc950ea1fc4f1c9b20a3465a81d770aca89b077be4868d2c718d/inhandtest-0.0.51.tar.gz
+[2023-06-01 11:32:32] INFO root fetch - processPackages [colablib]: Start processing: halborn-ctf
+[2023-06-01 11:32:32] INFO root fetch - main [MainThread]: End processing [colablib]: success
+[2023-06-01 11:32:32] INFO root fetch - processPackages [twigs]: executing diffoscope
+[2023-06-01 11:32:32] INFO root fetch - processPackages [twigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twigs-1.1.8.tar.gz tmp/twigs-1.1.9.tar.gz --markdown 20230601/t/twigs/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-01 11:32:32] INFO root fetch - processPackages [halborn-ctf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 11:32:32] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-06-01 11:32:32] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.50.tar.gz tmp/inhandtest-0.0.51.tar.gz --markdown 20230601/i/inhandtest/0.0.50-0.0.51/diff.md --exclude *.pyd
+[2023-06-01 11:32:32] INFO root fetch - processPackages [spaces]: executing diffoscope
+[2023-06-01 11:32:32] INFO root fetch - processPackages [spaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaces-0.1.3.tar.gz tmp/spaces-0.2.0.tar.gz --markdown 20230601/s/spaces/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-01 11:32:33] INFO root fetch - processPackages [halborn-ctf]: executing diffoscope
+[2023-06-01 11:32:33] INFO root fetch - processPackages [halborn-ctf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halborn_ctf-0.1.8.tar.gz tmp/halborn_ctf-0.1.9.tar.gz --markdown 20230601/h/halborn-ctf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 11:32:33] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-arkgacha]: success
+[2023-06-01 11:32:34] INFO root fetch - main [MainThread]: End processing [rpl]: success
+[2023-06-01 11:32:34] INFO root fetch - main [MainThread]: End processing [django-ipghrms-contract]: success
+[2023-06-01 11:32:34] INFO root fetch - main [MainThread]: End processing [spaces]: success
+[2023-06-01 11:32:34] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
+[2023-06-01 11:32:34] INFO root fetch - main [MainThread]: End processing [halborn-ctf]: success
+[2023-06-01 11:32:35] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-06-01 11:32:35] INFO root fetch - main [MainThread]: End processing [twigs]: success
+[2023-06-01 11:32:36] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-mpexec]: success
+[2023-06-01 11:32:38] INFO root fetch - main [MainThread]: End processing [django-ipghrms-employee]: success
+[2023-06-01 11:32:38] INFO root fetch - main [MainThread]: Store serial: [18331030]
