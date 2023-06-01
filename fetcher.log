@@ -10380,3 +10380,52 @@
 [2023-06-01 07:47:10] INFO root fetch - main [MainThread]: End processing [pytorch-partial-tagger]: success
 [2023-06-01 07:47:10] INFO root fetch - main [MainThread]: End processing [vcftoolz]: success
 [2023-06-01 07:47:10] INFO root fetch - main [MainThread]: Store serial: [18328579]
+[2023-06-01 07:52:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18328579]
+[2023-06-01 07:52:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-01 07:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ir-digit
+[2023-06-01 07:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: randomqq
+[2023-06-01 07:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seven-cloudapp-frame
+[2023-06-01 07:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-es-ticketbai-api-batuz
+[2023-06-01 07:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-es-ticketbai
+[2023-06-01 07:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: validmind
+[2023-06-01 07:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: randomyy
+[2023-06-01 07:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anonupload
+[2023-06-01 07:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bridgecrew
+[2023-06-01 07:52:19] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api-batuz]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-06-01 07:52:19] WARNING root fetch - processPackages [randomqq]: Skipping, unable to determine old version
+[2023-06-01 07:52:19] INFO root fetch - main [MainThread]: End processing [randomqq] error
+[2023-06-01 07:52:19] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: New version: [16.0.1.0.5.1] Old Version: [16.0.1.0.5]
+[2023-06-01 07:52:19] INFO root fetch - processPackages [ir-digit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 07:52:19] WARNING root fetch - processPackages [randomyy]: Skipping, unable to determine old version
+[2023-06-01 07:52:19] INFO root fetch - main [MainThread]: End processing [randomyy] error
+[2023-06-01 07:52:19] INFO root fetch - processPackages [validmind]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-06-01 07:52:19] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-06-01 07:52:20] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-01 07:52:20] INFO root fetch - processPackages [anonupload]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-01 07:52:20] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api-batuz]: Downloading https://files.pythonhosted.org/packages/5e/50/ef8b68d071ed662ce849647129528ffee425def4cc85b787485247107bef/odoo_addon_l10n_es_ticketbai_api_batuz-16.0.1.0.1.1-py3-none-any.whl
+[2023-06-01 07:52:20] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-06-01 07:52:20] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-06-01 07:52:20] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230601/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-01 07:52:20] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230601/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-06-01 07:52:20] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/13/8d/28f7eda19d06a28525737eac0126409e56176e1a3db989013d202807f091/ir_digit-0.0.8.tar.gz
+[2023-06-01 07:52:20] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: Downloading https://files.pythonhosted.org/packages/2f/f8/cfca44180087c52c0628173c288638270615f167088c3559522a3c52db80/odoo_addon_l10n_es_ticketbai-16.0.1.0.5.1-py3-none-any.whl
+[2023-06-01 07:52:20] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: executing diffoscope
+[2023-06-01 07:52:20] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_ticketbai-16.0.1.0.5-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_ticketbai-16.0.1.0.5.1-py3-none-any.whl.zip --markdown 20230601/o/odoo-addon-l10n-es-ticketbai/16.0.1.0.5-16.0.1.0.5.1/diff.md --exclude *.pyd
+[2023-06-01 07:52:20] INFO root fetch - processPackages [anonupload]: Downloading https://files.pythonhosted.org/packages/34/71/d9a9d3d4835c50da08b23e3ec04df90463fd03704cfa3a6718f8e2c4330b/anonupload-1.1.7-py3-none-any.whl
+[2023-06-01 07:52:20] INFO root fetch - processPackages [anonupload]: executing diffoscope
+[2023-06-01 07:52:20] INFO root fetch - processPackages [anonupload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anonupload-1.1.6-py3-none-any.whl.zip tmp/anonupload-1.1.7-py3-none-any.whl.zip --markdown 20230601/a/anonupload/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-01 07:52:20] INFO root fetch - processPackages [validmind]: executing diffoscope
+[2023-06-01 07:52:20] INFO root fetch - processPackages [validmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validmind-1.9.6.tar.gz tmp/validmind-1.9.7.tar.gz --markdown 20230601/v/validmind/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-06-01 07:52:20] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/c0/e1/8cdd06668f7ad179caab43915da3e6ca91882c998be4777dc2b190a0b1fd/ir_digit-0.0.9.tar.gz
+[2023-06-01 07:52:20] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api-batuz]: executing diffoscope
+[2023-06-01 07:52:20] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api-batuz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_ticketbai_api_batuz-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_ticketbai_api_batuz-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230601/o/odoo-addon-l10n-es-ticketbai-api-batuz/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-06-01 07:52:20] INFO root fetch - processPackages [ir-digit]: executing diffoscope
+[2023-06-01 07:52:20] INFO root fetch - processPackages [ir-digit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_digit-0.0.8.tar.gz tmp/ir_digit-0.0.9.tar.gz --markdown 20230601/i/ir-digit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 07:52:21] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-06-01 07:52:21] INFO root fetch - main [MainThread]: End processing [anonupload]: success
+[2023-06-01 07:52:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-ticketbai]: success
+[2023-06-01 07:52:22] INFO root fetch - main [MainThread]: End processing [ir-digit]: success
+[2023-06-01 07:52:22] INFO root fetch - main [MainThread]: End processing [validmind]: success
+[2023-06-01 07:52:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-ticketbai-api-batuz]: success
+[2023-06-01 07:52:23] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-06-01 07:52:23] INFO root fetch - main [MainThread]: Store serial: [18328613]
