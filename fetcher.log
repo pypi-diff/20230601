@@ -17238,3 +17238,64 @@
 [2023-06-01 14:06:58] INFO root fetch - main [MainThread]: End processing [python-copasi]: success
 [2023-06-01 14:06:58] INFO root fetch - main [MainThread]: End processing [google-cloud-videointelligence]: success
 [2023-06-01 14:06:58] INFO root fetch - main [MainThread]: Store serial: [18332634]
+[2023-06-01 14:12:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18332634]
+[2023-06-01 14:12:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-01 14:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-agents-nightly
+[2023-06-01 14:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yaml-config-builder
+[2023-06-01 14:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kili
+[2023-06-01 14:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lnschema_lamin1
+[2023-06-01 14:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elevenlabslib
+[2023-06-01 14:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odh-core
+[2023-06-01 14:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wedeliver-core
+[2023-06-01 14:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gmcapsule
+[2023-06-01 14:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mstrio-py
+[2023-06-01 14:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: th2-data-services-lwdp
+[2023-06-01 14:12:08] INFO root fetch - processPackages [yaml-config-builder]: New version: [8.1.0] Old Version: [8.0.2]
+[2023-06-01 14:12:08] INFO root fetch - processPackages [gmcapsule]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-01 14:12:08] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-06-01 14:12:08] INFO root fetch - processPackages [odh-core]: New version: [0.1.9] Old Version: [0.1.22]
+[2023-06-01 14:12:08] INFO root fetch - processPackages [lnschema_lamin1]: New version: [0.18a1] Old Version: [0.17a3]
+[2023-06-01 14:12:08] INFO root fetch - processPackages [mstrio-py]: New version: [11.3.9.103] Old Version: [11.3.9.101]
+[2023-06-01 14:12:09] INFO root fetch - processPackages [elevenlabslib]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-01 14:12:09] INFO root fetch - processPackages [wedeliver-core]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-06-01 14:12:09] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-06-01 14:12:09] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.0.3.0.dev5144116749] Old Version: [2.0.3.0.dev5134288687]
+[2023-06-01 14:12:09] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230601/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-06-01 14:12:09] INFO root fetch - processPackages [kili]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-06-01 14:12:09] INFO root fetch - processPackages [odh-core]: executing diffoscope
+[2023-06-01 14:12:09] INFO root fetch - processPackages [odh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odh_core-0.1.22.tar.gz tmp/odh_core-0.1.9.tar.gz --markdown 20230601/o/odh-core/0.1.22-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 14:12:09] INFO root fetch - processPackages [mstrio-py]: Downloading https://files.pythonhosted.org/packages/a4/d2/b42ff7f4678478c1e261af14f326b5e893d426d1ec4aed816b5f09208632/mstrio-py-11.3.9.101.tar.gz
+[2023-06-01 14:12:09] INFO root fetch - processPackages [gmcapsule]: executing diffoscope
+[2023-06-01 14:12:09] INFO root fetch - processPackages [gmcapsule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmcapsule-0.3.2.tar.gz tmp/gmcapsule-0.4.0.tar.gz --markdown 20230601/g/gmcapsule/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-01 14:12:09] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/fd/f6/5b07c2f4f4380a3a01662ce60ffa309234fe238f4966bf6aa4b386abf0a7/th2_data_services_lwdp-2.0.3.0.dev5144116749.tar.gz
+[2023-06-01 14:12:09] INFO root fetch - processPackages [yaml-config-builder]: Downloading https://files.pythonhosted.org/packages/f2/7a/852538ac124650d4f2d53cd1b96bde08d9367fb12114cc8e1a04bf1d4683/yaml_config_builder-8.1.0.tar.gz
+[2023-06-01 14:12:09] INFO root fetch - processPackages [wedeliver-core]: Downloading https://files.pythonhosted.org/packages/9a/15/1147ced958419a68c8dd48de693518d8ad8622d65a1db808fcf528b657ca/wedeliver_core-0.6.4.tar.gz
+[2023-06-01 14:12:09] INFO root fetch - processPackages [lnschema_lamin1]: Downloading https://files.pythonhosted.org/packages/d3/21/f47ed5a62d57388e40c80c26a4b8d16017a0a9fea5e95799471338a115d0/lnschema_lamin1-0.18a1.tar.gz
+[2023-06-01 14:12:09] INFO root fetch - processPackages [yaml-config-builder]: executing diffoscope
+[2023-06-01 14:12:09] INFO root fetch - processPackages [yaml-config-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml_config_builder-8.0.2.tar.gz tmp/yaml_config_builder-8.1.0.tar.gz --markdown 20230601/y/yaml-config-builder/8.0.2-8.1.0/diff.md --exclude *.pyd
+[2023-06-01 14:12:09] INFO root fetch - processPackages [elevenlabslib]: Downloading https://files.pythonhosted.org/packages/47/94/b6a2cdfb4f64c3571777213e86579f884c7a6ad73776126a8edc608a4354/elevenlabslib-0.9.0.tar.gz
+[2023-06-01 14:12:09] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-01 14:12:09] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.0.3.0.dev5134288687.tar.gz tmp/th2_data_services_lwdp-2.0.3.0.dev5144116749.tar.gz --markdown 20230601/t/th2-data-services-lwdp/2.0.3.0.dev5134288687-2.0.3.0.dev5144116749/diff.md --exclude *.pyd
+[2023-06-01 14:12:09] INFO root fetch - processPackages [kili]: executing diffoscope
+[2023-06-01 14:12:09] INFO root fetch - processPackages [kili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kili-2.98.0.tar.gz tmp/kili-2.99.0.tar.gz --markdown 20230601/k/kili/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-06-01 14:12:09] INFO root fetch - processPackages [lnschema_lamin1]: executing diffoscope
+[2023-06-01 14:12:09] INFO root fetch - processPackages [lnschema_lamin1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_lamin1-0.17a3.tar.gz tmp/lnschema_lamin1-0.18a1.tar.gz --markdown 20230601/l/lnschema_lamin1/0.17a3-0.18a1/diff.md --exclude *.pyd
+[2023-06-01 14:12:09] INFO root fetch - processPackages [elevenlabslib]: executing diffoscope
+[2023-06-01 14:12:09] INFO root fetch - processPackages [elevenlabslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elevenlabslib-0.8.2.tar.gz tmp/elevenlabslib-0.9.0.tar.gz --markdown 20230601/e/elevenlabslib/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 14:12:09] INFO root fetch - processPackages [wedeliver-core]: Downloading https://files.pythonhosted.org/packages/01/bf/4135e4cc3342184e0b4782e69c12272fb26a0c727ba6ab22261171cf3b19/wedeliver_core-0.6.5.tar.gz
+[2023-06-01 14:12:09] INFO root fetch - processPackages [mstrio-py]: Downloading https://files.pythonhosted.org/packages/89/7d/26554e41bec458147ea8ec867cfb44d29d9bad1d5219f1a9685e5787dd94/mstrio-py-11.3.9.103.tar.gz
+[2023-06-01 14:12:09] INFO root fetch - processPackages [wedeliver-core]: executing diffoscope
+[2023-06-01 14:12:09] INFO root fetch - processPackages [wedeliver-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wedeliver_core-0.6.4.tar.gz tmp/wedeliver_core-0.6.5.tar.gz --markdown 20230601/w/wedeliver-core/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-06-01 14:12:09] INFO root fetch - processPackages [mstrio-py]: executing diffoscope
+[2023-06-01 14:12:09] INFO root fetch - processPackages [mstrio-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mstrio-py-11.3.9.101.tar.gz tmp/mstrio-py-11.3.9.103.tar.gz --markdown 20230601/m/mstrio-py/11.3.9.101-11.3.9.103/diff.md --exclude *.pyd
+[2023-06-01 14:12:10] INFO root fetch - main [MainThread]: End processing [odh-core]: success
+[2023-06-01 14:12:10] INFO root fetch - main [MainThread]: End processing [gmcapsule]: success
+[2023-06-01 14:12:11] INFO root fetch - main [MainThread]: End processing [yaml-config-builder]: success
+[2023-06-01 14:12:11] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-01 14:12:11] INFO root fetch - main [MainThread]: End processing [lnschema_lamin1]: success
+[2023-06-01 14:12:11] INFO root fetch - main [MainThread]: End processing [elevenlabslib]: success
+[2023-06-01 14:12:11] INFO root fetch - main [MainThread]: End processing [wedeliver-core]: success
+[2023-06-01 14:12:11] INFO root fetch - main [MainThread]: End processing [kili]: success
+[2023-06-01 14:12:16] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-06-01 14:12:17] INFO root fetch - main [MainThread]: End processing [mstrio-py]: success
+[2023-06-01 14:12:17] INFO root fetch - main [MainThread]: Store serial: [18332793]
