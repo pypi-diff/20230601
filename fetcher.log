@@ -10665,3 +10665,94 @@
 [2023-06-01 08:13:38] INFO root fetch - main [MainThread]: End processing [bp-data-grid]: success
 [2023-06-01 08:14:06] INFO root fetch - main [MainThread]: End processing [pytheia]: success
 [2023-06-01 08:14:06] INFO root fetch - main [MainThread]: Store serial: [18328775]
+[2023-06-01 08:19:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18328775]
+[2023-06-01 08:19:20] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-01 08:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bp-data-fabric
+[2023-06-01 08:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omnata-plugin-devkit
+[2023-06-01 08:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: innerverz
+[2023-06-01 08:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beancount-cc-importers
+[2023-06-01 08:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-06-01 08:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antchain-baasdigital
+[2023-06-01 08:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-06-01 08:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-prototyping-sdk.identity
+[2023-06-01 08:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-06-01 08:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-06-01 08:19:20] INFO root fetch - processPackages [innerverz]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-06-01 08:19:20] WARNING root fetch - processPackages [omnata-plugin-devkit]: Skipping, unable to determine old version
+[2023-06-01 08:19:20] INFO root fetch - processPackages [omnata-plugin-devkit]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-06-01 08:19:20] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit] error
+[2023-06-01 08:19:20] INFO root fetch - processPackages [bp-data-fabric]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 08:19:20] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-06-01 08:19:20] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 08:19:20] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 08:19:20] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 08:19:20] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 08:19:20] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 08:19:21] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/9b/9d/e0b01f09029cc3275b5cbb982ad82eb722a32dabcd2db0b85d04e5e1e95e/aws_prototyping_sdk.aws_arch-0.19.8.tar.gz
+[2023-06-01 08:19:21] WARNING root fetch - processPackages [beancount-cc-importers]: Skipping, unable to determine old version
+[2023-06-01 08:19:21] INFO root fetch - processPackages [beancount-cc-importers]: Start processing: innerverz
+[2023-06-01 08:19:21] INFO root fetch - main [MainThread]: End processing [beancount-cc-importers] error
+[2023-06-01 08:19:21] INFO root fetch - processPackages [antchain-baasdigital]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-01 08:19:21] INFO root fetch - processPackages [innerverz]: New version: [0.0.27] Old Version: [0.0.26]
+[2023-06-01 08:19:21] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-06-01 08:19:21] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230601/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 08:19:21] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19300041>=10485760
+[2023-06-01 08:19:21] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Start processing: aws-prototyping-sdk.pipeline
+[2023-06-01 08:19:21] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-06-01 08:19:21] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-06-01 08:19:21] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230601/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 08:19:21] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-06-01 08:19:21] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230601/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 08:19:21] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 08:19:21] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-06-01 08:19:21] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230601/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 08:19:21] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/3a/0c/2aa0e263cf6d0504d303011975f3f7b8b6bead1c8361243e0cdf1996f327/innerverz-0.0.25.tar.gz
+[2023-06-01 08:19:21] INFO root fetch - processPackages [antchain-baasdigital]: Downloading https://files.pythonhosted.org/packages/db/67/667b11fda68948210c7d24bdae290fc04525ed499dd4f8369e0f87b5f4b2/antchain_baasdigital-1.2.1.tar.gz
+[2023-06-01 08:19:21] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-06-01 08:19:21] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/fd/f6/90e282013551e86c3cb1a03845554057f7df0d4844f400026ca3c98a859a/innerverz-0.0.26.tar.gz
+[2023-06-01 08:19:21] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230601/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 08:19:21] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-06-01 08:19:21] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230601/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 08:19:21] INFO root fetch - processPackages [innerverz]: executing diffoscope
+[2023-06-01 08:19:21] INFO root fetch - processPackages [innerverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz-0.0.24.tar.gz tmp/innerverz-0.0.25.tar.gz --markdown 20230601/i/innerverz/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-06-01 08:19:21] INFO root fetch - processPackages [bp-data-fabric]: executing diffoscope
+[2023-06-01 08:19:21] INFO root fetch - processPackages [bp-data-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_fabric-1.0.8.tar.gz tmp/bp_data_fabric-1.0.9.tar.gz --markdown 20230601/b/bp-data-fabric/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 08:19:21] INFO root fetch - processPackages [antchain-baasdigital]: Downloading https://files.pythonhosted.org/packages/7d/f5/34370be2b799d72ca2f8450e590722ca0d610e8f71fff132e3be5ad60d2e/antchain_baasdigital-1.2.2.tar.gz
+[2023-06-01 08:19:21] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/2c/48/5880f6eeb42ed0458fa4b0119d650a64a8908f839f9388160914a1109f6e/innerverz-0.0.27.tar.gz
+[2023-06-01 08:19:21] INFO root fetch - processPackages [antchain-baasdigital]: executing diffoscope
+[2023-06-01 08:19:21] INFO root fetch - processPackages [antchain-baasdigital]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_baasdigital-1.2.1.tar.gz tmp/antchain_baasdigital-1.2.2.tar.gz --markdown 20230601/a/antchain-baasdigital/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-01 08:19:21] INFO root fetch - processPackages [innerverz]: executing diffoscope
+[2023-06-01 08:19:21] INFO root fetch - processPackages [innerverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz-0.0.26.tar.gz tmp/innerverz-0.0.27.tar.gz --markdown 20230601/i/innerverz/0.0.26-0.0.27/diff.md --exclude *.pyd
+[2023-06-01 08:19:22] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Start processing: aws-prototyping-sdk.static-website
+[2023-06-01 08:19:22] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-06-01 08:19:22] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 08:19:22] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Start processing: typedload
+[2023-06-01 08:19:22] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-06-01 08:19:22] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-06-01 08:19:22] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230601/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 08:19:22] INFO root fetch - processPackages [typedload]: New version: [2.9] Old Version: [2.8]
+[2023-06-01 08:19:22] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-06-01 08:19:22] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-06-01 08:19:22] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-06-01 08:19:22] INFO root fetch - processPackages [typedload]: Downloading https://files.pythonhosted.org/packages/1a/9c/b3e79bbe539b796edf6f784dfe2cd45ba8c239e727d1a2bd66bae1ce323b/typedload-2.8.tar.gz
+[2023-06-01 08:19:23] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-06-01 08:19:23] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz --markdown 20230601/a/aws-prototyping-sdk.type-safe-api/0.19.8-0.19.9/diff.md --exclude *.pyd
+[2023-06-01 08:19:23] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Start processing: nbox
+[2023-06-01 08:19:23] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-06-01 08:19:23] INFO root fetch - main [MainThread]: End processing [bp-data-fabric]: success
+[2023-06-01 08:19:23] INFO root fetch - processPackages [typedload]: Downloading https://files.pythonhosted.org/packages/16/9e/9a2ddfc41dadcfa54a39c136817e339764a9005b8ba3fad58d75a9592040/typedload-2.9.tar.gz
+[2023-06-01 08:19:23] INFO root fetch - processPackages [nbox]: New version: [0.9.9rc0] Old Version: [0.9.9]
+[2023-06-01 08:19:23] INFO root fetch - processPackages [typedload]: executing diffoscope
+[2023-06-01 08:19:23] INFO root fetch - processPackages [typedload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedload-2.8.tar.gz tmp/typedload-2.9.tar.gz --markdown 20230601/t/typedload/2.8-2.9/diff.md --exclude *.pyd
+[2023-06-01 08:19:23] INFO root fetch - main [MainThread]: End processing [innerverz]: success
+[2023-06-01 08:19:23] INFO root fetch - processPackages [nbox]: executing diffoscope
+[2023-06-01 08:19:23] INFO root fetch - processPackages [nbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbox-0.9.9.tar.gz tmp/nbox-0.9.9rc0.tar.gz --markdown 20230601/n/nbox/0.9.9-0.9.9rc0/diff.md --exclude *.pyd
+[2023-06-01 08:19:23] INFO root fetch - main [MainThread]: End processing [innerverz]: success
+[2023-06-01 08:19:24] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-06-01 08:19:24] INFO root fetch - main [MainThread]: End processing [antchain-baasdigital]: success
+[2023-06-01 08:19:24] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-06-01 08:19:24] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-06-01 08:19:24] INFO root fetch - main [MainThread]: End processing [typedload]: success
+[2023-06-01 08:19:24] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-06-01 08:19:25] INFO root fetch - main [MainThread]: End processing [nbox]: success
+[2023-06-01 08:19:25] INFO root fetch - main [MainThread]: Store serial: [18328834]
