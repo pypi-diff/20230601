@@ -15958,3 +15958,107 @@
 [2023-06-01 12:48:19] INFO root fetch - main [MainThread]: End processing [pyxel-sim]: success
 [2023-06-01 12:48:22] INFO root fetch - main [MainThread]: End processing [twilio]: success
 [2023-06-01 12:48:22] INFO root fetch - main [MainThread]: Store serial: [18331833]
+[2023-06-01 12:53:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18331833]
+[2023-06-01 12:53:31] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-01 12:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modAL-python
+[2023-06-01 12:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: repository-cli
+[2023-06-01 12:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nico-font-tool
+[2023-06-01 12:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: google-cloud-speech
+[2023-06-01 12:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invenio-records-lom
+[2023-06-01 12:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bmsdna-lakeapi
+[2023-06-01 12:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: influxdb3-python
+[2023-06-01 12:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: katsdpsigproc
+[2023-06-01 12:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gotrue
+[2023-06-01 12:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: colablib
+[2023-06-01 12:53:31] INFO root fetch - processPackages [nico-font-tool]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-01 12:53:31] INFO root fetch - processPackages [repository-cli]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-01 12:53:31] INFO root fetch - processPackages [influxdb3-python]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-06-01 12:53:31] INFO root fetch - processPackages [modAL-python]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-01 12:53:31] INFO root fetch - processPackages [invenio-records-lom]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-01 12:53:31] INFO root fetch - processPackages [katsdpsigproc]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-06-01 12:53:31] INFO root fetch - processPackages [colablib]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-01 12:53:31] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-06-01 12:53:31] INFO root fetch - processPackages [google-cloud-speech]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-06-01 12:53:31] INFO root fetch - processPackages [gotrue]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-01 12:53:32] INFO root fetch - processPackages [katsdpsigproc]: Downloading https://files.pythonhosted.org/packages/de/0f/3719e1c599bfd365a5f1d49ae1c1d7b39c2c2776ee297bfeb93068d35c98/katsdpsigproc-1.6.1.tar.gz
+[2023-06-01 12:53:32] INFO root fetch - processPackages [influxdb3-python]: Downloading https://files.pythonhosted.org/packages/e8/69/6d4a47a750d6510e33341d93f3db1ce083e43619097bf6852c1b834dda12/influxdb3-python-0.0.0.tar.gz
+[2023-06-01 12:53:32] INFO root fetch - processPackages [invenio-records-lom]: Downloading https://files.pythonhosted.org/packages/a7/d9/b366af89a5d223ea850fb149d543d8535f1a63df7d6aaf194b788ade4a81/invenio-records-lom-0.8.1.tar.gz
+[2023-06-01 12:53:32] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/e3/3f/bce7c0f000cf6695629e6ae324265140bfe1fb8b26f7574d9294183e4d64/bmsdna_lakeapi-0.6.0.tar.gz
+[2023-06-01 12:53:32] INFO root fetch - processPackages [colablib]: Downloading https://files.pythonhosted.org/packages/6e/c5/514f92900b7d6d742ffe89e335fd7611a88367bd2dc575dd244d87081e5b/colablib-0.1.4.tar.gz
+[2023-06-01 12:53:32] INFO root fetch - processPackages [nico-font-tool]: Downloading https://files.pythonhosted.org/packages/2f/30/06c486574e5d2af6b44eb30ac676e4590a059b0e94a138272b6f959b5b4c/nico-font-tool-0.0.6.tar.gz
+[2023-06-01 12:53:32] INFO root fetch - processPackages [gotrue]: Downloading https://files.pythonhosted.org/packages/57/4a/dab4ca4dc4bfba15794a34744be9091f8da0c55576690d876825d1bf12e7/gotrue-1.0.1.tar.gz
+[2023-06-01 12:53:32] INFO root fetch - processPackages [modAL-python]: Downloading https://files.pythonhosted.org/packages/8d/d1/2175cb9957861659b588e66f966f4fe03d50ddd3f0d07decfda5af341621/modAL-python-0.3.2.tar.gz
+[2023-06-01 12:53:32] INFO root fetch - processPackages [google-cloud-speech]: Downloading https://files.pythonhosted.org/packages/8c/e0/acf355fc1e6c4240e40192f64e458000081e9e30f2a606ce8f9ce3248717/google-cloud-speech-2.9.2.tar.gz
+[2023-06-01 12:53:32] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-06-01 12:53:32] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.5.2.tar.gz tmp/bmsdna_lakeapi-0.6.0.tar.gz --markdown 20230601/b/bmsdna-lakeapi/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-06-01 12:53:32] INFO root fetch - processPackages [colablib]: executing diffoscope
+[2023-06-01 12:53:32] INFO root fetch - processPackages [colablib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colablib-0.1.3.tar.gz tmp/colablib-0.1.4.tar.gz --markdown 20230601/c/colablib/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-01 12:53:32] INFO root fetch - processPackages [nico-font-tool]: executing diffoscope
+[2023-06-01 12:53:32] INFO root fetch - processPackages [nico-font-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nico-font-tool-0.0.5.tar.gz tmp/nico-font-tool-0.0.6.tar.gz --markdown 20230601/n/nico-font-tool/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-01 12:53:32] INFO root fetch - processPackages [repository-cli]: Downloading https://files.pythonhosted.org/packages/26/34/e9da93df2db0d7f1502e5e0a960eaad70b4d5aa559624dfe20abbf56549d/repository-cli-0.8.0.tar.gz
+[2023-06-01 12:53:32] INFO root fetch - processPackages [influxdb3-python]: Downloading https://files.pythonhosted.org/packages/c7/03/0806dba6d881374163601cbe66a66f525dadf720b80e6f1b0e9f9105b87e/influxdb3-python-0.1.0.tar.gz
+[2023-06-01 12:53:32] INFO root fetch - processPackages [katsdpsigproc]: Downloading https://files.pythonhosted.org/packages/5a/48/24534e34e8b8b8c523a3fb4441e85de6f5f50177173d5a12d43227794f22/katsdpsigproc-1.7.0.tar.gz
+[2023-06-01 12:53:32] INFO root fetch - processPackages [invenio-records-lom]: Downloading https://files.pythonhosted.org/packages/d2/a1/a4f27a3949cb9641f050db71c0e20941c366e57450ec499c9f5e40d718c4/invenio-records-lom-0.9.0.tar.gz
+[2023-06-01 12:53:32] INFO root fetch - processPackages [gotrue]: Downloading https://files.pythonhosted.org/packages/2c/34/761b71dcc52925be3c89703970a7fb79aa024fd579b750b59a6a640a2d33/gotrue-1.0.2.tar.gz
+[2023-06-01 12:53:32] INFO root fetch - processPackages [influxdb3-python]: executing diffoscope
+[2023-06-01 12:53:32] INFO root fetch - processPackages [influxdb3-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influxdb3-python-0.0.0.tar.gz tmp/influxdb3-python-0.1.0.tar.gz --markdown 20230601/i/influxdb3-python/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-06-01 12:53:32] INFO root fetch - processPackages [katsdpsigproc]: executing diffoscope
+[2023-06-01 12:53:32] INFO root fetch - processPackages [katsdpsigproc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katsdpsigproc-1.6.1.tar.gz tmp/katsdpsigproc-1.7.0.tar.gz --markdown 20230601/k/katsdpsigproc/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-06-01 12:53:32] INFO root fetch - processPackages [invenio-records-lom]: executing diffoscope
+[2023-06-01 12:53:32] INFO root fetch - processPackages [invenio-records-lom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-lom-0.8.1.tar.gz tmp/invenio-records-lom-0.9.0.tar.gz --markdown 20230601/i/invenio-records-lom/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 12:53:32] INFO root fetch - processPackages [gotrue]: executing diffoscope
+[2023-06-01 12:53:32] INFO root fetch - processPackages [gotrue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gotrue-1.0.1.tar.gz tmp/gotrue-1.0.2.tar.gz --markdown 20230601/g/gotrue/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-01 12:53:32] INFO root fetch - processPackages [modAL-python]: Downloading https://files.pythonhosted.org/packages/46/60/86667fcb5966da3cf318508b0e6c1843a9ee38bba75235165012ed8ec65f/modAL-python-0.3.3.tar.gz
+[2023-06-01 12:53:32] INFO root fetch - processPackages [repository-cli]: executing diffoscope
+[2023-06-01 12:53:32] INFO root fetch - processPackages [repository-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repository-cli-0.7.0.tar.gz tmp/repository-cli-0.8.0.tar.gz --markdown 20230601/r/repository-cli/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-01 12:53:32] INFO root fetch - processPackages [google-cloud-speech]: Downloading https://files.pythonhosted.org/packages/bf/6f/eee73b60477afd6a5e2537d34fd341a2f4aaeb51eec3653d699b019e0f4c/google-cloud-speech-2.9.3.tar.gz
+[2023-06-01 12:53:32] INFO root fetch - processPackages [google-cloud-speech]: executing diffoscope
+[2023-06-01 12:53:32] INFO root fetch - processPackages [google-cloud-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-speech-2.9.2.tar.gz tmp/google-cloud-speech-2.9.3.tar.gz --markdown 20230601/g/google-cloud-speech/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-06-01 12:53:32] INFO root fetch - processPackages [modAL-python]: executing diffoscope
+[2023-06-01 12:53:32] INFO root fetch - processPackages [modAL-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modAL-python-0.3.2.tar.gz tmp/modAL-python-0.3.3.tar.gz --markdown 20230601/m/modAL-python/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-01 12:53:33] INFO root fetch - processPackages [bmsdna-lakeapi]: Start processing: modAL-python
+[2023-06-01 12:53:33] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-06-01 12:53:33] INFO root fetch - processPackages [nico-font-tool]: Start processing: django-ipghrms-contract
+[2023-06-01 12:53:33] INFO root fetch - main [MainThread]: End processing [nico-font-tool]: success
+[2023-06-01 12:53:33] INFO root fetch - processPackages [modAL-python]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-01 12:53:33] INFO root fetch - processPackages [django-ipghrms-contract]: New version: [1.9] Old Version: [1.8]
+[2023-06-01 12:53:33] INFO root fetch - processPackages [modAL-python]: executing diffoscope
+[2023-06-01 12:53:33] INFO root fetch - processPackages [modAL-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modAL-python-0.3.2.tar.gz tmp/modAL-python-0.3.3.tar.gz --markdown 20230601/m/modAL-python/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-01 12:53:34] INFO root fetch - processPackages [colablib]: Start processing: modAL-python
+[2023-06-01 12:53:34] INFO root fetch - main [MainThread]: End processing [colablib]: success
+[2023-06-01 12:53:34] INFO root fetch - processPackages [django-ipghrms-contract]: Downloading https://files.pythonhosted.org/packages/d0/d3/56363a5acfea1a07ac9930ae15c1f98569a8e38b04059e2bf125ac9ac824/django-ipghrms-contract-1.9.tar.gz
+[2023-06-01 12:53:34] INFO root fetch - processPackages [modAL-python]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-01 12:53:34] INFO root fetch - processPackages [modAL-python]: executing diffoscope
+[2023-06-01 12:53:34] INFO root fetch - processPackages [modAL-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modAL-python-0.3.2.tar.gz tmp/modAL-python-0.3.3.tar.gz --markdown 20230601/m/modAL-python/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-01 12:53:34] INFO root fetch - processPackages [influxdb3-python]: Start processing: apeye-core
+[2023-06-01 12:53:34] INFO root fetch - main [MainThread]: End processing [influxdb3-python]: success
+[2023-06-01 12:53:34] INFO root fetch - processPackages [django-ipghrms-contract]: executing diffoscope
+[2023-06-01 12:53:34] INFO root fetch - processPackages [django-ipghrms-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-contract-1.8.tar.gz tmp/django-ipghrms-contract-1.9.tar.gz --markdown 20230601/d/django-ipghrms-contract/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-01 12:53:34] INFO root fetch - processPackages [apeye-core]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-01 12:53:34] INFO root fetch - processPackages [apeye-core]: Downloading https://files.pythonhosted.org/packages/a9/df/7388faf1990ef30dd4e44de4836e6b54983038247ede03be07a4f37c8c2f/apeye_core-1.1.4.tar.gz
+[2023-06-01 12:53:34] INFO root fetch - processPackages [apeye-core]: executing diffoscope
+[2023-06-01 12:53:34] INFO root fetch - processPackages [apeye-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apeye_core-1.1.3.tar.gz tmp/apeye_core-1.1.4.tar.gz --markdown 20230601/a/apeye-core/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-01 12:53:34] INFO root fetch - processPackages [repository-cli]: Start processing: pulumi-confluentcloud
+[2023-06-01 12:53:34] INFO root fetch - main [MainThread]: End processing [repository-cli]: success
+[2023-06-01 12:53:34] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-06-01 12:53:34] INFO root fetch - processPackages [modAL-python]: Start processing: modAL-python
+[2023-06-01 12:53:34] INFO root fetch - main [MainThread]: End processing [modAL-python]: success
+[2023-06-01 12:53:34] INFO root fetch - processPackages [modAL-python]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-01 12:53:34] INFO root fetch - processPackages [modAL-python]: executing diffoscope
+[2023-06-01 12:53:34] INFO root fetch - processPackages [modAL-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modAL-python-0.3.2.tar.gz tmp/modAL-python-0.3.3.tar.gz --markdown 20230601/m/modAL-python/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-01 12:53:35] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-06-01 12:53:35] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230601/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-06-01 12:53:35] INFO root fetch - processPackages [gotrue]: Start processing: justcalc
+[2023-06-01 12:53:35] INFO root fetch - main [MainThread]: End processing [gotrue]: success
+[2023-06-01 12:53:35] WARNING root fetch - processPackages [justcalc]: Skipping, unable to determine old version
+[2023-06-01 12:53:35] INFO root fetch - main [MainThread]: End processing [justcalc] error
+[2023-06-01 12:53:35] INFO root fetch - main [MainThread]: End processing [modAL-python]: success
+[2023-06-01 12:53:36] INFO root fetch - main [MainThread]: End processing [modAL-python]: success
+[2023-06-01 12:53:36] INFO root fetch - main [MainThread]: End processing [django-ipghrms-contract]: success
+[2023-06-01 12:53:36] INFO root fetch - main [MainThread]: End processing [modAL-python]: success
+[2023-06-01 12:53:36] INFO root fetch - main [MainThread]: End processing [invenio-records-lom]: success
+[2023-06-01 12:53:36] INFO root fetch - main [MainThread]: End processing [apeye-core]: success
+[2023-06-01 12:53:36] INFO root fetch - main [MainThread]: End processing [katsdpsigproc]: success
+[2023-06-01 12:53:36] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-06-01 12:53:37] INFO root fetch - main [MainThread]: End processing [google-cloud-speech]: success
+[2023-06-01 12:53:37] INFO root fetch - main [MainThread]: Store serial: [18331879]
