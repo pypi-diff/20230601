@@ -20334,3 +20334,318 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-01 16:20:42] INFO root fetch - main [MainThread]: End processing [girder-large-image]: success
 [2023-06-01 16:21:29] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-databricks]: success
 [2023-06-01 16:21:29] INFO root fetch - main [MainThread]: Store serial: [18334790]
+[2023-06-01 16:26:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18334790]
+[2023-06-01 16:26:39] INFO root fetch - main [MainThread]: Found 55 changed packages
+[2023-06-01 16:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: large-image-converter
+[2023-06-01 16:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-digitalocean
+[2023-06-01 16:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: large-image-tasks
+[2023-06-01 16:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: large-image-source-bioformats
+[2023-06-01 16:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TheSilent
+[2023-06-01 16:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: large-image-source-deepzoom
+[2023-06-01 16:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: large-image-source-dicom
+[2023-06-01 16:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: large-image-source-dummy
+[2023-06-01 16:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdktf-cdktf-provider-hcs
+[2023-06-01 16:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: large-image-source-gdal
+[2023-06-01 16:26:39] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: New version: [6.0.3] Old Version: [6.0.2]
+[2023-06-01 16:26:39] INFO root fetch - processPackages [cdktf-cdktf-provider-hcs]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-tasks]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-source-deepzoom]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-source-bioformats]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 16:26:39] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-converter]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-source-dicom]: New version: [1.22.1.dev9] Old Version: [1.22.1.dev7]
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-source-dummy]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-source-gdal]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 16:26:39] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Downloading https://files.pythonhosted.org/packages/6c/c9/c50f18b4603c3a1f155d78cbab7b09a9d65a8453b3f84a79bb404a7dfbec/cdktf-cdktf-provider-digitalocean-6.0.2.tar.gz
+[2023-06-01 16:26:39] INFO root fetch - processPackages [cdktf-cdktf-provider-hcs]: Downloading https://files.pythonhosted.org/packages/d2/29/88125ac3688d577167a17f665e0a1a8faba949f9425568b9bc15c63b243e/cdktf-cdktf-provider-hcs-4.0.0.tar.gz
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-tasks]: executing diffoscope
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-tasks-1.9.1.dev6.tar.gz tmp/large-image-tasks-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-tasks/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-source-deepzoom]: executing diffoscope
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-source-deepzoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-deepzoom-1.9.1.dev6.tar.gz tmp/large-image-source-deepzoom-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-deepzoom/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-source-dummy]: executing diffoscope
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-source-dummy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-dummy-1.9.1.dev6.tar.gz tmp/large-image-source-dummy-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-dummy/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 16:26:39] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-06-01 16:26:39] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230601/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-converter]: executing diffoscope
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-converter-1.9.1.dev6.tar.gz tmp/large-image-converter-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-converter/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-source-dicom]: executing diffoscope
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-source-dicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-dicom-1.22.1.dev7.tar.gz tmp/large-image-source-dicom-1.22.1.dev9.tar.gz --markdown 20230601/l/large-image-source-dicom/1.22.1.dev7-1.22.1.dev9/diff.md --exclude *.pyd
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-source-bioformats]: executing diffoscope
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-source-bioformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-bioformats-1.9.1.dev6.tar.gz tmp/large-image-source-bioformats-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-bioformats/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-source-gdal]: executing diffoscope
+[2023-06-01 16:26:39] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Downloading https://files.pythonhosted.org/packages/6a/81/4c0d23a4604201e465dca60e81f3e60c19f10972db9ae9d4d8cfbeddefb4/cdktf-cdktf-provider-digitalocean-6.0.3.tar.gz
+[2023-06-01 16:26:39] INFO root fetch - processPackages [large-image-source-gdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-gdal-1.9.1.dev6.tar.gz tmp/large-image-source-gdal-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-gdal/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 16:26:39] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: executing diffoscope
+[2023-06-01 16:26:39] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-digitalocean-6.0.2.tar.gz tmp/cdktf-cdktf-provider-digitalocean-6.0.3.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-digitalocean/6.0.2-6.0.3/diff.md --exclude *.pyd
+[2023-06-01 16:26:39] INFO root fetch - processPackages [cdktf-cdktf-provider-hcs]: Downloading https://files.pythonhosted.org/packages/0d/92/5a9fbc13a78212976f85b717d63d5b256137669a8a8aaea5acf21e7c4e25/cdktf-cdktf-provider-hcs-4.0.1.tar.gz
+[2023-06-01 16:26:40] INFO root fetch - processPackages [cdktf-cdktf-provider-hcs]: executing diffoscope
+[2023-06-01 16:26:40] INFO root fetch - processPackages [cdktf-cdktf-provider-hcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-hcs-4.0.0.tar.gz tmp/cdktf-cdktf-provider-hcs-4.0.1.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-hcs/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-06-01 16:26:40] INFO root fetch - processPackages [large-image-tasks]: Start processing: large-image-source-mapnik
+[2023-06-01 16:26:40] INFO root fetch - main [MainThread]: End processing [large-image-tasks]: success
+[2023-06-01 16:26:41] INFO root fetch - processPackages [large-image-source-mapnik]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 16:26:41] INFO root fetch - processPackages [large-image-source-deepzoom]: Start processing: FileKit
+[2023-06-01 16:26:41] INFO root fetch - main [MainThread]: End processing [large-image-source-deepzoom]: success
+[2023-06-01 16:26:41] INFO root fetch - processPackages [FileKit]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-01 16:26:41] INFO root fetch - processPackages [large-image-source-dummy]: Start processing: large-image-source-multi
+[2023-06-01 16:26:41] INFO root fetch - main [MainThread]: End processing [large-image-source-dummy]: success
+[2023-06-01 16:26:41] ERROR root fetch - processPackages [FileKit]: Unable to fetch info: No such project/version 'FileKit' 1.0.0
+[2023-06-01 16:26:41] INFO root fetch - processPackages [FileKit]: Start processing: large-image-source-nd2
+[2023-06-01 16:26:41] INFO root fetch - main [MainThread]: End processing [FileKit] error
+[2023-06-01 16:26:41] INFO root fetch - processPackages [large-image-source-mapnik]: executing diffoscope
+[2023-06-01 16:26:41] INFO root fetch - processPackages [large-image-source-mapnik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-mapnik-1.9.1.dev6.tar.gz tmp/large-image-source-mapnik-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-mapnik/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 16:26:41] INFO root fetch - processPackages [large-image-source-multi]: New version: [1.22.1.dev9] Old Version: [1.22.1.dev7]
+[2023-06-01 16:26:41] INFO root fetch - processPackages [large-image-source-nd2]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 16:26:41] INFO root fetch - processPackages [large-image-converter]: Start processing: cdktf-cdktf-provider-helm
+[2023-06-01 16:26:41] INFO root fetch - main [MainThread]: End processing [large-image-converter]: success
+[2023-06-01 16:26:41] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-06-01 16:26:41] INFO root fetch - processPackages [large-image-source-multi]: executing diffoscope
+[2023-06-01 16:26:41] INFO root fetch - processPackages [large-image-source-multi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-multi-1.22.1.dev7.tar.gz tmp/large-image-source-multi-1.22.1.dev9.tar.gz --markdown 20230601/l/large-image-source-multi/1.22.1.dev7-1.22.1.dev9/diff.md --exclude *.pyd
+[2023-06-01 16:26:41] INFO root fetch - processPackages [large-image-source-nd2]: executing diffoscope
+[2023-06-01 16:26:41] INFO root fetch - processPackages [large-image-source-nd2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-nd2-1.9.1.dev6.tar.gz tmp/large-image-source-nd2-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-nd2/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 16:26:41] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: Downloading https://files.pythonhosted.org/packages/07/44/2bb7252a41fa25182c0301da50797286d873e8328fcef69297de4fda6547/cdktf-cdktf-provider-helm-6.0.0.tar.gz
+[2023-06-01 16:26:41] INFO root fetch - processPackages [large-image-source-gdal]: Start processing: large-image-source-ometiff
+[2023-06-01 16:26:41] INFO root fetch - main [MainThread]: End processing [large-image-source-gdal]: success
+[2023-06-01 16:26:42] INFO root fetch - processPackages [large-image-source-ometiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 16:26:42] INFO root fetch - processPackages [large-image-source-dicom]: Start processing: rs2py
+[2023-06-01 16:26:42] INFO root fetch - main [MainThread]: End processing [large-image-source-dicom]: success
+[2023-06-01 16:26:42] INFO root fetch - processPackages [rs2py]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-01 16:26:42] INFO root fetch - processPackages [large-image-source-bioformats]: Start processing: large-image-source-openjpeg
+[2023-06-01 16:26:42] INFO root fetch - main [MainThread]: End processing [large-image-source-bioformats]: success
+[2023-06-01 16:26:42] INFO root fetch - processPackages [large-image-source-openjpeg]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 16:26:42] INFO root fetch - processPackages [rs2py]: Downloading https://files.pythonhosted.org/packages/cb/8a/6bbc6c8039d8e9bcfbd05251e10ac02ffcedb4cf8d74d9b764372dfa65dc/rs2py-0.1.3.tar.gz
+[2023-06-01 16:26:42] INFO root fetch - processPackages [TheSilent]: Start processing: hj-generate
+[2023-06-01 16:26:42] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-06-01 16:26:42] INFO root fetch - processPackages [hj-generate]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-06-01 16:26:42] INFO root fetch - processPackages [large-image-source-ometiff]: executing diffoscope
+[2023-06-01 16:26:42] INFO root fetch - processPackages [large-image-source-ometiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-ometiff-1.9.1.dev6.tar.gz tmp/large-image-source-ometiff-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-ometiff/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 16:26:42] INFO root fetch - processPackages [cdktf-cdktf-provider-hcs]: Start processing: large-image-source-openslide
+[2023-06-01 16:26:42] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-hcs]: success
+[2023-06-01 16:26:42] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: Downloading https://files.pythonhosted.org/packages/8a/a3/b4c09c095ba0a8f1b6a7898f56971c0f05ab5f08cd4cc9c0404d95c851de/cdktf-cdktf-provider-helm-6.0.1.tar.gz
+[2023-06-01 16:26:42] INFO root fetch - processPackages [large-image-source-openslide]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 16:26:42] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: executing diffoscope
+[2023-06-01 16:26:42] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-helm-6.0.0.tar.gz tmp/cdktf-cdktf-provider-helm-6.0.1.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-helm/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-06-01 16:26:42] INFO root fetch - processPackages [large-image-source-openjpeg]: executing diffoscope
+[2023-06-01 16:26:42] INFO root fetch - processPackages [large-image-source-openjpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-openjpeg-1.9.1.dev6.tar.gz tmp/large-image-source-openjpeg-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-openjpeg/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 16:26:42] INFO root fetch - processPackages [rs2py]: Downloading https://files.pythonhosted.org/packages/2e/c7/5e492bad8e8188b4f742a918c3c761598c241718008027eb4216215939b4/rs2py-0.1.4.tar.gz
+[2023-06-01 16:26:42] INFO root fetch - processPackages [rs2py]: executing diffoscope
+[2023-06-01 16:26:42] INFO root fetch - processPackages [rs2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rs2py-0.1.3.tar.gz tmp/rs2py-0.1.4.tar.gz --markdown 20230601/r/rs2py/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-01 16:26:42] INFO root fetch - processPackages [hj-generate]: Downloading https://files.pythonhosted.org/packages/bb/5b/621ceb6d40f32d7b2f8f981fe5780ad47013bdfbe754f662e503512f5dae/hj-generate-1.4.0.tar.gz
+[2023-06-01 16:26:42] INFO root fetch - processPackages [hj-generate]: executing diffoscope
+[2023-06-01 16:26:42] INFO root fetch - processPackages [hj-generate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hj-generate-1.3.0.tar.gz tmp/hj-generate-1.4.0.tar.gz --markdown 20230601/h/hj-generate/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-06-01 16:26:42] INFO root fetch - processPackages [large-image-source-openslide]: executing diffoscope
+[2023-06-01 16:26:42] INFO root fetch - processPackages [large-image-source-openslide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-openslide-1.9.1.dev6.tar.gz tmp/large-image-source-openslide-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-openslide/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 16:26:42] INFO root fetch - processPackages [large-image-source-mapnik]: Start processing: decore-Base
+[2023-06-01 16:26:42] INFO root fetch - main [MainThread]: End processing [large-image-source-mapnik]: success
+[2023-06-01 16:26:42] INFO root fetch - processPackages [decore-Base]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-06-01 16:26:43] INFO root fetch - processPackages [decore-Base]: Downloading https://files.pythonhosted.org/packages/d0/02/255cdc2b3fbdb76242842e2efc88eb663bbd59f509afc473be2b12217440/decore_Base-0.0.17.tar.gz
+[2023-06-01 16:26:43] INFO root fetch - processPackages [decore-Base]: executing diffoscope
+[2023-06-01 16:26:43] INFO root fetch - processPackages [decore-Base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decore_Base-0.0.16.tar.gz tmp/decore_Base-0.0.17.tar.gz --markdown 20230601/d/decore-Base/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-06-01 16:26:43] INFO root fetch - processPackages [large-image-source-multi]: Start processing: large-image-source-pil
+[2023-06-01 16:26:43] INFO root fetch - main [MainThread]: End processing [large-image-source-multi]: success
+[2023-06-01 16:26:43] INFO root fetch - processPackages [large-image-source-pil]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 16:26:43] INFO root fetch - processPackages [large-image-source-nd2]: Start processing: cdktf-cdktf-provider-gitlab
+[2023-06-01 16:26:43] INFO root fetch - main [MainThread]: End processing [large-image-source-nd2]: success
+[2023-06-01 16:26:43] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: New version: [7.0.2] Old Version: [7.0.1]
+[2023-06-01 16:26:43] INFO root fetch - processPackages [large-image-source-pil]: executing diffoscope
+[2023-06-01 16:26:43] INFO root fetch - processPackages [large-image-source-pil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-pil-1.9.1.dev6.tar.gz tmp/large-image-source-pil-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-pil/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 16:26:43] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Downloading https://files.pythonhosted.org/packages/20/14/3a6424fbd85b719e8054367bc1db89ed22927142f21c714dab948e508428/cdktf-cdktf-provider-gitlab-7.0.1.tar.gz
+[2023-06-01 16:26:44] INFO root fetch - processPackages [large-image-source-ometiff]: Start processing: large-image-source-rasterio
+[2023-06-01 16:26:44] INFO root fetch - main [MainThread]: End processing [large-image-source-ometiff]: success
+[2023-06-01 16:26:44] INFO root fetch - processPackages [large-image-source-rasterio]: New version: [1.22.1.dev9] Old Version: [1.22.1.dev7]
+[2023-06-01 16:26:44] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Downloading https://files.pythonhosted.org/packages/eb/bf/7813b3b4375f545e018872cd18a276223a2e40b4e2ada9d884fa06510b38/cdktf-cdktf-provider-gitlab-7.0.2.tar.gz
+[2023-06-01 16:26:44] INFO root fetch - processPackages [large-image-source-rasterio]: executing diffoscope
+[2023-06-01 16:26:44] INFO root fetch - processPackages [large-image-source-rasterio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-rasterio-1.22.1.dev7.tar.gz tmp/large-image-source-rasterio-1.22.1.dev9.tar.gz --markdown 20230601/l/large-image-source-rasterio/1.22.1.dev7-1.22.1.dev9/diff.md --exclude *.pyd
+[2023-06-01 16:26:44] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: executing diffoscope
+[2023-06-01 16:26:44] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-gitlab-7.0.1.tar.gz tmp/cdktf-cdktf-provider-gitlab-7.0.2.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-gitlab/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2023-06-01 16:26:44] INFO root fetch - processPackages [hj-generate]: Start processing: large-image-source-test
+[2023-06-01 16:26:44] INFO root fetch - main [MainThread]: End processing [hj-generate]: success
+[2023-06-01 16:26:44] INFO root fetch - processPackages [large-image-source-test]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 16:26:44] INFO root fetch - processPackages [large-image-source-openjpeg]: Start processing: large-image-source-tiff
+[2023-06-01 16:26:44] INFO root fetch - main [MainThread]: End processing [large-image-source-openjpeg]: success
+[2023-06-01 16:26:44] INFO root fetch - processPackages [large-image-source-tiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 16:26:44] INFO root fetch - processPackages [rs2py]: Start processing: spanishconjugator
+[2023-06-01 16:26:44] INFO root fetch - main [MainThread]: End processing [rs2py]: success
+[2023-06-01 16:26:44] INFO root fetch - processPackages [large-image-source-test]: executing diffoscope
+[2023-06-01 16:26:44] INFO root fetch - processPackages [large-image-source-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-test-1.9.1.dev6.tar.gz tmp/large-image-source-test-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-test/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 16:26:44] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: Start processing: large-image-source-tifffile
+[2023-06-01 16:26:44] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-helm]: success
+[2023-06-01 16:26:44] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-01 16:26:44] INFO root fetch - processPackages [large-image-source-tifffile]: New version: [1.22.1.dev9] Old Version: [1.22.1.dev7]
+[2023-06-01 16:26:44] INFO root fetch - processPackages [large-image-source-tiff]: executing diffoscope
+[2023-06-01 16:26:44] INFO root fetch - processPackages [large-image-source-tiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tiff-1.9.1.dev6.tar.gz tmp/large-image-source-tiff-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-tiff/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 16:26:44] INFO root fetch - processPackages [large-image-source-tifffile]: executing diffoscope
+[2023-06-01 16:26:44] INFO root fetch - processPackages [large-image-source-tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tifffile-1.22.1.dev7.tar.gz tmp/large-image-source-tifffile-1.22.1.dev9.tar.gz --markdown 20230601/l/large-image-source-tifffile/1.22.1.dev7-1.22.1.dev9/diff.md --exclude *.pyd
+[2023-06-01 16:26:44] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-01 16:26:44] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230601/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-01 16:26:45] INFO root fetch - processPackages [large-image-source-openslide]: Start processing: large-image-source-vips
+[2023-06-01 16:26:45] INFO root fetch - main [MainThread]: End processing [large-image-source-openslide]: success
+[2023-06-01 16:26:45] INFO root fetch - processPackages [large-image-source-vips]: New version: [1.22.1.dev9] Old Version: [1.22.1.dev7]
+[2023-06-01 16:26:45] INFO root fetch - processPackages [large-image-source-vips]: executing diffoscope
+[2023-06-01 16:26:45] INFO root fetch - processPackages [large-image-source-vips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-vips-1.22.1.dev7.tar.gz tmp/large-image-source-vips-1.22.1.dev9.tar.gz --markdown 20230601/l/large-image-source-vips/1.22.1.dev7-1.22.1.dev9/diff.md --exclude *.pyd
+[2023-06-01 16:26:45] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Start processing: t2iapi
+[2023-06-01 16:26:45] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-digitalocean]: success
+[2023-06-01 16:26:45] INFO root fetch - processPackages [t2iapi]: New version: [3.0.0.dev164] Old Version: [3.0.0.dev156]
+[2023-06-01 16:26:46] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/13/d3/8880ad81d24c8ce4537eebac3a446e5a8a77d9ccd6584c26cf3c42ee8e2b/t2iapi-3.0.0.dev164.tar.gz
+[2023-06-01 16:26:46] INFO root fetch - processPackages [large-image-source-pil]: Start processing: tree-sitter-apertium
+[2023-06-01 16:26:46] INFO root fetch - main [MainThread]: End processing [large-image-source-pil]: success
+[2023-06-01 16:26:46] INFO root fetch - processPackages [tree-sitter-apertium]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-01 16:26:46] INFO root fetch - processPackages [decore-Base]: Start processing: geolink2oereb
+[2023-06-01 16:26:46] INFO root fetch - main [MainThread]: End processing [decore-Base]: success
+[2023-06-01 16:26:46] INFO root fetch - processPackages [t2iapi]: executing diffoscope
+[2023-06-01 16:26:46] INFO root fetch - processPackages [t2iapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2iapi-3.0.0.dev156.tar.gz tmp/t2iapi-3.0.0.dev164.tar.gz --markdown 20230601/t/t2iapi/3.0.0.dev156-3.0.0.dev164/diff.md --exclude *.pyd
+[2023-06-01 16:26:46] INFO root fetch - processPackages [geolink2oereb]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-01 16:26:46] INFO root fetch - processPackages [tree-sitter-apertium]: Downloading https://files.pythonhosted.org/packages/65/59/a616d3710d3495d9a6d1a87d0788954ba1f134fd21a24693f2133578ebc9/tree-sitter-apertium-0.1.1.tar.gz
+[2023-06-01 16:26:46] INFO root fetch - processPackages [geolink2oereb]: Downloading https://files.pythonhosted.org/packages/f8/35/82ca088022d3838b7822982a1ef70b23b27bdb863e673724e1fcf8eb2685/geolink2oereb-0.1.2.tar.gz
+[2023-06-01 16:26:46] INFO root fetch - processPackages [geolink2oereb]: executing diffoscope
+[2023-06-01 16:26:46] INFO root fetch - processPackages [geolink2oereb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geolink2oereb-0.1.1.tar.gz tmp/geolink2oereb-0.1.2.tar.gz --markdown 20230601/g/geolink2oereb/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-01 16:26:46] INFO root fetch - processPackages [large-image-source-rasterio]: Start processing: aiokafka
+[2023-06-01 16:26:46] INFO root fetch - main [MainThread]: End processing [large-image-source-rasterio]: success
+[2023-06-01 16:26:46] INFO root fetch - processPackages [tree-sitter-apertium]: Downloading https://files.pythonhosted.org/packages/0e/e2/c894cad9a7a1dd7822ec9f08b5b2a5d1bc056717f79b13414191b7109ecb/tree-sitter-apertium-0.1.2.tar.gz
+[2023-06-01 16:26:46] INFO root fetch - processPackages [large-image-source-test]: Start processing: openshift-python-wrapper
+[2023-06-01 16:26:46] INFO root fetch - main [MainThread]: End processing [large-image-source-test]: success
+[2023-06-01 16:26:46] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2023-06-01 16:26:46] INFO root fetch - processPackages [tree-sitter-apertium]: executing diffoscope
+[2023-06-01 16:26:46] INFO root fetch - processPackages [tree-sitter-apertium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-sitter-apertium-0.1.1.tar.gz tmp/tree-sitter-apertium-0.1.2.tar.gz --markdown 20230601/t/tree-sitter-apertium/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-01 16:26:46] INFO root fetch - processPackages [aiokafka]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-01 16:26:46] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2023-06-01 16:26:46] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20230601/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/diff.md --exclude *.pyd
+[2023-06-01 16:26:47] INFO root fetch - processPackages [aiokafka]: Downloading https://files.pythonhosted.org/packages/96/82/62711a478c40fbb41a0a737a6c10f2cd791688a59190632b19e2fe4cb1e0/aiokafka-0.8.0.tar.gz
+[2023-06-01 16:26:47] INFO root fetch - processPackages [large-image-source-tiff]: Start processing: spanishconjugator
+[2023-06-01 16:26:47] INFO root fetch - main [MainThread]: End processing [large-image-source-tiff]: success
+[2023-06-01 16:26:47] INFO root fetch - processPackages [large-image-source-tifffile]: Start processing: nobuco
+[2023-06-01 16:26:47] INFO root fetch - main [MainThread]: End processing [large-image-source-tifffile]: success
+[2023-06-01 16:26:47] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-01 16:26:47] INFO root fetch - processPackages [aiokafka]: Downloading https://files.pythonhosted.org/packages/48/e2/8756c3c6013158daac96df7685395be321eb12dfbb4655a2e755c820712c/aiokafka-0.8.1.tar.gz
+[2023-06-01 16:26:47] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-01 16:26:47] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230601/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-01 16:26:47] INFO root fetch - processPackages [nobuco]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-01 16:26:47] INFO root fetch - processPackages [aiokafka]: executing diffoscope
+[2023-06-01 16:26:47] INFO root fetch - processPackages [aiokafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiokafka-0.8.0.tar.gz tmp/aiokafka-0.8.1.tar.gz --markdown 20230601/a/aiokafka/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-01 16:26:47] INFO root fetch - processPackages [large-image-source-vips]: Start processing: cdktf-cdktf-provider-googleworkspace
+[2023-06-01 16:26:47] INFO root fetch - main [MainThread]: End processing [large-image-source-vips]: success
+[2023-06-01 16:26:47] INFO root fetch - processPackages [spanishconjugator]: Start processing: wagtail-blog-updated
+[2023-06-01 16:26:47] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-01 16:26:47] INFO root fetch - processPackages [cdktf-cdktf-provider-googleworkspace]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-06-01 16:26:47] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/ae/13/41be352b52ae213c3972dc4c409f959686ee77a69913e36fbeec50bc0342/nobuco-0.4.7.tar.gz
+[2023-06-01 16:26:47] WARNING root fetch - processPackages [wagtail-blog-updated]: Skipping, unable to determine old version
+[2023-06-01 16:26:47] INFO root fetch - processPackages [wagtail-blog-updated]: Start processing: celoMine
+[2023-06-01 16:26:47] INFO root fetch - main [MainThread]: End processing [wagtail-blog-updated] error
+[2023-06-01 16:26:47] INFO root fetch - processPackages [celoMine]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-01 16:26:47] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Start processing: nb2workflow
+[2023-06-01 16:26:47] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-gitlab]: success
+[2023-06-01 16:26:47] INFO root fetch - processPackages [nobuco]: executing diffoscope
+[2023-06-01 16:26:47] INFO root fetch - processPackages [nobuco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobuco-0.4.6.tar.gz tmp/nobuco-0.4.7.tar.gz --markdown 20230601/n/nobuco/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-01 16:26:47] INFO root fetch - processPackages [nb2workflow]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-01 16:26:47] INFO root fetch - processPackages [cdktf-cdktf-provider-googleworkspace]: Downloading https://files.pythonhosted.org/packages/01/0b/f3779d018454c508d358f35acf3cfe9c0d3a3d507fb4da7b754ba45e0b6a/cdktf-cdktf-provider-googleworkspace-4.0.0.tar.gz
+[2023-06-01 16:26:47] INFO root fetch - processPackages [nb2workflow]: executing diffoscope
+[2023-06-01 16:26:47] INFO root fetch - processPackages [nb2workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb2workflow-1.3.8.tar.gz tmp/nb2workflow-1.3.9.tar.gz --markdown 20230601/n/nb2workflow/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-01 16:26:47] INFO root fetch - processPackages [celoMine]: executing diffoscope
+[2023-06-01 16:26:47] INFO root fetch - processPackages [celoMine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celoMine-0.0.4.tar.gz tmp/celoMine-0.0.5.tar.gz --markdown 20230601/c/celoMine/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-01 16:26:48] INFO root fetch - processPackages [t2iapi]: Start processing: cubicweb-tsfacets
+[2023-06-01 16:26:48] INFO root fetch - main [MainThread]: End processing [t2iapi]: success
+[2023-06-01 16:26:48] INFO root fetch - processPackages [cdktf-cdktf-provider-googleworkspace]: Downloading https://files.pythonhosted.org/packages/78/55/607e1e828f1dc5d1eb73ab6a143679bd4cb5c727d6664fe54cdebe8a7f53/cdktf-cdktf-provider-googleworkspace-4.0.1.tar.gz
+[2023-06-01 16:26:48] INFO root fetch - processPackages [cubicweb-tsfacets]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-06-01 16:26:48] INFO root fetch - processPackages [cdktf-cdktf-provider-googleworkspace]: executing diffoscope
+[2023-06-01 16:26:48] INFO root fetch - processPackages [cdktf-cdktf-provider-googleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-googleworkspace-4.0.0.tar.gz tmp/cdktf-cdktf-provider-googleworkspace-4.0.1.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-googleworkspace/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-06-01 16:26:48] INFO root fetch - processPackages [cubicweb-tsfacets]: Downloading https://files.pythonhosted.org/packages/57/eb/f85d8f90bac83456ada29b4dea6ed0ebbebded3b4c85a5f03cbf45eea010/cubicweb-tsfacets-0.5.3.tar.gz
+[2023-06-01 16:26:48] INFO root fetch - processPackages [cubicweb-tsfacets]: Downloading https://files.pythonhosted.org/packages/47/16/eab1eb17967034ab94a14c866c132548ed0c750a31b4ab46a7d4e7bfda5e/cubicweb-tsfacets-0.6.0.tar.gz
+[2023-06-01 16:26:49] INFO root fetch - processPackages [cubicweb-tsfacets]: executing diffoscope
+[2023-06-01 16:26:49] INFO root fetch - processPackages [cubicweb-tsfacets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-tsfacets-0.5.3.tar.gz tmp/cubicweb-tsfacets-0.6.0.tar.gz --markdown 20230601/c/cubicweb-tsfacets/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-06-01 16:26:49] INFO root fetch - processPackages [spanishconjugator]: Start processing: cdktf-cdktf-provider-hcp
+[2023-06-01 16:26:49] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-01 16:26:49] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-06-01 16:26:49] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: executing diffoscope
+[2023-06-01 16:26:49] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-hcp-4.0.0.tar.gz tmp/cdktf-cdktf-provider-hcp-4.0.1.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-hcp/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-06-01 16:26:49] INFO root fetch - processPackages [nb2workflow]: Start processing: pySMART
+[2023-06-01 16:26:49] INFO root fetch - main [MainThread]: End processing [nb2workflow]: success
+[2023-06-01 16:26:49] INFO root fetch - processPackages [pySMART]: New version: [1.2.5.dev28] Old Version: [1.2.5.dev24]
+[2023-06-01 16:26:49] INFO root fetch - processPackages [aiokafka]: Start processing: cdktf-cdktf-provider-github
+[2023-06-01 16:26:49] INFO root fetch - main [MainThread]: End processing [aiokafka]: success
+[2023-06-01 16:26:49] INFO root fetch - processPackages [pySMART]: executing diffoscope
+[2023-06-01 16:26:49] INFO root fetch - processPackages [pySMART]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pySMART-1.2.5.dev24.tar.gz tmp/pySMART-1.2.5.dev28.tar.gz --markdown 20230601/p/pySMART/1.2.5.dev24-1.2.5.dev28/diff.md --exclude *.pyd
+[2023-06-01 16:26:50] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: New version: [8.0.4] Old Version: [8.0.3]
+[2023-06-01 16:26:50] INFO root fetch - processPackages [celoMine]: Start processing: pyilz
+[2023-06-01 16:26:50] INFO root fetch - main [MainThread]: End processing [celoMine]: success
+[2023-06-01 16:26:50] WARNING root fetch - processPackages [pyilz]: Skipping, unable to determine old version
+[2023-06-01 16:26:50] INFO root fetch - processPackages [pyilz]: Start processing: cdktf-cdktf-provider-local
+[2023-06-01 16:26:50] INFO root fetch - main [MainThread]: End processing [pyilz] error
+[2023-06-01 16:26:50] INFO root fetch - processPackages [nobuco]: Start processing: docker
+[2023-06-01 16:26:50] INFO root fetch - main [MainThread]: End processing [nobuco]: success
+[2023-06-01 16:26:50] INFO root fetch - processPackages [cdktf-cdktf-provider-local]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-06-01 16:26:50] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: Downloading https://files.pythonhosted.org/packages/f9/a5/6fc9a67107645e73ff6082522b129b630c0af063ab0ec0c30e761badc6aa/cdktf-cdktf-provider-github-8.0.4.tar.gz
+[2023-06-01 16:26:50] INFO root fetch - processPackages [docker]: New version: [6.1.3] Old Version: [6.1.2]
+[2023-06-01 16:26:50] INFO root fetch - processPackages [docker]: Downloading https://files.pythonhosted.org/packages/d4/5f/48add223bfc02f7645b990418d1d3e01f6d4de7e6fcee31919f40129e893/docker-6.1.2.tar.gz
+[2023-06-01 16:26:50] INFO root fetch - processPackages [cdktf-cdktf-provider-local]: Downloading https://files.pythonhosted.org/packages/e8/9f/b8d3367e8054c12a3b86bf335033c9638b3fe490c8d8c12f792e9601bfb2/cdktf-cdktf-provider-local-6.0.0.tar.gz
+[2023-06-01 16:26:50] INFO root fetch - processPackages [openshift-python-wrapper]: Start processing: cdktf-cdktf-provider-datadog
+[2023-06-01 16:26:50] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2023-06-01 16:26:50] INFO root fetch - processPackages [docker]: Downloading https://files.pythonhosted.org/packages/f0/73/f7c9a14e88e769f38cb7fb45aa88dfd795faa8e18aea11bababf6e068d5e/docker-6.1.3.tar.gz
+[2023-06-01 16:26:50] INFO root fetch - processPackages [cdktf-cdktf-provider-googleworkspace]: Start processing: hj-generate
+[2023-06-01 16:26:50] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-googleworkspace]: success
+[2023-06-01 16:26:50] INFO root fetch - processPackages [hj-generate]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-01 16:26:50] INFO root fetch - processPackages [geolink2oereb]: Start processing: roktools
+[2023-06-01 16:26:50] INFO root fetch - main [MainThread]: End processing [geolink2oereb]: success
+[2023-06-01 16:26:50] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: New version: [6.0.4] Old Version: [6.0.3]
+[2023-06-01 16:26:50] INFO root fetch - processPackages [docker]: executing diffoscope
+[2023-06-01 16:26:50] INFO root fetch - processPackages [docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker-6.1.2.tar.gz tmp/docker-6.1.3.tar.gz --markdown 20230601/d/docker/6.1.2-6.1.3/diff.md --exclude *.pyd
+[2023-06-01 16:26:50] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: executing diffoscope
+[2023-06-01 16:26:50] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-github-8.0.3.tar.gz tmp/cdktf-cdktf-provider-github-8.0.4.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-github/8.0.3-8.0.4/diff.md --exclude *.pyd
+[2023-06-01 16:26:50] INFO root fetch - processPackages [roktools]: New version: [5.5.0] Old Version: [5.4.0]
+[2023-06-01 16:26:50] INFO root fetch - processPackages [tree-sitter-apertium]: Start processing: wordhoard
+[2023-06-01 16:26:50] INFO root fetch - main [MainThread]: End processing [tree-sitter-apertium]: success
+[2023-06-01 16:26:50] INFO root fetch - processPackages [cdktf-cdktf-provider-local]: Downloading https://files.pythonhosted.org/packages/d8/f7/b0f716b95a57f2755ae96574dbdb2e804a8d7665a4d54df77bca767ed7fa/cdktf-cdktf-provider-local-6.0.1.tar.gz
+[2023-06-01 16:26:50] INFO root fetch - processPackages [hj-generate]: Downloading https://files.pythonhosted.org/packages/b6/0b/3fb5fab8c3bb4116188ce161c484a9c9aa8c09e621cdbf7f190703c37706/hj-generate-1.5.0.tar.gz
+[2023-06-01 16:26:50] INFO root fetch - processPackages [cubicweb-tsfacets]: Start processing: pyilz
+[2023-06-01 16:26:50] INFO root fetch - main [MainThread]: End processing [cubicweb-tsfacets]: success
+[2023-06-01 16:26:51] INFO root fetch - processPackages [pyilz]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-01 16:26:51] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: Downloading https://files.pythonhosted.org/packages/75/f3/924c2cc80afaaed32adcefb1d1eb071e97f11929d6074553d7d8317d1664/cdktf-cdktf-provider-datadog-6.0.3.tar.gz
+[2023-06-01 16:26:51] INFO root fetch - processPackages [wordhoard]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-01 16:26:51] INFO root fetch - processPackages [cdktf-cdktf-provider-local]: executing diffoscope
+[2023-06-01 16:26:51] INFO root fetch - processPackages [cdktf-cdktf-provider-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-local-6.0.0.tar.gz tmp/cdktf-cdktf-provider-local-6.0.1.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-local/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-06-01 16:26:51] INFO root fetch - processPackages [hj-generate]: executing diffoscope
+[2023-06-01 16:26:51] INFO root fetch - processPackages [hj-generate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hj-generate-1.4.0.tar.gz tmp/hj-generate-1.5.0.tar.gz --markdown 20230601/h/hj-generate/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-01 16:26:51] INFO root fetch - processPackages [pyilz]: Downloading https://files.pythonhosted.org/packages/73/8c/a9ce96a430c8a45ff81349ab744476be22cade1bd6547fb562cc76567175/pyilz-0.0.2.tar.gz
+[2023-06-01 16:26:51] INFO root fetch - processPackages [wordhoard]: Downloading https://files.pythonhosted.org/packages/72/ab/a0acd71755e74c50a0606f6d6ecbe49d96b57443a7d5d60ee8386cc8e6f7/wordhoard-1.5.3.tar.gz
+[2023-06-01 16:26:51] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/de/9a/f8f35bbfd451692da750cbe9016b17c12fcd933b5914fd03026a782ef788/roktools-5.5.0-py2.py3-none-any.whl
+[2023-06-01 16:26:51] INFO root fetch - processPackages [roktools]: executing diffoscope
+[2023-06-01 16:26:51] INFO root fetch - processPackages [roktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roktools-5.4.0-py2.py3-none-any.whl.zip tmp/roktools-5.5.0-py2.py3-none-any.whl.zip --markdown 20230601/r/roktools/5.4.0-5.5.0/diff.md --exclude *.pyd
+[2023-06-01 16:26:51] INFO root fetch - processPackages [pyilz]: Downloading https://files.pythonhosted.org/packages/16/ba/773a67fec20f6e8029f5d2dbf5fbfd9281f34dd51dbaa34b49549e509f5b/pyilz-0.0.3.tar.gz
+[2023-06-01 16:26:51] INFO root fetch - processPackages [wordhoard]: Downloading https://files.pythonhosted.org/packages/7c/94/b372f7b634989b3ad071f2c1eda3c4955c9c608fdccce8fa664f6a559aae/wordhoard-1.5.4.tar.gz
+[2023-06-01 16:26:51] INFO root fetch - processPackages [pyilz]: executing diffoscope
+[2023-06-01 16:26:51] INFO root fetch - processPackages [pyilz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyilz-0.0.2.tar.gz tmp/pyilz-0.0.3.tar.gz --markdown 20230601/p/pyilz/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-01 16:26:51] INFO root fetch - processPackages [wordhoard]: executing diffoscope
+[2023-06-01 16:26:51] INFO root fetch - processPackages [wordhoard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordhoard-1.5.3.tar.gz tmp/wordhoard-1.5.4.tar.gz --markdown 20230601/w/wordhoard/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-06-01 16:26:51] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: Downloading https://files.pythonhosted.org/packages/da/e9/e8ab90cb4707818b4fde331b56d9facc52b3a72e4da6564fa7c59d9e722d/cdktf-cdktf-provider-datadog-6.0.4.tar.gz
+[2023-06-01 16:26:52] INFO root fetch - processPackages [cdktf-cdktf-provider-local]: Start processing: async-http-requests
+[2023-06-01 16:26:52] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-local]: success
+[2023-06-01 16:26:52] INFO root fetch - processPackages [hj-generate]: Start processing: cdktf-cdktf-provider-ionoscloud
+[2023-06-01 16:26:52] INFO root fetch - main [MainThread]: End processing [hj-generate]: success
+[2023-06-01 16:26:52] INFO root fetch - processPackages [async-http-requests]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 16:26:52] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-06-01 16:26:52] INFO root fetch - processPackages [roktools]: Start processing: hopara
+[2023-06-01 16:26:52] INFO root fetch - main [MainThread]: End processing [roktools]: success
+[2023-06-01 16:26:52] INFO root fetch - processPackages [async-http-requests]: Downloading https://files.pythonhosted.org/packages/19/1a/7a873c41e263a4c7b04c41a33f9ef900de3b8dcdd9b535cd12015cf0b762/async-http-requests-0.0.1.tar.gz
+[2023-06-01 16:26:53] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Downloading https://files.pythonhosted.org/packages/9b/94/684b288b939b99762f0a47f1638b55866d4899c1e57c17f512735ca18664/cdktf-cdktf-provider-ionoscloud-6.0.0.tar.gz
+[2023-06-01 16:26:53] INFO root fetch - processPackages [hopara]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-01 16:26:53] INFO root fetch - main [MainThread]: End processing [pyilz]: success
+[2023-06-01 16:26:53] INFO root fetch - processPackages [hopara]: Downloading https://files.pythonhosted.org/packages/4e/42/e34f499c18abdc72f134e1ead512e2199186712cea3957b597103d453a8e/hopara-1.9.0.tar.gz
+[2023-06-01 16:26:53] INFO root fetch - processPackages [async-http-requests]: Downloading https://files.pythonhosted.org/packages/04/ab/f86aafed8f0d0bb990fcf596a36a668b32115c50a5684104c28dc698a9df/async-http-requests-0.0.2.tar.gz
+[2023-06-01 16:26:53] INFO root fetch - processPackages [async-http-requests]: executing diffoscope
+[2023-06-01 16:26:53] INFO root fetch - processPackages [async-http-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async-http-requests-0.0.1.tar.gz tmp/async-http-requests-0.0.2.tar.gz --markdown 20230601/a/async-http-requests/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 16:26:53] INFO root fetch - main [MainThread]: End processing [docker]: success
+[2023-06-01 16:26:53] INFO root fetch - processPackages [hopara]: Downloading https://files.pythonhosted.org/packages/cd/1b/1431697e799fa081ff35944b608f738199cab875e46ab08a17ff9a56da77/hopara-1.9.1.tar.gz
+[2023-06-01 16:26:53] INFO root fetch - processPackages [hopara]: executing diffoscope
+[2023-06-01 16:26:53] INFO root fetch - processPackages [hopara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hopara-1.9.0.tar.gz tmp/hopara-1.9.1.tar.gz --markdown 20230601/h/hopara/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-01 16:26:53] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: executing diffoscope
+[2023-06-01 16:26:53] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-datadog-6.0.3.tar.gz tmp/cdktf-cdktf-provider-datadog-6.0.4.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-datadog/6.0.3-6.0.4/diff.md --exclude *.pyd
+[2023-06-01 16:26:54] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Downloading https://files.pythonhosted.org/packages/b0/43/01a89f8f9a48fd339615e5a7b74dc1a6a589c55bbb0d6e2560f1ee7a9119/cdktf-cdktf-provider-ionoscloud-6.0.1.tar.gz
+[2023-06-01 16:26:54] INFO root fetch - main [MainThread]: End processing [async-http-requests]: success
+[2023-06-01 16:26:54] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: executing diffoscope
+[2023-06-01 16:26:54] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-ionoscloud-6.0.0.tar.gz tmp/cdktf-cdktf-provider-ionoscloud-6.0.1.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-ionoscloud/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-06-01 16:26:54] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-hcp]: success
+[2023-06-01 16:26:55] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-github]: success
+[2023-06-01 16:26:55] INFO root fetch - main [MainThread]: End processing [hopara]: success
+[2023-06-01 16:26:55] INFO root fetch - main [MainThread]: End processing [wordhoard]: success
+[2023-06-01 16:26:56] INFO root fetch - main [MainThread]: End processing [pySMART]: success
+[2023-06-01 16:26:56] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-ionoscloud]: success
+[2023-06-01 16:26:57] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-datadog]: success
+[2023-06-01 16:26:57] INFO root fetch - main [MainThread]: Store serial: [18334996]
