@@ -16935,3 +16935,110 @@
 [2023-06-01 13:51:11] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
 [2023-06-01 13:51:12] INFO root fetch - main [MainThread]: End processing [noba]: success
 [2023-06-01 13:51:12] INFO root fetch - main [MainThread]: Store serial: [18332403]
+[2023-06-01 13:56:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18332403]
+[2023-06-01 13:56:21] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-01 13:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hestia-earth-models
+[2023-06-01 13:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Indago
+[2023-06-01 13:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-reactor
+[2023-06-01 13:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graphdisplay
+[2023-06-01 13:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: renovosolutions.aws-cdk-aspects-security-group
+[2023-06-01 13:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dask-felleskomponenter
+[2023-06-01 13:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odh-core
+[2023-06-01 13:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: st-pop-up-component
+[2023-06-01 13:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dynapyt
+[2023-06-01 13:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: renovosolutions.aws-cdk-one-time-event
+[2023-06-01 13:56:21] INFO root fetch - processPackages [django-reactor]: New version: [4.0.2b0] Old Version: [2.2.1b0]
+[2023-06-01 13:56:21] INFO root fetch - processPackages [Indago]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-01 13:56:21] INFO root fetch - processPackages [hestia-earth-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-01 13:56:21] INFO root fetch - processPackages [odh-core]: New version: [0.1.9] Old Version: [0.1.22]
+[2023-06-01 13:56:21] WARNING root fetch - processPackages [st-pop-up-component]: Skipping, unable to determine old version
+[2023-06-01 13:56:21] INFO root fetch - processPackages [st-pop-up-component]: Start processing: sspqdd
+[2023-06-01 13:56:21] INFO root fetch - main [MainThread]: End processing [st-pop-up-component] error
+[2023-06-01 13:56:21] INFO root fetch - processPackages [dynapyt]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-01 13:56:21] INFO root fetch - processPackages [graphdisplay]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-01 13:56:21] INFO root fetch - processPackages [dask-felleskomponenter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 13:56:21] INFO root fetch - processPackages [sspqdd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 13:56:21] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-06-01 13:56:21] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-06-01 13:56:21] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-06-01 13:56:21] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.8.tar.gz tmp/sspqdd-1.0.9.tar.gz --markdown 20230601/s/sspqdd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 13:56:21] INFO root fetch - processPackages [Indago]: Downloading https://files.pythonhosted.org/packages/ca/91/b7a91ecd03b4a65ec1c3adeda13e58ebdd097aae25f0c81e7a992ab67b9c/Indago-0.4.4.tar.gz
+[2023-06-01 13:56:21] INFO root fetch - processPackages [dynapyt]: Downloading https://files.pythonhosted.org/packages/35/be/e63a4336e973d8bf4d5ca53a6eb345802b23bb48e3013e34d05a04451106/dynapyt-0.2.2.tar.gz
+[2023-06-01 13:56:21] INFO root fetch - processPackages [odh-core]: Downloading https://files.pythonhosted.org/packages/8a/c6/0a84dc4997b29403678e955315485cd4d98f129ab7beccdd08428b583a82/odh_core-0.1.22.tar.gz
+[2023-06-01 13:56:21] INFO root fetch - processPackages [django-reactor]: Downloading https://files.pythonhosted.org/packages/f3/c7/09e6115a3ac8b4d138a592566d923dffe6157bd587cc77cbcfb7b018aca9/django-reactor-2.2.1b0.tar.gz
+[2023-06-01 13:56:21] INFO root fetch - processPackages [graphdisplay]: Downloading https://files.pythonhosted.org/packages/6d/0f/266a65033bac80cb0757841b03a96a707149fdd0dcffaa583f81db5e2a23/graphdisplay-0.4.2.tar.gz
+[2023-06-01 13:56:21] INFO root fetch - processPackages [dask-felleskomponenter]: Downloading https://files.pythonhosted.org/packages/c5/d3/4651927e837a8ed5cbee975f4ac5b579f647c347232921c33dc54cdcd16c/dask-felleskomponenter-0.0.8.tar.gz
+[2023-06-01 13:56:21] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: Downloading https://files.pythonhosted.org/packages/74/82/8de6f28d8f85a1b38e7a1d392121fb3bcecaf127c798dc1d55b38d3e1773/renovosolutions.aws-cdk-aspects-security-group-2.1.98.tar.gz
+[2023-06-01 13:56:21] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: Downloading https://files.pythonhosted.org/packages/87/7c/af41d25a32b040b0473d5b1f96433d36349fe59cccfe0b874d7844700c9e/renovosolutions.aws-cdk-one-time-event-2.1.98.tar.gz
+[2023-06-01 13:56:21] INFO root fetch - processPackages [odh-core]: executing diffoscope
+[2023-06-01 13:56:21] INFO root fetch - processPackages [odh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odh_core-0.1.22.tar.gz tmp/odh_core-0.1.9.tar.gz --markdown 20230601/o/odh-core/0.1.22-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 13:56:21] INFO root fetch - processPackages [hestia-earth-models]: executing diffoscope
+[2023-06-01 13:56:21] INFO root fetch - processPackages [hestia-earth-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-models-0.9.0.tar.gz tmp/hestia-earth-models-0.9.1.tar.gz --markdown 20230601/h/hestia-earth-models/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-01 13:56:21] INFO root fetch - processPackages [dynapyt]: Downloading https://files.pythonhosted.org/packages/fd/9d/f78cca8908677fdd25901a17c0fc274103f247012993c0207c3970c518e5/dynapyt-0.2.3.tar.gz
+[2023-06-01 13:56:21] INFO root fetch - processPackages [Indago]: Downloading https://files.pythonhosted.org/packages/33/68/fd86405bd7c76eded2f3f19a1ddb18d6a6efd4aae5d2310e1c55d180e331/Indago-0.4.5-py3-none-any.whl
+[2023-06-01 13:56:21] INFO root fetch - processPackages [django-reactor]: Downloading https://files.pythonhosted.org/packages/e9/e7/a1b57dd7312287a2998baf3135ae788d37daff75eea57a5215d11bbd12b6/django-reactor-4.0.2b0.tar.gz
+[2023-06-01 13:56:21] INFO root fetch - processPackages [graphdisplay]: Downloading https://files.pythonhosted.org/packages/b0/3a/7cf5fe90e30142b7f96032f2d6a7eac140c9591e4ec92360825ed8f59dda/graphdisplay-0.4.3.tar.gz
+[2023-06-01 13:56:21] INFO root fetch - processPackages [dynapyt]: executing diffoscope
+[2023-06-01 13:56:21] INFO root fetch - processPackages [dynapyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynapyt-0.2.2.tar.gz tmp/dynapyt-0.2.3.tar.gz --markdown 20230601/d/dynapyt/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-01 13:56:21] INFO root fetch - processPackages [Indago]: executing diffoscope
+[2023-06-01 13:56:21] INFO root fetch - processPackages [Indago]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Indago-0.4.4.tar.gz tmp/Indago-0.4.5-py3-none-any.whl.zip --markdown 20230601/I/Indago/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-01 13:56:21] INFO root fetch - processPackages [graphdisplay]: executing diffoscope
+[2023-06-01 13:56:21] INFO root fetch - processPackages [graphdisplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphdisplay-0.4.2.tar.gz tmp/graphdisplay-0.4.3.tar.gz --markdown 20230601/g/graphdisplay/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-01 13:56:22] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: Downloading https://files.pythonhosted.org/packages/dd/b3/93dd3a1d41946218feb6e47f0c033c52b0852aeed6fdfc36cfaca7b9bfb6/renovosolutions.aws-cdk-aspects-security-group-2.1.99.tar.gz
+[2023-06-01 13:56:22] INFO root fetch - processPackages [django-reactor]: executing diffoscope
+[2023-06-01 13:56:22] INFO root fetch - processPackages [django-reactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-reactor-2.2.1b0.tar.gz tmp/django-reactor-4.0.2b0.tar.gz --markdown 20230601/d/django-reactor/2.2.1b0-4.0.2b0/diff.md --exclude *.pyd
+[2023-06-01 13:56:22] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: Downloading https://files.pythonhosted.org/packages/80/80/e18538dade74958e4680bda9c6ec21d445f0f6a82ee16527ba03c23f5c46/renovosolutions.aws-cdk-one-time-event-2.1.99.tar.gz
+[2023-06-01 13:56:22] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: executing diffoscope
+[2023-06-01 13:56:22] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.98.tar.gz tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-aspects-security-group/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-06-01 13:56:22] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: executing diffoscope
+[2023-06-01 13:56:22] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-one-time-event-2.1.98.tar.gz tmp/renovosolutions.aws-cdk-one-time-event-2.1.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-one-time-event/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-06-01 13:56:22] INFO root fetch - processPackages [dask-felleskomponenter]: Downloading https://files.pythonhosted.org/packages/52/c7/697c1b34efd275120407995c87ccede743383540fa84933a3d62128c5be6/dask-felleskomponenter-0.0.9.tar.gz
+[2023-06-01 13:56:22] INFO root fetch - processPackages [dask-felleskomponenter]: executing diffoscope
+[2023-06-01 13:56:22] INFO root fetch - processPackages [dask-felleskomponenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-felleskomponenter-0.0.8.tar.gz tmp/dask-felleskomponenter-0.0.9.tar.gz --markdown 20230601/d/dask-felleskomponenter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 13:56:22] INFO root fetch - processPackages [sspqdd]: Start processing: spaceone-inventory
+[2023-06-01 13:56:22] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-06-01 13:56:22] INFO root fetch - processPackages [spaceone-inventory]: New version: [1.9.7rc1] Old Version: [1.9.7.3]
+[2023-06-01 13:56:23] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/a9/82/c593d30951fa8a48a0777598d6512a6f1c3d737ee4831063408619868fff/spaceone_inventory-1.9.7.3-py3-none-any.whl
+[2023-06-01 13:56:23] INFO root fetch - processPackages [odh-core]: Start processing: nginx-set-conf-equitania
+[2023-06-01 13:56:23] INFO root fetch - main [MainThread]: End processing [odh-core]: success
+[2023-06-01 13:56:23] INFO root fetch - processPackages [nginx-set-conf-equitania]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-01 13:56:23] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/8b/3e/9b66d8ee4c516bd667673a5577cc4743104de117a9cf1693532b741e45c4/spaceone_inventory-1.9.7rc1-py3-none-any.whl
+[2023-06-01 13:56:23] INFO root fetch - processPackages [Indago]: Start processing: FeatureInsight
+[2023-06-01 13:56:23] INFO root fetch - main [MainThread]: End processing [Indago]: success
+[2023-06-01 13:56:23] INFO root fetch - processPackages [FeatureInsight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 13:56:23] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2023-06-01 13:56:23] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip --markdown 20230601/s/spaceone-inventory/1.9.7.3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-01 13:56:23] INFO root fetch - processPackages [nginx-set-conf-equitania]: Downloading https://files.pythonhosted.org/packages/37/df/02229868774dc23b4ff998d8c0b7270a9d2d6a3bed14a268dd6439b440f4/nginx-set-conf-equitania-0.8.3.tar.gz
+[2023-06-01 13:56:23] INFO root fetch - processPackages [nginx-set-conf-equitania]: executing diffoscope
+[2023-06-01 13:56:23] INFO root fetch - processPackages [nginx-set-conf-equitania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nginx-set-conf-equitania-0.8.2.tar.gz tmp/nginx-set-conf-equitania-0.8.3.tar.gz --markdown 20230601/n/nginx-set-conf-equitania/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-01 13:56:23] INFO root fetch - processPackages [FeatureInsight]: Downloading https://files.pythonhosted.org/packages/f4/eb/04aa85d4f24b8e6ea2ae81fc2ff2acaadcdfe0eab42481ef60aec3204363/FeatureInsight-0.0.8.tar.gz
+[2023-06-01 13:56:23] INFO root fetch - processPackages [graphdisplay]: Start processing: DLMS-SPODES
+[2023-06-01 13:56:23] INFO root fetch - main [MainThread]: End processing [graphdisplay]: success
+[2023-06-01 13:56:23] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-01 13:56:23] INFO root fetch - processPackages [dynapyt]: Start processing: napari-boxmanager
+[2023-06-01 13:56:23] INFO root fetch - main [MainThread]: End processing [dynapyt]: success
+[2023-06-01 13:56:23] INFO root fetch - processPackages [napari-boxmanager]: New version: [0.4.0b2] Old Version: [0.4.0b1]
+[2023-06-01 13:56:23] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-06-01 13:56:23] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230601/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 13:56:23] INFO root fetch - processPackages [FeatureInsight]: Downloading https://files.pythonhosted.org/packages/a7/b5/94707d40486c478607629c2b098a9439cfa14e93e9ac19e9a879dd5ce0f6/FeatureInsight-0.0.9.tar.gz
+[2023-06-01 13:56:24] INFO root fetch - processPackages [django-reactor]: Start processing: canvaslms
+[2023-06-01 13:56:24] INFO root fetch - main [MainThread]: End processing [django-reactor]: success
+[2023-06-01 13:56:24] INFO root fetch - processPackages [canvaslms]: New version: [2.9] Old Version: [2.8]
+[2023-06-01 13:56:24] INFO root fetch - processPackages [FeatureInsight]: executing diffoscope
+[2023-06-01 13:56:24] INFO root fetch - processPackages [FeatureInsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FeatureInsight-0.0.8.tar.gz tmp/FeatureInsight-0.0.9.tar.gz --markdown 20230601/F/FeatureInsight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 13:56:24] INFO root fetch - processPackages [canvaslms]: executing diffoscope
+[2023-06-01 13:56:24] INFO root fetch - processPackages [canvaslms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canvaslms-2.8.tar.gz tmp/canvaslms-2.9.tar.gz --markdown 20230601/c/canvaslms/2.8-2.9/diff.md --exclude *.pyd
+[2023-06-01 13:56:24] INFO root fetch - processPackages [napari-boxmanager]: Downloading https://files.pythonhosted.org/packages/47/d3/6f1993dbffacd223da15220dcb6fabce45c5b7087ea773e752f0dde830ad/napari_boxmanager-0.4.0b2.tar.gz
+[2023-06-01 13:56:24] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-one-time-event]: success
+[2023-06-01 13:56:24] INFO root fetch - main [MainThread]: End processing [dask-felleskomponenter]: success
+[2023-06-01 13:56:24] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aspects-security-group]: success
+[2023-06-01 13:56:24] INFO root fetch - processPackages [napari-boxmanager]: executing diffoscope
+[2023-06-01 13:56:24] INFO root fetch - processPackages [napari-boxmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_boxmanager-0.4.0b1.tar.gz tmp/napari_boxmanager-0.4.0b2.tar.gz --markdown 20230601/n/napari-boxmanager/0.4.0b1-0.4.0b2/diff.md --exclude *.pyd
+[2023-06-01 13:56:25] INFO root fetch - main [MainThread]: End processing [nginx-set-conf-equitania]: success
+[2023-06-01 13:56:25] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2023-06-01 13:56:25] INFO root fetch - main [MainThread]: End processing [FeatureInsight]: success
+[2023-06-01 13:56:25] INFO root fetch - main [MainThread]: End processing [canvaslms]: success
+[2023-06-01 13:56:26] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-06-01 13:56:27] INFO root fetch - main [MainThread]: End processing [napari-boxmanager]: success
+[2023-06-01 13:56:27] INFO root fetch - main [MainThread]: End processing [hestia-earth-models]: success
+[2023-06-01 13:56:27] INFO root fetch - main [MainThread]: Store serial: [18332464]
