@@ -10224,3 +10224,54 @@
 [2023-06-01 07:25:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-fatturapa]: success
 [2023-06-01 07:25:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-assets-management]: success
 [2023-06-01 07:25:43] INFO root fetch - main [MainThread]: Store serial: [18328484]
+[2023-06-01 07:30:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18328484]
+[2023-06-01 07:30:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-01 07:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: execy
+[2023-06-01 07:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meter-gear
+[2023-06-01 07:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c4p
+[2023-06-01 07:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: custodial-registration-proxy
+[2023-06-01 07:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opvious
+[2023-06-01 07:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crazy-thursday
+[2023-06-01 07:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: browsr
+[2023-06-01 07:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: testghacookiecutter
+[2023-06-01 07:30:52] INFO root fetch - processPackages [c4p]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 07:30:52] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-01 07:30:52] INFO root fetch - processPackages [execy]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-01 07:30:52] INFO root fetch - processPackages [browsr]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-01 07:30:52] INFO root fetch - processPackages [meter-gear]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-01 07:30:52] INFO root fetch - processPackages [custodial-registration-proxy]: New version: [0.3.0] Old Version: [0.1.0]
+[2023-06-01 07:30:52] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.1.1] Old Version: [2023.6.1.0]
+[2023-06-01 07:30:52] INFO root fetch - processPackages [testghacookiecutter]: New version: [0.0.92] Old Version: [0.0.91]
+[2023-06-01 07:30:52] INFO root fetch - processPackages [c4p]: Downloading https://files.pythonhosted.org/packages/fa/ac/cbf241c91c31434f6b3482bbfb53be846cbdbf47a6656380964d9d7baba5/c4p-0.0.1.tar.gz
+[2023-06-01 07:30:52] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-06-01 07:30:52] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230601/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-01 07:30:52] INFO root fetch - processPackages [testghacookiecutter]: Downloading https://files.pythonhosted.org/packages/f9/a4/c93e4e8ed4db85296385f23b2a1206c0d3c6a5700d6bd99ae39c32cbdf1c/testghacookiecutter-0.0.91-cp39-cp39-win_amd64.whl
+[2023-06-01 07:30:52] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/57/a0/18c3dce8b3e313d57478029c57685fcfb17dd5af451a812498d103c1d1a0/crazy-thursday-2023.6.1.0.tar.gz
+[2023-06-01 07:30:52] INFO root fetch - processPackages [execy]: Downloading https://files.pythonhosted.org/packages/52/91/bd0116052232defdf26971fcea5e0093be5008c4769cff9c6ebbb960169e/execy-0.1.8.tar.gz
+[2023-06-01 07:30:52] INFO root fetch - processPackages [browsr]: executing diffoscope
+[2023-06-01 07:30:52] INFO root fetch - processPackages [browsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browsr-1.8.0.tar.gz tmp/browsr-1.9.0.tar.gz --markdown 20230601/b/browsr/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-01 07:30:52] INFO root fetch - processPackages [c4p]: Downloading https://files.pythonhosted.org/packages/8a/bb/f9c7f71d6832034d3105ff8c410df0f0e5e1be32598b7101564f9c9dc5ce/c4p-0.0.2.tar.gz
+[2023-06-01 07:30:52] INFO root fetch - processPackages [meter-gear]: executing diffoscope
+[2023-06-01 07:30:52] INFO root fetch - processPackages [meter-gear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meter-gear-1.2.8.tar.gz tmp/meter-gear-1.2.9.tar.gz --markdown 20230601/m/meter-gear/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-01 07:30:52] INFO root fetch - processPackages [execy]: executing diffoscope
+[2023-06-01 07:30:52] INFO root fetch - processPackages [execy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/execy-0.1.7.tar.gz tmp/execy-0.1.8.tar.gz --markdown 20230601/e/execy/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-01 07:30:52] INFO root fetch - processPackages [custodial-registration-proxy]: Downloading https://files.pythonhosted.org/packages/a8/6a/f59251d6b56e953bf028509d1ca8dba4682bfd66278beabc7f8824a018ec/custodial-registration-proxy-0.3.0.tar.gz
+[2023-06-01 07:30:52] INFO root fetch - processPackages [c4p]: executing diffoscope
+[2023-06-01 07:30:52] INFO root fetch - processPackages [c4p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4p-0.0.1.tar.gz tmp/c4p-0.0.2.tar.gz --markdown 20230601/c/c4p/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 07:30:53] INFO root fetch - processPackages [custodial-registration-proxy]: executing diffoscope
+[2023-06-01 07:30:53] INFO root fetch - processPackages [custodial-registration-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custodial-registration-proxy-0.1.0.tar.gz tmp/custodial-registration-proxy-0.3.0.tar.gz --markdown 20230601/c/custodial-registration-proxy/0.1.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-01 07:30:53] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/59/54/0ddf4787276db798691cc497489b8dc4bc47680bd1b086ccdccb8a923089/crazy-thursday-2023.6.1.1.tar.gz
+[2023-06-01 07:30:53] INFO root fetch - processPackages [testghacookiecutter]: Downloading https://files.pythonhosted.org/packages/4a/bb/80f9f3d6827e6fdd00e8801670400896ab92503f16ab887fa2fb6ee82b4a/testghacookiecutter-0.0.92-cp39-cp39-win_amd64.whl
+[2023-06-01 07:30:53] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-01 07:30:53] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.1.0.tar.gz tmp/crazy-thursday-2023.6.1.1.tar.gz --markdown 20230601/c/crazy-thursday/2023.6.1.0-2023.6.1.1/diff.md --exclude *.pyd
+[2023-06-01 07:30:53] INFO root fetch - processPackages [testghacookiecutter]: executing diffoscope
+[2023-06-01 07:30:53] INFO root fetch - processPackages [testghacookiecutter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testghacookiecutter-0.0.91-cp39-cp39-win_amd64.whl.zip tmp/testghacookiecutter-0.0.92-cp39-cp39-win_amd64.whl.zip --markdown 20230601/t/testghacookiecutter/0.0.91-0.0.92/diff.md --exclude *.pyd
+[2023-06-01 07:30:54] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-06-01 07:30:54] INFO root fetch - main [MainThread]: End processing [c4p]: success
+[2023-06-01 07:30:54] INFO root fetch - main [MainThread]: End processing [execy]: success
+[2023-06-01 07:30:54] INFO root fetch - main [MainThread]: End processing [custodial-registration-proxy]: success
+[2023-06-01 07:30:54] INFO root fetch - main [MainThread]: End processing [meter-gear]: success
+[2023-06-01 07:30:54] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-01 07:30:55] INFO root fetch - main [MainThread]: End processing [testghacookiecutter]: success
+[2023-06-01 07:30:55] INFO root fetch - main [MainThread]: End processing [browsr]: success
+[2023-06-01 07:30:55] INFO root fetch - main [MainThread]: Store serial: [18328503]
