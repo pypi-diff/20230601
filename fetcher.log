@@ -11168,3 +11168,98 @@
 [2023-06-01 08:55:03] INFO root fetch - processPackages [recipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recipe-0.8.0rc1.tar.gz tmp/recipe-0.9.0.tar.gz --markdown 20230601/r/recipe/0.8.0rc1-0.9.0/diff.md --exclude *.pyd
 [2023-06-01 08:55:12] INFO root fetch - main [MainThread]: End processing [recipe]: success
 [2023-06-01 08:55:12] INFO root fetch - main [MainThread]: Store serial: [18329131]
+[2023-06-01 09:00:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18329131]
+[2023-06-01 09:00:23] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-01 09:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jmcomic
+[2023-06-01 09:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: panoptic
+[2023-06-01 09:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bdffont
+[2023-06-01 09:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aligning
+[2023-06-01 09:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: interpret
+[2023-06-01 09:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: interpret-core
+[2023-06-01 09:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-nagabus
+[2023-06-01 09:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dsp-tools
+[2023-06-01 09:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ht-pricing-module
+[2023-06-01 09:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gmcapsule
+[2023-06-01 09:00:23] INFO root fetch - processPackages [jmcomic]: New version: [2.0.3] Old Version: [2.0.1]
+[2023-06-01 09:00:23] INFO root fetch - processPackages [interpret]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-01 09:00:23] INFO root fetch - processPackages [bdffont]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 09:00:23] INFO root fetch - processPackages [dsp-tools]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-06-01 09:00:23] WARNING root fetch - processPackages [aligning]: Skipping, unable to determine old version
+[2023-06-01 09:00:23] INFO root fetch - processPackages [aligning]: Start processing: acshell
+[2023-06-01 09:00:23] INFO root fetch - processPackages [interpret-core]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-01 09:00:23] INFO root fetch - main [MainThread]: End processing [aligning] error
+[2023-06-01 09:00:23] INFO root fetch - processPackages [nonebot-plugin-nagabus]: New version: [0.2.0.post1] Old Version: [0.2.0]
+[2023-06-01 09:00:23] INFO root fetch - processPackages [ht-pricing-module]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-01 09:00:23] INFO root fetch - processPackages [gmcapsule]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-01 09:00:23] INFO root fetch - processPackages [panoptic]: New version: [0.0.9.dev7] Old Version: [0.0.9.dev6]
+[2023-06-01 09:00:23] INFO root fetch - processPackages [acshell]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-01 09:00:23] INFO root fetch - processPackages [bdffont]: executing diffoscope
+[2023-06-01 09:00:23] INFO root fetch - processPackages [bdffont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdffont-0.0.8.tar.gz tmp/bdffont-0.0.9.tar.gz --markdown 20230601/b/bdffont/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 09:00:23] INFO root fetch - processPackages [interpret]: Downloading https://files.pythonhosted.org/packages/db/25/45af0f21c4b4dbcca146813d6eb0b6982310f9623e038b2fc96cc32e1623/interpret-0.4.1.tar.gz
+[2023-06-01 09:00:23] INFO root fetch - processPackages [interpret-core]: Downloading https://files.pythonhosted.org/packages/32/54/3d86569b74b112c1938d9a597f5e56570f5ccb7a302930f5227d315663fe/interpret-core-0.4.1.tar.gz
+[2023-06-01 09:00:23] INFO root fetch - processPackages [ht-pricing-module]: Downloading https://files.pythonhosted.org/packages/36/6b/1f28d6cbf0f4926dc11f7ec71a76ac6710c9191a778804bbb3e94aecfe6b/ht_pricing_module-0.2.4.tar.gz
+[2023-06-01 09:00:23] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Downloading https://files.pythonhosted.org/packages/02/f7/6e2b9d98a80836f098767285fe846b2a593693921b30f4aaf326b1547a7c/nonebot_plugin_nagabus-0.2.0.post1.tar.gz
+[2023-06-01 09:00:23] INFO root fetch - processPackages [acshell]: Downloading https://files.pythonhosted.org/packages/03/66/377969b1e81544cb043ad6dc23350a22d9632fbaffee40ab5976a9508361/acshell-2.0.0.tar.gz
+[2023-06-01 09:00:23] INFO root fetch - processPackages [ht-pricing-module]: executing diffoscope
+[2023-06-01 09:00:23] INFO root fetch - processPackages [ht-pricing-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ht_pricing_module-0.2.3.tar.gz tmp/ht_pricing_module-0.2.4.tar.gz --markdown 20230601/h/ht-pricing-module/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-01 09:00:23] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/a7/c5/1530e7bc0864c89e1643f5b47b3b104a1d82330c51aa9ae605aaa7470bea/jmcomic-2.0.3.tar.gz
+[2023-06-01 09:00:23] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/8f/10/8144d8023e0cf83ca6efe718d8d6fb94937cf44ee96a53021cd0b13243c9/panoptic-0.0.9.dev7.tar.gz
+[2023-06-01 09:00:23] INFO root fetch - processPackages [nonebot-plugin-nagabus]: executing diffoscope
+[2023-06-01 09:00:23] INFO root fetch - processPackages [nonebot-plugin-nagabus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_nagabus-0.2.0.tar.gz tmp/nonebot_plugin_nagabus-0.2.0.post1.tar.gz --markdown 20230601/n/nonebot-plugin-nagabus/0.2.0-0.2.0.post1/diff.md --exclude *.pyd
+[2023-06-01 09:00:23] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/f6/2d/39550eff6977e738e4d18f5466ea32e1b5d0d3e62f778a41f24843766533/dsp_tools-2.3.2.tar.gz
+[2023-06-01 09:00:23] INFO root fetch - processPackages [gmcapsule]: Downloading https://files.pythonhosted.org/packages/22/92/16b0311847d50e6ee7643d35b04481a62aad6279d870e230b4a3363ad49e/gmcapsule-0.4.0.tar.gz
+[2023-06-01 09:00:23] INFO root fetch - processPackages [interpret]: Downloading https://files.pythonhosted.org/packages/87/49/b081880b983d8bbb8bf9fece0121934ddee8610bae01ab05ff981d1624e1/interpret-0.4.2.tar.gz
+[2023-06-01 09:00:23] INFO root fetch - processPackages [jmcomic]: executing diffoscope
+[2023-06-01 09:00:23] INFO root fetch - processPackages [jmcomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmcomic-2.0.1.tar.gz tmp/jmcomic-2.0.3.tar.gz --markdown 20230601/j/jmcomic/2.0.1-2.0.3/diff.md --exclude *.pyd
+[2023-06-01 09:00:23] INFO root fetch - processPackages [panoptic]: executing diffoscope
+[2023-06-01 09:00:23] INFO root fetch - processPackages [panoptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptic-0.0.9.dev6.tar.gz tmp/panoptic-0.0.9.dev7.tar.gz --markdown 20230601/p/panoptic/0.0.9.dev6-0.0.9.dev7/diff.md --exclude *.pyd
+[2023-06-01 09:00:23] INFO root fetch - processPackages [gmcapsule]: executing diffoscope
+[2023-06-01 09:00:23] INFO root fetch - processPackages [gmcapsule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmcapsule-0.3.2.tar.gz tmp/gmcapsule-0.4.0.tar.gz --markdown 20230601/g/gmcapsule/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-01 09:00:23] INFO root fetch - processPackages [acshell]: Downloading https://files.pythonhosted.org/packages/7f/cb/f8df22d963f378f334feac993b37ab23c8d5cc26c0fbeb2562cdcb49aa09/acshell-2.1.0.tar.gz
+[2023-06-01 09:00:23] INFO root fetch - processPackages [dsp-tools]: executing diffoscope
+[2023-06-01 09:00:23] INFO root fetch - processPackages [dsp-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_tools-2.3.1.tar.gz tmp/dsp_tools-2.3.2.tar.gz --markdown 20230601/d/dsp-tools/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-06-01 09:00:23] INFO root fetch - processPackages [acshell]: executing diffoscope
+[2023-06-01 09:00:23] INFO root fetch - processPackages [acshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acshell-2.0.0.tar.gz tmp/acshell-2.1.0.tar.gz --markdown 20230601/a/acshell/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-01 09:00:23] INFO root fetch - processPackages [interpret]: executing diffoscope
+[2023-06-01 09:00:23] INFO root fetch - processPackages [interpret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interpret-0.4.1.tar.gz tmp/interpret-0.4.2.tar.gz --markdown 20230601/i/interpret/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-01 09:00:23] INFO root fetch - processPackages [interpret-core]: Downloading https://files.pythonhosted.org/packages/75/52/1a9f4eaff637dafb09d02c040a9c47678dcd85e795364bfd4e41567c01e2/interpret-core-0.4.2.tar.gz
+[2023-06-01 09:00:24] INFO root fetch - processPackages [interpret-core]: executing diffoscope
+[2023-06-01 09:00:24] INFO root fetch - processPackages [interpret-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interpret-core-0.4.1.tar.gz tmp/interpret-core-0.4.2.tar.gz --markdown 20230601/i/interpret-core/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-01 09:00:24] INFO root fetch - processPackages [bdffont]: Start processing: mage-ai
+[2023-06-01 09:00:24] INFO root fetch - main [MainThread]: End processing [bdffont]: success
+[2023-06-01 09:00:24] INFO root fetch - processPackages [mage-ai]: New version: [0.8.9] Old Version: [0.8.87]
+[2023-06-01 09:00:24] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-06-01 09:00:24] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.87.tar.gz tmp/mage-ai-0.8.9.tar.gz --markdown 20230601/m/mage-ai/0.8.87-0.8.9/diff.md --exclude *.pyd
+[2023-06-01 09:00:25] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Start processing: Alpha-Rabbit
+[2023-06-01 09:00:25] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nagabus]: success
+[2023-06-01 09:00:25] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-01 09:00:25] INFO root fetch - processPackages [panoptic]: Start processing: LabGym
+[2023-06-01 09:00:25] INFO root fetch - main [MainThread]: End processing [panoptic]: success
+[2023-06-01 09:00:25] INFO root fetch - processPackages [LabGym]: New version: [1.9] Old Version: [1.8.2]
+[2023-06-01 09:00:25] INFO root fetch - processPackages [LabGym]: Downloading https://files.pythonhosted.org/packages/41/d3/646d148eca4d187fbfe0c421da24afd6b6b2da09b72b7ce2311e9815c889/LabGym-1.8.2.tar.gz
+[2023-06-01 09:00:25] WARNING root fetch - processPackages [LabGym]: Skipping package: exceeds size limit 53590351>=10485760
+[2023-06-01 09:00:25] INFO root fetch - processPackages [LabGym]: Start processing: moto-ext
+[2023-06-01 09:00:25] INFO root fetch - main [MainThread]: End processing [LabGym] error
+[2023-06-01 09:00:25] INFO root fetch - processPackages [interpret]: Start processing: ffmpeg-progress-yield
+[2023-06-01 09:00:25] INFO root fetch - main [MainThread]: End processing [interpret]: success
+[2023-06-01 09:00:25] INFO root fetch - main [MainThread]: End processing [acshell]: success
+[2023-06-01 09:00:25] INFO root fetch - main [MainThread]: End processing [jmcomic]: success
+[2023-06-01 09:00:25] INFO root fetch - main [MainThread]: End processing [ht-pricing-module]: success
+[2023-06-01 09:00:25] INFO root fetch - main [MainThread]: End processing [gmcapsule]: success
+[2023-06-01 09:00:25] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-06-01 09:00:25] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230601/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-01 09:00:25] INFO root fetch - processPackages [ffmpeg-progress-yield]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-06-01 09:00:25] INFO root fetch - processPackages [moto-ext]: New version: [4.1.9.post1] Old Version: [4.1.8.post1]
+[2023-06-01 09:00:26] INFO root fetch - main [MainThread]: End processing [dsp-tools]: success
+[2023-06-01 09:00:26] INFO root fetch - processPackages [ffmpeg-progress-yield]: Downloading https://files.pythonhosted.org/packages/ec/42/4d4a0471c56e7c493bb919b3518a7390f2f6b5110fd00bde909f97883807/ffmpeg-progress-yield-0.7.8.tar.gz
+[2023-06-01 09:00:26] INFO root fetch - processPackages [moto-ext]: executing diffoscope
+[2023-06-01 09:00:26] INFO root fetch - processPackages [moto-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-ext-4.1.8.post1.tar.gz tmp/moto-ext-4.1.9.post1.tar.gz --markdown 20230601/m/moto-ext/4.1.8.post1-4.1.9.post1/diff.md --exclude *.pyd
+[2023-06-01 09:00:26] INFO root fetch - processPackages [ffmpeg-progress-yield]: executing diffoscope
+[2023-06-01 09:00:26] INFO root fetch - processPackages [ffmpeg-progress-yield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg-progress-yield-0.7.7.tar.gz tmp/ffmpeg-progress-yield-0.7.8.tar.gz --markdown 20230601/f/ffmpeg-progress-yield/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-06-01 09:00:27] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-06-01 09:00:27] INFO root fetch - main [MainThread]: End processing [ffmpeg-progress-yield]: success
+[2023-06-01 09:01:09] INFO root fetch - main [MainThread]: End processing [interpret-core]: success
+[2023-06-01 09:01:14] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-06-01 09:03:26] ERROR root fetch - processPackages [moto-ext]: Timeout during execution of pkgdiff
+[2023-06-01 09:03:26] INFO root fetch - main [MainThread]: End processing [moto-ext] error
+[2023-06-01 09:03:26] INFO root fetch - main [MainThread]: Store serial: [18329185]
