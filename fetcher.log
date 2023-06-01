@@ -8469,3 +8469,99 @@
 [2023-06-01 05:01:05] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
 [2023-06-01 05:01:10] INFO root fetch - main [MainThread]: End processing [odoo8-addon-magentoerpconnect]: success
 [2023-06-01 05:01:10] INFO root fetch - main [MainThread]: Store serial: [18327614]
+[2023-06-01 05:06:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18327614]
+[2023-06-01 05:06:19] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-01 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: boto3-utils
+[2023-06-01 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo8-addon-crm-phone
+[2023-06-01 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo8-addon-asterisk-click2dial
+[2023-06-01 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo8-addon-base-phone
+[2023-06-01 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo10-addon-crm-phone
+[2023-06-01 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo10-addon-base-sms-client
+[2023-06-01 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo10-addon-base-phone
+[2023-06-01 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hglong16-exectime
+[2023-06-01 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: async-adbc
+[2023-06-01 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pywencai
+[2023-06-01 05:06:19] INFO root fetch - processPackages [odoo10-addon-base-sms-client]: New version: [10.0.1.0.0.99.dev8] Old Version: [10.0.1.0.0.99.dev7]
+[2023-06-01 05:06:19] INFO root fetch - processPackages [boto3-utils]: New version: [0.4.1] Old Version: [0.4.0b1]
+[2023-06-01 05:06:19] WARNING root fetch - processPackages [hglong16-exectime]: Skipping, unable to determine old version
+[2023-06-01 05:06:19] INFO root fetch - processPackages [hglong16-exectime]: Start processing: SPRT-TANDEM
+[2023-06-01 05:06:19] INFO root fetch - processPackages [odoo10-addon-crm-phone]: New version: [10.0.1.0.0.99.dev9] Old Version: [10.0.1.0.0.99.dev8]
+[2023-06-01 05:06:19] INFO root fetch - main [MainThread]: End processing [hglong16-exectime] error
+[2023-06-01 05:06:19] INFO root fetch - processPackages [odoo10-addon-base-phone]: New version: [10.0.0.1.0.99.dev9] Old Version: [10.0.0.1.0.99.dev3]
+[2023-06-01 05:06:19] INFO root fetch - processPackages [pywencai]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-01 05:06:19] INFO root fetch - processPackages [odoo8-addon-asterisk-click2dial]: New version: [8.0.0.4.0.99.dev9] Old Version: [8.0.0.4.0.99.dev39]
+[2023-06-01 05:06:19] INFO root fetch - processPackages [async-adbc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 05:06:19] INFO root fetch - processPackages [odoo8-addon-base-phone]: New version: [8.0.0.1.0.99.dev56] Old Version: [8.0.0.1.0.99.dev55]
+[2023-06-01 05:06:19] INFO root fetch - processPackages [odoo8-addon-crm-phone]: New version: [8.0.0.1.0.99.dev9] Old Version: [8.0.0.1.0.99.dev8]
+[2023-06-01 05:06:19] INFO root fetch - processPackages [SPRT-TANDEM]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 05:06:19] INFO root fetch - processPackages [odoo8-addon-asterisk-click2dial]: Downloading https://files.pythonhosted.org/packages/f9/85/12a3e828d6f6d8d834a893baa2d2a5c7475bc1706252cd9a6a3c74949dd9/odoo8_addon_asterisk_click2dial-8.0.0.4.0.99.dev39-py2-none-any.whl
+[2023-06-01 05:06:19] INFO root fetch - processPackages [boto3-utils]: Downloading https://files.pythonhosted.org/packages/29/a2/f2d6c5304c4564bd3ca14b1574eb35d496d1f03544f9ad0298a998a66e2f/boto3-utils-0.4.0b1.tar.gz
+[2023-06-01 05:06:19] INFO root fetch - processPackages [odoo10-addon-base-sms-client]: Downloading https://files.pythonhosted.org/packages/e3/4d/2cb8d385d99035b0d541510689acd060c5e1d98d8765a31769721de6ed1b/odoo10_addon_base_sms_client-10.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-01 05:06:19] INFO root fetch - processPackages [odoo10-addon-base-phone]: Downloading https://files.pythonhosted.org/packages/3b/2d/3ddf2202e43f9378e49a1dda403b91080422315081d78de4469e39bead91/odoo10_addon_base_phone-10.0.0.1.0.99.dev3-py2-none-any.whl
+[2023-06-01 05:06:19] INFO root fetch - processPackages [odoo10-addon-crm-phone]: Downloading https://files.pythonhosted.org/packages/60/f8/23c2e772ad3a820d968aeddf15e0e624bac42916a2ce6d66adba7678d52d/odoo10_addon_crm_phone-10.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-01 05:06:19] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/de/27/eb4167029dbbbc57d815c9efce9e2ba7b09819b21077a201069799e9b2dd/pywencai-0.8.9.tar.gz
+[2023-06-01 05:06:19] INFO root fetch - processPackages [odoo8-addon-crm-phone]: Downloading https://files.pythonhosted.org/packages/c8/65/291a1c9bb5869d9693a72d46934d759f7d0fa2a1601f88c2a24466db7b96/odoo8_addon_crm_phone-8.0.0.1.0.99.dev8-py2-none-any.whl
+[2023-06-01 05:06:19] INFO root fetch - processPackages [odoo8-addon-base-phone]: Downloading https://files.pythonhosted.org/packages/b5/3f/4d14c81d72df6751f12bab6d6c2ae5f0cc88efa77025bf512c503541b1a4/odoo8_addon_base_phone-8.0.0.1.0.99.dev55-py2-none-any.whl
+[2023-06-01 05:06:19] INFO root fetch - processPackages [SPRT-TANDEM]: Downloading https://files.pythonhosted.org/packages/22/37/2556af3dba28ccc00564ce4fc9f6545a47f350d4033d6d2285f531d2fc03/SPRT-TANDEM-0.1.9.tar.gz
+[2023-06-01 05:06:19] INFO root fetch - processPackages [async-adbc]: executing diffoscope
+[2023-06-01 05:06:19] INFO root fetch - processPackages [async-adbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_adbc-1.0.8.tar.gz tmp/async_adbc-1.0.9.tar.gz --markdown 20230601/a/async-adbc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 05:06:20] INFO root fetch - processPackages [pywencai]: executing diffoscope
+[2023-06-01 05:06:20] INFO root fetch - processPackages [pywencai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywencai-0.8.8.tar.gz tmp/pywencai-0.8.9.tar.gz --markdown 20230601/p/pywencai/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-01 05:06:20] INFO root fetch - processPackages [boto3-utils]: Downloading https://files.pythonhosted.org/packages/f5/fe/9f3045c952fd8912bdbf18c3784df81ade4746f1dae7c5a4157d9158d41d/boto3-utils-0.4.1.tar.gz
+[2023-06-01 05:06:20] INFO root fetch - processPackages [SPRT-TANDEM]: executing diffoscope
+[2023-06-01 05:06:20] INFO root fetch - processPackages [SPRT-TANDEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPRT-TANDEM-0.1.8.tar.gz tmp/SPRT-TANDEM-0.1.9.tar.gz --markdown 20230601/S/SPRT-TANDEM/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 05:06:20] INFO root fetch - processPackages [odoo10-addon-base-sms-client]: Downloading https://files.pythonhosted.org/packages/e3/00/dc405be61ef6dfccf8d3de2c81ebb0a8ce14d1b15a3e2f1d6735ee957d4b/odoo10_addon_base_sms_client-10.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-01 05:06:20] INFO root fetch - processPackages [odoo8-addon-asterisk-click2dial]: Downloading https://files.pythonhosted.org/packages/90/41/10fdc1280988236699f85842fbde58b2f3dcb480df138369a65a5f2fd3fb/odoo8_addon_asterisk_click2dial-8.0.0.4.0.99.dev9-py2-none-any.whl
+[2023-06-01 05:06:20] INFO root fetch - processPackages [odoo10-addon-crm-phone]: Downloading https://files.pythonhosted.org/packages/9f/7b/7ad3cfa9296d304ba232012968360c6831d4b58b6e9dab4273a5c76e68da/odoo10_addon_crm_phone-10.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-01 05:06:20] INFO root fetch - processPackages [odoo8-addon-base-phone]: Downloading https://files.pythonhosted.org/packages/9c/db/559f5c0bb925298412c7614d74ee01f6faf04d7d190a533f87788fb94467/odoo8_addon_base_phone-8.0.0.1.0.99.dev56-py2-none-any.whl
+[2023-06-01 05:06:20] INFO root fetch - processPackages [boto3-utils]: executing diffoscope
+[2023-06-01 05:06:20] INFO root fetch - processPackages [boto3-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-utils-0.4.0b1.tar.gz tmp/boto3-utils-0.4.1.tar.gz --markdown 20230601/b/boto3-utils/0.4.0b1-0.4.1/diff.md --exclude *.pyd
+[2023-06-01 05:06:20] INFO root fetch - processPackages [odoo10-addon-base-phone]: Downloading https://files.pythonhosted.org/packages/a7/2b/e316978230d1ec8308ca684aecc08ad26ba1922b445426e486d1db561f0d/odoo10_addon_base_phone-10.0.0.1.0.99.dev9-py2-none-any.whl
+[2023-06-01 05:06:20] INFO root fetch - processPackages [odoo8-addon-asterisk-click2dial]: executing diffoscope
+[2023-06-01 05:06:20] INFO root fetch - processPackages [odoo8-addon-asterisk-click2dial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_asterisk_click2dial-8.0.0.4.0.99.dev39-py2-none-any.whl.zip tmp/odoo8_addon_asterisk_click2dial-8.0.0.4.0.99.dev9-py2-none-any.whl.zip --markdown 20230601/o/odoo8-addon-asterisk-click2dial/8.0.0.4.0.99.dev39-8.0.0.4.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-01 05:06:20] INFO root fetch - processPackages [odoo10-addon-crm-phone]: executing diffoscope
+[2023-06-01 05:06:20] INFO root fetch - processPackages [odoo10-addon-crm-phone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_crm_phone-10.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_crm_phone-10.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230601/o/odoo10-addon-crm-phone/10.0.1.0.0.99.dev8-10.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-01 05:06:20] INFO root fetch - processPackages [odoo8-addon-base-phone]: executing diffoscope
+[2023-06-01 05:06:20] INFO root fetch - processPackages [odoo8-addon-base-phone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_base_phone-8.0.0.1.0.99.dev55-py2-none-any.whl.zip tmp/odoo8_addon_base_phone-8.0.0.1.0.99.dev56-py2-none-any.whl.zip --markdown 20230601/o/odoo8-addon-base-phone/8.0.0.1.0.99.dev55-8.0.0.1.0.99.dev56/diff.md --exclude *.pyd
+[2023-06-01 05:06:20] INFO root fetch - processPackages [odoo8-addon-crm-phone]: Downloading https://files.pythonhosted.org/packages/15/01/a24767ad06893b30703fcd3241e9f57d26c61776ee5f463bb99fe8cab189/odoo8_addon_crm_phone-8.0.0.1.0.99.dev9-py2-none-any.whl
+[2023-06-01 05:06:20] INFO root fetch - processPackages [odoo10-addon-base-phone]: executing diffoscope
+[2023-06-01 05:06:20] INFO root fetch - processPackages [odoo10-addon-base-phone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_base_phone-10.0.0.1.0.99.dev3-py2-none-any.whl.zip tmp/odoo10_addon_base_phone-10.0.0.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230601/o/odoo10-addon-base-phone/10.0.0.1.0.99.dev3-10.0.0.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-01 05:06:20] INFO root fetch - processPackages [odoo10-addon-base-sms-client]: executing diffoscope
+[2023-06-01 05:06:20] INFO root fetch - processPackages [odoo10-addon-base-sms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_base_sms_client-10.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo10_addon_base_sms_client-10.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230601/o/odoo10-addon-base-sms-client/10.0.1.0.0.99.dev7-10.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-01 05:06:20] INFO root fetch - processPackages [odoo8-addon-crm-phone]: executing diffoscope
+[2023-06-01 05:06:20] INFO root fetch - processPackages [odoo8-addon-crm-phone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_crm_phone-8.0.0.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_crm_phone-8.0.0.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230601/o/odoo8-addon-crm-phone/8.0.0.1.0.99.dev8-8.0.0.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-01 05:06:21] INFO root fetch - processPackages [pywencai]: Start processing: index-503
+[2023-06-01 05:06:21] INFO root fetch - main [MainThread]: End processing [pywencai]: success
+[2023-06-01 05:06:21] INFO root fetch - processPackages [index-503]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-01 05:06:21] INFO root fetch - processPackages [index-503]: Downloading https://files.pythonhosted.org/packages/7a/e8/a578968c24d5ba85763686aced5e162fb01e714e965da7559332fed80b34/index_503-0.1.5.tar.gz
+[2023-06-01 05:06:21] INFO root fetch - processPackages [SPRT-TANDEM]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-06-01 05:06:21] INFO root fetch - main [MainThread]: End processing [SPRT-TANDEM]: success
+[2023-06-01 05:06:21] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-06-01 05:06:21] INFO root fetch - processPackages [index-503]: executing diffoscope
+[2023-06-01 05:06:21] INFO root fetch - processPackages [index-503]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/index_503-0.1.4.tar.gz tmp/index_503-0.1.5.tar.gz --markdown 20230601/i/index-503/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-01 05:06:21] INFO root fetch - processPackages [boto3-utils]: Start processing: execy
+[2023-06-01 05:06:21] INFO root fetch - main [MainThread]: End processing [boto3-utils]: success
+[2023-06-01 05:06:21] WARNING root fetch - processPackages [execy]: Skipping, unable to determine old version
+[2023-06-01 05:06:21] INFO root fetch - processPackages [execy]: Start processing: XPVI
+[2023-06-01 05:06:21] INFO root fetch - main [MainThread]: End processing [execy] error
+[2023-06-01 05:06:21] WARNING root fetch - processPackages [XPVI]: Skipping, unable to determine old version
+[2023-06-01 05:06:21] INFO root fetch - processPackages [XPVI]: Start processing: odoo9-addon-crm-phonecall-planner
+[2023-06-01 05:06:21] INFO root fetch - main [MainThread]: End processing [XPVI] error
+[2023-06-01 05:06:22] INFO root fetch - processPackages [odoo9-addon-crm-phonecall-planner]: New version: [9.0.1.0.0.99.dev5] Old Version: [9.0.1.0.0.99.dev4]
+[2023-06-01 05:06:22] INFO root fetch - main [MainThread]: End processing [async-adbc]: success
+[2023-06-01 05:06:22] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-06-01 05:06:22] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230601/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-06-01 05:06:22] INFO root fetch - processPackages [odoo9-addon-crm-phonecall-planner]: Downloading https://files.pythonhosted.org/packages/d1/82/245a814a28340593570a512dabc6a63250941aeaba5293503a08e737415a/odoo9_addon_crm_phonecall_planner-9.0.1.0.0.99.dev4-py2-none-any.whl
+[2023-06-01 05:06:22] INFO root fetch - main [MainThread]: End processing [odoo8-addon-asterisk-click2dial]: success
+[2023-06-01 05:06:22] INFO root fetch - main [MainThread]: End processing [odoo10-addon-crm-phone]: success
+[2023-06-01 05:06:22] INFO root fetch - processPackages [odoo9-addon-crm-phonecall-planner]: Downloading https://files.pythonhosted.org/packages/b5/8f/0fbab6077ceac67f1c8a83a8baf5b522f8e6c426022ac438db116a3e1c15/odoo9_addon_crm_phonecall_planner-9.0.1.0.0.99.dev5-py2-none-any.whl
+[2023-06-01 05:06:22] INFO root fetch - main [MainThread]: End processing [odoo10-addon-base-sms-client]: success
+[2023-06-01 05:06:22] INFO root fetch - main [MainThread]: End processing [odoo8-addon-crm-phone]: success
+[2023-06-01 05:06:22] INFO root fetch - main [MainThread]: End processing [odoo8-addon-base-phone]: success
+[2023-06-01 05:06:22] INFO root fetch - processPackages [odoo9-addon-crm-phonecall-planner]: executing diffoscope
+[2023-06-01 05:06:22] INFO root fetch - processPackages [odoo9-addon-crm-phonecall-planner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_crm_phonecall_planner-9.0.1.0.0.99.dev4-py2-none-any.whl.zip tmp/odoo9_addon_crm_phonecall_planner-9.0.1.0.0.99.dev5-py2-none-any.whl.zip --markdown 20230601/o/odoo9-addon-crm-phonecall-planner/9.0.1.0.0.99.dev4-9.0.1.0.0.99.dev5/diff.md --exclude *.pyd
+[2023-06-01 05:06:23] INFO root fetch - main [MainThread]: End processing [odoo10-addon-base-phone]: success
+[2023-06-01 05:06:23] INFO root fetch - main [MainThread]: End processing [index-503]: success
+[2023-06-01 05:06:24] INFO root fetch - main [MainThread]: End processing [odoo9-addon-crm-phonecall-planner]: success
+[2023-06-01 05:06:25] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-06-01 05:06:25] INFO root fetch - main [MainThread]: Store serial: [18327663]
