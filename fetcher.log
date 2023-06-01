@@ -16620,3 +16620,101 @@
 [2023-06-01 13:28:37] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-01 13:28:42] INFO root fetch - main [MainThread]: End processing [mqt.qmap]: success
 [2023-06-01 13:28:42] INFO root fetch - main [MainThread]: Store serial: [18332182]
+[2023-06-01 13:33:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18332182]
+[2023-06-01 13:33:58] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-01 13:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchserve-nightly
+[2023-06-01 13:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ramodels
+[2023-06-01 13:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-model-archiver-nightly
+[2023-06-01 13:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-workflow-archiver-nightly
+[2023-06-01 13:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hcai-nova-server-nightly
+[2023-06-01 13:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: optimtool
+[2023-06-01 13:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mippy
+[2023-06-01 13:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: peachdb
+[2023-06-01 13:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xt-st-common
+[2023-06-01 13:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: APIxoo
+[2023-06-01 13:33:58] INFO root fetch - processPackages [optimtool]: New version: [2.4.4] Old Version: [2.4.3]
+[2023-06-01 13:33:58] INFO root fetch - processPackages [xt-st-common]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-01 13:33:58] INFO root fetch - processPackages [peachdb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 13:33:58] INFO root fetch - processPackages [APIxoo]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-01 13:33:58] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.7.dev202305311442] Old Version: [0.1.7.dev202305310956]
+[2023-06-01 13:33:58] INFO root fetch - processPackages [mippy]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-06-01 13:33:58] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-01 13:33:58] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.6.1] Old Version: [2023.5.9]
+[2023-06-01 13:33:58] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.6.1] Old Version: [2023.5.9]
+[2023-06-01 13:33:58] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.6.1] Old Version: [2023.5.9]
+[2023-06-01 13:33:58] INFO root fetch - processPackages [mippy]: executing diffoscope
+[2023-06-01 13:33:58] INFO root fetch - processPackages [mippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mippy-2.9.4.tar.gz tmp/mippy-2.9.5.tar.gz --markdown 20230601/m/mippy/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-06-01 13:33:58] INFO root fetch - processPackages [optimtool]: Downloading https://files.pythonhosted.org/packages/af/b7/6421dce12596ec064360983b5395a0541d57cb604dab0198679fb3055396/optimtool-2.4.4.tar.gz
+[2023-06-01 13:33:58] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/af/e8/5253ed5d05b02b88e303fbdbb69a002c8e9d0b4a157163f588ded9f20571/hcai-nova-server-nightly-0.1.7.dev202305311442.tar.gz
+[2023-06-01 13:33:58] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/47/d2/31dd4a0e4eb445167d4ed09bd401d30a33c76b43ce660cd899e28e222a7d/torchserve_nightly-2023.5.9-py3-none-any.whl
+[2023-06-01 13:33:58] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/99/a6/68f31d32fcdfd4b4b73e7152bacdbf5e6fcef2219263f1bcb27fa7cf5d6f/xt_st_common-0.5.3.tar.gz
+[2023-06-01 13:33:58] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-06-01 13:33:58] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.7.dev202305310956.tar.gz tmp/hcai-nova-server-nightly-0.1.7.dev202305311442.tar.gz --markdown 20230601/h/hcai-nova-server-nightly/0.1.7.dev202305310956-0.1.7.dev202305311442/diff.md --exclude *.pyd
+[2023-06-01 13:33:58] INFO root fetch - processPackages [APIxoo]: Downloading https://files.pythonhosted.org/packages/3a/71/9df5b4bc23bf981ab0b491792d276742a63347c8c7bd25a65c7f963f614a/APIxoo-0.3.0.tar.gz
+[2023-06-01 13:33:58] INFO root fetch - processPackages [optimtool]: executing diffoscope
+[2023-06-01 13:33:58] INFO root fetch - processPackages [optimtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimtool-2.4.3.tar.gz tmp/optimtool-2.4.4.tar.gz --markdown 20230601/o/optimtool/2.4.3-2.4.4/diff.md --exclude *.pyd
+[2023-06-01 13:33:58] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/23/df/11a39e720b1e5c29ead935b00548c4975e7d55167ad4ac74528038802c7b/torch_workflow_archiver_nightly-2023.6.1-py3-none-any.whl
+[2023-06-01 13:33:58] INFO root fetch - processPackages [peachdb]: executing diffoscope
+[2023-06-01 13:33:58] INFO root fetch - processPackages [peachdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peachdb-0.0.8.tar.gz tmp/peachdb-0.0.9.tar.gz --markdown 20230601/p/peachdb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 13:33:58] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-01 13:33:58] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230601/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-01 13:33:59] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/9f/45/9535d0d531bdef495c673f9b5f58dff380e72465dc8df74c2e97b4b98bbe/torch_model_archiver_nightly-2023.6.1-py3-none-any.whl
+[2023-06-01 13:33:59] INFO root fetch - processPackages [APIxoo]: executing diffoscope
+[2023-06-01 13:33:59] INFO root fetch - processPackages [APIxoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/APIxoo-0.2.0.tar.gz tmp/APIxoo-0.3.0.tar.gz --markdown 20230601/A/APIxoo/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-01 13:33:59] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-06-01 13:33:59] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.5.9-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.6.1-py3-none-any.whl.zip --markdown 20230601/t/torch-workflow-archiver-nightly/2023.5.9-2023.6.1/diff.md --exclude *.pyd
+[2023-06-01 13:33:59] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-06-01 13:33:59] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.5.9-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.6.1-py3-none-any.whl.zip --markdown 20230601/t/torch-model-archiver-nightly/2023.5.9-2023.6.1/diff.md --exclude *.pyd
+[2023-06-01 13:33:59] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23716835>=10485760
+[2023-06-01 13:33:59] INFO root fetch - processPackages [torchserve-nightly]: Start processing: bigdl-nano
+[2023-06-01 13:33:59] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-06-01 13:33:59] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230531] Old Version: [2.4.0b20230530]
+[2023-06-01 13:33:59] INFO root fetch - processPackages [xt-st-common]: executing diffoscope
+[2023-06-01 13:33:59] INFO root fetch - processPackages [xt-st-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xt_st_common-0.5.2.tar.gz tmp/xt_st_common-0.5.3.tar.gz --markdown 20230601/x/xt-st-common/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-01 13:34:00] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-06-01 13:34:00] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230530-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230531-py3-none-win_amd64.whl.zip --markdown 20230601/b/bigdl-nano/2.4.0b20230530-2.4.0b20230531/diff.md --exclude *.pyd
+[2023-06-01 13:34:00] INFO root fetch - processPackages [hcai-nova-server-nightly]: Start processing: midi-clip
+[2023-06-01 13:34:00] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-06-01 13:34:00] INFO root fetch - processPackages [midi-clip]: New version: [0.4] Old Version: [0.3]
+[2023-06-01 13:34:00] INFO root fetch - processPackages [midi-clip]: executing diffoscope
+[2023-06-01 13:34:00] INFO root fetch - processPackages [midi-clip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midi-clip-0.3.tar.gz tmp/midi-clip-0.4.tar.gz --markdown 20230601/m/midi-clip/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-01 13:34:00] INFO root fetch - processPackages [mippy]: Start processing: bigdl-chronos
+[2023-06-01 13:34:00] INFO root fetch - main [MainThread]: End processing [mippy]: success
+[2023-06-01 13:34:01] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230531] Old Version: [2.4.0b20230530]
+[2023-06-01 13:34:01] INFO root fetch - processPackages [APIxoo]: Start processing: klu
+[2023-06-01 13:34:01] INFO root fetch - main [MainThread]: End processing [APIxoo]: success
+[2023-06-01 13:34:01] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: bigdl-serving
+[2023-06-01 13:34:01] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-06-01 13:34:01] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230531] Old Version: [2.4.0b20230530]
+[2023-06-01 13:34:01] INFO root fetch - processPackages [ramodels]: Start processing: thalassa
+[2023-06-01 13:34:01] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-01 13:34:01] INFO root fetch - processPackages [optimtool]: Start processing: odoo-addon-website-sale-hide-price
+[2023-06-01 13:34:01] INFO root fetch - main [MainThread]: End processing [optimtool]: success
+[2023-06-01 13:34:01] INFO root fetch - main [MainThread]: End processing [peachdb]: success
+[2023-06-01 13:34:01] INFO root fetch - processPackages [klu]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-01 13:34:01] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-06-01 13:34:01] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230530-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230531-py2.py3-none-any.whl.zip --markdown 20230601/b/bigdl-serving/2.4.0b20230530-2.4.0b20230531/diff.md --exclude *.pyd
+[2023-06-01 13:34:01] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-01 13:34:01] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230530-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230531-py3-none-win_amd64.whl.zip --markdown 20230601/b/bigdl-chronos/2.4.0b20230530-2.4.0b20230531/diff.md --exclude *.pyd
+[2023-06-01 13:34:01] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-06-01 13:34:01] INFO root fetch - processPackages [thalassa]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-01 13:34:01] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.8]
+[2023-06-01 13:34:01] INFO root fetch - processPackages [thalassa]: Downloading https://files.pythonhosted.org/packages/75/52/38dfc3822c651be0f595af7d6b7f9e2ad032896e16a967e7ba4775c2a6f6/thalassa-0.3.0.tar.gz
+[2023-06-01 13:34:01] INFO root fetch - processPackages [klu]: Downloading https://files.pythonhosted.org/packages/4c/54/b95bf929c3695d4af65f92cf0572683060246902ca630c3e7961229f4b55/klu-0.1.6.tar.gz
+[2023-06-01 13:34:01] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Downloading https://files.pythonhosted.org/packages/e7/1e/dc17e1b3009e275890b04b3bf95d7c04da8250fb50f12a92f5c2c035599d/odoo_addon_website_sale_hide_price-16.0.1.1.0-py3-none-any.whl
+[2023-06-01 13:34:01] INFO root fetch - processPackages [klu]: executing diffoscope
+[2023-06-01 13:34:01] INFO root fetch - processPackages [klu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klu-0.1.5.tar.gz tmp/klu-0.1.6.tar.gz --markdown 20230601/k/klu/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-01 13:34:01] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: executing diffoscope
+[2023-06-01 13:34:01] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_hide_price-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_website_sale_hide_price-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230601/o/odoo-addon-website-sale-hide-price/16.0.1.0.0.8-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-01 13:34:01] INFO root fetch - processPackages [thalassa]: Downloading https://files.pythonhosted.org/packages/96/48/ee8ba6e1eb9c0e0534de511231a0254b623d5b7ff5bc5315545189bb3890/thalassa-0.3.1.tar.gz
+[2023-06-01 13:34:02] INFO root fetch - processPackages [thalassa]: executing diffoscope
+[2023-06-01 13:34:02] INFO root fetch - processPackages [thalassa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thalassa-0.3.0.tar.gz tmp/thalassa-0.3.1.tar.gz --markdown 20230601/t/thalassa/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-01 13:34:02] INFO root fetch - main [MainThread]: End processing [midi-clip]: success
+[2023-06-01 13:34:02] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-06-01 13:34:03] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-06-01 13:34:03] INFO root fetch - main [MainThread]: End processing [thalassa]: success
+[2023-06-01 13:34:03] INFO root fetch - main [MainThread]: End processing [klu]: success
+[2023-06-01 13:34:03] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-01 13:34:07] INFO root fetch - main [MainThread]: End processing [xt-st-common]: success
+[2023-06-01 13:34:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-hide-price]: success
+[2023-06-01 13:34:55] INFO root fetch - main [MainThread]: Store serial: [18332248]
