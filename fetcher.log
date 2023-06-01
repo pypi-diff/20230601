@@ -17126,3 +17126,115 @@
 [2023-06-01 14:01:40] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
 [2023-06-01 14:01:41] INFO root fetch - main [MainThread]: End processing [yeref]: success
 [2023-06-01 14:01:41] INFO root fetch - main [MainThread]: Store serial: [18332526]
+[2023-06-01 14:06:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18332526]
+[2023-06-01 14:06:50] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-01 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-dllib-spark2
+[2023-06-01 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-orca-spark2
+[2023-06-01 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-friesian-spark2
+[2023-06-01 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-chronos-spark2
+[2023-06-01 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-spark2
+[2023-06-01 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bbrl
+[2023-06-01 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tello-solectric-pl
+[2023-06-01 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: piwaterflow
+[2023-06-01 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-copasi
+[2023-06-01 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kolibri-explore-plugin
+[2023-06-01 14:06:50] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230601] Old Version: [2.4.0b20230531]
+[2023-06-01 14:06:50] INFO root fetch - processPackages [bbrl]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 14:06:50] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230601] Old Version: [2.4.0b20230531]
+[2023-06-01 14:06:50] INFO root fetch - processPackages [tello-solectric-pl]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 14:06:50] INFO root fetch - processPackages [piwaterflow]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-01 14:06:50] INFO root fetch - processPackages [kolibri-explore-plugin]: New version: [6.2.0] Old Version: [6.1.0]
+[2023-06-01 14:06:50] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230601] Old Version: [2.4.0b20230531]
+[2023-06-01 14:06:50] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230601] Old Version: [2.4.0b20230531]
+[2023-06-01 14:06:50] INFO root fetch - processPackages [python-copasi]: New version: [4.40.278] Old Version: [4.39.272]
+[2023-06-01 14:06:50] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230601] Old Version: [2.4.0b20230531]
+[2023-06-01 14:06:50] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/7a/dc/f9bc1523d9bba31bda705eb815a3570f61b2a35f5eeb5e2a4ac5eb6594f1/bigdl-dllib-spark2-2.4.0b20230531.tar.gz
+[2023-06-01 14:06:50] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/b0/9c/ce59ccf3a119559c21cb60fe64256885a147348af56cf91ea71b6cdd8fa4/bigdl_orca_spark2-2.4.0b20230531-py3-none-manylinux1_x86_64.whl
+[2023-06-01 14:06:50] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53560067>=10485760
+[2023-06-01 14:06:50] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: dm-cli
+[2023-06-01 14:06:50] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-06-01 14:06:50] INFO root fetch - processPackages [tello-solectric-pl]: Downloading https://files.pythonhosted.org/packages/11/db/79d396f05cf51afcd0514c902c5de992215ffa2eb72a438bb06cdace8c71/tello_solectric_pl-0.0.1.tar.gz
+[2023-06-01 14:06:50] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369464>=10485760
+[2023-06-01 14:06:50] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: google-analytics-admin
+[2023-06-01 14:06:50] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-06-01 14:06:50] INFO root fetch - processPackages [bbrl]: Downloading https://files.pythonhosted.org/packages/d7/e8/97d4e9c8c3e237255308ae545cb43a8d28b7e30c6aaf1032c434d4587efd/bbrl-0.1.8.tar.gz
+[2023-06-01 14:06:50] INFO root fetch - processPackages [kolibri-explore-plugin]: Downloading https://files.pythonhosted.org/packages/06/62/82e2e2a05c747190fead10d1d481d752b88732a200d96d62268d8168cc3a/kolibri_explore_plugin-6.1.0-py2.py3-none-any.whl
+[2023-06-01 14:06:50] INFO root fetch - processPackages [dm-cli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 14:06:50] WARNING root fetch - processPackages [bbrl]: Skipping package: exceeds size limit 95850648>=10485760
+[2023-06-01 14:06:50] INFO root fetch - processPackages [bbrl]: Start processing: jsfuzz
+[2023-06-01 14:06:50] INFO root fetch - main [MainThread]: End processing [bbrl] error
+[2023-06-01 14:06:50] WARNING root fetch - processPackages [kolibri-explore-plugin]: Skipping package: exceeds size limit 16553996>=10485760
+[2023-06-01 14:06:50] INFO root fetch - processPackages [kolibri-explore-plugin]: Start processing: google-cloud-functions
+[2023-06-01 14:06:50] INFO root fetch - processPackages [google-analytics-admin]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-01 14:06:50] INFO root fetch - main [MainThread]: End processing [kolibri-explore-plugin] error
+[2023-06-01 14:06:50] INFO root fetch - processPackages [python-copasi]: Downloading https://files.pythonhosted.org/packages/e8/15/de04cd64ec0a6db451fd0c049f65d65012c7954255520017bffaa4640267/python_copasi-4.39.272-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-06-01 14:06:50] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/7d/55/bc6fc32ca9e748ee0aa454cdd4be28a32f6ecb704f0b584118d6c86b8c6b/bigdl_spark2-2.4.0b20230601-py3-none-manylinux1_x86_64.whl
+[2023-06-01 14:06:50] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/b1/ea/84175045d983fad92f1a07afba4106654710e2eb28b9f7b1e0f51010a810/bigdl_friesian_spark2-2.4.0b20230601-py3-none-manylinux1_x86_64.whl
+[2023-06-01 14:06:50] WARNING root fetch - processPackages [jsfuzz]: Skipping, unable to determine old version
+[2023-06-01 14:06:50] INFO root fetch - processPackages [jsfuzz]: Start processing: volworld-common
+[2023-06-01 14:06:50] INFO root fetch - main [MainThread]: End processing [jsfuzz] error
+[2023-06-01 14:06:50] INFO root fetch - processPackages [piwaterflow]: Downloading https://files.pythonhosted.org/packages/82/51/517c4aa51b97a44fef6bad6a62754225b3145ea1eedb4aee131daf72ea1f/piwaterflow-0.5.9.tar.gz
+[2023-06-01 14:06:50] INFO root fetch - processPackages [dm-cli]: executing diffoscope
+[2023-06-01 14:06:50] INFO root fetch - processPackages [dm-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm-cli-1.0.8.tar.gz tmp/dm-cli-1.0.9.tar.gz --markdown 20230601/d/dm-cli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 14:06:50] INFO root fetch - processPackages [google-cloud-functions]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-06-01 14:06:50] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/a3/75/4ba5d63763688b3559c3d1d1bd8008e932f3e64bdbe61061a05c51bcf128/bigdl_chronos_spark2-2.4.0b20230601-py3-none-manylinux1_x86_64.whl
+[2023-06-01 14:06:50] INFO root fetch - processPackages [tello-solectric-pl]: Downloading https://files.pythonhosted.org/packages/c4/99/577815f777f37bf73e175ef9e2de58b7e1bd98c5b8cf360b180b92c4b3c4/tello_solectric_pl-0.0.2.tar.gz
+[2023-06-01 14:06:50] INFO root fetch - processPackages [google-analytics-admin]: Downloading https://files.pythonhosted.org/packages/dd/43/85530ef153e2930f20e4632b6035b6fbbfff138b4a4d2787e3769dd7037e/google-analytics-admin-0.8.2.tar.gz
+[2023-06-01 14:06:50] INFO root fetch - processPackages [piwaterflow]: executing diffoscope
+[2023-06-01 14:06:50] INFO root fetch - processPackages [piwaterflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwaterflow-0.5.8.tar.gz tmp/piwaterflow-0.5.9.tar.gz --markdown 20230601/p/piwaterflow/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-01 14:06:51] INFO root fetch - processPackages [volworld-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 14:06:51] INFO root fetch - processPackages [tello-solectric-pl]: executing diffoscope
+[2023-06-01 14:06:51] INFO root fetch - processPackages [tello-solectric-pl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tello_solectric_pl-0.0.1.tar.gz tmp/tello_solectric_pl-0.0.2.tar.gz --markdown 20230601/t/tello-solectric-pl/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 14:06:51] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-06-01 14:06:51] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230531-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230601-py3-none-manylinux1_x86_64.whl.zip --markdown 20230601/b/bigdl-spark2/2.4.0b20230531-2.4.0b20230601/diff.md --exclude *.pyd
+[2023-06-01 14:06:51] INFO root fetch - processPackages [google-cloud-functions]: Downloading https://files.pythonhosted.org/packages/67/96/ce402e6c57cc940d65fdba5ef2d9125dd05fbe8b1493a67d5a3a44670cfb/google-cloud-functions-1.8.3.tar.gz
+[2023-06-01 14:06:51] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-06-01 14:06:51] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230531-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230601-py3-none-manylinux1_x86_64.whl.zip --markdown 20230601/b/bigdl-friesian-spark2/2.4.0b20230531-2.4.0b20230601/diff.md --exclude *.pyd
+[2023-06-01 14:06:51] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-06-01 14:06:51] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230531-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230601-py3-none-manylinux1_x86_64.whl.zip --markdown 20230601/b/bigdl-chronos-spark2/2.4.0b20230531-2.4.0b20230601/diff.md --exclude *.pyd
+[2023-06-01 14:06:51] INFO root fetch - processPackages [google-analytics-admin]: Downloading https://files.pythonhosted.org/packages/88/39/76afd134891902e3f106ac34dfc823125e77ae677c29e97d7336b8d55f25/google-analytics-admin-0.9.0.tar.gz
+[2023-06-01 14:06:51] INFO root fetch - processPackages [volworld-common]: executing diffoscope
+[2023-06-01 14:06:51] INFO root fetch - processPackages [volworld-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_common-0.1.8.tar.gz tmp/volworld_common-0.1.9.tar.gz --markdown 20230601/v/volworld-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 14:06:51] INFO root fetch - processPackages [google-cloud-functions]: Downloading https://files.pythonhosted.org/packages/87/51/abefb3696180c5fe175a1395c510d8b4d52b08348411ce7b81203383eff8/google-cloud-functions-1.9.0.tar.gz
+[2023-06-01 14:06:51] INFO root fetch - processPackages [google-analytics-admin]: executing diffoscope
+[2023-06-01 14:06:51] INFO root fetch - processPackages [google-analytics-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-analytics-admin-0.8.2.tar.gz tmp/google-analytics-admin-0.9.0.tar.gz --markdown 20230601/g/google-analytics-admin/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 14:06:51] INFO root fetch - processPackages [google-cloud-functions]: executing diffoscope
+[2023-06-01 14:06:51] INFO root fetch - processPackages [google-cloud-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-functions-1.8.3.tar.gz tmp/google-cloud-functions-1.9.0.tar.gz --markdown 20230601/g/google-cloud-functions/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-06-01 14:06:52] INFO root fetch - processPackages [bigdl-spark2]: Start processing: tello-solectric-pl
+[2023-06-01 14:06:52] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-06-01 14:06:52] INFO root fetch - processPackages [tello-solectric-pl]: New version: [0.0.2b0] Old Version: [0.0.2]
+[2023-06-01 14:06:52] INFO root fetch - processPackages [tello-solectric-pl]: Start processing: google-cloud-videointelligence
+[2023-06-01 14:06:52] INFO root fetch - main [MainThread]: End processing [tello-solectric-pl]: success
+[2023-06-01 14:06:52] INFO root fetch - processPackages [tello-solectric-pl]: Downloading https://files.pythonhosted.org/packages/fa/de/771212efc0c49d35413700da927d599cd933b6018d8a7e4e435873594e19/tello_solectric_pl-0.0.2b0.tar.gz
+[2023-06-01 14:06:52] INFO root fetch - processPackages [piwaterflow]: Start processing: piwwwaterflow
+[2023-06-01 14:06:52] INFO root fetch - main [MainThread]: End processing [piwaterflow]: success
+[2023-06-01 14:06:52] INFO root fetch - processPackages [google-cloud-videointelligence]: New version: [2.9.0] Old Version: [2.8.3]
+[2023-06-01 14:06:52] INFO root fetch - processPackages [piwwwaterflow]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-01 14:06:52] INFO root fetch - processPackages [tello-solectric-pl]: executing diffoscope
+[2023-06-01 14:06:52] INFO root fetch - processPackages [tello-solectric-pl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tello_solectric_pl-0.0.2.tar.gz tmp/tello_solectric_pl-0.0.2b0.tar.gz --markdown 20230601/t/tello-solectric-pl/0.0.2-0.0.2b0/diff.md --exclude *.pyd
+[2023-06-01 14:06:53] INFO root fetch - processPackages [google-cloud-videointelligence]: Downloading https://files.pythonhosted.org/packages/3c/1e/293e3483198ccf1819ad6fea03b1c8f2aa27716b2d92cbd78cd6421d4b9e/google-cloud-videointelligence-2.8.3.tar.gz
+[2023-06-01 14:06:53] INFO root fetch - processPackages [volworld-common]: Start processing: bbrl
+[2023-06-01 14:06:53] INFO root fetch - main [MainThread]: End processing [volworld-common]: success
+[2023-06-01 14:06:53] INFO root fetch - processPackages [piwwwaterflow]: Downloading https://files.pythonhosted.org/packages/f0/1c/e716a6577613da57ecf499d3db0324c898203281dc7264f1c1fea0dab13b/piwwwaterflow-0.1.7.tar.gz
+[2023-06-01 14:06:53] INFO root fetch - processPackages [bbrl]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 14:06:53] INFO root fetch - processPackages [bbrl]: Downloading https://files.pythonhosted.org/packages/d7/e8/97d4e9c8c3e237255308ae545cb43a8d28b7e30c6aaf1032c434d4587efd/bbrl-0.1.8.tar.gz
+[2023-06-01 14:06:53] WARNING root fetch - processPackages [bbrl]: Skipping package: exceeds size limit 95850648>=10485760
+[2023-06-01 14:06:53] INFO root fetch - main [MainThread]: End processing [bbrl] error
+[2023-06-01 14:06:53] INFO root fetch - processPackages [google-cloud-videointelligence]: Downloading https://files.pythonhosted.org/packages/c3/67/74c21b4ab94aeead36b75d6d269773bbe5e26c7f58b9ac1649b9e1ee8629/google-cloud-videointelligence-2.9.0.tar.gz
+[2023-06-01 14:06:53] INFO root fetch - processPackages [piwwwaterflow]: executing diffoscope
+[2023-06-01 14:06:53] INFO root fetch - processPackages [piwwwaterflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwwwaterflow-0.1.6.tar.gz tmp/piwwwaterflow-0.1.7.tar.gz --markdown 20230601/p/piwwwaterflow/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-01 14:06:53] INFO root fetch - processPackages [google-cloud-videointelligence]: executing diffoscope
+[2023-06-01 14:06:53] INFO root fetch - processPackages [google-cloud-videointelligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-videointelligence-2.8.3.tar.gz tmp/google-cloud-videointelligence-2.9.0.tar.gz --markdown 20230601/g/google-cloud-videointelligence/2.8.3-2.9.0/diff.md --exclude *.pyd
+[2023-06-01 14:06:53] INFO root fetch - processPackages [python-copasi]: Downloading https://files.pythonhosted.org/packages/07/99/b6a5e4b4ed7a8872a47df78373174645fb393dd64703528076b31991dc7c/python_copasi-4.40.278-cp39-cp39-win_amd64.whl
+[2023-06-01 14:06:53] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-06-01 14:06:53] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-06-01 14:06:54] INFO root fetch - main [MainThread]: End processing [tello-solectric-pl]: success
+[2023-06-01 14:06:54] INFO root fetch - main [MainThread]: End processing [google-analytics-admin]: success
+[2023-06-01 14:06:54] INFO root fetch - main [MainThread]: End processing [dm-cli]: success
+[2023-06-01 14:06:54] INFO root fetch - main [MainThread]: End processing [piwwwaterflow]: success
+[2023-06-01 14:06:55] INFO root fetch - processPackages [python-copasi]: executing diffoscope
+[2023-06-01 14:06:55] INFO root fetch - processPackages [python-copasi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_copasi-4.39.272-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip tmp/python_copasi-4.40.278-cp39-cp39-win_amd64.whl.zip --markdown 20230601/p/python-copasi/4.39.272-4.40.278/diff.md --exclude *.pyd
+[2023-06-01 14:06:56] INFO root fetch - main [MainThread]: End processing [google-cloud-functions]: success
+[2023-06-01 14:06:58] INFO root fetch - main [MainThread]: End processing [python-copasi]: success
+[2023-06-01 14:06:58] INFO root fetch - main [MainThread]: End processing [google-cloud-videointelligence]: success
+[2023-06-01 14:06:58] INFO root fetch - main [MainThread]: Store serial: [18332634]
