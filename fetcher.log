@@ -17299,3 +17299,86 @@
 [2023-06-01 14:12:16] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-06-01 14:12:17] INFO root fetch - main [MainThread]: End processing [mstrio-py]: success
 [2023-06-01 14:12:17] INFO root fetch - main [MainThread]: Store serial: [18332793]
+[2023-06-01 14:17:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18332793]
+[2023-06-01 14:17:27] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-01 14:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opencanary-fork
+[2023-06-01 14:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: looqbox
+[2023-06-01 14:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rdiffweb
+[2023-06-01 14:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: google-cloud-talent
+[2023-06-01 14:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: recon-lw
+[2023-06-01 14:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: elevenlabslib
+[2023-06-01 14:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lndb_storage
+[2023-06-01 14:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odh-core
+[2023-06-01 14:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scipion-em-cryosparc2
+[2023-06-01 14:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ewoksjob
+[2023-06-01 14:17:27] INFO root fetch - processPackages [rdiffweb]: New version: [2.8.0a2] Old Version: [2.8.0a1]
+[2023-06-01 14:17:27] INFO root fetch - processPackages [opencanary-fork]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-06-01 14:17:27] INFO root fetch - processPackages [scipion-em-cryosparc2]: New version: [4.0.7] Old Version: [4.0.6]
+[2023-06-01 14:17:27] INFO root fetch - processPackages [elevenlabslib]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-01 14:17:27] INFO root fetch - processPackages [google-cloud-talent]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-01 14:17:27] INFO root fetch - processPackages [lndb_storage]: New version: [0.4a1] Old Version: [0.3.2]
+[2023-06-01 14:17:27] INFO root fetch - processPackages [ewoksjob]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-01 14:17:27] INFO root fetch - processPackages [looqbox]: New version: [4.1.4] Old Version: [4.1.3]
+[2023-06-01 14:17:27] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5144147090] Old Version: [2.0.0.dev5143256311]
+[2023-06-01 14:17:27] INFO root fetch - processPackages [odh-core]: New version: [0.1.9] Old Version: [0.1.24]
+[2023-06-01 14:17:27] INFO root fetch - processPackages [rdiffweb]: Downloading https://files.pythonhosted.org/packages/b3/84/bc34f99387e24858ed1c961fcde9a4a27ea6399cb232a46c50f744929608/rdiffweb-2.8.0a1-py3-none-any.whl
+[2023-06-01 14:17:27] INFO root fetch - processPackages [opencanary-fork]: Downloading https://files.pythonhosted.org/packages/ad/d5/db081d464f6cc8ba91ca523937ee3c5d5dac5ed63ec16f461aadb08e332e/opencanary-fork-0.9.0.tar.gz
+[2023-06-01 14:17:27] INFO root fetch - processPackages [odh-core]: Downloading https://files.pythonhosted.org/packages/7e/67/3d1a0a551bd1cbb46bbf6accefe445e39fda117a35722e0e7eff3bed991d/odh_core-0.1.24.tar.gz
+[2023-06-01 14:17:27] INFO root fetch - processPackages [elevenlabslib]: Downloading https://files.pythonhosted.org/packages/fb/26/859985244d4ecebaa3ba5acc5384eb972a29e9d032a5e375c55b5ba68852/elevenlabslib-0.9.1.tar.gz
+[2023-06-01 14:17:27] INFO root fetch - processPackages [google-cloud-talent]: Downloading https://files.pythonhosted.org/packages/30/d9/047cdeafb8f8f0d46be8f6c757327e8337e772872faf1c108ed787ff3b77/google-cloud-talent-2.9.0.tar.gz
+[2023-06-01 14:17:27] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/cd/f2/918618eb6b31df35ad9d3cbe4a783790e308f32f75655aea93105f1abfaf/recon_lw-2.0.0.dev5144147090.tar.gz
+[2023-06-01 14:17:27] INFO root fetch - processPackages [scipion-em-cryosparc2]: Downloading https://files.pythonhosted.org/packages/48/d3/ca4fbd87e2b9053fd857fbff087042faea71074dda205f12356587092fae/scipion-em-cryosparc2-4.0.7.tar.gz
+[2023-06-01 14:17:27] INFO root fetch - processPackages [elevenlabslib]: executing diffoscope
+[2023-06-01 14:17:27] INFO root fetch - processPackages [elevenlabslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elevenlabslib-0.9.0.tar.gz tmp/elevenlabslib-0.9.1.tar.gz --markdown 20230601/e/elevenlabslib/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-01 14:17:27] INFO root fetch - processPackages [odh-core]: executing diffoscope
+[2023-06-01 14:17:27] INFO root fetch - processPackages [odh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odh_core-0.1.24.tar.gz tmp/odh_core-0.1.9.tar.gz --markdown 20230601/o/odh-core/0.1.24-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 14:17:27] INFO root fetch - processPackages [scipion-em-cryosparc2]: executing diffoscope
+[2023-06-01 14:17:27] INFO root fetch - processPackages [scipion-em-cryosparc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-cryosparc2-4.0.6.tar.gz tmp/scipion-em-cryosparc2-4.0.7.tar.gz --markdown 20230601/s/scipion-em-cryosparc2/4.0.6-4.0.7/diff.md --exclude *.pyd
+[2023-06-01 14:17:27] INFO root fetch - processPackages [looqbox]: Downloading https://files.pythonhosted.org/packages/66/20/83618ea40a7392abebcad5412e7e709a6268b73456bf232f7cfd3f895a36/looqbox-4.1.4-py3-none-any.whl
+[2023-06-01 14:17:27] INFO root fetch - processPackages [ewoksjob]: Downloading https://files.pythonhosted.org/packages/ae/a1/23e2cfb1ef7a2d7366609e054f6ce41953098f9551202a90b065523b9f65/ewoksjob-0.2.4.tar.gz
+[2023-06-01 14:17:27] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-06-01 14:17:27] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5143256311.tar.gz tmp/recon_lw-2.0.0.dev5144147090.tar.gz --markdown 20230601/r/recon-lw/2.0.0.dev5143256311-2.0.0.dev5144147090/diff.md --exclude *.pyd
+[2023-06-01 14:17:27] INFO root fetch - processPackages [lndb_storage]: Downloading https://files.pythonhosted.org/packages/79/67/74b9ae4c5ba8810bed40efcd7281f7d6c90bb79e56cc399d100a521556b8/lndb_storage-0.4a1.tar.gz
+[2023-06-01 14:17:27] INFO root fetch - processPackages [looqbox]: executing diffoscope
+[2023-06-01 14:17:27] INFO root fetch - processPackages [looqbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/looqbox-4.1.3-py3-none-any.whl.zip tmp/looqbox-4.1.4-py3-none-any.whl.zip --markdown 20230601/l/looqbox/4.1.3-4.1.4/diff.md --exclude *.pyd
+[2023-06-01 14:17:27] INFO root fetch - processPackages [ewoksjob]: executing diffoscope
+[2023-06-01 14:17:27] INFO root fetch - processPackages [ewoksjob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewoksjob-0.2.3.tar.gz tmp/ewoksjob-0.2.4.tar.gz --markdown 20230601/e/ewoksjob/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-01 14:17:27] INFO root fetch - processPackages [lndb_storage]: executing diffoscope
+[2023-06-01 14:17:27] INFO root fetch - processPackages [lndb_storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lndb_storage-0.3.2.tar.gz tmp/lndb_storage-0.4a1.tar.gz --markdown 20230601/l/lndb_storage/0.3.2-0.4a1/diff.md --exclude *.pyd
+[2023-06-01 14:17:27] INFO root fetch - processPackages [google-cloud-talent]: Downloading https://files.pythonhosted.org/packages/af/ab/ca6db062a2495f95a8bc8715a33e66b7289ec83375078cecf030909d6f98/google-cloud-talent-2.9.1.tar.gz
+[2023-06-01 14:17:27] INFO root fetch - processPackages [opencanary-fork]: Downloading https://files.pythonhosted.org/packages/6c/32/e7c2ee7299a326c0abc35f27c8832a2fb2c493d90f4b7e58ee5d2ce6b999/opencanary-fork-0.9.2.tar.gz
+[2023-06-01 14:17:28] INFO root fetch - processPackages [opencanary-fork]: executing diffoscope
+[2023-06-01 14:17:28] INFO root fetch - processPackages [opencanary-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencanary-fork-0.9.0.tar.gz tmp/opencanary-fork-0.9.2.tar.gz --markdown 20230601/o/opencanary-fork/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-06-01 14:17:28] INFO root fetch - processPackages [google-cloud-talent]: executing diffoscope
+[2023-06-01 14:17:28] INFO root fetch - processPackages [google-cloud-talent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-talent-2.9.0.tar.gz tmp/google-cloud-talent-2.9.1.tar.gz --markdown 20230601/g/google-cloud-talent/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-01 14:17:28] INFO root fetch - processPackages [rdiffweb]: Downloading https://files.pythonhosted.org/packages/43/33/76af03f4071945e83dd6177c39753af08cb588aede5eb2412ff580326348/rdiffweb-2.8.0a2-py3-none-any.whl
+[2023-06-01 14:17:29] INFO root fetch - processPackages [elevenlabslib]: Start processing: ParticleSeg3D
+[2023-06-01 14:17:29] INFO root fetch - main [MainThread]: End processing [elevenlabslib]: success
+[2023-06-01 14:17:29] INFO root fetch - processPackages [ParticleSeg3D]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-01 14:17:29] INFO root fetch - processPackages [odh-core]: Start processing: dissect.target
+[2023-06-01 14:17:29] INFO root fetch - main [MainThread]: End processing [odh-core]: success
+[2023-06-01 14:17:29] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-06-01 14:17:29] INFO root fetch - processPackages [rdiffweb]: executing diffoscope
+[2023-06-01 14:17:29] INFO root fetch - processPackages [rdiffweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdiffweb-2.8.0a1-py3-none-any.whl.zip tmp/rdiffweb-2.8.0a2-py3-none-any.whl.zip --markdown 20230601/r/rdiffweb/2.8.0a1-2.8.0a2/diff.md --exclude *.pyd
+[2023-06-01 14:17:29] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-06-01 14:17:29] INFO root fetch - processPackages [ParticleSeg3D]: Downloading https://files.pythonhosted.org/packages/fd/1f/687aeabc393dd5dd2007975c8f065d19491079618794719b2838b5b7d943/ParticleSeg3D-0.2.8.tar.gz
+[2023-06-01 14:17:29] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-06-01 14:17:29] INFO root fetch - processPackages [dissect.target]: Start processing: chatgpt-serpucga
+[2023-06-01 14:17:29] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-06-01 14:17:29] WARNING root fetch - processPackages [chatgpt-serpucga]: Skipping, unable to determine old version
+[2023-06-01 14:17:29] INFO root fetch - processPackages [chatgpt-serpucga]: Start processing: data-harmonization-ai-dp
+[2023-06-01 14:17:29] INFO root fetch - main [MainThread]: End processing [chatgpt-serpucga] error
+[2023-06-01 14:17:29] INFO root fetch - processPackages [ParticleSeg3D]: executing diffoscope
+[2023-06-01 14:17:29] INFO root fetch - processPackages [ParticleSeg3D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ParticleSeg3D-0.2.7.tar.gz tmp/ParticleSeg3D-0.2.8.tar.gz --markdown 20230601/P/ParticleSeg3D/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-01 14:17:29] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-06-01 14:17:29] WARNING root fetch - processPackages [data-harmonization-ai-dp]: Skipping, unable to determine old version
+[2023-06-01 14:17:29] INFO root fetch - main [MainThread]: End processing [data-harmonization-ai-dp] error
+[2023-06-01 14:17:29] INFO root fetch - main [MainThread]: End processing [scipion-em-cryosparc2]: success
+[2023-06-01 14:17:30] INFO root fetch - main [MainThread]: End processing [ewoksjob]: success
+[2023-06-01 14:17:30] INFO root fetch - main [MainThread]: End processing [lndb_storage]: success
+[2023-06-01 14:17:30] INFO root fetch - main [MainThread]: End processing [looqbox]: success
+[2023-06-01 14:17:31] INFO root fetch - main [MainThread]: End processing [ParticleSeg3D]: success
+[2023-06-01 14:17:31] INFO root fetch - main [MainThread]: End processing [opencanary-fork]: success
+[2023-06-01 14:17:32] INFO root fetch - main [MainThread]: End processing [google-cloud-talent]: success
+[2023-06-01 14:17:32] INFO root fetch - main [MainThread]: End processing [rdiffweb]: success
+[2023-06-01 14:17:32] INFO root fetch - main [MainThread]: Store serial: [18332944]
