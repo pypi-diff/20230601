@@ -15555,3 +15555,112 @@
 [2023-06-01 12:27:15] INFO root fetch - main [MainThread]: End processing [siman]: success
 [2023-06-01 12:27:15] INFO root fetch - main [MainThread]: End processing [google-cloud-tpu]: success
 [2023-06-01 12:27:15] INFO root fetch - main [MainThread]: Store serial: [18331613]
+[2023-06-01 12:32:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18331613]
+[2023-06-01 12:32:24] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-01 12:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: StrangeSerializerLab3
+[2023-06-01 12:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dqadk4all
+[2023-06-01 12:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ab-test-simulator
+[2023-06-01 12:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phanos
+[2023-06-01 12:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pollination-honeybee-radiance
+[2023-06-01 12:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zrb
+[2023-06-01 12:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chaostoolkit-terraform
+[2023-06-01 12:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-ddmrp
+[2023-06-01 12:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: resqpy
+[2023-06-01 12:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cwl-utils
+[2023-06-01 12:32:24] WARNING root fetch - processPackages [phanos]: Skipping, unable to determine old version
+[2023-06-01 12:32:24] INFO root fetch - processPackages [phanos]: Start processing: gcip
+[2023-06-01 12:32:24] INFO root fetch - main [MainThread]: End processing [phanos] error
+[2023-06-01 12:32:24] INFO root fetch - processPackages [dqadk4all]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-01 12:32:24] WARNING root fetch - processPackages [ab-test-simulator]: Skipping, unable to determine old version
+[2023-06-01 12:32:24] INFO root fetch - processPackages [ab-test-simulator]: Start processing: pybio
+[2023-06-01 12:32:24] INFO root fetch - main [MainThread]: End processing [ab-test-simulator] error
+[2023-06-01 12:32:24] INFO root fetch - processPackages [chaostoolkit-terraform]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-01 12:32:24] INFO root fetch - processPackages [StrangeSerializerLab3]: New version: [7.0] Old Version: [6.0]
+[2023-06-01 12:32:24] INFO root fetch - processPackages [cwl-utils]: New version: [0.9] Old Version: [0.8]
+[2023-06-01 12:32:24] WARNING root fetch - processPackages [pybio]: Skipping, unable to determine old version
+[2023-06-01 12:32:24] INFO root fetch - processPackages [pybio]: Start processing: conan-package-tools
+[2023-06-01 12:32:24] INFO root fetch - main [MainThread]: End processing [pybio] error
+[2023-06-01 12:32:24] INFO root fetch - processPackages [odoo13-addon-ddmrp]: New version: [13.0.1.9.1.dev1] Old Version: [13.0.1.9.0]
+[2023-06-01 12:32:24] INFO root fetch - processPackages [zrb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 12:32:24] INFO root fetch - processPackages [pollination-honeybee-radiance]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-01 12:32:24] INFO root fetch - processPackages [gcip]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-06-01 12:32:24] INFO root fetch - processPackages [resqpy]: New version: [4.8.9] Old Version: [4.8.8]
+[2023-06-01 12:32:24] INFO root fetch - processPackages [conan-package-tools]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-06-01 12:32:24] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2023-06-01 12:32:24] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.0.8.tar.gz tmp/zrb-0.0.9.tar.gz --markdown 20230601/z/zrb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 12:32:24] INFO root fetch - processPackages [StrangeSerializerLab3]: Downloading https://files.pythonhosted.org/packages/1f/95/20086fa9652f3c4409bb2e3fe50b5cfa289add92e1651d32221c144fa98d/StrangeSerializerLab3-6.0.tar.gz
+[2023-06-01 12:32:24] INFO root fetch - processPackages [dqadk4all]: Downloading https://files.pythonhosted.org/packages/d4/b0/b059f065c8bfb3e7d9d87ea0e4b30a103581afa024cd7c15a76818b758e7/dqadk4all-0.0.3.tar.gz
+[2023-06-01 12:32:24] INFO root fetch - processPackages [chaostoolkit-terraform]: Downloading https://files.pythonhosted.org/packages/b9/ce/ae81ea3e22160e5a30d6e8ed3f908285b9315bcdcbf743a1bcec4d0e73fb/chaostoolkit-terraform-0.0.3.tar.gz
+[2023-06-01 12:32:24] INFO root fetch - processPackages [conan-package-tools]: Downloading https://files.pythonhosted.org/packages/f1/21/d0b7716ae646392d17bb37a0412fb70f77aa47141ccd59a5595085b29661/conan_package_tools-0.8.5.tar.gz
+[2023-06-01 12:32:24] INFO root fetch - processPackages [dqadk4all]: executing diffoscope
+[2023-06-01 12:32:24] INFO root fetch - processPackages [dqadk4all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dqadk4all-0.0.2.tar.gz tmp/dqadk4all-0.0.3.tar.gz --markdown 20230601/d/dqadk4all/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-01 12:32:24] INFO root fetch - processPackages [gcip]: Downloading https://files.pythonhosted.org/packages/f5/03/d86acfd3b911e606b173a31eb6c21e14c4e2b2887ca72daced9cb395f327/gcip-3.0.1-py3-none-any.whl
+[2023-06-01 12:32:24] INFO root fetch - processPackages [resqpy]: Downloading https://files.pythonhosted.org/packages/51/44/15eba2c3d8db1d363c3f3f798ad17e3816f01c8b81a44f4ed5577d39f9db/resqpy-4.8.9.tar.gz
+[2023-06-01 12:32:24] INFO root fetch - processPackages [chaostoolkit-terraform]: Downloading https://files.pythonhosted.org/packages/fb/ff/23e154fc267c650fb9cda395ebaec833955ca6e869dd94d725b8e3e24ba9/chaostoolkit-terraform-0.0.4.tar.gz
+[2023-06-01 12:32:24] INFO root fetch - processPackages [StrangeSerializerLab3]: Downloading https://files.pythonhosted.org/packages/83/2d/93b433eb6b2544dcd032d316bcbad9654b9e3afb8f9fab4391a6ab16eaf0/StrangeSerializerLab3-7.0.tar.gz
+[2023-06-01 12:32:24] INFO root fetch - processPackages [cwl-utils]: executing diffoscope
+[2023-06-01 12:32:24] INFO root fetch - processPackages [cwl-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwl-utils-0.8.tar.gz tmp/cwl-utils-0.9.tar.gz --markdown 20230601/c/cwl-utils/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-01 12:32:24] INFO root fetch - processPackages [resqpy]: executing diffoscope
+[2023-06-01 12:32:24] INFO root fetch - processPackages [resqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resqpy-4.8.8.tar.gz tmp/resqpy-4.8.9.tar.gz --markdown 20230601/r/resqpy/4.8.8-4.8.9/diff.md --exclude *.pyd
+[2023-06-01 12:32:25] INFO root fetch - processPackages [chaostoolkit-terraform]: executing diffoscope
+[2023-06-01 12:32:25] INFO root fetch - processPackages [chaostoolkit-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-terraform-0.0.3.tar.gz tmp/chaostoolkit-terraform-0.0.4.tar.gz --markdown 20230601/c/chaostoolkit-terraform/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-01 12:32:25] INFO root fetch - processPackages [gcip]: Downloading https://files.pythonhosted.org/packages/0e/97/4fcd62ae91b1a7cf1b1ea6873134bff8fa19df714839d0b1d13bd647442e/gcip-3.0.2-py3-none-any.whl
+[2023-06-01 12:32:25] INFO root fetch - processPackages [pollination-honeybee-radiance]: executing diffoscope
+[2023-06-01 12:32:25] INFO root fetch - processPackages [pollination-honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-honeybee-radiance-0.9.1.tar.gz tmp/pollination-honeybee-radiance-0.9.2.tar.gz --markdown 20230601/p/pollination-honeybee-radiance/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-01 12:32:25] INFO root fetch - processPackages [odoo13-addon-ddmrp]: executing diffoscope
+[2023-06-01 12:32:25] INFO root fetch - processPackages [odoo13-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl.zip tmp/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230601/o/odoo13-addon-ddmrp/13.0.1.9.0-13.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-06-01 12:32:25] INFO root fetch - processPackages [gcip]: executing diffoscope
+[2023-06-01 12:32:25] INFO root fetch - processPackages [gcip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcip-3.0.1-py3-none-any.whl.zip tmp/gcip-3.0.2-py3-none-any.whl.zip --markdown 20230601/g/gcip/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-06-01 12:32:25] INFO root fetch - processPackages [StrangeSerializerLab3]: executing diffoscope
+[2023-06-01 12:32:25] INFO root fetch - processPackages [StrangeSerializerLab3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StrangeSerializerLab3-6.0.tar.gz tmp/StrangeSerializerLab3-7.0.tar.gz --markdown 20230601/S/StrangeSerializerLab3/6.0-7.0/diff.md --exclude *.pyd
+[2023-06-01 12:32:25] INFO root fetch - processPackages [conan-package-tools]: Downloading https://files.pythonhosted.org/packages/64/d8/3db707618e350e75c542da6192439a6bac7468f6c0e2210bb30bf6ce1525/conan_package_tools-0.9.0.tar.gz
+[2023-06-01 12:32:25] INFO root fetch - processPackages [conan-package-tools]: executing diffoscope
+[2023-06-01 12:32:25] INFO root fetch - processPackages [conan-package-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conan_package_tools-0.8.5.tar.gz tmp/conan_package_tools-0.9.0.tar.gz --markdown 20230601/c/conan-package-tools/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 12:32:26] INFO root fetch - processPackages [dqadk4all]: Start processing: openicl
+[2023-06-01 12:32:26] INFO root fetch - main [MainThread]: End processing [dqadk4all]: success
+[2023-06-01 12:32:26] INFO root fetch - processPackages [openicl]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-01 12:32:26] INFO root fetch - processPackages [openicl]: Downloading https://files.pythonhosted.org/packages/76/b4/07ba1e98ca9adcbc02aeaae28e81e2d77e25fc4e70fc5fa3d91232d226e2/openicl-0.1.6.tar.gz
+[2023-06-01 12:32:26] INFO root fetch - processPackages [zrb]: Start processing: odoo-addon-account-payment-purchase
+[2023-06-01 12:32:26] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2023-06-01 12:32:26] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.5]
+[2023-06-01 12:32:26] INFO root fetch - processPackages [openicl]: Downloading https://files.pythonhosted.org/packages/44/d9/1035745287f9cdb31877a41bde631adb2bc2b15dad79f5254f19005c8a34/openicl-0.1.7.tar.gz
+[2023-06-01 12:32:26] INFO root fetch - processPackages [openicl]: executing diffoscope
+[2023-06-01 12:32:26] INFO root fetch - processPackages [openicl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openicl-0.1.6.tar.gz tmp/openicl-0.1.7.tar.gz --markdown 20230601/o/openicl/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-01 12:32:26] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: Downloading https://files.pythonhosted.org/packages/35/0e/174d4ffbcf0254bc1830f0d903049e43b947368e9c56844ea4dc27b2278d/odoo_addon_account_payment_purchase-15.0.1.0.0.5-py3-none-any.whl
+[2023-06-01 12:32:27] INFO root fetch - processPackages [StrangeSerializerLab3]: Start processing: StrangeSerializerLab3
+[2023-06-01 12:32:27] INFO root fetch - main [MainThread]: End processing [StrangeSerializerLab3]: success
+[2023-06-01 12:32:27] INFO root fetch - processPackages [StrangeSerializerLab3]: New version: [7.0] Old Version: [6.0]
+[2023-06-01 12:32:27] INFO root fetch - processPackages [chaostoolkit-terraform]: Start processing: recon-lw
+[2023-06-01 12:32:27] INFO root fetch - main [MainThread]: End processing [chaostoolkit-terraform]: success
+[2023-06-01 12:32:27] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: Downloading https://files.pythonhosted.org/packages/02/e3/9c5e72da59132222ba3e382b64aa1087fa5825e1cb64a32e9029514d0502/odoo_addon_account_payment_purchase-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-01 12:32:27] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5143256311] Old Version: [2.0.0.dev5141842548]
+[2023-06-01 12:32:27] INFO root fetch - processPackages [StrangeSerializerLab3]: executing diffoscope
+[2023-06-01 12:32:27] INFO root fetch - processPackages [StrangeSerializerLab3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StrangeSerializerLab3-6.0.tar.gz tmp/StrangeSerializerLab3-7.0.tar.gz --markdown 20230601/S/StrangeSerializerLab3/6.0-7.0/diff.md --exclude *.pyd
+[2023-06-01 12:32:27] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: executing diffoscope
+[2023-06-01 12:32:27] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_purchase-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_payment_purchase-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230601/o/odoo-addon-account-payment-purchase/15.0.1.0.0.5-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-01 12:32:27] INFO root fetch - processPackages [conan-package-tools]: Start processing: mediacatch-s2t
+[2023-06-01 12:32:27] INFO root fetch - main [MainThread]: End processing [conan-package-tools]: success
+[2023-06-01 12:32:27] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/0d/34/e4e46084417b60c27acc00ab2698c6276e22d011434e66f8eb85d84df22f/recon_lw-2.0.0.dev5143256311.tar.gz
+[2023-06-01 12:32:27] INFO root fetch - processPackages [mediacatch-s2t]: New version: [0.1.1] Old Version: [0.0.6]
+[2023-06-01 12:32:27] INFO root fetch - processPackages [gcip]: Start processing: molcas-suite
+[2023-06-01 12:32:27] INFO root fetch - main [MainThread]: End processing [gcip]: success
+[2023-06-01 12:32:27] INFO root fetch - processPackages [molcas-suite]: New version: [1.23.0] Old Version: [1.22.0]
+[2023-06-01 12:32:27] INFO root fetch - main [MainThread]: End processing [pollination-honeybee-radiance]: success
+[2023-06-01 12:32:27] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-06-01 12:32:27] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5141842548.tar.gz tmp/recon_lw-2.0.0.dev5143256311.tar.gz --markdown 20230601/r/recon-lw/2.0.0.dev5141842548-2.0.0.dev5143256311/diff.md --exclude *.pyd
+[2023-06-01 12:32:27] INFO root fetch - processPackages [mediacatch-s2t]: Downloading https://files.pythonhosted.org/packages/bb/4d/fa019b946cb4989a623f06a6267a049cd5717158c27a8c2cd4e7c2df07be/mediacatch-s2t-0.1.1.tar.gz
+[2023-06-01 12:32:27] INFO root fetch - main [MainThread]: End processing [odoo13-addon-ddmrp]: success
+[2023-06-01 12:32:27] INFO root fetch - processPackages [mediacatch-s2t]: executing diffoscope
+[2023-06-01 12:32:27] INFO root fetch - processPackages [mediacatch-s2t]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediacatch-s2t-0.0.6.tar.gz tmp/mediacatch-s2t-0.1.1.tar.gz --markdown 20230601/m/mediacatch-s2t/0.0.6-0.1.1/diff.md --exclude *.pyd
+[2023-06-01 12:32:27] INFO root fetch - processPackages [molcas-suite]: Downloading https://files.pythonhosted.org/packages/08/bc/ab2d3ed39243d7a29eb6b78af83db6f365860a89cf4e79bbc3442aa2e547/molcas_suite-1.23.0.tar.gz
+[2023-06-01 12:32:27] INFO root fetch - processPackages [molcas-suite]: executing diffoscope
+[2023-06-01 12:32:27] INFO root fetch - processPackages [molcas-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molcas_suite-1.22.0.tar.gz tmp/molcas_suite-1.23.0.tar.gz --markdown 20230601/m/molcas-suite/1.22.0-1.23.0/diff.md --exclude *.pyd
+[2023-06-01 12:32:28] INFO root fetch - main [MainThread]: End processing [openicl]: success
+[2023-06-01 12:32:28] INFO root fetch - main [MainThread]: End processing [StrangeSerializerLab3]: success
+[2023-06-01 12:32:28] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-06-01 12:32:29] INFO root fetch - main [MainThread]: End processing [mediacatch-s2t]: success
+[2023-06-01 12:32:29] INFO root fetch - main [MainThread]: End processing [molcas-suite]: success
+[2023-06-01 12:32:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-purchase]: success
+[2023-06-01 12:32:30] INFO root fetch - main [MainThread]: End processing [resqpy]: success
+[2023-06-01 12:32:30] INFO root fetch - main [MainThread]: End processing [cwl-utils]: success
+[2023-06-01 12:32:30] INFO root fetch - main [MainThread]: Store serial: [18331668]
