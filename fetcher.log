@@ -8791,3 +8791,64 @@
 [2023-06-01 05:16:57] INFO root fetch - main [MainThread]: End processing [SPRT-TANDEM]: success
 [2023-06-01 05:16:58] INFO root fetch - main [MainThread]: End processing [odoo9-addon-delivery-carrier-label-postlogistics]: success
 [2023-06-01 05:16:58] INFO root fetch - main [MainThread]: Store serial: [18327758]
+[2023-06-01 05:22:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18327758]
+[2023-06-01 05:22:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-01 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: index-503
+[2023-06-01 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hmcalisterHopfieldUtils
+[2023-06-01 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sugarpowder
+[2023-06-01 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: baklabel
+[2023-06-01 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datachain-sources
+[2023-06-01 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ibonds
+[2023-06-01 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lancedb
+[2023-06-01 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crio
+[2023-06-01 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: strategais
+[2023-06-01 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: XPVI
+[2023-06-01 05:22:07] INFO root fetch - processPackages [index-503]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-01 05:22:07] WARNING root fetch - processPackages [sugarpowder]: Skipping, unable to determine old version
+[2023-06-01 05:22:07] INFO root fetch - processPackages [sugarpowder]: Start processing: json-loguru
+[2023-06-01 05:22:07] INFO root fetch - processPackages [baklabel]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-01 05:22:07] INFO root fetch - main [MainThread]: End processing [sugarpowder] error
+[2023-06-01 05:22:07] INFO root fetch - processPackages [lancedb]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-01 05:22:07] INFO root fetch - processPackages [datachain-sources]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-01 05:22:07] INFO root fetch - processPackages [XPVI]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 05:22:07] INFO root fetch - processPackages [crio]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-01 05:22:07] WARNING root fetch - processPackages [hmcalisterHopfieldUtils]: Skipping, unable to determine old version
+[2023-06-01 05:22:07] INFO root fetch - processPackages [strategais]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-01 05:22:07] INFO root fetch - processPackages [ibonds]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-01 05:22:07] INFO root fetch - main [MainThread]: End processing [hmcalisterHopfieldUtils] error
+[2023-06-01 05:22:07] INFO root fetch - processPackages [XPVI]: executing diffoscope
+[2023-06-01 05:22:07] INFO root fetch - processPackages [XPVI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPVI-0.0.1.tar.gz tmp/XPVI-0.0.2.tar.gz --markdown 20230601/X/XPVI/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 05:22:07] WARNING root fetch - processPackages [json-loguru]: Skipping, unable to determine old version
+[2023-06-01 05:22:07] INFO root fetch - main [MainThread]: End processing [json-loguru] error
+[2023-06-01 05:22:07] INFO root fetch - processPackages [crio]: Downloading https://files.pythonhosted.org/packages/23/68/134a874edfd7e360f1eeed57732a22ce7bbd68074646ffe629dd35e51b4a/crio-0.0.5.tar.gz
+[2023-06-01 05:22:07] INFO root fetch - processPackages [datachain-sources]: Downloading https://files.pythonhosted.org/packages/e4/21/37a117caa8bc1d13a31a72717d5743648265c9fddfe2558828a541c20f03/datachain_sources-0.1.3.tar.gz
+[2023-06-01 05:22:07] INFO root fetch - processPackages [strategais]: Downloading https://files.pythonhosted.org/packages/19/9f/aab89b0e75c8270384715711a2d6f88ffb250c3544cb8a2b25410cf67bcb/strategais-0.1.7.tar.gz
+[2023-06-01 05:22:07] INFO root fetch - processPackages [ibonds]: Downloading https://files.pythonhosted.org/packages/f5/4c/9231bf4fd00d16b00b9d134b739a1c16e05c530fb093a5c5c65591de76c9/ibonds-1.0.1.tar.gz
+[2023-06-01 05:22:07] INFO root fetch - processPackages [index-503]: Downloading https://files.pythonhosted.org/packages/c0/c1/389eca91b41eaea9030f0a0d33d1057008b9dc2127a6d9e8af1f974407b2/index_503-0.1.6.tar.gz
+[2023-06-01 05:22:07] INFO root fetch - processPackages [strategais]: executing diffoscope
+[2023-06-01 05:22:07] INFO root fetch - processPackages [strategais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strategais-0.1.6.tar.gz tmp/strategais-0.1.7.tar.gz --markdown 20230601/s/strategais/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-01 05:22:07] INFO root fetch - processPackages [lancedb]: Downloading https://files.pythonhosted.org/packages/e7/0e/8472e810edebce3f04a65c0149648e60baa19ff470fcff0cd6993387d5fe/lancedb-0.1.4.tar.gz
+[2023-06-01 05:22:07] INFO root fetch - processPackages [baklabel]: Downloading https://files.pythonhosted.org/packages/5a/94/cb4e2f3e20834c5240cc8a9082b9082794e9611efaf985807492284cf2c6/baklabel-1.2.2.tar.gz
+[2023-06-01 05:22:07] INFO root fetch - processPackages [datachain-sources]: executing diffoscope
+[2023-06-01 05:22:07] INFO root fetch - processPackages [datachain-sources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datachain_sources-0.1.2.tar.gz tmp/datachain_sources-0.1.3.tar.gz --markdown 20230601/d/datachain-sources/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-01 05:22:07] INFO root fetch - processPackages [crio]: Downloading https://files.pythonhosted.org/packages/e5/a0/7e44a982e51654113e021f607cdc42584a01af0fbfd618773b6d453ddd4a/crio-0.0.6.tar.gz
+[2023-06-01 05:22:07] INFO root fetch - processPackages [lancedb]: executing diffoscope
+[2023-06-01 05:22:07] INFO root fetch - processPackages [lancedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lancedb-0.1.3.tar.gz tmp/lancedb-0.1.4.tar.gz --markdown 20230601/l/lancedb/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-01 05:22:07] INFO root fetch - processPackages [baklabel]: executing diffoscope
+[2023-06-01 05:22:07] INFO root fetch - processPackages [baklabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baklabel-1.2.1.tar.gz tmp/baklabel-1.2.2.tar.gz --markdown 20230601/b/baklabel/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-01 05:22:07] INFO root fetch - processPackages [index-503]: executing diffoscope
+[2023-06-01 05:22:07] INFO root fetch - processPackages [index-503]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/index_503-0.1.5.tar.gz tmp/index_503-0.1.6.tar.gz --markdown 20230601/i/index-503/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-01 05:22:07] INFO root fetch - processPackages [crio]: executing diffoscope
+[2023-06-01 05:22:07] INFO root fetch - processPackages [crio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crio-0.0.5.tar.gz tmp/crio-0.0.6.tar.gz --markdown 20230601/c/crio/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-01 05:22:07] INFO root fetch - processPackages [ibonds]: Downloading https://files.pythonhosted.org/packages/a1/1f/de3622ad048572539d36308fb7a3a6474fcda8868b59bb00abcde563fb53/ibonds-1.0.2.tar.gz
+[2023-06-01 05:22:07] INFO root fetch - processPackages [ibonds]: executing diffoscope
+[2023-06-01 05:22:07] INFO root fetch - processPackages [ibonds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibonds-1.0.1.tar.gz tmp/ibonds-1.0.2.tar.gz --markdown 20230601/i/ibonds/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-01 05:22:08] INFO root fetch - main [MainThread]: End processing [XPVI]: success
+[2023-06-01 05:22:08] INFO root fetch - main [MainThread]: End processing [strategais]: success
+[2023-06-01 05:22:09] INFO root fetch - main [MainThread]: End processing [datachain-sources]: success
+[2023-06-01 05:22:09] INFO root fetch - main [MainThread]: End processing [lancedb]: success
+[2023-06-01 05:22:09] INFO root fetch - main [MainThread]: End processing [crio]: success
+[2023-06-01 05:22:09] INFO root fetch - main [MainThread]: End processing [index-503]: success
+[2023-06-01 05:22:09] INFO root fetch - main [MainThread]: End processing [baklabel]: success
+[2023-06-01 05:22:09] INFO root fetch - main [MainThread]: End processing [ibonds]: success
+[2023-06-01 05:22:09] INFO root fetch - main [MainThread]: Store serial: [18327797]
