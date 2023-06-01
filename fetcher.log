@@ -12035,3 +12035,76 @@
 [2023-06-01 09:56:55] INFO root fetch - main [MainThread]: End processing [swh.storage]: success
 [2023-06-01 09:57:14] INFO root fetch - main [MainThread]: End processing [sneakpeek-py]: success
 [2023-06-01 09:57:14] INFO root fetch - main [MainThread]: Store serial: [18329684]
+[2023-06-01 10:02:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18329684]
+[2023-06-01 10:02:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-01 10:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: construct-editor
+[2023-06-01 10:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yams-cli
+[2023-06-01 10:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-ipghrms-contract
+[2023-06-01 10:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mhm
+[2023-06-01 10:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tawazi
+[2023-06-01 10:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastchargeapi-cli
+[2023-06-01 10:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: canvaslms
+[2023-06-01 10:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: matchscraper
+[2023-06-01 10:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vectice
+[2023-06-01 10:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: freeGPT
+[2023-06-01 10:02:24] INFO root fetch - processPackages [construct-editor]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-01 10:02:25] INFO root fetch - processPackages [tawazi]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-01 10:02:25] INFO root fetch - processPackages [yams-cli]: New version: [3.3.4] Old Version: [3.3.3]
+[2023-06-01 10:02:25] INFO root fetch - processPackages [django-ipghrms-contract]: New version: [1.6] Old Version: [1.5]
+[2023-06-01 10:02:25] INFO root fetch - processPackages [fastchargeapi-cli]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-01 10:02:25] WARNING root fetch - processPackages [matchscraper]: Skipping, unable to determine old version
+[2023-06-01 10:02:25] INFO root fetch - processPackages [matchscraper]: Start processing: rframe
+[2023-06-01 10:02:25] INFO root fetch - main [MainThread]: End processing [matchscraper] error
+[2023-06-01 10:02:25] INFO root fetch - processPackages [freeGPT]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-01 10:02:25] INFO root fetch - processPackages [mhm]: New version: [5.13.0] Old Version: [5.12.1.dev21]
+[2023-06-01 10:02:25] INFO root fetch - processPackages [freeGPT]: executing diffoscope
+[2023-06-01 10:02:25] INFO root fetch - processPackages [freeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeGPT-1.1.3.tar.gz tmp/freeGPT-1.1.4.tar.gz --markdown 20230601/f/freeGPT/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-01 10:02:25] INFO root fetch - processPackages [canvaslms]: New version: [2.9] Old Version: [2.8]
+[2023-06-01 10:02:25] INFO root fetch - processPackages [vectice]: New version: [23.2.4.0] Old Version: [23.2.3.1]
+[2023-06-01 10:02:25] INFO root fetch - processPackages [rframe]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-01 10:02:25] INFO root fetch - processPackages [tawazi]: Downloading https://files.pythonhosted.org/packages/ad/af/7886ed10edf29b782cbd63b4b17070505a76bcc992bcb3ccd3bd9bc927df/tawazi-0.2.0.tar.gz
+[2023-06-01 10:02:25] INFO root fetch - processPackages [fastchargeapi-cli]: Downloading https://files.pythonhosted.org/packages/6b/21/7f800b98971ea85199b1ff58171545c421a3bfe07a8d7d5924b5a3f1d035/fastchargeapi_cli-1.0.3.tar.gz
+[2023-06-01 10:02:25] INFO root fetch - processPackages [django-ipghrms-contract]: Downloading https://files.pythonhosted.org/packages/03/9b/57dc5b9e301023f18fee56df58099c18387a7f35fabf9162211d2c334a6a/django-ipghrms-contract-1.6.tar.gz
+[2023-06-01 10:02:25] INFO root fetch - processPackages [construct-editor]: Downloading https://files.pythonhosted.org/packages/f9/4d/4f4a0d56809ab85d4a37d8489436ffa03ba6809320d2020105a40f3b2572/construct-editor-0.1.2.tar.gz
+[2023-06-01 10:02:25] INFO root fetch - processPackages [mhm]: Downloading https://files.pythonhosted.org/packages/ba/e0/531b16e26f8989d846d0ef3995d8186beb7b716f26b4967262a7e113bbd8/mhm-5.12.1.dev21.tar.gz
+[2023-06-01 10:02:25] INFO root fetch - processPackages [canvaslms]: Downloading https://files.pythonhosted.org/packages/f7/bc/fc0057d60981f3bfea582f62858edbbe5b5d44de7c3da299ff7bea615c01/canvaslms-2.8.tar.gz
+[2023-06-01 10:02:25] INFO root fetch - processPackages [fastchargeapi-cli]: executing diffoscope
+[2023-06-01 10:02:25] INFO root fetch - processPackages [fastchargeapi-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastchargeapi_cli-1.0.2.tar.gz tmp/fastchargeapi_cli-1.0.3.tar.gz --markdown 20230601/f/fastchargeapi-cli/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-01 10:02:25] INFO root fetch - processPackages [yams-cli]: Downloading https://files.pythonhosted.org/packages/91/8e/eee003bf4589c1b42c2e143f5f3bf8734c91af6eda2ca04efb8822513708/yams_cli-3.3.4-py3-none-any.whl
+[2023-06-01 10:02:25] INFO root fetch - processPackages [tawazi]: Downloading https://files.pythonhosted.org/packages/18/54/f3cca2f75f026ff3f8e8c92acb017f4e965eb8b11ea2b7184965fb38cc3f/tawazi-0.3.0.tar.gz
+[2023-06-01 10:02:25] INFO root fetch - processPackages [django-ipghrms-contract]: executing diffoscope
+[2023-06-01 10:02:25] INFO root fetch - processPackages [django-ipghrms-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-contract-1.5.tar.gz tmp/django-ipghrms-contract-1.6.tar.gz --markdown 20230601/d/django-ipghrms-contract/1.5-1.6/diff.md --exclude *.pyd
+[2023-06-01 10:02:25] INFO root fetch - processPackages [yams-cli]: executing diffoscope
+[2023-06-01 10:02:25] INFO root fetch - processPackages [yams-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yams_cli-3.3.3-py3-none-any.whl.zip tmp/yams_cli-3.3.4-py3-none-any.whl.zip --markdown 20230601/y/yams-cli/3.3.3-3.3.4/diff.md --exclude *.pyd
+[2023-06-01 10:02:25] INFO root fetch - processPackages [construct-editor]: Downloading https://files.pythonhosted.org/packages/32/ef/b52a53b3d6d2df512f305e2734bef14ddbdf37b4af29f474ce89173dd343/construct-editor-0.1.3.tar.gz
+[2023-06-01 10:02:25] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/50/ee/e8913d12dd47250ebb0e16d0072ad68c1019597abc2182817c3a59a099cc/vectice-23.2.4.0.tar.gz
+[2023-06-01 10:02:25] INFO root fetch - processPackages [canvaslms]: Downloading https://files.pythonhosted.org/packages/0f/a5/52ec9c689d2c36d7582dfed7d4351cea2a98eb7f86e931da0885aa0b2f19/canvaslms-2.9.tar.gz
+[2023-06-01 10:02:25] INFO root fetch - processPackages [rframe]: executing diffoscope
+[2023-06-01 10:02:25] INFO root fetch - processPackages [rframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rframe-0.2.8.tar.gz tmp/rframe-0.2.9.tar.gz --markdown 20230601/r/rframe/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-01 10:02:25] INFO root fetch - processPackages [tawazi]: executing diffoscope
+[2023-06-01 10:02:25] INFO root fetch - processPackages [tawazi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tawazi-0.2.0.tar.gz tmp/tawazi-0.3.0.tar.gz --markdown 20230601/t/tawazi/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-01 10:02:25] INFO root fetch - processPackages [construct-editor]: executing diffoscope
+[2023-06-01 10:02:25] INFO root fetch - processPackages [construct-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/construct-editor-0.1.2.tar.gz tmp/construct-editor-0.1.3.tar.gz --markdown 20230601/c/construct-editor/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-01 10:02:25] INFO root fetch - processPackages [vectice]: executing diffoscope
+[2023-06-01 10:02:25] INFO root fetch - processPackages [vectice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectice-23.2.3.1.tar.gz tmp/vectice-23.2.4.0.tar.gz --markdown 20230601/v/vectice/23.2.3.1-23.2.4.0/diff.md --exclude *.pyd
+[2023-06-01 10:02:25] INFO root fetch - processPackages [mhm]: Downloading https://files.pythonhosted.org/packages/71/15/8a3fcecd9d81943579df40e3667486cbe2a5c8ecb2b46df1af8d57599d4a/mhm-5.13.0.tar.gz
+[2023-06-01 10:02:25] INFO root fetch - processPackages [canvaslms]: executing diffoscope
+[2023-06-01 10:02:25] INFO root fetch - processPackages [canvaslms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canvaslms-2.8.tar.gz tmp/canvaslms-2.9.tar.gz --markdown 20230601/c/canvaslms/2.8-2.9/diff.md --exclude *.pyd
+[2023-06-01 10:02:25] INFO root fetch - processPackages [mhm]: executing diffoscope
+[2023-06-01 10:02:25] INFO root fetch - processPackages [mhm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mhm-5.12.1.dev21.tar.gz tmp/mhm-5.13.0.tar.gz --markdown 20230601/m/mhm/5.12.1.dev21-5.13.0/diff.md --exclude *.pyd
+[2023-06-01 10:02:26] INFO root fetch - processPackages [fastchargeapi-cli]: Start processing: docarray
+[2023-06-01 10:02:26] INFO root fetch - main [MainThread]: End processing [fastchargeapi-cli]: success
+[2023-06-01 10:02:26] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-06-01 10:02:26] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-06-01 10:02:26] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230601/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-06-01 10:02:26] INFO root fetch - main [MainThread]: End processing [freeGPT]: success
+[2023-06-01 10:02:27] INFO root fetch - main [MainThread]: End processing [yams-cli]: success
+[2023-06-01 10:02:27] INFO root fetch - main [MainThread]: End processing [rframe]: success
+[2023-06-01 10:02:28] INFO root fetch - main [MainThread]: End processing [vectice]: success
+[2023-06-01 10:02:28] INFO root fetch - main [MainThread]: End processing [canvaslms]: success
+[2023-06-01 10:02:28] INFO root fetch - main [MainThread]: End processing [tawazi]: success
+[2023-06-01 10:02:28] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-06-01 10:02:29] INFO root fetch - main [MainThread]: End processing [django-ipghrms-contract]: success
+[2023-06-01 10:02:29] INFO root fetch - main [MainThread]: End processing [construct-editor]: success
+[2023-06-01 10:02:34] INFO root fetch - main [MainThread]: End processing [mhm]: success
+[2023-06-01 10:02:34] INFO root fetch - main [MainThread]: Store serial: [18329723]
