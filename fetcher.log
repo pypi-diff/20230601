@@ -4261,3 +4261,72 @@
 [2023-06-01 03:50:19] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
 [2023-06-01 03:50:20] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
 [2023-06-01 03:50:20] INFO root fetch - main [MainThread]: Store serial: [18325360]
+[2023-06-01 03:55:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18325360]
+[2023-06-01 03:55:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-01 03:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-subminute
+[2023-06-01 03:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: h5pulsar
+[2023-06-01 03:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: piperider
+[2023-06-01 03:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: index-503
+[2023-06-01 03:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: h5pulsar
+[2023-06-01 03:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llama-index
+[2023-06-01 03:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datachain-sources
+[2023-06-01 03:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt-index
+[2023-06-01 03:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: strategais
+[2023-06-01 03:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: types-pyOpenSSL
+[2023-06-01 03:55:28] INFO root fetch - processPackages [h5pulsar]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-01 03:55:28] INFO root fetch - processPackages [h5pulsar]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-01 03:55:28] INFO root fetch - processPackages [index-503]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-01 03:55:28] INFO root fetch - processPackages [strategais]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-01 03:55:28] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-01 03:55:28] INFO root fetch - processPackages [llama-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-01 03:55:28] INFO root fetch - processPackages [types-pyOpenSSL]: New version: [23.2.0.0] Old Version: [23.1.0.3]
+[2023-06-01 03:55:28] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-06-01 03:55:28] INFO root fetch - processPackages [datachain-sources]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-01 03:55:28] INFO root fetch - processPackages [gpt-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-01 03:55:29] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-06-01 03:55:29] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.8.tar.gz tmp/llama_index-0.6.9.tar.gz --markdown 20230601/l/llama-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-01 03:55:29] INFO root fetch - processPackages [h5pulsar]: Downloading https://files.pythonhosted.org/packages/fe/bf/58093e16fcca90262f82ac2c4cddeefa3fda1c630552b92c89e161ad307b/h5pulsar-1.0.1.tar.gz
+[2023-06-01 03:55:29] INFO root fetch - processPackages [h5pulsar]: Downloading https://files.pythonhosted.org/packages/fe/bf/58093e16fcca90262f82ac2c4cddeefa3fda1c630552b92c89e161ad307b/h5pulsar-1.0.1.tar.gz
+[2023-06-01 03:55:29] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-06-01 03:55:29] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.8.tar.gz tmp/gpt_index-0.6.9.tar.gz --markdown 20230601/g/gpt-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-01 03:55:29] INFO root fetch - processPackages [types-pyOpenSSL]: Downloading https://files.pythonhosted.org/packages/a5/f0/7c331aa7a58d421b41aaf69ca72a1633a7f3e724a8e3646a0b10357af16f/types-pyOpenSSL-23.1.0.3.tar.gz
+[2023-06-01 03:55:29] INFO root fetch - processPackages [datachain-sources]: Downloading https://files.pythonhosted.org/packages/4b/65/549eb845137d72ce737321b15e6b2389eca0d199f713e288853b69f76696/datachain_sources-0.1.0.tar.gz
+[2023-06-01 03:55:29] INFO root fetch - processPackages [index-503]: Downloading https://files.pythonhosted.org/packages/64/5c/308f04f83cfc8a4f7b5340f33160ce001e608685bea80c8417bae290e76d/index_503-0.1.1.tar.gz
+[2023-06-01 03:55:29] INFO root fetch - processPackages [strategais]: Downloading https://files.pythonhosted.org/packages/11/4b/86a6cfabaec7f3492ed744c8961f6a7cff2ca3bd1f27af9c2da64912f3a5/strategais-0.1.3.tar.gz
+[2023-06-01 03:55:29] INFO root fetch - processPackages [index-503]: executing diffoscope
+[2023-06-01 03:55:29] INFO root fetch - processPackages [index-503]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/index_503-0.1.0.tar.gz tmp/index_503-0.1.1.tar.gz --markdown 20230601/i/index-503/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-01 03:55:29] INFO root fetch - processPackages [h5pulsar]: Downloading https://files.pythonhosted.org/packages/db/2d/1985d40f968e415b05f2c37de3c51368ef3ed91c5c95992eade43c512b4d/h5pulsar-1.0.2.tar.gz
+[2023-06-01 03:55:29] INFO root fetch - processPackages [h5pulsar]: Downloading https://files.pythonhosted.org/packages/db/2d/1985d40f968e415b05f2c37de3c51368ef3ed91c5c95992eade43c512b4d/h5pulsar-1.0.2.tar.gz
+[2023-06-01 03:55:29] INFO root fetch - processPackages [types-pyOpenSSL]: Downloading https://files.pythonhosted.org/packages/ee/c4/4dcdd9569a4330e9d1cd77b39d97ab1ffc90f48fa4a3251c9e7d6e632352/types-pyOpenSSL-23.2.0.0.tar.gz
+[2023-06-01 03:55:29] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-06-01 03:55:29] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230601/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-06-01 03:55:29] INFO root fetch - processPackages [datachain-sources]: Downloading https://files.pythonhosted.org/packages/92/78/c39700020c589ebeecf14720adbc0f7d7122fa4136a36e11e7f72d4e4fd9/datachain_sources-0.1.1.tar.gz
+[2023-06-01 03:55:29] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-06-01 03:55:29] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230601/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-01 03:55:29] INFO root fetch - processPackages [strategais]: executing diffoscope
+[2023-06-01 03:55:29] INFO root fetch - processPackages [strategais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strategais-0.1.2.tar.gz tmp/strategais-0.1.3.tar.gz --markdown 20230601/s/strategais/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-01 03:55:29] INFO root fetch - processPackages [types-pyOpenSSL]: executing diffoscope
+[2023-06-01 03:55:29] INFO root fetch - processPackages [types-pyOpenSSL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyOpenSSL-23.1.0.3.tar.gz tmp/types-pyOpenSSL-23.2.0.0.tar.gz --markdown 20230601/t/types-pyOpenSSL/23.1.0.3-23.2.0.0/diff.md --exclude *.pyd
+[2023-06-01 03:55:29] INFO root fetch - processPackages [h5pulsar]: executing diffoscope
+[2023-06-01 03:55:29] INFO root fetch - processPackages [h5pulsar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5pulsar-1.0.1.tar.gz tmp/h5pulsar-1.0.2.tar.gz --markdown 20230601/h/h5pulsar/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-01 03:55:29] INFO root fetch - processPackages [h5pulsar]: executing diffoscope
+[2023-06-01 03:55:29] INFO root fetch - processPackages [h5pulsar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5pulsar-1.0.1.tar.gz tmp/h5pulsar-1.0.2.tar.gz --markdown 20230601/h/h5pulsar/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-01 03:55:29] INFO root fetch - processPackages [datachain-sources]: executing diffoscope
+[2023-06-01 03:55:29] INFO root fetch - processPackages [datachain-sources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datachain_sources-0.1.0.tar.gz tmp/datachain_sources-0.1.1.tar.gz --markdown 20230601/d/datachain-sources/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-01 03:55:30] INFO root fetch - processPackages [index-503]: Start processing: django-pgclone
+[2023-06-01 03:55:30] INFO root fetch - main [MainThread]: End processing [index-503]: success
+[2023-06-01 03:55:30] INFO root fetch - processPackages [django-pgclone]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-06-01 03:55:31] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-06-01 03:55:31] INFO root fetch - main [MainThread]: End processing [types-pyOpenSSL]: success
+[2023-06-01 03:55:31] INFO root fetch - processPackages [django-pgclone]: Downloading https://files.pythonhosted.org/packages/c1/05/2bf2ce34af4c7d768b7f2b50aa0ee39e26dbccc4b5c453cd4a18c78ae179/django_pgclone-2.6.0.tar.gz
+[2023-06-01 03:55:31] INFO root fetch - main [MainThread]: End processing [h5pulsar]: success
+[2023-06-01 03:55:31] INFO root fetch - main [MainThread]: End processing [strategais]: success
+[2023-06-01 03:55:31] INFO root fetch - main [MainThread]: End processing [h5pulsar]: success
+[2023-06-01 03:55:31] INFO root fetch - processPackages [django-pgclone]: executing diffoscope
+[2023-06-01 03:55:31] INFO root fetch - processPackages [django-pgclone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pgclone-2.5.0.tar.gz tmp/django_pgclone-2.6.0.tar.gz --markdown 20230601/d/django-pgclone/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-06-01 03:55:31] INFO root fetch - main [MainThread]: End processing [datachain-sources]: success
+[2023-06-01 03:55:32] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-06-01 03:55:32] INFO root fetch - main [MainThread]: End processing [django-pgclone]: success
+[2023-06-01 03:55:32] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-06-01 03:55:34] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-06-01 03:55:34] INFO root fetch - main [MainThread]: Store serial: [18325393]
