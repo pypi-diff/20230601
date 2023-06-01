@@ -10307,3 +10307,43 @@
 [2023-06-01 07:36:06] INFO root fetch - main [MainThread]: End processing [django-ipghrms-contract]: success
 [2023-06-01 07:36:07] INFO root fetch - main [MainThread]: End processing [django-ipghrms-contract]: success
 [2023-06-01 07:36:07] INFO root fetch - main [MainThread]: Store serial: [18328539]
+[2023-06-01 07:41:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18328539]
+[2023-06-01 07:41:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-01 07:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yachtcharter
+[2023-06-01 07:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codinghou
+[2023-06-01 07:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkov
+[2023-06-01 07:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DLMS-SPODES
+[2023-06-01 07:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydgraph
+[2023-06-01 07:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-ipghrms-employee
+[2023-06-01 07:41:15] INFO root fetch - processPackages [django-ipghrms-employee]: New version: [1.3] Old Version: [1.2]
+[2023-06-01 07:41:15] INFO root fetch - processPackages [codinghou]: New version: [0.6.1] Old Version: [0.0.5]
+[2023-06-01 07:41:15] INFO root fetch - processPackages [yachtcharter]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-01 07:41:15] INFO root fetch - processPackages [pydgraph]: New version: [23.0.1rc1] Old Version: [23.0.1]
+[2023-06-01 07:41:15] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-01 07:41:15] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-01 07:41:15] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-06-01 07:41:15] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230601/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 07:41:15] INFO root fetch - processPackages [django-ipghrms-employee]: Downloading https://files.pythonhosted.org/packages/94/74/e5ee9690ab3416ec8e8e9d6e2b9fbd3701c4b0734135993ffaec7e75b1b3/django-ipghrms-employee-1.2.tar.gz
+[2023-06-01 07:41:15] INFO root fetch - processPackages [yachtcharter]: Downloading https://files.pythonhosted.org/packages/35/d0/9e2090de3170f73bfca7f84d1b6abb7f2df36d62f997d7ca9b9c467a2014/yachtcharter-1.0.2.tar.gz
+[2023-06-01 07:41:15] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-06-01 07:41:15] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230601/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-01 07:41:15] INFO root fetch - processPackages [pydgraph]: Downloading https://files.pythonhosted.org/packages/1e/5a/791530aeb96e3657933db8cdba9c58c6237f2e9074f295005fb4a6eaa90d/pydgraph-23.0.1.tar.gz
+[2023-06-01 07:41:16] INFO root fetch - processPackages [codinghou]: Downloading https://files.pythonhosted.org/packages/14/a0/a8a798e2a7a17cc0051c43e15805525b66bb9db1b797a758f9b1c5a7d20a/codinghou-0.0.5.tar.gz
+[2023-06-01 07:41:16] INFO root fetch - processPackages [django-ipghrms-employee]: Downloading https://files.pythonhosted.org/packages/9a/40/951c5ab364df748641ac377b6b816e18984c772d450efed0b2988f6de4d5/django-ipghrms-employee-1.3.tar.gz
+[2023-06-01 07:41:16] INFO root fetch - processPackages [yachtcharter]: Downloading https://files.pythonhosted.org/packages/c7/56/20f2d6992c30d3f1d325268d38f518b163023a3271ae921974caebee69c5/yachtcharter-1.0.3.tar.gz
+[2023-06-01 07:41:16] INFO root fetch - processPackages [codinghou]: Downloading https://files.pythonhosted.org/packages/bc/56/8e7d7eaf518a26bef21d81de86f8f6fcce7e1247e8c7aeac966bfb7c27a4/codinghou-0.6.1.tar.gz
+[2023-06-01 07:41:16] INFO root fetch - processPackages [pydgraph]: executing diffoscope
+[2023-06-01 07:41:16] INFO root fetch - processPackages [pydgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydgraph-23.0.1.tar.gz tmp/pydgraph-23.0.1rc1.tar.gz --markdown 20230601/p/pydgraph/23.0.1-23.0.1rc1/diff.md --exclude *.pyd
+[2023-06-01 07:41:16] INFO root fetch - processPackages [django-ipghrms-employee]: executing diffoscope
+[2023-06-01 07:41:16] INFO root fetch - processPackages [django-ipghrms-employee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-employee-1.2.tar.gz tmp/django-ipghrms-employee-1.3.tar.gz --markdown 20230601/d/django-ipghrms-employee/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-01 07:41:16] INFO root fetch - processPackages [yachtcharter]: executing diffoscope
+[2023-06-01 07:41:16] INFO root fetch - processPackages [yachtcharter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yachtcharter-1.0.2.tar.gz tmp/yachtcharter-1.0.3.tar.gz --markdown 20230601/y/yachtcharter/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-01 07:41:16] INFO root fetch - processPackages [codinghou]: executing diffoscope
+[2023-06-01 07:41:16] INFO root fetch - processPackages [codinghou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codinghou-0.0.5.tar.gz tmp/codinghou-0.6.1.tar.gz --markdown 20230601/c/codinghou/0.0.5-0.6.1/diff.md --exclude *.pyd
+[2023-06-01 07:41:17] INFO root fetch - main [MainThread]: End processing [yachtcharter]: success
+[2023-06-01 07:41:17] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-06-01 07:41:17] INFO root fetch - main [MainThread]: End processing [codinghou]: success
+[2023-06-01 07:41:17] INFO root fetch - main [MainThread]: End processing [pydgraph]: success
+[2023-06-01 07:41:18] INFO root fetch - main [MainThread]: End processing [django-ipghrms-employee]: success
+[2023-06-01 07:41:57] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-06-01 07:41:57] INFO root fetch - main [MainThread]: Store serial: [18328557]
