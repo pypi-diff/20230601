@@ -20100,3 +20100,121 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-01 16:10:02] INFO root fetch - main [MainThread]: End processing [ipylgbst]: success
 [2023-06-01 16:10:05] INFO root fetch - main [MainThread]: End processing [solara]: success
 [2023-06-01 16:10:05] INFO root fetch - main [MainThread]: Store serial: [18334678]
+[2023-06-01 16:15:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18334678]
+[2023-06-01 16:15:14] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-01 16:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaraco.collections
+[2023-06-01 16:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: common-logging-library-django
+[2023-06-01 16:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-archive
+[2023-06-01 16:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-boundary
+[2023-06-01 16:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: creme-crm
+[2023-06-01 16:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-cdktf-provider-ad
+[2023-06-01 16:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simplebox
+[2023-06-01 16:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf-cdktf-provider-azuread
+[2023-06-01 16:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: denpy
+[2023-06-01 16:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hj-generate
+[2023-06-01 16:15:14] INFO root fetch - processPackages [cdktf-cdktf-provider-ad]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-06-01 16:15:14] INFO root fetch - processPackages [common-logging-library-django]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-06-01 16:15:14] INFO root fetch - processPackages [simplebox]: New version: [0.0.1a157] Old Version: [0.0.1a156]
+[2023-06-01 16:15:14] WARNING root fetch - processPackages [denpy]: Skipping, unable to determine old version
+[2023-06-01 16:15:14] INFO root fetch - processPackages [denpy]: Start processing: PrimeBotFramework
+[2023-06-01 16:15:14] INFO root fetch - main [MainThread]: End processing [denpy] error
+[2023-06-01 16:15:14] INFO root fetch - processPackages [hj-generate]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-01 16:15:14] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-06-01 16:15:14] INFO root fetch - processPackages [jaraco.collections]: New version: [4.2.0] Old Version: [4.1.0]
+[2023-06-01 16:15:14] INFO root fetch - processPackages [creme-crm]: New version: [2.4.4] Old Version: [2.4.3]
+[2023-06-01 16:15:14] INFO root fetch - processPackages [cdktf-cdktf-provider-archive]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-06-01 16:15:14] INFO root fetch - processPackages [PrimeBotFramework]: New version: [1.0.31] Old Version: [1.0.29]
+[2023-06-01 16:15:14] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: New version: [7.0.4] Old Version: [7.0.3]
+[2023-06-01 16:15:14] ERROR root fetch - processPackages [common-logging-library-django]: Unable to fetch info: No such project/version 'common-logging-library-django' 2.2.0
+[2023-06-01 16:15:14] INFO root fetch - processPackages [common-logging-library-django]: Start processing: glue-astronomy
+[2023-06-01 16:15:14] INFO root fetch - main [MainThread]: End processing [common-logging-library-django] error
+[2023-06-01 16:15:14] INFO root fetch - processPackages [jaraco.collections]: Downloading https://files.pythonhosted.org/packages/39/5f/3d235b6c12b117c7bc0d96a2bc6ab6bdac00567f8e595729a0cfe14994a7/jaraco.collections-4.1.0.tar.gz
+[2023-06-01 16:15:14] INFO root fetch - processPackages [cdktf-cdktf-provider-ad]: Downloading https://files.pythonhosted.org/packages/c8/84/8f7b4fe171930f55859ea8145e81b4c636a4b44f487b62f80562cce2cd19/cdktf-cdktf-provider-ad-4.0.0.tar.gz
+[2023-06-01 16:15:14] INFO root fetch - processPackages [glue-astronomy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-01 16:15:15] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: Downloading https://files.pythonhosted.org/packages/8e/bb/5b37de04f0dc92dcff89f8c177e8639bda9fdb3b0d6edfeb3f6e23bcc3b7/cdktf-cdktf-provider-boundary-4.0.3.tar.gz
+[2023-06-01 16:15:15] INFO root fetch - processPackages [cdktf-cdktf-provider-archive]: Downloading https://files.pythonhosted.org/packages/10/24/506df659d144759628d9e5c19b567fa2e629430e3d11ca04bdcf24ea3fac/cdktf-cdktf-provider-archive-6.0.0.tar.gz
+[2023-06-01 16:15:15] INFO root fetch - processPackages [simplebox]: Downloading https://files.pythonhosted.org/packages/55/66/2e22cef74fbd747d002b9f5ac906d4f598f35220c170006b578abe091368/simplebox-0.0.1a157-py3-none-any.whl
+[2023-06-01 16:15:15] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: Downloading https://files.pythonhosted.org/packages/a8/34/8a324a706386f2310b82269e3dedf0738b99a118b8f97a607d3ab8532b47/cdktf-cdktf-provider-azuread-7.0.3.tar.gz
+[2023-06-01 16:15:15] INFO root fetch - processPackages [creme-crm]: Downloading https://files.pythonhosted.org/packages/fc/82/1eb9a5501e87d6e5454614ca9820f5d95991c5eb489db22524fee05d92ea/creme-crm-2.4.3.tar.gz
+[2023-06-01 16:15:15] INFO root fetch - processPackages [hj-generate]: Downloading https://files.pythonhosted.org/packages/ad/ff/57020145ad05eccb4b2f7d421fac402ef6874f3c1e6379bde51af7592ae5/hj-generate-1.2.0.tar.gz
+[2023-06-01 16:15:15] INFO root fetch - processPackages [simplebox]: executing diffoscope
+[2023-06-01 16:15:15] INFO root fetch - processPackages [simplebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplebox-0.0.1a156-py3-none-any.whl.zip tmp/simplebox-0.0.1a157-py3-none-any.whl.zip --markdown 20230601/s/simplebox/0.0.1a156-0.0.1a157/diff.md --exclude *.pyd
+[2023-06-01 16:15:15] INFO root fetch - processPackages [PrimeBotFramework]: Downloading https://files.pythonhosted.org/packages/44/38/1f2feb05c29bfb01db9795da4e1063dd430ab4b484a6cfa8367d9f8f7229/PrimeBotFramework-1.0.31.tar.gz
+[2023-06-01 16:15:15] WARNING root fetch - processPackages [creme-crm]: Skipping package: exceeds size limit 23317744>=10485760
+[2023-06-01 16:15:15] INFO root fetch - processPackages [creme-crm]: Start processing: celoMine
+[2023-06-01 16:15:15] INFO root fetch - main [MainThread]: End processing [creme-crm] error
+[2023-06-01 16:15:15] INFO root fetch - processPackages [glue-astronomy]: Downloading https://files.pythonhosted.org/packages/4f/4b/451bf83202c8dc2676261b055272bc3fceffc57235dd6356c6ae510a57cf/glue-astronomy-0.8.0.tar.gz
+[2023-06-01 16:15:15] INFO root fetch - processPackages [celoMine]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-01 16:15:15] INFO root fetch - processPackages [jaraco.collections]: Downloading https://files.pythonhosted.org/packages/95/60/2cf3c42c0dc26342885390a61a71cb5cb7b49f9bf181bb3e56573ae28a0e/jaraco.collections-4.2.0.tar.gz
+[2023-06-01 16:15:15] INFO root fetch - processPackages [hj-generate]: executing diffoscope
+[2023-06-01 16:15:15] INFO root fetch - processPackages [hj-generate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hj-generate-1.1.0.tar.gz tmp/hj-generate-1.2.0.tar.gz --markdown 20230601/h/hj-generate/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-01 16:15:15] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: Downloading https://files.pythonhosted.org/packages/be/81/840a2ee098f80839f9cea64537605375d3b3ead4e71dcaf9c9077d0b5649/cdktf-cdktf-provider-boundary-4.0.4.tar.gz
+[2023-06-01 16:15:15] INFO root fetch - processPackages [cdktf-cdktf-provider-ad]: Downloading https://files.pythonhosted.org/packages/6a/40/48f38f235f81649fe40b7965426bae21d7fe340ae1fb781aa0c88bd22b19/cdktf-cdktf-provider-ad-4.0.1.tar.gz
+[2023-06-01 16:15:15] INFO root fetch - processPackages [PrimeBotFramework]: executing diffoscope
+[2023-06-01 16:15:15] INFO root fetch - processPackages [PrimeBotFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrimeBotFramework-1.0.29.tar.gz tmp/PrimeBotFramework-1.0.31.tar.gz --markdown 20230601/P/PrimeBotFramework/1.0.29-1.0.31/diff.md --exclude *.pyd
+[2023-06-01 16:15:15] INFO root fetch - processPackages [jaraco.collections]: executing diffoscope
+[2023-06-01 16:15:15] INFO root fetch - processPackages [jaraco.collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.collections-4.1.0.tar.gz tmp/jaraco.collections-4.2.0.tar.gz --markdown 20230601/j/jaraco.collections/4.1.0-4.2.0/diff.md --exclude *.pyd
+[2023-06-01 16:15:15] INFO root fetch - processPackages [cdktf-cdktf-provider-archive]: Downloading https://files.pythonhosted.org/packages/75/f2/534e42fc3f60285bd52a341773d940d4532347f27e85690a2a7a15f79cbf/cdktf-cdktf-provider-archive-6.0.1.tar.gz
+[2023-06-01 16:15:15] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: executing diffoscope
+[2023-06-01 16:15:15] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-boundary-4.0.3.tar.gz tmp/cdktf-cdktf-provider-boundary-4.0.4.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-boundary/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-06-01 16:15:15] INFO root fetch - processPackages [cdktf-cdktf-provider-ad]: executing diffoscope
+[2023-06-01 16:15:15] INFO root fetch - processPackages [cdktf-cdktf-provider-ad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-ad-4.0.0.tar.gz tmp/cdktf-cdktf-provider-ad-4.0.1.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-ad/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-06-01 16:15:15] INFO root fetch - processPackages [celoMine]: Downloading https://files.pythonhosted.org/packages/8c/b3/2d0bbaa0d5128e304f1aca4c9723b7565b5869df022f7ff746126fde47d8/celoMine-0.0.5.tar.gz
+[2023-06-01 16:15:15] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: Downloading https://files.pythonhosted.org/packages/28/18/832b8fd5e383b54c07d1c0aed92b4013a77b43b656036dd356d491df847d/cdktf-cdktf-provider-azuread-7.0.4.tar.gz
+[2023-06-01 16:15:15] INFO root fetch - processPackages [glue-astronomy]: Downloading https://files.pythonhosted.org/packages/33/b4/c73845331ca411923c08c514382d9f8667062df48ae84c2bef3a47a429eb/glue-astronomy-0.9.0.tar.gz
+[2023-06-01 16:15:15] INFO root fetch - processPackages [cdktf-cdktf-provider-archive]: executing diffoscope
+[2023-06-01 16:15:15] INFO root fetch - processPackages [cdktf-cdktf-provider-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-archive-6.0.0.tar.gz tmp/cdktf-cdktf-provider-archive-6.0.1.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-archive/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-06-01 16:15:15] INFO root fetch - processPackages [glue-astronomy]: executing diffoscope
+[2023-06-01 16:15:15] INFO root fetch - processPackages [glue-astronomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue-astronomy-0.8.0.tar.gz tmp/glue-astronomy-0.9.0.tar.gz --markdown 20230601/g/glue-astronomy/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 16:15:15] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: executing diffoscope
+[2023-06-01 16:15:15] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-azuread-7.0.3.tar.gz tmp/cdktf-cdktf-provider-azuread-7.0.4.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-azuread/7.0.3-7.0.4/diff.md --exclude *.pyd
+[2023-06-01 16:15:15] INFO root fetch - processPackages [celoMine]: executing diffoscope
+[2023-06-01 16:15:15] INFO root fetch - processPackages [celoMine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celoMine-0.0.4.tar.gz tmp/celoMine-0.0.5.tar.gz --markdown 20230601/c/celoMine/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-01 16:15:16] INFO root fetch - processPackages [hj-generate]: Start processing: xplainable
+[2023-06-01 16:15:16] INFO root fetch - main [MainThread]: End processing [hj-generate]: success
+[2023-06-01 16:15:16] INFO root fetch - processPackages [xplainable]: New version: [1.0.0] Old Version: [0.0.1.dev1]
+[2023-06-01 16:15:16] INFO root fetch - processPackages [xplainable]: Downloading https://files.pythonhosted.org/packages/bd/06/54113efdf2d31d0d387151a5bd0f2aabf6bede727b96629e1f0958c4b3c3/xplainable-0.0.1.dev1-py3-none-any.whl
+[2023-06-01 16:15:17] INFO root fetch - processPackages [simplebox]: Start processing: dfcon
+[2023-06-01 16:15:17] INFO root fetch - main [MainThread]: End processing [simplebox]: success
+[2023-06-01 16:15:17] INFO root fetch - processPackages [dfcon]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 16:15:17] INFO root fetch - processPackages [xplainable]: Downloading https://files.pythonhosted.org/packages/4d/36/77ca428be00e16d5691ca524000bae75984836207ad9236f40aca9c546ce/xplainable-1.0.0-py3-none-any.whl
+[2023-06-01 16:15:17] INFO root fetch - processPackages [PrimeBotFramework]: Start processing: pyproject-installer
+[2023-06-01 16:15:17] INFO root fetch - main [MainThread]: End processing [PrimeBotFramework]: success
+[2023-06-01 16:15:17] INFO root fetch - processPackages [pyproject-installer]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-01 16:15:17] INFO root fetch - processPackages [xplainable]: executing diffoscope
+[2023-06-01 16:15:17] INFO root fetch - processPackages [xplainable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplainable-0.0.1.dev1-py3-none-any.whl.zip tmp/xplainable-1.0.0-py3-none-any.whl.zip --markdown 20230601/x/xplainable/0.0.1.dev1-1.0.0/diff.md --exclude *.pyd
+[2023-06-01 16:15:17] INFO root fetch - processPackages [dfcon]: executing diffoscope
+[2023-06-01 16:15:17] INFO root fetch - processPackages [dfcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfcon-0.0.8.tar.gz tmp/dfcon-0.0.9.tar.gz --markdown 20230601/d/dfcon/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 16:15:17] INFO root fetch - processPackages [pyproject-installer]: Downloading https://files.pythonhosted.org/packages/79/ae/8bc349979ef640e3a9e4ab570d055ffbf8e22d1f92de4f6e06c3f58e154a/pyproject_installer-0.5.0.tar.gz
+[2023-06-01 16:15:17] INFO root fetch - processPackages [jaraco.collections]: Start processing: sinergym
+[2023-06-01 16:15:17] INFO root fetch - main [MainThread]: End processing [jaraco.collections]: success
+[2023-06-01 16:15:17] INFO root fetch - processPackages [celoMine]: Start processing: cdktf-cdktf-provider-docker
+[2023-06-01 16:15:17] INFO root fetch - main [MainThread]: End processing [celoMine]: success
+[2023-06-01 16:15:17] INFO root fetch - processPackages [sinergym]: New version: [2.5.0] Old Version: [2.4.1]
+[2023-06-01 16:15:17] INFO root fetch - processPackages [cdktf-cdktf-provider-docker]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-06-01 16:15:17] INFO root fetch - processPackages [pyproject-installer]: Downloading https://files.pythonhosted.org/packages/3a/b6/ceed8d57cb16ae6977df841dda0d2aa0d71170706153f64619da5b7134cd/pyproject_installer-0.5.1.tar.gz
+[2023-06-01 16:15:17] INFO root fetch - processPackages [cdktf-cdktf-provider-archive]: Start processing: openshift-cluster-management-python-wrapper
+[2023-06-01 16:15:17] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-archive]: success
+[2023-06-01 16:15:17] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 16:15:17] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: executing diffoscope
+[2023-06-01 16:15:17] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-cluster-management-python-wrapper-1.0.8.tar.gz tmp/openshift-cluster-management-python-wrapper-1.0.9.tar.gz --markdown 20230601/o/openshift-cluster-management-python-wrapper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 16:15:17] INFO root fetch - processPackages [pyproject-installer]: executing diffoscope
+[2023-06-01 16:15:17] INFO root fetch - processPackages [pyproject-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_installer-0.5.0.tar.gz tmp/pyproject_installer-0.5.1.tar.gz --markdown 20230601/p/pyproject-installer/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-01 16:15:17] INFO root fetch - processPackages [cdktf-cdktf-provider-docker]: Downloading https://files.pythonhosted.org/packages/19/0f/e2a50a4b0deb7d05f4e0acc7051accdfb1a1f3aca97a1f2940c8829c2640/cdktf_cdktf_provider_docker-7.0.0-py3-none-any.whl
+[2023-06-01 16:15:17] INFO root fetch - main [MainThread]: End processing [glue-astronomy]: success
+[2023-06-01 16:15:17] INFO root fetch - processPackages [sinergym]: Downloading https://files.pythonhosted.org/packages/fe/17/6a103ed2337cf447c36381a98e4198b65271fe3941be9d24d1a8d82d1cae/sinergym-2.5.0.tar.gz
+[2023-06-01 16:15:18] INFO root fetch - processPackages [sinergym]: executing diffoscope
+[2023-06-01 16:15:18] INFO root fetch - processPackages [sinergym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinergym-2.4.1.tar.gz tmp/sinergym-2.5.0.tar.gz --markdown 20230601/s/sinergym/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2023-06-01 16:15:18] INFO root fetch - processPackages [cdktf-cdktf-provider-docker]: Downloading https://files.pythonhosted.org/packages/32/2b/29a13ad31917a5d8bfe42a1aa1715f991939355c26331e600ed8ebe148bd/cdktf-cdktf-provider-docker-7.0.1.tar.gz
+[2023-06-01 16:15:18] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azuread]: success
+[2023-06-01 16:15:18] INFO root fetch - processPackages [cdktf-cdktf-provider-docker]: executing diffoscope
+[2023-06-01 16:15:18] INFO root fetch - processPackages [cdktf-cdktf-provider-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf_cdktf_provider_docker-7.0.0-py3-none-any.whl.zip tmp/cdktf-cdktf-provider-docker-7.0.1.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-docker/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-06-01 16:15:19] INFO root fetch - main [MainThread]: End processing [dfcon]: success
+[2023-06-01 16:15:19] INFO root fetch - main [MainThread]: End processing [xplainable]: success
+[2023-06-01 16:15:19] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-boundary]: success
+[2023-06-01 16:15:19] INFO root fetch - main [MainThread]: End processing [openshift-cluster-management-python-wrapper]: success
+[2023-06-01 16:15:19] INFO root fetch - main [MainThread]: End processing [pyproject-installer]: success
+[2023-06-01 16:15:20] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-ad]: success
+[2023-06-01 16:15:21] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-docker]: success
+[2023-06-01 16:15:22] INFO root fetch - main [MainThread]: End processing [sinergym]: success
+[2023-06-01 16:15:22] INFO root fetch - main [MainThread]: Store serial: [18334733]
