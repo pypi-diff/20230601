@@ -9124,3 +9124,84 @@
 [2023-06-01 05:48:20] INFO root fetch - main [MainThread]: End processing [vos-mjjo]: success
 [2023-06-01 05:48:43] INFO root fetch - main [MainThread]: End processing [SALTISE-course-flow]: success
 [2023-06-01 05:48:43] INFO root fetch - main [MainThread]: Store serial: [18327948]
+[2023-06-01 05:53:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18327948]
+[2023-06-01 05:53:55] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-01 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aspose-cells-python
+[2023-06-01 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: random111Int
+[2023-06-01 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: json-loguru
+[2023-06-01 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omnata-cli
+[2023-06-01 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trusty
+[2023-06-01 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qldebugger
+[2023-06-01 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rapidexec
+[2023-06-01 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: execy
+[2023-06-01 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyqrack
+[2023-06-01 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: elm-messenger
+[2023-06-01 05:53:55] INFO root fetch - processPackages [aspose-cells-python]: New version: [23.5.0] Old Version: [23.4.1]
+[2023-06-01 05:53:55] INFO root fetch - processPackages [rapidexec]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 05:53:55] INFO root fetch - processPackages [qldebugger]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-01 05:53:55] INFO root fetch - processPackages [trusty]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-01 05:53:55] INFO root fetch - processPackages [elm-messenger]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-01 05:53:55] INFO root fetch - processPackages [omnata-cli]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-01 05:53:55] WARNING root fetch - processPackages [random111Int]: Skipping, unable to determine old version
+[2023-06-01 05:53:55] INFO root fetch - processPackages [random111Int]: Start processing: allure-custom
+[2023-06-01 05:53:55] INFO root fetch - main [MainThread]: End processing [random111Int] error
+[2023-06-01 05:53:55] INFO root fetch - processPackages [execy]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-01 05:53:55] INFO root fetch - processPackages [json-loguru]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-01 05:53:55] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-01 05:53:55] INFO root fetch - processPackages [allure-custom]: New version: [1.1.2] Old Version: [1.0.2]
+[2023-06-01 05:53:56] INFO root fetch - processPackages [json-loguru]: Downloading https://files.pythonhosted.org/packages/31/5b/a75dbffae3b7cbc92814cfe02d1ab4b77b3a9044f5fcd01cf28498b173a9/json_loguru-0.1.0.tar.gz
+[2023-06-01 05:53:56] INFO root fetch - processPackages [qldebugger]: Downloading https://files.pythonhosted.org/packages/1a/ab/7cb48abfec2c97d308c3081d45370dfd8509a1055eab138be6e9baa8c206/qldebugger-0.1.0.tar.gz
+[2023-06-01 05:53:56] INFO root fetch - processPackages [aspose-cells-python]: Downloading https://files.pythonhosted.org/packages/01/95/0a84d9e411d5ba402263c8f6a72c71ae0bc733fc567337873d33a18f16c0/aspose_cells_python-23.4.1-py3-none-win_amd64.whl
+[2023-06-01 05:53:56] INFO root fetch - processPackages [allure-custom]: Downloading https://files.pythonhosted.org/packages/ab/33/84282f1b1359d0b4e138d0cc788735fc5b5e063544c5e86bc337eee8aabf/allure_custom-1.0.2.tar.gz
+[2023-06-01 05:53:56] INFO root fetch - processPackages [trusty]: Downloading https://files.pythonhosted.org/packages/23/b3/faca0211bad8932c2b6621aca0b16a12c7d70f6635f10959ba28e291ec9d/trusty-1.0.0.tar.gz
+[2023-06-01 05:53:56] INFO root fetch - processPackages [omnata-cli]: Downloading https://files.pythonhosted.org/packages/f0/e7/3c8c6c99e0ea9717967831dbab07341436befe6295c4a296953233c8f8a9/omnata_cli-0.1.0.tar.gz
+[2023-06-01 05:53:56] INFO root fetch - processPackages [rapidexec]: Downloading https://files.pythonhosted.org/packages/35/65/be01aef4f20d0a75a1a4e9af103de8b3a1c47ba0a4c73fe912f6928a4507/rapidexec-0.0.1.tar.gz
+[2023-06-01 05:53:56] INFO root fetch - processPackages [execy]: Downloading https://files.pythonhosted.org/packages/fa/10/60ea35c0c1e050f446ee930e9ee07cc36f1b81dacd18af811dbf5f3b8565/execy-0.1.5.tar.gz
+[2023-06-01 05:53:56] WARNING root fetch - processPackages [allure-custom]: Skipping package: exceeds size limit 41282673>=10485760
+[2023-06-01 05:53:56] INFO root fetch - processPackages [allure-custom]: Start processing: async-adbc
+[2023-06-01 05:53:56] INFO root fetch - main [MainThread]: End processing [allure-custom] error
+[2023-06-01 05:53:56] INFO root fetch - processPackages [execy]: executing diffoscope
+[2023-06-01 05:53:56] INFO root fetch - processPackages [execy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/execy-0.1.4.tar.gz tmp/execy-0.1.5.tar.gz --markdown 20230601/e/execy/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-01 05:53:56] INFO root fetch - processPackages [elm-messenger]: Downloading https://files.pythonhosted.org/packages/89/e5/d3953e021e065697be1cb61c3fd25109c45e4443dad5a33ab2a74a1cc198/elm-messenger-0.2.5.tar.gz
+[2023-06-01 05:53:56] INFO root fetch - processPackages [async-adbc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 05:53:56] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-06-01 05:53:56] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230601/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-01 05:53:56] INFO root fetch - processPackages [json-loguru]: Downloading https://files.pythonhosted.org/packages/29/22/c158050a372479fbf2b7ab7bae2ae593ecfd3b403e960e27c1d9ccdb751c/json_loguru-0.1.1.tar.gz
+[2023-06-01 05:53:56] INFO root fetch - processPackages [qldebugger]: Downloading https://files.pythonhosted.org/packages/34/b3/5e6f0979ad979bd5e2aaf4adcb6609127d774500d47db5f5b83fea0ee7b9/qldebugger-0.2.0.tar.gz
+[2023-06-01 05:53:56] INFO root fetch - processPackages [trusty]: Downloading https://files.pythonhosted.org/packages/a3/bf/481f3f8094cfeef00345525e9ee7355dec74ba0f7b3698addae544ff0a08/trusty-1.1.0.tar.gz
+[2023-06-01 05:53:56] INFO root fetch - processPackages [omnata-cli]: Downloading https://files.pythonhosted.org/packages/df/84/08af5d633535ac306d5ec0becdf717df3926c9554a59fa49153133fff320/omnata_cli-0.1.1.tar.gz
+[2023-06-01 05:53:56] INFO root fetch - processPackages [elm-messenger]: executing diffoscope
+[2023-06-01 05:53:56] INFO root fetch - processPackages [elm-messenger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elm-messenger-0.2.4.tar.gz tmp/elm-messenger-0.2.5.tar.gz --markdown 20230601/e/elm-messenger/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-01 05:53:56] INFO root fetch - processPackages [qldebugger]: executing diffoscope
+[2023-06-01 05:53:56] INFO root fetch - processPackages [qldebugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qldebugger-0.1.0.tar.gz tmp/qldebugger-0.2.0.tar.gz --markdown 20230601/q/qldebugger/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-01 05:53:56] INFO root fetch - processPackages [rapidexec]: Downloading https://files.pythonhosted.org/packages/e6/ba/ba55af1f9be64393dca804a90cec457c4a101c157296d29bdf72228992da/rapidexec-0.0.2.tar.gz
+[2023-06-01 05:53:56] INFO root fetch - processPackages [trusty]: executing diffoscope
+[2023-06-01 05:53:56] INFO root fetch - processPackages [trusty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trusty-1.0.0.tar.gz tmp/trusty-1.1.0.tar.gz --markdown 20230601/t/trusty/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-01 05:53:56] INFO root fetch - processPackages [json-loguru]: executing diffoscope
+[2023-06-01 05:53:56] INFO root fetch - processPackages [json-loguru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_loguru-0.1.0.tar.gz tmp/json_loguru-0.1.1.tar.gz --markdown 20230601/j/json-loguru/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-01 05:53:56] INFO root fetch - processPackages [omnata-cli]: executing diffoscope
+[2023-06-01 05:53:56] INFO root fetch - processPackages [omnata-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_cli-0.1.0.tar.gz tmp/omnata_cli-0.1.1.tar.gz --markdown 20230601/o/omnata-cli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-01 05:53:56] INFO root fetch - processPackages [rapidexec]: executing diffoscope
+[2023-06-01 05:53:56] INFO root fetch - processPackages [rapidexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidexec-0.0.1.tar.gz tmp/rapidexec-0.0.2.tar.gz --markdown 20230601/r/rapidexec/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 05:53:56] WARNING root fetch - processPackages [aspose-cells-python]: Skipping package: exceeds size limit 54501152>=10485760
+[2023-06-01 05:53:56] INFO root fetch - processPackages [aspose-cells-python]: Start processing: amiyabot
+[2023-06-01 05:53:56] INFO root fetch - main [MainThread]: End processing [aspose-cells-python] error
+[2023-06-01 05:53:56] INFO root fetch - processPackages [amiyabot]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-01 05:53:56] INFO root fetch - processPackages [async-adbc]: executing diffoscope
+[2023-06-01 05:53:56] INFO root fetch - processPackages [async-adbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_adbc-1.0.8.tar.gz tmp/async_adbc-1.0.9.tar.gz --markdown 20230601/a/async-adbc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 05:53:56] INFO root fetch - processPackages [amiyabot]: Downloading https://files.pythonhosted.org/packages/ea/b8/40f47b82e4a0814ee63babfd0fb371ccb67d47d07fc7952e63eec2281fa7/amiyabot-1.4.8-py3-none-any.whl
+[2023-06-01 05:53:56] WARNING root fetch - processPackages [amiyabot]: Skipping package: exceeds size limit 11299128>=10485760
+[2023-06-01 05:53:56] INFO root fetch - processPackages [amiyabot]: Start processing: flash-attn-xwyzsn
+[2023-06-01 05:53:56] INFO root fetch - main [MainThread]: End processing [amiyabot] error
+[2023-06-01 05:53:57] WARNING root fetch - processPackages [flash-attn-xwyzsn]: Skipping, unable to determine old version
+[2023-06-01 05:53:57] INFO root fetch - main [MainThread]: End processing [flash-attn-xwyzsn] error
+[2023-06-01 05:53:57] INFO root fetch - main [MainThread]: End processing [execy]: success
+[2023-06-01 05:53:57] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-06-01 05:53:57] INFO root fetch - main [MainThread]: End processing [trusty]: success
+[2023-06-01 05:53:58] INFO root fetch - main [MainThread]: End processing [qldebugger]: success
+[2023-06-01 05:53:58] INFO root fetch - main [MainThread]: End processing [omnata-cli]: success
+[2023-06-01 05:53:58] INFO root fetch - main [MainThread]: End processing [json-loguru]: success
+[2023-06-01 05:53:58] INFO root fetch - main [MainThread]: End processing [elm-messenger]: success
+[2023-06-01 05:53:59] INFO root fetch - main [MainThread]: End processing [async-adbc]: success
+[2023-06-01 05:53:59] INFO root fetch - main [MainThread]: End processing [rapidexec]: success
+[2023-06-01 05:53:59] INFO root fetch - main [MainThread]: Store serial: [18328004]
