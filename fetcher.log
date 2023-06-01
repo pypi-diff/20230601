@@ -3269,3 +3269,75 @@
 [2023-06-01 02:19:43] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2023-06-01 02:19:44] INFO root fetch - main [MainThread]: End processing [es7s]: success
 [2023-06-01 02:19:44] INFO root fetch - main [MainThread]: Store serial: [18324771]
+[2023-06-01 02:24:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18324771]
+[2023-06-01 02:24:53] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-01 02:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2023-06-01 02:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SPRT-TANDEM
+[2023-06-01 02:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-nag
+[2023-06-01 02:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.appsync-utils
+[2023-06-01 02:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-pipelines-github
+[2023-06-01 02:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: constructs
+[2023-06-01 02:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: astronomer-cosmos
+[2023-06-01 02:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bobko-custom-serializer
+[2023-06-01 02:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-secret-manager-wrapper-layer
+[2023-06-01 02:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-budibase
+[2023-06-01 02:24:53] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2023-06-01 02:24:53] INFO root fetch - processPackages [SPRT-TANDEM]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-01 02:24:53] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 02:24:53] WARNING root fetch - processPackages [bobko-custom-serializer]: Skipping, unable to determine old version
+[2023-06-01 02:24:53] INFO root fetch - processPackages [bobko-custom-serializer]: Start processing: cdk8s-valheim
+[2023-06-01 02:24:53] INFO root fetch - main [MainThread]: End processing [bobko-custom-serializer] error
+[2023-06-01 02:24:53] INFO root fetch - processPackages [cdk-pipelines-github]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-01 02:24:53] INFO root fetch - processPackages [astronomer-cosmos]: New version: [0.7.0rc2] Old Version: [0.7.0rc1]
+[2023-06-01 02:24:53] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 02:24:53] INFO root fetch - processPackages [cdk8s-valheim]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 02:24:53] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-01 02:24:53] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-06-01 02:24:53] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-06-01 02:24:53] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2023-06-01 02:24:53] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20230601/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/diff.md --exclude *.pyd
+[2023-06-01 02:24:53] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2023-06-01 02:24:53] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20230601/c/cdk-nag/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-06-01 02:24:53] INFO root fetch - processPackages [cdk-pipelines-github]: executing diffoscope
+[2023-06-01 02:24:53] INFO root fetch - processPackages [cdk-pipelines-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-pipelines-github-0.4.8.tar.gz tmp/cdk-pipelines-github-0.4.9.tar.gz --markdown 20230601/c/cdk-pipelines-github/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-01 02:24:53] INFO root fetch - processPackages [cdk8s-valheim]: executing diffoscope
+[2023-06-01 02:24:53] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2023-06-01 02:24:53] INFO root fetch - processPackages [cdk8s-valheim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-valheim-0.0.8.tar.gz tmp/cdk8s-valheim-0.0.9.tar.gz --markdown 20230601/c/cdk8s-valheim/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 02:24:53] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.8.tar.gz tmp/cdk-budibase-0.0.9.tar.gz --markdown 20230601/c/cdk-budibase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 02:24:53] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-06-01 02:24:53] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230601/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-06-01 02:24:53] INFO root fetch - processPackages [SPRT-TANDEM]: Downloading https://files.pythonhosted.org/packages/78/79/c73e4ac67d4a24b5cee9fb64d85ba3f8f979f5532505b5e00351eec919ed/SPRT-TANDEM-0.1.8.tar.gz
+[2023-06-01 02:24:53] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2023-06-01 02:24:53] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20230601/c/cdklabs.appsync-utils/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 02:24:54] INFO root fetch - processPackages [SPRT-TANDEM]: executing diffoscope
+[2023-06-01 02:24:54] INFO root fetch - processPackages [SPRT-TANDEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPRT-TANDEM-0.1.7.tar.gz tmp/SPRT-TANDEM-0.1.8.tar.gz --markdown 20230601/S/SPRT-TANDEM/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-01 02:24:54] INFO root fetch - processPackages [astronomer-cosmos]: executing diffoscope
+[2023-06-01 02:24:54] INFO root fetch - processPackages [astronomer-cosmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer_cosmos-0.7.0rc1.tar.gz tmp/astronomer_cosmos-0.7.0rc2.tar.gz --markdown 20230601/a/astronomer-cosmos/0.7.0rc1-0.7.0rc2/diff.md --exclude *.pyd
+[2023-06-01 02:24:54] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2023-06-01 02:24:54] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20230601/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-01 02:24:55] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Start processing: cdktf-surreal-backend
+[2023-06-01 02:24:55] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2023-06-01 02:24:55] INFO root fetch - processPackages [cdktf-surreal-backend]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-01 02:24:55] INFO root fetch - processPackages [cdk-pipelines-github]: Start processing: stefutils
+[2023-06-01 02:24:55] INFO root fetch - main [MainThread]: End processing [cdk-pipelines-github]: success
+[2023-06-01 02:24:55] INFO root fetch - processPackages [stefutils]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-01 02:24:55] INFO root fetch - processPackages [cdk-nag]: Start processing: cdklabs.cdk-ethereum-node
+[2023-06-01 02:24:55] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2023-06-01 02:24:55] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 02:24:55] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-06-01 02:24:55] INFO root fetch - processPackages [stefutils]: executing diffoscope
+[2023-06-01 02:24:55] INFO root fetch - processPackages [stefutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stefutils-0.8.2.tar.gz tmp/stefutils-0.9.0.tar.gz --markdown 20230601/s/stefutils/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 02:24:55] INFO root fetch - processPackages [cdktf-surreal-backend]: executing diffoscope
+[2023-06-01 02:24:55] INFO root fetch - processPackages [cdktf-surreal-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-surreal-backend-1.0.98.tar.gz tmp/cdktf-surreal-backend-1.0.99.tar.gz --markdown 20230601/c/cdktf-surreal-backend/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-01 02:24:55] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2023-06-01 02:24:55] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2023-06-01 02:24:55] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20230601/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 02:24:55] INFO root fetch - main [MainThread]: End processing [SPRT-TANDEM]: success
+[2023-06-01 02:24:55] INFO root fetch - main [MainThread]: End processing [cdk8s-valheim]: success
+[2023-06-01 02:24:56] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2023-06-01 02:24:56] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2023-06-01 02:24:56] INFO root fetch - main [MainThread]: End processing [stefutils]: success
+[2023-06-01 02:24:57] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2023-06-01 02:24:57] INFO root fetch - main [MainThread]: End processing [astronomer-cosmos]: success
+[2023-06-01 02:24:57] INFO root fetch - main [MainThread]: End processing [cdktf-surreal-backend]: success
+[2023-06-01 02:24:57] INFO root fetch - main [MainThread]: Store serial: [18324811]
