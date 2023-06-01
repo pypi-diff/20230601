@@ -3792,3 +3792,39 @@
 [2023-06-01 02:59:33] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2023-06-01 03:00:23] INFO root fetch - main [MainThread]: End processing [EduSocialMediaDSHelper]: success
 [2023-06-01 03:00:23] INFO root fetch - main [MainThread]: Store serial: [18325065]
+[2023-06-01 03:05:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18325065]
+[2023-06-01 03:05:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-01 03:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xklb
+[2023-06-01 03:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brease-sdk
+[2023-06-01 03:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moto
+[2023-06-01 03:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiodbm
+[2023-06-01 03:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlmesh
+[2023-06-01 03:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-slack-chatbot
+[2023-06-01 03:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arcgen-python
+[2023-06-01 03:05:32] WARNING root fetch - processPackages [brease-sdk]: Skipping, unable to determine old version
+[2023-06-01 03:05:32] INFO root fetch - main [MainThread]: End processing [brease-sdk] error
+[2023-06-01 03:05:32] WARNING root fetch - processPackages [aiodbm]: Skipping, unable to determine old version
+[2023-06-01 03:05:32] INFO root fetch - main [MainThread]: End processing [aiodbm] error
+[2023-06-01 03:05:32] INFO root fetch - processPackages [xklb]: New version: [1.29.8] Old Version: [1.29.7]
+[2023-06-01 03:05:32] INFO root fetch - processPackages [arcgen-python]: New version: [2023.1.0] Old Version: [2022.1]
+[2023-06-01 03:05:33] INFO root fetch - processPackages [sqlmesh]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-01 03:05:33] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-01 03:05:33] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-01 03:05:33] INFO root fetch - processPackages [arcgen-python]: Downloading https://files.pythonhosted.org/packages/00/af/ca55ef873130fb09344b520444d4662cffd5c388ff6981ecdb44fea34bed/arcgen-python-2022.1.tar.gz
+[2023-06-01 03:05:33] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-06-01 03:05:33] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.8.1.tar.gz tmp/sqlmesh-0.9.0.tar.gz --markdown 20230601/s/sqlmesh/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 03:05:33] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-06-01 03:05:33] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230601/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-01 03:05:33] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-06-01 03:05:33] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.29.7.tar.gz tmp/xklb-1.29.8.tar.gz --markdown 20230601/x/xklb/1.29.7-1.29.8/diff.md --exclude *.pyd
+[2023-06-01 03:05:33] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-01 03:05:33] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230601/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-01 03:05:33] INFO root fetch - processPackages [arcgen-python]: Downloading https://files.pythonhosted.org/packages/d7/29/9d84782c565e9ceefa4aeb059173890ed15de05d67d0665d8c47fdf6dccb/arcgen-python-2023.1.0.tar.gz
+[2023-06-01 03:05:33] INFO root fetch - processPackages [arcgen-python]: executing diffoscope
+[2023-06-01 03:05:33] INFO root fetch - processPackages [arcgen-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcgen-python-2022.1.tar.gz tmp/arcgen-python-2023.1.0.tar.gz --markdown 20230601/a/arcgen-python/2022.1-2023.1.0/diff.md --exclude *.pyd
+[2023-06-01 03:05:34] INFO root fetch - main [MainThread]: End processing [arcgen-python]: success
+[2023-06-01 03:05:35] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-06-01 03:05:35] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-06-01 03:06:05] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-01 03:06:09] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-06-01 03:06:09] INFO root fetch - main [MainThread]: Store serial: [18325090]
