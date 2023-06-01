@@ -8957,3 +8957,47 @@
 [2023-06-01 05:32:32] INFO root fetch - main [MainThread]: End processing [unidata-blocks]: success
 [2023-06-01 05:32:32] INFO root fetch - main [MainThread]: End processing [pydmd]: success
 [2023-06-01 05:32:32] INFO root fetch - main [MainThread]: Store serial: [18327857]
+[2023-06-01 05:37:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18327857]
+[2023-06-01 05:37:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-01 05:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: execy
+[2023-06-01 05:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-cloudflare
+[2023-06-01 05:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seven-cloudapp-frame
+[2023-06-01 05:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-nagabus
+[2023-06-01 05:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crio
+[2023-06-01 05:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: random11
+[2023-06-01 05:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: konfuzio-sdk
+[2023-06-01 05:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nighthawk
+[2023-06-01 05:37:41] INFO root fetch - processPackages [execy]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-01 05:37:41] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-06-01 05:37:41] INFO root fetch - processPackages [crio]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-01 05:37:41] INFO root fetch - processPackages [nonebot-plugin-nagabus]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-06-01 05:37:41] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: New version: [6.0.5] Old Version: [6.0.4]
+[2023-06-01 05:37:41] INFO root fetch - processPackages [nighthawk]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-01 05:37:41] WARNING root fetch - processPackages [random11]: Skipping, unable to determine old version
+[2023-06-01 05:37:41] INFO root fetch - main [MainThread]: End processing [random11] error
+[2023-06-01 05:37:41] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-06-01 05:37:41] INFO root fetch - processPackages [crio]: executing diffoscope
+[2023-06-01 05:37:41] INFO root fetch - processPackages [crio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crio-0.0.5.tar.gz tmp/crio-0.0.6.tar.gz --markdown 20230601/c/crio/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-01 05:37:42] INFO root fetch - processPackages [nighthawk]: Downloading https://files.pythonhosted.org/packages/05/88/369d6637d26a08556d99c10ded9021db34de7fa2b0d875c8056cadf9ec14/nighthawk-0.1.1.tar.gz
+[2023-06-01 05:37:42] INFO root fetch - processPackages [execy]: Downloading https://files.pythonhosted.org/packages/8d/cb/9b300e010b59b610563e8a4759f8cc3add682268764717d086f35a2bd737/execy-0.1.3.tar.gz
+[2023-06-01 05:37:42] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Downloading https://files.pythonhosted.org/packages/57/4a/d6fe137a0f25773dba77517355287e41aee63c809ceb71c13f936c19abd1/cdktf-cdktf-provider-cloudflare-6.0.5.tar.gz
+[2023-06-01 05:37:42] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Downloading https://files.pythonhosted.org/packages/53/05/bdbbd0af6e68b43d0a020fcb23003b7ff32bf1e49beb8dbe9285c80a106a/nonebot_plugin_nagabus-0.2.0.tar.gz
+[2023-06-01 05:37:42] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-06-01 05:37:42] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230601/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-06-01 05:37:42] WARNING root fetch - processPackages [nighthawk]: Skipping package: exceeds size limit 89638231>=10485760
+[2023-06-01 05:37:42] INFO root fetch - main [MainThread]: End processing [nighthawk] error
+[2023-06-01 05:37:42] INFO root fetch - processPackages [execy]: executing diffoscope
+[2023-06-01 05:37:42] INFO root fetch - processPackages [execy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/execy-0.1.2.tar.gz tmp/execy-0.1.3.tar.gz --markdown 20230601/e/execy/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-01 05:37:42] INFO root fetch - processPackages [nonebot-plugin-nagabus]: executing diffoscope
+[2023-06-01 05:37:42] INFO root fetch - processPackages [nonebot-plugin-nagabus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_nagabus-0.1.5.tar.gz tmp/nonebot_plugin_nagabus-0.2.0.tar.gz --markdown 20230601/n/nonebot-plugin-nagabus/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-06-01 05:37:42] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: executing diffoscope
+[2023-06-01 05:37:42] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-cloudflare-6.0.4.tar.gz tmp/cdktf-cdktf-provider-cloudflare-6.0.5.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-cloudflare/6.0.4-6.0.5/diff.md --exclude *.pyd
+[2023-06-01 05:37:42] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-06-01 05:37:42] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230601/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-06-01 05:37:43] INFO root fetch - main [MainThread]: End processing [crio]: success
+[2023-06-01 05:37:43] INFO root fetch - main [MainThread]: End processing [execy]: success
+[2023-06-01 05:37:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nagabus]: success
+[2023-06-01 05:37:44] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-06-01 05:37:45] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-06-01 05:37:50] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-cloudflare]: success
+[2023-06-01 05:37:50] INFO root fetch - main [MainThread]: Store serial: [18327888]
