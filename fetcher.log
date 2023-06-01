@@ -11731,3 +11731,90 @@
 [2023-06-01 09:35:16] INFO root fetch - main [MainThread]: End processing [odoo10-addon-project-recalculate]: success
 [2023-06-01 09:35:17] INFO root fetch - main [MainThread]: End processing [piperider]: success
 [2023-06-01 09:35:17] INFO root fetch - main [MainThread]: Store serial: [18329473]
+[2023-06-01 09:40:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18329473]
+[2023-06-01 09:40:26] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-01 09:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: savant-rs
+[2023-06-01 09:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: badi-users
+[2023-06-01 09:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-btripopen20220520-py2
+[2023-06-01 09:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quetz-server
+[2023-06-01 09:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: checkov
+[2023-06-01 09:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funnylog
+[2023-06-01 09:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytele2api
+[2023-06-01 09:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-btripopen20220520
+[2023-06-01 09:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phase-dev
+[2023-06-01 09:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloudnetpy
+[2023-06-01 09:40:26] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-01 09:40:26] WARNING root fetch - processPackages [pytele2api]: Skipping, unable to determine old version
+[2023-06-01 09:40:26] INFO root fetch - processPackages [pytele2api]: Start processing: folder-tree-generator
+[2023-06-01 09:40:26] INFO root fetch - main [MainThread]: End processing [pytele2api] error
+[2023-06-01 09:40:26] INFO root fetch - processPackages [quetz-server]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-01 09:40:26] INFO root fetch - processPackages [funnylog]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-01 09:40:26] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 09:40:26] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 09:40:26] WARNING root fetch - processPackages [phase-dev]: Skipping, unable to determine old version
+[2023-06-01 09:40:26] INFO root fetch - processPackages [phase-dev]: Start processing: csvsheet
+[2023-06-01 09:40:26] INFO root fetch - main [MainThread]: End processing [phase-dev] error
+[2023-06-01 09:40:26] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-06-01 09:40:26] INFO root fetch - processPackages [badi-users]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-01 09:40:26] INFO root fetch - processPackages [folder-tree-generator]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-01 09:40:26] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-01 09:40:26] INFO root fetch - processPackages [csvsheet]: New version: [0.1.2] Old Version: [0.1]
+[2023-06-01 09:40:27] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-06-01 09:40:27] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230601/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-01 09:40:27] INFO root fetch - processPackages [quetz-server]: Downloading https://files.pythonhosted.org/packages/16/36/df5d2c780a5ddfee100e37c3fec5ad35c66fc1fb82d0a2655bf80ffdd9d3/quetz-server-0.7.0.tar.gz
+[2023-06-01 09:40:27] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/11/bd/e71633fd98218d9ee12bd31f35f9227eacffaa6d5a94611a61824112a5d7/badi_users-1.0.6.tar.gz
+[2023-06-01 09:40:27] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2023-06-01 09:40:27] INFO root fetch - processPackages [funnylog]: Downloading https://files.pythonhosted.org/packages/02/30/2ac3eb5250db39391f2604ed70117c7264407b25edfafc03531710ef4734/funnylog-1.1.2.tar.gz
+[2023-06-01 09:40:27] INFO root fetch - processPackages [csvsheet]: Downloading https://files.pythonhosted.org/packages/eb/a7/4f4968c2d0d12a90f271775c248115dd27cb6e289b05ac446d8d0c103685/csvsheet-0.1.tar.gz
+[2023-06-01 09:40:27] INFO root fetch - processPackages [funnylog]: executing diffoscope
+[2023-06-01 09:40:27] INFO root fetch - processPackages [funnylog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funnylog-1.1.1.tar.gz tmp/funnylog-1.1.2.tar.gz --markdown 20230601/f/funnylog/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-01 09:40:27] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-06-01 09:40:27] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230601/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 09:40:27] INFO root fetch - processPackages [folder-tree-generator]: Downloading https://files.pythonhosted.org/packages/77/17/9dc2e6c0d14e963d76f14b6104ecb20b3ef6618bfa80a529e1bbd3d0f2f9/folder_tree_generator-0.1.6.tar.gz
+[2023-06-01 09:40:27] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2023-06-01 09:40:27] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-1.0.8.tar.gz tmp/alibabacloud_btripopen20220520-1.0.9.tar.gz --markdown 20230601/a/alibabacloud-btripopen20220520/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 09:40:27] INFO root fetch - processPackages [quetz-server]: Downloading https://files.pythonhosted.org/packages/b0/94/3c693d0feed2ad0c4617c2271a699c140626cc66de3213d2cd7d26f09803/quetz-server-0.8.0.tar.gz
+[2023-06-01 09:40:27] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: executing diffoscope
+[2023-06-01 09:40:27] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520_py2-1.0.8.tar.gz tmp/alibabacloud_btripopen20220520_py2-1.0.9.tar.gz --markdown 20230601/a/alibabacloud-btripopen20220520-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 09:40:27] INFO root fetch - processPackages [folder-tree-generator]: executing diffoscope
+[2023-06-01 09:40:27] INFO root fetch - processPackages [folder-tree-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folder_tree_generator-0.1.5.tar.gz tmp/folder_tree_generator-0.1.6.tar.gz --markdown 20230601/f/folder-tree-generator/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-01 09:40:27] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/00/bb/0867ce82d3a17061b3ca5a89426f4c094553de372f97e7381debc98c6dd4/badi_users-1.0.7.tar.gz
+[2023-06-01 09:40:27] INFO root fetch - processPackages [quetz-server]: executing diffoscope
+[2023-06-01 09:40:27] INFO root fetch - processPackages [quetz-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quetz-server-0.7.0.tar.gz tmp/quetz-server-0.8.0.tar.gz --markdown 20230601/q/quetz-server/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-01 09:40:27] INFO root fetch - processPackages [badi-users]: executing diffoscope
+[2023-06-01 09:40:27] INFO root fetch - processPackages [badi-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badi_users-1.0.6.tar.gz tmp/badi_users-1.0.7.tar.gz --markdown 20230601/b/badi-users/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-01 09:40:27] INFO root fetch - processPackages [csvsheet]: Downloading https://files.pythonhosted.org/packages/01/40/2d144a1b958e839fdf4e741609d705a72699b8fe47f7f71397f4968af49e/csvsheet-0.1.2.tar.gz
+[2023-06-01 09:40:27] INFO root fetch - processPackages [csvsheet]: executing diffoscope
+[2023-06-01 09:40:27] INFO root fetch - processPackages [csvsheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csvsheet-0.1.tar.gz tmp/csvsheet-0.1.2.tar.gz --markdown 20230601/c/csvsheet/0.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-01 09:40:27] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2023-06-01 09:40:27] INFO root fetch - processPackages [cloudnetpy]: Start processing: PlatitudeTerminal
+[2023-06-01 09:40:27] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2023-06-01 09:40:27] INFO root fetch - processPackages [PlatitudeTerminal]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-01 09:40:27] INFO root fetch - processPackages [PlatitudeTerminal]: Downloading https://files.pythonhosted.org/packages/ac/cb/365a8e5adb342f95d8cfb6e0f9c52c0a1d012e9e2758fece0b41c56e0c31/PlatitudeTerminal-1.0.7.tar.gz
+[2023-06-01 09:40:28] INFO root fetch - processPackages [PlatitudeTerminal]: Downloading https://files.pythonhosted.org/packages/53/0b/ca4a2f04746244f40cf083e63cf06cd1a3f09bb80d2453183da72692f647/PlatitudeTerminal-1.0.8.tar.gz
+[2023-06-01 09:40:28] INFO root fetch - processPackages [PlatitudeTerminal]: executing diffoscope
+[2023-06-01 09:40:28] INFO root fetch - processPackages [PlatitudeTerminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlatitudeTerminal-1.0.7.tar.gz tmp/PlatitudeTerminal-1.0.8.tar.gz --markdown 20230601/P/PlatitudeTerminal/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-01 09:40:28] INFO root fetch - processPackages [funnylog]: Start processing: hikari-bot
+[2023-06-01 09:40:28] INFO root fetch - main [MainThread]: End processing [funnylog]: success
+[2023-06-01 09:40:28] INFO root fetch - processPackages [hikari-bot]: New version: [0.3.9.4] Old Version: [0.3.9.3]
+[2023-06-01 09:40:28] INFO root fetch - processPackages [hikari-bot]: Downloading https://files.pythonhosted.org/packages/7e/c4/dca112c71d6fe5b69e2c95cfd6dc1ee2c3dbbe9eeeed804f0fa7bd4a7918/hikari_bot-0.3.9.3.tar.gz
+[2023-06-01 09:40:28] INFO root fetch - processPackages [folder-tree-generator]: Start processing: docrobot
+[2023-06-01 09:40:28] INFO root fetch - main [MainThread]: End processing [folder-tree-generator]: success
+[2023-06-01 09:40:28] INFO root fetch - processPackages [docrobot]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-01 09:40:29] INFO root fetch - processPackages [hikari-bot]: Downloading https://files.pythonhosted.org/packages/a7/78/9e1feb4c70e1178485e136984177a8bc923909787cfd66ddf9499ab9ecab/hikari_bot-0.3.9.4.tar.gz
+[2023-06-01 09:40:29] INFO root fetch - processPackages [docrobot]: Downloading https://files.pythonhosted.org/packages/e7/ca/e219034411b008174205290ba4b67b4ab96b25502649e0cab2815ee0635f/docrobot-1.0.3.tar.gz
+[2023-06-01 09:40:29] INFO root fetch - processPackages [hikari-bot]: executing diffoscope
+[2023-06-01 09:40:29] INFO root fetch - processPackages [hikari-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari_bot-0.3.9.3.tar.gz tmp/hikari_bot-0.3.9.4.tar.gz --markdown 20230601/h/hikari-bot/0.3.9.3-0.3.9.4/diff.md --exclude *.pyd
+[2023-06-01 09:40:29] INFO root fetch - processPackages [docrobot]: executing diffoscope
+[2023-06-01 09:40:29] INFO root fetch - processPackages [docrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docrobot-1.0.2.tar.gz tmp/docrobot-1.0.3.tar.gz --markdown 20230601/d/docrobot/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-01 09:40:29] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-06-01 09:40:29] INFO root fetch - main [MainThread]: End processing [csvsheet]: success
+[2023-06-01 09:40:29] INFO root fetch - main [MainThread]: End processing [PlatitudeTerminal]: success
+[2023-06-01 09:40:30] INFO root fetch - main [MainThread]: End processing [quetz-server]: success
+[2023-06-01 09:40:30] INFO root fetch - main [MainThread]: End processing [docrobot]: success
+[2023-06-01 09:40:30] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2023-06-01 09:40:31] INFO root fetch - main [MainThread]: End processing [hikari-bot]: success
+[2023-06-01 09:40:31] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520-py2]: success
+[2023-06-01 09:40:31] INFO root fetch - main [MainThread]: End processing [badi-users]: success
+[2023-06-01 09:41:05] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-06-01 09:41:05] INFO root fetch - main [MainThread]: Store serial: [18329545]
