@@ -14609,3 +14609,104 @@
 [2023-06-01 11:32:36] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-mpexec]: success
 [2023-06-01 11:32:38] INFO root fetch - main [MainThread]: End processing [django-ipghrms-employee]: success
 [2023-06-01 11:32:38] INFO root fetch - main [MainThread]: Store serial: [18331030]
+[2023-06-01 11:37:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18331030]
+[2023-06-01 11:37:47] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-01 11:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taxOrder
+[2023-06-01 11:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cg
+[2023-06-01 11:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xblock-problem-builder
+[2023-06-01 11:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: human-abi
+[2023-06-01 11:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robotframework-jsonquery
+[2023-06-01 11:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: UEVaultManager
+[2023-06-01 11:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: panoptic
+[2023-06-01 11:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: laminci
+[2023-06-01 11:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: novu
+[2023-06-01 11:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cmsis-stream
+[2023-06-01 11:37:47] INFO root fetch - processPackages [taxOrder]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-01 11:37:47] INFO root fetch - processPackages [xblock-problem-builder]: New version: [5.1.3] Old Version: [5.1.2]
+[2023-06-01 11:37:47] WARNING root fetch - processPackages [human-abi]: Skipping, unable to determine old version
+[2023-06-01 11:37:47] INFO root fetch - processPackages [human-abi]: Start processing: prisma-pynext
+[2023-06-01 11:37:47] INFO root fetch - main [MainThread]: End processing [human-abi] error
+[2023-06-01 11:37:47] INFO root fetch - processPackages [novu]: New version: [1.3.0a2] Old Version: [1.3.0a1]
+[2023-06-01 11:37:47] INFO root fetch - processPackages [panoptic]: New version: [0.0.9.dev8] Old Version: [0.0.9.dev7]
+[2023-06-01 11:37:47] INFO root fetch - processPackages [robotframework-jsonquery]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-01 11:37:47] INFO root fetch - processPackages [cmsis-stream]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-01 11:37:47] INFO root fetch - processPackages [laminci]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-06-01 11:37:47] INFO root fetch - processPackages [UEVaultManager]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-06-01 11:37:47] INFO root fetch - processPackages [cg]: New version: [33.0.6] Old Version: [33.0.5]
+[2023-06-01 11:37:47] INFO root fetch - processPackages [prisma-pynext]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-01 11:37:47] INFO root fetch - processPackages [prisma-pynext]: executing diffoscope
+[2023-06-01 11:37:47] INFO root fetch - processPackages [prisma-pynext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prisma_pynext-0.8.8.tar.gz tmp/prisma_pynext-0.8.9.tar.gz --markdown 20230601/p/prisma-pynext/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-01 11:37:48] INFO root fetch - processPackages [xblock-problem-builder]: Downloading https://files.pythonhosted.org/packages/42/c2/81e85364701b43505bfa48a7c227828ffbab6ca35aeb98b9abda1fbaf379/xblock-problem-builder-5.1.2.tar.gz
+[2023-06-01 11:37:48] INFO root fetch - processPackages [robotframework-jsonquery]: Downloading https://files.pythonhosted.org/packages/6e/82/351199aa6dc358555845b17a98ba340d0ddacc6152a835e8b238e53d5081/robotframework_jsonquery-1.0.3.tar.gz
+[2023-06-01 11:37:48] INFO root fetch - processPackages [UEVaultManager]: Downloading https://files.pythonhosted.org/packages/7e/b2/a9898be57bd2198e250c165faa0897fc3c64ccc6e3598ed3e96c2251cf73/UEVaultManager-1.6.5.tar.gz
+[2023-06-01 11:37:48] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/32/d2/ab7babd13316460c12d326458760b77e55589f5f60097c4d7cae7ab96ccd/panoptic-0.0.9.dev8.tar.gz
+[2023-06-01 11:37:48] INFO root fetch - processPackages [novu]: Downloading https://files.pythonhosted.org/packages/aa/22/3a2e9d1c5cdaf48ef53f5a2533a7f87001a99c57ea48063d28e7e7e93fda/novu-1.3.0a1.tar.gz
+[2023-06-01 11:37:48] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/7d/25/c3ce18273f775dac8d2651b736445a8498e7113d43608edd9a56e088ad4e/cmsis_stream-1.0.0-py3-none-any.whl
+[2023-06-01 11:37:48] INFO root fetch - processPackages [taxOrder]: Downloading https://files.pythonhosted.org/packages/87/f1/02a3cc777cea61e2f58e67b9dff1bebbf39f6ea6afe83ec7215e198b0923/taxOrder-0.2.2.tar.gz
+[2023-06-01 11:37:48] INFO root fetch - processPackages [robotframework-jsonquery]: executing diffoscope
+[2023-06-01 11:37:48] INFO root fetch - processPackages [robotframework-jsonquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_jsonquery-1.0.2.tar.gz tmp/robotframework_jsonquery-1.0.3.tar.gz --markdown 20230601/r/robotframework-jsonquery/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-01 11:37:48] INFO root fetch - processPackages [UEVaultManager]: executing diffoscope
+[2023-06-01 11:37:48] INFO root fetch - processPackages [UEVaultManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UEVaultManager-1.6.4.tar.gz tmp/UEVaultManager-1.6.5.tar.gz --markdown 20230601/U/UEVaultManager/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-06-01 11:37:48] INFO root fetch - processPackages [laminci]: Downloading https://files.pythonhosted.org/packages/2b/b7/8e28b2b152398c1c6d0933d10ddbb6cb7f43041c841224e59fbb438dde85/laminci-0.6.6.tar.gz
+[2023-06-01 11:37:48] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/31/2a/840b378dc8bfc456083270c9452d1247c00fa7b94e044bf49ca96b0f289f/cg-33.0.6.tar.gz
+[2023-06-01 11:37:48] INFO root fetch - processPackages [panoptic]: executing diffoscope
+[2023-06-01 11:37:48] INFO root fetch - processPackages [panoptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptic-0.0.9.dev7.tar.gz tmp/panoptic-0.0.9.dev8.tar.gz --markdown 20230601/p/panoptic/0.0.9.dev7-0.0.9.dev8/diff.md --exclude *.pyd
+[2023-06-01 11:37:48] INFO root fetch - processPackages [taxOrder]: executing diffoscope
+[2023-06-01 11:37:48] INFO root fetch - processPackages [taxOrder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxOrder-0.2.1.tar.gz tmp/taxOrder-0.2.2.tar.gz --markdown 20230601/t/taxOrder/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-01 11:37:48] INFO root fetch - processPackages [laminci]: executing diffoscope
+[2023-06-01 11:37:48] INFO root fetch - processPackages [laminci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laminci-0.6.5.tar.gz tmp/laminci-0.6.6.tar.gz --markdown 20230601/l/laminci/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-06-01 11:37:48] INFO root fetch - processPackages [novu]: Downloading https://files.pythonhosted.org/packages/b0/a6/bbd30d9db76a7af552d5571b2b0a9eab005001d7f869ea6ebb285d53c366/novu-1.3.0a2.tar.gz
+[2023-06-01 11:37:48] INFO root fetch - processPackages [xblock-problem-builder]: Downloading https://files.pythonhosted.org/packages/78/8d/3fa8998f71246b7c111541584d322c13b95b11963083282d17c8047e88e9/xblock-problem-builder-5.1.3.tar.gz
+[2023-06-01 11:37:48] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/85/8e/d32ba5671542f1de106e90026cdae738157b49db2ede642dfdfb9f04f479/cmsis_stream-1.1.0-py3-none-any.whl
+[2023-06-01 11:37:48] INFO root fetch - processPackages [cmsis-stream]: executing diffoscope
+[2023-06-01 11:37:48] INFO root fetch - processPackages [cmsis-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmsis_stream-1.0.0-py3-none-any.whl.zip tmp/cmsis_stream-1.1.0-py3-none-any.whl.zip --markdown 20230601/c/cmsis-stream/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-01 11:37:48] INFO root fetch - processPackages [novu]: executing diffoscope
+[2023-06-01 11:37:48] INFO root fetch - processPackages [novu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novu-1.3.0a1.tar.gz tmp/novu-1.3.0a2.tar.gz --markdown 20230601/n/novu/1.3.0a1-1.3.0a2/diff.md --exclude *.pyd
+[2023-06-01 11:37:48] INFO root fetch - processPackages [xblock-problem-builder]: executing diffoscope
+[2023-06-01 11:37:48] INFO root fetch - processPackages [xblock-problem-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xblock-problem-builder-5.1.2.tar.gz tmp/xblock-problem-builder-5.1.3.tar.gz --markdown 20230601/x/xblock-problem-builder/5.1.2-5.1.3/diff.md --exclude *.pyd
+[2023-06-01 11:37:48] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-01 11:37:48] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-33.0.5.tar.gz tmp/cg-33.0.6.tar.gz --markdown 20230601/c/cg/33.0.5-33.0.6/diff.md --exclude *.pyd
+[2023-06-01 11:37:49] INFO root fetch - processPackages [robotframework-jsonquery]: Start processing: tttpquisby
+[2023-06-01 11:37:49] INFO root fetch - main [MainThread]: End processing [robotframework-jsonquery]: success
+[2023-06-01 11:37:49] INFO root fetch - processPackages [panoptic]: Start processing: NuOCR
+[2023-06-01 11:37:49] INFO root fetch - main [MainThread]: End processing [panoptic]: success
+[2023-06-01 11:37:49] WARNING root fetch - processPackages [tttpquisby]: Skipping, unable to determine old version
+[2023-06-01 11:37:49] INFO root fetch - processPackages [tttpquisby]: Start processing: human-abi
+[2023-06-01 11:37:49] INFO root fetch - main [MainThread]: End processing [tttpquisby] error
+[2023-06-01 11:37:49] INFO root fetch - processPackages [NuOCR]: New version: [0.2.5.3] Old Version: [0.2.5.2]
+[2023-06-01 11:37:49] INFO root fetch - processPackages [human-abi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-01 11:37:50] INFO root fetch - processPackages [laminci]: Start processing: katalytic-files
+[2023-06-01 11:37:50] INFO root fetch - main [MainThread]: End processing [laminci]: success
+[2023-06-01 11:37:50] INFO root fetch - processPackages [katalytic-files]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-01 11:37:50] INFO root fetch - processPackages [human-abi]: Downloading https://files.pythonhosted.org/packages/e0/18/fc8045553f0b679fdd4a30b3ef6119a296dceb11c4e169b774224ca56c6a/human_abi-0.1.0.tar.gz
+[2023-06-01 11:37:50] INFO root fetch - processPackages [katalytic-files]: executing diffoscope
+[2023-06-01 11:37:50] INFO root fetch - processPackages [katalytic-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katalytic_files-0.9.0.tar.gz tmp/katalytic_files-0.9.1.tar.gz --markdown 20230601/k/katalytic-files/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-01 11:37:50] INFO root fetch - processPackages [NuOCR]: Downloading https://files.pythonhosted.org/packages/34/ed/6ca98d016afd54ba230057e65ade4c3c506632bd79eb70bb9cd0483ea994/NuOCR-0.2.5.3.tar.gz
+[2023-06-01 11:37:50] INFO root fetch - processPackages [taxOrder]: Start processing: lsst-daf-butler
+[2023-06-01 11:37:50] INFO root fetch - main [MainThread]: End processing [taxOrder]: success
+[2023-06-01 11:37:50] INFO root fetch - processPackages [lsst-daf-butler]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-01 11:37:50] INFO root fetch - processPackages [NuOCR]: executing diffoscope
+[2023-06-01 11:37:50] INFO root fetch - processPackages [NuOCR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NuOCR-0.2.5.2.tar.gz tmp/NuOCR-0.2.5.3.tar.gz --markdown 20230601/N/NuOCR/0.2.5.2-0.2.5.3/diff.md --exclude *.pyd
+[2023-06-01 11:37:50] INFO root fetch - processPackages [human-abi]: Downloading https://files.pythonhosted.org/packages/cc/1d/928580f6047a9ca7bc4125acacdba7276db2a517e556f4fb709190bdc22f/human_abi-0.1.1.tar.gz
+[2023-06-01 11:37:50] INFO root fetch - processPackages [cmsis-stream]: Start processing: pollyxt-pipelines
+[2023-06-01 11:37:50] INFO root fetch - main [MainThread]: End processing [cmsis-stream]: success
+[2023-06-01 11:37:50] INFO root fetch - processPackages [human-abi]: executing diffoscope
+[2023-06-01 11:37:50] INFO root fetch - processPackages [human-abi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/human_abi-0.1.0.tar.gz tmp/human_abi-0.1.1.tar.gz --markdown 20230601/h/human-abi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-01 11:37:50] INFO root fetch - processPackages [pollyxt-pipelines]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-06-01 11:37:50] INFO root fetch - processPackages [pollyxt-pipelines]: Downloading https://files.pythonhosted.org/packages/8c/d9/cc180309c1925973a3a1850f9fe6baac8676e22f56eedf378416c86880ea/pollyxt_pipelines-1.8.3.tar.gz
+[2023-06-01 11:37:50] INFO root fetch - processPackages [lsst-daf-butler]: executing diffoscope
+[2023-06-01 11:37:50] INFO root fetch - processPackages [lsst-daf-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-butler-26.0.0a20230400.tar.gz tmp/lsst-daf-butler-26.0.0a20230500.tar.gz --markdown 20230601/l/lsst-daf-butler/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-01 11:37:50] INFO root fetch - main [MainThread]: End processing [novu]: success
+[2023-06-01 11:37:51] INFO root fetch - main [MainThread]: End processing [prisma-pynext]: success
+[2023-06-01 11:37:51] INFO root fetch - processPackages [pollyxt-pipelines]: Downloading https://files.pythonhosted.org/packages/29/69/d080381e9899a7e23a469f5128598fe5957709e0856b9d2789468943b71c/pollyxt_pipelines-1.9.0.tar.gz
+[2023-06-01 11:37:51] INFO root fetch - processPackages [pollyxt-pipelines]: executing diffoscope
+[2023-06-01 11:37:51] INFO root fetch - processPackages [pollyxt-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollyxt_pipelines-1.8.3.tar.gz tmp/pollyxt_pipelines-1.9.0.tar.gz --markdown 20230601/p/pollyxt-pipelines/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-06-01 11:37:51] INFO root fetch - main [MainThread]: End processing [katalytic-files]: success
+[2023-06-01 11:37:51] INFO root fetch - main [MainThread]: End processing [UEVaultManager]: success
+[2023-06-01 11:37:51] INFO root fetch - main [MainThread]: End processing [human-abi]: success
+[2023-06-01 11:37:51] INFO root fetch - main [MainThread]: End processing [NuOCR]: success
+[2023-06-01 11:37:52] INFO root fetch - main [MainThread]: End processing [pollyxt-pipelines]: success
+[2023-06-01 11:37:54] INFO root fetch - main [MainThread]: End processing [xblock-problem-builder]: success
+[2023-06-01 11:37:54] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
+[2023-06-01 11:38:02] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-01 11:38:02] INFO root fetch - main [MainThread]: Store serial: [18331084]
