@@ -9980,3 +9980,100 @@
 [2023-06-01 07:09:58] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
 [2023-06-01 07:09:58] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
 [2023-06-01 07:09:58] INFO root fetch - main [MainThread]: Store serial: [18328369]
+[2023-06-01 07:15:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18328369]
+[2023-06-01 07:15:07] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-01 07:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: attrbox
+[2023-06-01 07:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mindlakesdk
+[2023-06-01 07:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dr-snapper
+[2023-06-01 07:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-br-purchase
+[2023-06-01 07:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-br-base
+[2023-06-01 07:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pakler
+[2023-06-01 07:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anjani
+[2023-06-01 07:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mitoinstaller
+[2023-06-01 07:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tflite-model-maker-nightly
+[2023-06-01 07:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dfvfs
+[2023-06-01 07:15:07] INFO root fetch - processPackages [attrbox]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-01 07:15:07] WARNING root fetch - processPackages [dr-snapper]: Skipping, unable to determine old version
+[2023-06-01 07:15:07] INFO root fetch - processPackages [dr-snapper]: Start processing: poetry2rye
+[2023-06-01 07:15:07] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: New version: [14.0.3.2.1.dev1] Old Version: [14.0.3.2.0]
+[2023-06-01 07:15:07] INFO root fetch - main [MainThread]: End processing [dr-snapper] error
+[2023-06-01 07:15:07] INFO root fetch - processPackages [anjani]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-06-01 07:15:07] INFO root fetch - processPackages [mindlakesdk]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-01 07:15:07] INFO root fetch - processPackages [pakler]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-01 07:15:07] INFO root fetch - processPackages [dfvfs]: New version: [20230531] Old Version: [20230507]
+[2023-06-01 07:15:07] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: New version: [14.0.3.3.1.dev1] Old Version: [14.0.3.3.0]
+[2023-06-01 07:15:07] WARNING root fetch - processPackages [poetry2rye]: Skipping, unable to determine old version
+[2023-06-01 07:15:07] INFO root fetch - processPackages [poetry2rye]: Start processing: mitosheet
+[2023-06-01 07:15:07] INFO root fetch - main [MainThread]: End processing [poetry2rye] error
+[2023-06-01 07:15:07] INFO root fetch - processPackages [mitoinstaller]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 07:15:07] INFO root fetch - processPackages [mitosheet]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-01 07:15:07] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306010509] Old Version: [0.4.3.dev202305310506]
+[2023-06-01 07:15:07] INFO root fetch - processPackages [attrbox]: executing diffoscope
+[2023-06-01 07:15:07] INFO root fetch - processPackages [attrbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attrbox-0.1.1.tar.gz tmp/attrbox-0.1.2.tar.gz --markdown 20230601/a/attrbox/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-01 07:15:08] INFO root fetch - processPackages [dfvfs]: Downloading https://files.pythonhosted.org/packages/b3/55/b5a6b4d4b1a9069bf81b132c4e73eb75e46feab252285ed68f2b34210517/dfvfs-20230507.tar.gz
+[2023-06-01 07:15:08] INFO root fetch - processPackages [pakler]: Downloading https://files.pythonhosted.org/packages/b3/6c/55c443e6b41ee4f5b9445f7a12d67db80115da866edd5e1ea13c68376381/pakler-0.1.0.tar.gz
+[2023-06-01 07:15:08] INFO root fetch - processPackages [mitosheet]: Downloading https://files.pythonhosted.org/packages/8f/ca/cfa5a04a8bad41705bac5f84cf0c0a38c2e86f34a87c85d097c82dd321da/mitosheet-0.1.98.tar.gz
+[2023-06-01 07:15:08] INFO root fetch - processPackages [mindlakesdk]: Downloading https://files.pythonhosted.org/packages/e4/fd/7012b91ca9a9e50d37069a089a609419e24e4f477f771b094e79638c5f9c/mindlakesdk-0.9.3.tar.gz
+[2023-06-01 07:15:08] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: Downloading https://files.pythonhosted.org/packages/09/dd/b618c7ecea77da5da6871635a07bc5c2b8789b2d89a83ae70e8b42431138/odoo14_addon_l10n_br_purchase-14.0.3.2.1.dev1-py3-none-any.whl
+[2023-06-01 07:15:08] INFO root fetch - processPackages [anjani]: executing diffoscope
+[2023-06-01 07:15:08] INFO root fetch - processPackages [anjani]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anjani-2.8.1.tar.gz tmp/anjani-2.9.0.tar.gz --markdown 20230601/a/anjani/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-06-01 07:15:08] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: Downloading https://files.pythonhosted.org/packages/a3/bf/c79ac9b0c4fd1fe22d1cee67096ecab8948fab01254b59eb45854691e7cd/odoo14_addon_l10n_br_base-14.0.3.3.1.dev1-py3-none-any.whl
+[2023-06-01 07:15:08] INFO root fetch - processPackages [mitoinstaller]: executing diffoscope
+[2023-06-01 07:15:08] INFO root fetch - processPackages [mitoinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitoinstaller-0.0.98.tar.gz tmp/mitoinstaller-0.0.99.tar.gz --markdown 20230601/m/mitoinstaller/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 07:15:08] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/e1/38/0dd2cd7f255611e0b2c0133aca5d00a455cfcd9bd9e867043096d2ffaf7d/tflite-model-maker-nightly-0.4.3.dev202306010509.tar.gz
+[2023-06-01 07:15:08] INFO root fetch - processPackages [dfvfs]: Downloading https://files.pythonhosted.org/packages/c3/50/2909ff66adf70f3966df33369a78b8013e46f0a7677954bf899c50f510e0/dfvfs-20230531-py2.py3-none-any.whl
+[2023-06-01 07:15:08] INFO root fetch - processPackages [pakler]: Downloading https://files.pythonhosted.org/packages/cb/e1/8a8a2ed011e02ab75a78147d2c0f2ef0bc77c4b48304dbf622c7df77ff4e/pakler-0.2.0.tar.gz
+[2023-06-01 07:15:08] INFO root fetch - processPackages [mindlakesdk]: executing diffoscope
+[2023-06-01 07:15:08] INFO root fetch - processPackages [mindlakesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindlakesdk-0.9.2.tar.gz tmp/mindlakesdk-0.9.3.tar.gz --markdown 20230601/m/mindlakesdk/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-01 07:15:08] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: executing diffoscope
+[2023-06-01 07:15:08] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_purchase-14.0.3.2.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_purchase-14.0.3.2.1.dev1-py3-none-any.whl.zip --markdown 20230601/o/odoo14-addon-l10n-br-purchase/14.0.3.2.0-14.0.3.2.1.dev1/diff.md --exclude *.pyd
+[2023-06-01 07:15:08] INFO root fetch - processPackages [dfvfs]: executing diffoscope
+[2023-06-01 07:15:08] INFO root fetch - processPackages [dfvfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfvfs-20230507.tar.gz tmp/dfvfs-20230531-py2.py3-none-any.whl.zip --markdown 20230601/d/dfvfs/20230507-20230531/diff.md --exclude *.pyd
+[2023-06-01 07:15:08] INFO root fetch - processPackages [pakler]: executing diffoscope
+[2023-06-01 07:15:08] INFO root fetch - processPackages [pakler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pakler-0.1.0.tar.gz tmp/pakler-0.2.0.tar.gz --markdown 20230601/p/pakler/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-01 07:15:08] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: executing diffoscope
+[2023-06-01 07:15:08] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_base-14.0.3.3.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_base-14.0.3.3.1.dev1-py3-none-any.whl.zip --markdown 20230601/o/odoo14-addon-l10n-br-base/14.0.3.3.0-14.0.3.3.1.dev1/diff.md --exclude *.pyd
+[2023-06-01 07:15:08] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-06-01 07:15:08] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202305310506.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306010509.tar.gz --markdown 20230601/t/tflite-model-maker-nightly/0.4.3.dev202305310506-0.4.3.dev202306010509/diff.md --exclude *.pyd
+[2023-06-01 07:15:08] WARNING root fetch - processPackages [mitosheet]: Skipping package: exceeds size limit 14622615>=10485760
+[2023-06-01 07:15:08] INFO root fetch - processPackages [mitosheet]: Start processing: langchain-serve
+[2023-06-01 07:15:08] INFO root fetch - main [MainThread]: End processing [mitosheet] error
+[2023-06-01 07:15:08] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-01 07:15:09] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-01 07:15:09] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230601/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-01 07:15:09] INFO root fetch - processPackages [attrbox]: Start processing: allure-custom
+[2023-06-01 07:15:09] INFO root fetch - main [MainThread]: End processing [attrbox]: success
+[2023-06-01 07:15:09] INFO root fetch - processPackages [allure-custom]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-01 07:15:09] INFO root fetch - processPackages [allure-custom]: Downloading https://files.pythonhosted.org/packages/10/0f/3c2777d5baec1965b50b4a7fd83b2a19b826fbeff8f56f72b881cc5ea159/allure_custom-1.1.2.tar.gz
+[2023-06-01 07:15:09] WARNING root fetch - processPackages [allure-custom]: Skipping package: exceeds size limit 41283693>=10485760
+[2023-06-01 07:15:09] INFO root fetch - processPackages [allure-custom]: Start processing: langchain-serve
+[2023-06-01 07:15:09] INFO root fetch - main [MainThread]: End processing [allure-custom] error
+[2023-06-01 07:15:09] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-01 07:15:09] INFO root fetch - processPackages [mitoinstaller]: Start processing: quao
+[2023-06-01 07:15:09] INFO root fetch - main [MainThread]: End processing [mitoinstaller]: success
+[2023-06-01 07:15:09] INFO root fetch - processPackages [quao]: New version: [0.1.9] Old Version: [0.1.8a1]
+[2023-06-01 07:15:09] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-01 07:15:09] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230601/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-01 07:15:09] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-06-01 07:15:09] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.1.8a1.tar.gz tmp/quao-0.1.9.tar.gz --markdown 20230601/q/quao/0.1.8a1-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 07:15:10] INFO root fetch - processPackages [anjani]: Start processing: mitosheet3
+[2023-06-01 07:15:10] INFO root fetch - main [MainThread]: End processing [anjani]: success
+[2023-06-01 07:15:10] INFO root fetch - processPackages [mitosheet3]: New version: [0.3.92] Old Version: [0.3.91]
+[2023-06-01 07:15:10] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: Start processing: langchain-serve
+[2023-06-01 07:15:10] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-purchase]: success
+[2023-06-01 07:15:10] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-01 07:15:10] INFO root fetch - main [MainThread]: End processing [mindlakesdk]: success
+[2023-06-01 07:15:10] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-01 07:15:10] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230601/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-01 07:15:10] INFO root fetch - processPackages [mitosheet3]: executing diffoscope
+[2023-06-01 07:15:10] INFO root fetch - processPackages [mitosheet3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitosheet3-0.3.91.tar.gz tmp/mitosheet3-0.3.92.tar.gz --markdown 20230601/m/mitosheet3/0.3.91-0.3.92/diff.md --exclude *.pyd
+[2023-06-01 07:15:10] INFO root fetch - main [MainThread]: End processing [dfvfs]: success
+[2023-06-01 07:15:10] INFO root fetch - main [MainThread]: End processing [pakler]: success
+[2023-06-01 07:15:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-base]: success
+[2023-06-01 07:15:11] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-06-01 07:15:11] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-06-01 07:15:11] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-06-01 07:15:12] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-06-01 07:15:14] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-06-01 07:15:15] INFO root fetch - main [MainThread]: End processing [mitosheet3]: success
+[2023-06-01 07:15:15] INFO root fetch - main [MainThread]: Store serial: [18328421]
