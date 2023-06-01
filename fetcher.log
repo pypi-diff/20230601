@@ -11963,3 +11963,75 @@
 [2023-06-01 09:51:33] INFO root fetch - main [MainThread]: End processing [opentnsim]: success
 [2023-06-01 09:51:37] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-06-01 09:51:37] INFO root fetch - main [MainThread]: Store serial: [18329640]
+[2023-06-01 09:56:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18329640]
+[2023-06-01 09:56:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-01 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vmk-spectrum
+[2023-06-01 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ShishcovSerializer
+[2023-06-01 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: concurrent-tasks
+[2023-06-01 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upgini
+[2023-06-01 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gTdev
+[2023-06-01 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jao-py
+[2023-06-01 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sugarpowder
+[2023-06-01 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sneakpeek-py
+[2023-06-01 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dariusVision
+[2023-06-01 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: swh.storage
+[2023-06-01 09:56:47] WARNING root fetch - processPackages [ShishcovSerializer]: Skipping, unable to determine old version
+[2023-06-01 09:56:47] INFO root fetch - processPackages [ShishcovSerializer]: Start processing: easymaker
+[2023-06-01 09:56:47] INFO root fetch - main [MainThread]: End processing [ShishcovSerializer] error
+[2023-06-01 09:56:47] INFO root fetch - processPackages [jao-py]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-01 09:56:47] INFO root fetch - processPackages [gTdev]: New version: [1.0.0] Old Version: [0.0.4]
+[2023-06-01 09:56:47] INFO root fetch - processPackages [dariusVision]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-01 09:56:47] INFO root fetch - processPackages [sugarpowder]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 09:56:47] INFO root fetch - processPackages [vmk-spectrum]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 09:56:47] INFO root fetch - processPackages [concurrent-tasks]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-06-01 09:56:47] INFO root fetch - processPackages [sneakpeek-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 09:56:47] INFO root fetch - processPackages [swh.storage]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-01 09:56:47] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-01 09:56:47] INFO root fetch - processPackages [easymaker]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 09:56:47] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-06-01 09:56:47] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230601/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-01 09:56:47] INFO root fetch - processPackages [dariusVision]: Downloading https://files.pythonhosted.org/packages/25/71/db128b3599bd017149718229ae30da8eb66d9e1c01e1acf5f6bd56913432/dariusVision-0.0.3.tar.gz
+[2023-06-01 09:56:47] INFO root fetch - processPackages [sugarpowder]: Downloading https://files.pythonhosted.org/packages/d5/3f/e67cfe22957b16578d28022832add807df615677bde029a18ab5f7145ba9/sugarpowder-0.0.1.tar.gz
+[2023-06-01 09:56:47] INFO root fetch - processPackages [concurrent-tasks]: Downloading https://files.pythonhosted.org/packages/45/47/f15b14b7bd7f75ec9bd01f7a2448f86381d1c2690ebe540d7e40076fba92/concurrent_tasks-1.4.1.tar.gz
+[2023-06-01 09:56:47] INFO root fetch - processPackages [jao-py]: Downloading https://files.pythonhosted.org/packages/bd/c8/6d0d3f65cf60df60ed5a5c0808a2a96252bbe32ab4b92c738a127bbced29/jao-py-0.3.8.tar.gz
+[2023-06-01 09:56:47] INFO root fetch - processPackages [easymaker]: Downloading https://files.pythonhosted.org/packages/98/e1/2ba6df9586cf47689b5175b2a09829447e5312d5dd38eed2c656ddcfa652/easymaker-1.0.8-py3-none-any.whl
+[2023-06-01 09:56:47] INFO root fetch - processPackages [sneakpeek-py]: Downloading https://files.pythonhosted.org/packages/6e/b5/b628c0df2e17f43e92530939351ac446d88e7d0c19b819418f0016d061bf/sneakpeek_py-0.1.9.tar.gz
+[2023-06-01 09:56:47] INFO root fetch - processPackages [gTdev]: Downloading https://files.pythonhosted.org/packages/7f/1c/a0e09d33b48081d6015c41be06d5228830607d25de030bc7fc0dc85654a4/gTdev-1.0.0-py3-none-any.whl
+[2023-06-01 09:56:47] INFO root fetch - processPackages [jao-py]: executing diffoscope
+[2023-06-01 09:56:47] INFO root fetch - processPackages [jao-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jao-py-0.3.7.tar.gz tmp/jao-py-0.3.8.tar.gz --markdown 20230601/j/jao-py/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-01 09:56:47] INFO root fetch - processPackages [sugarpowder]: Downloading https://files.pythonhosted.org/packages/de/81/885cf28ab30d510b684c4a9429809561cb6838be7ed6703fde2d79459d5d/sugarpowder-0.0.2.tar.gz
+[2023-06-01 09:56:47] INFO root fetch - processPackages [vmk-spectrum]: executing diffoscope
+[2023-06-01 09:56:47] INFO root fetch - processPackages [vmk-spectrum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmk_spectrum-0.0.8-cp311-cp311-win_amd64.whl.zip tmp/vmk_spectrum-0.0.9-cp311-cp311-win_amd64.whl.zip --markdown 20230601/v/vmk-spectrum/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 09:56:47] INFO root fetch - processPackages [gTdev]: executing diffoscope
+[2023-06-01 09:56:47] INFO root fetch - processPackages [gTdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gTdev-0.0.4.tar.gz tmp/gTdev-1.0.0-py3-none-any.whl.zip --markdown 20230601/g/gTdev/0.0.4-1.0.0/diff.md --exclude *.pyd
+[2023-06-01 09:56:47] INFO root fetch - processPackages [swh.storage]: executing diffoscope
+[2023-06-01 09:56:47] INFO root fetch - processPackages [swh.storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.storage-1.8.0.tar.gz tmp/swh.storage-1.9.0.tar.gz --markdown 20230601/s/swh.storage/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-01 09:56:47] INFO root fetch - processPackages [sugarpowder]: executing diffoscope
+[2023-06-01 09:56:47] INFO root fetch - processPackages [sugarpowder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sugarpowder-0.0.1.tar.gz tmp/sugarpowder-0.0.2.tar.gz --markdown 20230601/s/sugarpowder/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 09:56:47] INFO root fetch - processPackages [dariusVision]: Downloading https://files.pythonhosted.org/packages/7c/be/8284db676dd97d11be52e39d8bec5a76e86fb6fa4533cd31ce021f1ef544/dariusVision-0.0.4.tar.gz
+[2023-06-01 09:56:47] INFO root fetch - processPackages [concurrent-tasks]: Downloading https://files.pythonhosted.org/packages/9b/0c/41506b36f35ae74d3e671ac9f19419ce185bb70f7e0f8e6ca411541f1542/concurrent_tasks-1.5.0.tar.gz
+[2023-06-01 09:56:48] INFO root fetch - processPackages [easymaker]: Downloading https://files.pythonhosted.org/packages/0b/57/43b3478a8184079a46ab3ee4d683b9500b28c36a9cc3a37c6fce08a27f52/easymaker-1.0.9-py3-none-any.whl
+[2023-06-01 09:56:48] INFO root fetch - processPackages [dariusVision]: executing diffoscope
+[2023-06-01 09:56:48] INFO root fetch - processPackages [dariusVision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dariusVision-0.0.3.tar.gz tmp/dariusVision-0.0.4.tar.gz --markdown 20230601/d/dariusVision/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-01 09:56:48] INFO root fetch - processPackages [concurrent-tasks]: executing diffoscope
+[2023-06-01 09:56:48] INFO root fetch - processPackages [concurrent-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concurrent_tasks-1.4.1.tar.gz tmp/concurrent_tasks-1.5.0.tar.gz --markdown 20230601/c/concurrent-tasks/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-06-01 09:56:48] INFO root fetch - processPackages [easymaker]: executing diffoscope
+[2023-06-01 09:56:48] INFO root fetch - processPackages [easymaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easymaker-1.0.8-py3-none-any.whl.zip tmp/easymaker-1.0.9-py3-none-any.whl.zip --markdown 20230601/e/easymaker/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 09:56:49] INFO root fetch - processPackages [sneakpeek-py]: executing diffoscope
+[2023-06-01 09:56:49] INFO root fetch - processPackages [sneakpeek-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sneakpeek_py-0.1.8.tar.gz tmp/sneakpeek_py-0.1.9.tar.gz --markdown 20230601/s/sneakpeek-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 09:56:49] INFO root fetch - processPackages [gTdev]: Start processing: folder-tree-generator
+[2023-06-01 09:56:49] INFO root fetch - main [MainThread]: End processing [gTdev]: success
+[2023-06-01 09:56:49] INFO root fetch - main [MainThread]: End processing [vmk-spectrum]: success
+[2023-06-01 09:56:49] INFO root fetch - processPackages [folder-tree-generator]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-01 09:56:49] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-06-01 09:56:49] INFO root fetch - main [MainThread]: End processing [jao-py]: success
+[2023-06-01 09:56:49] INFO root fetch - processPackages [folder-tree-generator]: executing diffoscope
+[2023-06-01 09:56:49] INFO root fetch - processPackages [folder-tree-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folder_tree_generator-0.1.4.tar.gz tmp/folder_tree_generator-0.1.5.tar.gz --markdown 20230601/f/folder-tree-generator/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-01 09:56:49] INFO root fetch - main [MainThread]: End processing [sugarpowder]: success
+[2023-06-01 09:56:49] INFO root fetch - main [MainThread]: End processing [easymaker]: success
+[2023-06-01 09:56:49] INFO root fetch - main [MainThread]: End processing [dariusVision]: success
+[2023-06-01 09:56:50] INFO root fetch - main [MainThread]: End processing [concurrent-tasks]: success
+[2023-06-01 09:56:51] INFO root fetch - main [MainThread]: End processing [folder-tree-generator]: success
+[2023-06-01 09:56:55] INFO root fetch - main [MainThread]: End processing [swh.storage]: success
+[2023-06-01 09:57:14] INFO root fetch - main [MainThread]: End processing [sneakpeek-py]: success
+[2023-06-01 09:57:14] INFO root fetch - main [MainThread]: Store serial: [18329684]
