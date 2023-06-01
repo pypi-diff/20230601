@@ -10858,3 +10858,55 @@
 [2023-06-01 08:24:44] INFO root fetch - main [MainThread]: End processing [edge-testing-framework]: success
 [2023-06-01 08:27:07] INFO root fetch - main [MainThread]: End processing [duckdb]: success
 [2023-06-01 08:27:07] INFO root fetch - main [MainThread]: Store serial: [18328899]
+[2023-06-01 08:32:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18328899]
+[2023-06-01 08:32:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-01 08:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docs-ranking-metrics
+[2023-06-01 08:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: getmac
+[2023-06-01 08:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volsite-postgres-common
+[2023-06-01 08:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graphlearn-torch
+[2023-06-01 08:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot2
+[2023-06-01 08:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-pattern-import-export
+[2023-06-01 08:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-docs
+[2023-06-01 08:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rembg
+[2023-06-01 08:32:17] INFO root fetch - processPackages [docs-ranking-metrics]: New version: [0.0.4.dev4] Old Version: [0.0.4.dev3]
+[2023-06-01 08:32:17] INFO root fetch - processPackages [rembg]: New version: [2.0.40] Old Version: [2.0.39]
+[2023-06-01 08:32:17] INFO root fetch - processPackages [getmac]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 08:32:17] INFO root fetch - processPackages [nonebot2]: New version: [2.0.0rc4] Old Version: [2.0.0rc3]
+[2023-06-01 08:32:17] INFO root fetch - processPackages [graphlearn-torch]: New version: [0.2.0rc2] Old Version: [0.2.0rc1]
+[2023-06-01 08:32:17] INFO root fetch - processPackages [volsite-postgres-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 08:32:17] INFO root fetch - processPackages [nonebot-plugin-docs]: New version: [2.0.0rc4] Old Version: [2.0.0rc3]
+[2023-06-01 08:32:17] INFO root fetch - processPackages [odoo14-addon-pattern-import-export]: New version: [14.0.2.5.1] Old Version: [14.0.2.5.0]
+[2023-06-01 08:32:17] INFO root fetch - processPackages [rembg]: executing diffoscope
+[2023-06-01 08:32:17] INFO root fetch - processPackages [rembg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rembg-2.0.39.tar.gz tmp/rembg-2.0.40.tar.gz --markdown 20230601/r/rembg/2.0.39-2.0.40/diff.md --exclude *.pyd
+[2023-06-01 08:32:17] INFO root fetch - processPackages [getmac]: Downloading https://files.pythonhosted.org/packages/b9/6c/ebbde7f8641c6ced736d1c1fba34ee2de59cc317a1e6cc7954df0dc3f56d/getmac-0.9.3.tar.gz
+[2023-06-01 08:32:17] INFO root fetch - processPackages [graphlearn-torch]: Downloading https://files.pythonhosted.org/packages/21/5a/2fc56564a154c3286f18ac4fff100903a36658c50bce5952beeb46e2ba14/graphlearn_torch-0.2.0rc1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-01 08:32:17] WARNING root fetch - processPackages [graphlearn-torch]: Skipping package: exceeds size limit 20253355>=10485760
+[2023-06-01 08:32:17] INFO root fetch - main [MainThread]: End processing [graphlearn-torch] error
+[2023-06-01 08:32:17] INFO root fetch - processPackages [nonebot2]: Downloading https://files.pythonhosted.org/packages/89/8b/bda59ec1cb898627a2b121098a147e1b63f066031122470ef7582453a907/nonebot2-2.0.0rc3.tar.gz
+[2023-06-01 08:32:17] INFO root fetch - processPackages [docs-ranking-metrics]: Downloading https://files.pythonhosted.org/packages/15/c5/36df19636caf473789cbc9cbeefe2372b18d0d193ec3166df3d8ce299d23/docs-ranking-metrics-0.0.4.dev4.tar.gz
+[2023-06-01 08:32:17] INFO root fetch - processPackages [nonebot-plugin-docs]: Downloading https://files.pythonhosted.org/packages/89/42/8dd83a13f9cb438af6a7726072ad5330c14951448c17543bab8467d05d47/nonebot_plugin_docs-2.0.0rc3.tar.gz
+[2023-06-01 08:32:17] INFO root fetch - processPackages [odoo14-addon-pattern-import-export]: Downloading https://files.pythonhosted.org/packages/f0/8a/1b055981d8a0d9c370420fd56d67bcf679ffeac6cc26b6b7e16986154361/odoo14_addon_pattern_import_export-14.0.2.5.0-py3-none-any.whl
+[2023-06-01 08:32:18] INFO root fetch - processPackages [volsite-postgres-common]: executing diffoscope
+[2023-06-01 08:32:18] INFO root fetch - processPackages [volsite-postgres-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volsite_postgres_common-0.1.8.tar.gz tmp/volsite_postgres_common-0.1.9.tar.gz --markdown 20230601/v/volsite-postgres-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 08:32:18] INFO root fetch - processPackages [docs-ranking-metrics]: executing diffoscope
+[2023-06-01 08:32:18] INFO root fetch - processPackages [docs-ranking-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docs-ranking-metrics-0.0.4.dev3.tar.gz tmp/docs-ranking-metrics-0.0.4.dev4.tar.gz --markdown 20230601/d/docs-ranking-metrics/0.0.4.dev3-0.0.4.dev4/diff.md --exclude *.pyd
+[2023-06-01 08:32:18] INFO root fetch - processPackages [getmac]: Downloading https://files.pythonhosted.org/packages/12/78/98160b965888aa937cc8ad909d4631d3b2ff97d4871588759fa6833599b3/getmac-0.9.4.tar.gz
+[2023-06-01 08:32:18] INFO root fetch - processPackages [odoo14-addon-pattern-import-export]: Downloading https://files.pythonhosted.org/packages/c3/98/4308c074be820392e3a74fe38463d627955b2dd0bef4062e3d5d9a859888/odoo14_addon_pattern_import_export-14.0.2.5.1-py3-none-any.whl
+[2023-06-01 08:32:18] INFO root fetch - processPackages [getmac]: executing diffoscope
+[2023-06-01 08:32:18] INFO root fetch - processPackages [getmac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmac-0.9.3.tar.gz tmp/getmac-0.9.4.tar.gz --markdown 20230601/g/getmac/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 08:32:18] INFO root fetch - processPackages [odoo14-addon-pattern-import-export]: executing diffoscope
+[2023-06-01 08:32:18] INFO root fetch - processPackages [odoo14-addon-pattern-import-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pattern_import_export-14.0.2.5.0-py3-none-any.whl.zip tmp/odoo14_addon_pattern_import_export-14.0.2.5.1-py3-none-any.whl.zip --markdown 20230601/o/odoo14-addon-pattern-import-export/14.0.2.5.0-14.0.2.5.1/diff.md --exclude *.pyd
+[2023-06-01 08:32:18] INFO root fetch - main [MainThread]: End processing [rembg]: success
+[2023-06-01 08:32:19] INFO root fetch - processPackages [nonebot2]: Downloading https://files.pythonhosted.org/packages/84/1e/f0aa87695d505f35bc36756f01ab4b2a8f8544a5b004dc53219de179ff5f/nonebot2-2.0.0rc4.tar.gz
+[2023-06-01 08:32:19] INFO root fetch - main [MainThread]: End processing [docs-ranking-metrics]: success
+[2023-06-01 08:32:19] INFO root fetch - processPackages [nonebot2]: executing diffoscope
+[2023-06-01 08:32:19] INFO root fetch - processPackages [nonebot2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot2-2.0.0rc3.tar.gz tmp/nonebot2-2.0.0rc4.tar.gz --markdown 20230601/n/nonebot2/2.0.0rc3-2.0.0rc4/diff.md --exclude *.pyd
+[2023-06-01 08:32:19] INFO root fetch - main [MainThread]: End processing [volsite-postgres-common]: success
+[2023-06-01 08:32:19] INFO root fetch - processPackages [nonebot-plugin-docs]: Downloading https://files.pythonhosted.org/packages/4d/12/1d226234fb3eda4f92921ed991c44fb60ba4f3f5adb6d8c45a8f420a1bc4/nonebot_plugin_docs-2.0.0rc4.tar.gz
+[2023-06-01 08:32:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pattern-import-export]: success
+[2023-06-01 08:32:20] INFO root fetch - processPackages [nonebot-plugin-docs]: executing diffoscope
+[2023-06-01 08:32:20] INFO root fetch - processPackages [nonebot-plugin-docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_docs-2.0.0rc3.tar.gz tmp/nonebot_plugin_docs-2.0.0rc4.tar.gz --markdown 20230601/n/nonebot-plugin-docs/2.0.0rc3-2.0.0rc4/diff.md --exclude *.pyd
+[2023-06-01 08:32:20] INFO root fetch - main [MainThread]: End processing [getmac]: success
+[2023-06-01 08:32:20] INFO root fetch - main [MainThread]: End processing [nonebot2]: success
+[2023-06-01 08:33:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-docs]: success
+[2023-06-01 08:33:52] INFO root fetch - main [MainThread]: Store serial: [18328934]
