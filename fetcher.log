@@ -3018,3 +3018,142 @@
 [2023-06-01 02:06:45] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-06-01 02:07:57] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-06-01 02:07:57] INFO root fetch - main [MainThread]: Store serial: [18324637]
+[2023-06-01 02:13:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18324637]
+[2023-06-01 02:13:06] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-01 02:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxutils-nightly
+[2023-06-01 02:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-us
+[2023-06-01 02:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rankit
+[2023-06-01 02:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metacountregressor
+[2023-06-01 02:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chia-blockchain
+[2023-06-01 02:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chromedriver-py
+[2023-06-01 02:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymsbuild
+[2023-06-01 02:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grave-settings
+[2023-06-01 02:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchlayers-nightly
+[2023-06-01 02:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openvisuspy
+[2023-06-01 02:13:06] INFO root fetch - processPackages [rankit]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-01 02:13:06] WARNING root fetch - processPackages [metacountregressor]: Skipping, unable to determine old version
+[2023-06-01 02:13:06] INFO root fetch - processPackages [metacountregressor]: Start processing: openvisuspy
+[2023-06-01 02:13:06] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-01 02:13:06] INFO root fetch - processPackages [openvisuspy]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-01 02:13:06] INFO root fetch - processPackages [grave-settings]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-01 02:13:06] INFO root fetch - processPackages [chromedriver-py]: New version: [99.0.4844.51] Old Version: [99.0.4844.35]
+[2023-06-01 02:13:06] INFO root fetch - processPackages [pymsbuild]: New version: [1.0.0a1] Old Version: [0.2.2]
+[2023-06-01 02:13:06] INFO root fetch - processPackages [openvisuspy]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-01 02:13:06] INFO root fetch - processPackages [chia-blockchain]: New version: [2.0.0b1] Old Version: [1.8.2rc1]
+[2023-06-01 02:13:06] INFO root fetch - processPackages [policyengine-us]: New version: [0.331.1] Old Version: [0.331.0]
+[2023-06-01 02:13:06] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1685491646] Old Version: [1685405225]
+[2023-06-01 02:13:06] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230601] Old Version: [0.0.8.dev20230531]
+[2023-06-01 02:13:06] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/ea/de/8949bfec961ddc5bdddadaf0925745dfcf6e02d573c8f5bb96cf2b8f9202/chia-blockchain-1.8.2rc1.tar.gz
+[2023-06-01 02:13:06] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/6f/96/ff9338c9ab66344a7b6f952424022874e0016c2c7fc736d2fc9f38dac20f/openvisuspy-1.0.7-py3-none-any.whl
+[2023-06-01 02:13:06] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/6f/96/ff9338c9ab66344a7b6f952424022874e0016c2c7fc736d2fc9f38dac20f/openvisuspy-1.0.7-py3-none-any.whl
+[2023-06-01 02:13:06] INFO root fetch - processPackages [grave-settings]: Downloading https://files.pythonhosted.org/packages/1d/2a/ae3ede1c94bb40098ee2cf1543298b170153f36a06cad78fb3e3f642ccf0/grave-settings-0.1.3.tar.gz
+[2023-06-01 02:13:06] INFO root fetch - processPackages [rankit]: Downloading https://files.pythonhosted.org/packages/ce/11/8f72625b3b220b1178519382d28e9da32022ca96bd10de9c9cf9f369b3a7/rankit-0.3.2.tar.gz
+[2023-06-01 02:13:06] INFO root fetch - processPackages [pymsbuild]: Downloading https://files.pythonhosted.org/packages/50/6d/1b945ba4a783bc32e3b25eb9c3cd523432a78694dc0d5616c72724967b2c/pymsbuild-0.2.2.tar.gz
+[2023-06-01 02:13:06] INFO root fetch - processPackages [chromedriver-py]: Downloading https://files.pythonhosted.org/packages/39/03/f1ac791b3c69bd62af64eb3b4f2f0c942828a41ad7eb4840f42ff715c79a/chromedriver-py-99.0.4844.35.tar.gz
+[2023-06-01 02:13:06] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/7e/e8/63f514b57ef36601a4cce57116cc6c88323c9dfc664433eb1237a4c90809/torchlayers-nightly-1685491646.tar.gz
+[2023-06-01 02:13:06] WARNING root fetch - processPackages [chromedriver-py]: Skipping package: exceeds size limit 29238079>=10485760
+[2023-06-01 02:13:06] INFO root fetch - processPackages [chromedriver-py]: Start processing: cdk-aws-discord-notifiers
+[2023-06-01 02:13:06] INFO root fetch - main [MainThread]: End processing [chromedriver-py] error
+[2023-06-01 02:13:06] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.9] Old Version: [0.0.82]
+[2023-06-01 02:13:06] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/de/a9/480ffcba4afddd204a988e6175588cbe1907cbc5dc662a0466d1fbc2599c/policyengine-us-0.331.1.tar.gz
+[2023-06-01 02:13:06] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-06-01 02:13:06] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1685405225.tar.gz tmp/torchlayers-nightly-1685491646.tar.gz --markdown 20230601/t/torchlayers-nightly/1685405225-1685491646/diff.md --exclude *.pyd
+[2023-06-01 02:13:06] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/21/bd/f1783152fc50fc144969a22ec4df7dc0f3e977b5cd1c475feed0f04b0156/jaxutils-nightly-0.0.8.dev20230601.tar.gz
+[2023-06-01 02:13:06] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/b0/d9/2beb92d505396d836dfa5f3e5da1672e30a0795d20b21b932be407898836/openvisuspy-1.0.8-py3-none-any.whl
+[2023-06-01 02:13:06] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/b0/d9/2beb92d505396d836dfa5f3e5da1672e30a0795d20b21b932be407898836/openvisuspy-1.0.8-py3-none-any.whl
+[2023-06-01 02:13:06] INFO root fetch - processPackages [grave-settings]: Downloading https://files.pythonhosted.org/packages/57/78/a4461432956fa69cb963d41545d511fffe530b590ea16931b1a13bbbbc95/grave-settings-0.1.4.tar.gz
+[2023-06-01 02:13:06] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-06-01 02:13:06] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230531.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230601.tar.gz --markdown 20230601/j/jaxutils-nightly/0.0.8.dev20230531-0.0.8.dev20230601/diff.md --exclude *.pyd
+[2023-06-01 02:13:06] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/0b/74/37e29af38b5b4314cc92b7a6cfcc875839114f025a6b8ea0edb569f3488c/cdk-aws-discord-notifiers-0.0.82.tar.gz
+[2023-06-01 02:13:06] INFO root fetch - processPackages [openvisuspy]: executing diffoscope
+[2023-06-01 02:13:07] INFO root fetch - processPackages [openvisuspy]: executing diffoscope
+[2023-06-01 02:13:07] INFO root fetch - processPackages [openvisuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvisuspy-1.0.7-py3-none-any.whl.zip tmp/openvisuspy-1.0.8-py3-none-any.whl.zip --markdown 20230601/o/openvisuspy/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-01 02:13:07] INFO root fetch - processPackages [pymsbuild]: Downloading https://files.pythonhosted.org/packages/39/82/0a6b19f03bd8d0554cc392cc46fbe030cf10285cfacf556f5d78b765f03d/pymsbuild-1.0.0a1.tar.gz
+[2023-06-01 02:13:07] INFO root fetch - processPackages [openvisuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvisuspy-1.0.7-py3-none-any.whl.zip tmp/openvisuspy-1.0.8-py3-none-any.whl.zip --markdown 20230601/o/openvisuspy/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-01 02:13:07] INFO root fetch - processPackages [grave-settings]: executing diffoscope
+[2023-06-01 02:13:07] INFO root fetch - processPackages [grave-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grave-settings-0.1.3.tar.gz tmp/grave-settings-0.1.4.tar.gz --markdown 20230601/g/grave-settings/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-01 02:13:07] INFO root fetch - processPackages [chia-blockchain]: executing diffoscope
+[2023-06-01 02:13:07] INFO root fetch - processPackages [rankit]: Downloading https://files.pythonhosted.org/packages/b3/d0/31f8b200d1e9dd6ab30a065dbbea256793626d2728fc2830d95aca1a1b26/rankit-0.3.3.tar.gz
+[2023-06-01 02:13:07] INFO root fetch - processPackages [chia-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia-blockchain-1.8.2rc1.tar.gz tmp/chia-blockchain-2.0.0b1.tar.gz --markdown 20230601/c/chia-blockchain/1.8.2rc1-2.0.0b1/diff.md --exclude *.pyd
+[2023-06-01 02:13:07] INFO root fetch - processPackages [pymsbuild]: executing diffoscope
+[2023-06-01 02:13:07] INFO root fetch - processPackages [pymsbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymsbuild-0.2.2.tar.gz tmp/pymsbuild-1.0.0a1.tar.gz --markdown 20230601/p/pymsbuild/0.2.2-1.0.0a1/diff.md --exclude *.pyd
+[2023-06-01 02:13:07] INFO root fetch - processPackages [rankit]: executing diffoscope
+[2023-06-01 02:13:07] INFO root fetch - processPackages [rankit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rankit-0.3.2.tar.gz tmp/rankit-0.3.3.tar.gz --markdown 20230601/r/rankit/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-01 02:13:07] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-01 02:13:07] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.331.0.tar.gz tmp/policyengine-us-0.331.1.tar.gz --markdown 20230601/p/policyengine-us/0.331.0-0.331.1/diff.md --exclude *.pyd
+[2023-06-01 02:13:07] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-06-01 02:13:07] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.82.tar.gz tmp/cdk-aws-discord-notifiers-0.0.9.tar.gz --markdown 20230601/c/cdk-aws-discord-notifiers/0.0.82-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 02:13:08] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: constructs
+[2023-06-01 02:13:08] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-06-01 02:13:08] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-06-01 02:13:08] INFO root fetch - processPackages [openvisuspy]: Start processing: llama-index
+[2023-06-01 02:13:08] INFO root fetch - main [MainThread]: End processing [openvisuspy]: success
+[2023-06-01 02:13:08] INFO root fetch - processPackages [llama-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-01 02:13:08] INFO root fetch - processPackages [openvisuspy]: Start processing: gpt-index
+[2023-06-01 02:13:08] INFO root fetch - main [MainThread]: End processing [openvisuspy]: success
+[2023-06-01 02:13:08] INFO root fetch - processPackages [gpt-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-01 02:13:08] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-06-01 02:13:08] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.8.tar.gz tmp/llama_index-0.6.9.tar.gz --markdown 20230601/l/llama-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-01 02:13:08] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-06-01 02:13:08] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230601/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-06-01 02:13:08] INFO root fetch - processPackages [grave-settings]: Start processing: kwplot
+[2023-06-01 02:13:08] INFO root fetch - main [MainThread]: End processing [grave-settings]: success
+[2023-06-01 02:13:08] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-06-01 02:13:08] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.8.tar.gz tmp/gpt_index-0.6.9.tar.gz --markdown 20230601/g/gpt-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-01 02:13:08] INFO root fetch - processPackages [kwplot]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-01 02:13:08] INFO root fetch - processPackages [torchlayers-nightly]: Start processing: cdk8s-grafana
+[2023-06-01 02:13:08] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-06-01 02:13:08] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-01 02:13:09] INFO root fetch - processPackages [kwplot]: Downloading https://files.pythonhosted.org/packages/7d/b4/2d2aa16395c802b502b990680bb0d2ac2a1ae15cbdc4626af7bd6bca1c75/kwplot-0.4.8.tar.gz
+[2023-06-01 02:13:09] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-06-01 02:13:09] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230601/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-01 02:13:09] INFO root fetch - processPackages [kwplot]: Downloading https://files.pythonhosted.org/packages/ef/c7/42d3df8580ef7216c66eee9aeac18b5f721cc172ab943bb713952027bcac/kwplot-0.4.9.tar.gz
+[2023-06-01 02:13:09] INFO root fetch - processPackages [rankit]: Start processing: pepperize.cdk-github
+[2023-06-01 02:13:09] INFO root fetch - main [MainThread]: End processing [rankit]: success
+[2023-06-01 02:13:09] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 02:13:09] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-06-01 02:13:09] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230601/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 02:13:10] INFO root fetch - processPackages [kwplot]: executing diffoscope
+[2023-06-01 02:13:10] INFO root fetch - processPackages [kwplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kwplot-0.4.8.tar.gz tmp/kwplot-0.4.9.tar.gz --markdown 20230601/k/kwplot/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-01 02:13:10] INFO root fetch - processPackages [pymsbuild]: Start processing: cdktf-local-exec
+[2023-06-01 02:13:10] INFO root fetch - main [MainThread]: End processing [pymsbuild]: success
+[2023-06-01 02:13:10] INFO root fetch - processPackages [cdktf-local-exec]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-01 02:13:10] INFO root fetch - processPackages [constructs]: Start processing: cdk-common
+[2023-06-01 02:13:10] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-06-01 02:13:10] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-01 02:13:10] INFO root fetch - processPackages [cdktf-local-exec]: executing diffoscope
+[2023-06-01 02:13:10] INFO root fetch - processPackages [cdktf-local-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-local-exec-0.2.8.tar.gz tmp/cdktf-local-exec-0.2.9.tar.gz --markdown 20230601/c/cdktf-local-exec/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-01 02:13:10] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-06-01 02:13:10] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230601/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-01 02:13:11] INFO root fetch - processPackages [pepperize.cdk-github]: Start processing: cdk-iot-core-certificates
+[2023-06-01 02:13:11] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-06-01 02:13:11] INFO root fetch - processPackages [cdk-iot-core-certificates]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 02:13:11] INFO root fetch - processPackages [cdk-iot-core-certificates]: executing diffoscope
+[2023-06-01 02:13:11] INFO root fetch - processPackages [cdk-iot-core-certificates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-iot-core-certificates-1.0.8.tar.gz tmp/cdk-iot-core-certificates-1.0.9.tar.gz --markdown 20230601/c/cdk-iot-core-certificates/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 02:13:11] INFO root fetch - processPackages [cdk8s-grafana]: Start processing: cdklabs.codepipeline-extensions
+[2023-06-01 02:13:11] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-06-01 02:13:11] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 02:13:11] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-06-01 02:13:11] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-06-01 02:13:11] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Start processing: openbb-nightly
+[2023-06-01 02:13:11] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-06-01 02:13:11] INFO root fetch - processPackages [openbb-nightly]: New version: [3.0.1.dev20230531] Old Version: [3.0.1.dev20230530]
+[2023-06-01 02:13:11] INFO root fetch - processPackages [cdktf-local-exec]: Start processing: cdk8s-operator
+[2023-06-01 02:13:11] INFO root fetch - main [MainThread]: End processing [cdktf-local-exec]: success
+[2023-06-01 02:13:11] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-01 02:13:11] INFO root fetch - main [MainThread]: End processing [kwplot]: success
+[2023-06-01 02:13:11] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/c5/ec/bdf8143f6cefcc9ef0f21d9005002cbbc0443c43b81e7d6221c3c954c955/openbb_nightly-3.0.1.dev20230531.tar.gz
+[2023-06-01 02:13:11] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-06-01 02:13:11] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230601/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-01 02:13:12] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2023-06-01 02:13:12] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-3.0.1.dev20230530.tar.gz tmp/openbb_nightly-3.0.1.dev20230531.tar.gz --markdown 20230601/o/openbb-nightly/3.0.1.dev20230530-3.0.1.dev20230531/diff.md --exclude *.pyd
+[2023-06-01 02:13:12] INFO root fetch - main [MainThread]: End processing [cdk-iot-core-certificates]: success
+[2023-06-01 02:13:13] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-06-01 02:13:13] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-06-01 02:13:13] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-06-01 02:13:13] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-06-01 02:13:14] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-06-01 02:13:23] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2023-06-01 02:13:27] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
+[2023-06-01 02:14:29] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-01 02:14:29] INFO root fetch - main [MainThread]: Store serial: [18324707]
