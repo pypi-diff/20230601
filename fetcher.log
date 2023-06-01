@@ -9880,3 +9880,103 @@
 [2023-06-01 07:01:44] INFO root fetch - main [MainThread]: End processing [custodial-registration-proxy]: success
 [2023-06-01 07:01:46] INFO root fetch - main [MainThread]: End processing [OpihiExarata]: success
 [2023-06-01 07:01:46] INFO root fetch - main [MainThread]: Store serial: [18328329]
+[2023-06-01 07:06:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18328329]
+[2023-06-01 07:06:54] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-01 07:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dask-cuda
+[2023-06-01 07:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abi3info
+[2023-06-01 07:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tinytuya
+[2023-06-01 07:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-picstatus
+[2023-06-01 07:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atpublic
+[2023-06-01 07:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hao
+[2023-06-01 07:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-gradle-uploader
+[2023-06-01 07:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-budget-notifier
+[2023-06-01 07:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mypylib
+[2023-06-01 07:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mrgrain.cdk-esbuild
+[2023-06-01 07:06:54] INFO root fetch - processPackages [nonebot-plugin-picstatus]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-06-01 07:06:54] INFO root fetch - processPackages [tinytuya]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-01 07:06:54] INFO root fetch - processPackages [atpublic]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-06-01 07:06:54] INFO root fetch - processPackages [abi3info]: New version: [2023.6.1] Old Version: [2023.5.4]
+[2023-06-01 07:06:54] INFO root fetch - processPackages [hao]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-06-01 07:06:54] INFO root fetch - processPackages [cdk-gradle-uploader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 07:06:54] INFO root fetch - processPackages [mypylib]: New version: [0.1.75] Old Version: [0.1.74]
+[2023-06-01 07:06:54] INFO root fetch - processPackages [cdk-budget-notifier]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-01 07:06:54] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: New version: [4.1.8] Old Version: [4.1.7]
+[2023-06-01 07:06:54] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230531] Old Version: [23.8.0a230526]
+[2023-06-01 07:06:54] INFO root fetch - processPackages [atpublic]: Downloading https://files.pythonhosted.org/packages/8e/9a/ff8783e9e181ead59ae612a5df5bcd4f4bb3cc4147ef6aaa96f90020347b/atpublic-3.1.1.tar.gz
+[2023-06-01 07:06:54] INFO root fetch - processPackages [abi3info]: Downloading https://files.pythonhosted.org/packages/c1/13/959a47bdb37e11b501b7dc2f656b9839ed8d65569e88c2e63dc4db9c67a2/abi3info-2023.5.4.tar.gz
+[2023-06-01 07:06:54] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-01 07:06:54] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230526.tar.gz tmp/dask-cuda-23.8.0a230531.tar.gz --markdown 20230601/d/dask-cuda/23.8.0a230526-23.8.0a230531/diff.md --exclude *.pyd
+[2023-06-01 07:06:55] INFO root fetch - processPackages [nonebot-plugin-picstatus]: Downloading https://files.pythonhosted.org/packages/a6/11/d89b5686b2e1ff98e376ef0d9c577c227bc50ccc6f2998221604a11c0fa3/nonebot_plugin_picstatus-0.3.5.tar.gz
+[2023-06-01 07:06:55] WARNING root fetch - processPackages [nonebot-plugin-picstatus]: Skipping package: exceeds size limit 16080494>=10485760
+[2023-06-01 07:06:55] INFO root fetch - processPackages [nonebot-plugin-picstatus]: Start processing: rapid-pe
+[2023-06-01 07:06:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-picstatus] error
+[2023-06-01 07:06:55] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Downloading https://files.pythonhosted.org/packages/fc/c2/8ee834c016b88a015db537555de7f0d6cfa99d6d232258e1184b223ce026/mrgrain.cdk-esbuild-4.1.7.tar.gz
+[2023-06-01 07:06:55] INFO root fetch - processPackages [tinytuya]: Downloading https://files.pythonhosted.org/packages/22/7d/9d5fa82f83de2bc3db572f4410c55462fbeac68779f13c61ab259b930b3b/tinytuya-1.9.0-py2.py3-none-any.whl
+[2023-06-01 07:06:55] INFO root fetch - processPackages [cdk-budget-notifier]: Downloading https://files.pythonhosted.org/packages/c4/54/64f3aabbfb5aaf7a4c140f15507aba3c02449c45bfc17f318adf221a35b2/cdk-budget-notifier-0.3.8.tar.gz
+[2023-06-01 07:06:55] INFO root fetch - processPackages [cdk-gradle-uploader]: Downloading https://files.pythonhosted.org/packages/b9/29/f32301fee9260349ce731b85106e9b41e74b86fbdeff47b4fbeb7cb06477/cdk-gradle-uploader-0.0.8.tar.gz
+[2023-06-01 07:06:55] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230601] Old Version: [0.1.1.dev20230531]
+[2023-06-01 07:06:55] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/28/45/02a7fb741f259d8d9dd0ecfcc60d7832768766fc174af9b2d4b2eb333b07/mypylib-0.1.75.tar.gz
+[2023-06-01 07:06:55] INFO root fetch - processPackages [abi3info]: Downloading https://files.pythonhosted.org/packages/04/79/46cf741c822005525b4cee4bb8c3ca39ded5c357e56a7d8c71691f221e1b/abi3info-2023.6.1.tar.gz
+[2023-06-01 07:06:55] INFO root fetch - processPackages [hao]: executing diffoscope
+[2023-06-01 07:06:55] INFO root fetch - processPackages [hao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hao-3.7.8.tar.gz tmp/hao-3.7.9.tar.gz --markdown 20230601/h/hao/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-06-01 07:06:55] INFO root fetch - processPackages [mypylib]: executing diffoscope
+[2023-06-01 07:06:55] INFO root fetch - processPackages [mypylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypylib-0.1.74.tar.gz tmp/mypylib-0.1.75.tar.gz --markdown 20230601/m/mypylib/0.1.74-0.1.75/diff.md --exclude *.pyd
+[2023-06-01 07:06:55] INFO root fetch - processPackages [atpublic]: Downloading https://files.pythonhosted.org/packages/84/b5/d14aa11f7b37e5410209c4cc1ec4dcccc47ebe6c5e35ad21e7240de54952/atpublic-3.1.2.tar.gz
+[2023-06-01 07:06:55] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/dd/7d/acb71971ba3ffd17877ae76af4629cc1fb2766ce3a0000ad39ac245cde6f/rapid_pe-0.1.1.dev20230601.tar.gz
+[2023-06-01 07:06:55] INFO root fetch - processPackages [abi3info]: executing diffoscope
+[2023-06-01 07:06:55] INFO root fetch - processPackages [abi3info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abi3info-2023.5.4.tar.gz tmp/abi3info-2023.6.1.tar.gz --markdown 20230601/a/abi3info/2023.5.4-2023.6.1/diff.md --exclude *.pyd
+[2023-06-01 07:06:55] INFO root fetch - processPackages [atpublic]: executing diffoscope
+[2023-06-01 07:06:55] INFO root fetch - processPackages [atpublic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atpublic-3.1.1.tar.gz tmp/atpublic-3.1.2.tar.gz --markdown 20230601/a/atpublic/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-06-01 07:06:55] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Downloading https://files.pythonhosted.org/packages/56/75/54c0e12842e49983934d84f31548b619fd175ad19b8c19b5f97f794eb94e/mrgrain.cdk-esbuild-4.1.8.tar.gz
+[2023-06-01 07:06:55] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: executing diffoscope
+[2023-06-01 07:06:55] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrgrain.cdk-esbuild-4.1.7.tar.gz tmp/mrgrain.cdk-esbuild-4.1.8.tar.gz --markdown 20230601/m/mrgrain.cdk-esbuild/4.1.7-4.1.8/diff.md --exclude *.pyd
+[2023-06-01 07:06:55] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-06-01 07:06:55] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230531.tar.gz tmp/rapid_pe-0.1.1.dev20230601.tar.gz --markdown 20230601/r/rapid-pe/0.1.1.dev20230531-0.1.1.dev20230601/diff.md --exclude *.pyd
+[2023-06-01 07:06:55] INFO root fetch - processPackages [tinytuya]: Downloading https://files.pythonhosted.org/packages/6b/dd/19d76df53a7c336d3c501f30b519cec78154f50351414491f01fa4ea7c75/tinytuya-1.9.1-py2.py3-none-any.whl
+[2023-06-01 07:06:55] INFO root fetch - processPackages [cdk-budget-notifier]: Downloading https://files.pythonhosted.org/packages/e0/58/c599a41a4ea378adf0b120567f3f77768fbe70b9dee58c9c83be204555a7/cdk-budget-notifier-0.3.9.tar.gz
+[2023-06-01 07:06:55] INFO root fetch - processPackages [tinytuya]: executing diffoscope
+[2023-06-01 07:06:55] INFO root fetch - processPackages [tinytuya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinytuya-1.9.0-py2.py3-none-any.whl.zip tmp/tinytuya-1.9.1-py2.py3-none-any.whl.zip --markdown 20230601/t/tinytuya/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-01 07:06:55] INFO root fetch - processPackages [cdk-budget-notifier]: executing diffoscope
+[2023-06-01 07:06:55] INFO root fetch - processPackages [cdk-budget-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budget-notifier-0.3.8.tar.gz tmp/cdk-budget-notifier-0.3.9.tar.gz --markdown 20230601/c/cdk-budget-notifier/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-01 07:06:56] INFO root fetch - processPackages [mypylib]: Start processing: multi-model-server
+[2023-06-01 07:06:56] INFO root fetch - main [MainThread]: End processing [mypylib]: success
+[2023-06-01 07:06:56] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.8b20230531]
+[2023-06-01 07:06:56] INFO root fetch - processPackages [hao]: Start processing: wagtail-sb-imageserializer
+[2023-06-01 07:06:56] INFO root fetch - main [MainThread]: End processing [hao]: success
+[2023-06-01 07:06:57] INFO root fetch - processPackages [wagtail-sb-imageserializer]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-01 07:06:57] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/d9/7a/a963984ef730f4967e8208fce1fbc6f8747c7f8068f1556a7bf25e67fa11/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl
+[2023-06-01 07:06:57] INFO root fetch - processPackages [wagtail-sb-imageserializer]: Downloading https://files.pythonhosted.org/packages/5e/a3/9ddaeba2f2a3625dbcf4b4d2364aff131e99d6c209454f88f18784ef3cc2/wagtail_sb_imageserializer-0.1.0.tar.gz
+[2023-06-01 07:06:57] INFO root fetch - processPackages [atpublic]: Start processing: azure-devops-repository-archiver
+[2023-06-01 07:06:57] INFO root fetch - main [MainThread]: End processing [atpublic]: success
+[2023-06-01 07:06:57] INFO root fetch - processPackages [azure-devops-repository-archiver]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-06-01 07:06:57] INFO root fetch - processPackages [abi3info]: Start processing: attrbox
+[2023-06-01 07:06:57] INFO root fetch - main [MainThread]: End processing [abi3info]: success
+[2023-06-01 07:06:57] INFO root fetch - main [MainThread]: End processing [mrgrain.cdk-esbuild]: success
+[2023-06-01 07:06:57] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-06-01 07:06:57] INFO root fetch - processPackages [azure-devops-repository-archiver]: Downloading https://files.pythonhosted.org/packages/bd/42/885a31bbdcd92b7a49e53df1c3154c3ab3e58d998c68d27da3db5dbda0dd/azure-devops-repository-archiver-1.5.8.tar.gz
+[2023-06-01 07:06:57] INFO root fetch - processPackages [wagtail-sb-imageserializer]: Downloading https://files.pythonhosted.org/packages/11/54/41e2182c2dbb6c968744fa4889427d472f182354195921966d2f7044ed72/wagtail_sb_imageserializer-0.2.0.tar.gz
+[2023-06-01 07:06:57] INFO root fetch - processPackages [attrbox]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-01 07:06:57] INFO root fetch - main [MainThread]: End processing [tinytuya]: success
+[2023-06-01 07:06:57] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-06-01 07:06:57] INFO root fetch - main [MainThread]: End processing [cdk-budget-notifier]: success
+[2023-06-01 07:06:57] INFO root fetch - processPackages [wagtail-sb-imageserializer]: executing diffoscope
+[2023-06-01 07:06:57] INFO root fetch - processPackages [wagtail-sb-imageserializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_sb_imageserializer-0.1.0.tar.gz tmp/wagtail_sb_imageserializer-0.2.0.tar.gz --markdown 20230601/w/wagtail-sb-imageserializer/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-01 07:06:57] INFO root fetch - processPackages [attrbox]: Downloading https://files.pythonhosted.org/packages/b0/c8/c8fc87f60de76c56a7adc87b12ca59cc232c51e482edd7f9db845ab5abc2/attrbox-0.1.1.tar.gz
+[2023-06-01 07:06:57] INFO root fetch - processPackages [azure-devops-repository-archiver]: Downloading https://files.pythonhosted.org/packages/a1/9e/1933c59221ace0afa0c820584d26907e43f109692bab3dac69c9cf09bc34/azure-devops-repository-archiver-1.5.9.tar.gz
+[2023-06-01 07:06:58] INFO root fetch - processPackages [azure-devops-repository-archiver]: executing diffoscope
+[2023-06-01 07:06:58] INFO root fetch - processPackages [azure-devops-repository-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-devops-repository-archiver-1.5.8.tar.gz tmp/azure-devops-repository-archiver-1.5.9.tar.gz --markdown 20230601/a/azure-devops-repository-archiver/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-06-01 07:06:58] INFO root fetch - processPackages [attrbox]: Downloading https://files.pythonhosted.org/packages/b7/62/b6f82a0883c2cca546e2b66c5c8d7686a125d26518ea2126e1082df4585f/attrbox-0.1.2.tar.gz
+[2023-06-01 07:06:58] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-06-01 07:06:58] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230531-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230601/m/multi-model-server/1.1.8b20230531-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-06-01 07:06:58] INFO root fetch - processPackages [cdk-gradle-uploader]: Downloading https://files.pythonhosted.org/packages/7f/8f/b334b3b2544d36b48968b7913c911e4bd013fed5071173d5b99dcf934962/cdk-gradle-uploader-0.0.9.tar.gz
+[2023-06-01 07:06:58] INFO root fetch - processPackages [cdk-gradle-uploader]: executing diffoscope
+[2023-06-01 07:06:58] INFO root fetch - processPackages [cdk-gradle-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gradle-uploader-0.0.8.tar.gz tmp/cdk-gradle-uploader-0.0.9.tar.gz --markdown 20230601/c/cdk-gradle-uploader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 07:06:58] INFO root fetch - processPackages [attrbox]: executing diffoscope
+[2023-06-01 07:06:58] INFO root fetch - processPackages [attrbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attrbox-0.1.1.tar.gz tmp/attrbox-0.1.2.tar.gz --markdown 20230601/a/attrbox/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-01 07:06:58] INFO root fetch - main [MainThread]: End processing [wagtail-sb-imageserializer]: success
+[2023-06-01 07:06:59] INFO root fetch - main [MainThread]: End processing [attrbox]: success
+[2023-06-01 07:06:59] INFO root fetch - main [MainThread]: End processing [azure-devops-repository-archiver]: success
+[2023-06-01 07:06:59] INFO root fetch - main [MainThread]: End processing [cdk-gradle-uploader]: success
+[2023-06-01 07:09:58] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-06-01 07:09:58] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-06-01 07:09:58] INFO root fetch - main [MainThread]: Store serial: [18328369]
