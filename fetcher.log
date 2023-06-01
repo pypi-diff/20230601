@@ -15093,3 +15093,99 @@
 [2023-06-01 11:59:16] INFO root fetch - main [MainThread]: End processing [mltlk]: success
 [2023-06-01 11:59:20] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-01 11:59:20] INFO root fetch - main [MainThread]: Store serial: [18331340]
+[2023-06-01 12:04:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18331340]
+[2023-06-01 12:04:29] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-01 12:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iplookupapi
+[2023-06-01 12:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: read-rapidpe
+[2023-06-01 12:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: br-ci-sdk
+[2023-06-01 12:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyPartMC
+[2023-06-01 12:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sj-tool
+[2023-06-01 12:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xiaowupkg
+[2023-06-01 12:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccdt
+[2023-06-01 12:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TAFPD
+[2023-06-01 12:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Magma-Indonesia-API
+[2023-06-01 12:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: boris-behav-obs
+[2023-06-01 12:04:29] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 12:04:29] WARNING root fetch - processPackages [iplookupapi]: Skipping, unable to determine old version
+[2023-06-01 12:04:29] INFO root fetch - processPackages [iplookupapi]: Start processing: supervisely
+[2023-06-01 12:04:29] INFO root fetch - main [MainThread]: End processing [iplookupapi] error
+[2023-06-01 12:04:29] WARNING root fetch - processPackages [br-ci-sdk]: Skipping, unable to determine old version
+[2023-06-01 12:04:29] INFO root fetch - processPackages [br-ci-sdk]: Start processing: disksurf
+[2023-06-01 12:04:29] INFO root fetch - main [MainThread]: End processing [br-ci-sdk] error
+[2023-06-01 12:04:29] INFO root fetch - processPackages [Magma-Indonesia-API]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-01 12:04:29] INFO root fetch - processPackages [ccdt]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-06-01 12:04:29] INFO root fetch - processPackages [boris-behav-obs]: New version: [8.9.8] Old Version: [8.9.6]
+[2023-06-01 12:04:29] INFO root fetch - processPackages [xiaowupkg]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-01 12:04:29] INFO root fetch - processPackages [PyPartMC]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-01 12:04:29] WARNING root fetch - processPackages [TAFPD]: Skipping, unable to determine old version
+[2023-06-01 12:04:29] INFO root fetch - processPackages [TAFPD]: Start processing: eosce
+[2023-06-01 12:04:29] INFO root fetch - main [MainThread]: End processing [TAFPD] error
+[2023-06-01 12:04:29] INFO root fetch - processPackages [read-rapidpe]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-01 12:04:29] INFO root fetch - processPackages [disksurf]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-01 12:04:29] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-06-01 12:04:29] WARNING root fetch - processPackages [eosce]: Skipping, unable to determine old version
+[2023-06-01 12:04:29] INFO root fetch - processPackages [eosce]: Start processing: pysui
+[2023-06-01 12:04:29] INFO root fetch - main [MainThread]: End processing [eosce] error
+[2023-06-01 12:04:29] INFO root fetch - processPackages [pysui]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-01 12:04:29] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-06-01 12:04:29] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230601/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 12:04:29] INFO root fetch - processPackages [read-rapidpe]: Downloading https://files.pythonhosted.org/packages/f2/ac/1bc2b7bda6a7ed4feb42995f50999673951498aedec2ad037aef48603d06/read_rapidpe-0.5.2.tar.gz
+[2023-06-01 12:04:29] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-06-01 12:04:29] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230601/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-06-01 12:04:29] INFO root fetch - processPackages [PyPartMC]: Downloading https://files.pythonhosted.org/packages/b2/e4/bd606b554495699c89b0845a03f4d224fca95874ce2565dfca244ee17fae/PyPartMC-0.1.0.tar.gz
+[2023-06-01 12:04:29] INFO root fetch - processPackages [Magma-Indonesia-API]: Downloading https://files.pythonhosted.org/packages/1b/80/d9c05dd997b71f878770bd2e0286558a8204cfbf7901e3396927b7989f7d/Magma-Indonesia-API-2.0.3.tar.gz
+[2023-06-01 12:04:29] INFO root fetch - processPackages [xiaowupkg]: Downloading https://files.pythonhosted.org/packages/ed/a2/d6575f94ff945b762c2638c17d4043dfb2f24e30bf0725c19e0e5f04a7b8/xiaowupkg-1.0.3.tar.gz
+[2023-06-01 12:04:29] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/1d/2c/2ae79c83423726325c8238e69a6941de1cdc16557647a0c551fea060a8e0/ccdt-2.1.5.tar.gz
+[2023-06-01 12:04:29] INFO root fetch - processPackages [disksurf]: Downloading https://files.pythonhosted.org/packages/5f/73/b0c9b4312b7b6822773f8a40efd84f8ffd7c8d87857e83f6fe6ba6894b9e/disksurf-1.2.2.tar.gz
+[2023-06-01 12:04:30] INFO root fetch - processPackages [xiaowupkg]: executing diffoscope
+[2023-06-01 12:04:30] INFO root fetch - processPackages [xiaowupkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaowupkg-1.0.2.tar.gz tmp/xiaowupkg-1.0.3.tar.gz --markdown 20230601/x/xiaowupkg/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-01 12:04:30] INFO root fetch - processPackages [boris-behav-obs]: executing diffoscope
+[2023-06-01 12:04:30] INFO root fetch - processPackages [boris-behav-obs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boris-behav-obs-8.9.6.tar.gz tmp/boris-behav-obs-8.9.8.tar.gz --markdown 20230601/b/boris-behav-obs/8.9.6-8.9.8/diff.md --exclude *.pyd
+[2023-06-01 12:04:30] INFO root fetch - processPackages [PyPartMC]: executing diffoscope
+[2023-06-01 12:04:30] INFO root fetch - processPackages [PyPartMC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPartMC-0.0.9.tar.gz tmp/PyPartMC-0.1.0.tar.gz --markdown 20230601/P/PyPartMC/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-01 12:04:30] INFO root fetch - processPackages [read-rapidpe]: Downloading https://files.pythonhosted.org/packages/e4/5b/24d23b0416cf757290f0cfb75090c2f3a18cd9bf6f725c6d6282c0ec18cd/read_rapidpe-0.5.3.tar.gz
+[2023-06-01 12:04:30] INFO root fetch - processPackages [Magma-Indonesia-API]: executing diffoscope
+[2023-06-01 12:04:30] INFO root fetch - processPackages [Magma-Indonesia-API]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Magma-Indonesia-API-2.0.2.tar.gz tmp/Magma-Indonesia-API-2.0.3.tar.gz --markdown 20230601/M/Magma-Indonesia-API/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-01 12:04:30] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-06-01 12:04:30] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.4.tar.gz tmp/ccdt-2.1.5.tar.gz --markdown 20230601/c/ccdt/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-06-01 12:04:30] INFO root fetch - processPackages [pysui]: executing diffoscope
+[2023-06-01 12:04:30] INFO root fetch - processPackages [pysui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-0.8.0-py3-none-any.whl.zip tmp/pysui-0.9.0-py3-none-any.whl.zip --markdown 20230601/p/pysui/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 12:04:30] INFO root fetch - processPackages [disksurf]: Downloading https://files.pythonhosted.org/packages/06/f7/03e05cc3db5cf64b111d7219f3ae4d6e56495615a563f9b7be37ef4f4521/disksurf-1.2.3.tar.gz
+[2023-06-01 12:04:30] INFO root fetch - processPackages [read-rapidpe]: executing diffoscope
+[2023-06-01 12:04:30] INFO root fetch - processPackages [read-rapidpe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/read_rapidpe-0.5.2.tar.gz tmp/read_rapidpe-0.5.3.tar.gz --markdown 20230601/r/read-rapidpe/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-01 12:04:30] INFO root fetch - processPackages [disksurf]: executing diffoscope
+[2023-06-01 12:04:30] INFO root fetch - processPackages [disksurf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disksurf-1.2.2.tar.gz tmp/disksurf-1.2.3.tar.gz --markdown 20230601/d/disksurf/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-01 12:04:31] INFO root fetch - processPackages [sj-tool]: Start processing: eqdata-generator
+[2023-06-01 12:04:31] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-06-01 12:04:31] WARNING root fetch - processPackages [eqdata-generator]: Skipping, unable to determine old version
+[2023-06-01 12:04:31] INFO root fetch - processPackages [eqdata-generator]: Start processing: pymovements
+[2023-06-01 12:04:31] INFO root fetch - main [MainThread]: End processing [eqdata-generator] error
+[2023-06-01 12:04:31] INFO root fetch - processPackages [pymovements]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-01 12:04:31] INFO root fetch - processPackages [xiaowupkg]: Start processing: python-hue-v2
+[2023-06-01 12:04:31] INFO root fetch - main [MainThread]: End processing [xiaowupkg]: success
+[2023-06-01 12:04:31] WARNING root fetch - processPackages [python-hue-v2]: Skipping, unable to determine old version
+[2023-06-01 12:04:31] INFO root fetch - processPackages [python-hue-v2]: Start processing: arcl
+[2023-06-01 12:04:31] INFO root fetch - main [MainThread]: End processing [python-hue-v2] error
+[2023-06-01 12:04:31] INFO root fetch - processPackages [arcl]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-06-01 12:04:31] INFO root fetch - processPackages [pymovements]: executing diffoscope
+[2023-06-01 12:04:31] INFO root fetch - processPackages [pymovements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymovements-0.8.0.tar.gz tmp/pymovements-0.9.0.tar.gz --markdown 20230601/p/pymovements/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 12:04:31] INFO root fetch - processPackages [arcl]: Downloading https://files.pythonhosted.org/packages/d6/ec/31bd88000c53ac7e4ec01d062e34b331ed0fe8c6417ad67a1462f5ac9817/arcl-1.7.8.tar.gz
+[2023-06-01 12:04:32] INFO root fetch - processPackages [Magma-Indonesia-API]: Start processing: bitmovin-api-sdk
+[2023-06-01 12:04:32] INFO root fetch - main [MainThread]: End processing [Magma-Indonesia-API]: success
+[2023-06-01 12:04:32] INFO root fetch - main [MainThread]: End processing [disksurf]: success
+[2023-06-01 12:04:32] INFO root fetch - processPackages [bitmovin-api-sdk]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-01 12:04:32] INFO root fetch - processPackages [arcl]: Downloading https://files.pythonhosted.org/packages/91/a4/0daaa70142b3b96215b0b529cb3679b7c79b398c1c53d3429d032582621b/arcl-1.7.9.tar.gz
+[2023-06-01 12:04:32] INFO root fetch - processPackages [arcl]: executing diffoscope
+[2023-06-01 12:04:32] INFO root fetch - processPackages [arcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcl-1.7.8.tar.gz tmp/arcl-1.7.9.tar.gz --markdown 20230601/a/arcl/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-06-01 12:04:32] INFO root fetch - main [MainThread]: End processing [read-rapidpe]: success
+[2023-06-01 12:04:32] INFO root fetch - main [MainThread]: End processing [pysui]: success
+[2023-06-01 12:04:32] INFO root fetch - processPackages [bitmovin-api-sdk]: executing diffoscope
+[2023-06-01 12:04:32] INFO root fetch - processPackages [bitmovin-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmovin-api-sdk-1.98.0.tar.gz tmp/bitmovin-api-sdk-1.99.0.tar.gz --markdown 20230601/b/bitmovin-api-sdk/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-01 12:04:32] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-06-01 12:04:33] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-06-01 12:04:33] INFO root fetch - main [MainThread]: End processing [arcl]: success
+[2023-06-01 12:04:33] INFO root fetch - main [MainThread]: End processing [pymovements]: success
+[2023-06-01 12:04:34] INFO root fetch - main [MainThread]: End processing [boris-behav-obs]: success
+[2023-06-01 12:04:48] INFO root fetch - main [MainThread]: End processing [PyPartMC]: success
+[2023-06-01 12:05:06] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
+[2023-06-01 12:05:06] INFO root fetch - main [MainThread]: Store serial: [18331417]
