@@ -10275,3 +10275,35 @@
 [2023-06-01 07:30:55] INFO root fetch - main [MainThread]: End processing [testghacookiecutter]: success
 [2023-06-01 07:30:55] INFO root fetch - main [MainThread]: End processing [browsr]: success
 [2023-06-01 07:30:55] INFO root fetch - main [MainThread]: Store serial: [18328503]
+[2023-06-01 07:35:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18328503]
+[2023-06-01 07:36:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-01 07:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testghacookiecutter
+[2023-06-01 07:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: custodial-registration-proxy
+[2023-06-01 07:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qlapi-nrsdk
+[2023-06-01 07:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-ipghrms-contract
+[2023-06-01 07:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-ipghrms-contract
+[2023-06-01 07:36:03] WARNING root fetch - processPackages [qlapi-nrsdk]: Skipping, unable to determine old version
+[2023-06-01 07:36:03] INFO root fetch - processPackages [custodial-registration-proxy]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-01 07:36:03] INFO root fetch - main [MainThread]: End processing [qlapi-nrsdk] error
+[2023-06-01 07:36:03] INFO root fetch - processPackages [testghacookiecutter]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-06-01 07:36:03] INFO root fetch - processPackages [django-ipghrms-contract]: New version: [1.3] Old Version: [1.1]
+[2023-06-01 07:36:03] INFO root fetch - processPackages [django-ipghrms-contract]: New version: [1.3] Old Version: [1.1]
+[2023-06-01 07:36:03] INFO root fetch - processPackages [custodial-registration-proxy]: Downloading https://files.pythonhosted.org/packages/c5/91/76fb6e137d69a0ec0c8968d4f0362fe64c4e6ae1b82855d23005436d4ba9/custodial-registration-proxy-0.3.1.tar.gz
+[2023-06-01 07:36:04] INFO root fetch - processPackages [django-ipghrms-contract]: Downloading https://files.pythonhosted.org/packages/1b/41/7a748fcd917968e007d021da6616620b0e0a6216b37da01cd7e9c6401a54/django-ipghrms-contract-1.1.tar.gz
+[2023-06-01 07:36:04] INFO root fetch - processPackages [django-ipghrms-contract]: Downloading https://files.pythonhosted.org/packages/1b/41/7a748fcd917968e007d021da6616620b0e0a6216b37da01cd7e9c6401a54/django-ipghrms-contract-1.1.tar.gz
+[2023-06-01 07:36:04] INFO root fetch - processPackages [custodial-registration-proxy]: executing diffoscope
+[2023-06-01 07:36:04] INFO root fetch - processPackages [custodial-registration-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custodial-registration-proxy-0.3.0.tar.gz tmp/custodial-registration-proxy-0.3.1.tar.gz --markdown 20230601/c/custodial-registration-proxy/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-01 07:36:04] INFO root fetch - processPackages [testghacookiecutter]: Downloading https://files.pythonhosted.org/packages/a0/9f/760f5df93b39f4535df55008a230da5ca583387d736ffc39052076bd348a/testghacookiecutter-0.0.93-cp39-cp39-win_amd64.whl
+[2023-06-01 07:36:04] INFO root fetch - processPackages [django-ipghrms-contract]: Downloading https://files.pythonhosted.org/packages/df/38/6a0fbf88fca82e620cb71fc8dfd9b7abe9add5c8555fc4cc42c876cfb2ec/django_ipghrms_contract-1.3-py3-none-any.whl
+[2023-06-01 07:36:04] INFO root fetch - processPackages [django-ipghrms-contract]: Downloading https://files.pythonhosted.org/packages/df/38/6a0fbf88fca82e620cb71fc8dfd9b7abe9add5c8555fc4cc42c876cfb2ec/django_ipghrms_contract-1.3-py3-none-any.whl
+[2023-06-01 07:36:04] INFO root fetch - processPackages [testghacookiecutter]: executing diffoscope
+[2023-06-01 07:36:04] INFO root fetch - processPackages [testghacookiecutter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testghacookiecutter-0.0.92-cp39-cp39-win_amd64.whl.zip tmp/testghacookiecutter-0.0.93-cp39-cp39-win_amd64.whl.zip --markdown 20230601/t/testghacookiecutter/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-06-01 07:36:04] INFO root fetch - processPackages [django-ipghrms-contract]: executing diffoscope
+[2023-06-01 07:36:04] INFO root fetch - processPackages [django-ipghrms-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-contract-1.1.tar.gz tmp/django_ipghrms_contract-1.3-py3-none-any.whl.zip --markdown 20230601/d/django-ipghrms-contract/1.1-1.3/diff.md --exclude *.pyd
+[2023-06-01 07:36:04] INFO root fetch - processPackages [django-ipghrms-contract]: executing diffoscope
+[2023-06-01 07:36:04] INFO root fetch - processPackages [django-ipghrms-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-contract-1.1.tar.gz tmp/django_ipghrms_contract-1.3-py3-none-any.whl.zip --markdown 20230601/d/django-ipghrms-contract/1.1-1.3/diff.md --exclude *.pyd
+[2023-06-01 07:36:05] INFO root fetch - main [MainThread]: End processing [custodial-registration-proxy]: success
+[2023-06-01 07:36:05] INFO root fetch - main [MainThread]: End processing [testghacookiecutter]: success
+[2023-06-01 07:36:06] INFO root fetch - main [MainThread]: End processing [django-ipghrms-contract]: success
+[2023-06-01 07:36:07] INFO root fetch - main [MainThread]: End processing [django-ipghrms-contract]: success
+[2023-06-01 07:36:07] INFO root fetch - main [MainThread]: Store serial: [18328539]
