@@ -9280,3 +9280,38 @@
 [2023-06-01 06:04:21] INFO root fetch - main [MainThread]: End processing [quao]: success
 [2023-06-01 06:04:21] INFO root fetch - main [MainThread]: End processing [yt-fts]: success
 [2023-06-01 06:04:21] INFO root fetch - main [MainThread]: Store serial: [18328052]
+[2023-06-01 06:09:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18328052]
+[2023-06-01 06:09:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-01 06:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidexec
+[2023-06-01 06:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chromedriver-binary
+[2023-06-01 06:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raster2dggs
+[2023-06-01 06:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jax-tools
+[2023-06-01 06:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dd8
+[2023-06-01 06:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aliyun-python-sdk-airticketopen
+[2023-06-01 06:09:29] INFO root fetch - processPackages [rapidexec]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-01 06:09:29] WARNING root fetch - processPackages [jax-tools]: Skipping, unable to determine old version
+[2023-06-01 06:09:29] INFO root fetch - main [MainThread]: End processing [jax-tools] error
+[2023-06-01 06:09:29] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-01 06:09:30] INFO root fetch - processPackages [raster2dggs]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-01 06:09:30] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2023-06-01 06:09:30] INFO root fetch - processPackages [dd8]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 06:09:30] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: executing diffoscope
+[2023-06-01 06:09:30] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-airticketopen-1.0.7.tar.gz tmp/aliyun-python-sdk-airticketopen-1.0.8.tar.gz --markdown 20230601/a/aliyun-python-sdk-airticketopen/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-01 06:09:30] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2023-06-01 06:09:30] INFO root fetch - processPackages [rapidexec]: Downloading https://files.pythonhosted.org/packages/17/60/bdff7715a980c5a3e783e52049cb3a79d2ccb38305826ac5e433733c3bcd/rapidexec-0.0.4.tar.gz
+[2023-06-01 06:09:30] INFO root fetch - processPackages [rapidexec]: executing diffoscope
+[2023-06-01 06:09:30] INFO root fetch - processPackages [rapidexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidexec-0.0.3.tar.gz tmp/rapidexec-0.0.4.tar.gz --markdown 20230601/r/rapidexec/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-01 06:09:30] INFO root fetch - processPackages [raster2dggs]: Downloading https://files.pythonhosted.org/packages/c8/d5/a8051fb61d1600b92686623e786f29af8dd60e5d426ac342824700cab1cd/raster2dggs-0.2.4.tar.gz
+[2023-06-01 06:09:30] INFO root fetch - processPackages [raster2dggs]: executing diffoscope
+[2023-06-01 06:09:30] INFO root fetch - processPackages [raster2dggs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raster2dggs-0.2.3.tar.gz tmp/raster2dggs-0.2.4.tar.gz --markdown 20230601/r/raster2dggs/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-01 06:09:30] INFO root fetch - processPackages [dd8]: executing diffoscope
+[2023-06-01 06:09:30] INFO root fetch - processPackages [dd8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dd8-0.0.8.tar.gz tmp/dd8-0.0.9.tar.gz --markdown 20230601/d/dd8/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 06:09:30] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2023-06-01 06:09:31] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-airticketopen]: success
+[2023-06-01 06:09:31] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2023-06-01 06:09:31] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20230601/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2023-06-01 06:09:31] INFO root fetch - main [MainThread]: End processing [dd8]: success
+[2023-06-01 06:09:31] INFO root fetch - main [MainThread]: End processing [raster2dggs]: success
+[2023-06-01 06:09:31] INFO root fetch - main [MainThread]: End processing [rapidexec]: success
+[2023-06-01 06:09:32] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2023-06-01 06:09:32] INFO root fetch - main [MainThread]: Store serial: [18328070]
