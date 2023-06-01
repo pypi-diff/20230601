@@ -11056,3 +11056,55 @@
 [2023-06-01 08:44:22] INFO root fetch - main [MainThread]: End processing [enrichsdk]: success
 [2023-06-01 08:44:35] INFO root fetch - main [MainThread]: End processing [domain-paas-sdk-python]: success
 [2023-06-01 08:44:35] INFO root fetch - main [MainThread]: Store serial: [18329008]
+[2023-06-01 08:49:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18329008]
+[2023-06-01 08:49:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-01 08:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clonalEvolution
+[2023-06-01 08:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepsearch-toolkit
+[2023-06-01 08:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asyncmy
+[2023-06-01 08:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jax-tools
+[2023-06-01 08:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clonalEvolution
+[2023-06-01 08:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hexlet-code-frisson
+[2023-06-01 08:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyStatsLearn
+[2023-06-01 08:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ersciyt
+[2023-06-01 08:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bx-py-utils
+[2023-06-01 08:49:44] INFO root fetch - processPackages [deepsearch-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-01 08:49:44] INFO root fetch - processPackages [clonalEvolution]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-01 08:49:44] INFO root fetch - processPackages [jax-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 08:49:44] INFO root fetch - processPackages [asyncmy]: New version: [0.2.8rc2] Old Version: [0.2.8rc1]
+[2023-06-01 08:49:44] WARNING root fetch - processPackages [PyStatsLearn]: Skipping, unable to determine old version
+[2023-06-01 08:49:44] WARNING root fetch - processPackages [hexlet-code-frisson]: Skipping, unable to determine old version
+[2023-06-01 08:49:44] INFO root fetch - processPackages [ersciyt]: New version: [1.94] Old Version: [1.92]
+[2023-06-01 08:49:44] INFO root fetch - main [MainThread]: End processing [PyStatsLearn] error
+[2023-06-01 08:49:44] INFO root fetch - main [MainThread]: End processing [hexlet-code-frisson] error
+[2023-06-01 08:49:44] INFO root fetch - processPackages [clonalEvolution]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-01 08:49:44] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2023-06-01 08:49:44] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.8.tar.gz tmp/jax-tools-1.0.9.tar.gz --markdown 20230601/j/jax-tools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 08:49:44] INFO root fetch - processPackages [bx-py-utils]: New version: [9] Old Version: [83]
+[2023-06-01 08:49:44] INFO root fetch - processPackages [clonalEvolution]: Downloading https://files.pythonhosted.org/packages/a0/8b/e2b83cac918b5f77289c4a600c41dd27990dbdc4c6e49810f4003df64bac/clonalEvolution-2.1.0.tar.gz
+[2023-06-01 08:49:44] INFO root fetch - processPackages [clonalEvolution]: Downloading https://files.pythonhosted.org/packages/a0/8b/e2b83cac918b5f77289c4a600c41dd27990dbdc4c6e49810f4003df64bac/clonalEvolution-2.1.0.tar.gz
+[2023-06-01 08:49:44] INFO root fetch - processPackages [ersciyt]: Downloading https://files.pythonhosted.org/packages/89/b2/3bda5846a06c0814976ce1bdc3a4848830f51b47e75b1a619581ff13b5c5/ersciyt-1.92.tar.gz
+[2023-06-01 08:49:44] INFO root fetch - processPackages [bx-py-utils]: Downloading https://files.pythonhosted.org/packages/29/e2/f188fcd615d38102c8b32f66ccf414a98d802680f4089b9f587138118d2f/bx_py_utils-83.tar.gz
+[2023-06-01 08:49:45] INFO root fetch - processPackages [asyncmy]: Downloading https://files.pythonhosted.org/packages/db/6d/24dd0a2269f6eac24aba57f8e8a0419b7c7f247e05378f53520d1c2d0da1/asyncmy-0.2.8rc2.tar.gz
+[2023-06-01 08:49:45] INFO root fetch - processPackages [deepsearch-toolkit]: executing diffoscope
+[2023-06-01 08:49:45] INFO root fetch - processPackages [deepsearch-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsearch_toolkit-0.8.0.tar.gz tmp/deepsearch_toolkit-0.9.0.tar.gz --markdown 20230601/d/deepsearch-toolkit/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 08:49:45] INFO root fetch - processPackages [clonalEvolution]: Downloading https://files.pythonhosted.org/packages/39/03/6adb3ec0bf1afebe55e668d09a3e8755845f593a2232dec4173fa97ab247/clonalEvolution-2.1.1.tar.gz
+[2023-06-01 08:49:45] INFO root fetch - processPackages [clonalEvolution]: Downloading https://files.pythonhosted.org/packages/39/03/6adb3ec0bf1afebe55e668d09a3e8755845f593a2232dec4173fa97ab247/clonalEvolution-2.1.1.tar.gz
+[2023-06-01 08:49:45] INFO root fetch - processPackages [ersciyt]: Downloading https://files.pythonhosted.org/packages/7e/bb/20829dc6f157b11543a9135968d1ac898b459dd44615235c5d8cc4e45d4e/ersciyt-1.94.tar.gz
+[2023-06-01 08:49:45] INFO root fetch - processPackages [asyncmy]: executing diffoscope
+[2023-06-01 08:49:45] INFO root fetch - processPackages [asyncmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncmy-0.2.8rc1.tar.gz tmp/asyncmy-0.2.8rc2.tar.gz --markdown 20230601/a/asyncmy/0.2.8rc1-0.2.8rc2/diff.md --exclude *.pyd
+[2023-06-01 08:49:45] INFO root fetch - processPackages [ersciyt]: executing diffoscope
+[2023-06-01 08:49:45] INFO root fetch - processPackages [ersciyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ersciyt-1.92.tar.gz tmp/ersciyt-1.94.tar.gz --markdown 20230601/e/ersciyt/1.92-1.94/diff.md --exclude *.pyd
+[2023-06-01 08:49:45] INFO root fetch - processPackages [clonalEvolution]: executing diffoscope
+[2023-06-01 08:49:45] INFO root fetch - processPackages [clonalEvolution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clonalEvolution-2.1.0.tar.gz tmp/clonalEvolution-2.1.1.tar.gz --markdown 20230601/c/clonalEvolution/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-01 08:49:45] INFO root fetch - processPackages [clonalEvolution]: executing diffoscope
+[2023-06-01 08:49:45] INFO root fetch - processPackages [clonalEvolution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clonalEvolution-2.1.0.tar.gz tmp/clonalEvolution-2.1.1.tar.gz --markdown 20230601/c/clonalEvolution/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-01 08:49:45] INFO root fetch - processPackages [bx-py-utils]: executing diffoscope
+[2023-06-01 08:49:45] INFO root fetch - processPackages [bx-py-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bx_py_utils-83.tar.gz tmp/bx_py_utils-9.tar.gz --markdown 20230601/b/bx-py-utils/83-9/diff.md --exclude *.pyd
+[2023-06-01 08:49:46] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2023-06-01 08:49:46] INFO root fetch - main [MainThread]: End processing [ersciyt]: success
+[2023-06-01 08:49:46] INFO root fetch - main [MainThread]: End processing [clonalEvolution]: success
+[2023-06-01 08:49:46] INFO root fetch - main [MainThread]: End processing [bx-py-utils]: success
+[2023-06-01 08:49:46] INFO root fetch - main [MainThread]: End processing [clonalEvolution]: success
+[2023-06-01 08:49:47] INFO root fetch - main [MainThread]: End processing [asyncmy]: success
+[2023-06-01 08:49:50] INFO root fetch - main [MainThread]: End processing [deepsearch-toolkit]: success
+[2023-06-01 08:49:50] INFO root fetch - main [MainThread]: Store serial: [18329100]
