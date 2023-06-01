@@ -15292,3 +15292,118 @@
 [2023-06-01 12:10:22] INFO root fetch - main [MainThread]: End processing [rhoknp]: success
 [2023-06-01 12:10:27] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-06-01 12:10:27] INFO root fetch - main [MainThread]: Store serial: [18331466]
+[2023-06-01 12:15:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18331466]
+[2023-06-01 12:15:36] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-01 12:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dm-reverb-nightly
+[2023-06-01 12:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scaleway-core
+[2023-06-01 12:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scaleway-async
+[2023-06-01 12:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scaleway
+[2023-06-01 12:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: perftester
+[2023-06-01 12:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openi-beta
+[2023-06-01 12:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ifd-python
+[2023-06-01 12:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fab-rk-tools
+[2023-06-01 12:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: atom-access
+[2023-06-01 12:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-edi-state-oca
+[2023-06-01 12:15:37] INFO root fetch - processPackages [scaleway-core]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-01 12:15:37] INFO root fetch - processPackages [fab-rk-tools]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-01 12:15:37] INFO root fetch - processPackages [scaleway-async]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-01 12:15:37] WARNING root fetch - processPackages [odoo14-addon-edi-state-oca]: Skipping, unable to determine old version
+[2023-06-01 12:15:37] INFO root fetch - processPackages [odoo14-addon-edi-state-oca]: Start processing: StrangeSerializerLab3
+[2023-06-01 12:15:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-edi-state-oca] error
+[2023-06-01 12:15:37] INFO root fetch - processPackages [openi-beta]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-01 12:15:37] INFO root fetch - processPackages [atom-access]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-06-01 12:15:37] INFO root fetch - processPackages [scaleway]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-01 12:15:37] INFO root fetch - processPackages [perftester]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-01 12:15:37] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-01 12:15:37] INFO root fetch - processPackages [ifd-python]: New version: [10.1.7] Old Version: [10.1.6]
+[2023-06-01 12:15:37] INFO root fetch - processPackages [StrangeSerializerLab3]: New version: [2.0] Old Version: [1.0]
+[2023-06-01 12:15:37] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-01 12:15:37] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230601/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-01 12:15:37] INFO root fetch - processPackages [fab-rk-tools]: Downloading https://files.pythonhosted.org/packages/b4/f1/f314a5fe19b750b5fb218d217f9e141ccd357fc473ebe0026d0e14fbff12/fab-rk-tools-0.3.8.tar.gz
+[2023-06-01 12:15:37] INFO root fetch - processPackages [StrangeSerializerLab3]: Downloading https://files.pythonhosted.org/packages/77/79/8e90b1715eabae507d03602bedffa36ee2e0ef5f2a52194f0c334dfe8764/StrangeSerializerLab3-1.0.tar.gz
+[2023-06-01 12:15:37] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/64/8a/1793cf7419a339c35022dfcc5806353adde4a98fe5e1e5289c97369cb7fe/openi-beta-0.0.5.tar.gz
+[2023-06-01 12:15:37] INFO root fetch - processPackages [atom-access]: Downloading https://files.pythonhosted.org/packages/61/82/c1ff258ddf0eed49a273c54c102871f2a7deb2d4e14c1804d118db7a89bb/atom_access-2.1.1.tar.gz
+[2023-06-01 12:15:37] INFO root fetch - processPackages [perftester]: Downloading https://files.pythonhosted.org/packages/1a/b8/fa6951953b63f1eecef6ed5ea82fc6f207f0a31dc932e19d6aac7e254ff2/perftester-0.6.1.tar.gz
+[2023-06-01 12:15:37] INFO root fetch - processPackages [scaleway-core]: Downloading https://files.pythonhosted.org/packages/27/da/6b45c21159f8281050256a34c8fbf4014a1c64e70e4086b70acac676a2bc/scaleway_core-0.8.0.tar.gz
+[2023-06-01 12:15:37] INFO root fetch - processPackages [openi-beta]: executing diffoscope
+[2023-06-01 12:15:37] INFO root fetch - processPackages [openi-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-beta-0.0.4.tar.gz tmp/openi-beta-0.0.5.tar.gz --markdown 20230601/o/openi-beta/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-01 12:15:37] INFO root fetch - processPackages [scaleway]: Downloading https://files.pythonhosted.org/packages/67/21/46013cb213bcbce9880e47a1fd5eac7b117e02988532588010d357c0a9cc/scaleway-0.8.0.tar.gz
+[2023-06-01 12:15:37] INFO root fetch - processPackages [scaleway-async]: Downloading https://files.pythonhosted.org/packages/eb/08/72eca403ef3cc6b54711cd4effb064f70bc6b35fb4b15bd32c586c082078/scaleway_async-0.8.0.tar.gz
+[2023-06-01 12:15:37] INFO root fetch - processPackages [perftester]: executing diffoscope
+[2023-06-01 12:15:37] INFO root fetch - processPackages [perftester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perftester-0.6.0.tar.gz tmp/perftester-0.6.1.tar.gz --markdown 20230601/p/perftester/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-01 12:15:37] INFO root fetch - processPackages [ifd-python]: Downloading https://files.pythonhosted.org/packages/34/b9/af4d063b8a42f969cdedb32943629747512bf7ef97d30691b2dab07e9dfc/ifd_python-10.1.7.tar.gz
+[2023-06-01 12:15:37] INFO root fetch - processPackages [StrangeSerializerLab3]: Downloading https://files.pythonhosted.org/packages/6d/ec/1fd0520312a2b74338e450d8502a0de6f974d828e92e180ae5467487406c/StrangeSerializerLab3-2.0.tar.gz
+[2023-06-01 12:15:37] INFO root fetch - processPackages [ifd-python]: executing diffoscope
+[2023-06-01 12:15:37] INFO root fetch - processPackages [StrangeSerializerLab3]: executing diffoscope
+[2023-06-01 12:15:37] INFO root fetch - processPackages [ifd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifd_python-10.1.6.tar.gz tmp/ifd_python-10.1.7.tar.gz --markdown 20230601/i/ifd-python/10.1.6-10.1.7/diff.md --exclude *.pyd
+[2023-06-01 12:15:37] INFO root fetch - processPackages [StrangeSerializerLab3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StrangeSerializerLab3-1.0.tar.gz tmp/StrangeSerializerLab3-2.0.tar.gz --markdown 20230601/S/StrangeSerializerLab3/1.0-2.0/diff.md --exclude *.pyd
+[2023-06-01 12:15:37] INFO root fetch - processPackages [atom-access]: Downloading https://files.pythonhosted.org/packages/74/8e/a6ba3ccfef3db4c4e473807ddc7071a040c5018758d3c1f9eb952d52935a/atom_access-2.2.0.tar.gz
+[2023-06-01 12:15:37] INFO root fetch - processPackages [scaleway-async]: Downloading https://files.pythonhosted.org/packages/92/c5/a4f956878eb6796ff1d5815e34389477cfb80c4c6e5b662840e1f4193337/scaleway_async-0.9.0.tar.gz
+[2023-06-01 12:15:37] INFO root fetch - processPackages [scaleway]: Downloading https://files.pythonhosted.org/packages/3a/7e/88f0ee5e46853b67c7b855cc0bb27325c4930c08c2f05fadf0a4c9a0bc35/scaleway-0.9.0.tar.gz
+[2023-06-01 12:15:37] INFO root fetch - processPackages [atom-access]: executing diffoscope
+[2023-06-01 12:15:37] INFO root fetch - processPackages [atom-access]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atom_access-2.1.1.tar.gz tmp/atom_access-2.2.0.tar.gz --markdown 20230601/a/atom-access/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-06-01 12:15:37] INFO root fetch - processPackages [fab-rk-tools]: Downloading https://files.pythonhosted.org/packages/11/f4/d4a50e1f549f7eca764e91960bc5ae3184338156c1ccfd3eb224e68c5a71/fab_rk_tools-0.3.9.tar.gz
+[2023-06-01 12:15:37] INFO root fetch - processPackages [scaleway-async]: executing diffoscope
+[2023-06-01 12:15:37] INFO root fetch - processPackages [scaleway-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway_async-0.8.0.tar.gz tmp/scaleway_async-0.9.0.tar.gz --markdown 20230601/s/scaleway-async/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 12:15:37] INFO root fetch - processPackages [fab-rk-tools]: executing diffoscope
+[2023-06-01 12:15:37] INFO root fetch - processPackages [fab-rk-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fab-rk-tools-0.3.8.tar.gz tmp/fab_rk_tools-0.3.9.tar.gz --markdown 20230601/f/fab-rk-tools/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-01 12:15:38] INFO root fetch - processPackages [scaleway-core]: Downloading https://files.pythonhosted.org/packages/9d/2c/dedd0b5233c66256c6420cb2d4a13c24719c1e1ac0c9216c3625fda1c368/scaleway_core-0.9.0.tar.gz
+[2023-06-01 12:15:38] INFO root fetch - processPackages [scaleway-core]: executing diffoscope
+[2023-06-01 12:15:38] INFO root fetch - processPackages [scaleway-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway_core-0.8.0.tar.gz tmp/scaleway_core-0.9.0.tar.gz --markdown 20230601/s/scaleway-core/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 12:15:38] INFO root fetch - processPackages [scaleway]: executing diffoscope
+[2023-06-01 12:15:38] INFO root fetch - processPackages [scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway-0.8.0.tar.gz tmp/scaleway-0.9.0.tar.gz --markdown 20230601/s/scaleway/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 12:15:38] INFO root fetch - processPackages [openi-beta]: Start processing: wedge-lib
+[2023-06-01 12:15:38] INFO root fetch - main [MainThread]: End processing [openi-beta]: success
+[2023-06-01 12:15:38] INFO root fetch - processPackages [wedge-lib]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-06-01 12:15:38] INFO root fetch - processPackages [wedge-lib]: Downloading https://files.pythonhosted.org/packages/04/be/b6baa22755aba3dd88f57d0967602d9bd66b200a65c28b8bb6ff63aa5484/wedge-lib-3.1.2.tar.gz
+[2023-06-01 12:15:39] INFO root fetch - processPackages [wedge-lib]: executing diffoscope
+[2023-06-01 12:15:39] INFO root fetch - processPackages [wedge-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wedge-lib-3.1.1.tar.gz tmp/wedge-lib-3.1.2.tar.gz --markdown 20230601/w/wedge-lib/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-06-01 12:15:39] INFO root fetch - processPackages [StrangeSerializerLab3]: Start processing: pyfaust
+[2023-06-01 12:15:39] INFO root fetch - main [MainThread]: End processing [StrangeSerializerLab3]: success
+[2023-06-01 12:15:39] INFO root fetch - processPackages [pyfaust]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-01 12:15:39] INFO root fetch - processPackages [pyfaust]: executing diffoscope
+[2023-06-01 12:15:39] INFO root fetch - processPackages [pyfaust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20230601/p/pyfaust/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-01 12:15:39] INFO root fetch - processPackages [ifd-python]: Start processing: pyfaust-openblaso
+[2023-06-01 12:15:39] INFO root fetch - main [MainThread]: End processing [ifd-python]: success
+[2023-06-01 12:15:39] INFO root fetch - processPackages [pyfaust-openblaso]: New version: [3.38.9] Old Version: [3.38.8]
+[2023-06-01 12:15:39] INFO root fetch - processPackages [pyfaust-openblaso]: Downloading https://files.pythonhosted.org/packages/59/0f/a671bb18f0866e38b3711c876d95dfa037f0ffd6e093480ae6ce5db7d8a6/pyfaust_openblaso-3.38.8-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-01 12:15:39] INFO root fetch - processPackages [perftester]: Start processing: pyfaust-torch
+[2023-06-01 12:15:39] INFO root fetch - main [MainThread]: End processing [perftester]: success
+[2023-06-01 12:15:39] INFO root fetch - processPackages [pyfaust-torch]: New version: [3.38.9] Old Version: [3.38.8]
+[2023-06-01 12:15:39] WARNING root fetch - processPackages [pyfaust-openblaso]: Skipping package: exceeds size limit 22956958>=10485760
+[2023-06-01 12:15:39] INFO root fetch - processPackages [pyfaust-openblaso]: Start processing: Zeraora
+[2023-06-01 12:15:39] INFO root fetch - main [MainThread]: End processing [pyfaust-openblaso] error
+[2023-06-01 12:15:39] INFO root fetch - processPackages [Zeraora]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-01 12:15:39] INFO root fetch - processPackages [pyfaust-torch]: executing diffoscope
+[2023-06-01 12:15:39] INFO root fetch - processPackages [pyfaust-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl.zip tmp/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230601/p/pyfaust-torch/3.38.8-3.38.9/diff.md --exclude *.pyd
+[2023-06-01 12:15:39] INFO root fetch - processPackages [Zeraora]: executing diffoscope
+[2023-06-01 12:15:39] INFO root fetch - processPackages [Zeraora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Zeraora-0.2.8.tar.gz tmp/Zeraora-0.2.9.tar.gz --markdown 20230601/Z/Zeraora/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-01 12:15:39] INFO root fetch - processPackages [scaleway-core]: Start processing: tcsa
+[2023-06-01 12:15:39] INFO root fetch - main [MainThread]: End processing [scaleway-core]: success
+[2023-06-01 12:15:40] INFO root fetch - processPackages [atom-access]: Start processing: influxdb3-python
+[2023-06-01 12:15:40] INFO root fetch - main [MainThread]: End processing [atom-access]: success
+[2023-06-01 12:15:40] INFO root fetch - processPackages [tcsa]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-01 12:15:40] WARNING root fetch - processPackages [influxdb3-python]: Skipping, unable to determine old version
+[2023-06-01 12:15:40] INFO root fetch - processPackages [influxdb3-python]: Start processing: odoo-addon-sale-coupon-order-pending
+[2023-06-01 12:15:40] INFO root fetch - main [MainThread]: End processing [influxdb3-python] error
+[2023-06-01 12:15:40] WARNING root fetch - processPackages [odoo-addon-sale-coupon-order-pending]: Skipping, unable to determine old version
+[2023-06-01 12:15:40] INFO root fetch - processPackages [odoo-addon-sale-coupon-order-pending]: Start processing: UnlimitedGPT
+[2023-06-01 12:15:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-coupon-order-pending] error
+[2023-06-01 12:15:40] INFO root fetch - processPackages [tcsa]: Downloading https://files.pythonhosted.org/packages/f0/3b/376c8c7dc8911ee4abfb6ed2e3497019c598b0a51a537d2cd294c2e22d58/tcsa-0.1.5.tar.gz
+[2023-06-01 12:15:40] INFO root fetch - processPackages [UnlimitedGPT]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-01 12:15:40] INFO root fetch - main [MainThread]: End processing [fab-rk-tools]: success
+[2023-06-01 12:15:40] INFO root fetch - processPackages [UnlimitedGPT]: executing diffoscope
+[2023-06-01 12:15:40] INFO root fetch - processPackages [UnlimitedGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UnlimitedGPT-0.1.1.tar.gz tmp/UnlimitedGPT-0.1.2.tar.gz --markdown 20230601/U/UnlimitedGPT/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-01 12:15:40] INFO root fetch - processPackages [tcsa]: Downloading https://files.pythonhosted.org/packages/be/df/9d941786ca8bc2506ea3aef0a4730babccd46924c68855ca79a89652767e/tcsa-0.1.6.tar.gz
+[2023-06-01 12:15:40] INFO root fetch - processPackages [tcsa]: executing diffoscope
+[2023-06-01 12:15:40] INFO root fetch - processPackages [tcsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcsa-0.1.5.tar.gz tmp/tcsa-0.1.6.tar.gz --markdown 20230601/t/tcsa/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-01 12:15:41] INFO root fetch - main [MainThread]: End processing [Zeraora]: success
+[2023-06-01 12:15:41] INFO root fetch - main [MainThread]: End processing [UnlimitedGPT]: success
+[2023-06-01 12:15:41] INFO root fetch - main [MainThread]: End processing [tcsa]: success
+[2023-06-01 12:15:43] INFO root fetch - main [MainThread]: End processing [wedge-lib]: success
+[2023-06-01 12:15:43] INFO root fetch - main [MainThread]: End processing [scaleway-async]: success
+[2023-06-01 12:15:43] INFO root fetch - main [MainThread]: End processing [scaleway]: success
+[2023-06-01 12:16:16] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
+[2023-06-01 12:16:20] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
+[2023-06-01 12:16:32] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-01 12:16:32] INFO root fetch - main [MainThread]: Store serial: [18331540]
