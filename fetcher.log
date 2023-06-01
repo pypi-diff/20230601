@@ -9045,3 +9045,82 @@
 [2023-06-01 05:43:02] INFO root fetch - main [MainThread]: End processing [execy]: success
 [2023-06-01 05:43:02] INFO root fetch - main [MainThread]: End processing [dmodel]: success
 [2023-06-01 05:43:02] INFO root fetch - main [MainThread]: Store serial: [18327916]
+[2023-06-01 05:48:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18327916]
+[2023-06-01 05:48:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-01 05:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-airticketopen
+[2023-06-01 05:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crio
+[2023-06-01 05:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vos-mjjo
+[2023-06-01 05:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-06-01 05:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SALTISE-course-flow
+[2023-06-01 05:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-06-01 05:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: strategais
+[2023-06-01 05:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: macrometa-target-postgres
+[2023-06-01 05:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addons-oca-delivery-carrier
+[2023-06-01 05:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pdg
+[2023-06-01 05:48:10] INFO root fetch - processPackages [vos-mjjo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 05:48:10] INFO root fetch - processPackages [crio]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-01 05:48:10] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-01 05:48:10] INFO root fetch - processPackages [strategais]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 05:48:10] INFO root fetch - processPackages [macrometa-target-postgres]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 05:48:10] INFO root fetch - processPackages [pdg]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-01 05:48:10] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: New version: [16.0.20230531.0] Old Version: [16.0.20230530.0]
+[2023-06-01 05:48:10] INFO root fetch - processPackages [SALTISE-course-flow]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-06-01 05:48:10] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1685591116] Old Version: [0.1.1685591106]
+[2023-06-01 05:48:10] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1685591116] Old Version: [0.1.1685591106]
+[2023-06-01 05:48:11] INFO root fetch - processPackages [crio]: Downloading https://files.pythonhosted.org/packages/38/c8/e9b57623724d7cbed7754261b27f262bc737bf9f527e6705a4da6692df2d/crio-0.0.7.tar.gz
+[2023-06-01 05:48:11] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/7f/ef/21f12017c2ee02f5421e1ec258e6d615771b7df0fbb92639adb45a3861d2/eia-odin-pkg-rioatmadja2018-0.1.1685591106.tar.gz
+[2023-06-01 05:48:11] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/7f/ef/21f12017c2ee02f5421e1ec258e6d615771b7df0fbb92639adb45a3861d2/eia-odin-pkg-rioatmadja2018-0.1.1685591106.tar.gz
+[2023-06-01 05:48:11] INFO root fetch - processPackages [strategais]: Downloading https://files.pythonhosted.org/packages/78/35/ba84572fe907afadc777a95e5ce9763b321e59c77bc5cdeceedf2a2e7a8d/strategais-0.1.9.tar.gz
+[2023-06-01 05:48:11] INFO root fetch - processPackages [SALTISE-course-flow]: Downloading https://files.pythonhosted.org/packages/3f/b6/20d957bcf794861cc1c2139796c548e631ac70a957c1f2ec597a20239e47/SALTISE_course_flow-0.8.3.tar.gz
+[2023-06-01 05:48:11] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: Downloading https://files.pythonhosted.org/packages/2c/09/119825c122d4f41ebb93b7e67ea2e5e330873e4b2ea5e03a2034bfb3d161/aliyun-python-sdk-airticketopen-1.0.8.tar.gz
+[2023-06-01 05:48:11] INFO root fetch - processPackages [pdg]: Downloading https://files.pythonhosted.org/packages/63/7e/135c5316b7b7fac3226a978be7e3fcaf8d963c9c9d33d41f31674cf8d79d/pdg-0.0.5.tar.gz
+[2023-06-01 05:48:11] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: Downloading https://files.pythonhosted.org/packages/ff/a0/6ce0c16516613b089ce7fb200f2ed1177a84e323311008057fcc3eb52812/odoo_addons_oca_delivery_carrier-16.0.20230531.0-py3-none-any.whl
+[2023-06-01 05:48:11] INFO root fetch - processPackages [vos-mjjo]: executing diffoscope
+[2023-06-01 05:48:11] INFO root fetch - processPackages [vos-mjjo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vos_mjjo-0.0.8.tar.gz tmp/vos_mjjo-0.0.9.tar.gz --markdown 20230601/v/vos-mjjo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 05:48:11] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: executing diffoscope
+[2023-06-01 05:48:11] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-airticketopen-1.0.7.tar.gz tmp/aliyun-python-sdk-airticketopen-1.0.8.tar.gz --markdown 20230601/a/aliyun-python-sdk-airticketopen/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-01 05:48:11] INFO root fetch - processPackages [crio]: Downloading https://files.pythonhosted.org/packages/13/ba/a56891475afc4a40ce85167d59d45a6476fd030044107d689ca9f6b37fe0/crio-0.0.8.tar.gz
+[2023-06-01 05:48:11] INFO root fetch - processPackages [strategais]: executing diffoscope
+[2023-06-01 05:48:11] INFO root fetch - processPackages [strategais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strategais-0.1.8.tar.gz tmp/strategais-0.1.9.tar.gz --markdown 20230601/s/strategais/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 05:48:11] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/55/ce/ef79e1f9c97f9522477e76b68ba1956582c6922c417c510812e0fed01a50/eia_odin_pkg_rioatmadja2018-0.1.1685591116-py3-none-any.whl
+[2023-06-01 05:48:11] INFO root fetch - processPackages [macrometa-target-postgres]: executing diffoscope
+[2023-06-01 05:48:11] INFO root fetch - processPackages [macrometa-target-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-postgres-0.0.8.tar.gz tmp/macrometa-target-postgres-0.0.9.tar.gz --markdown 20230601/m/macrometa-target-postgres/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 05:48:11] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/55/ce/ef79e1f9c97f9522477e76b68ba1956582c6922c417c510812e0fed01a50/eia_odin_pkg_rioatmadja2018-0.1.1685591116-py3-none-any.whl
+[2023-06-01 05:48:11] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: executing diffoscope
+[2023-06-01 05:48:11] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_delivery_carrier-16.0.20230530.0-py3-none-any.whl.zip tmp/odoo_addons_oca_delivery_carrier-16.0.20230531.0-py3-none-any.whl.zip --markdown 20230601/o/odoo-addons-oca-delivery-carrier/16.0.20230530.0-16.0.20230531.0/diff.md --exclude *.pyd
+[2023-06-01 05:48:11] INFO root fetch - processPackages [SALTISE-course-flow]: Downloading https://files.pythonhosted.org/packages/1d/82/addb498810f6470afc3ab75d577ff735cfea60e857b55ab69e44a3fea589/SALTISE_course_flow-0.8.4.tar.gz
+[2023-06-01 05:48:11] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-06-01 05:48:11] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1685591106.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1685591116-py3-none-any.whl.zip --markdown 20230601/e/eia-odin-pkg-rioatmadja2018/0.1.1685591106-0.1.1685591116/diff.md --exclude *.pyd
+[2023-06-01 05:48:11] INFO root fetch - processPackages [pdg]: executing diffoscope
+[2023-06-01 05:48:11] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-06-01 05:48:11] INFO root fetch - processPackages [pdg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdg-0.0.4.tar.gz tmp/pdg-0.0.5.tar.gz --markdown 20230601/p/pdg/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-01 05:48:11] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1685591106.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1685591116-py3-none-any.whl.zip --markdown 20230601/e/eia-odin-pkg-rioatmadja2018/0.1.1685591106-0.1.1685591116/diff.md --exclude *.pyd
+[2023-06-01 05:48:11] INFO root fetch - processPackages [crio]: executing diffoscope
+[2023-06-01 05:48:11] INFO root fetch - processPackages [crio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crio-0.0.7.tar.gz tmp/crio-0.0.8.tar.gz --markdown 20230601/c/crio/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-01 05:48:11] INFO root fetch - processPackages [SALTISE-course-flow]: executing diffoscope
+[2023-06-01 05:48:11] INFO root fetch - processPackages [SALTISE-course-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SALTISE_course_flow-0.8.3.tar.gz tmp/SALTISE_course_flow-0.8.4.tar.gz --markdown 20230601/S/SALTISE-course-flow/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-06-01 05:48:13] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: Start processing: mltkit
+[2023-06-01 05:48:13] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-delivery-carrier]: success
+[2023-06-01 05:48:13] INFO root fetch - processPackages [mltkit]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-01 05:48:13] INFO root fetch - processPackages [macrometa-target-postgres]: Start processing: gwsci-pastro
+[2023-06-01 05:48:13] INFO root fetch - main [MainThread]: End processing [macrometa-target-postgres]: success
+[2023-06-01 05:48:13] INFO root fetch - main [MainThread]: End processing [strategais]: success
+[2023-06-01 05:48:13] INFO root fetch - processPackages [gwsci-pastro]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-06-01 05:48:13] INFO root fetch - processPackages [mltkit]: Downloading https://files.pythonhosted.org/packages/84/62/82d719a00f5316002d1e1f5e7fa0757f290a48a7ca79e8aff6ab1feece2b/mltkit-0.3.0.tar.gz
+[2023-06-01 05:48:13] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-06-01 05:48:13] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-airticketopen]: success
+[2023-06-01 05:48:13] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-06-01 05:48:13] INFO root fetch - processPackages [gwsci-pastro]: Downloading https://files.pythonhosted.org/packages/ec/63/8a347c84923391c369fe0ce6e64a691b1d50b7a82ebcd0ae7795e648ee6a/gwsci-pastro-0.0.3.tar.gz
+[2023-06-01 05:48:13] INFO root fetch - main [MainThread]: End processing [crio]: success
+[2023-06-01 05:48:13] INFO root fetch - processPackages [mltkit]: Downloading https://files.pythonhosted.org/packages/4c/f4/fc6dcb81032c06ed8ffa82a1e28ffd1da595cb9ffb692c8b012a1b3c3bfb/mltkit-0.3.1.tar.gz
+[2023-06-01 05:48:13] INFO root fetch - processPackages [gwsci-pastro]: Downloading https://files.pythonhosted.org/packages/bd/49/1828c354d34a335b042b0158d28d12975d0cf69a72932514dd60b4866533/gwsci-pastro-1.0.0.tar.gz
+[2023-06-01 05:48:14] INFO root fetch - processPackages [gwsci-pastro]: executing diffoscope
+[2023-06-01 05:48:14] INFO root fetch - processPackages [gwsci-pastro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwsci-pastro-0.0.3.tar.gz tmp/gwsci-pastro-1.0.0.tar.gz --markdown 20230601/g/gwsci-pastro/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-06-01 05:48:14] INFO root fetch - processPackages [mltkit]: executing diffoscope
+[2023-06-01 05:48:14] INFO root fetch - processPackages [mltkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltkit-0.3.0.tar.gz tmp/mltkit-0.3.1.tar.gz --markdown 20230601/m/mltkit/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-01 05:48:14] INFO root fetch - main [MainThread]: End processing [pdg]: success
+[2023-06-01 05:48:15] INFO root fetch - main [MainThread]: End processing [mltkit]: success
+[2023-06-01 05:48:15] INFO root fetch - main [MainThread]: End processing [gwsci-pastro]: success
+[2023-06-01 05:48:20] INFO root fetch - main [MainThread]: End processing [vos-mjjo]: success
+[2023-06-01 05:48:43] INFO root fetch - main [MainThread]: End processing [SALTISE-course-flow]: success
+[2023-06-01 05:48:43] INFO root fetch - main [MainThread]: Store serial: [18327948]
