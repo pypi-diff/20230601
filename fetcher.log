@@ -17908,3 +17908,121 @@
 [2023-06-01 14:45:30] INFO root fetch - main [MainThread]: End processing [crip]: success
 [2023-06-01 14:45:56] INFO root fetch - main [MainThread]: End processing [hiperwalk]: success
 [2023-06-01 14:45:56] INFO root fetch - main [MainThread]: Store serial: [18333297]
+[2023-06-01 14:51:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18333297]
+[2023-06-01 14:51:05] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-01 14:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cluster-tools
+[2023-06-01 14:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: renovosolutions.aws-cdk-renovo-s3-bucket
+[2023-06-01 14:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webknossos
+[2023-06-01 14:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wkcuber
+[2023-06-01 14:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: google-csv-helper
+[2023-06-01 14:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kodexa-cli
+[2023-06-01 14:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cybrid-api-organization-python
+[2023-06-01 14:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cybrid-api-id-python
+[2023-06-01 14:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrid-api-bank-python
+[2023-06-01 14:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: attune-project-api
+[2023-06-01 14:51:05] WARNING root fetch - processPackages [google-csv-helper]: Skipping, unable to determine old version
+[2023-06-01 14:51:05] INFO root fetch - processPackages [google-csv-helper]: Start processing: renovosolutions.aws-cdk-control-tower-lifecycle-events
+[2023-06-01 14:51:05] INFO root fetch - main [MainThread]: End processing [google-csv-helper] error
+[2023-06-01 14:51:05] INFO root fetch - processPackages [cluster-tools]: New version: [1.61] Old Version: [1.60]
+[2023-06-01 14:51:05] INFO root fetch - processPackages [attune-project-api]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-01 14:51:05] INFO root fetch - processPackages [wkcuber]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-01 14:51:05] INFO root fetch - processPackages [kodexa-cli]: New version: [6.2.25144492748] Old Version: [6.2.25123933035]
+[2023-06-01 14:51:05] INFO root fetch - processPackages [webknossos]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-01 14:51:05] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-01 14:51:05] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-01 14:51:05] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: New version: [2.2.99] Old Version: [2.2.98]
+[2023-06-01 14:51:05] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-01 14:51:05] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-01 14:51:05] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: executing diffoscope
+[2023-06-01 14:51:05] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-control-tower-lifecycle-events/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-01 14:51:05] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/ac/49/e4e383d15d62ee75ebbfeef73ec9d1de91dbb4c6a46193693e5ffac2b65f/kodexa_cli-6.2.25123933035.tar.gz
+[2023-06-01 14:51:06] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: Downloading https://files.pythonhosted.org/packages/4c/6b/90416cf53e8400cdaf11e92cb98ea451bf7c4f2d7c260a7cd9c6da11ec7d/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.98.tar.gz
+[2023-06-01 14:51:06] INFO root fetch - processPackages [wkcuber]: executing diffoscope
+[2023-06-01 14:51:06] INFO root fetch - processPackages [wkcuber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wkcuber-0.9.8.tar.gz tmp/wkcuber-0.9.9.tar.gz --markdown 20230601/w/wkcuber/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-01 14:51:06] INFO root fetch - processPackages [attune-project-api]: executing diffoscope
+[2023-06-01 14:51:06] INFO root fetch - processPackages [attune-project-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attune-project-api-0.9.8.tar.gz tmp/attune-project-api-0.9.9.tar.gz --markdown 20230601/a/attune-project-api/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-01 14:51:06] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-06-01 14:51:06] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230601/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-01 14:51:06] INFO root fetch - processPackages [cluster-tools]: executing diffoscope
+[2023-06-01 14:51:06] INFO root fetch - processPackages [cluster-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_tools-1.60.tar.gz tmp/cluster_tools-1.61.tar.gz --markdown 20230601/c/cluster-tools/1.60-1.61/diff.md --exclude *.pyd
+[2023-06-01 14:51:06] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-06-01 14:51:06] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230601/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-01 14:51:06] INFO root fetch - processPackages [webknossos]: executing diffoscope
+[2023-06-01 14:51:06] INFO root fetch - processPackages [webknossos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webknossos-0.9.8.tar.gz tmp/webknossos-0.9.9.tar.gz --markdown 20230601/w/webknossos/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-01 14:51:06] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-06-01 14:51:06] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230601/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-01 14:51:06] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/3d/0c/8fd748f60663c8189cad9dbd888533e8016bdcf8187d465019ae59274cf5/kodexa_cli-6.2.25144492748.tar.gz
+[2023-06-01 14:51:06] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-06-01 14:51:06] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.2.25123933035.tar.gz tmp/kodexa_cli-6.2.25144492748.tar.gz --markdown 20230601/k/kodexa-cli/6.2.25123933035-6.2.25144492748/diff.md --exclude *.pyd
+[2023-06-01 14:51:06] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: Downloading https://files.pythonhosted.org/packages/2d/44/4ea042d3b487e3c7587be24dd6662ddf2fca0abc104b9be548038ef0ed26/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.99.tar.gz
+[2023-06-01 14:51:07] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: executing diffoscope
+[2023-06-01 14:51:07] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-renovo-s3-bucket/2.2.98-2.2.99/diff.md --exclude *.pyd
+[2023-06-01 14:51:07] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: Start processing: homeassistant-stubs
+[2023-06-01 14:51:07] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-control-tower-lifecycle-events]: success
+[2023-06-01 14:51:07] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.6.0b1] Old Version: [2023.6.0b0]
+[2023-06-01 14:51:07] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/73/26/8498339bfdceb33588b6134a2b568cd2fb2d6e4b8ffec3b4bd37ff56c113/homeassistant_stubs-2023.6.0b1.tar.gz
+[2023-06-01 14:51:07] INFO root fetch - processPackages [attune-project-api]: Start processing: apysc
+[2023-06-01 14:51:07] INFO root fetch - main [MainThread]: End processing [attune-project-api]: success
+[2023-06-01 14:51:07] INFO root fetch - processPackages [apysc]: New version: [2.8.3] Old Version: [2.8.2]
+[2023-06-01 14:51:07] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-06-01 14:51:07] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.6.0b0.tar.gz tmp/homeassistant_stubs-2023.6.0b1.tar.gz --markdown 20230601/h/homeassistant-stubs/2023.6.0b0-2023.6.0b1/diff.md --exclude *.pyd
+[2023-06-01 14:51:08] INFO root fetch - processPackages [cluster-tools]: Start processing: miniscutil
+[2023-06-01 14:51:08] INFO root fetch - main [MainThread]: End processing [cluster-tools]: success
+[2023-06-01 14:51:08] INFO root fetch - processPackages [miniscutil]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-01 14:51:08] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/1c/c5/4cf8e1f0504b67fbd8710719d22e44530d28afc45bca234e6f6cbcc0b90b/apysc-2.8.3.tar.gz
+[2023-06-01 14:51:08] INFO root fetch - processPackages [miniscutil]: Downloading https://files.pythonhosted.org/packages/65/33/369c90792f6567d666e0679e546988583b5cc5178b093bfadfaf334a634e/miniscutil-0.2.7.tar.gz
+[2023-06-01 14:51:08] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-06-01 14:51:08] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-2.8.2.tar.gz tmp/apysc-2.8.3.tar.gz --markdown 20230601/a/apysc/2.8.2-2.8.3/diff.md --exclude *.pyd
+[2023-06-01 14:51:08] INFO root fetch - processPackages [miniscutil]: executing diffoscope
+[2023-06-01 14:51:08] INFO root fetch - processPackages [miniscutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniscutil-0.2.6.tar.gz tmp/miniscutil-0.2.7.tar.gz --markdown 20230601/m/miniscutil/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-01 14:51:08] INFO root fetch - processPackages [kodexa-cli]: Start processing: feffery-antd-components
+[2023-06-01 14:51:08] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-06-01 14:51:08] INFO root fetch - processPackages [feffery-antd-components]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-01 14:51:08] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: Start processing: polyclonal
+[2023-06-01 14:51:08] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-s3-bucket]: success
+[2023-06-01 14:51:08] INFO root fetch - processPackages [feffery-antd-components]: Downloading https://files.pythonhosted.org/packages/54/82/f35103c609f66540f561267cee21d87261dc90f7a6909eba705aab10d074/feffery_antd_components-0.2.8.tar.gz
+[2023-06-01 14:51:08] INFO root fetch - processPackages [polyclonal]: New version: [6.1] Old Version: [6.0]
+[2023-06-01 14:51:08] INFO root fetch - processPackages [webknossos]: Start processing: aizynthfinder
+[2023-06-01 14:51:08] INFO root fetch - main [MainThread]: End processing [webknossos]: success
+[2023-06-01 14:51:08] INFO root fetch - processPackages [polyclonal]: Downloading https://files.pythonhosted.org/packages/82/59/8551eb1496f071009402020ba9a1005fd36b3f91b8b00dfcf9d0a663155b/polyclonal-6.0.tar.gz
+[2023-06-01 14:51:08] INFO root fetch - processPackages [aizynthfinder]: New version: [3.7.0] Old Version: [3.6.0]
+[2023-06-01 14:51:08] WARNING root fetch - processPackages [polyclonal]: Skipping package: exceeds size limit 42057065>=10485760
+[2023-06-01 14:51:08] INFO root fetch - processPackages [polyclonal]: Start processing: kodexa-cli
+[2023-06-01 14:51:09] INFO root fetch - main [MainThread]: End processing [polyclonal] error
+[2023-06-01 14:51:09] INFO root fetch - processPackages [feffery-antd-components]: Downloading https://files.pythonhosted.org/packages/94/81/17fc6b7cca34abb81e767c58edbacfc6dbc509dc49bf7acfbfdcda1007ca/feffery_antd_components-0.2.9.tar.gz
+[2023-06-01 14:51:09] INFO root fetch - processPackages [kodexa-cli]: New version: [6.2.25144519283] Old Version: [6.2.25144492748]
+[2023-06-01 14:51:09] INFO root fetch - processPackages [feffery-antd-components]: executing diffoscope
+[2023-06-01 14:51:09] INFO root fetch - processPackages [feffery-antd-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_antd_components-0.2.8.tar.gz tmp/feffery_antd_components-0.2.9.tar.gz --markdown 20230601/f/feffery-antd-components/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-01 14:51:09] INFO root fetch - processPackages [aizynthfinder]: Downloading https://files.pythonhosted.org/packages/61/48/74c93c1a3274c595b5acf5c93d12a26f6f4034a67f8dbdc81b93349722db/aizynthfinder-3.6.0.tar.gz
+[2023-06-01 14:51:09] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/25/47/511d9ac230232bb7b417ab86b016296db32d758884dc32acc04ce8c9bee9/kodexa_cli-6.2.25144519283.tar.gz
+[2023-06-01 14:51:09] INFO root fetch - processPackages [wkcuber]: Start processing: EdgeGPT
+[2023-06-01 14:51:09] INFO root fetch - main [MainThread]: End processing [wkcuber]: success
+[2023-06-01 14:51:09] INFO root fetch - processPackages [EdgeGPT]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-06-01 14:51:09] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-06-01 14:51:09] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.2.25144492748.tar.gz tmp/kodexa_cli-6.2.25144519283.tar.gz --markdown 20230601/k/kodexa-cli/6.2.25144492748-6.2.25144519283/diff.md --exclude *.pyd
+[2023-06-01 14:51:09] INFO root fetch - processPackages [aizynthfinder]: Downloading https://files.pythonhosted.org/packages/f5/a9/eac9ae1d4e7231dc4b4929a56743764202b1c00646e92166b08db751a297/aizynthfinder-3.7.0.tar.gz
+[2023-06-01 14:51:09] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-06-01 14:51:09] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.6.9.tar.gz tmp/EdgeGPT-0.7.0.tar.gz --markdown 20230601/E/EdgeGPT/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-06-01 14:51:09] INFO root fetch - processPackages [aizynthfinder]: executing diffoscope
+[2023-06-01 14:51:09] INFO root fetch - processPackages [aizynthfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aizynthfinder-3.6.0.tar.gz tmp/aizynthfinder-3.7.0.tar.gz --markdown 20230601/a/aizynthfinder/3.6.0-3.7.0/diff.md --exclude *.pyd
+[2023-06-01 14:51:09] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: ttwizz
+[2023-06-01 14:51:09] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-06-01 14:51:10] WARNING root fetch - processPackages [ttwizz]: Skipping, unable to determine old version
+[2023-06-01 14:51:10] INFO root fetch - processPackages [ttwizz]: Start processing: daemonflux
+[2023-06-01 14:51:10] INFO root fetch - main [MainThread]: End processing [ttwizz] error
+[2023-06-01 14:51:10] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-06-01 14:51:10] INFO root fetch - processPackages [daemonflux]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-01 14:51:10] INFO root fetch - processPackages [daemonflux]: Downloading https://files.pythonhosted.org/packages/d7/30/92913ebc7620db7a4ae77018edbcd492ef913a3d316349498a2b4f38ade8/daemonflux-0.6.1.tar.gz
+[2023-06-01 14:51:10] INFO root fetch - main [MainThread]: End processing [miniscutil]: success
+[2023-06-01 14:51:10] INFO root fetch - processPackages [daemonflux]: Downloading https://files.pythonhosted.org/packages/28/42/305a5e0294460e6f6f1aedfac4fd72551dcf9fd7145da76078fce69f1e58/daemonflux-0.7.0.tar.gz
+[2023-06-01 14:51:10] INFO root fetch - processPackages [daemonflux]: executing diffoscope
+[2023-06-01 14:51:10] INFO root fetch - processPackages [daemonflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daemonflux-0.6.1.tar.gz tmp/daemonflux-0.7.0.tar.gz --markdown 20230601/d/daemonflux/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-01 14:51:11] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-06-01 14:51:11] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-06-01 14:51:11] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-06-01 14:51:12] INFO root fetch - main [MainThread]: End processing [daemonflux]: success
+[2023-06-01 14:51:13] INFO root fetch - main [MainThread]: End processing [aizynthfinder]: success
+[2023-06-01 14:51:15] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-06-01 14:51:36] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
+[2023-06-01 14:51:56] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-06-01 14:51:56] INFO root fetch - main [MainThread]: Store serial: [18333395]
