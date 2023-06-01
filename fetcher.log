@@ -9205,3 +9205,60 @@
 [2023-06-01 05:53:59] INFO root fetch - main [MainThread]: End processing [async-adbc]: success
 [2023-06-01 05:53:59] INFO root fetch - main [MainThread]: End processing [rapidexec]: success
 [2023-06-01 05:53:59] INFO root fetch - main [MainThread]: Store serial: [18328004]
+[2023-06-01 05:59:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18328004]
+[2023-06-01 05:59:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-01 05:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zepben.examples
+[2023-06-01 05:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: random-numbers
+[2023-06-01 05:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapidexec
+[2023-06-01 05:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: execy
+[2023-06-01 05:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gis-conflation-toolchain
+[2023-06-01 05:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: execy
+[2023-06-01 05:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysailfish
+[2023-06-01 05:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: random-numbers11
+[2023-06-01 05:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: computing-toolbox
+[2023-06-01 05:59:08] INFO root fetch - processPackages [rapidexec]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-01 05:59:08] INFO root fetch - processPackages [zepben.examples]: New version: [0.2.0b5] Old Version: [0.2.0b4]
+[2023-06-01 05:59:08] WARNING root fetch - processPackages [random-numbers]: Skipping, unable to determine old version
+[2023-06-01 05:59:08] INFO root fetch - main [MainThread]: End processing [random-numbers] error
+[2023-06-01 05:59:08] INFO root fetch - processPackages [execy]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-01 05:59:08] INFO root fetch - processPackages [execy]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-01 05:59:08] INFO root fetch - processPackages [gis-conflation-toolchain]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-01 05:59:08] INFO root fetch - processPackages [pysailfish]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-01 05:59:08] INFO root fetch - processPackages [computing-toolbox]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-01 05:59:08] WARNING root fetch - processPackages [random-numbers11]: Skipping, unable to determine old version
+[2023-06-01 05:59:08] INFO root fetch - main [MainThread]: End processing [random-numbers11] error
+[2023-06-01 05:59:08] INFO root fetch - processPackages [rapidexec]: Downloading https://files.pythonhosted.org/packages/c0/7c/e0fc4a4b76d636acdfa8ff59d63045c20306d98e50cd68c331058e86790a/rapidexec-0.0.3.tar.gz
+[2023-06-01 05:59:08] INFO root fetch - processPackages [execy]: Downloading https://files.pythonhosted.org/packages/0f/f9/92c74dc14c023283eacb596cae0f373ff8db41233cbce79d77b740319a27/execy-0.1.6.tar.gz
+[2023-06-01 05:59:08] INFO root fetch - processPackages [zepben.examples]: Downloading https://files.pythonhosted.org/packages/da/cd/3ce7c7fa627f00be2da6487e94a27831b5eedf6ad845fbbd3e48a30b7eda/zepben.examples-0.2.0b4-py3-none-any.whl
+[2023-06-01 05:59:08] INFO root fetch - processPackages [gis-conflation-toolchain]: Downloading https://files.pythonhosted.org/packages/78/81/8cdb423c57a311cdf1b5e394c102d980be4b61d9faab874a14607dedb3c4/gis-conflation-toolchain-0.7.0.tar.gz
+[2023-06-01 05:59:08] INFO root fetch - processPackages [execy]: Downloading https://files.pythonhosted.org/packages/0f/f9/92c74dc14c023283eacb596cae0f373ff8db41233cbce79d77b740319a27/execy-0.1.6.tar.gz
+[2023-06-01 05:59:08] INFO root fetch - processPackages [computing-toolbox]: Downloading https://files.pythonhosted.org/packages/b3/85/d083f6c0062acf03681c78f3a8bd738d283242bf5d6b6542fcc43d92f6ee/computing-toolbox-0.0.4.tar.gz
+[2023-06-01 05:59:08] INFO root fetch - processPackages [pysailfish]: Downloading https://files.pythonhosted.org/packages/38/3c/75ebb6fbdfa44644fb5a3a185c1d81df67c6bb26d5d6970d16a5b55f068e/pysailfish-1.2.0.tar.gz
+[2023-06-01 05:59:08] INFO root fetch - processPackages [rapidexec]: executing diffoscope
+[2023-06-01 05:59:08] INFO root fetch - processPackages [rapidexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidexec-0.0.2.tar.gz tmp/rapidexec-0.0.3.tar.gz --markdown 20230601/r/rapidexec/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-01 05:59:08] INFO root fetch - processPackages [execy]: Downloading https://files.pythonhosted.org/packages/8b/d2/153e53e9ef1221860a7f137f58bb132491e9acb38701ffe2dc65b09254a1/execy-0.1.7.tar.gz
+[2023-06-01 05:59:08] INFO root fetch - processPackages [execy]: Downloading https://files.pythonhosted.org/packages/8b/d2/153e53e9ef1221860a7f137f58bb132491e9acb38701ffe2dc65b09254a1/execy-0.1.7.tar.gz
+[2023-06-01 05:59:08] INFO root fetch - processPackages [gis-conflation-toolchain]: Downloading https://files.pythonhosted.org/packages/88/ed/66fba032aece54c0b6c642d7f02ac96c666a0536ecf3476f38b2d67d3a64/gis-conflation-toolchain-0.7.1.tar.gz
+[2023-06-01 05:59:08] INFO root fetch - processPackages [zepben.examples]: Downloading https://files.pythonhosted.org/packages/26/8e/0e242fcd5d4ee149b814625b4555bfb44c5c9f97ef2d309a0f0ab861bc92/zepben.examples-0.2.0b5-py3-none-any.whl
+[2023-06-01 05:59:08] INFO root fetch - processPackages [pysailfish]: Downloading https://files.pythonhosted.org/packages/e2/5d/5e98254c4297668c77519ed17e576bcb57d240cb32ecd96b2d74897197e8/pysailfish-1.3.0.tar.gz
+[2023-06-01 05:59:08] INFO root fetch - processPackages [gis-conflation-toolchain]: executing diffoscope
+[2023-06-01 05:59:08] INFO root fetch - processPackages [gis-conflation-toolchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gis-conflation-toolchain-0.7.0.tar.gz tmp/gis-conflation-toolchain-0.7.1.tar.gz --markdown 20230601/g/gis-conflation-toolchain/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-01 05:59:08] INFO root fetch - processPackages [execy]: executing diffoscope
+[2023-06-01 05:59:08] INFO root fetch - processPackages [execy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/execy-0.1.6.tar.gz tmp/execy-0.1.7.tar.gz --markdown 20230601/e/execy/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-01 05:59:08] INFO root fetch - processPackages [computing-toolbox]: Downloading https://files.pythonhosted.org/packages/87/2d/48c823e1b43b7e6fca9f20fb1f5d1c7b7eb52f4955daae2dfbbe64f3dad8/computing-toolbox-0.1.0.tar.gz
+[2023-06-01 05:59:08] INFO root fetch - processPackages [execy]: executing diffoscope
+[2023-06-01 05:59:08] INFO root fetch - processPackages [execy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/execy-0.1.6.tar.gz tmp/execy-0.1.7.tar.gz --markdown 20230601/e/execy/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-01 05:59:08] INFO root fetch - processPackages [zepben.examples]: executing diffoscope
+[2023-06-01 05:59:08] INFO root fetch - processPackages [zepben.examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.examples-0.2.0b4-py3-none-any.whl.zip tmp/zepben.examples-0.2.0b5-py3-none-any.whl.zip --markdown 20230601/z/zepben.examples/0.2.0b4-0.2.0b5/diff.md --exclude *.pyd
+[2023-06-01 05:59:09] INFO root fetch - processPackages [pysailfish]: executing diffoscope
+[2023-06-01 05:59:09] INFO root fetch - processPackages [pysailfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysailfish-1.2.0.tar.gz tmp/pysailfish-1.3.0.tar.gz --markdown 20230601/p/pysailfish/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-01 05:59:09] INFO root fetch - processPackages [computing-toolbox]: executing diffoscope
+[2023-06-01 05:59:09] INFO root fetch - processPackages [computing-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/computing-toolbox-0.0.4.tar.gz tmp/computing-toolbox-0.1.0.tar.gz --markdown 20230601/c/computing-toolbox/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-06-01 05:59:10] INFO root fetch - main [MainThread]: End processing [execy]: success
+[2023-06-01 05:59:10] INFO root fetch - main [MainThread]: End processing [gis-conflation-toolchain]: success
+[2023-06-01 05:59:10] INFO root fetch - main [MainThread]: End processing [zepben.examples]: success
+[2023-06-01 05:59:10] INFO root fetch - main [MainThread]: End processing [execy]: success
+[2023-06-01 05:59:10] INFO root fetch - main [MainThread]: End processing [rapidexec]: success
+[2023-06-01 05:59:10] INFO root fetch - main [MainThread]: End processing [computing-toolbox]: success
+[2023-06-01 05:59:10] INFO root fetch - main [MainThread]: End processing [pysailfish]: success
+[2023-06-01 05:59:10] INFO root fetch - main [MainThread]: Store serial: [18328043]
