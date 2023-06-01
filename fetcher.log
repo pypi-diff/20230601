@@ -18317,3 +18317,221 @@
 [2023-06-01 14:57:23] INFO root fetch - main [MainThread]: End processing [imscript]: success
 [2023-06-01 14:57:24] INFO root fetch - main [MainThread]: End processing [nenupy]: success
 [2023-06-01 14:57:24] INFO root fetch - main [MainThread]: Store serial: [18333569]
+[2023-06-01 15:02:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18333569]
+[2023-06-01 15:02:33] INFO root fetch - main [MainThread]: Found 41 changed packages
+[2023-06-01 15:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: large-image-source-gdal
+[2023-06-01 15:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: large-image-source-mapnik
+[2023-06-01 15:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: large-image-source-multi
+[2023-06-01 15:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: large-image-source-nd2
+[2023-06-01 15:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: large-image-source-ometiff
+[2023-06-01 15:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: osqp
+[2023-06-01 15:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blobtk
+[2023-06-01 15:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: large-image-source-openjpeg
+[2023-06-01 15:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: large-image-source-openslide
+[2023-06-01 15:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: large-image-source-pil
+[2023-06-01 15:02:33] INFO root fetch - processPackages [blobtk]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-01 15:02:33] INFO root fetch - processPackages [large-image-source-openjpeg]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 15:02:33] INFO root fetch - processPackages [large-image-source-mapnik]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 15:02:33] INFO root fetch - processPackages [osqp]: New version: [1.0.0b1] Old Version: [1.0.0a3]
+[2023-06-01 15:02:33] INFO root fetch - processPackages [large-image-source-gdal]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 15:02:33] INFO root fetch - processPackages [large-image-source-multi]: New version: [1.22.1.dev9] Old Version: [1.22.1.dev7]
+[2023-06-01 15:02:33] INFO root fetch - processPackages [large-image-source-nd2]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 15:02:33] INFO root fetch - processPackages [large-image-source-pil]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 15:02:33] INFO root fetch - processPackages [large-image-source-openslide]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 15:02:33] INFO root fetch - processPackages [large-image-source-ometiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 15:02:33] INFO root fetch - processPackages [large-image-source-pil]: executing diffoscope
+[2023-06-01 15:02:33] INFO root fetch - processPackages [large-image-source-pil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-pil-1.9.1.dev6.tar.gz tmp/large-image-source-pil-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-pil/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 15:02:33] INFO root fetch - processPackages [large-image-source-gdal]: executing diffoscope
+[2023-06-01 15:02:33] INFO root fetch - processPackages [large-image-source-gdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-gdal-1.9.1.dev6.tar.gz tmp/large-image-source-gdal-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-gdal/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 15:02:33] INFO root fetch - processPackages [large-image-source-openslide]: executing diffoscope
+[2023-06-01 15:02:33] INFO root fetch - processPackages [large-image-source-openslide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-openslide-1.9.1.dev6.tar.gz tmp/large-image-source-openslide-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-openslide/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 15:02:34] INFO root fetch - processPackages [large-image-source-openjpeg]: executing diffoscope
+[2023-06-01 15:02:34] INFO root fetch - processPackages [large-image-source-openjpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-openjpeg-1.9.1.dev6.tar.gz tmp/large-image-source-openjpeg-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-openjpeg/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 15:02:34] INFO root fetch - processPackages [blobtk]: Downloading https://files.pythonhosted.org/packages/13/dd/6f04016ebba69a0d86cbe21dff76838ec06465a04ed6cb6eef2c0b9675d0/blobtk-0.3.6.tar.gz
+[2023-06-01 15:02:34] INFO root fetch - processPackages [osqp]: Downloading https://files.pythonhosted.org/packages/9e/e3/c9eecf0318d819142649f074f1fcc4b266f7a72f975da9551985833d6e4a/osqp-1.0.0b1.tar.gz
+[2023-06-01 15:02:34] INFO root fetch - processPackages [large-image-source-multi]: executing diffoscope
+[2023-06-01 15:02:34] INFO root fetch - processPackages [large-image-source-multi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-multi-1.22.1.dev7.tar.gz tmp/large-image-source-multi-1.22.1.dev9.tar.gz --markdown 20230601/l/large-image-source-multi/1.22.1.dev7-1.22.1.dev9/diff.md --exclude *.pyd
+[2023-06-01 15:02:34] INFO root fetch - processPackages [large-image-source-mapnik]: executing diffoscope
+[2023-06-01 15:02:34] INFO root fetch - processPackages [large-image-source-mapnik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-mapnik-1.9.1.dev6.tar.gz tmp/large-image-source-mapnik-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-mapnik/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 15:02:34] INFO root fetch - processPackages [blobtk]: executing diffoscope
+[2023-06-01 15:02:34] INFO root fetch - processPackages [blobtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blobtk-0.3.5.tar.gz tmp/blobtk-0.3.6.tar.gz --markdown 20230601/b/blobtk/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-01 15:02:34] INFO root fetch - processPackages [large-image-source-nd2]: executing diffoscope
+[2023-06-01 15:02:34] INFO root fetch - processPackages [large-image-source-nd2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-nd2-1.9.1.dev6.tar.gz tmp/large-image-source-nd2-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-nd2/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 15:02:34] INFO root fetch - processPackages [large-image-source-ometiff]: executing diffoscope
+[2023-06-01 15:02:34] INFO root fetch - processPackages [osqp]: executing diffoscope
+[2023-06-01 15:02:34] INFO root fetch - processPackages [large-image-source-ometiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-ometiff-1.9.1.dev6.tar.gz tmp/large-image-source-ometiff-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-ometiff/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 15:02:34] INFO root fetch - processPackages [osqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osqp-1.0.0a3-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip tmp/osqp-1.0.0b1.tar.gz --markdown 20230601/o/osqp/1.0.0a3-1.0.0b1/diff.md --exclude *.pyd
+[2023-06-01 15:02:35] INFO root fetch - processPackages [large-image-source-pil]: Start processing: large-image-source-rasterio
+[2023-06-01 15:02:35] INFO root fetch - main [MainThread]: End processing [large-image-source-pil]: success
+[2023-06-01 15:02:35] INFO root fetch - processPackages [large-image-source-rasterio]: New version: [1.22.1.dev9] Old Version: [1.22.1.dev7]
+[2023-06-01 15:02:35] INFO root fetch - processPackages [large-image-source-gdal]: Start processing: renovosolutions.aws-cdk-aws-ipam
+[2023-06-01 15:02:35] INFO root fetch - main [MainThread]: End processing [large-image-source-gdal]: success
+[2023-06-01 15:02:35] INFO root fetch - processPackages [large-image-source-openslide]: Start processing: large-image-source-test
+[2023-06-01 15:02:35] INFO root fetch - main [MainThread]: End processing [large-image-source-openslide]: success
+[2023-06-01 15:02:35] INFO root fetch - processPackages [large-image-source-rasterio]: executing diffoscope
+[2023-06-01 15:02:35] INFO root fetch - processPackages [large-image-source-rasterio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-rasterio-1.22.1.dev7.tar.gz tmp/large-image-source-rasterio-1.22.1.dev9.tar.gz --markdown 20230601/l/large-image-source-rasterio/1.22.1.dev7-1.22.1.dev9/diff.md --exclude *.pyd
+[2023-06-01 15:02:35] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-01 15:02:35] INFO root fetch - processPackages [large-image-source-test]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 15:02:35] INFO root fetch - processPackages [large-image-source-test]: executing diffoscope
+[2023-06-01 15:02:35] INFO root fetch - processPackages [large-image-source-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-test-1.9.1.dev6.tar.gz tmp/large-image-source-test-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-test/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 15:02:35] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: Downloading https://files.pythonhosted.org/packages/c2/c1/ad0f39f3a12457517564edb1c577811c5ce01efd4b0f634c3df997075482/renovosolutions.aws-cdk-aws-ipam-0.1.98.tar.gz
+[2023-06-01 15:02:36] INFO root fetch - processPackages [large-image-source-mapnik]: Start processing: large-image-source-tiff
+[2023-06-01 15:02:36] INFO root fetch - main [MainThread]: End processing [large-image-source-mapnik]: success
+[2023-06-01 15:02:36] INFO root fetch - processPackages [large-image-source-openjpeg]: Start processing: large-image-source-tifffile
+[2023-06-01 15:02:36] INFO root fetch - main [MainThread]: End processing [large-image-source-openjpeg]: success
+[2023-06-01 15:02:36] INFO root fetch - processPackages [large-image-source-tiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 15:02:36] INFO root fetch - processPackages [large-image-source-tifffile]: New version: [1.22.1.dev9] Old Version: [1.22.1.dev7]
+[2023-06-01 15:02:36] INFO root fetch - processPackages [large-image-source-multi]: Start processing: tupa123
+[2023-06-01 15:02:36] INFO root fetch - main [MainThread]: End processing [large-image-source-multi]: success
+[2023-06-01 15:02:36] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: Downloading https://files.pythonhosted.org/packages/2f/d1/3af8b2d98ece8c2432eba0906f6b32fe3594f03fb17749135d16777a638e/renovosolutions.aws-cdk-aws-ipam-0.1.99.tar.gz
+[2023-06-01 15:02:36] INFO root fetch - processPackages [tupa123]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-01 15:02:36] INFO root fetch - processPackages [large-image-source-tifffile]: executing diffoscope
+[2023-06-01 15:02:36] INFO root fetch - processPackages [large-image-source-tiff]: executing diffoscope
+[2023-06-01 15:02:36] INFO root fetch - processPackages [large-image-source-tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tifffile-1.22.1.dev7.tar.gz tmp/large-image-source-tifffile-1.22.1.dev9.tar.gz --markdown 20230601/l/large-image-source-tifffile/1.22.1.dev7-1.22.1.dev9/diff.md --exclude *.pyd
+[2023-06-01 15:02:36] INFO root fetch - processPackages [large-image-source-tiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tiff-1.9.1.dev6.tar.gz tmp/large-image-source-tiff-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image-source-tiff/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 15:02:36] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: executing diffoscope
+[2023-06-01 15:02:36] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aws-ipam-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-aws-ipam-0.1.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-aws-ipam/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-01 15:02:36] INFO root fetch - processPackages [osqp]: Start processing: large-image-source-vips
+[2023-06-01 15:02:36] INFO root fetch - main [MainThread]: End processing [osqp]: success
+[2023-06-01 15:02:36] INFO root fetch - processPackages [large-image-source-vips]: New version: [1.22.1.dev9] Old Version: [1.22.1.dev7]
+[2023-06-01 15:02:36] INFO root fetch - processPackages [tupa123]: Downloading https://files.pythonhosted.org/packages/62/74/cca95e8237a38e73b3d7f1560ac1a65677219040a943353277faad839504/tupa123-1.5.4.tar.gz
+[2023-06-01 15:02:36] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-06-01 15:02:36] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.5.3.tar.gz tmp/tupa123-1.5.4.tar.gz --markdown 20230601/t/tupa123/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-06-01 15:02:36] INFO root fetch - processPackages [blobtk]: Start processing: dktotoolkit
+[2023-06-01 15:02:36] INFO root fetch - main [MainThread]: End processing [blobtk]: success
+[2023-06-01 15:02:36] INFO root fetch - processPackages [dktotoolkit]: New version: [1.0.0a12] Old Version: [0.0.1a0]
+[2023-06-01 15:02:36] INFO root fetch - processPackages [large-image-source-vips]: executing diffoscope
+[2023-06-01 15:02:36] INFO root fetch - processPackages [large-image-source-vips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-vips-1.22.1.dev7.tar.gz tmp/large-image-source-vips-1.22.1.dev9.tar.gz --markdown 20230601/l/large-image-source-vips/1.22.1.dev7-1.22.1.dev9/diff.md --exclude *.pyd
+[2023-06-01 15:02:36] INFO root fetch - processPackages [large-image-source-nd2]: Start processing: osqp-mkl
+[2023-06-01 15:02:36] INFO root fetch - main [MainThread]: End processing [large-image-source-nd2]: success
+[2023-06-01 15:02:36] WARNING root fetch - processPackages [osqp-mkl]: Skipping, unable to determine old version
+[2023-06-01 15:02:36] INFO root fetch - processPackages [osqp-mkl]: Start processing: leafmap
+[2023-06-01 15:02:36] INFO root fetch - main [MainThread]: End processing [osqp-mkl] error
+[2023-06-01 15:02:36] INFO root fetch - processPackages [leafmap]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-01 15:02:36] INFO root fetch - processPackages [dktotoolkit]: Downloading https://files.pythonhosted.org/packages/ce/f5/b19b272f3a2211da7c318ce97875d36538979c4ab1aa1c6b19187fad93ea/dktotoolkit-0.0.1a0.tar.gz
+[2023-06-01 15:02:36] INFO root fetch - processPackages [large-image-source-ometiff]: Start processing: pylyzer
+[2023-06-01 15:02:36] INFO root fetch - main [MainThread]: End processing [large-image-source-ometiff]: success
+[2023-06-01 15:02:36] INFO root fetch - processPackages [pylyzer]: New version: [0.1.0b0] Old Version: [0.0.9]
+[2023-06-01 15:02:37] INFO root fetch - processPackages [dktotoolkit]: Downloading https://files.pythonhosted.org/packages/1a/d6/7b18ba77c20a7484f068fb35393dd9c10b8089ac23bdb5363070d052e7bf/dktotoolkit-1.0.0a12.tar.gz
+[2023-06-01 15:02:37] INFO root fetch - processPackages [leafmap]: executing diffoscope
+[2023-06-01 15:02:37] INFO root fetch - processPackages [leafmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leafmap-0.9.5.tar.gz tmp/leafmap-0.9.6.tar.gz --markdown 20230601/l/leafmap/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-01 15:02:37] INFO root fetch - processPackages [pylyzer]: executing diffoscope
+[2023-06-01 15:02:37] INFO root fetch - processPackages [pylyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylyzer-0.0.9-py3-none-win_amd64.whl.zip tmp/pylyzer-0.1.0b0.tar.gz --markdown 20230601/p/pylyzer/0.0.9-0.1.0b0/diff.md --exclude *.pyd
+[2023-06-01 15:02:37] INFO root fetch - processPackages [dktotoolkit]: executing diffoscope
+[2023-06-01 15:02:37] INFO root fetch - processPackages [dktotoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dktotoolkit-0.0.1a0.tar.gz tmp/dktotoolkit-1.0.0a12.tar.gz --markdown 20230601/d/dktotoolkit/0.0.1a0-1.0.0a12/diff.md --exclude *.pyd
+[2023-06-01 15:02:38] INFO root fetch - processPackages [large-image-source-rasterio]: Start processing: gomall
+[2023-06-01 15:02:38] INFO root fetch - main [MainThread]: End processing [large-image-source-rasterio]: success
+[2023-06-01 15:02:38] INFO root fetch - processPackages [gomall]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-01 15:02:38] INFO root fetch - processPackages [large-image-source-test]: Start processing: nb2workflow
+[2023-06-01 15:02:38] INFO root fetch - main [MainThread]: End processing [large-image-source-test]: success
+[2023-06-01 15:02:38] INFO root fetch - processPackages [nb2workflow]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-01 15:02:38] INFO root fetch - processPackages [large-image-source-tifffile]: Start processing: rysk-client
+[2023-06-01 15:02:38] INFO root fetch - main [MainThread]: End processing [large-image-source-tifffile]: success
+[2023-06-01 15:02:38] INFO root fetch - processPackages [rysk-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-01 15:02:38] INFO root fetch - processPackages [nb2workflow]: executing diffoscope
+[2023-06-01 15:02:38] INFO root fetch - processPackages [nb2workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb2workflow-1.3.8.tar.gz tmp/nb2workflow-1.3.9.tar.gz --markdown 20230601/n/nb2workflow/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-01 15:02:38] INFO root fetch - processPackages [gomall]: Downloading https://files.pythonhosted.org/packages/d7/48/bfe8719f78c6c5299f6b5e9e75b0cfbb5bc9e1cede0a8c3762e6aa1d5ae3/gomall-0.0.3.tar.gz
+[2023-06-01 15:02:38] INFO root fetch - processPackages [rysk-client]: Downloading https://files.pythonhosted.org/packages/51/45/3cdf5fd9c92360610a44733d3af89c053fc8f29a4a0aea65fc4babc5aeb0/rysk_client-0.1.0.tar.gz
+[2023-06-01 15:02:38] INFO root fetch - processPackages [large-image-source-tiff]: Start processing: renovosolutions.aws-cdk-certbot
+[2023-06-01 15:02:38] INFO root fetch - main [MainThread]: End processing [large-image-source-tiff]: success
+[2023-06-01 15:02:38] INFO root fetch - processPackages [renovosolutions.aws-cdk-certbot]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-06-01 15:02:38] INFO root fetch - processPackages [tupa123]: Start processing: renovosolutions.aws-cdk-aws-ipam
+[2023-06-01 15:02:38] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-06-01 15:02:38] INFO root fetch - processPackages [gomall]: executing diffoscope
+[2023-06-01 15:02:38] INFO root fetch - processPackages [gomall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gomall-0.0.1.tar.gz tmp/gomall-0.0.3.tar.gz --markdown 20230601/g/gomall/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-01 15:02:38] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-01 15:02:38] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: executing diffoscope
+[2023-06-01 15:02:38] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aws-ipam-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-aws-ipam-0.1.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-aws-ipam/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-01 15:02:38] INFO root fetch - processPackages [renovosolutions.aws-cdk-certbot]: Downloading https://files.pythonhosted.org/packages/72/f5/626fc4d513cf2ea8d1bbbb6f1196caaa2997129e564519db0b427203bbeb/renovosolutions.aws-cdk-certbot-2.4.2.tar.gz
+[2023-06-01 15:02:38] WARNING root fetch - processPackages [renovosolutions.aws-cdk-certbot]: Skipping package: exceeds size limit 18415477>=10485760
+[2023-06-01 15:02:38] INFO root fetch - processPackages [renovosolutions.aws-cdk-certbot]: Start processing: moiz-gillani-whatsapp-cloud-api-sdk
+[2023-06-01 15:02:38] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-certbot] error
+[2023-06-01 15:02:38] INFO root fetch - processPackages [large-image-source-vips]: Start processing: supervisely
+[2023-06-01 15:02:38] INFO root fetch - processPackages [rysk-client]: Downloading https://files.pythonhosted.org/packages/0d/66/1c2c2959975b20a142588934a2a80e4f24155dfb272232799d44bd649ce8/rysk_client-0.1.1.tar.gz
+[2023-06-01 15:02:38] INFO root fetch - main [MainThread]: End processing [large-image-source-vips]: success
+[2023-06-01 15:02:38] WARNING root fetch - processPackages [moiz-gillani-whatsapp-cloud-api-sdk]: Skipping, unable to determine old version
+[2023-06-01 15:02:38] INFO root fetch - processPackages [moiz-gillani-whatsapp-cloud-api-sdk]: Start processing: odoo12-addon-sm-partago-usage
+[2023-06-01 15:02:38] INFO root fetch - main [MainThread]: End processing [moiz-gillani-whatsapp-cloud-api-sdk] error
+[2023-06-01 15:02:39] INFO root fetch - processPackages [odoo12-addon-sm-partago-usage]: New version: [12.0.0.1.9] Old Version: [12.0.0.1.8]
+[2023-06-01 15:02:39] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-06-01 15:02:39] INFO root fetch - processPackages [rysk-client]: executing diffoscope
+[2023-06-01 15:02:39] INFO root fetch - processPackages [rysk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rysk_client-0.1.0.tar.gz tmp/rysk_client-0.1.1.tar.gz --markdown 20230601/r/rysk-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-01 15:02:39] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-06-01 15:02:39] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230601/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-06-01 15:02:39] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: Start processing: renovosolutions.aws-cdk-aspects-security-group
+[2023-06-01 15:02:39] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aws-ipam]: success
+[2023-06-01 15:02:39] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-06-01 15:02:39] INFO root fetch - processPackages [odoo12-addon-sm-partago-usage]: Downloading https://files.pythonhosted.org/packages/b5/95/77e5a9f220977cde6850894cc6f7e3963c961105f9ded808c5c41d0b9701/odoo12_addon_sm_partago_usage-12.0.0.1.8-py2.py3-none-any.whl
+[2023-06-01 15:02:39] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: executing diffoscope
+[2023-06-01 15:02:39] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.98.tar.gz tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-aspects-security-group/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-06-01 15:02:39] INFO root fetch - processPackages [dktotoolkit]: Start processing: geemap
+[2023-06-01 15:02:39] INFO root fetch - main [MainThread]: End processing [dktotoolkit]: success
+[2023-06-01 15:02:39] INFO root fetch - processPackages [geemap]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-01 15:02:39] INFO root fetch - processPackages [leafmap]: Start processing: com.castsoftware.uc.oneclick
+[2023-06-01 15:02:39] INFO root fetch - main [MainThread]: End processing [leafmap]: success
+[2023-06-01 15:02:39] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: New version: [0.2.2.9] Old Version: [0.2.2.8]
+[2023-06-01 15:02:39] INFO root fetch - processPackages [odoo12-addon-sm-partago-usage]: Downloading https://files.pythonhosted.org/packages/4c/a8/b02f016fa243b39a723d7d63a0dd063a38dfa526b9124a67c1362e332fca/odoo12_addon_sm_partago_usage-12.0.0.1.9-py2.py3-none-any.whl
+[2023-06-01 15:02:39] INFO root fetch - processPackages [odoo12-addon-sm-partago-usage]: executing diffoscope
+[2023-06-01 15:02:39] INFO root fetch - processPackages [odoo12-addon-sm-partago-usage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sm_partago_usage-12.0.0.1.8-py2.py3-none-any.whl.zip tmp/odoo12_addon_sm_partago_usage-12.0.0.1.9-py2.py3-none-any.whl.zip --markdown 20230601/o/odoo12-addon-sm-partago-usage/12.0.0.1.8-12.0.0.1.9/diff.md --exclude *.pyd
+[2023-06-01 15:02:39] INFO root fetch - processPackages [geemap]: executing diffoscope
+[2023-06-01 15:02:39] INFO root fetch - processPackages [geemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geemap-0.9.4.tar.gz tmp/geemap-0.9.5.tar.gz --markdown 20230601/g/geemap/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-01 15:02:39] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: executing diffoscope
+[2023-06-01 15:02:39] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/com.castsoftware.uc.oneclick-0.2.2.8.tar.gz tmp/com.castsoftware.uc.oneclick-0.2.2.9.tar.gz --markdown 20230601/c/com.castsoftware.uc.oneclick/0.2.2.8-0.2.2.9/diff.md --exclude *.pyd
+[2023-06-01 15:02:40] INFO root fetch - processPackages [gomall]: Start processing: imscript
+[2023-06-01 15:02:40] INFO root fetch - main [MainThread]: End processing [gomall]: success
+[2023-06-01 15:02:40] INFO root fetch - processPackages [imscript]: New version: [0.5] Old Version: [0.4]
+[2023-06-01 15:02:40] INFO root fetch - processPackages [imscript]: Downloading https://files.pythonhosted.org/packages/e3/a3/b135cca6faa03a2b4d75ddb13a433f6c6bf96f852b5878bb1193a7dde74c/imscript-0.5.tar.gz
+[2023-06-01 15:02:40] INFO root fetch - processPackages [imscript]: executing diffoscope
+[2023-06-01 15:02:40] INFO root fetch - processPackages [imscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imscript-0.4.tar.gz tmp/imscript-0.5.tar.gz --markdown 20230601/i/imscript/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-01 15:02:40] INFO root fetch - processPackages [nb2workflow]: Start processing: renovosolutions.aws-cdk-renovo-microapi
+[2023-06-01 15:02:40] INFO root fetch - main [MainThread]: End processing [nb2workflow]: success
+[2023-06-01 15:02:40] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 15:02:40] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: Start processing: renovosolutions.aws-cdk-managed-instance-role
+[2023-06-01 15:02:40] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aws-ipam]: success
+[2023-06-01 15:02:40] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-01 15:02:40] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: executing diffoscope
+[2023-06-01 15:02:40] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-managed-instance-role-2.3.98.tar.gz tmp/renovosolutions.aws-cdk-managed-instance-role-2.3.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-managed-instance-role/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-01 15:02:41] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: Downloading https://files.pythonhosted.org/packages/6f/a0/2f52bd9c495706f631a880c76be84f6c27df10c8da92047df14faa075df2/renovosolutions.aws-cdk-renovo-microapi-0.0.98.tar.gz
+[2023-06-01 15:02:41] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: Downloading https://files.pythonhosted.org/packages/57/f9/c3ee155a2dd2e64c30a8b59d5136d31239e290b0f15a7aca86e087a84cb3/renovosolutions.aws-cdk-renovo-microapi-0.0.99.tar.gz
+[2023-06-01 15:02:41] INFO root fetch - processPackages [odoo12-addon-sm-partago-usage]: Start processing: CliRenderer
+[2023-06-01 15:02:41] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sm-partago-usage]: success
+[2023-06-01 15:02:41] INFO root fetch - processPackages [CliRenderer]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-01 15:02:41] INFO root fetch - processPackages [CliRenderer]: Downloading https://files.pythonhosted.org/packages/e5/b9/6d1b1b9f4692fde193341c6bbae51615ac7abc1cab9f726916f7f551209d/CliRenderer-0.1.3.tar.gz
+[2023-06-01 15:02:41] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: Start processing: decore-Base
+[2023-06-01 15:02:41] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aspects-security-group]: success
+[2023-06-01 15:02:41] INFO root fetch - processPackages [decore-Base]: New version: [0.0.16] Old Version: [0.0.15]
+[2023-06-01 15:02:41] INFO root fetch - processPackages [CliRenderer]: Downloading https://files.pythonhosted.org/packages/2c/ce/99805d6f729e0a4d7566d4a01f85e187ab2c160a88e0684171e483a98e55/CliRenderer-0.1.4.tar.gz
+[2023-06-01 15:02:41] INFO root fetch - processPackages [CliRenderer]: executing diffoscope
+[2023-06-01 15:02:41] INFO root fetch - processPackages [CliRenderer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CliRenderer-0.1.3.tar.gz tmp/CliRenderer-0.1.4.tar.gz --markdown 20230601/C/CliRenderer/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-01 15:02:41] INFO root fetch - processPackages [decore-Base]: Downloading https://files.pythonhosted.org/packages/f6/7d/83da5dcb3101642baf67dad047255f23bf0eb594e71dabc134136b308c99/decore_Base-0.0.16.tar.gz
+[2023-06-01 15:02:41] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: executing diffoscope
+[2023-06-01 15:02:41] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-microapi-0.0.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-microapi-0.0.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-renovo-microapi/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 15:02:42] INFO root fetch - processPackages [decore-Base]: executing diffoscope
+[2023-06-01 15:02:42] INFO root fetch - processPackages [decore-Base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decore_Base-0.0.15.tar.gz tmp/decore_Base-0.0.16.tar.gz --markdown 20230601/d/decore-Base/0.0.15-0.0.16/diff.md --exclude *.pyd
+[2023-06-01 15:02:42] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Start processing: modAL-python-mirror
+[2023-06-01 15:02:42] INFO root fetch - main [MainThread]: End processing [com.castsoftware.uc.oneclick]: success
+[2023-06-01 15:02:42] WARNING root fetch - processPackages [modAL-python-mirror]: Skipping, unable to determine old version
+[2023-06-01 15:02:42] INFO root fetch - processPackages [modAL-python-mirror]: Start processing: dp-ai-data-harmonization
+[2023-06-01 15:02:42] INFO root fetch - main [MainThread]: End processing [modAL-python-mirror] error
+[2023-06-01 15:02:42] WARNING root fetch - processPackages [dp-ai-data-harmonization]: Skipping, unable to determine old version
+[2023-06-01 15:02:42] INFO root fetch - processPackages [dp-ai-data-harmonization]: Start processing: renovosolutions.aws-cdk-multi-account-az-mapping
+[2023-06-01 15:02:42] INFO root fetch - main [MainThread]: End processing [dp-ai-data-harmonization] error
+[2023-06-01 15:02:42] INFO root fetch - processPackages [renovosolutions.aws-cdk-multi-account-az-mapping]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 15:02:42] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: Start processing: easyNotion
+[2023-06-01 15:02:42] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-managed-instance-role]: success
+[2023-06-01 15:02:42] WARNING root fetch - processPackages [easyNotion]: Skipping, unable to determine old version
+[2023-06-01 15:02:42] INFO root fetch - main [MainThread]: End processing [easyNotion] error
+[2023-06-01 15:02:42] INFO root fetch - processPackages [renovosolutions.aws-cdk-multi-account-az-mapping]: Downloading https://files.pythonhosted.org/packages/42/81/6bd9b9a0e432b6fdd50bde835192e4750d21a37a1ad9cce202fe06def717/renovosolutions.aws-cdk-multi-account-az-mapping-0.0.8.tar.gz
+[2023-06-01 15:02:42] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-06-01 15:02:42] INFO root fetch - main [MainThread]: End processing [geemap]: success
+[2023-06-01 15:02:43] INFO root fetch - processPackages [renovosolutions.aws-cdk-multi-account-az-mapping]: Downloading https://files.pythonhosted.org/packages/ad/2d/b2d77cccec47654fd91542ab14949fab1f82f202256f15026fec9e25a299/renovosolutions.aws-cdk-multi-account-az-mapping-0.0.9.tar.gz
+[2023-06-01 15:02:43] INFO root fetch - main [MainThread]: End processing [CliRenderer]: success
+[2023-06-01 15:02:43] INFO root fetch - processPackages [renovosolutions.aws-cdk-multi-account-az-mapping]: executing diffoscope
+[2023-06-01 15:02:43] INFO root fetch - processPackages [renovosolutions.aws-cdk-multi-account-az-mapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-multi-account-az-mapping-0.0.8.tar.gz tmp/renovosolutions.aws-cdk-multi-account-az-mapping-0.0.9.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-multi-account-az-mapping/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 15:02:43] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-microapi]: success
+[2023-06-01 15:02:43] INFO root fetch - main [MainThread]: End processing [rysk-client]: success
+[2023-06-01 15:02:43] INFO root fetch - main [MainThread]: End processing [pylyzer]: success
+[2023-06-01 15:02:44] INFO root fetch - main [MainThread]: End processing [decore-Base]: success
+[2023-06-01 15:02:44] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-multi-account-az-mapping]: success
+[2023-06-01 15:02:45] INFO root fetch - main [MainThread]: End processing [imscript]: success
+[2023-06-01 15:02:45] INFO root fetch - main [MainThread]: Store serial: [18333723]
