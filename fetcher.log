@@ -11263,3 +11263,92 @@
 [2023-06-01 09:03:26] ERROR root fetch - processPackages [moto-ext]: Timeout during execution of pkgdiff
 [2023-06-01 09:03:26] INFO root fetch - main [MainThread]: End processing [moto-ext] error
 [2023-06-01 09:03:26] INFO root fetch - main [MainThread]: Store serial: [18329185]
+[2023-06-01 09:08:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18329185]
+[2023-06-01 09:08:35] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-01 09:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-models-nightly
+[2023-06-01 09:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tigeropen
+[2023-06-01 09:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seqio-nightly
+[2023-06-01 09:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zoviz
+[2023-06-01 09:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: memphis-py-beta
+[2023-06-01 09:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SwissArmyTransformer
+[2023-06-01 09:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SRI-dict-mt
+[2023-06-01 09:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: blackboxopt
+[2023-06-01 09:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: innerverz
+[2023-06-01 09:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yt-fts
+[2023-06-01 09:08:36] INFO root fetch - processPackages [tigeropen]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-01 09:08:36] INFO root fetch - processPackages [memphis-py-beta]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-01 09:08:36] INFO root fetch - processPackages [SwissArmyTransformer]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-01 09:08:36] INFO root fetch - processPackages [zoviz]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-06-01 09:08:36] INFO root fetch - processPackages [innerverz]: New version: [0.0.29] Old Version: [0.0.28]
+[2023-06-01 09:08:36] INFO root fetch - processPackages [blackboxopt]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-01 09:08:36] INFO root fetch - processPackages [yt-fts]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 09:08:36] WARNING root fetch - processPackages [SRI-dict-mt]: Skipping, unable to determine old version
+[2023-06-01 09:08:36] INFO root fetch - processPackages [SRI-dict-mt]: Start processing: ersciyt
+[2023-06-01 09:08:36] INFO root fetch - main [MainThread]: End processing [SRI-dict-mt] error
+[2023-06-01 09:08:36] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-01 09:08:36] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2023-06-01 09:08:36] INFO root fetch - processPackages [ersciyt]: New version: [1.95] Old Version: [1.94]
+[2023-06-01 09:08:36] INFO root fetch - processPackages [tigeropen]: Downloading https://files.pythonhosted.org/packages/c7/d3/c03658685c36c141515b49eeae69f16b4cb87d41f81db75c189f059a3bdd/tigeropen-2.3.8.tar.gz
+[2023-06-01 09:08:36] INFO root fetch - processPackages [memphis-py-beta]: Downloading https://files.pythonhosted.org/packages/83/71/643dd4b0553030fbd78136e1b6c5fadbd70fbc25612453ba616416b0bdf6/memphis-py-beta-1.0.4.tar.gz
+[2023-06-01 09:08:36] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/e7/00/63cc854089bab1929d578598ad2c0e97a2c680b1af35eae1506061a11db0/innerverz-0.0.28.tar.gz
+[2023-06-01 09:08:36] INFO root fetch - processPackages [blackboxopt]: Downloading https://files.pythonhosted.org/packages/05/d3/dcdd6db90f01688a0d2e1aaa801a905a114698eabb38fb0fc9d64cb4ae6f/blackboxopt-4.9.0.tar.gz
+[2023-06-01 09:08:36] INFO root fetch - processPackages [SwissArmyTransformer]: Downloading https://files.pythonhosted.org/packages/ab/1c/83bf9eeb7050719ec017b59c4b54f5caa3447ec3cf24424741dbd4fb84a3/SwissArmyTransformer-0.3.6.tar.gz
+[2023-06-01 09:08:36] INFO root fetch - processPackages [yt-fts]: executing diffoscope
+[2023-06-01 09:08:36] INFO root fetch - processPackages [yt-fts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt-fts-0.1.8.tar.gz tmp/yt-fts-0.1.9.tar.gz --markdown 20230601/y/yt-fts/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 09:08:36] INFO root fetch - processPackages [ersciyt]: Downloading https://files.pythonhosted.org/packages/1f/34/6657e3293d7fdb1bc28f69bcd13ba50562fb280f0479375b6bde63d5d532/ersciyt-1.95.tar.gz
+[2023-06-01 09:08:36] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2023-06-01 09:08:36] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20230601/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2023-06-01 09:08:36] INFO root fetch - processPackages [memphis-py-beta]: Downloading https://files.pythonhosted.org/packages/cc/1f/9da3a7daca82db22bd021760549ee61a75e22514fc8a99222c7531365974/memphis-py-beta-1.0.5.tar.gz
+[2023-06-01 09:08:36] INFO root fetch - processPackages [tigeropen]: Downloading https://files.pythonhosted.org/packages/58/b7/2957c4d1ec2087509606771d95e2a0f2e23eda92904b609ee000d3dd6867/tigeropen-2.3.9.tar.gz
+[2023-06-01 09:08:36] INFO root fetch - processPackages [zoviz]: executing diffoscope
+[2023-06-01 09:08:36] INFO root fetch - processPackages [zoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoviz-0.4.98.tar.gz tmp/zoviz-0.4.99.tar.gz --markdown 20230601/z/zoviz/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-06-01 09:08:36] INFO root fetch - processPackages [ersciyt]: executing diffoscope
+[2023-06-01 09:08:36] INFO root fetch - processPackages [ersciyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ersciyt-1.94.tar.gz tmp/ersciyt-1.95.tar.gz --markdown 20230601/e/ersciyt/1.94-1.95/diff.md --exclude *.pyd
+[2023-06-01 09:08:36] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/a0/29/341d285f4fb01366f510b50989bf741c21b50fb2b2d3462c8d8103a51bce/innerverz-0.0.29.tar.gz
+[2023-06-01 09:08:36] INFO root fetch - processPackages [memphis-py-beta]: executing diffoscope
+[2023-06-01 09:08:36] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-01 09:08:36] INFO root fetch - processPackages [memphis-py-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memphis-py-beta-1.0.4.tar.gz tmp/memphis-py-beta-1.0.5.tar.gz --markdown 20230601/m/memphis-py-beta/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-01 09:08:36] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230601/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-01 09:08:36] INFO root fetch - processPackages [tigeropen]: executing diffoscope
+[2023-06-01 09:08:36] INFO root fetch - processPackages [tigeropen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigeropen-2.3.8.tar.gz tmp/tigeropen-2.3.9.tar.gz --markdown 20230601/t/tigeropen/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-06-01 09:08:36] INFO root fetch - processPackages [SwissArmyTransformer]: Downloading https://files.pythonhosted.org/packages/56/7c/1490e7e70eb601e30e9fecfbd64ee56cffb9905f2109ade6534c00640f87/SwissArmyTransformer-0.3.7.tar.gz
+[2023-06-01 09:08:36] INFO root fetch - processPackages [blackboxopt]: Downloading https://files.pythonhosted.org/packages/49/10/8778a9fdf199408eac6823ba263f2add1d3b75175f56b5a76ea1922b4872/blackboxopt-4.9.1.tar.gz
+[2023-06-01 09:08:36] INFO root fetch - processPackages [innerverz]: executing diffoscope
+[2023-06-01 09:08:36] INFO root fetch - processPackages [innerverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz-0.0.28.tar.gz tmp/innerverz-0.0.29.tar.gz --markdown 20230601/i/innerverz/0.0.28-0.0.29/diff.md --exclude *.pyd
+[2023-06-01 09:08:36] INFO root fetch - processPackages [blackboxopt]: executing diffoscope
+[2023-06-01 09:08:36] INFO root fetch - processPackages [blackboxopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackboxopt-4.9.0.tar.gz tmp/blackboxopt-4.9.1.tar.gz --markdown 20230601/b/blackboxopt/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-01 09:08:36] INFO root fetch - processPackages [SwissArmyTransformer]: executing diffoscope
+[2023-06-01 09:08:36] INFO root fetch - processPackages [SwissArmyTransformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SwissArmyTransformer-0.3.6.tar.gz tmp/SwissArmyTransformer-0.3.7.tar.gz --markdown 20230601/S/SwissArmyTransformer/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-01 09:08:38] INFO root fetch - processPackages [yt-fts]: Start processing: mercuryclient
+[2023-06-01 09:08:38] INFO root fetch - main [MainThread]: End processing [yt-fts]: success
+[2023-06-01 09:08:38] INFO root fetch - processPackages [mercuryclient]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-01 09:08:38] INFO root fetch - processPackages [ersciyt]: Start processing: SRIdictionary
+[2023-06-01 09:08:38] INFO root fetch - main [MainThread]: End processing [ersciyt]: success
+[2023-06-01 09:08:38] INFO root fetch - processPackages [mercuryclient]: Downloading https://files.pythonhosted.org/packages/77/4b/b676103be9e7f6c83049a6dfb9206a5b1f62da6b3c5df7af5a9db98e40ef/mercuryclient-1.8.1.tar.gz
+[2023-06-01 09:08:38] WARNING root fetch - processPackages [SRIdictionary]: Skipping, unable to determine old version
+[2023-06-01 09:08:38] INFO root fetch - processPackages [SRIdictionary]: Start processing: etos-lib
+[2023-06-01 09:08:38] INFO root fetch - main [MainThread]: End processing [SRIdictionary] error
+[2023-06-01 09:08:38] INFO root fetch - processPackages [zoviz]: Start processing: tf-hub-nightly
+[2023-06-01 09:08:38] INFO root fetch - main [MainThread]: End processing [zoviz]: success
+[2023-06-01 09:08:38] INFO root fetch - processPackages [etos-lib]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-06-01 09:08:38] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-06-01 09:08:38] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-06-01 09:08:38] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230601/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-06-01 09:08:38] INFO root fetch - main [MainThread]: End processing [memphis-py-beta]: success
+[2023-06-01 09:08:38] INFO root fetch - processPackages [etos-lib]: Downloading https://files.pythonhosted.org/packages/e6/2f/2291f0c299b4b7dfff02e56936fab71add183e601dbfbd2c64bdc2b0452f/etos_lib-2.1.0.tar.gz
+[2023-06-01 09:08:38] INFO root fetch - processPackages [mercuryclient]: Downloading https://files.pythonhosted.org/packages/a2/73/6aa0418cd86b78fbb7d37d5f4f5ae947a55dfe0134866a805c5361b3354e/mercuryclient-1.9.0.tar.gz
+[2023-06-01 09:08:38] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-01 09:08:38] INFO root fetch - processPackages [etos-lib]: Downloading https://files.pythonhosted.org/packages/68/fc/23632b599172d0a3629708763445e06e57e50f5e440e44fb2a71863d24ed/etos_lib-2.2.0.tar.gz
+[2023-06-01 09:08:38] INFO root fetch - processPackages [mercuryclient]: executing diffoscope
+[2023-06-01 09:08:38] INFO root fetch - processPackages [mercuryclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercuryclient-1.8.1.tar.gz tmp/mercuryclient-1.9.0.tar.gz --markdown 20230601/m/mercuryclient/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-01 09:08:38] INFO root fetch - main [MainThread]: End processing [blackboxopt]: success
+[2023-06-01 09:08:39] INFO root fetch - processPackages [etos-lib]: executing diffoscope
+[2023-06-01 09:08:39] INFO root fetch - processPackages [etos-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etos_lib-2.1.0.tar.gz tmp/etos_lib-2.2.0.tar.gz --markdown 20230601/e/etos-lib/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-06-01 09:08:39] INFO root fetch - main [MainThread]: End processing [tigeropen]: success
+[2023-06-01 09:08:39] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-06-01 09:08:40] INFO root fetch - main [MainThread]: End processing [mercuryclient]: success
+[2023-06-01 09:08:40] INFO root fetch - main [MainThread]: End processing [etos-lib]: success
+[2023-06-01 09:08:40] INFO root fetch - main [MainThread]: End processing [innerverz]: success
+[2023-06-01 09:08:42] INFO root fetch - main [MainThread]: End processing [SwissArmyTransformer]: success
+[2023-06-01 09:08:51] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2023-06-01 09:08:51] INFO root fetch - main [MainThread]: Store serial: [18329231]
