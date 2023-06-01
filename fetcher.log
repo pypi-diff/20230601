@@ -13019,3 +13019,83 @@
 [2023-06-01 10:53:30] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-06-01 10:53:36] INFO root fetch - main [MainThread]: End processing [insights-core]: success
 [2023-06-01 10:53:36] INFO root fetch - main [MainThread]: Store serial: [18330192]
+[2023-06-01 10:58:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18330192]
+[2023-06-01 10:58:45] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-01 10:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gethandledf
+[2023-06-01 10:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: request-time-tracker
+[2023-06-01 10:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ubiops-cli
+[2023-06-01 10:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: request-time-tracker
+[2023-06-01 10:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openshift-python-wrapper
+[2023-06-01 10:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eargait
+[2023-06-01 10:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openshift-python-wrapper
+[2023-06-01 10:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: puma-hep
+[2023-06-01 10:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rlbot-gui
+[2023-06-01 10:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: swagger-petstore-3-sdk
+[2023-06-01 10:58:46] INFO root fetch - processPackages [gethandledf]: New version: [0.11] Old Version: [0.10]
+[2023-06-01 10:58:46] INFO root fetch - processPackages [request-time-tracker]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-01 10:58:46] INFO root fetch - processPackages [request-time-tracker]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-01 10:58:46] INFO root fetch - processPackages [ubiops-cli]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-01 10:58:46] INFO root fetch - processPackages [swagger-petstore-3-sdk]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-01 10:58:46] INFO root fetch - processPackages [eargait]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-01 10:58:46] INFO root fetch - processPackages [puma-hep]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-01 10:58:46] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2023-06-01 10:58:46] INFO root fetch - processPackages [rlbot-gui]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 10:58:46] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2023-06-01 10:58:46] INFO root fetch - processPackages [request-time-tracker]: executing diffoscope
+[2023-06-01 10:58:46] INFO root fetch - processPackages [request-time-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/request-time-tracker-0.0.6.tar.gz tmp/request-time-tracker-0.0.7.tar.gz --markdown 20230601/r/request-time-tracker/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-01 10:58:46] INFO root fetch - processPackages [request-time-tracker]: executing diffoscope
+[2023-06-01 10:58:46] INFO root fetch - processPackages [request-time-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/request-time-tracker-0.0.6.tar.gz tmp/request-time-tracker-0.0.7.tar.gz --markdown 20230601/r/request-time-tracker/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-01 10:58:46] INFO root fetch - processPackages [gethandledf]: Downloading https://files.pythonhosted.org/packages/ff/de/b5fc5b0a5102184bd345bde3fee69bc32959f3331bf1dc2cb9ff448693c9/gethandledf-0.10.tar.gz
+[2023-06-01 10:58:46] INFO root fetch - processPackages [puma-hep]: Downloading https://files.pythonhosted.org/packages/c5/58/ea3e6d731ec2e10470e4b9489b5a192999ed158219cdfb4b9b7c4851d5a6/puma-hep-0.2.5.tar.gz
+[2023-06-01 10:58:46] INFO root fetch - processPackages [ubiops-cli]: Downloading https://files.pythonhosted.org/packages/64/72/16e4ccf487f0a7208f959930705b2a0782b903f07d5fff8b12ee0f61848a/ubiops-cli-2.8.0.tar.gz
+[2023-06-01 10:58:46] INFO root fetch - processPackages [swagger-petstore-3-sdk]: Downloading https://files.pythonhosted.org/packages/99/fe/0ee4e45c3f08cead5c1a3357edd2f8aed5a535f1a01397ef481d8e288902/swagger-petstore-3-sdk-2.0.2.tar.gz
+[2023-06-01 10:58:46] INFO root fetch - processPackages [rlbot-gui]: Downloading https://files.pythonhosted.org/packages/bd/a0/f36296bee14ea042187e7082074d9eee0903d5092a496e0c91da1139dacc/rlbot_gui-0.0.98.tar.gz
+[2023-06-01 10:58:46] INFO root fetch - processPackages [eargait]: Downloading https://files.pythonhosted.org/packages/36/56/a6c708643a573853dc7a4c4cbad940f29eca636590372e34a09398d09051/eargait-1.9.0.tar.gz
+[2023-06-01 10:58:46] INFO root fetch - processPackages [swagger-petstore-3-sdk]: executing diffoscope
+[2023-06-01 10:58:46] INFO root fetch - processPackages [swagger-petstore-3-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swagger-petstore-3-sdk-2.0.1.tar.gz tmp/swagger-petstore-3-sdk-2.0.2.tar.gz --markdown 20230601/s/swagger-petstore-3-sdk/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-01 10:58:46] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2023-06-01 10:58:46] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20230601/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/diff.md --exclude *.pyd
+[2023-06-01 10:58:46] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2023-06-01 10:58:46] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20230601/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/diff.md --exclude *.pyd
+[2023-06-01 10:58:46] INFO root fetch - processPackages [gethandledf]: Downloading https://files.pythonhosted.org/packages/b5/69/27ac79ad596cfffe10aba97cf66963ab0728af74dd5ef42ec1ebd1bf6ebe/gethandledf-0.11.tar.gz
+[2023-06-01 10:58:46] INFO root fetch - processPackages [eargait]: executing diffoscope
+[2023-06-01 10:58:46] INFO root fetch - processPackages [eargait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eargait-1.8.0.tar.gz tmp/eargait-1.9.0.tar.gz --markdown 20230601/e/eargait/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-01 10:58:46] INFO root fetch - processPackages [gethandledf]: executing diffoscope
+[2023-06-01 10:58:46] INFO root fetch - processPackages [gethandledf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gethandledf-0.10.tar.gz tmp/gethandledf-0.11.tar.gz --markdown 20230601/g/gethandledf/0.10-0.11/diff.md --exclude *.pyd
+[2023-06-01 10:58:46] INFO root fetch - processPackages [ubiops-cli]: Downloading https://files.pythonhosted.org/packages/c8/03/81e588785a9b0180e5464ebcf5b010b4dff3d636c707b67bfe5634fbf451/ubiops-cli-2.9.0.tar.gz
+[2023-06-01 10:58:46] INFO root fetch - processPackages [puma-hep]: Downloading https://files.pythonhosted.org/packages/3d/d9/719fd247000a712a9bb156f255b0ee07688e1a2526a178c56341ff8abb4d/puma-hep-0.2.6.tar.gz
+[2023-06-01 10:58:46] INFO root fetch - processPackages [ubiops-cli]: executing diffoscope
+[2023-06-01 10:58:46] INFO root fetch - processPackages [ubiops-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubiops-cli-2.8.0.tar.gz tmp/ubiops-cli-2.9.0.tar.gz --markdown 20230601/u/ubiops-cli/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-01 10:58:46] INFO root fetch - processPackages [puma-hep]: executing diffoscope
+[2023-06-01 10:58:46] INFO root fetch - processPackages [puma-hep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puma-hep-0.2.5.tar.gz tmp/puma-hep-0.2.6.tar.gz --markdown 20230601/p/puma-hep/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-01 10:58:47] INFO root fetch - processPackages [request-time-tracker]: Start processing: steamship
+[2023-06-01 10:58:47] INFO root fetch - main [MainThread]: End processing [request-time-tracker]: success
+[2023-06-01 10:58:47] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-01 10:58:47] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-06-01 10:58:47] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230601/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-06-01 10:58:47] INFO root fetch - processPackages [request-time-tracker]: Start processing: lbt-honeybee
+[2023-06-01 10:58:47] INFO root fetch - main [MainThread]: End processing [request-time-tracker]: success
+[2023-06-01 10:58:48] INFO root fetch - processPackages [swagger-petstore-3-sdk]: Start processing: meilisearch
+[2023-06-01 10:58:48] INFO root fetch - main [MainThread]: End processing [swagger-petstore-3-sdk]: success
+[2023-06-01 10:58:48] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-01 10:58:48] INFO root fetch - processPackages [meilisearch]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-01 10:58:48] INFO root fetch - processPackages [meilisearch]: Downloading https://files.pythonhosted.org/packages/b9/85/28be9699d845a730a6fe8c9a53988a90246852c52bbc616c6fafb8f691d9/meilisearch-0.8.3.tar.gz
+[2023-06-01 10:58:48] INFO root fetch - processPackages [rlbot-gui]: Downloading https://files.pythonhosted.org/packages/70/93/ac6d0514a52601e3960d32b30e26183e6c6bb0489f65cea1fe167a4996ea/rlbot_gui-0.0.99.tar.gz
+[2023-06-01 10:58:48] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2023-06-01 10:58:48] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-06-01 10:58:48] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230601/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-01 10:58:48] INFO root fetch - main [MainThread]: End processing [eargait]: success
+[2023-06-01 10:58:48] INFO root fetch - main [MainThread]: End processing [ubiops-cli]: success
+[2023-06-01 10:58:48] INFO root fetch - main [MainThread]: End processing [puma-hep]: success
+[2023-06-01 10:58:48] INFO root fetch - processPackages [meilisearch]: Downloading https://files.pythonhosted.org/packages/d3/c7/70afe0fb413413473e498aead75fa0b9ad0af1d23935ef355868402d199d/meilisearch-0.9.0.tar.gz
+[2023-06-01 10:58:49] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2023-06-01 10:58:49] INFO root fetch - processPackages [meilisearch]: executing diffoscope
+[2023-06-01 10:58:49] INFO root fetch - processPackages [meilisearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meilisearch-0.8.3.tar.gz tmp/meilisearch-0.9.0.tar.gz --markdown 20230601/m/meilisearch/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 10:58:49] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-06-01 10:58:50] INFO root fetch - main [MainThread]: End processing [meilisearch]: success
+[2023-06-01 10:58:50] INFO root fetch - main [MainThread]: End processing [gethandledf]: success
+[2023-06-01 10:58:50] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-06-01 10:58:51] INFO root fetch - processPackages [rlbot-gui]: executing diffoscope
+[2023-06-01 10:58:51] INFO root fetch - processPackages [rlbot-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlbot_gui-0.0.98.tar.gz tmp/rlbot_gui-0.0.99.tar.gz --markdown 20230601/r/rlbot-gui/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 10:59:07] INFO root fetch - main [MainThread]: End processing [rlbot-gui]: success
+[2023-06-01 10:59:07] INFO root fetch - main [MainThread]: Store serial: [18330229]
