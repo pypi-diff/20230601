@@ -9771,3 +9771,18 @@
 [2023-06-01 06:46:06] INFO root fetch - main [MainThread]: End processing [mwxlib]: success
 [2023-06-01 06:46:06] INFO root fetch - main [MainThread]: End processing [citric]: success
 [2023-06-01 06:46:06] INFO root fetch - main [MainThread]: Store serial: [18328278]
+[2023-06-01 06:51:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18328278]
+[2023-06-01 06:51:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-01 06:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrapy-s3logstorage
+[2023-06-01 06:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eyes-soatra
+[2023-06-01 06:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c4p
+[2023-06-01 06:51:15] WARNING root fetch - processPackages [scrapy-s3logstorage]: Skipping, unable to determine old version
+[2023-06-01 06:51:15] WARNING root fetch - processPackages [c4p]: Skipping, unable to determine old version
+[2023-06-01 06:51:15] INFO root fetch - main [MainThread]: End processing [scrapy-s3logstorage] error
+[2023-06-01 06:51:15] INFO root fetch - main [MainThread]: End processing [c4p] error
+[2023-06-01 06:51:15] INFO root fetch - processPackages [eyes-soatra]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-06-01 06:51:15] INFO root fetch - processPackages [eyes-soatra]: Downloading https://files.pythonhosted.org/packages/78/d1/d061f56f7192845ef4ceb17a985b00380a2e5eaa3db0b3ac929bede86cb2/eyes_soatra-0.0.26.tar.gz
+[2023-06-01 06:51:15] INFO root fetch - processPackages [eyes-soatra]: executing diffoscope
+[2023-06-01 06:51:15] INFO root fetch - processPackages [eyes-soatra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_soatra-0.0.25.tar.gz tmp/eyes_soatra-0.0.26.tar.gz --markdown 20230601/e/eyes-soatra/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-06-01 06:51:17] INFO root fetch - main [MainThread]: End processing [eyes-soatra]: success
+[2023-06-01 06:51:17] INFO root fetch - main [MainThread]: Store serial: [18328290]
