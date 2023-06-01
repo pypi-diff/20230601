@@ -16860,3 +16860,78 @@
 [2023-06-01 13:45:58] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
 [2023-06-01 13:45:59] INFO root fetch - main [MainThread]: End processing [schema-salad]: success
 [2023-06-01 13:45:59] INFO root fetch - main [MainThread]: Store serial: [18332366]
+[2023-06-01 13:51:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18332366]
+[2023-06-01 13:51:08] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-01 13:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aksharify
+[2023-06-01 13:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text2story
+[2023-06-01 13:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-dllib-spark3
+[2023-06-01 13:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-orca-spark3
+[2023-06-01 13:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spaceone-core
+[2023-06-01 13:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-friesian-spark3
+[2023-06-01 13:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-chronos-spark3
+[2023-06-01 13:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-spark3
+[2023-06-01 13:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quao
+[2023-06-01 13:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-website-sale-hide-price
+[2023-06-01 13:51:08] INFO root fetch - processPackages [aksharify]: New version: [2.7.5] Old Version: [2.7.3]
+[2023-06-01 13:51:08] INFO root fetch - processPackages [text2story]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-01 13:51:08] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230601] Old Version: [2.4.0b20230531]
+[2023-06-01 13:51:08] INFO root fetch - processPackages [quao]: New version: [0.1.9] Old Version: [0.1.8a1]
+[2023-06-01 13:51:08] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230601] Old Version: [2.4.0b20230531]
+[2023-06-01 13:51:08] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0]
+[2023-06-01 13:51:08] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230601] Old Version: [2.4.0b20230531]
+[2023-06-01 13:51:08] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230601] Old Version: [2.4.0b20230531]
+[2023-06-01 13:51:08] INFO root fetch - processPackages [spaceone-core]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-01 13:51:08] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230601] Old Version: [2.4.0b20230531]
+[2023-06-01 13:51:08] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-06-01 13:51:08] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.1.8a1.tar.gz tmp/quao-0.1.9.tar.gz --markdown 20230601/q/quao/0.1.8a1-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 13:51:08] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2023-06-01 13:51:08] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip --markdown 20230601/s/spaceone-core/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-01 13:51:08] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/bb/6e/cae09b7c2b7122e0bc064d332c9b1629aa0132fb2b62b3161c758745a6d6/bigdl-dllib-spark3-2.4.0b20230531.tar.gz
+[2023-06-01 13:51:08] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Downloading https://files.pythonhosted.org/packages/58/63/89f5aa8be5c42b15fdd701324468282f6299cbf4a142c4a292a421bca5ae/odoo_addon_website_sale_hide_price-16.0.1.2.0-py3-none-any.whl
+[2023-06-01 13:51:08] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61251948>=10485760
+[2023-06-01 13:51:08] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: data-harmonization-ai
+[2023-06-01 13:51:08] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-06-01 13:51:08] WARNING root fetch - processPackages [data-harmonization-ai]: Skipping, unable to determine old version
+[2023-06-01 13:51:08] INFO root fetch - processPackages [data-harmonization-ai]: Start processing: noba
+[2023-06-01 13:51:08] INFO root fetch - main [MainThread]: End processing [data-harmonization-ai] error
+[2023-06-01 13:51:08] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/c9/a1/8562599194c6395be3eef8410078af415de35617d9dc503b87401daab39c/bigdl_orca_spark3-2.4.0b20230531-py3-none-manylinux1_x86_64.whl
+[2023-06-01 13:51:08] INFO root fetch - processPackages [noba]: New version: [1.1.6] Old Version: [1.1.2]
+[2023-06-01 13:51:08] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207705>=10485760
+[2023-06-01 13:51:08] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: AMDirT
+[2023-06-01 13:51:08] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-06-01 13:51:08] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/46/db/f22c48e58f5eeed49f006b2ee65409c08b22e95ea280c798cd01cb84e368/bigdl_spark3-2.4.0b20230601-py3-none-manylinux1_x86_64.whl
+[2023-06-01 13:51:08] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2023-06-01 13:51:08] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.2.8.tar.gz tmp/text2story-1.2.9.tar.gz --markdown 20230601/t/text2story/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-01 13:51:08] INFO root fetch - processPackages [aksharify]: Downloading https://files.pythonhosted.org/packages/9d/0e/47f7cec908cb872e8d3b3e3789be77c424a645776df28734185523cbedbd/aksharify-2.7.5.tar.gz
+[2023-06-01 13:51:08] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/a7/95/2eafe6c5f8af1a6dc9c2ef192107c68e6c56734fc22a28c7565a27070e5f/bigdl_friesian_spark3-2.4.0b20230601-py3-none-manylinux1_x86_64.whl
+[2023-06-01 13:51:08] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/0d/5f/ddc844991f70e97b4513a89078155cf26ad682b3e01545aadce28229c810/bigdl_chronos_spark3-2.4.0b20230601-py3-none-manylinux1_x86_64.whl
+[2023-06-01 13:51:08] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: executing diffoscope
+[2023-06-01 13:51:08] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_hide_price-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_website_sale_hide_price-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230601/o/odoo-addon-website-sale-hide-price/16.0.1.1.0-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-06-01 13:51:08] INFO root fetch - processPackages [AMDirT]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-06-01 13:51:08] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-06-01 13:51:08] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230531-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230601-py3-none-manylinux1_x86_64.whl.zip --markdown 20230601/b/bigdl-spark3/2.4.0b20230531-2.4.0b20230601/diff.md --exclude *.pyd
+[2023-06-01 13:51:08] INFO root fetch - processPackages [aksharify]: executing diffoscope
+[2023-06-01 13:51:08] INFO root fetch - processPackages [aksharify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aksharify-2.7.3.tar.gz tmp/aksharify-2.7.5.tar.gz --markdown 20230601/a/aksharify/2.7.3-2.7.5/diff.md --exclude *.pyd
+[2023-06-01 13:51:08] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-06-01 13:51:08] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230531-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230601-py3-none-manylinux1_x86_64.whl.zip --markdown 20230601/b/bigdl-friesian-spark3/2.4.0b20230531-2.4.0b20230601/diff.md --exclude *.pyd
+[2023-06-01 13:51:09] INFO root fetch - processPackages [AMDirT]: Downloading https://files.pythonhosted.org/packages/90/02/38c61d0fabeebc23bfb745aac8622419332effc790591a4c1109d8ee4404/AMDirT-1.4.3.tar.gz
+[2023-06-01 13:51:09] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-06-01 13:51:09] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230531-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230601-py3-none-manylinux1_x86_64.whl.zip --markdown 20230601/b/bigdl-chronos-spark3/2.4.0b20230531-2.4.0b20230601/diff.md --exclude *.pyd
+[2023-06-01 13:51:09] INFO root fetch - processPackages [noba]: Downloading https://files.pythonhosted.org/packages/02/de/475a8d1ca5cf66c1ecb5bc620ee28b56cbeaae6c3ecac4d2078724b5e9db/noba-1.1.2.tar.gz
+[2023-06-01 13:51:09] INFO root fetch - processPackages [AMDirT]: Downloading https://files.pythonhosted.org/packages/d7/f5/b79337abe3ac42fded2b299840474745a17022f137f29c51c24d37497ebd/AMDirT-1.4.4.tar.gz
+[2023-06-01 13:51:09] INFO root fetch - processPackages [noba]: Downloading https://files.pythonhosted.org/packages/4f/b2/a545b3e63138636e0d915a3ba2897c4f5620b87208e2a58514e65e6389b5/noba-1.1.6.tar.gz
+[2023-06-01 13:51:09] INFO root fetch - processPackages [AMDirT]: executing diffoscope
+[2023-06-01 13:51:09] INFO root fetch - processPackages [AMDirT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AMDirT-1.4.3.tar.gz tmp/AMDirT-1.4.4.tar.gz --markdown 20230601/A/AMDirT/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-06-01 13:51:09] INFO root fetch - processPackages [noba]: executing diffoscope
+[2023-06-01 13:51:09] INFO root fetch - processPackages [noba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noba-1.1.2.tar.gz tmp/noba-1.1.6.tar.gz --markdown 20230601/n/noba/1.1.2-1.1.6/diff.md --exclude *.pyd
+[2023-06-01 13:51:09] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-06-01 13:51:10] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-06-01 13:51:10] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2023-06-01 13:51:10] INFO root fetch - main [MainThread]: End processing [aksharify]: success
+[2023-06-01 13:51:11] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2023-06-01 13:51:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-hide-price]: success
+[2023-06-01 13:51:11] INFO root fetch - main [MainThread]: End processing [AMDirT]: success
+[2023-06-01 13:51:11] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-06-01 13:51:11] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-06-01 13:51:12] INFO root fetch - main [MainThread]: End processing [noba]: success
+[2023-06-01 13:51:12] INFO root fetch - main [MainThread]: Store serial: [18332403]
