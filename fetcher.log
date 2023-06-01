@@ -8894,3 +8894,66 @@
 [2023-06-01 05:27:20] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
 [2023-06-01 05:27:21] INFO root fetch - main [MainThread]: End processing [tfsim-nightly]: success
 [2023-06-01 05:27:21] INFO root fetch - main [MainThread]: Store serial: [18327821]
+[2023-06-01 05:32:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18327821]
+[2023-06-01 05:32:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-01 05:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-cpp-python
+[2023-06-01 05:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: XPVI
+[2023-06-01 05:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openi-beta
+[2023-06-01 05:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pandas-gpt
+[2023-06-01 05:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydmd
+[2023-06-01 05:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-get-nickname
+[2023-06-01 05:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pandas-gpt
+[2023-06-01 05:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unidata-blocks
+[2023-06-01 05:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastdup
+[2023-06-01 05:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dashscope
+[2023-06-01 05:32:30] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 05:32:30] INFO root fetch - processPackages [openi-beta]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-01 05:32:30] INFO root fetch - processPackages [XPVI]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-01 05:32:30] INFO root fetch - processPackages [pandas-gpt]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-01 05:32:30] WARNING root fetch - processPackages [nonebot-plugin-get-nickname]: Skipping, unable to determine old version
+[2023-06-01 05:32:30] INFO root fetch - processPackages [pandas-gpt]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-01 05:32:30] INFO root fetch - processPackages [pydmd]: New version: [0.4.1.post2306] Old Version: [0.4.1.post2305]
+[2023-06-01 05:32:30] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-get-nickname] error
+[2023-06-01 05:32:30] INFO root fetch - processPackages [unidata-blocks]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-01 05:32:30] INFO root fetch - processPackages [dashscope]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-01 05:32:30] INFO root fetch - processPackages [fastdup]: New version: [1.9] Old Version: [1.8]
+[2023-06-01 05:32:30] INFO root fetch - processPackages [XPVI]: Downloading https://files.pythonhosted.org/packages/0c/49/89ae632838f92016f6eb96622b90c190cc332c3db4b934f67f89ec4e55bf/XPVI-0.0.3.tar.gz
+[2023-06-01 05:32:30] INFO root fetch - processPackages [pandas-gpt]: Downloading https://files.pythonhosted.org/packages/e8/8b/7ac001169f8be125d4c4ed041304183ecdefdddfc61e13ec917342d30c12/pandas-gpt-0.0.2.tar.gz
+[2023-06-01 05:32:30] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/29/5d/10769d5b684287bffedfa8f0e0bfeb77ada87f6bf7f9bf2a3845a805ebed/fastdup-1.8-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-06-01 05:32:30] INFO root fetch - processPackages [pandas-gpt]: Downloading https://files.pythonhosted.org/packages/e8/8b/7ac001169f8be125d4c4ed041304183ecdefdddfc61e13ec917342d30c12/pandas-gpt-0.0.2.tar.gz
+[2023-06-01 05:32:30] INFO root fetch - processPackages [pydmd]: Downloading https://files.pythonhosted.org/packages/d9/3c/e641721c25faf46d9c1467af3bd1a80018ada4505ddf7f4fe02eb61e5224/pydmd-0.4.1.post2305.tar.gz
+[2023-06-01 05:32:30] INFO root fetch - processPackages [unidata-blocks]: Downloading https://files.pythonhosted.org/packages/72/49/fc576b8eef2f78ac7b27b870a64dc84c369a4fc7f7a67efaac62593e5d7c/unidata-blocks-0.0.2.tar.gz
+[2023-06-01 05:32:30] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/0e/c8/ee47ad8424a20d956b4ec802289032dab1ac3c463539ad53c08496f82aea/openi-beta-0.0.4.tar.gz
+[2023-06-01 05:32:30] INFO root fetch - processPackages [openi-beta]: executing diffoscope
+[2023-06-01 05:32:30] INFO root fetch - processPackages [openi-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-beta-0.0.3.tar.gz tmp/openi-beta-0.0.4.tar.gz --markdown 20230601/o/openi-beta/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-01 05:32:30] INFO root fetch - processPackages [dashscope]: Downloading https://files.pythonhosted.org/packages/0f/0f/7bb7c0f90200e21433d210c03a16df017559e75161deb69a65715720ed0e/dashscope-1.2.0-py3-none-any.whl
+[2023-06-01 05:32:30] INFO root fetch - processPackages [pandas-gpt]: Downloading https://files.pythonhosted.org/packages/a7/92/7efa71f5ca5682e00b2554ba79a15f1ac58043899b3ae4bfda464b2285b8/pandas-gpt-0.1.0.tar.gz
+[2023-06-01 05:32:30] INFO root fetch - processPackages [pandas-gpt]: Downloading https://files.pythonhosted.org/packages/a7/92/7efa71f5ca5682e00b2554ba79a15f1ac58043899b3ae4bfda464b2285b8/pandas-gpt-0.1.0.tar.gz
+[2023-06-01 05:32:30] INFO root fetch - processPackages [XPVI]: Downloading https://files.pythonhosted.org/packages/13/08/e958cae655a303362cbd7232c2705ce8c83513b91baf557ac8b45d2a1079/XPVI-0.0.4.tar.gz
+[2023-06-01 05:32:30] INFO root fetch - processPackages [dashscope]: executing diffoscope
+[2023-06-01 05:32:30] INFO root fetch - processPackages [dashscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashscope-1.1.1-py3-none-any.whl.zip tmp/dashscope-1.2.0-py3-none-any.whl.zip --markdown 20230601/d/dashscope/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-01 05:32:30] INFO root fetch - processPackages [unidata-blocks]: Downloading https://files.pythonhosted.org/packages/ca/bd/8346ad5550b25f1bd609f0dab5b363ac594ac501d27430513e99a8624c38/unidata-blocks-0.0.3.tar.gz
+[2023-06-01 05:32:30] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-06-01 05:32:30] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230601/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 05:32:30] INFO root fetch - processPackages [pandas-gpt]: executing diffoscope
+[2023-06-01 05:32:30] INFO root fetch - processPackages [pandas-gpt]: executing diffoscope
+[2023-06-01 05:32:30] INFO root fetch - processPackages [pandas-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas-gpt-0.0.2.tar.gz tmp/pandas-gpt-0.1.0.tar.gz --markdown 20230601/p/pandas-gpt/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-01 05:32:30] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75116546>=10485760
+[2023-06-01 05:32:30] INFO root fetch - processPackages [pandas-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas-gpt-0.0.2.tar.gz tmp/pandas-gpt-0.1.0.tar.gz --markdown 20230601/p/pandas-gpt/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-01 05:32:30] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-06-01 05:32:30] INFO root fetch - processPackages [XPVI]: executing diffoscope
+[2023-06-01 05:32:30] INFO root fetch - processPackages [XPVI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPVI-0.0.3.tar.gz tmp/XPVI-0.0.4.tar.gz --markdown 20230601/X/XPVI/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-01 05:32:30] INFO root fetch - processPackages [pydmd]: Downloading https://files.pythonhosted.org/packages/3d/a1/e3860ee89a302ea0cda4bcd4c7cd82c8167ac60299a3f92f1ea2d4499d87/pydmd-0.4.1.post2306.tar.gz
+[2023-06-01 05:32:30] INFO root fetch - processPackages [unidata-blocks]: executing diffoscope
+[2023-06-01 05:32:30] INFO root fetch - processPackages [unidata-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unidata-blocks-0.0.2.tar.gz tmp/unidata-blocks-0.0.3.tar.gz --markdown 20230601/u/unidata-blocks/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-01 05:32:30] INFO root fetch - processPackages [pydmd]: executing diffoscope
+[2023-06-01 05:32:30] INFO root fetch - processPackages [pydmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydmd-0.4.1.post2305.tar.gz tmp/pydmd-0.4.1.post2306.tar.gz --markdown 20230601/p/pydmd/0.4.1.post2305-0.4.1.post2306/diff.md --exclude *.pyd
+[2023-06-01 05:32:32] INFO root fetch - main [MainThread]: End processing [openi-beta]: success
+[2023-06-01 05:32:32] INFO root fetch - main [MainThread]: End processing [pandas-gpt]: success
+[2023-06-01 05:32:32] INFO root fetch - main [MainThread]: End processing [dashscope]: success
+[2023-06-01 05:32:32] INFO root fetch - main [MainThread]: End processing [pandas-gpt]: success
+[2023-06-01 05:32:32] INFO root fetch - main [MainThread]: End processing [XPVI]: success
+[2023-06-01 05:32:32] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-06-01 05:32:32] INFO root fetch - main [MainThread]: End processing [unidata-blocks]: success
+[2023-06-01 05:32:32] INFO root fetch - main [MainThread]: End processing [pydmd]: success
+[2023-06-01 05:32:32] INFO root fetch - main [MainThread]: Store serial: [18327857]
