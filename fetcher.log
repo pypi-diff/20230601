@@ -3516,3 +3516,76 @@
 [2023-06-01 02:35:24] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
 [2023-06-01 02:35:55] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-01 02:35:55] INFO root fetch - main [MainThread]: Store serial: [18324910]
+[2023-06-01 02:40:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18324910]
+[2023-06-01 02:41:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-01 02:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-gitlab-runner
+[2023-06-01 02:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-certbot-dns-route53
+[2023-06-01 02:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naif-earth-itrf93
+[2023-06-01 02:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-br-nfe
+[2023-06-01 02:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-aurora-globaldatabase
+[2023-06-01 02:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-br-base
+[2023-06-01 02:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-proxmox
+[2023-06-01 02:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf-github-actions
+[2023-06-01 02:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: everdrop-aws-cdk-constructs
+[2023-06-01 02:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s-redis
+[2023-06-01 02:41:05] WARNING root fetch - processPackages [naif-earth-itrf93]: Skipping, unable to determine old version
+[2023-06-01 02:41:05] INFO root fetch - processPackages [naif-earth-itrf93]: Start processing: karuoflow
+[2023-06-01 02:41:05] INFO root fetch - main [MainThread]: End processing [naif-earth-itrf93] error
+[2023-06-01 02:41:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: New version: [14.0.3.3.0] Old Version: [14.0.3.2.0]
+[2023-06-01 02:41:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: New version: [14.0.8.2.0] Old Version: [14.0.8.1.0]
+[2023-06-01 02:41:05] INFO root fetch - processPackages [cdktf-proxmox]: New version: [0.0.95] Old Version: [0.0.94]
+[2023-06-01 02:41:05] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 02:41:05] INFO root fetch - processPackages [cdktf-github-actions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 02:41:05] INFO root fetch - processPackages [karuoflow]: New version: [1.31] Old Version: [1.3]
+[2023-06-01 02:41:05] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-01 02:41:05] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-06-01 02:41:05] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-06-01 02:41:05] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-01 02:41:05] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-06-01 02:41:05] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230601/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-01 02:41:05] INFO root fetch - processPackages [karuoflow]: Downloading https://files.pythonhosted.org/packages/9a/15/c9fff4606e2ed702de3c3de8be9096d839d9f85ee26624b8e1ac9c634e49/karuoflow-1.3.tar.gz
+[2023-06-01 02:41:05] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/e6/40/e96ac787b8fe4ef1cb4563d6ba85c94212cede801f25003ac36294a35bfd/cdktf-proxmox-0.0.95.tar.gz
+[2023-06-01 02:41:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/a3/4a/1ea11600f7244fcaf749485093435d6830bc3356318fae3485bd62a2ee68/odoo14_addon_l10n_br_nfe-14.0.8.2.0-py3-none-any.whl
+[2023-06-01 02:41:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: Downloading https://files.pythonhosted.org/packages/08/29/d194b10205c58e8b02f38161ee02c919de79e89d69efaeab7b800c9fa882/odoo14_addon_l10n_br_base-14.0.3.3.0-py3-none-any.whl
+[2023-06-01 02:41:05] INFO root fetch - processPackages [cdktf-github-actions]: executing diffoscope
+[2023-06-01 02:41:05] INFO root fetch - processPackages [cdktf-github-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-github-actions-0.0.98.tar.gz tmp/cdktf-github-actions-0.0.99.tar.gz --markdown 20230601/c/cdktf-github-actions/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 02:41:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: executing diffoscope
+[2023-06-01 02:41:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_nfe-14.0.8.1.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_nfe-14.0.8.2.0-py3-none-any.whl.zip --markdown 20230601/o/odoo14-addon-l10n-br-nfe/14.0.8.1.0-14.0.8.2.0/diff.md --exclude *.pyd
+[2023-06-01 02:41:05] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-06-01 02:41:05] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230601/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-01 02:41:05] INFO root fetch - processPackages [cdktf-proxmox]: executing diffoscope
+[2023-06-01 02:41:05] INFO root fetch - processPackages [cdktf-proxmox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-proxmox-0.0.94.tar.gz tmp/cdktf-proxmox-0.0.95.tar.gz --markdown 20230601/c/cdktf-proxmox/0.0.94-0.0.95/diff.md --exclude *.pyd
+[2023-06-01 02:41:05] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-06-01 02:41:05] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230601/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-06-01 02:41:05] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: executing diffoscope
+[2023-06-01 02:41:05] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everdrop-aws-cdk-constructs-0.0.8.tar.gz tmp/everdrop-aws-cdk-constructs-0.0.9.tar.gz --markdown 20230601/e/everdrop-aws-cdk-constructs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 02:41:05] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-06-01 02:41:05] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230601/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-06-01 02:41:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: executing diffoscope
+[2023-06-01 02:41:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_base-14.0.3.2.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_base-14.0.3.3.0-py3-none-any.whl.zip --markdown 20230601/o/odoo14-addon-l10n-br-base/14.0.3.2.0-14.0.3.3.0/diff.md --exclude *.pyd
+[2023-06-01 02:41:05] INFO root fetch - processPackages [karuoflow]: Downloading https://files.pythonhosted.org/packages/96/d2/9d2936c5cedb93e0d99158695fc5e1323cce1f0d49ddb02f1e096dc366e8/karuoflow-1.31.tar.gz
+[2023-06-01 02:41:05] INFO root fetch - processPackages [karuoflow]: executing diffoscope
+[2023-06-01 02:41:05] INFO root fetch - processPackages [karuoflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karuoflow-1.3.tar.gz tmp/karuoflow-1.31.tar.gz --markdown 20230601/k/karuoflow/1.3-1.31/diff.md --exclude *.pyd
+[2023-06-01 02:41:07] INFO root fetch - processPackages [cdktf-github-actions]: Start processing: kenzy-image
+[2023-06-01 02:41:07] INFO root fetch - main [MainThread]: End processing [cdktf-github-actions]: success
+[2023-06-01 02:41:07] INFO root fetch - processPackages [kenzy-image]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-01 02:41:07] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Start processing: autora-experimentalist-falsification
+[2023-06-01 02:41:07] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-06-01 02:41:07] INFO root fetch - processPackages [kenzy-image]: Downloading https://files.pythonhosted.org/packages/48/56/8bcf264ecc34c679a8c9260f188d8b65fb7c7f3b4f7c453b9d101c745ae9/kenzy_image-0.0.5.tar.gz
+[2023-06-01 02:41:07] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-06-01 02:41:07] INFO root fetch - processPackages [autora-experimentalist-falsification]: New version: [1.0.1] Old Version: [0.0.0]
+[2023-06-01 02:41:07] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-06-01 02:41:07] WARNING root fetch - processPackages [kenzy-image]: Skipping package: exceeds size limit 12311165>=10485760
+[2023-06-01 02:41:07] INFO root fetch - main [MainThread]: End processing [kenzy-image] error
+[2023-06-01 02:41:07] INFO root fetch - main [MainThread]: End processing [karuoflow]: success
+[2023-06-01 02:41:07] INFO root fetch - processPackages [autora-experimentalist-falsification]: Downloading https://files.pythonhosted.org/packages/00/91/34f61916f9fbc757cd492244649f67660c244e7894e038b5056b1fbb2976/autora-experimentalist-falsification-0.0.0.tar.gz
+[2023-06-01 02:41:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-nfe]: success
+[2023-06-01 02:41:07] INFO root fetch - main [MainThread]: End processing [everdrop-aws-cdk-constructs]: success
+[2023-06-01 02:41:07] INFO root fetch - processPackages [autora-experimentalist-falsification]: Downloading https://files.pythonhosted.org/packages/cc/4e/eeab6f377561033a6435a44099e4a044a430f91eebe2217f36d972923c5b/autora-experimentalist-falsification-1.0.1.tar.gz
+[2023-06-01 02:41:07] INFO root fetch - processPackages [autora-experimentalist-falsification]: executing diffoscope
+[2023-06-01 02:41:07] INFO root fetch - processPackages [autora-experimentalist-falsification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-experimentalist-falsification-0.0.0.tar.gz tmp/autora-experimentalist-falsification-1.0.1.tar.gz --markdown 20230601/a/autora-experimentalist-falsification/0.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-01 02:41:07] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-06-01 02:41:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-base]: success
+[2023-06-01 02:41:09] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-falsification]: success
+[2023-06-01 02:41:10] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
+[2023-06-01 02:41:10] INFO root fetch - main [MainThread]: Store serial: [18324951]
