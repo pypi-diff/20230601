@@ -3589,3 +3589,66 @@
 [2023-06-01 02:41:09] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-falsification]: success
 [2023-06-01 02:41:10] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
 [2023-06-01 02:41:10] INFO root fetch - main [MainThread]: Store serial: [18324951]
+[2023-06-01 02:46:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18324951]
+[2023-06-01 02:46:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-01 02:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minitrade
+[2023-06-01 02:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-06-01 02:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rockset-v2-internal
+[2023-06-01 02:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aeppl-nightly
+[2023-06-01 02:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pollination-apps
+[2023-06-01 02:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dvc-data
+[2023-06-01 02:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qcs-sdk-python
+[2023-06-01 02:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tc-release
+[2023-06-01 02:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: naif-earth-itrf93
+[2023-06-01 02:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tfds-nightly
+[2023-06-01 02:46:19] INFO root fetch - processPackages [minitrade]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 02:46:19] INFO root fetch - processPackages [rockset-v2-internal]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-01 02:46:19] INFO root fetch - processPackages [pollination-apps]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-06-01 02:46:19] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 02:46:19] INFO root fetch - processPackages [tc-release]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-01 02:46:19] INFO root fetch - processPackages [qcs-sdk-python]: New version: [0.7.1rc0] Old Version: [0.7.0rc0]
+[2023-06-01 02:46:19] INFO root fetch - processPackages [dvc-data]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-01 02:46:19] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202305310045] Old Version: [4.9.2.dev202305300044]
+[2023-06-01 02:46:19] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.4.dev20230601] Old Version: [0.1.4.dev20230531]
+[2023-06-01 02:46:19] WARNING root fetch - processPackages [naif-earth-itrf93]: Skipping, unable to determine old version
+[2023-06-01 02:46:19] INFO root fetch - main [MainThread]: End processing [naif-earth-itrf93] error
+[2023-06-01 02:46:19] INFO root fetch - processPackages [pollination-apps]: Downloading https://files.pythonhosted.org/packages/b9/15/695ceffc7a12c7a4fac189616417c299c00477d8ca657ad30c4b703c8d21/pollination-apps-0.7.2.tar.gz
+[2023-06-01 02:46:19] INFO root fetch - processPackages [minitrade]: Downloading https://files.pythonhosted.org/packages/5f/b2/f641ba28684c7fa8b23f530366cc52dff178045351134c33142d49317684/minitrade-0.1.8.tar.gz
+[2023-06-01 02:46:19] INFO root fetch - processPackages [rockset-v2-internal]: Downloading https://files.pythonhosted.org/packages/8d/b4/3ef113f2561a195a71d04ae2bf1086ddc77f2e1b5eeeeb1ef1772b41a14c/rockset_v2_internal-2.0.4.tar.gz
+[2023-06-01 02:46:19] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/f6/2b/fb3be21ff4d44e893534c6fc1baa0b5e489bac8043acde5d81b9f693b75e/aeppl-nightly-0.1.4.dev20230531.tar.gz
+[2023-06-01 02:46:19] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/85/8c/607029e0879fde3871d105f37088865bd7d19b1f0cd548f6fd215b5671cc/tfds-nightly-4.9.2.dev202305310045.tar.gz
+[2023-06-01 02:46:19] INFO root fetch - processPackages [rockset-v2-internal]: executing diffoscope
+[2023-06-01 02:46:19] INFO root fetch - processPackages [rockset-v2-internal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockset_v2_internal-2.0.3.tar.gz tmp/rockset_v2_internal-2.0.4.tar.gz --markdown 20230601/r/rockset-v2-internal/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-01 02:46:19] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/8e/dc/6dc85a621c350b4e34d3da2d7ee879fa3e8fb1733b250bb8df67f3f6c9bb/qcs_sdk_python-0.7.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-01 02:46:19] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-06-01 02:46:19] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230601/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 02:46:19] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-06-01 02:46:19] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-0.8.0.tar.gz tmp/dvc-data-0.9.0.tar.gz --markdown 20230601/d/dvc-data/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 02:46:19] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-01 02:46:19] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202305300044.tar.gz tmp/tfds-nightly-4.9.2.dev202305310045.tar.gz --markdown 20230601/t/tfds-nightly/4.9.2.dev202305300044-4.9.2.dev202305310045/diff.md --exclude *.pyd
+[2023-06-01 02:46:19] ERROR root fetch - processPackages [rockset-v2-internal]: Diffoscope failed: Error: error creating container storage: the container name "epic_zhukovsky" is already in use by "77fcf6ab0faa5149bd8b3ce1ba0a4d0f7709819724deeb3033707a8a13e6b398". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-01 02:46:19] INFO root fetch - processPackages [pollination-apps]: Downloading https://files.pythonhosted.org/packages/05/19/a4c780686877ebe88cd3911c6e7763fd7bf3f3840df1159e0cb4a923d16d/pollination-apps-0.8.0.tar.gz
+[2023-06-01 02:46:19] INFO root fetch - main [MainThread]: End processing [rockset-v2-internal] error
+[2023-06-01 02:46:19] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/e8/25/3e18c8f954afd1188a1600238c40f3cc60aec34a0d3bec80be68e72e3288/aeppl-nightly-0.1.4.dev20230601.tar.gz
+[2023-06-01 02:46:19] INFO root fetch - processPackages [tc-release]: Downloading https://files.pythonhosted.org/packages/c7/f0/4cbbd62057a9d99d32a7f1288358c8925003830bfbb351459ef1ae43d481/tc_release-0.2.4.tar.gz
+[2023-06-01 02:46:19] INFO root fetch - processPackages [pollination-apps]: executing diffoscope
+[2023-06-01 02:46:19] INFO root fetch - processPackages [pollination-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-apps-0.7.2.tar.gz tmp/pollination-apps-0.8.0.tar.gz --markdown 20230601/p/pollination-apps/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-06-01 02:46:19] INFO root fetch - processPackages [tc-release]: executing diffoscope
+[2023-06-01 02:46:19] INFO root fetch - processPackages [tc-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tc_release-0.2.3.tar.gz tmp/tc_release-0.2.4.tar.gz --markdown 20230601/t/tc-release/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-01 02:46:19] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-06-01 02:46:19] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.4.dev20230531.tar.gz tmp/aeppl-nightly-0.1.4.dev20230601.tar.gz --markdown 20230601/a/aeppl-nightly/0.1.4.dev20230531-0.1.4.dev20230601/diff.md --exclude *.pyd
+[2023-06-01 02:46:19] INFO root fetch - processPackages [minitrade]: Downloading https://files.pythonhosted.org/packages/8f/eb/d50633b35cb7154918ad47a8651b5cce6dbf62eaf0e1eabd97085addeae1/minitrade-0.1.9.tar.gz
+[2023-06-01 02:46:20] INFO root fetch - processPackages [minitrade]: executing diffoscope
+[2023-06-01 02:46:20] INFO root fetch - processPackages [minitrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minitrade-0.1.8.tar.gz tmp/minitrade-0.1.9.tar.gz --markdown 20230601/m/minitrade/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 02:46:21] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-06-01 02:46:21] INFO root fetch - main [MainThread]: End processing [pollination-apps]: success
+[2023-06-01 02:46:21] INFO root fetch - processPackages [qcs-sdk-python]: executing diffoscope
+[2023-06-01 02:46:21] INFO root fetch - processPackages [qcs-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python-0.7.0rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qcs_sdk_python-0.7.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230601/q/qcs-sdk-python/0.7.0rc0-0.7.1rc0/diff.md --exclude *.pyd
+[2023-06-01 02:46:21] INFO root fetch - main [MainThread]: End processing [tc-release]: success
+[2023-06-01 02:46:21] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-06-01 02:46:21] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-06-01 02:46:21] INFO root fetch - main [MainThread]: End processing [minitrade]: success
+[2023-06-01 02:46:31] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-01 02:48:34] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
+[2023-06-01 02:48:34] INFO root fetch - main [MainThread]: Store serial: [18324991]
