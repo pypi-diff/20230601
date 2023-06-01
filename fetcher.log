@@ -3731,3 +3731,64 @@
 [2023-06-01 02:54:02] INFO root fetch - main [MainThread]: End processing [altimate-dataminion]: success
 [2023-06-01 02:54:19] INFO root fetch - main [MainThread]: End processing [fiftyone]: success
 [2023-06-01 02:54:19] INFO root fetch - main [MainThread]: Store serial: [18325032]
+[2023-06-01 02:59:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18325032]
+[2023-06-01 02:59:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-01 02:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EduSocialMediaDSHelper
+[2023-06-01 02:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynghttp2
+[2023-06-01 02:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-launch-process
+[2023-06-01 02:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-launch
+[2023-06-01 02:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pz-rail-cmnn
+[2023-06-01 02:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: debug-cmd
+[2023-06-01 02:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simple-launch
+[2023-06-01 02:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: projen
+[2023-06-01 02:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-comprehend-s3olap
+[2023-06-01 02:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: meow-sim
+[2023-06-01 02:59:28] WARNING root fetch - processPackages [simple-launch-process]: Skipping, unable to determine old version
+[2023-06-01 02:59:28] INFO root fetch - processPackages [pynghttp2]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-01 02:59:28] INFO root fetch - main [MainThread]: End processing [simple-launch-process] error
+[2023-06-01 02:59:28] INFO root fetch - processPackages [simple-launch]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-01 02:59:28] INFO root fetch - processPackages [EduSocialMediaDSHelper]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-06-01 02:59:28] WARNING root fetch - processPackages [pz-rail-cmnn]: Skipping, unable to determine old version
+[2023-06-01 02:59:28] INFO root fetch - processPackages [simple-launch]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-01 02:59:28] INFO root fetch - processPackages [debug-cmd]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-01 02:59:28] INFO root fetch - main [MainThread]: End processing [pz-rail-cmnn] error
+[2023-06-01 02:59:28] INFO root fetch - processPackages [meow-sim]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-01 02:59:28] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-01 02:59:28] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.81]
+[2023-06-01 02:59:28] INFO root fetch - processPackages [simple-launch]: Downloading https://files.pythonhosted.org/packages/b1/eb/208f6f76fef828bf2c29207f39c5e902fa447c24175f65a4b802680a0491/simple_launch-0.0.1-py3-none-any.whl
+[2023-06-01 02:59:28] INFO root fetch - processPackages [simple-launch]: Downloading https://files.pythonhosted.org/packages/b1/eb/208f6f76fef828bf2c29207f39c5e902fa447c24175f65a4b802680a0491/simple_launch-0.0.1-py3-none-any.whl
+[2023-06-01 02:59:28] INFO root fetch - processPackages [pynghttp2]: Downloading https://files.pythonhosted.org/packages/00/f6/e9374dd5d7d207a78501ed6f4cbe9d8430486bdea2161a0a3a6792573922/pynghttp2-0.3.1.tar.gz
+[2023-06-01 02:59:29] INFO root fetch - processPackages [EduSocialMediaDSHelper]: Downloading https://files.pythonhosted.org/packages/49/8f/14fd4292b7625ff3a9f8df6063603b34aeff06c70086c8e06fe86ace9c6e/EduSocialMediaDSHelper-0.0.6.tar.gz
+[2023-06-01 02:59:29] INFO root fetch - processPackages [debug-cmd]: Downloading https://files.pythonhosted.org/packages/3b/e2/c84a0eeb38d6a04bb390cb0734df843df475536513fec59175196278732a/debug_cmd-1.0.2-py3-none-any.whl
+[2023-06-01 02:59:29] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/94/13/25a94c657a6e6b1f6cf552d077ce3268d102dcea168c0071d1cca0dd577a/meow-sim-0.3.4.tar.gz
+[2023-06-01 02:59:29] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/84/d0/d0a698163d2845309f6e4e69f2c75c8df0472dcc31d3fa44057ffecd600b/projen-0.71.81.tar.gz
+[2023-06-01 02:59:29] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-06-01 02:59:29] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-06-01 02:59:29] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-06-01 02:59:29] INFO root fetch - processPackages [simple-launch]: Downloading https://files.pythonhosted.org/packages/b8/35/4b1b425ddc4e5e3037b97879b6f66a7b0e49f002dc3d1513eb3e997cc343/simple_launch-0.1.0-py3-none-any.whl
+[2023-06-01 02:59:29] INFO root fetch - processPackages [simple-launch]: Downloading https://files.pythonhosted.org/packages/b8/35/4b1b425ddc4e5e3037b97879b6f66a7b0e49f002dc3d1513eb3e997cc343/simple_launch-0.1.0-py3-none-any.whl
+[2023-06-01 02:59:29] INFO root fetch - processPackages [debug-cmd]: executing diffoscope
+[2023-06-01 02:59:29] INFO root fetch - processPackages [debug-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/debug_cmd-1.0.1-py3-none-any.whl.zip tmp/debug_cmd-1.0.2-py3-none-any.whl.zip --markdown 20230601/d/debug-cmd/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-01 02:59:29] INFO root fetch - processPackages [pynghttp2]: Downloading https://files.pythonhosted.org/packages/ac/45/4e13a6d7bef018f10493c7370ca8c9710cf882017881f79fe6043df5f5a8/pynghttp2-0.3.2.tar.gz
+[2023-06-01 02:59:29] INFO root fetch - processPackages [EduSocialMediaDSHelper]: Downloading https://files.pythonhosted.org/packages/66/a4/c1c360c7fcac885be0fd4662d84305330a4fa0527568ff0b9d6aaffbbec7/EduSocialMediaDSHelper-0.1.0.tar.gz
+[2023-06-01 02:59:29] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/03/63/89efe12714d3847a227c4fc9d5e53e307ae6e4d950b9900381981c97b4f7/meow-sim-0.3.5.tar.gz
+[2023-06-01 02:59:29] INFO root fetch - processPackages [simple-launch]: executing diffoscope
+[2023-06-01 02:59:29] INFO root fetch - processPackages [simple-launch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_launch-0.0.1-py3-none-any.whl.zip tmp/simple_launch-0.1.0-py3-none-any.whl.zip --markdown 20230601/s/simple-launch/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-01 02:59:29] INFO root fetch - processPackages [simple-launch]: executing diffoscope
+[2023-06-01 02:59:29] INFO root fetch - processPackages [simple-launch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_launch-0.0.1-py3-none-any.whl.zip tmp/simple_launch-0.1.0-py3-none-any.whl.zip --markdown 20230601/s/simple-launch/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-01 02:59:29] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-06-01 02:59:29] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.81.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230601/p/projen/0.71.81-0.71.9/diff.md --exclude *.pyd
+[2023-06-01 02:59:29] INFO root fetch - processPackages [pynghttp2]: executing diffoscope
+[2023-06-01 02:59:29] INFO root fetch - processPackages [pynghttp2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynghttp2-0.3.1.tar.gz tmp/pynghttp2-0.3.2.tar.gz --markdown 20230601/p/pynghttp2/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-01 02:59:29] INFO root fetch - processPackages [EduSocialMediaDSHelper]: executing diffoscope
+[2023-06-01 02:59:29] INFO root fetch - processPackages [EduSocialMediaDSHelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EduSocialMediaDSHelper-0.0.6.tar.gz tmp/EduSocialMediaDSHelper-0.1.0.tar.gz --markdown 20230601/E/EduSocialMediaDSHelper/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-06-01 02:59:29] INFO root fetch - processPackages [meow-sim]: executing diffoscope
+[2023-06-01 02:59:29] INFO root fetch - processPackages [meow-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meow-sim-0.3.4.tar.gz tmp/meow-sim-0.3.5.tar.gz --markdown 20230601/m/meow-sim/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-01 02:59:30] INFO root fetch - main [MainThread]: End processing [debug-cmd]: success
+[2023-06-01 02:59:30] INFO root fetch - main [MainThread]: End processing [simple-launch]: success
+[2023-06-01 02:59:30] INFO root fetch - main [MainThread]: End processing [pynghttp2]: success
+[2023-06-01 02:59:30] INFO root fetch - main [MainThread]: End processing [simple-launch]: success
+[2023-06-01 02:59:31] INFO root fetch - main [MainThread]: End processing [meow-sim]: success
+[2023-06-01 02:59:33] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-06-01 03:00:23] INFO root fetch - main [MainThread]: End processing [EduSocialMediaDSHelper]: success
+[2023-06-01 03:00:23] INFO root fetch - main [MainThread]: Store serial: [18325065]
