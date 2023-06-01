@@ -10910,3 +10910,68 @@
 [2023-06-01 08:32:20] INFO root fetch - main [MainThread]: End processing [nonebot2]: success
 [2023-06-01 08:33:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-docs]: success
 [2023-06-01 08:33:52] INFO root fetch - main [MainThread]: Store serial: [18328934]
+[2023-06-01 08:38:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18328934]
+[2023-06-01 08:39:04] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-01 08:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aanalyticsact
+[2023-06-01 08:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: p-template-generator
+[2023-06-01 08:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lrservice
+[2023-06-01 08:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webuiapi
+[2023-06-01 08:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omnata-cli
+[2023-06-01 08:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pripy
+[2023-06-01 08:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wavebreaking
+[2023-06-01 08:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simplegeomap
+[2023-06-01 08:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: irails
+[2023-06-01 08:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langchain-serve
+[2023-06-01 08:39:04] INFO root fetch - processPackages [aanalyticsact]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-06-01 08:39:04] INFO root fetch - processPackages [p-template-generator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 08:39:04] INFO root fetch - processPackages [wavebreaking]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-01 08:39:04] INFO root fetch - processPackages [lrservice]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-01 08:39:04] INFO root fetch - processPackages [irails]: New version: [1.3.37] Old Version: [1.3.36]
+[2023-06-01 08:39:04] INFO root fetch - processPackages [omnata-cli]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-01 08:39:04] INFO root fetch - processPackages [pripy]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-01 08:39:04] INFO root fetch - processPackages [simplegeomap]: New version: [0.0.27] Old Version: [0.0.26]
+[2023-06-01 08:39:04] INFO root fetch - processPackages [webuiapi]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-01 08:39:04] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-01 08:39:04] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-01 08:39:04] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230601/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-01 08:39:04] ERROR root fetch - processPackages [irails]: Unable to fetch info: No such project/version 'irails' 1.3.36
+[2023-06-01 08:39:04] INFO root fetch - processPackages [irails]: Start processing: logger-local
+[2023-06-01 08:39:04] INFO root fetch - main [MainThread]: End processing [irails] error
+[2023-06-01 08:39:04] INFO root fetch - processPackages [wavebreaking]: Downloading https://files.pythonhosted.org/packages/b8/05/788bfbfff8c454c773961df31dd3f6be3ff66d70e1d0d5fda03c3f679637/wavebreaking-0.3.2.tar.gz
+[2023-06-01 08:39:04] INFO root fetch - processPackages [pripy]: Downloading https://files.pythonhosted.org/packages/f2/8c/ed04db69243dd094c682058497649399f31ea5e19f5c2b185addc480fb1c/pripy-0.1.6.tar.gz
+[2023-06-01 08:39:04] WARNING root fetch - processPackages [wavebreaking]: Skipping package: exceeds size limit 11108580>=10485760
+[2023-06-01 08:39:04] INFO root fetch - main [MainThread]: End processing [wavebreaking] error
+[2023-06-01 08:39:04] INFO root fetch - processPackages [omnata-cli]: Downloading https://files.pythonhosted.org/packages/f0/75/9508e6eb4b3b98b7e33f4bce7766a2452a1cd066fe3693ab3ce50695219d/omnata_cli-0.1.2.tar.gz
+[2023-06-01 08:39:04] INFO root fetch - processPackages [logger-local]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-01 08:39:04] INFO root fetch - processPackages [webuiapi]: Downloading https://files.pythonhosted.org/packages/86/f3/0e39c3634fff4d3a9102179f751b6c302a5d312750cf32159972873677ca/webuiapi-0.9.2-py3-none-any.whl
+[2023-06-01 08:39:04] INFO root fetch - processPackages [simplegeomap]: Downloading https://files.pythonhosted.org/packages/6c/c1/9578547a108dbb049b142d8ec33c8cffbd15fdd31b10c377c3cf0041c862/simplegeomap-0.0.27.tar.gz
+[2023-06-01 08:39:04] INFO root fetch - processPackages [lrservice]: Downloading https://files.pythonhosted.org/packages/3b/9a/b77c63a25a6203aea2630bea1abe9be2b6e40b45fc47b6338308e629217d/lrservice-0.0.4.tar.gz
+[2023-06-01 08:39:04] INFO root fetch - processPackages [aanalyticsact]: executing diffoscope
+[2023-06-01 08:39:04] INFO root fetch - processPackages [aanalyticsact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aanalyticsact-0.0.0.8.tar.gz tmp/aanalyticsact-0.0.0.9.tar.gz --markdown 20230601/a/aanalyticsact/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-06-01 08:39:04] INFO root fetch - processPackages [p-template-generator]: executing diffoscope
+[2023-06-01 08:39:04] INFO root fetch - processPackages [p-template-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-generator-0.1.8.tar.gz tmp/p-template-generator-0.1.9.tar.gz --markdown 20230601/p/p-template-generator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 08:39:05] INFO root fetch - processPackages [omnata-cli]: executing diffoscope
+[2023-06-01 08:39:05] INFO root fetch - processPackages [lrservice]: executing diffoscope
+[2023-06-01 08:39:05] INFO root fetch - processPackages [lrservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lrservice-0.0.3.tar.gz tmp/lrservice-0.0.4.tar.gz --markdown 20230601/l/lrservice/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-01 08:39:05] INFO root fetch - processPackages [omnata-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_cli-0.1.1.tar.gz tmp/omnata_cli-0.1.2.tar.gz --markdown 20230601/o/omnata-cli/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-01 08:39:05] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/98/2b/9e106450d58ca3b076e3de9b9969b5496efd83536205f0bdb65441179df1/logger-local-0.0.4.tar.gz
+[2023-06-01 08:39:05] INFO root fetch - processPackages [simplegeomap]: executing diffoscope
+[2023-06-01 08:39:05] INFO root fetch - processPackages [simplegeomap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplegeomap-0.0.26.tar.gz tmp/simplegeomap-0.0.27.tar.gz --markdown 20230601/s/simplegeomap/0.0.26-0.0.27/diff.md --exclude *.pyd
+[2023-06-01 08:39:05] INFO root fetch - processPackages [pripy]: Downloading https://files.pythonhosted.org/packages/4d/b0/4c18703086c26cefc37f3fb689d24e53dfc4a3dcae4be9b401030cd15043/pripy-0.1.7.tar.gz
+[2023-06-01 08:39:05] INFO root fetch - processPackages [webuiapi]: executing diffoscope
+[2023-06-01 08:39:05] INFO root fetch - processPackages [webuiapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webuiapi-0.9.1-py3-none-any.whl.zip tmp/webuiapi-0.9.2-py3-none-any.whl.zip --markdown 20230601/w/webuiapi/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-01 08:39:05] INFO root fetch - processPackages [pripy]: executing diffoscope
+[2023-06-01 08:39:05] INFO root fetch - processPackages [pripy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pripy-0.1.6.tar.gz tmp/pripy-0.1.7.tar.gz --markdown 20230601/p/pripy/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-01 08:39:05] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/b6/63/a7d57a2feb4e68fbe695139bff896679635e2d22b936c38537c5940ac1b6/logger-local-0.0.5.tar.gz
+[2023-06-01 08:39:05] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2023-06-01 08:39:05] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.4.tar.gz tmp/logger-local-0.0.5.tar.gz --markdown 20230601/l/logger-local/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-01 08:39:06] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-06-01 08:39:06] INFO root fetch - main [MainThread]: End processing [aanalyticsact]: success
+[2023-06-01 08:39:06] INFO root fetch - main [MainThread]: End processing [omnata-cli]: success
+[2023-06-01 08:39:06] INFO root fetch - main [MainThread]: End processing [webuiapi]: success
+[2023-06-01 08:39:06] INFO root fetch - main [MainThread]: End processing [simplegeomap]: success
+[2023-06-01 08:39:07] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2023-06-01 08:39:07] INFO root fetch - main [MainThread]: End processing [lrservice]: success
+[2023-06-01 08:39:07] INFO root fetch - main [MainThread]: End processing [pripy]: success
+[2023-06-01 08:39:08] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
+[2023-06-01 08:39:08] INFO root fetch - main [MainThread]: Store serial: [18328971]
