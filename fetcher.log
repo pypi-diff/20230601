@@ -22169,3 +22169,94 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-01 17:33:27] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
 [2023-06-01 17:33:46] INFO root fetch - main [MainThread]: End processing [whispercpp-py]: success
 [2023-06-01 17:33:46] INFO root fetch - main [MainThread]: Store serial: [18335892]
+[2023-06-01 17:38:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18335892]
+[2023-06-01 17:38:55] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-01 17:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypipr
+[2023-06-01 17:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: peachdb
+[2023-06-01 17:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emb-ser-protocol
+[2023-06-01 17:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docrobot
+[2023-06-01 17:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hdn-research-environment
+[2023-06-01 17:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pineappl
+[2023-06-01 17:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly-intel
+[2023-06-01 17:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: orbax-checkpoint
+[2023-06-01 17:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-fieldservice-route
+[2023-06-01 17:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SRIrepository
+[2023-06-01 17:38:55] INFO root fetch - processPackages [peachdb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 17:38:55] INFO root fetch - processPackages [hdn-research-environment]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-01 17:38:55] INFO root fetch - processPackages [docrobot]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-01 17:38:55] INFO root fetch - processPackages [orbax-checkpoint]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-01 17:38:55] INFO root fetch - processPackages [odoo14-addon-fieldservice-route]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.1.dev8]
+[2023-06-01 17:38:55] INFO root fetch - processPackages [emb-ser-protocol]: New version: [1.1.23] Old Version: [1.1.21]
+[2023-06-01 17:38:55] WARNING root fetch - processPackages [SRIrepository]: Skipping, unable to determine old version
+[2023-06-01 17:38:55] INFO root fetch - processPackages [SRIrepository]: Start processing: grai-schemas
+[2023-06-01 17:38:55] INFO root fetch - main [MainThread]: End processing [SRIrepository] error
+[2023-06-01 17:38:55] INFO root fetch - processPackages [pypipr]: New version: [0.1.95] Old Version: [0.1.94]
+[2023-06-01 17:38:55] INFO root fetch - processPackages [pineappl]: New version: [0.6.0a9] Old Version: [0.6.0a8]
+[2023-06-01 17:38:55] INFO root fetch - processPackages [grai-schemas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 17:38:55] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230601] Old Version: [2.14.0.dev20230531]
+[2023-06-01 17:38:56] INFO root fetch - processPackages [peachdb]: executing diffoscope
+[2023-06-01 17:38:56] INFO root fetch - processPackages [peachdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peachdb-0.0.8.tar.gz tmp/peachdb-0.0.9.tar.gz --markdown 20230601/p/peachdb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 17:38:56] INFO root fetch - processPackages [pineappl]: executing diffoscope
+[2023-06-01 17:38:56] INFO root fetch - processPackages [pineappl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineappl-0.6.0a8.tar.gz tmp/pineappl-0.6.0a9.tar.gz --markdown 20230601/p/pineappl/0.6.0a8-0.6.0a9/diff.md --exclude *.pyd
+[2023-06-01 17:38:56] INFO root fetch - processPackages [docrobot]: Downloading https://files.pythonhosted.org/packages/f1/68/3aaa025635842d0d8628501fb8f04b1cf28462089ccf7f5658249ae76b7c/docrobot-1.0.4.tar.gz
+[2023-06-01 17:38:56] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/4f/7a/6bc89912e30f7a9e1499efaee0efd761407689c20386c76f7892aa87f90d/hdn-research-environment-2.0.4.tar.gz
+[2023-06-01 17:38:56] INFO root fetch - processPackages [orbax-checkpoint]: Downloading https://files.pythonhosted.org/packages/e9/01/237399f62781295837eaf21a0315502fe2a7e98d1b314a0abae35334b856/orbax-checkpoint-0.2.3.tar.gz
+[2023-06-01 17:38:56] INFO root fetch - processPackages [emb-ser-protocol]: Downloading https://files.pythonhosted.org/packages/53/be/ab4f234ebb1560f01a00d6b91b4efa61ec3f45feabe4cfcad6d333eaf39a/emb_ser_protocol-1.1.23.tar.gz
+[2023-06-01 17:38:56] INFO root fetch - processPackages [grai-schemas]: Downloading https://files.pythonhosted.org/packages/48/50/b901f88d6a26c004b33ab92f23c2eb16b3f9979a796b101c99c9bd8fb500/grai_schemas-0.1.8.tar.gz
+[2023-06-01 17:38:56] INFO root fetch - processPackages [hdn-research-environment]: executing diffoscope
+[2023-06-01 17:38:56] INFO root fetch - processPackages [hdn-research-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdn-research-environment-2.0.3.tar.gz tmp/hdn-research-environment-2.0.4.tar.gz --markdown 20230601/h/hdn-research-environment/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-01 17:38:56] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/25/8a/deeb63a6267e53ea27014002c27b4d65e4b82d4478eb1e827098700a5fb7/tf_nightly_intel-2.14.0.dev20230531-cp39-cp39-win_amd64.whl
+[2023-06-01 17:38:56] INFO root fetch - processPackages [emb-ser-protocol]: executing diffoscope
+[2023-06-01 17:38:56] INFO root fetch - processPackages [emb-ser-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emb_ser_protocol-1.1.21.tar.gz tmp/emb_ser_protocol-1.1.23.tar.gz --markdown 20230601/e/emb-ser-protocol/1.1.21-1.1.23/diff.md --exclude *.pyd
+[2023-06-01 17:38:56] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 182801844>=10485760
+[2023-06-01 17:38:56] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: odoo14-addon-l10n-br-cnpj-search
+[2023-06-01 17:38:56] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-06-01 17:38:56] INFO root fetch - processPackages [odoo14-addon-fieldservice-route]: Downloading https://files.pythonhosted.org/packages/bf/b0/333096fc32822c83ecee34d12d831f3e81ff26c8a71c7d43c9cbae81e2e4/odoo14_addon_fieldservice_route-14.0.1.1.0-py3-none-any.whl
+[2023-06-01 17:38:56] WARNING root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: Skipping, unable to determine old version
+[2023-06-01 17:38:56] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: Start processing: steamship
+[2023-06-01 17:38:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-cnpj-search] error
+[2023-06-01 17:38:56] INFO root fetch - processPackages [docrobot]: executing diffoscope
+[2023-06-01 17:38:56] INFO root fetch - processPackages [docrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docrobot-1.0.3.tar.gz tmp/docrobot-1.0.4.tar.gz --markdown 20230601/d/docrobot/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-01 17:38:56] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-01 17:38:56] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-06-01 17:38:56] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-0.1.94.tar.gz tmp/pypipr-0.1.95.tar.gz --markdown 20230601/p/pypipr/0.1.94-0.1.95/diff.md --exclude *.pyd
+[2023-06-01 17:38:56] INFO root fetch - processPackages [orbax-checkpoint]: Downloading https://files.pythonhosted.org/packages/85/49/b0f4603d383f7e7908344959a7df67a6af19cb45d9b0ea1919c46444011a/orbax_checkpoint-0.2.4.tar.gz
+[2023-06-01 17:38:56] INFO root fetch - processPackages [odoo14-addon-fieldservice-route]: executing diffoscope
+[2023-06-01 17:38:56] INFO root fetch - processPackages [odoo14-addon-fieldservice-route]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice_route-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice_route-14.0.1.1.0-py3-none-any.whl.zip --markdown 20230601/o/odoo14-addon-fieldservice-route/14.0.1.0.1.dev8-14.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-01 17:38:56] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-06-01 17:38:56] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230601/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-06-01 17:38:56] INFO root fetch - processPackages [grai-schemas]: Downloading https://files.pythonhosted.org/packages/5f/42/f1b94cc0a778ce637ae5193620cb690190a4bd3a1c8fe56ff177b30061bc/grai_schemas-0.1.9.tar.gz
+[2023-06-01 17:38:56] INFO root fetch - processPackages [orbax-checkpoint]: executing diffoscope
+[2023-06-01 17:38:56] INFO root fetch - processPackages [orbax-checkpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbax-checkpoint-0.2.3.tar.gz tmp/orbax_checkpoint-0.2.4.tar.gz --markdown 20230601/o/orbax-checkpoint/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-01 17:38:56] INFO root fetch - processPackages [grai-schemas]: executing diffoscope
+[2023-06-01 17:38:56] INFO root fetch - processPackages [grai-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_schemas-0.1.8.tar.gz tmp/grai_schemas-0.1.9.tar.gz --markdown 20230601/g/grai-schemas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 17:38:57] INFO root fetch - processPackages [peachdb]: Start processing: expflow
+[2023-06-01 17:38:57] INFO root fetch - main [MainThread]: End processing [peachdb]: success
+[2023-06-01 17:38:57] INFO root fetch - processPackages [expflow]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 17:38:57] INFO root fetch - processPackages [expflow]: Downloading https://files.pythonhosted.org/packages/e2/31/6888b5454edfe45dcc3448f0999623842eb6bd4a7daf19b7aa655011dc6d/expflow-0.1.8.tar.gz
+[2023-06-01 17:38:57] INFO root fetch - processPackages [emb-ser-protocol]: Start processing: biocartograph
+[2023-06-01 17:38:57] INFO root fetch - main [MainThread]: End processing [emb-ser-protocol]: success
+[2023-06-01 17:38:57] INFO root fetch - processPackages [expflow]: Downloading https://files.pythonhosted.org/packages/46/c3/f088c52b138e702770f480614817c305a9014223648077920954a7d0a9a2/expflow-0.1.9.tar.gz
+[2023-06-01 17:38:57] INFO root fetch - processPackages [biocartograph]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-06-01 17:38:58] INFO root fetch - processPackages [expflow]: executing diffoscope
+[2023-06-01 17:38:58] INFO root fetch - processPackages [expflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expflow-0.1.8.tar.gz tmp/expflow-0.1.9.tar.gz --markdown 20230601/e/expflow/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 17:38:58] INFO root fetch - processPackages [hdn-research-environment]: Start processing: echofish-aws-indexing-lambda
+[2023-06-01 17:38:58] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
+[2023-06-01 17:38:58] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: New version: [1.0.0.dev20230601153606] Old Version: [1.0.0.dev20230531174947]
+[2023-06-01 17:38:58] INFO root fetch - main [MainThread]: End processing [docrobot]: success
+[2023-06-01 17:38:58] INFO root fetch - processPackages [biocartograph]: Downloading https://files.pythonhosted.org/packages/18/6f/f8af9f5a235e2bc59ba455efa2d998bf61cb79b94fe7e1d79558bb3647d3/biocartograph-0.6.0.tar.gz
+[2023-06-01 17:38:58] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Downloading https://files.pythonhosted.org/packages/15/c5/35cbd4e1121faf36ea9bd03ecfb753f05bef2569abf1f52a05f0b35a6b16/echofish-aws-indexing-lambda-1.0.0.dev20230601153606.tar.gz
+[2023-06-01 17:38:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice-route]: success
+[2023-06-01 17:38:58] INFO root fetch - processPackages [biocartograph]: executing diffoscope
+[2023-06-01 17:38:58] INFO root fetch - processPackages [biocartograph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biocartograph-0.5.3.tar.gz tmp/biocartograph-0.6.0.tar.gz --markdown 20230601/b/biocartograph/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-06-01 17:38:58] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: executing diffoscope
+[2023-06-01 17:38:58] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-indexing-lambda-1.0.0.dev20230531174947.tar.gz tmp/echofish-aws-indexing-lambda-1.0.0.dev20230601153606.tar.gz --markdown 20230601/e/echofish-aws-indexing-lambda/1.0.0.dev20230531174947-1.0.0.dev20230601153606/diff.md --exclude *.pyd
+[2023-06-01 17:38:58] INFO root fetch - main [MainThread]: End processing [grai-schemas]: success
+[2023-06-01 17:38:58] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-06-01 17:38:59] INFO root fetch - main [MainThread]: End processing [pineappl]: success
+[2023-06-01 17:38:59] INFO root fetch - main [MainThread]: End processing [orbax-checkpoint]: success
+[2023-06-01 17:38:59] INFO root fetch - main [MainThread]: End processing [expflow]: success
+[2023-06-01 17:38:59] INFO root fetch - main [MainThread]: End processing [biocartograph]: success
+[2023-06-01 17:38:59] INFO root fetch - main [MainThread]: End processing [echofish-aws-indexing-lambda]: success
+[2023-06-01 17:39:00] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-06-01 17:39:00] INFO root fetch - main [MainThread]: Store serial: [18335964]
