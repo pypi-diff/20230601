@@ -19572,3 +19572,108 @@
 [2023-06-01 15:42:27] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2023-06-01 15:42:40] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-06-01 15:42:40] INFO root fetch - main [MainThread]: Store serial: [18334313]
+[2023-06-01 15:47:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18334313]
+[2023-06-01 15:47:50] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-01 15:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-package02
+[2023-06-01 15:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: impact-stack-auth-wsgi-middleware
+[2023-06-01 15:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: index-503
+[2023-06-01 15:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LANDMarkClassifier
+[2023-06-01 15:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mltlk
+[2023-06-01 15:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: corgy
+[2023-06-01 15:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: calotron
+[2023-06-01 15:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cmaclp
+[2023-06-01 15:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: common-logging-library-django
+[2023-06-01 15:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: index-503
+[2023-06-01 15:47:50] INFO root fetch - processPackages [impact-stack-auth-wsgi-middleware]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-01 15:47:50] WARNING root fetch - processPackages [test-package02]: Skipping, unable to determine old version
+[2023-06-01 15:47:50] INFO root fetch - processPackages [test-package02]: Start processing: audiostack
+[2023-06-01 15:47:50] INFO root fetch - main [MainThread]: End processing [test-package02] error
+[2023-06-01 15:47:50] INFO root fetch - processPackages [corgy]: New version: [9.1.1] Old Version: [9.1.0]
+[2023-06-01 15:47:50] INFO root fetch - processPackages [calotron]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 15:47:50] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-01 15:47:50] INFO root fetch - processPackages [LANDMarkClassifier]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-01 15:47:50] INFO root fetch - processPackages [index-503]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-01 15:47:50] WARNING root fetch - processPackages [cmaclp]: Skipping, unable to determine old version
+[2023-06-01 15:47:50] INFO root fetch - processPackages [cmaclp]: Start processing: influxdb3-python
+[2023-06-01 15:47:50] INFO root fetch - main [MainThread]: End processing [cmaclp] error
+[2023-06-01 15:47:50] INFO root fetch - processPackages [index-503]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-01 15:47:50] WARNING root fetch - processPackages [common-logging-library-django]: Skipping, unable to determine old version
+[2023-06-01 15:47:50] INFO root fetch - processPackages [common-logging-library-django]: Start processing: pollination-apps
+[2023-06-01 15:47:50] INFO root fetch - main [MainThread]: End processing [common-logging-library-django] error
+[2023-06-01 15:47:50] INFO root fetch - processPackages [audiostack]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-01 15:47:50] INFO root fetch - processPackages [influxdb3-python]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-01 15:47:50] INFO root fetch - processPackages [pollination-apps]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-01 15:47:50] INFO root fetch - processPackages [index-503]: Downloading https://files.pythonhosted.org/packages/6b/ad/20e77752db662649dd1f4037d636ed428646b311e924592378c1bd1d212e/index_503-0.2.1.tar.gz
+[2023-06-01 15:47:50] INFO root fetch - processPackages [index-503]: Downloading https://files.pythonhosted.org/packages/6b/ad/20e77752db662649dd1f4037d636ed428646b311e924592378c1bd1d212e/index_503-0.2.1.tar.gz
+[2023-06-01 15:47:50] INFO root fetch - processPackages [impact-stack-auth-wsgi-middleware]: Downloading https://files.pythonhosted.org/packages/4e/16/cee6779feb043e2818c02fd834a6d00024a093dd31a0b5a81f2d73da72d5/impact-stack-auth-wsgi-middleware-0.2.0.tar.gz
+[2023-06-01 15:47:50] INFO root fetch - processPackages [calotron]: Downloading https://files.pythonhosted.org/packages/5c/99/f6678e4b1c884b4cb90e9cc1256549fd6fd5585bd8a1227933df12feb213/calotron-0.0.8.tar.gz
+[2023-06-01 15:47:50] INFO root fetch - processPackages [audiostack]: Downloading https://files.pythonhosted.org/packages/97/ed/5520aeaf0aed6f26ad448a5ba49265ce0af20187b2b2a61f608c8e3239af/audiostack-0.0.6.tar.gz
+[2023-06-01 15:47:50] INFO root fetch - processPackages [pollination-apps]: Downloading https://files.pythonhosted.org/packages/62/88/d8107c84a6e1af512dab03752e75d68d238b14d95bdc9677768d2245626d/pollination-apps-0.8.1.tar.gz
+[2023-06-01 15:47:50] INFO root fetch - processPackages [influxdb3-python]: Downloading https://files.pythonhosted.org/packages/7f/af/5731f31244fa58a0f5772b9705b91e0aa91de1b8def8feb98f329f3550b1/influxdb3-python-0.1.2.tar.gz
+[2023-06-01 15:47:50] INFO root fetch - processPackages [corgy]: Downloading https://files.pythonhosted.org/packages/62/c6/e3716d763795e4a992db27f2df787cb98eb4a1bf4bb6976bbbb2b78ebe19/corgy-9.1.1.tar.gz
+[2023-06-01 15:47:50] INFO root fetch - processPackages [LANDMarkClassifier]: Downloading https://files.pythonhosted.org/packages/2f/61/7fed65851d47eb8d03e87962a469ccea81981b7652875ced0559eb027458/landmarkclassifier-2.0.6.tar.gz
+[2023-06-01 15:47:51] INFO root fetch - processPackages [pollination-apps]: executing diffoscope
+[2023-06-01 15:47:51] INFO root fetch - processPackages [pollination-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-apps-0.8.0.tar.gz tmp/pollination-apps-0.8.1.tar.gz --markdown 20230601/p/pollination-apps/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-01 15:47:51] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-06-01 15:47:51] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230601/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-01 15:47:51] INFO root fetch - processPackages [corgy]: executing diffoscope
+[2023-06-01 15:47:51] INFO root fetch - processPackages [corgy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corgy-9.1.0.tar.gz tmp/corgy-9.1.1.tar.gz --markdown 20230601/c/corgy/9.1.0-9.1.1/diff.md --exclude *.pyd
+[2023-06-01 15:47:51] INFO root fetch - processPackages [impact-stack-auth-wsgi-middleware]: Downloading https://files.pythonhosted.org/packages/39/49/0e3e5c620bf5cf0b574da7a173f84fe1151c129ecc27b0230ba083b78469/impact-stack-auth-wsgi-middleware-0.3.0.tar.gz
+[2023-06-01 15:47:51] INFO root fetch - processPackages [audiostack]: Downloading https://files.pythonhosted.org/packages/95/fd/2fb5f90a40e211bfccaf886b671796583ee813a850678fb6ca5a90a80947/audiostack-0.0.7.tar.gz
+[2023-06-01 15:47:51] INFO root fetch - processPackages [index-503]: Downloading https://files.pythonhosted.org/packages/f0/07/b26b8d9e2084ef0af1ff2025bce2c34c0e29d4d64ef4481c145daca6900d/index_503-0.2.2.tar.gz
+[2023-06-01 15:47:51] INFO root fetch - processPackages [influxdb3-python]: executing diffoscope
+[2023-06-01 15:47:51] INFO root fetch - processPackages [influxdb3-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influxdb3-python-0.1.1.tar.gz tmp/influxdb3-python-0.1.2.tar.gz --markdown 20230601/i/influxdb3-python/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-01 15:47:51] INFO root fetch - processPackages [index-503]: Downloading https://files.pythonhosted.org/packages/f0/07/b26b8d9e2084ef0af1ff2025bce2c34c0e29d4d64ef4481c145daca6900d/index_503-0.2.2.tar.gz
+[2023-06-01 15:47:51] INFO root fetch - processPackages [LANDMarkClassifier]: executing diffoscope
+[2023-06-01 15:47:51] INFO root fetch - processPackages [LANDMarkClassifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landmarkclassifier-2.0.5.tar.gz tmp/landmarkclassifier-2.0.6.tar.gz --markdown 20230601/L/LANDMarkClassifier/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-01 15:47:51] INFO root fetch - processPackages [calotron]: Downloading https://files.pythonhosted.org/packages/2c/74/f3144d035fe774cda59061d640c03c09f96473a7eecdae20f9149d056807/calotron-0.0.9.tar.gz
+[2023-06-01 15:47:51] INFO root fetch - processPackages [audiostack]: executing diffoscope
+[2023-06-01 15:47:51] INFO root fetch - processPackages [audiostack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiostack-0.0.6.tar.gz tmp/audiostack-0.0.7.tar.gz --markdown 20230601/a/audiostack/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-01 15:47:51] INFO root fetch - processPackages [calotron]: executing diffoscope
+[2023-06-01 15:47:51] INFO root fetch - processPackages [calotron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calotron-0.0.8.tar.gz tmp/calotron-0.0.9.tar.gz --markdown 20230601/c/calotron/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 15:47:51] INFO root fetch - processPackages [impact-stack-auth-wsgi-middleware]: executing diffoscope
+[2023-06-01 15:47:51] INFO root fetch - processPackages [impact-stack-auth-wsgi-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impact-stack-auth-wsgi-middleware-0.2.0.tar.gz tmp/impact-stack-auth-wsgi-middleware-0.3.0.tar.gz --markdown 20230601/i/impact-stack-auth-wsgi-middleware/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-01 15:47:51] INFO root fetch - processPackages [index-503]: executing diffoscope
+[2023-06-01 15:47:51] INFO root fetch - processPackages [index-503]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/index_503-0.2.1.tar.gz tmp/index_503-0.2.2.tar.gz --markdown 20230601/i/index-503/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-01 15:47:51] INFO root fetch - processPackages [index-503]: executing diffoscope
+[2023-06-01 15:47:51] INFO root fetch - processPackages [index-503]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/index_503-0.2.1.tar.gz tmp/index_503-0.2.2.tar.gz --markdown 20230601/i/index-503/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-01 15:47:52] INFO root fetch - processPackages [pollination-apps]: Start processing: bitcoinrpc
+[2023-06-01 15:47:52] INFO root fetch - main [MainThread]: End processing [pollination-apps]: success
+[2023-06-01 15:47:52] INFO root fetch - processPackages [bitcoinrpc]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-01 15:47:52] INFO root fetch - processPackages [bitcoinrpc]: Downloading https://files.pythonhosted.org/packages/02/8b/7e35c470572be3605f10dac9b5d2ed4fae02747028c4a240d916c541be38/bitcoinrpc-0.5.0.tar.gz
+[2023-06-01 15:47:52] INFO root fetch - processPackages [mltlk]: Start processing: paketmutfak
+[2023-06-01 15:47:52] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-06-01 15:47:52] INFO root fetch - processPackages [paketmutfak]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-01 15:47:53] INFO root fetch - processPackages [bitcoinrpc]: Downloading https://files.pythonhosted.org/packages/6f/99/0e03dbec9501931315bd8b60d3b52879771aebaec0f87688329b453b81b1/bitcoinrpc-0.6.0.tar.gz
+[2023-06-01 15:47:53] INFO root fetch - processPackages [paketmutfak]: executing diffoscope
+[2023-06-01 15:47:53] INFO root fetch - processPackages [paketmutfak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paketmutfak-1.1.8.tar.gz tmp/paketmutfak-1.1.9.tar.gz --markdown 20230601/p/paketmutfak/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-01 15:47:53] INFO root fetch - processPackages [corgy]: Start processing: python-selve-new
+[2023-06-01 15:47:53] INFO root fetch - main [MainThread]: End processing [corgy]: success
+[2023-06-01 15:47:53] INFO root fetch - processPackages [python-selve-new]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-01 15:47:53] INFO root fetch - processPackages [influxdb3-python]: Start processing: jobmatchup
+[2023-06-01 15:47:53] INFO root fetch - main [MainThread]: End processing [influxdb3-python]: success
+[2023-06-01 15:47:53] INFO root fetch - processPackages [bitcoinrpc]: executing diffoscope
+[2023-06-01 15:47:53] INFO root fetch - processPackages [bitcoinrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitcoinrpc-0.5.0.tar.gz tmp/bitcoinrpc-0.6.0.tar.gz --markdown 20230601/b/bitcoinrpc/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-01 15:47:53] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-06-01 15:47:53] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.0.8.tar.gz tmp/python-selve-new-2.0.9.tar.gz --markdown 20230601/p/python-selve-new/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-01 15:47:53] INFO root fetch - processPackages [jobmatchup]: New version: [0.2.1] Old Version: [0.1.0]
+[2023-06-01 15:47:53] INFO root fetch - processPackages [jobmatchup]: Downloading https://files.pythonhosted.org/packages/18/7d/ba5d2b12c8d750d7a28afd21884c343a0ab49f7d23490f86ac8f848e8afb/jobmatchup-0.1.0.tar.gz
+[2023-06-01 15:47:53] INFO root fetch - processPackages [index-503]: Start processing: aws-cdk-constructs
+[2023-06-01 15:47:53] INFO root fetch - main [MainThread]: End processing [index-503]: success
+[2023-06-01 15:47:53] INFO root fetch - processPackages [aws-cdk-constructs]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-06-01 15:47:53] INFO root fetch - processPackages [jobmatchup]: Downloading https://files.pythonhosted.org/packages/be/f2/305159f4775b47738cb54a6351eca73812f94418c95423c434ab7424719e/jobmatchup-0.2.1.tar.gz
+[2023-06-01 15:47:53] INFO root fetch - main [MainThread]: End processing [LANDMarkClassifier]: success
+[2023-06-01 15:47:53] INFO root fetch - processPackages [jobmatchup]: executing diffoscope
+[2023-06-01 15:47:53] INFO root fetch - processPackages [jobmatchup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jobmatchup-0.1.0.tar.gz tmp/jobmatchup-0.2.1.tar.gz --markdown 20230601/j/jobmatchup/0.1.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-01 15:47:53] INFO root fetch - main [MainThread]: End processing [index-503]: success
+[2023-06-01 15:47:53] INFO root fetch - main [MainThread]: End processing [audiostack]: success
+[2023-06-01 15:47:53] INFO root fetch - processPackages [aws-cdk-constructs]: executing diffoscope
+[2023-06-01 15:47:53] INFO root fetch - processPackages [aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_cdk_constructs-2.9.1.tar.gz tmp/aws_cdk_constructs-2.9.2.tar.gz --markdown 20230601/a/aws-cdk-constructs/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-06-01 15:47:54] INFO root fetch - main [MainThread]: End processing [impact-stack-auth-wsgi-middleware]: success
+[2023-06-01 15:47:54] INFO root fetch - main [MainThread]: End processing [calotron]: success
+[2023-06-01 15:47:54] INFO root fetch - main [MainThread]: End processing [paketmutfak]: success
+[2023-06-01 15:47:54] INFO root fetch - main [MainThread]: End processing [bitcoinrpc]: success
+[2023-06-01 15:47:55] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-06-01 15:47:55] INFO root fetch - main [MainThread]: End processing [aws-cdk-constructs]: success
+[2023-06-01 15:47:55] INFO root fetch - main [MainThread]: End processing [jobmatchup]: success
+[2023-06-01 15:47:55] INFO root fetch - main [MainThread]: Store serial: [18334374]
