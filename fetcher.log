@@ -13215,3 +13215,151 @@
 [2023-06-01 11:04:23] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
 [2023-06-01 11:04:24] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
 [2023-06-01 11:04:24] INFO root fetch - main [MainThread]: Store serial: [18330295]
+[2023-06-01 11:09:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18330295]
+[2023-06-01 11:09:33] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-01 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon
+[2023-06-01 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon.eda
+[2023-06-01 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogluon.cloud
+[2023-06-01 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sleepecg
+[2023-06-01 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-base-tier-validation
+[2023-06-01 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bionumpy
+[2023-06-01 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-multi-step-wizard
+[2023-06-01 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-alconna
+[2023-06-01 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-configuration-sdk-preview
+[2023-06-01 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ExoJAX
+[2023-06-01 11:09:33] INFO root fetch - processPackages [autogluon.eda]: New version: [0.7.1b20230601] Old Version: [0.7.1b20230531]
+[2023-06-01 11:09:33] INFO root fetch - processPackages [ExoJAX]: New version: [1.3.1] Old Version: [1.3]
+[2023-06-01 11:09:33] INFO root fetch - processPackages [bionumpy]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-01 11:09:33] INFO root fetch - processPackages [odoo-addon-multi-step-wizard]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-06-01 11:09:33] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.4.6] Old Version: [16.0.1.0.4.35]
+[2023-06-01 11:09:33] INFO root fetch - processPackages [sleepecg]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-01 11:09:33] INFO root fetch - processPackages [nonebot-plugin-alconna]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-01 11:09:33] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: New version: [0.1.432] Old Version: [0.1.431]
+[2023-06-01 11:09:33] INFO root fetch - processPackages [autogluon]: New version: [0.7.1b20230601] Old Version: [0.7.1b20230531]
+[2023-06-01 11:09:33] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.2.1b20230601] Old Version: [0.2.1b20230531]
+[2023-06-01 11:09:33] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/cf/77/c08d17eca30bde199f8eaeaac62aff4c590e4929513d642d9042df470e0d/odoo_addon_base_tier_validation-16.0.1.0.4.35-py3-none-any.whl
+[2023-06-01 11:09:33] INFO root fetch - processPackages [odoo-addon-multi-step-wizard]: Downloading https://files.pythonhosted.org/packages/e1/01/3b9c71be234b44b3241906b3c38e5104aef45588a9cbf78e02db8ca98e50/odoo_addon_multi_step_wizard-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-01 11:09:33] INFO root fetch - processPackages [ExoJAX]: Downloading https://files.pythonhosted.org/packages/a7/c7/48801926032e40d61d6050e3d71afc799c778a201c0aaddb6f87888f44ed/ExoJAX-1.3-py3.8.egg
+[2023-06-01 11:09:34] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/7e/36/57d56db6f6f09f68cdf095eb2111e44a08ea7004b770cbbf61289770e6a8/autogluon.cloud-0.2.1b20230601.tar.gz
+[2023-06-01 11:09:34] INFO root fetch - processPackages [sleepecg]: Downloading https://files.pythonhosted.org/packages/13/06/d20abc96a026eb5dd3939735035baf0925f199f0ec0d655187ba82dcbf8f/sleepecg-0.5.4.tar.gz
+[2023-06-01 11:09:34] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/94/b1/38cb58af616e78176d59eb1d727a743692bf90ac62c3ca7ffb54017d6e1d/autogluon.eda-0.7.1b20230601.tar.gz
+[2023-06-01 11:09:34] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/a7/1c/2f56eab6882b6150a9d740f0677f156212b69dd3a6ca999714897c371bd2/nonebot-plugin-alconna-0.7.0.tar.gz
+[2023-06-01 11:09:34] INFO root fetch - processPackages [bionumpy]: executing diffoscope
+[2023-06-01 11:09:34] INFO root fetch - processPackages [bionumpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionumpy-0.2.8.tar.gz tmp/bionumpy-0.2.9.tar.gz --markdown 20230601/b/bionumpy/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-01 11:09:34] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2023-06-01 11:09:34] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/5a/93/777ae87ec65c817a256f9aef610a5de6f3cb1f740c3a5be6cadc95d4a1db/autogluon-0.7.1b20230601.tar.gz
+[2023-06-01 11:09:34] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.2.1b20230531.tar.gz tmp/autogluon.cloud-0.2.1b20230601.tar.gz --markdown 20230601/a/autogluon.cloud/0.2.1b20230531-0.2.1b20230601/diff.md --exclude *.pyd
+[2023-06-01 11:09:34] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Downloading https://files.pythonhosted.org/packages/43/a0/3e17e073a4039ddd368fdded30c4ff75815dacc0f5172fb638e994726d2e/lusid-configuration-sdk-preview-0.1.432.tar.gz
+[2023-06-01 11:09:34] INFO root fetch - processPackages [nonebot-plugin-alconna]: executing diffoscope
+[2023-06-01 11:09:34] INFO root fetch - processPackages [nonebot-plugin-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-alconna-0.6.1.tar.gz tmp/nonebot-plugin-alconna-0.7.0.tar.gz --markdown 20230601/n/nonebot-plugin-alconna/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-01 11:09:34] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-06-01 11:09:34] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.4.35-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.4.6-py3-none-any.whl.zip --markdown 20230601/o/odoo-addon-base-tier-validation/16.0.1.0.4.35-16.0.1.0.4.6/diff.md --exclude *.pyd
+[2023-06-01 11:09:34] INFO root fetch - processPackages [odoo-addon-multi-step-wizard]: Downloading https://files.pythonhosted.org/packages/d2/e9/6ac930e953d1aa948f4a4d69a95d55f9f7ab9011aefae804dc5bdac13295/odoo_addon_multi_step_wizard-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-01 11:09:34] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: executing diffoscope
+[2023-06-01 11:09:34] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-configuration-sdk-preview-0.1.431.tar.gz tmp/lusid-configuration-sdk-preview-0.1.432.tar.gz --markdown 20230601/l/lusid-configuration-sdk-preview/0.1.431-0.1.432/diff.md --exclude *.pyd
+[2023-06-01 11:09:34] INFO root fetch - processPackages [odoo-addon-multi-step-wizard]: executing diffoscope
+[2023-06-01 11:09:34] INFO root fetch - processPackages [odoo-addon-multi-step-wizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_multi_step_wizard-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_multi_step_wizard-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230601/o/odoo-addon-multi-step-wizard/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-01 11:09:34] INFO root fetch - processPackages [autogluon.eda]: executing diffoscope
+[2023-06-01 11:09:34] INFO root fetch - processPackages [autogluon.eda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.eda-0.7.1b20230531.tar.gz tmp/autogluon.eda-0.7.1b20230601.tar.gz --markdown 20230601/a/autogluon.eda/0.7.1b20230531-0.7.1b20230601/diff.md --exclude *.pyd
+[2023-06-01 11:09:34] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2023-06-01 11:09:34] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-0.7.1b20230531.tar.gz tmp/autogluon-0.7.1b20230601.tar.gz --markdown 20230601/a/autogluon/0.7.1b20230531-0.7.1b20230601/diff.md --exclude *.pyd
+[2023-06-01 11:09:34] ERROR root fetch - processPackages [bionumpy]: Diffoscope failed: Error: error creating container storage: the container name "interesting_antonelli" is already in use by "03c76ee9e3d4433fc7bdaffb3c9a91b7192704e6024f1a92d3dac4a935474f5b". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-01 11:09:34] INFO root fetch - processPackages [bionumpy]: Start processing: zrb
+[2023-06-01 11:09:34] INFO root fetch - main [MainThread]: End processing [bionumpy] error
+[2023-06-01 11:09:34] INFO root fetch - processPackages [zrb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 11:09:34] INFO root fetch - processPackages [sleepecg]: Downloading https://files.pythonhosted.org/packages/d7/45/3bdb7126284dcf23fd39a9a1623f0fc4398b0ea293bea418ac47ca269746/sleepecg-0.5.5.tar.gz
+[2023-06-01 11:09:34] INFO root fetch - processPackages [sleepecg]: executing diffoscope
+[2023-06-01 11:09:34] INFO root fetch - processPackages [sleepecg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepecg-0.5.4.tar.gz tmp/sleepecg-0.5.5.tar.gz --markdown 20230601/s/sleepecg/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-01 11:09:34] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2023-06-01 11:09:34] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.0.8.tar.gz tmp/zrb-0.0.9.tar.gz --markdown 20230601/z/zrb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 11:09:35] INFO root fetch - processPackages [nonebot-plugin-alconna]: Start processing: miniscutil
+[2023-06-01 11:09:35] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-alconna]: success
+[2023-06-01 11:09:35] INFO root fetch - processPackages [miniscutil]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-01 11:09:36] INFO root fetch - processPackages [autogluon.cloud]: Start processing: ehzahumming
+[2023-06-01 11:09:36] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2023-06-01 11:09:36] INFO root fetch - processPackages [ExoJAX]: Downloading https://files.pythonhosted.org/packages/c8/1e/0f544fc64ae2d9f180e2cce9368e2f02225e35cd84102662aa07fa0dcf93/ExoJAX-1.3.1-py3.8.egg
+[2023-06-01 11:09:36] WARNING root fetch - processPackages [ehzahumming]: Skipping, unable to determine old version
+[2023-06-01 11:09:36] INFO root fetch - processPackages [ehzahumming]: Start processing: data-copilot
+[2023-06-01 11:09:36] INFO root fetch - main [MainThread]: End processing [ehzahumming] error
+[2023-06-01 11:09:36] INFO root fetch - processPackages [miniscutil]: Downloading https://files.pythonhosted.org/packages/c8/29/621e510adfde8464a3630ce6f16117f029e79edce6830db2e5b2ebd80930/miniscutil-0.2.5.tar.gz
+[2023-06-01 11:09:36] INFO root fetch - processPackages [data-copilot]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-01 11:09:36] INFO root fetch - processPackages [ExoJAX]: executing diffoscope
+[2023-06-01 11:09:36] INFO root fetch - processPackages [ExoJAX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExoJAX-1.3-py3.8.egg tmp/ExoJAX-1.3.1-py3.8.egg --markdown 20230601/E/ExoJAX/1.3-1.3.1/diff.md --exclude *.pyd
+[2023-06-01 11:09:36] INFO root fetch - processPackages [autogluon]: Start processing: iparapheur-utils
+[2023-06-01 11:09:36] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2023-06-01 11:09:36] INFO root fetch - processPackages [iparapheur-utils]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-01 11:09:36] INFO root fetch - processPackages [miniscutil]: executing diffoscope
+[2023-06-01 11:09:36] INFO root fetch - processPackages [miniscutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniscutil-0.2.4.tar.gz tmp/miniscutil-0.2.5.tar.gz --markdown 20230601/m/miniscutil/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-01 11:09:36] INFO root fetch - processPackages [data-copilot]: Downloading https://files.pythonhosted.org/packages/e3/15/f1d6abe4452dd9266e92e6a0389724c1bcdcdc0be46370c5da7cdcd6a669/data_copilot-0.1.0.tar.gz
+[2023-06-01 11:09:36] INFO root fetch - processPackages [odoo-addon-multi-step-wizard]: Start processing: GaikevichSerialization
+[2023-06-01 11:09:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-multi-step-wizard]: success
+[2023-06-01 11:09:36] WARNING root fetch - processPackages [GaikevichSerialization]: Skipping, unable to determine old version
+[2023-06-01 11:09:36] INFO root fetch - processPackages [GaikevichSerialization]: Start processing: Magma-Indonesia-API
+[2023-06-01 11:09:36] INFO root fetch - main [MainThread]: End processing [GaikevichSerialization] error
+[2023-06-01 11:09:36] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Start processing: ipfs-hamt-directory-py
+[2023-06-01 11:09:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-06-01 11:09:36] INFO root fetch - processPackages [Magma-Indonesia-API]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-06-01 11:09:36] INFO root fetch - processPackages [ipfs-hamt-directory-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-01 11:09:36] INFO root fetch - processPackages [data-copilot]: Downloading https://files.pythonhosted.org/packages/a1/fa/67fe13c16ab7430eac21e20ac2168f809416053b6cf6a53396ead496b86e/data_copilot-0.1.1.tar.gz
+[2023-06-01 11:09:36] WARNING root fetch - processPackages [data-copilot]: Skipping package: exceeds size limit 17278465>=10485760
+[2023-06-01 11:09:36] INFO root fetch - processPackages [data-copilot]: Start processing: sspqdd
+[2023-06-01 11:09:36] INFO root fetch - main [MainThread]: End processing [data-copilot] error
+[2023-06-01 11:09:36] INFO root fetch - processPackages [sspqdd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 11:09:36] INFO root fetch - processPackages [Magma-Indonesia-API]: Downloading https://files.pythonhosted.org/packages/85/d8/0f2bfa02a4f220523f490a54c6921ec98151e35196ab73c08c19ba016d80/Magma-Indonesia-API-1.0.1.tar.gz
+[2023-06-01 11:09:36] INFO root fetch - processPackages [ipfs-hamt-directory-py]: Downloading https://files.pythonhosted.org/packages/83/21/405470415b9d7e864b9589dab7d0e82a40f211cabcafaf79e14b72874c8c/ipfs_hamt_directory_py-0.1.0.tar.gz
+[2023-06-01 11:09:36] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-06-01 11:09:36] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.8.tar.gz tmp/sspqdd-1.0.9.tar.gz --markdown 20230601/s/sspqdd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 11:09:36] INFO root fetch - processPackages [zrb]: Start processing: QuNet
+[2023-06-01 11:09:36] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2023-06-01 11:09:36] INFO root fetch - processPackages [iparapheur-utils]: executing diffoscope
+[2023-06-01 11:09:36] INFO root fetch - processPackages [iparapheur-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iparapheur-utils-0.9.8.tar.gz tmp/iparapheur-utils-0.9.9.tar.gz --markdown 20230601/i/iparapheur-utils/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-01 11:09:36] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 11:09:36] INFO root fetch - processPackages [Magma-Indonesia-API]: Downloading https://files.pythonhosted.org/packages/76/4c/f3b7ca9f115fe1795896907d9f5c16f5076323de2201c5d9d06b796ccadb/Magma-Indonesia-API-2.0.0.tar.gz
+[2023-06-01 11:09:36] INFO root fetch - processPackages [ipfs-hamt-directory-py]: Downloading https://files.pythonhosted.org/packages/e8/a3/11b8e245ee16c2ede28100dc704e0a0599db1825e5f52ffb095046cd9710/ipfs_hamt_directory_py-0.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-01 11:09:36] INFO root fetch - processPackages [Magma-Indonesia-API]: executing diffoscope
+[2023-06-01 11:09:36] INFO root fetch - processPackages [Magma-Indonesia-API]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Magma-Indonesia-API-1.0.1.tar.gz tmp/Magma-Indonesia-API-2.0.0.tar.gz --markdown 20230601/M/Magma-Indonesia-API/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-01 11:09:37] INFO root fetch - processPackages [ipfs-hamt-directory-py]: executing diffoscope
+[2023-06-01 11:09:37] INFO root fetch - processPackages [ipfs-hamt-directory-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfs_hamt_directory_py-0.1.0.tar.gz tmp/ipfs_hamt_directory_py-0.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230601/i/ipfs-hamt-directory-py/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-01 11:09:37] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-01 11:09:37] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230601/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 11:09:37] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Start processing: xia-engine
+[2023-06-01 11:09:37] INFO root fetch - main [MainThread]: End processing [lusid-configuration-sdk-preview]: success
+[2023-06-01 11:09:37] INFO root fetch - processPackages [xia-engine]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-01 11:09:37] INFO root fetch - processPackages [xia-engine]: executing diffoscope
+[2023-06-01 11:09:37] INFO root fetch - processPackages [xia-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine-0.8.8-cp39-none-win_amd64.whl.zip tmp/xia_engine-0.8.9-cp39-none-win_amd64.whl.zip --markdown 20230601/x/xia-engine/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-01 11:09:37] INFO root fetch - processPackages [miniscutil]: Start processing: qwak-core
+[2023-06-01 11:09:37] INFO root fetch - main [MainThread]: End processing [miniscutil]: success
+[2023-06-01 11:09:38] INFO root fetch - processPackages [qwak-core]: New version: [0.0.92] Old Version: [0.0.91]
+[2023-06-01 11:09:38] INFO root fetch - processPackages [sspqdd]: Start processing: tracebloc-package-dev
+[2023-06-01 11:09:38] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-06-01 11:09:38] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-01 11:09:38] INFO root fetch - processPackages [autogluon.eda]: Start processing: summa-embed
+[2023-06-01 11:09:38] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
+[2023-06-01 11:09:38] INFO root fetch - processPackages [summa-embed]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-06-01 11:09:38] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/51/a8/26b31ad5ab5a122969d8ff104a34f9729f20f4b950fe176b38c348ab154f/qwak_core-0.0.92.tar.gz
+[2023-06-01 11:09:38] INFO root fetch - processPackages [summa-embed]: executing diffoscope
+[2023-06-01 11:09:38] INFO root fetch - processPackages [summa-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summa_embed-0.15.7.tar.gz tmp/summa_embed-0.15.8.tar.gz --markdown 20230601/s/summa-embed/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-06-01 11:09:38] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-06-01 11:09:38] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.91.tar.gz tmp/qwak_core-0.0.92.tar.gz --markdown 20230601/q/qwak-core/0.0.91-0.0.92/diff.md --exclude *.pyd
+[2023-06-01 11:09:38] INFO root fetch - processPackages [Magma-Indonesia-API]: Start processing: cqwu
+[2023-06-01 11:09:38] INFO root fetch - main [MainThread]: End processing [Magma-Indonesia-API]: success
+[2023-06-01 11:09:38] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/16/5a/bfb0736d5287ca623aa006149986810b7eb2e02f9a429dac70242ee1f126/tracebloc_package-dev-0.4.2.tar.gz
+[2023-06-01 11:09:38] INFO root fetch - processPackages [cqwu]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 11:09:38] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2023-06-01 11:09:38] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.4.1.tar.gz tmp/tracebloc_package-dev-0.4.2.tar.gz --markdown 20230601/t/tracebloc-package-dev/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-01 11:09:38] INFO root fetch - processPackages [cqwu]: Downloading https://files.pythonhosted.org/packages/bd/42/41e40368886e05ab0ca79c77db7452707b152ee213db78741854e54d1d47/cqwu-0.0.8.tar.gz
+[2023-06-01 11:09:38] INFO root fetch - main [MainThread]: End processing [ipfs-hamt-directory-py]: success
+[2023-06-01 11:09:39] INFO root fetch - processPackages [cqwu]: Downloading https://files.pythonhosted.org/packages/a9/64/4dcb01b3260830b85393f379cd233cc7e30d5ddf8fe3ee318bc61786e3a4/cqwu-0.0.9.tar.gz
+[2023-06-01 11:09:39] INFO root fetch - main [MainThread]: End processing [sleepecg]: success
+[2023-06-01 11:09:39] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-01 11:09:39] INFO root fetch - main [MainThread]: End processing [iparapheur-utils]: success
+[2023-06-01 11:09:39] INFO root fetch - processPackages [cqwu]: executing diffoscope
+[2023-06-01 11:09:39] INFO root fetch - processPackages [cqwu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cqwu-0.0.8.tar.gz tmp/cqwu-0.0.9.tar.gz --markdown 20230601/c/cqwu/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 11:09:39] INFO root fetch - main [MainThread]: End processing [xia-engine]: success
+[2023-06-01 11:09:40] INFO root fetch - main [MainThread]: End processing [summa-embed]: success
+[2023-06-01 11:09:40] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2023-06-01 11:09:40] INFO root fetch - main [MainThread]: End processing [cqwu]: success
+[2023-06-01 11:09:45] INFO root fetch - main [MainThread]: End processing [ExoJAX]: success
+[2023-06-01 11:09:45] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-06-01 11:09:45] INFO root fetch - main [MainThread]: Store serial: [18330408]
