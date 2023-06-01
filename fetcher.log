@@ -19677,3 +19677,98 @@
 [2023-06-01 15:47:55] INFO root fetch - main [MainThread]: End processing [aws-cdk-constructs]: success
 [2023-06-01 15:47:55] INFO root fetch - main [MainThread]: End processing [jobmatchup]: success
 [2023-06-01 15:47:55] INFO root fetch - main [MainThread]: Store serial: [18334374]
+[2023-06-01 15:53:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18334374]
+[2023-06-01 15:53:04] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-01 15:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easyport
+[2023-06-01 15:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: siconfig
+[2023-06-01 15:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whispercpp-py
+[2023-06-01 15:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataplaybook
+[2023-06-01 15:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-grains
+[2023-06-01 15:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: speechtotext-python
+[2023-06-01 15:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cg
+[2023-06-01 15:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: duckietown-docker-utils-ente
+[2023-06-01 15:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastestimator-nightly
+[2023-06-01 15:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pspdfutils
+[2023-06-01 15:53:04] WARNING root fetch - processPackages [whispercpp-py]: Skipping, unable to determine old version
+[2023-06-01 15:53:04] INFO root fetch - processPackages [whispercpp-py]: Start processing: intelliprove
+[2023-06-01 15:53:04] INFO root fetch - main [MainThread]: End processing [whispercpp-py] error
+[2023-06-01 15:53:04] INFO root fetch - processPackages [siconfig]: New version: [1.1] Old Version: [1.0]
+[2023-06-01 15:53:04] INFO root fetch - processPackages [duckietown-docker-utils-ente]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-06-01 15:53:04] INFO root fetch - processPackages [pspdfutils]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-06-01 15:53:04] INFO root fetch - processPackages [easyport]: New version: [0.1.3] Old Version: [0.1.0]
+[2023-06-01 15:53:04] INFO root fetch - processPackages [python-grains]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-01 15:53:04] INFO root fetch - processPackages [speechtotext-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-01 15:53:04] INFO root fetch - processPackages [intelliprove]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-01 15:53:04] INFO root fetch - processPackages [dataplaybook]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 15:53:04] INFO root fetch - processPackages [cg]: New version: [33.1.3] Old Version: [33.1.2]
+[2023-06-01 15:53:04] INFO root fetch - processPackages [fastestimator-nightly]: New version: [1.6.0.dev202305311350] Old Version: [1.6.0.dev202305310417]
+[2023-06-01 15:53:04] INFO root fetch - processPackages [siconfig]: Downloading https://files.pythonhosted.org/packages/37/ee/1dde403be44851d4b0580c5e3f52e035d33b601b5448fe44e94424758d41/siconfig-1.0.tar.gz
+[2023-06-01 15:53:04] INFO root fetch - processPackages [duckietown-docker-utils-ente]: Downloading https://files.pythonhosted.org/packages/a4/c1/487d8b31908026827063f7dcb8f519acf9bcf09360a237b115ff46f90dc6/duckietown-docker-utils-ente-7.0.0.tar.gz
+[2023-06-01 15:53:04] INFO root fetch - processPackages [dataplaybook]: Downloading https://files.pythonhosted.org/packages/88/ba/815f4a51f893d73f757a50f949cca8907fd8d36729e80b0789b513d54f0a/dataplaybook-1.0.8.tar.gz
+[2023-06-01 15:53:04] INFO root fetch - processPackages [python-grains]: Downloading https://files.pythonhosted.org/packages/a9/b8/66f5a72d6e11d3d15f8ffc49bd190f70acaf305421e1ab156f3fb2cf5340/python_grains-0.9.8.tar.gz
+[2023-06-01 15:53:04] INFO root fetch - processPackages [pspdfutils]: Downloading https://files.pythonhosted.org/packages/37/fb/6a3a01bbc0bd02247d2c1a8c047c8aa318fdb235ab38ecd830683b7e406e/pspdfutils-3.0.1.tar.gz
+[2023-06-01 15:53:04] INFO root fetch - processPackages [easyport]: Downloading https://files.pythonhosted.org/packages/91/00/2968ec6dbf041ff3b019c8572308f57003d6b9509d51c08e2ed3ee619704/easyport-0.1.3.tar.gz
+[2023-06-01 15:53:05] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ee/75/1c2909be8c3d15972387928efcdf1e66ded12946645e28aa1fcf73af705f/cg-33.1.3.tar.gz
+[2023-06-01 15:53:05] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/ec/3e/c78ebaf0dde7f6951f6ee62e46f2b5122f5d1796842d51bc7df3c423a2ce/fastestimator-nightly-1.6.0.dev202305311350.tar.gz
+[2023-06-01 15:53:05] INFO root fetch - processPackages [easyport]: executing diffoscope
+[2023-06-01 15:53:05] INFO root fetch - processPackages [easyport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyport-0.1.0.tar.gz tmp/easyport-0.1.3.tar.gz --markdown 20230601/e/easyport/0.1.0-0.1.3/diff.md --exclude *.pyd
+[2023-06-01 15:53:05] INFO root fetch - processPackages [intelliprove]: Downloading https://files.pythonhosted.org/packages/a6/7e/2054c63f12b265963600197e57f1246760bfb117d6c4d7b6c8befb6e7397/intelliprove-1.0.1.tar.gz
+[2023-06-01 15:53:05] INFO root fetch - processPackages [duckietown-docker-utils-ente]: Downloading https://files.pythonhosted.org/packages/d7/12/341a552c1cf62016a528c86b487d9a63903902690295d162f07462369a1e/duckietown-docker-utils-ente-7.0.1.tar.gz
+[2023-06-01 15:53:05] INFO root fetch - processPackages [fastestimator-nightly]: executing diffoscope
+[2023-06-01 15:53:05] INFO root fetch - processPackages [fastestimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastestimator-nightly-1.6.0.dev202305310417.tar.gz tmp/fastestimator-nightly-1.6.0.dev202305311350.tar.gz --markdown 20230601/f/fastestimator-nightly/1.6.0.dev202305310417-1.6.0.dev202305311350/diff.md --exclude *.pyd
+[2023-06-01 15:53:05] INFO root fetch - processPackages [siconfig]: Downloading https://files.pythonhosted.org/packages/46/08/041517aad6da00a7d213bc24c504a6ada83796535b8f1b8ecba1ca4e1b82/siconfig-1.1.tar.gz
+[2023-06-01 15:53:05] INFO root fetch - processPackages [speechtotext-python]: executing diffoscope
+[2023-06-01 15:53:05] INFO root fetch - processPackages [speechtotext-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speechtotext-python-0.3.8.tar.gz tmp/speechtotext-python-0.3.9.tar.gz --markdown 20230601/s/speechtotext-python/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-01 15:53:05] INFO root fetch - processPackages [pspdfutils]: Downloading https://files.pythonhosted.org/packages/52/65/9d59452d6753bb38913bb0c0c46917d2747d7b7dc78964b54cd12c2d0440/pspdfutils-3.0.2.tar.gz
+[2023-06-01 15:53:05] INFO root fetch - processPackages [dataplaybook]: Downloading https://files.pythonhosted.org/packages/f9/3d/9f8cf1f88880af8844d89c3356039be31b1240205a1b486c16744952f341/dataplaybook-1.0.9.tar.gz
+[2023-06-01 15:53:05] INFO root fetch - processPackages [duckietown-docker-utils-ente]: executing diffoscope
+[2023-06-01 15:53:05] INFO root fetch - processPackages [duckietown-docker-utils-ente]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckietown-docker-utils-ente-7.0.0.tar.gz tmp/duckietown-docker-utils-ente-7.0.1.tar.gz --markdown 20230601/d/duckietown-docker-utils-ente/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-06-01 15:53:05] INFO root fetch - processPackages [siconfig]: executing diffoscope
+[2023-06-01 15:53:05] INFO root fetch - processPackages [siconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siconfig-1.0.tar.gz tmp/siconfig-1.1.tar.gz --markdown 20230601/s/siconfig/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-01 15:53:05] INFO root fetch - processPackages [python-grains]: Downloading https://files.pythonhosted.org/packages/99/dd/ec5048ae9942f2e6037283b7063028e0e3562f15d9a146efceacbaafcf1e/python_grains-0.9.9.tar.gz
+[2023-06-01 15:53:05] INFO root fetch - processPackages [intelliprove]: Downloading https://files.pythonhosted.org/packages/9c/e1/d1fc51a115ffb2edaa199d674d88189ac25636ff2085b99e75b4ce7ee776/intelliprove-1.1.0.tar.gz
+[2023-06-01 15:53:05] INFO root fetch - processPackages [dataplaybook]: executing diffoscope
+[2023-06-01 15:53:05] INFO root fetch - processPackages [dataplaybook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataplaybook-1.0.8.tar.gz tmp/dataplaybook-1.0.9.tar.gz --markdown 20230601/d/dataplaybook/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 15:53:05] INFO root fetch - processPackages [intelliprove]: executing diffoscope
+[2023-06-01 15:53:05] INFO root fetch - processPackages [intelliprove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intelliprove-1.0.1.tar.gz tmp/intelliprove-1.1.0.tar.gz --markdown 20230601/i/intelliprove/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-01 15:53:05] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-01 15:53:05] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-33.1.2.tar.gz tmp/cg-33.1.3.tar.gz --markdown 20230601/c/cg/33.1.2-33.1.3/diff.md --exclude *.pyd
+[2023-06-01 15:53:05] INFO root fetch - processPackages [python-grains]: executing diffoscope
+[2023-06-01 15:53:05] INFO root fetch - processPackages [python-grains]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_grains-0.9.8.tar.gz tmp/python_grains-0.9.9.tar.gz --markdown 20230601/p/python-grains/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-01 15:53:05] INFO root fetch - processPackages [pspdfutils]: executing diffoscope
+[2023-06-01 15:53:05] INFO root fetch - processPackages [pspdfutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pspdfutils-3.0.1.tar.gz tmp/pspdfutils-3.0.2.tar.gz --markdown 20230601/p/pspdfutils/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-06-01 15:53:06] INFO root fetch - processPackages [easyport]: Start processing: finflo
+[2023-06-01 15:53:06] INFO root fetch - main [MainThread]: End processing [easyport]: success
+[2023-06-01 15:53:06] INFO root fetch - processPackages [finflo]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-01 15:53:06] INFO root fetch - processPackages [finflo]: executing diffoscope
+[2023-06-01 15:53:06] INFO root fetch - processPackages [finflo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finflo-2.0.8.tar.gz tmp/finflo-2.0.9.tar.gz --markdown 20230601/f/finflo/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-01 15:53:06] INFO root fetch - processPackages [speechtotext-python]: Start processing: django-pfx
+[2023-06-01 15:53:06] INFO root fetch - main [MainThread]: End processing [speechtotext-python]: success
+[2023-06-01 15:53:06] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev6]
+[2023-06-01 15:53:07] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-06-01 15:53:07] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev6.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230601/d/django-pfx/1.2.dev6-1.2.dev8/diff.md --exclude *.pyd
+[2023-06-01 15:53:07] INFO root fetch - processPackages [duckietown-docker-utils-ente]: Start processing: colablib
+[2023-06-01 15:53:07] INFO root fetch - main [MainThread]: End processing [duckietown-docker-utils-ente]: success
+[2023-06-01 15:53:07] INFO root fetch - processPackages [colablib]: New version: [0.1.5.dev3] Old Version: [0.1.5.dev2]
+[2023-06-01 15:53:07] INFO root fetch - processPackages [siconfig]: Start processing: twirl
+[2023-06-01 15:53:07] INFO root fetch - main [MainThread]: End processing [siconfig]: success
+[2023-06-01 15:53:07] INFO root fetch - processPackages [twirl]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-01 15:53:07] INFO root fetch - processPackages [colablib]: Downloading https://files.pythonhosted.org/packages/38/e7/ece17d80362dd21f4cb4f3dc9e1d5a1acc353caf7de293b9f688bb11a542/colablib-0.1.5.dev2.tar.gz
+[2023-06-01 15:53:07] INFO root fetch - processPackages [twirl]: Downloading https://files.pythonhosted.org/packages/2e/67/158344265d54becc6934cc9aace0036f2256843765b3e30dd7a255fe250b/twirl-0.3.2.tar.gz
+[2023-06-01 15:53:07] INFO root fetch - processPackages [colablib]: Downloading https://files.pythonhosted.org/packages/cd/86/88fc77a88d7fdc722a103d8b53798d06d220ba38431a51cd596a9fe4e78a/colablib-0.1.5.dev3.tar.gz
+[2023-06-01 15:53:07] INFO root fetch - main [MainThread]: End processing [intelliprove]: success
+[2023-06-01 15:53:07] INFO root fetch - main [MainThread]: End processing [dataplaybook]: success
+[2023-06-01 15:53:07] INFO root fetch - processPackages [colablib]: executing diffoscope
+[2023-06-01 15:53:07] INFO root fetch - processPackages [colablib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colablib-0.1.5.dev2.tar.gz tmp/colablib-0.1.5.dev3.tar.gz --markdown 20230601/c/colablib/0.1.5.dev2-0.1.5.dev3/diff.md --exclude *.pyd
+[2023-06-01 15:53:07] INFO root fetch - processPackages [twirl]: Downloading https://files.pythonhosted.org/packages/e5/c1/85ddec5df8f640822a33e54c75b147e957244a2be214f829bc5b7b3780cb/twirl-0.3.3.tar.gz
+[2023-06-01 15:53:08] INFO root fetch - processPackages [twirl]: executing diffoscope
+[2023-06-01 15:53:08] INFO root fetch - processPackages [twirl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twirl-0.3.2.tar.gz tmp/twirl-0.3.3.tar.gz --markdown 20230601/t/twirl/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-01 15:53:08] INFO root fetch - main [MainThread]: End processing [python-grains]: success
+[2023-06-01 15:53:08] INFO root fetch - main [MainThread]: End processing [finflo]: success
+[2023-06-01 15:53:09] INFO root fetch - main [MainThread]: End processing [colablib]: success
+[2023-06-01 15:53:09] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-06-01 15:53:09] INFO root fetch - main [MainThread]: End processing [pspdfutils]: success
+[2023-06-01 15:53:13] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
+[2023-06-01 15:53:20] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-01 15:53:59] INFO root fetch - main [MainThread]: End processing [twirl]: success
+[2023-06-01 15:53:59] INFO root fetch - main [MainThread]: Store serial: [18334428]
