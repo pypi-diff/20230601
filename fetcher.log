@@ -20218,3 +20218,119 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-01 16:15:21] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-docker]: success
 [2023-06-01 16:15:22] INFO root fetch - main [MainThread]: End processing [sinergym]: success
 [2023-06-01 16:15:22] INFO root fetch - main [MainThread]: Store serial: [18334733]
+[2023-06-01 16:20:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18334733]
+[2023-06-01 16:20:34] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-01 16:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-dns
+[2023-06-01 16:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-dnsimple
+[2023-06-01 16:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dizest
+[2023-06-01 16:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-vulture
+[2023-06-01 16:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-consul
+[2023-06-01 16:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: strmprivacy-api-definitions
+[2023-06-01 16:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-cdktf-provider-azurestack
+[2023-06-01 16:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pychedule
+[2023-06-01 16:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hj-generate
+[2023-06-01 16:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: streamdeckapi
+[2023-06-01 16:20:34] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-06-01 16:20:34] INFO root fetch - processPackages [dizest]: New version: [3.3.2] Old Version: [3.3.1]
+[2023-06-01 16:20:34] INFO root fetch - processPackages [strmprivacy-api-definitions]: New version: [2.9.0] Old Version: [2.86.0]
+[2023-06-01 16:20:34] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: New version: [5.0.4] Old Version: [5.0.3]
+[2023-06-01 16:20:34] WARNING root fetch - processPackages [pychedule]: Skipping, unable to determine old version
+[2023-06-01 16:20:34] INFO root fetch - processPackages [pychedule]: Start processing: colablib
+[2023-06-01 16:20:34] INFO root fetch - main [MainThread]: End processing [pychedule] error
+[2023-06-01 16:20:34] INFO root fetch - processPackages [cdktf-cdktf-provider-azurestack]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-06-01 16:20:34] INFO root fetch - processPackages [hj-generate]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-01 16:20:34] INFO root fetch - processPackages [streamdeckapi]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-01 16:20:34] INFO root fetch - processPackages [pytest-vulture]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-01 16:20:34] INFO root fetch - processPackages [cdktf-cdktf-provider-consul]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-06-01 16:20:34] INFO root fetch - processPackages [colablib]: New version: [0.1.5.dev5] Old Version: [0.1.5.dev4]
+[2023-06-01 16:20:34] INFO root fetch - processPackages [dizest]: Downloading https://files.pythonhosted.org/packages/25/e5/2f0aafb1fb91e1ec8f60250738b380877672e619cd998cdb95e99134f559/dizest-3.3.1-py3-none-any.whl
+[2023-06-01 16:20:34] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/97/7c/ad9ee5cd06eeb909e3f0b0f806a574439d0a5d389c3ccbba5d773e9c1bd2/strmprivacy-api-definitions-2.86.0.tar.gz
+[2023-06-01 16:20:34] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: Downloading https://files.pythonhosted.org/packages/8e/43/b9ad3bcafc00d332c64bb382d2fe64053f53bc8b88cffbe39dda06ec7b3e/cdktf-cdktf-provider-dns-4.0.2.tar.gz
+[2023-06-01 16:20:35] WARNING root fetch - processPackages [dizest]: Skipping package: exceeds size limit 15127019>=10485760
+[2023-06-01 16:20:35] INFO root fetch - processPackages [dizest]: Start processing: MPSPlots
+[2023-06-01 16:20:35] INFO root fetch - main [MainThread]: End processing [dizest] error
+[2023-06-01 16:20:35] INFO root fetch - processPackages [streamdeckapi]: Downloading https://files.pythonhosted.org/packages/c0/62/c19a56e272551f70e6710dc7ad647f227da3d14a97948e514a5ef30ac733/streamdeckapi-0.0.6.tar.gz
+[2023-06-01 16:20:35] INFO root fetch - processPackages [hj-generate]: Downloading https://files.pythonhosted.org/packages/1f/6d/40a1c9f7e23d30adde664260496b6c5a505e7ee8b5c9b7267c61435d0400/hj-generate-1.3.0.tar.gz
+[2023-06-01 16:20:35] INFO root fetch - processPackages [cdktf-cdktf-provider-consul]: Downloading https://files.pythonhosted.org/packages/4d/fc/079ef3a4ddfe6346d7f1e1b350a06f4824c90986d4f30b52ea927165bc45/cdktf-cdktf-provider-consul-4.0.0.tar.gz
+[2023-06-01 16:20:35] INFO root fetch - processPackages [cdktf-cdktf-provider-azurestack]: Downloading https://files.pythonhosted.org/packages/5b/4a/34f8ecebe0a11288799b8ec945700a2e9bf605042c06a6bafeb6132fb442/cdktf-cdktf-provider-azurestack-4.0.0.tar.gz
+[2023-06-01 16:20:35] INFO root fetch - processPackages [colablib]: Downloading https://files.pythonhosted.org/packages/20/d4/00e50831c91ecd0fdb5291a1de244917aaaa201e620bb3e0ed477f6da75e/colablib-0.1.5.dev5.tar.gz
+[2023-06-01 16:20:35] INFO root fetch - processPackages [MPSPlots]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-01 16:20:35] INFO root fetch - processPackages [streamdeckapi]: executing diffoscope
+[2023-06-01 16:20:35] INFO root fetch - processPackages [streamdeckapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamdeckapi-0.0.5.tar.gz tmp/streamdeckapi-0.0.6.tar.gz --markdown 20230601/s/streamdeckapi/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-01 16:20:35] INFO root fetch - processPackages [MPSPlots]: executing diffoscope
+[2023-06-01 16:20:35] INFO root fetch - processPackages [MPSPlots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MPSPlots-0.3.8-py3-none-any.whl.zip tmp/MPSPlots-0.3.9-py3-none-any.whl.zip --markdown 20230601/M/MPSPlots/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-01 16:20:35] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: Downloading https://files.pythonhosted.org/packages/a1/c4/f264d3b41e77af426c7d3ce7268d7693fca75d981bba4650bcc148a101db/cdktf-cdktf-provider-dnsimple-5.0.4.tar.gz
+[2023-06-01 16:20:35] INFO root fetch - processPackages [pytest-vulture]: Downloading https://files.pythonhosted.org/packages/0c/cb/76b9b1b80648be64281cc083c7b3d69d752685e57483458159253539f363/pytest-vulture-2.1.1.tar.gz
+[2023-06-01 16:20:35] INFO root fetch - processPackages [hj-generate]: executing diffoscope
+[2023-06-01 16:20:35] INFO root fetch - processPackages [hj-generate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hj-generate-1.2.0.tar.gz tmp/hj-generate-1.3.0.tar.gz --markdown 20230601/h/hj-generate/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-01 16:20:35] INFO root fetch - processPackages [colablib]: executing diffoscope
+[2023-06-01 16:20:35] INFO root fetch - processPackages [colablib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colablib-0.1.5.dev4.tar.gz tmp/colablib-0.1.5.dev5.tar.gz --markdown 20230601/c/colablib/0.1.5.dev4-0.1.5.dev5/diff.md --exclude *.pyd
+[2023-06-01 16:20:35] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: Downloading https://files.pythonhosted.org/packages/88/2c/c3eb19d6e4ee6ebc56d00f611ee71f074ce95b8168c18e7c8379bcd22758/cdktf-cdktf-provider-dns-4.0.3.tar.gz
+[2023-06-01 16:20:35] INFO root fetch - processPackages [strmprivacy-api-definitions]: executing diffoscope
+[2023-06-01 16:20:35] INFO root fetch - processPackages [strmprivacy-api-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strmprivacy-api-definitions-2.86.0.tar.gz tmp/strmprivacy-api-definitions-2.9.0.tar.gz --markdown 20230601/s/strmprivacy-api-definitions/2.86.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-01 16:20:35] INFO root fetch - processPackages [pytest-vulture]: executing diffoscope
+[2023-06-01 16:20:35] INFO root fetch - processPackages [pytest-vulture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-vulture-2.1.0.tar.gz tmp/pytest-vulture-2.1.1.tar.gz --markdown 20230601/p/pytest-vulture/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-01 16:20:35] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: executing diffoscope
+[2023-06-01 16:20:35] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-dnsimple-5.0.3.tar.gz tmp/cdktf-cdktf-provider-dnsimple-5.0.4.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-dnsimple/5.0.3-5.0.4/diff.md --exclude *.pyd
+[2023-06-01 16:20:35] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: executing diffoscope
+[2023-06-01 16:20:35] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-dns-4.0.2.tar.gz tmp/cdktf-cdktf-provider-dns-4.0.3.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-dns/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-06-01 16:20:35] INFO root fetch - processPackages [cdktf-cdktf-provider-consul]: Downloading https://files.pythonhosted.org/packages/ea/2b/4466d307b87089971e13ceba9a7609fc18f307e782ca1f6e1f7799ae2dea/cdktf-cdktf-provider-consul-4.0.1.tar.gz
+[2023-06-01 16:20:35] INFO root fetch - processPackages [cdktf-cdktf-provider-consul]: executing diffoscope
+[2023-06-01 16:20:35] INFO root fetch - processPackages [cdktf-cdktf-provider-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-consul-4.0.0.tar.gz tmp/cdktf-cdktf-provider-consul-4.0.1.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-consul/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-06-01 16:20:36] INFO root fetch - processPackages [cdktf-cdktf-provider-azurestack]: Downloading https://files.pythonhosted.org/packages/73/4f/31fd31919129143045b3059e45cddb2cbe0c7431ade63d8c7bb671bcc5a6/cdktf-cdktf-provider-azurestack-4.0.1.tar.gz
+[2023-06-01 16:20:36] INFO root fetch - processPackages [streamdeckapi]: Start processing: cdktf-cdktf-provider-databricks
+[2023-06-01 16:20:36] INFO root fetch - main [MainThread]: End processing [streamdeckapi]: success
+[2023-06-01 16:20:36] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: New version: [7.0.5] Old Version: [7.0.4]
+[2023-06-01 16:20:36] INFO root fetch - processPackages [cdktf-cdktf-provider-azurestack]: executing diffoscope
+[2023-06-01 16:20:36] INFO root fetch - processPackages [cdktf-cdktf-provider-azurestack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-azurestack-4.0.0.tar.gz tmp/cdktf-cdktf-provider-azurestack-4.0.1.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-azurestack/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-06-01 16:20:36] INFO root fetch - processPackages [hj-generate]: Start processing: TheSilent
+[2023-06-01 16:20:36] INFO root fetch - main [MainThread]: End processing [hj-generate]: success
+[2023-06-01 16:20:36] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 16:20:37] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Downloading https://files.pythonhosted.org/packages/59/07/fcb374614b37d090e5c2d29e5bd6b75b8573dfee8799853618bf9634d2d3/cdktf-cdktf-provider-databricks-7.0.5.tar.gz
+[2023-06-01 16:20:37] INFO root fetch - processPackages [MPSPlots]: Start processing: xia-engine
+[2023-06-01 16:20:37] INFO root fetch - main [MainThread]: End processing [MPSPlots]: success
+[2023-06-01 16:20:37] INFO root fetch - processPackages [xia-engine]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-01 16:20:37] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: executing diffoscope
+[2023-06-01 16:20:37] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-databricks-7.0.4.tar.gz tmp/cdktf-cdktf-provider-databricks-7.0.5.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-databricks/7.0.4-7.0.5/diff.md --exclude *.pyd
+[2023-06-01 16:20:37] INFO root fetch - processPackages [colablib]: Start processing: large-image
+[2023-06-01 16:20:37] INFO root fetch - main [MainThread]: End processing [colablib]: success
+[2023-06-01 16:20:37] INFO root fetch - processPackages [large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 16:20:37] INFO root fetch - processPackages [large-image]: executing diffoscope
+[2023-06-01 16:20:37] INFO root fetch - processPackages [large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-1.9.1.dev6.tar.gz tmp/large-image-1.9.1.dev8.tar.gz --markdown 20230601/l/large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 16:20:37] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-06-01 16:20:37] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230601/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 16:20:37] INFO root fetch - processPackages [xia-engine]: executing diffoscope
+[2023-06-01 16:20:37] INFO root fetch - processPackages [xia-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine-0.8.8-cp39-none-win_amd64.whl.zip tmp/xia_engine-0.8.9-cp39-none-win_amd64.whl.zip --markdown 20230601/x/xia-engine/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-01 16:20:37] INFO root fetch - processPackages [pytest-vulture]: Start processing: rudderclient
+[2023-06-01 16:20:37] INFO root fetch - main [MainThread]: End processing [pytest-vulture]: success
+[2023-06-01 16:20:37] INFO root fetch - processPackages [rudderclient]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-06-01 16:20:37] INFO root fetch - processPackages [rudderclient]: executing diffoscope
+[2023-06-01 16:20:37] INFO root fetch - processPackages [rudderclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudderclient-1.8.0.tar.gz tmp/rudderclient-1.8.1.tar.gz --markdown 20230601/r/rudderclient/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-06-01 16:20:38] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: Start processing: girder-large-image
+[2023-06-01 16:20:38] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-dnsimple]: success
+[2023-06-01 16:20:39] INFO root fetch - processPackages [girder-large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 16:20:39] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: Start processing: hestia-earth-orchestrator
+[2023-06-01 16:20:39] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-dns]: success
+[2023-06-01 16:20:39] INFO root fetch - processPackages [girder-large-image]: executing diffoscope
+[2023-06-01 16:20:39] INFO root fetch - processPackages [girder-large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-1.9.1.dev6.tar.gz tmp/girder-large-image-1.9.1.dev8.tar.gz --markdown 20230601/g/girder-large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 16:20:39] INFO root fetch - processPackages [xia-engine]: Start processing: girder-large-image-annotation
+[2023-06-01 16:20:39] INFO root fetch - main [MainThread]: End processing [xia-engine]: success
+[2023-06-01 16:20:39] INFO root fetch - processPackages [hestia-earth-orchestrator]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-06-01 16:20:39] INFO root fetch - processPackages [girder-large-image-annotation]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-01 16:20:39] INFO root fetch - processPackages [girder-large-image-annotation]: executing diffoscope
+[2023-06-01 16:20:39] INFO root fetch - processPackages [girder-large-image-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz --markdown 20230601/g/girder-large-image-annotation/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 16:20:39] INFO root fetch - processPackages [hestia-earth-orchestrator]: Downloading https://files.pythonhosted.org/packages/42/43/b5e502c33d3561af6f6315cf041c1659856b9b464d606c3fe3fdf73e8bb4/hestia-earth-orchestrator-0.5.3.tar.gz
+[2023-06-01 16:20:39] INFO root fetch - main [MainThread]: End processing [strmprivacy-api-definitions]: success
+[2023-06-01 16:20:39] INFO root fetch - main [MainThread]: End processing [rudderclient]: success
+[2023-06-01 16:20:39] INFO root fetch - main [MainThread]: End processing [large-image]: success
+[2023-06-01 16:20:39] INFO root fetch - processPackages [hestia-earth-orchestrator]: Downloading https://files.pythonhosted.org/packages/06/d1/3f295a74cde5bac29a36c84bd4954b30249d77d66a97404c3a251b9d6b51/hestia-earth-orchestrator-0.6.0.tar.gz
+[2023-06-01 16:20:39] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-consul]: success
+[2023-06-01 16:20:39] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-06-01 16:20:39] INFO root fetch - processPackages [hestia-earth-orchestrator]: executing diffoscope
+[2023-06-01 16:20:39] INFO root fetch - processPackages [hestia-earth-orchestrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-orchestrator-0.5.3.tar.gz tmp/hestia-earth-orchestrator-0.6.0.tar.gz --markdown 20230601/h/hestia-earth-orchestrator/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-06-01 16:20:40] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azurestack]: success
+[2023-06-01 16:20:41] INFO root fetch - main [MainThread]: End processing [girder-large-image-annotation]: success
+[2023-06-01 16:20:41] INFO root fetch - main [MainThread]: End processing [hestia-earth-orchestrator]: success
+[2023-06-01 16:20:42] INFO root fetch - main [MainThread]: End processing [girder-large-image]: success
+[2023-06-01 16:21:29] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-databricks]: success
+[2023-06-01 16:21:29] INFO root fetch - main [MainThread]: Store serial: [18334790]
