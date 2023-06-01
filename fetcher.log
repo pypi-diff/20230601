@@ -18736,3 +18736,178 @@
 [2023-06-01 15:08:22] INFO root fetch - main [MainThread]: End processing [viktor]: success
 [2023-06-01 15:08:57] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-06-01 15:08:57] INFO root fetch - main [MainThread]: Store serial: [18333832]
+[2023-06-01 15:14:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18333832]
+[2023-06-01 15:14:13] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-06-01 15:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-ens20171110-py2
+[2023-06-01 15:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: index-503
+[2023-06-01 15:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-ens20171110
+[2023-06-01 15:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-numpy
+[2023-06-01 15:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rysk-client
+[2023-06-01 15:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CliRenderer
+[2023-06-01 15:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vdk-plugin-control-cli
+[2023-06-01 15:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: renovosolutions.aws-cdk-managed-instance-role
+[2023-06-01 15:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modAL-python-mirror
+[2023-06-01 15:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pisoundtrack
+[2023-06-01 15:14:13] INFO root fetch - processPackages [alibabacloud-ens20171110-py2]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-06-01 15:14:13] INFO root fetch - processPackages [rysk-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-01 15:14:13] INFO root fetch - processPackages [index-503]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-01 15:14:13] INFO root fetch - processPackages [CliRenderer]: New version: [0.1.4.post1] Old Version: [0.1.4]
+[2023-06-01 15:14:13] INFO root fetch - processPackages [alibabacloud-ens20171110]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-06-01 15:14:13] INFO root fetch - processPackages [modAL-python-mirror]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-01 15:14:13] INFO root fetch - processPackages [pisoundtrack]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-01 15:14:13] INFO root fetch - processPackages [vdk-plugin-control-cli]: New version: [0.1.886059298] Old Version: [0.1.868861548]
+[2023-06-01 15:14:13] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-01 15:14:13] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 15:14:13] INFO root fetch - processPackages [modAL-python-mirror]: Downloading https://files.pythonhosted.org/packages/e2/ad/5eac1cf352eaf56793993dea8c80ea644fb8803b8d698e4875fe40194fbc/modAL-python-mirror-0.4.1.tar.gz
+[2023-06-01 15:14:13] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-01 15:14:13] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230601/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 15:14:13] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: executing diffoscope
+[2023-06-01 15:14:13] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-managed-instance-role-2.3.98.tar.gz tmp/renovosolutions.aws-cdk-managed-instance-role-2.3.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-managed-instance-role/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-01 15:14:13] INFO root fetch - processPackages [alibabacloud-ens20171110-py2]: Downloading https://files.pythonhosted.org/packages/91/c0/3d243c6ac403900e423f30576e14f0466f5ed0a2793ad48a57a93f1b1016/alibabacloud_ens20171110_py2-3.0.8.tar.gz
+[2023-06-01 15:14:13] INFO root fetch - processPackages [rysk-client]: Downloading https://files.pythonhosted.org/packages/7a/ea/2defdabb6ebaea7d8923f8fed728dc23656e03145fa8f36c61faaa5867c3/rysk_client-0.1.3.tar.gz
+[2023-06-01 15:14:13] INFO root fetch - processPackages [vdk-plugin-control-cli]: Downloading https://files.pythonhosted.org/packages/86/08/90e4e724dad06ea8afcf0db2350d430435898a708b24b9b8d97edccd2b1b/vdk-plugin-control-cli-0.1.868861548.tar.gz
+[2023-06-01 15:14:13] INFO root fetch - processPackages [CliRenderer]: Downloading https://files.pythonhosted.org/packages/92/2c/07cda2c5197315f17b37efbb63006a9cbbfe55ab2fb171590cba2f89ec56/CliRenderer-0.1.4.post1.tar.gz
+[2023-06-01 15:14:13] INFO root fetch - processPackages [pisoundtrack]: Downloading https://files.pythonhosted.org/packages/3c/e4/a77e057da54c5fbb62b5ffb99915ac0acbd305b6d93d4d055d12cf691b74/pisoundtrack-0.2.2.tar.gz
+[2023-06-01 15:14:13] INFO root fetch - processPackages [index-503]: Downloading https://files.pythonhosted.org/packages/db/5d/28b8c89c6b1e284ad9b02f22f1e26f8f731d2a2e3829670724f54c8f9534/index_503-0.1.7.tar.gz
+[2023-06-01 15:14:13] INFO root fetch - processPackages [alibabacloud-ens20171110]: Downloading https://files.pythonhosted.org/packages/04/63/35b662d85dd21231caef6e06cd5dd99df65553a203862069c134c30cb7e9/alibabacloud_ens20171110-3.0.8.tar.gz
+[2023-06-01 15:14:13] INFO root fetch - processPackages [rysk-client]: executing diffoscope
+[2023-06-01 15:14:13] INFO root fetch - processPackages [rysk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rysk_client-0.1.2.tar.gz tmp/rysk_client-0.1.3.tar.gz --markdown 20230601/r/rysk-client/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-01 15:14:13] INFO root fetch - processPackages [index-503]: executing diffoscope
+[2023-06-01 15:14:13] INFO root fetch - processPackages [index-503]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/index_503-0.1.6.tar.gz tmp/index_503-0.1.7.tar.gz --markdown 20230601/i/index-503/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-01 15:14:14] INFO root fetch - processPackages [modAL-python-mirror]: Downloading https://files.pythonhosted.org/packages/63/cb/3cc77c70bef3583a5ea72592af5b481e645191fd214e1e19782b66a99e8c/modAL-python-mirror-0.4.2.tar.gz
+[2023-06-01 15:14:14] INFO root fetch - processPackages [vdk-plugin-control-cli]: Downloading https://files.pythonhosted.org/packages/1d/6e/7f79fb6fa1805c92945accbdd036d74d3538587d4ac471cf0098e343c696/vdk-plugin-control-cli-0.1.886059298.tar.gz
+[2023-06-01 15:14:14] INFO root fetch - processPackages [CliRenderer]: executing diffoscope
+[2023-06-01 15:14:14] INFO root fetch - processPackages [CliRenderer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CliRenderer-0.1.4.tar.gz tmp/CliRenderer-0.1.4.post1.tar.gz --markdown 20230601/C/CliRenderer/0.1.4-0.1.4.post1/diff.md --exclude *.pyd
+[2023-06-01 15:14:14] INFO root fetch - processPackages [alibabacloud-ens20171110-py2]: Downloading https://files.pythonhosted.org/packages/d4/8d/5c83d605d62ecee989b14315c0f56e1114e031618839bbce70dce3c03438/alibabacloud_ens20171110_py2-3.0.9.tar.gz
+[2023-06-01 15:14:14] INFO root fetch - processPackages [modAL-python-mirror]: executing diffoscope
+[2023-06-01 15:14:14] INFO root fetch - processPackages [modAL-python-mirror]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modAL-python-mirror-0.4.1.tar.gz tmp/modAL-python-mirror-0.4.2.tar.gz --markdown 20230601/m/modAL-python-mirror/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-01 15:14:14] INFO root fetch - processPackages [vdk-plugin-control-cli]: executing diffoscope
+[2023-06-01 15:14:14] INFO root fetch - processPackages [vdk-plugin-control-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-plugin-control-cli-0.1.868861548.tar.gz tmp/vdk-plugin-control-cli-0.1.886059298.tar.gz --markdown 20230601/v/vdk-plugin-control-cli/0.1.868861548-0.1.886059298/diff.md --exclude *.pyd
+[2023-06-01 15:14:14] INFO root fetch - processPackages [pisoundtrack]: Downloading https://files.pythonhosted.org/packages/e1/3d/ceb634ccbfc82b72a62e1280081fae699bb921d852c5566c1d2f30d313b8/pisoundtrack-0.2.3.tar.gz
+[2023-06-01 15:14:14] INFO root fetch - processPackages [alibabacloud-ens20171110]: Downloading https://files.pythonhosted.org/packages/57/75/5ffd2e20e64b2ede821d73379ad72f6b66bffd77068c92c2a8cec259691e/alibabacloud_ens20171110-3.0.9.tar.gz
+[2023-06-01 15:14:14] INFO root fetch - processPackages [alibabacloud-ens20171110-py2]: executing diffoscope
+[2023-06-01 15:14:14] INFO root fetch - processPackages [alibabacloud-ens20171110-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ens20171110_py2-3.0.8.tar.gz tmp/alibabacloud_ens20171110_py2-3.0.9.tar.gz --markdown 20230601/a/alibabacloud-ens20171110-py2/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-06-01 15:14:14] INFO root fetch - processPackages [pisoundtrack]: executing diffoscope
+[2023-06-01 15:14:14] INFO root fetch - processPackages [pisoundtrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pisoundtrack-0.2.2.tar.gz tmp/pisoundtrack-0.2.3.tar.gz --markdown 20230601/p/pisoundtrack/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-01 15:14:14] INFO root fetch - processPackages [alibabacloud-ens20171110]: executing diffoscope
+[2023-06-01 15:14:14] INFO root fetch - processPackages [alibabacloud-ens20171110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ens20171110-3.0.8.tar.gz tmp/alibabacloud_ens20171110-3.0.9.tar.gz --markdown 20230601/a/alibabacloud-ens20171110/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-06-01 15:14:15] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: Start processing: odoo14-addon-ddmrp
+[2023-06-01 15:14:15] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-managed-instance-role]: success
+[2023-06-01 15:14:15] INFO root fetch - processPackages [odoo14-addon-ddmrp]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2023-06-01 15:14:15] INFO root fetch - processPackages [nbdev-numpy]: Start processing: nbdev-pandas
+[2023-06-01 15:14:15] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-01 15:14:15] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 15:14:15] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-01 15:14:15] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230601/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 15:14:15] INFO root fetch - processPackages [odoo14-addon-ddmrp]: executing diffoscope
+[2023-06-01 15:14:15] INFO root fetch - processPackages [odoo14-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230601/o/odoo14-addon-ddmrp/14.0.1.9.0-14.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-06-01 15:14:15] INFO root fetch - processPackages [index-503]: Start processing: renovosolutions.aws-cdk-multi-account-az-mapping
+[2023-06-01 15:14:15] INFO root fetch - main [MainThread]: End processing [index-503]: success
+[2023-06-01 15:14:15] INFO root fetch - processPackages [renovosolutions.aws-cdk-multi-account-az-mapping]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 15:14:15] INFO root fetch - processPackages [renovosolutions.aws-cdk-multi-account-az-mapping]: executing diffoscope
+[2023-06-01 15:14:15] INFO root fetch - processPackages [renovosolutions.aws-cdk-multi-account-az-mapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-multi-account-az-mapping-0.0.8.tar.gz tmp/renovosolutions.aws-cdk-multi-account-az-mapping-0.0.9.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-multi-account-az-mapping/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 15:14:16] INFO root fetch - processPackages [CliRenderer]: Start processing: vstt
+[2023-06-01 15:14:16] INFO root fetch - main [MainThread]: End processing [CliRenderer]: success
+[2023-06-01 15:14:16] INFO root fetch - processPackages [vstt]: New version: [0.26.0] Old Version: [0.25.0]
+[2023-06-01 15:14:16] INFO root fetch - processPackages [modAL-python-mirror]: Start processing: renovosolutions.aws-cdk-managed-instance-role
+[2023-06-01 15:14:16] INFO root fetch - main [MainThread]: End processing [modAL-python-mirror]: success
+[2023-06-01 15:14:16] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-01 15:14:16] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: executing diffoscope
+[2023-06-01 15:14:16] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-managed-instance-role-2.3.98.tar.gz tmp/renovosolutions.aws-cdk-managed-instance-role-2.3.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-managed-instance-role/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-01 15:14:16] INFO root fetch - processPackages [vstt]: Downloading https://files.pythonhosted.org/packages/53/c3/79894907df5c1a002c448d4c16354c0869a00eca5b8df62bb55a6d251449/vstt-0.25.0.tar.gz
+[2023-06-01 15:14:16] INFO root fetch - processPackages [pisoundtrack]: Start processing: odoo-addon-ddmrp
+[2023-06-01 15:14:16] INFO root fetch - main [MainThread]: End processing [pisoundtrack]: success
+[2023-06-01 15:14:16] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [15.0.1.8.2] Old Version: [15.0.1.8.1]
+[2023-06-01 15:14:16] INFO root fetch - processPackages [vstt]: Downloading https://files.pythonhosted.org/packages/df/24/4f3b11a5ddee202c7c7e21cd201ebb874a4f15d7652d44b921ddb584acba/vstt-0.26.0.tar.gz
+[2023-06-01 15:14:16] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/39/2c/84c9c8a0c41bb95d70863aa40425882483c23c9d0ca7df4a31e917967200/odoo_addon_ddmrp-15.0.1.8.2-py3-none-any.whl
+[2023-06-01 15:14:16] INFO root fetch - processPackages [vdk-plugin-control-cli]: Start processing: keypact
+[2023-06-01 15:14:16] INFO root fetch - main [MainThread]: End processing [vdk-plugin-control-cli]: success
+[2023-06-01 15:14:16] INFO root fetch - processPackages [keypact]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-01 15:14:16] INFO root fetch - processPackages [vstt]: executing diffoscope
+[2023-06-01 15:14:16] INFO root fetch - processPackages [vstt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstt-0.25.0.tar.gz tmp/vstt-0.26.0.tar.gz --markdown 20230601/v/vstt/0.25.0-0.26.0/diff.md --exclude *.pyd
+[2023-06-01 15:14:16] INFO root fetch - processPackages [alibabacloud-ens20171110-py2]: Start processing: semantha-sdk
+[2023-06-01 15:14:16] INFO root fetch - main [MainThread]: End processing [alibabacloud-ens20171110-py2]: success
+[2023-06-01 15:14:16] INFO root fetch - processPackages [semantha-sdk]: New version: [5.3.1] Old Version: [5.3.0]
+[2023-06-01 15:14:16] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2023-06-01 15:14:16] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-15.0.1.8.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-15.0.1.8.2-py3-none-any.whl.zip --markdown 20230601/o/odoo-addon-ddmrp/15.0.1.8.1-15.0.1.8.2/diff.md --exclude *.pyd
+[2023-06-01 15:14:16] INFO root fetch - processPackages [keypact]: Downloading https://files.pythonhosted.org/packages/f8/f5/5fd3e1f95f72c2fb70b3b6e50a4029eb158966db5ee852f3c53b331e1856/keypact-0.8.0.tar.gz
+[2023-06-01 15:14:16] INFO root fetch - processPackages [semantha-sdk]: Downloading https://files.pythonhosted.org/packages/60/1c/494ff3f6d18216625e2f8ba0ee21c348b68599b067715218e59908319eb0/semantha_sdk-5.3.1.tar.gz
+[2023-06-01 15:14:17] INFO root fetch - processPackages [nbdev-pandas]: Start processing: splight-lib
+[2023-06-01 15:14:17] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-01 15:14:17] INFO root fetch - processPackages [splight-lib]: New version: [3.0.0.dev5] Old Version: [3.0.0.dev2]
+[2023-06-01 15:14:17] INFO root fetch - processPackages [keypact]: executing diffoscope
+[2023-06-01 15:14:17] INFO root fetch - processPackages [keypact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keypact-0.7.0.tar.gz tmp/keypact-0.8.0.tar.gz --markdown 20230601/k/keypact/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-01 15:14:17] INFO root fetch - processPackages [semantha-sdk]: executing diffoscope
+[2023-06-01 15:14:17] INFO root fetch - processPackages [semantha-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantha_sdk-5.3.0.tar.gz tmp/semantha_sdk-5.3.1.tar.gz --markdown 20230601/s/semantha-sdk/5.3.0-5.3.1/diff.md --exclude *.pyd
+[2023-06-01 15:14:17] INFO root fetch - processPackages [rysk-client]: Start processing: tllab-common
+[2023-06-01 15:14:17] INFO root fetch - main [MainThread]: End processing [rysk-client]: success
+[2023-06-01 15:14:17] INFO root fetch - processPackages [alibabacloud-ens20171110]: Start processing: nbdev-pytorch
+[2023-06-01 15:14:17] INFO root fetch - main [MainThread]: End processing [alibabacloud-ens20171110]: success
+[2023-06-01 15:14:17] INFO root fetch - processPackages [tllab-common]: New version: [2023.6.0] Old Version: [2023.5.0]
+[2023-06-01 15:14:17] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 15:14:17] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/df/33/704eaca88f696ec99c4ec73d43b1feaf30c9426610307b7e8aa4ffd557f6/splight-lib-3.0.0.dev5.tar.gz
+[2023-06-01 15:14:17] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-01 15:14:17] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230601/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 15:14:17] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-06-01 15:14:17] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-3.0.0.dev2.tar.gz tmp/splight-lib-3.0.0.dev5.tar.gz --markdown 20230601/s/splight-lib/3.0.0.dev2-3.0.0.dev5/diff.md --exclude *.pyd
+[2023-06-01 15:14:17] INFO root fetch - processPackages [tllab-common]: Downloading https://files.pythonhosted.org/packages/0d/9c/608250e782396ee5a33bb458a398c5183b5781361ab8ad61c7300ebfbf8b/tllab_common-2023.5.0.tar.gz
+[2023-06-01 15:14:17] INFO root fetch - processPackages [renovosolutions.aws-cdk-multi-account-az-mapping]: Start processing: ont-bonito
+[2023-06-01 15:14:17] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-multi-account-az-mapping]: success
+[2023-06-01 15:14:17] INFO root fetch - processPackages [ont-bonito]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-01 15:14:17] INFO root fetch - processPackages [tllab-common]: Downloading https://files.pythonhosted.org/packages/db/cc/4c4b6e79ae6afa5ef78b8692b6bf5a3e870415d2f97fbc9438dcdd5f440e/tllab_common-2023.6.0.tar.gz
+[2023-06-01 15:14:17] INFO root fetch - processPackages [ont-bonito]: Downloading https://files.pythonhosted.org/packages/25/93/edefed8f84d0d26f786ceac1127f34994d83d3bd9008cc36417628b52a29/ont-bonito-0.7.0.tar.gz
+[2023-06-01 15:14:18] INFO root fetch - processPackages [tllab-common]: executing diffoscope
+[2023-06-01 15:14:18] INFO root fetch - processPackages [tllab-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tllab_common-2023.5.0.tar.gz tmp/tllab_common-2023.6.0.tar.gz --markdown 20230601/t/tllab-common/2023.5.0-2023.6.0/diff.md --exclude *.pyd
+[2023-06-01 15:14:18] INFO root fetch - processPackages [ont-bonito]: Downloading https://files.pythonhosted.org/packages/ef/ad/ebed4ae6c1b2a7ddeb2c5af2c6fc84ad964cc2f326970dafbb0e75d9d18b/ont-bonito-0.7.1.tar.gz
+[2023-06-01 15:14:18] INFO root fetch - processPackages [ont-bonito]: executing diffoscope
+[2023-06-01 15:14:18] INFO root fetch - processPackages [ont-bonito]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ont-bonito-0.7.0.tar.gz tmp/ont-bonito-0.7.1.tar.gz --markdown 20230601/o/ont-bonito/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-01 15:14:18] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Start processing: rudderclient
+[2023-06-01 15:14:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp]: success
+[2023-06-01 15:14:18] INFO root fetch - processPackages [rudderclient]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-06-01 15:14:18] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: Start processing: nbdev-scipy
+[2023-06-01 15:14:18] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-managed-instance-role]: success
+[2023-06-01 15:14:18] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 15:14:18] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/e2/9b/9eef61c8d3e37a979278387ea9a0a798073cd43da8d2a5e9b18647c01add/rudderclient-1.8.1.tar.gz
+[2023-06-01 15:14:18] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-01 15:14:18] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230601/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 15:14:18] INFO root fetch - processPackages [rudderclient]: executing diffoscope
+[2023-06-01 15:14:18] INFO root fetch - processPackages [rudderclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudderclient-1.8.0.tar.gz tmp/rudderclient-1.8.1.tar.gz --markdown 20230601/r/rudderclient/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-06-01 15:14:19] INFO root fetch - processPackages [keypact]: Start processing: recon-lw
+[2023-06-01 15:14:19] INFO root fetch - main [MainThread]: End processing [keypact]: success
+[2023-06-01 15:14:19] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5144787460] Old Version: [2.0.0.dev5144147090]
+[2023-06-01 15:14:19] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/e4/af/f998c26d6a8b1b9614cbb853436dfdced2d477158f76292080e54fcf3247/recon_lw-2.0.0.dev5144787460.tar.gz
+[2023-06-01 15:14:19] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: renovosolutions.aws-cdk-certbot
+[2023-06-01 15:14:19] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-01 15:14:19] INFO root fetch - processPackages [renovosolutions.aws-cdk-certbot]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-06-01 15:14:19] INFO root fetch - processPackages [odoo-addon-ddmrp]: Start processing: EdiHeadyTrack
+[2023-06-01 15:14:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2023-06-01 15:14:19] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-06-01 15:14:19] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5144147090.tar.gz tmp/recon_lw-2.0.0.dev5144787460.tar.gz --markdown 20230601/r/recon-lw/2.0.0.dev5144147090-2.0.0.dev5144787460/diff.md --exclude *.pyd
+[2023-06-01 15:14:19] INFO root fetch - processPackages [EdiHeadyTrack]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-06-01 15:14:19] INFO root fetch - processPackages [renovosolutions.aws-cdk-certbot]: Downloading https://files.pythonhosted.org/packages/72/f5/626fc4d513cf2ea8d1bbbb6f1196caaa2997129e564519db0b427203bbeb/renovosolutions.aws-cdk-certbot-2.4.2.tar.gz
+[2023-06-01 15:14:19] INFO root fetch - processPackages [vstt]: Start processing: thoth-doc
+[2023-06-01 15:14:19] INFO root fetch - main [MainThread]: End processing [vstt]: success
+[2023-06-01 15:14:19] WARNING root fetch - processPackages [renovosolutions.aws-cdk-certbot]: Skipping package: exceeds size limit 18415477>=10485760
+[2023-06-01 15:14:19] INFO root fetch - processPackages [renovosolutions.aws-cdk-certbot]: Start processing: renovosolutions.aws-cdk-aws-ipam
+[2023-06-01 15:14:19] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-certbot] error
+[2023-06-01 15:14:19] INFO root fetch - processPackages [thoth-doc]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-01 15:14:19] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-01 15:14:19] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: executing diffoscope
+[2023-06-01 15:14:19] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aws-ipam-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-aws-ipam-0.1.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-aws-ipam/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-01 15:14:20] INFO root fetch - processPackages [EdiHeadyTrack]: Downloading https://files.pythonhosted.org/packages/ab/8f/27545ae12d102870116c9a6d7651bd0fcf9f3f2d24b15d7fa28792344245/EdiHeadyTrack-0.1.0.tar.gz
+[2023-06-01 15:14:20] INFO root fetch - processPackages [EdiHeadyTrack]: executing diffoscope
+[2023-06-01 15:14:20] INFO root fetch - processPackages [EdiHeadyTrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdiHeadyTrack-0.0.6.tar.gz tmp/EdiHeadyTrack-0.1.0.tar.gz --markdown 20230601/E/EdiHeadyTrack/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-06-01 15:14:20] INFO root fetch - main [MainThread]: End processing [semantha-sdk]: success
+[2023-06-01 15:14:20] INFO root fetch - processPackages [thoth-doc]: Downloading https://files.pythonhosted.org/packages/12/7f/b2e7a10f78be02f8e69cd82bc9ae64778f068ce488f7efc59a8879ccec76/thoth_doc-0.0.7.tar.gz
+[2023-06-01 15:14:20] INFO root fetch - processPackages [thoth-doc]: executing diffoscope
+[2023-06-01 15:14:20] INFO root fetch - processPackages [thoth-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thoth_doc-0.0.6.tar.gz tmp/thoth_doc-0.0.7.tar.gz --markdown 20230601/t/thoth-doc/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-01 15:14:20] INFO root fetch - main [MainThread]: End processing [tllab-common]: success
+[2023-06-01 15:14:20] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-06-01 15:14:20] INFO root fetch - main [MainThread]: End processing [ont-bonito]: success
+[2023-06-01 15:14:20] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-01 15:14:20] INFO root fetch - main [MainThread]: End processing [rudderclient]: success
+[2023-06-01 15:14:21] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aws-ipam]: success
+[2023-06-01 15:14:21] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-06-01 15:14:21] INFO root fetch - main [MainThread]: End processing [thoth-doc]: success
+[2023-06-01 15:14:21] INFO root fetch - main [MainThread]: End processing [EdiHeadyTrack]: success
+[2023-06-01 15:14:21] INFO root fetch - main [MainThread]: Store serial: [18333911]
