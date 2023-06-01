@@ -9341,3 +9341,25 @@
 [2023-06-01 06:14:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fleet-vehicle-license-plate-alt]: success
 [2023-06-01 06:14:43] INFO root fetch - main [MainThread]: End processing [alibabacloud-airticketopen20230117]: success
 [2023-06-01 06:14:43] INFO root fetch - main [MainThread]: Store serial: [18328081]
+[2023-06-01 06:19:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18328081]
+[2023-06-01 06:19:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-01 06:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mindlakesdk
+[2023-06-01 06:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eSEESminiPy
+[2023-06-01 06:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vodex
+[2023-06-01 06:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: weaviate-demo-datasets
+[2023-06-01 06:19:52] WARNING root fetch - processPackages [mindlakesdk]: Skipping, unable to determine old version
+[2023-06-01 06:19:52] INFO root fetch - main [MainThread]: End processing [mindlakesdk] error
+[2023-06-01 06:19:52] INFO root fetch - processPackages [eSEESminiPy]: New version: [0.0.79] Old Version: [0.0.77]
+[2023-06-01 06:19:52] INFO root fetch - processPackages [weaviate-demo-datasets]: New version: [0.0.9] Old Version: [0.0.17]
+[2023-06-01 06:19:52] INFO root fetch - processPackages [vodex]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 06:19:52] INFO root fetch - processPackages [weaviate-demo-datasets]: Downloading https://files.pythonhosted.org/packages/c7/79/3b847a94a6fac70fd8e25257ee38054b7cde3916f41f21bc064a8a7ce21b/weaviate-demo-datasets-0.0.17.tar.gz
+[2023-06-01 06:19:53] INFO root fetch - processPackages [eSEESminiPy]: Downloading https://files.pythonhosted.org/packages/51/39/bc2311e905787762571e0621a5eda2c24ab041876738f1f0822e7b3c1d18/eSEESminiPy-0.0.79-py3-none-any.whl
+[2023-06-01 06:19:53] INFO root fetch - processPackages [vodex]: executing diffoscope
+[2023-06-01 06:19:53] INFO root fetch - processPackages [vodex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vodex-1.0.8.tar.gz tmp/vodex-1.0.9.tar.gz --markdown 20230601/v/vodex/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 06:19:53] WARNING root fetch - processPackages [weaviate-demo-datasets]: Skipping package: exceeds size limit 71201021>=10485760
+[2023-06-01 06:19:53] INFO root fetch - main [MainThread]: End processing [weaviate-demo-datasets] error
+[2023-06-01 06:19:53] INFO root fetch - processPackages [eSEESminiPy]: executing diffoscope
+[2023-06-01 06:19:53] INFO root fetch - processPackages [eSEESminiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eSEESminiPy-0.0.77-py3-none-any.whl.zip tmp/eSEESminiPy-0.0.79-py3-none-any.whl.zip --markdown 20230601/e/eSEESminiPy/0.0.77-0.0.79/diff.md --exclude *.pyd
+[2023-06-01 06:19:54] INFO root fetch - main [MainThread]: End processing [eSEESminiPy]: success
+[2023-06-01 06:19:57] INFO root fetch - main [MainThread]: End processing [vodex]: success
+[2023-06-01 06:19:57] INFO root fetch - main [MainThread]: Store serial: [18328094]
