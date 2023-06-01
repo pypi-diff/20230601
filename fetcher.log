@@ -15043,3 +15043,53 @@
 [2023-06-01 11:54:01] INFO root fetch - main [MainThread]: End processing [buteo]: success
 [2023-06-01 11:54:02] INFO root fetch - main [MainThread]: End processing [rasm-arch]: success
 [2023-06-01 11:54:02] INFO root fetch - main [MainThread]: Store serial: [18331303]
+[2023-06-01 11:59:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18331303]
+[2023-06-01 11:59:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-01 11:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: buteo
+[2023-06-01 11:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mltlk
+[2023-06-01 11:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyjedai
+[2023-06-01 11:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phiterm
+[2023-06-01 11:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-hue-v2
+[2023-06-01 11:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2023-06-01 11:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: logavu
+[2023-06-01 11:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Mirolyubov-lab3-new-version
+[2023-06-01 11:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dm-cli
+[2023-06-01 11:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pySpeedy
+[2023-06-01 11:59:13] INFO root fetch - processPackages [pyjedai]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-01 11:59:13] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-01 11:59:13] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-01 11:59:13] WARNING root fetch - processPackages [logavu]: Skipping, unable to determine old version
+[2023-06-01 11:59:13] WARNING root fetch - processPackages [python-hue-v2]: Skipping, unable to determine old version
+[2023-06-01 11:59:13] INFO root fetch - processPackages [Mirolyubov-lab3-new-version]: New version: [4.0.1] Old Version: [3.0.1]
+[2023-06-01 11:59:13] INFO root fetch - main [MainThread]: End processing [logavu] error
+[2023-06-01 11:59:13] INFO root fetch - main [MainThread]: End processing [python-hue-v2] error
+[2023-06-01 11:59:13] WARNING root fetch - processPackages [pySpeedy]: Skipping, unable to determine old version
+[2023-06-01 11:59:13] INFO root fetch - main [MainThread]: End processing [pySpeedy] error
+[2023-06-01 11:59:13] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230601095641] Old Version: [2.1.1.dev20230601091957]
+[2023-06-01 11:59:13] INFO root fetch - processPackages [phiterm]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-06-01 11:59:13] INFO root fetch - processPackages [dm-cli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 11:59:13] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-06-01 11:59:13] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230601/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-01 11:59:13] INFO root fetch - processPackages [phiterm]: executing diffoscope
+[2023-06-01 11:59:13] INFO root fetch - processPackages [phiterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phiterm-1.6.8.tar.gz tmp/phiterm-1.6.9.tar.gz --markdown 20230601/p/phiterm/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-06-01 11:59:13] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-06-01 11:59:13] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230601/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-01 11:59:13] INFO root fetch - processPackages [dm-cli]: executing diffoscope
+[2023-06-01 11:59:13] INFO root fetch - processPackages [dm-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm-cli-1.0.8.tar.gz tmp/dm-cli-1.0.9.tar.gz --markdown 20230601/d/dm-cli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 11:59:13] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/2a/26/1a5a81628f826a60872dd3a01430dc94590004ccf39a02933cc52d010f80/localstack-core-2.1.1.dev20230601095641.tar.gz
+[2023-06-01 11:59:13] INFO root fetch - processPackages [Mirolyubov-lab3-new-version]: Downloading https://files.pythonhosted.org/packages/f9/6c/13498535e145f53f9bdeaf5f64dc44ca7c68c68944dcaedaf4e63f21dc7b/Mirolyubov_lab3_new_version-4.0.1.tar.gz
+[2023-06-01 11:59:13] INFO root fetch - processPackages [Mirolyubov-lab3-new-version]: executing diffoscope
+[2023-06-01 11:59:13] INFO root fetch - processPackages [Mirolyubov-lab3-new-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mirolyubov_lab3_new_version-3.0.1.tar.gz tmp/Mirolyubov_lab3_new_version-4.0.1.tar.gz --markdown 20230601/M/Mirolyubov-lab3-new-version/3.0.1-4.0.1/diff.md --exclude *.pyd
+[2023-06-01 11:59:13] INFO root fetch - processPackages [pyjedai]: Downloading https://files.pythonhosted.org/packages/30/b7/4b28a04a8765e06a56f22c3b20c0f328aab1605c4ff5dd670f33da85bd3a/pyjedai-0.0.6.tar.gz
+[2023-06-01 11:59:13] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-01 11:59:13] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230601091957.tar.gz tmp/localstack-core-2.1.1.dev20230601095641.tar.gz --markdown 20230601/l/localstack-core/2.1.1.dev20230601091957-2.1.1.dev20230601095641/diff.md --exclude *.pyd
+[2023-06-01 11:59:13] INFO root fetch - processPackages [pyjedai]: executing diffoscope
+[2023-06-01 11:59:13] INFO root fetch - processPackages [pyjedai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjedai-0.0.5.tar.gz tmp/pyjedai-0.0.6.tar.gz --markdown 20230601/p/pyjedai/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-01 11:59:15] INFO root fetch - main [MainThread]: End processing [Mirolyubov-lab3-new-version]: success
+[2023-06-01 11:59:15] INFO root fetch - main [MainThread]: End processing [phiterm]: success
+[2023-06-01 11:59:15] INFO root fetch - main [MainThread]: End processing [dm-cli]: success
+[2023-06-01 11:59:15] INFO root fetch - main [MainThread]: End processing [pyjedai]: success
+[2023-06-01 11:59:15] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-06-01 11:59:16] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-06-01 11:59:20] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-01 11:59:20] INFO root fetch - main [MainThread]: Store serial: [18331340]
