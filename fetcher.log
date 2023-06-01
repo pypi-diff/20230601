@@ -12179,3 +12179,96 @@
 [2023-06-01 10:07:48] INFO root fetch - main [MainThread]: End processing [fhi-vibes]: success
 [2023-06-01 10:07:49] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-06-01 10:07:49] INFO root fetch - main [MainThread]: Store serial: [18329756]
+[2023-06-01 10:12:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18329756]
+[2023-06-01 10:12:58] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-01 10:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prisma-pynext
+[2023-06-01 10:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finvizfinance
+[2023-06-01 10:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azure-multiapi-storage
+[2023-06-01 10:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ir-digit
+[2023-06-01 10:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: broadcast-service
+[2023-06-01 10:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: badi-users
+[2023-06-01 10:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swagger-petstore-3-sdk
+[2023-06-01 10:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: docarray
+[2023-06-01 10:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ir-digit
+[2023-06-01 10:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jax-tools
+[2023-06-01 10:12:59] INFO root fetch - processPackages [ir-digit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 10:12:59] INFO root fetch - processPackages [broadcast-service]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-01 10:12:59] INFO root fetch - processPackages [azure-multiapi-storage]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-01 10:12:59] INFO root fetch - processPackages [swagger-petstore-3-sdk]: New version: [2.0.1] Old Version: [1.0.4]
+[2023-06-01 10:12:59] INFO root fetch - processPackages [finvizfinance]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-01 10:12:59] INFO root fetch - processPackages [badi-users]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-01 10:12:59] INFO root fetch - processPackages [ir-digit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 10:12:59] INFO root fetch - processPackages [jax-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 10:12:59] INFO root fetch - processPackages [prisma-pynext]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-06-01 10:12:59] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-06-01 10:12:59] INFO root fetch - processPackages [ir-digit]: executing diffoscope
+[2023-06-01 10:12:59] INFO root fetch - processPackages [ir-digit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_digit-0.0.8.tar.gz tmp/ir_digit-0.0.9.tar.gz --markdown 20230601/i/ir-digit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 10:12:59] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2023-06-01 10:12:59] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.8.tar.gz tmp/jax-tools-1.0.9.tar.gz --markdown 20230601/j/jax-tools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 10:12:59] INFO root fetch - processPackages [ir-digit]: executing diffoscope
+[2023-06-01 10:12:59] INFO root fetch - processPackages [ir-digit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_digit-0.0.8.tar.gz tmp/ir_digit-0.0.9.tar.gz --markdown 20230601/i/ir-digit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 10:12:59] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-06-01 10:12:59] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230601/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-06-01 10:12:59] INFO root fetch - processPackages [finvizfinance]: Downloading https://files.pythonhosted.org/packages/f4/9e/478d90b8ddcb707b1b54af97e7e47c32384422837ebbfd11c9afd58bb1a8/finvizfinance-0.9.8.tar.gz
+[2023-06-01 10:12:59] INFO root fetch - processPackages [broadcast-service]: Downloading https://files.pythonhosted.org/packages/77/0a/bfade555cb5111d257ec17181800044d3eb6589b4b4f498bf3176a677ff8/broadcast_service-1.3.0.tar.gz
+[2023-06-01 10:12:59] INFO root fetch - processPackages [swagger-petstore-3-sdk]: Downloading https://files.pythonhosted.org/packages/45/1b/0bebf8dd7fd0e9d227052fc66d0b102088003c879dbc2c95f8095bee90d3/swagger-petstore-3-sdk-2.0.1.tar.gz
+[2023-06-01 10:12:59] INFO root fetch - processPackages [prisma-pynext]: Downloading https://files.pythonhosted.org/packages/9b/62/111e734cb5b93c4c525886b14cbb80af81cfa7c573de878346f18dbd8773/prisma_pynext-0.8.4.tar.gz
+[2023-06-01 10:12:59] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/f6/34/b4609f7a28f177dd0fc8851222e9d04d71723c31dc78a310ef18ee918dcd/badi_users-1.0.8.tar.gz
+[2023-06-01 10:12:59] INFO root fetch - processPackages [azure-multiapi-storage]: Downloading https://files.pythonhosted.org/packages/a0/46/8d08b8f8ae911761214318bc9f15291d003384eb0fef4b20b1880a6aab6c/azure-multiapi-storage-1.1.0.tar.gz
+[2023-06-01 10:12:59] INFO root fetch - processPackages [swagger-petstore-3-sdk]: executing diffoscope
+[2023-06-01 10:12:59] INFO root fetch - processPackages [swagger-petstore-3-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swagger-petstore-3-sdk-1.0.4.tar.gz tmp/swagger-petstore-3-sdk-2.0.1.tar.gz --markdown 20230601/s/swagger-petstore-3-sdk/1.0.4-2.0.1/diff.md --exclude *.pyd
+[2023-06-01 10:12:59] INFO root fetch - processPackages [badi-users]: executing diffoscope
+[2023-06-01 10:12:59] INFO root fetch - processPackages [badi-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badi_users-1.0.7.tar.gz tmp/badi_users-1.0.8.tar.gz --markdown 20230601/b/badi-users/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-01 10:12:59] INFO root fetch - processPackages [broadcast-service]: Downloading https://files.pythonhosted.org/packages/d0/c1/e05faa1034e7f86f358117d85701cc326a9e75ae8e50a806433cac44b70e/broadcast_service-1.3.1.tar.gz
+[2023-06-01 10:12:59] INFO root fetch - processPackages [prisma-pynext]: Downloading https://files.pythonhosted.org/packages/0d/09/b7ceabf9dceaa19c5993b0b769b7b48029b8877c9a17fb3d5da994f09c9e/prisma_pynext-0.8.5.tar.gz
+[2023-06-01 10:12:59] INFO root fetch - processPackages [broadcast-service]: executing diffoscope
+[2023-06-01 10:12:59] INFO root fetch - processPackages [broadcast-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/broadcast_service-1.3.0.tar.gz tmp/broadcast_service-1.3.1.tar.gz --markdown 20230601/b/broadcast-service/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-01 10:12:59] INFO root fetch - processPackages [finvizfinance]: Downloading https://files.pythonhosted.org/packages/57/b7/33edd880dfc1318c2dd3af4d30b4275b3329515364b7494281c0ff9e1b49/finvizfinance-0.9.9.tar.gz
+[2023-06-01 10:12:59] INFO root fetch - processPackages [azure-multiapi-storage]: Downloading https://files.pythonhosted.org/packages/5f/70/aea5b85d088181d9ccc43a387029d2f423c916a8571f7027d5f97f7860a9/azure-multiapi-storage-1.2.0.tar.gz
+[2023-06-01 10:12:59] INFO root fetch - processPackages [prisma-pynext]: executing diffoscope
+[2023-06-01 10:12:59] INFO root fetch - processPackages [prisma-pynext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prisma_pynext-0.8.4.tar.gz tmp/prisma_pynext-0.8.5.tar.gz --markdown 20230601/p/prisma-pynext/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-06-01 10:12:59] INFO root fetch - processPackages [finvizfinance]: executing diffoscope
+[2023-06-01 10:12:59] INFO root fetch - processPackages [finvizfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finvizfinance-0.9.8.tar.gz tmp/finvizfinance-0.9.9.tar.gz --markdown 20230601/f/finvizfinance/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-01 10:12:59] INFO root fetch - processPackages [azure-multiapi-storage]: executing diffoscope
+[2023-06-01 10:12:59] INFO root fetch - processPackages [azure-multiapi-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-multiapi-storage-1.1.0.tar.gz tmp/azure-multiapi-storage-1.2.0.tar.gz --markdown 20230601/a/azure-multiapi-storage/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-01 10:13:00] INFO root fetch - processPackages [ir-digit]: Start processing: revChatGPT
+[2023-06-01 10:13:00] INFO root fetch - main [MainThread]: End processing [ir-digit]: success
+[2023-06-01 10:13:00] INFO root fetch - processPackages [revChatGPT]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-06-01 10:13:00] INFO root fetch - processPackages [ir-digit]: Start processing: dissect.target
+[2023-06-01 10:13:00] INFO root fetch - main [MainThread]: End processing [ir-digit]: success
+[2023-06-01 10:13:00] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-06-01 10:13:00] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-06-01 10:13:00] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-06-01 10:13:00] INFO root fetch - processPackages [dissect.target]: Start processing: libcnmc
+[2023-06-01 10:13:00] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-06-01 10:13:00] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-06-01 10:13:00] INFO root fetch - processPackages [jax-tools]: Start processing: xsarslc
+[2023-06-01 10:13:00] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2023-06-01 10:13:00] INFO root fetch - processPackages [xsarslc]: New version: [2023.6.1] Old Version: [2023.5.16]
+[2023-06-01 10:13:01] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-06-01 10:13:01] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230601/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-06-01 10:13:01] INFO root fetch - processPackages [xsarslc]: Downloading https://files.pythonhosted.org/packages/86/dd/9d67e866d4e3525039257c77c975deca2f98fa3fb47e017b5dc9835223c1/xsarslc-2023.5.16.tar.gz
+[2023-06-01 10:13:01] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/5b/26/aa7e01e35fae995d9d18fe4b5146f338ea0b6ecda2b77ceed7a1c62facc1/revChatGPT-6.0.1.tar.gz
+[2023-06-01 10:13:01] INFO root fetch - processPackages [broadcast-service]: Start processing: duffel-api
+[2023-06-01 10:13:01] INFO root fetch - main [MainThread]: End processing [broadcast-service]: success
+[2023-06-01 10:13:01] INFO root fetch - processPackages [duffel-api]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-01 10:13:01] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-06-01 10:13:01] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.0.0.tar.gz tmp/revChatGPT-6.0.1.tar.gz --markdown 20230601/r/revChatGPT/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-06-01 10:13:01] INFO root fetch - processPackages [duffel-api]: Downloading https://files.pythonhosted.org/packages/32/10/4d59b23d36854ff520bf509f2d06b32079c831fcd2503ee143168b913b08/duffel-api-0.5.0.tar.gz
+[2023-06-01 10:13:01] INFO root fetch - processPackages [xsarslc]: Downloading https://files.pythonhosted.org/packages/98/c1/3277e300d778c0082231644ba72c3d2b8788125da4dd5a960bbd2cb00f3c/xsarslc-2023.6.1.tar.gz
+[2023-06-01 10:13:01] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-06-01 10:13:01] INFO root fetch - processPackages [xsarslc]: executing diffoscope
+[2023-06-01 10:13:01] INFO root fetch - processPackages [xsarslc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xsarslc-2023.5.16.tar.gz tmp/xsarslc-2023.6.1.tar.gz --markdown 20230601/x/xsarslc/2023.5.16-2023.6.1/diff.md --exclude *.pyd
+[2023-06-01 10:13:01] INFO root fetch - processPackages [duffel-api]: Downloading https://files.pythonhosted.org/packages/01/1d/8fbcbbae69d82f625838caa79b79d32e714fa14bdf43dec9ee6ab439dddb/duffel-api-0.6.0.tar.gz
+[2023-06-01 10:13:01] INFO root fetch - processPackages [duffel-api]: executing diffoscope
+[2023-06-01 10:13:01] INFO root fetch - processPackages [duffel-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duffel-api-0.5.0.tar.gz tmp/duffel-api-0.6.0.tar.gz --markdown 20230601/d/duffel-api/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-01 10:13:01] INFO root fetch - main [MainThread]: End processing [finvizfinance]: success
+[2023-06-01 10:13:02] INFO root fetch - main [MainThread]: End processing [swagger-petstore-3-sdk]: success
+[2023-06-01 10:13:02] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-06-01 10:13:03] INFO root fetch - main [MainThread]: End processing [prisma-pynext]: success
+[2023-06-01 10:13:03] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-06-01 10:13:03] INFO root fetch - main [MainThread]: End processing [duffel-api]: success
+[2023-06-01 10:13:03] INFO root fetch - main [MainThread]: End processing [xsarslc]: success
+[2023-06-01 10:13:03] INFO root fetch - main [MainThread]: End processing [badi-users]: success
+[2023-06-01 10:13:14] INFO root fetch - main [MainThread]: End processing [azure-multiapi-storage]: success
+[2023-06-01 10:13:14] INFO root fetch - main [MainThread]: Store serial: [18329797]
