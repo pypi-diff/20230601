@@ -12785,3 +12785,113 @@
 [2023-06-01 10:42:41] INFO root fetch - main [MainThread]: End processing [Owlready2]: success
 [2023-06-01 10:42:42] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
 [2023-06-01 10:42:42] INFO root fetch - main [MainThread]: Store serial: [18330068]
+[2023-06-01 10:47:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18330068]
+[2023-06-01 10:47:51] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-01 10:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: forestadmin-agent-flask
+[2023-06-01 10:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dqadk4all
+[2023-06-01 10:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-audit-events
+[2023-06-01 10:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gs-quant
+[2023-06-01 10:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-kpi
+[2023-06-01 10:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipen-board
+[2023-06-01 10:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kmer-mapper
+[2023-06-01 10:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prisma-pynext
+[2023-06-01 10:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: query-toolkits
+[2023-06-01 10:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: twoserializer
+[2023-06-01 10:47:51] INFO root fetch - processPackages [django-audit-events]: New version: [0.2b0] Old Version: [0.2.9]
+[2023-06-01 10:47:51] INFO root fetch - processPackages [kmer-mapper]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-01 10:47:51] INFO root fetch - processPackages [dqadk4all]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 10:47:51] WARNING root fetch - processPackages [twoserializer]: Skipping, unable to determine old version
+[2023-06-01 10:47:51] INFO root fetch - processPackages [twoserializer]: Start processing: pyhttpx
+[2023-06-01 10:47:51] INFO root fetch - processPackages [forestadmin-agent-flask]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-01 10:47:51] INFO root fetch - main [MainThread]: End processing [twoserializer] error
+[2023-06-01 10:47:51] INFO root fetch - processPackages [pipen-board]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-06-01 10:47:51] INFO root fetch - processPackages [streamlit-kpi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 10:47:51] INFO root fetch - processPackages [query-toolkits]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-01 10:47:51] INFO root fetch - processPackages [prisma-pynext]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-01 10:47:51] INFO root fetch - processPackages [pyhttpx]: New version: [2.10.6] Old Version: [2.10.5]
+[2023-06-01 10:47:51] INFO root fetch - processPackages [gs-quant]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-01 10:47:51] INFO root fetch - processPackages [forestadmin-agent-flask]: executing diffoscope
+[2023-06-01 10:47:51] INFO root fetch - processPackages [forestadmin-agent-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_flask-0.1.0b8.tar.gz tmp/forestadmin_agent_flask-0.1.0b9.tar.gz --markdown 20230601/f/forestadmin-agent-flask/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-01 10:47:51] INFO root fetch - processPackages [streamlit-kpi]: executing diffoscope
+[2023-06-01 10:47:51] INFO root fetch - processPackages [streamlit-kpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-kpi-0.0.8.tar.gz tmp/streamlit-kpi-0.0.9.tar.gz --markdown 20230601/s/streamlit-kpi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 10:47:51] INFO root fetch - processPackages [django-audit-events]: Downloading https://files.pythonhosted.org/packages/50/6b/68944a267f15ac2daea60250b5aa6b3a6efbf1872b22020688651505156d/django-audit-events-0.2.9.tar.gz
+[2023-06-01 10:47:51] INFO root fetch - processPackages [prisma-pynext]: Downloading https://files.pythonhosted.org/packages/7e/bd/a1db432ed4552ec3af40ac2c06f53c5b13b336b5938b54725d69486fc235/prisma_pynext-0.8.8.tar.gz
+[2023-06-01 10:47:51] INFO root fetch - processPackages [kmer-mapper]: Downloading https://files.pythonhosted.org/packages/67/de/065161040da5b82930fc7d0c98ce926271dc4176db30c834b01701d3aae8/kmer_mapper-0.0.7.tar.gz
+[2023-06-01 10:47:51] INFO root fetch - processPackages [dqadk4all]: Downloading https://files.pythonhosted.org/packages/2a/50/255d42b2bfffc3c8962e13814af9fe92cedf3684547217e1c371e9bb6028/dqadk4all-0.0.1.tar.gz
+[2023-06-01 10:47:51] INFO root fetch - processPackages [pyhttpx]: Downloading https://files.pythonhosted.org/packages/d7/e0/39831e4570392e8d198cfa89559b5d902511a8764636847615a6a6bbbd23/pyhttpx-2.10.6.tar.gz
+[2023-06-01 10:47:51] INFO root fetch - processPackages [query-toolkits]: Downloading https://files.pythonhosted.org/packages/4d/02/483251b52bb544624d3f13730a5a0b62ed7989ae60539c4b0366776ec207/query_toolkits-1.2.2-py3-none-any.whl
+[2023-06-01 10:47:51] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/de/ab/628c85fbd7351cf96dc5a2f09e73480b1fa099ffa7f8a6ef037161dd9df3/pipen_board-0.3.0.tar.gz
+[2023-06-01 10:47:51] INFO root fetch - processPackages [dqadk4all]: Downloading https://files.pythonhosted.org/packages/fa/67/4a8c22503c656ee517fb1ac49d44c480a93d3eb844745a0ca5dc1027be8e/dqadk4all-0.0.2.tar.gz
+[2023-06-01 10:47:51] INFO root fetch - processPackages [prisma-pynext]: Downloading https://files.pythonhosted.org/packages/0a/9d/c19618708cbea7f066151efef41d78972e7948922f8dcc8d05f5bb4a5def/prisma_pynext-0.8.9.tar.gz
+[2023-06-01 10:47:51] INFO root fetch - processPackages [gs-quant]: Downloading https://files.pythonhosted.org/packages/a7/ca/ccad0a043ca85418384caad0d37f94c0b579c3c4e9b98401a06e7cc6e4b5/gs_quant-1.0.3.tar.gz
+[2023-06-01 10:47:51] INFO root fetch - processPackages [pyhttpx]: executing diffoscope
+[2023-06-01 10:47:51] INFO root fetch - processPackages [pyhttpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhttpx-2.10.5.tar.gz tmp/pyhttpx-2.10.6.tar.gz --markdown 20230601/p/pyhttpx/2.10.5-2.10.6/diff.md --exclude *.pyd
+[2023-06-01 10:47:51] INFO root fetch - processPackages [django-audit-events]: Downloading https://files.pythonhosted.org/packages/20/52/a70de5807896c641d95baa1ae4b7d7803e1ac55627bea7192c3b9012bfbb/django-audit-events-0.2b0.tar.gz
+[2023-06-01 10:47:51] INFO root fetch - processPackages [dqadk4all]: executing diffoscope
+[2023-06-01 10:47:51] INFO root fetch - processPackages [dqadk4all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dqadk4all-0.0.1.tar.gz tmp/dqadk4all-0.0.2.tar.gz --markdown 20230601/d/dqadk4all/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 10:47:52] INFO root fetch - processPackages [django-audit-events]: executing diffoscope
+[2023-06-01 10:47:52] INFO root fetch - processPackages [django-audit-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-audit-events-0.2.9.tar.gz tmp/django-audit-events-0.2b0.tar.gz --markdown 20230601/d/django-audit-events/0.2.9-0.2b0/diff.md --exclude *.pyd
+[2023-06-01 10:47:52] INFO root fetch - processPackages [gs-quant]: executing diffoscope
+[2023-06-01 10:47:52] INFO root fetch - processPackages [gs-quant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_quant-1.0.2.tar.gz tmp/gs_quant-1.0.3.tar.gz --markdown 20230601/g/gs-quant/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-01 10:47:52] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-06-01 10:47:52] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.2.9.tar.gz tmp/pipen_board-0.3.0.tar.gz --markdown 20230601/p/pipen-board/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-06-01 10:47:52] INFO root fetch - processPackages [prisma-pynext]: executing diffoscope
+[2023-06-01 10:47:52] INFO root fetch - processPackages [prisma-pynext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prisma_pynext-0.8.8.tar.gz tmp/prisma_pynext-0.8.9.tar.gz --markdown 20230601/p/prisma-pynext/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-01 10:47:52] INFO root fetch - processPackages [query-toolkits]: executing diffoscope
+[2023-06-01 10:47:52] INFO root fetch - processPackages [query-toolkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/query_toolkits-1.2.1-py3-none-any.whl.zip tmp/query_toolkits-1.2.2-py3-none-any.whl.zip --markdown 20230601/q/query-toolkits/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-01 10:47:52] INFO root fetch - processPackages [kmer-mapper]: Downloading https://files.pythonhosted.org/packages/46/53/2b96885d604f85de8af875a260e74644e920cfcda7dacdd7183819bacd85/kmer_mapper-0.0.9.tar.gz
+[2023-06-01 10:47:52] INFO root fetch - processPackages [forestadmin-agent-flask]: Start processing: streamlit-kpi
+[2023-06-01 10:47:52] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-flask]: success
+[2023-06-01 10:47:52] INFO root fetch - processPackages [streamlit-kpi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 10:47:52] INFO root fetch - processPackages [streamlit-kpi]: executing diffoscope
+[2023-06-01 10:47:52] INFO root fetch - processPackages [streamlit-kpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-kpi-0.0.8.tar.gz tmp/streamlit-kpi-0.0.9.tar.gz --markdown 20230601/s/streamlit-kpi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 10:47:52] INFO root fetch - processPackages [kmer-mapper]: executing diffoscope
+[2023-06-01 10:47:52] INFO root fetch - processPackages [kmer-mapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmer_mapper-0.0.7.tar.gz tmp/kmer_mapper-0.0.9.tar.gz --markdown 20230601/k/kmer-mapper/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 10:47:53] INFO root fetch - processPackages [streamlit-kpi]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-06-01 10:47:53] INFO root fetch - main [MainThread]: End processing [streamlit-kpi]: success
+[2023-06-01 10:47:53] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-06-01 10:47:53] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/9b/9d/e0b01f09029cc3275b5cbb982ad82eb722a32dabcd2db0b85d04e5e1e95e/aws_prototyping_sdk.aws_arch-0.19.8.tar.gz
+[2023-06-01 10:47:53] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19300041>=10485760
+[2023-06-01 10:47:53] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-06-01 10:47:53] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-06-01 10:47:53] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 10:47:53] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-06-01 10:47:53] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230601/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 10:47:53] INFO root fetch - processPackages [dqadk4all]: Start processing: bqemulatormanager
+[2023-06-01 10:47:53] INFO root fetch - main [MainThread]: End processing [dqadk4all]: success
+[2023-06-01 10:47:53] INFO root fetch - processPackages [bqemulatormanager]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 10:47:53] INFO root fetch - processPackages [pyhttpx]: Start processing: aws-prototyping-sdk.identity
+[2023-06-01 10:47:53] INFO root fetch - main [MainThread]: End processing [pyhttpx]: success
+[2023-06-01 10:47:53] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 10:47:53] INFO root fetch - processPackages [bqemulatormanager]: Downloading https://files.pythonhosted.org/packages/ce/97/1b421d5b871cfe59868f651aa5e893d7c73effeee33bef6ea7dee9524f3d/bqemulatormanager-0.1.8.tar.gz
+[2023-06-01 10:47:53] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-06-01 10:47:53] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230601/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 10:47:53] INFO root fetch - processPackages [bqemulatormanager]: Downloading https://files.pythonhosted.org/packages/6e/f5/87d48a4ff8655fe7fc98146b78c0d9f4d7815a0e9082fdace2869ebaf7b1/bqemulatormanager-0.1.9.tar.gz
+[2023-06-01 10:47:54] INFO root fetch - processPackages [bqemulatormanager]: executing diffoscope
+[2023-06-01 10:47:54] INFO root fetch - processPackages [bqemulatormanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bqemulatormanager-0.1.8.tar.gz tmp/bqemulatormanager-0.1.9.tar.gz --markdown 20230601/b/bqemulatormanager/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 10:47:54] INFO root fetch - processPackages [django-audit-events]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-06-01 10:47:54] INFO root fetch - main [MainThread]: End processing [django-audit-events]: success
+[2023-06-01 10:47:54] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 10:47:54] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-06-01 10:47:54] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230601/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 10:47:54] INFO root fetch - processPackages [prisma-pynext]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-06-01 10:47:54] INFO root fetch - main [MainThread]: End processing [prisma-pynext]: success
+[2023-06-01 10:47:54] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 10:47:54] INFO root fetch - processPackages [query-toolkits]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-06-01 10:47:54] INFO root fetch - main [MainThread]: End processing [query-toolkits]: success
+[2023-06-01 10:47:54] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 10:47:54] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-06-01 10:47:54] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230601/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 10:47:55] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-06-01 10:47:55] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230601/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 10:47:55] INFO root fetch - main [MainThread]: End processing [streamlit-kpi]: success
+[2023-06-01 10:47:55] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-06-01 10:47:55] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-06-01 10:47:55] INFO root fetch - main [MainThread]: End processing [bqemulatormanager]: success
+[2023-06-01 10:47:56] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-06-01 10:47:56] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-06-01 10:47:56] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-06-01 10:47:56] INFO root fetch - main [MainThread]: End processing [gs-quant]: success
+[2023-06-01 10:47:58] INFO root fetch - main [MainThread]: End processing [kmer-mapper]: success
+[2023-06-01 10:48:03] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-06-01 10:48:03] INFO root fetch - main [MainThread]: Store serial: [18330121]
