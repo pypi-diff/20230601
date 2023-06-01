@@ -16062,3 +16062,108 @@
 [2023-06-01 12:53:36] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
 [2023-06-01 12:53:37] INFO root fetch - main [MainThread]: End processing [google-cloud-speech]: success
 [2023-06-01 12:53:37] INFO root fetch - main [MainThread]: Store serial: [18331879]
+[2023-06-01 12:58:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18331879]
+[2023-06-01 12:58:46] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-01 12:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: justcalc
+[2023-06-01 12:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aheadworks-deploy-manager
+[2023-06-01 12:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modAL-python
+[2023-06-01 12:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-edi-record-metadata-oca
+[2023-06-01 12:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-aiven
+[2023-06-01 12:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blenderline
+[2023-06-01 12:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ehzahumming
+[2023-06-01 12:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modAL-python
+[2023-06-01 12:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: udps
+[2023-06-01 12:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: encord-active-components
+[2023-06-01 12:58:46] INFO root fetch - processPackages [ehzahumming]: New version: [0.2] Old Version: [0.1]
+[2023-06-01 12:58:46] INFO root fetch - processPackages [modAL-python]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-01 12:58:46] INFO root fetch - processPackages [blenderline]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-01 12:58:46] WARNING root fetch - processPackages [odoo14-addon-edi-record-metadata-oca]: Skipping, unable to determine old version
+[2023-06-01 12:58:46] INFO root fetch - processPackages [odoo14-addon-edi-record-metadata-oca]: Start processing: modAL-python
+[2023-06-01 12:58:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-edi-record-metadata-oca] error
+[2023-06-01 12:58:46] INFO root fetch - processPackages [modAL-python]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-01 12:58:46] WARNING root fetch - processPackages [justcalc]: Skipping, unable to determine old version
+[2023-06-01 12:58:46] INFO root fetch - processPackages [justcalc]: Start processing: br-ci-sdk
+[2023-06-01 12:58:46] INFO root fetch - main [MainThread]: End processing [justcalc] error
+[2023-06-01 12:58:46] INFO root fetch - processPackages [udps]: New version: [0.1.16] Old Version: [0.1.15]
+[2023-06-01 12:58:46] INFO root fetch - processPackages [modAL-python]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-01 12:58:46] INFO root fetch - processPackages [encord-active-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 12:58:46] INFO root fetch - processPackages [br-ci-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-01 12:58:46] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.4.0a1685615290] Old Version: [6.4.0a1685165025]
+[2023-06-01 12:58:46] INFO root fetch - processPackages [aheadworks-deploy-manager]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-01 12:58:46] INFO root fetch - processPackages [ehzahumming]: Downloading https://files.pythonhosted.org/packages/61/4a/7d69c32edd5f33d817616a534ba3fe921d263f5aa39a3b8df6896aa500c3/ehzahumming-0.1.tar.gz
+[2023-06-01 12:58:46] INFO root fetch - processPackages [modAL-python]: Downloading https://files.pythonhosted.org/packages/ad/76/7a1fa95154e18720a948f8ce30dd473741dd02f4e6e9263b8bd6f31ffb55/modAL-python-0.3.5.tar.gz
+[2023-06-01 12:58:46] INFO root fetch - processPackages [modAL-python]: Downloading https://files.pythonhosted.org/packages/ad/76/7a1fa95154e18720a948f8ce30dd473741dd02f4e6e9263b8bd6f31ffb55/modAL-python-0.3.5.tar.gz
+[2023-06-01 12:58:46] INFO root fetch - processPackages [blenderline]: Downloading https://files.pythonhosted.org/packages/ac/d6/dd9a8bce0f028d329315afd8a5c8c2c504df45204953f1bedee63b6aa1fa/blenderline-0.1.3.tar.gz
+[2023-06-01 12:58:46] INFO root fetch - processPackages [modAL-python]: Downloading https://files.pythonhosted.org/packages/ad/76/7a1fa95154e18720a948f8ce30dd473741dd02f4e6e9263b8bd6f31ffb55/modAL-python-0.3.5.tar.gz
+[2023-06-01 12:58:46] INFO root fetch - processPackages [aheadworks-deploy-manager]: executing diffoscope
+[2023-06-01 12:58:46] INFO root fetch - processPackages [aheadworks-deploy-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aheadworks_deploy_manager-1.4.8.tar.gz tmp/aheadworks_deploy_manager-1.4.9.tar.gz --markdown 20230601/a/aheadworks-deploy-manager/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-01 12:58:46] INFO root fetch - processPackages [br-ci-sdk]: Downloading https://files.pythonhosted.org/packages/36/14/9f0a00cca5bd04a56abdffa53a674911e6c9b23b7152268ac80950cb8d61/br-ci-sdk-0.0.3.tar.gz
+[2023-06-01 12:58:46] INFO root fetch - processPackages [br-ci-sdk]: executing diffoscope
+[2023-06-01 12:58:46] INFO root fetch - processPackages [br-ci-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/br-ci-sdk-0.0.2.tar.gz tmp/br-ci-sdk-0.0.3.tar.gz --markdown 20230601/b/br-ci-sdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-01 12:58:46] INFO root fetch - processPackages [udps]: Downloading https://files.pythonhosted.org/packages/e9/86/ab98fb248697fc101dfd259b4fde63bd0298efd5201d11d364ed71f0f8d7/udps-0.1.16.tar.gz
+[2023-06-01 12:58:46] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/3b/bb/99d60b17fbe0e869b2c5a8f99a44d8811f8b4f969767f080a3523d51a02d/pulumi_aiven-6.4.0a1685615290.tar.gz
+[2023-06-01 12:58:46] INFO root fetch - processPackages [blenderline]: Downloading https://files.pythonhosted.org/packages/7a/56/b9e0ea8d31bced422bba7b69ffa90da265777c75d75d60a62cdc32c85a76/blenderline-0.1.4.tar.gz
+[2023-06-01 12:58:46] INFO root fetch - processPackages [ehzahumming]: Downloading https://files.pythonhosted.org/packages/64/d6/6f34127d74f103de87868ffb487f7c6092c5673c6b825233f66f062ec0a4/ehzahumming-0.2.tar.gz
+[2023-06-01 12:58:46] INFO root fetch - processPackages [modAL-python]: Downloading https://files.pythonhosted.org/packages/38/0a/8cf4a4b8f8a70b4abfca79692e3f4c058c16151eb73e95599cd09b469200/modAL-python-0.3.6.tar.gz
+[2023-06-01 12:58:46] INFO root fetch - processPackages [modAL-python]: Downloading https://files.pythonhosted.org/packages/38/0a/8cf4a4b8f8a70b4abfca79692e3f4c058c16151eb73e95599cd09b469200/modAL-python-0.3.6.tar.gz
+[2023-06-01 12:58:46] INFO root fetch - processPackages [encord-active-components]: executing diffoscope
+[2023-06-01 12:58:46] INFO root fetch - processPackages [modAL-python]: Downloading https://files.pythonhosted.org/packages/38/0a/8cf4a4b8f8a70b4abfca79692e3f4c058c16151eb73e95599cd09b469200/modAL-python-0.3.6.tar.gz
+[2023-06-01 12:58:46] INFO root fetch - processPackages [encord-active-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord_active_components-0.0.8.tar.gz tmp/encord_active_components-0.0.9.tar.gz --markdown 20230601/e/encord-active-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 12:58:46] INFO root fetch - processPackages [ehzahumming]: executing diffoscope
+[2023-06-01 12:58:46] INFO root fetch - processPackages [ehzahumming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehzahumming-0.1.tar.gz tmp/ehzahumming-0.2.tar.gz --markdown 20230601/e/ehzahumming/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-01 12:58:46] INFO root fetch - processPackages [udps]: executing diffoscope
+[2023-06-01 12:58:46] INFO root fetch - processPackages [udps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udps-0.1.15.tar.gz tmp/udps-0.1.16.tar.gz --markdown 20230601/u/udps/0.1.15-0.1.16/diff.md --exclude *.pyd
+[2023-06-01 12:58:46] INFO root fetch - processPackages [modAL-python]: executing diffoscope
+[2023-06-01 12:58:46] INFO root fetch - processPackages [modAL-python]: executing diffoscope
+[2023-06-01 12:58:46] INFO root fetch - processPackages [modAL-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modAL-python-0.3.5.tar.gz tmp/modAL-python-0.3.6.tar.gz --markdown 20230601/m/modAL-python/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-01 12:58:46] INFO root fetch - processPackages [modAL-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modAL-python-0.3.5.tar.gz tmp/modAL-python-0.3.6.tar.gz --markdown 20230601/m/modAL-python/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-01 12:58:46] INFO root fetch - processPackages [modAL-python]: executing diffoscope
+[2023-06-01 12:58:46] INFO root fetch - processPackages [modAL-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modAL-python-0.3.5.tar.gz tmp/modAL-python-0.3.6.tar.gz --markdown 20230601/m/modAL-python/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-01 12:58:46] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2023-06-01 12:58:46] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.4.0a1685165025.tar.gz tmp/pulumi_aiven-6.4.0a1685615290.tar.gz --markdown 20230601/p/pulumi-aiven/6.4.0a1685165025-6.4.0a1685615290/diff.md --exclude *.pyd
+[2023-06-01 12:58:47] INFO root fetch - processPackages [blenderline]: executing diffoscope
+[2023-06-01 12:58:47] INFO root fetch - processPackages [blenderline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blenderline-0.1.3.tar.gz tmp/blenderline-0.1.4.tar.gz --markdown 20230601/b/blenderline/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-01 12:58:48] INFO root fetch - processPackages [aheadworks-deploy-manager]: Start processing: faps
+[2023-06-01 12:58:48] INFO root fetch - main [MainThread]: End processing [aheadworks-deploy-manager]: success
+[2023-06-01 12:58:48] INFO root fetch - processPackages [faps]: New version: [2.7.4] Old Version: [2.7.3]
+[2023-06-01 12:58:48] INFO root fetch - processPackages [br-ci-sdk]: Start processing: Googlemap-export
+[2023-06-01 12:58:48] INFO root fetch - main [MainThread]: End processing [br-ci-sdk]: success
+[2023-06-01 12:58:48] WARNING root fetch - processPackages [Googlemap-export]: Skipping, unable to determine old version
+[2023-06-01 12:58:48] INFO root fetch - processPackages [Googlemap-export]: Start processing: cpptools
+[2023-06-01 12:58:48] INFO root fetch - main [MainThread]: End processing [Googlemap-export] error
+[2023-06-01 12:58:48] INFO root fetch - processPackages [cpptools]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-01 12:58:48] INFO root fetch - processPackages [faps]: Downloading https://files.pythonhosted.org/packages/28/0b/b80412967805e51afb35f47b4cb7b95b82b13198271f881a8951d09975cc/faps-2.7.3.tar.gz
+[2023-06-01 12:58:48] INFO root fetch - processPackages [cpptools]: Downloading https://files.pythonhosted.org/packages/aa/6d/e770109785bc5b24339b2d2b6185636183436ea9270ae0936c9395a0c409/cpptools-1.0.0.win-amd64.zip
+[2023-06-01 12:58:48] INFO root fetch - processPackages [faps]: Downloading https://files.pythonhosted.org/packages/44/68/1e5c74825189ace48934a606fdbe8e2df415f8f3652d242360c79248277f/faps-2.7.4.tar.gz
+[2023-06-01 12:58:48] INFO root fetch - processPackages [ehzahumming]: Start processing: blenderline
+[2023-06-01 12:58:48] INFO root fetch - main [MainThread]: End processing [ehzahumming]: success
+[2023-06-01 12:58:48] INFO root fetch - processPackages [blenderline]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-01 12:58:48] INFO root fetch - processPackages [faps]: executing diffoscope
+[2023-06-01 12:58:48] INFO root fetch - processPackages [faps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faps-2.7.3.tar.gz tmp/faps-2.7.4.tar.gz --markdown 20230601/f/faps/2.7.3-2.7.4/diff.md --exclude *.pyd
+[2023-06-01 12:58:48] INFO root fetch - processPackages [blenderline]: executing diffoscope
+[2023-06-01 12:58:48] INFO root fetch - processPackages [blenderline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blenderline-0.1.3.tar.gz tmp/blenderline-0.1.4.tar.gz --markdown 20230601/b/blenderline/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-01 12:58:48] INFO root fetch - processPackages [cpptools]: Downloading https://files.pythonhosted.org/packages/55/88/16768223a5400e69fd2cfc33ee97510658d7fcd44ca3f769e3098d5c403d/cpptools-1.0.1.win-amd64.zip
+[2023-06-01 12:58:48] INFO root fetch - processPackages [cpptools]: executing diffoscope
+[2023-06-01 12:58:48] INFO root fetch - processPackages [cpptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpptools-1.0.0.win-amd64.zip tmp/cpptools-1.0.1.win-amd64.zip --markdown 20230601/c/cpptools/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-01 12:58:48] INFO root fetch - processPackages [modAL-python]: Start processing: huntflow-api-client
+[2023-06-01 12:58:48] INFO root fetch - main [MainThread]: End processing [modAL-python]: success
+[2023-06-01 12:58:48] INFO root fetch - processPackages [huntflow-api-client]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-01 12:58:49] INFO root fetch - processPackages [modAL-python]: Start processing: modAL-python
+[2023-06-01 12:58:49] INFO root fetch - main [MainThread]: End processing [modAL-python]: success
+[2023-06-01 12:58:49] INFO root fetch - processPackages [modAL-python]: New version: [0.4.0] Old Version: [0.3.6]
+[2023-06-01 12:58:49] INFO root fetch - processPackages [huntflow-api-client]: executing diffoscope
+[2023-06-01 12:58:49] INFO root fetch - processPackages [huntflow-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huntflow_api_client-0.0.7.tar.gz tmp/huntflow_api_client-0.0.8.tar.gz --markdown 20230601/h/huntflow-api-client/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-01 12:58:49] INFO root fetch - processPackages [modAL-python]: Downloading https://files.pythonhosted.org/packages/81/a8/f4187bfd0d739d1f8d5f696f636869c013ad8b6f10571ed53b7daff8370b/modAL-python-0.4.0.tar.gz
+[2023-06-01 12:58:49] INFO root fetch - processPackages [modAL-python]: executing diffoscope
+[2023-06-01 12:58:49] INFO root fetch - processPackages [modAL-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modAL-python-0.3.6.tar.gz tmp/modAL-python-0.4.0.tar.gz --markdown 20230601/m/modAL-python/0.3.6-0.4.0/diff.md --exclude *.pyd
+[2023-06-01 12:58:49] INFO root fetch - main [MainThread]: End processing [blenderline]: success
+[2023-06-01 12:58:49] INFO root fetch - main [MainThread]: End processing [modAL-python]: success
+[2023-06-01 12:58:50] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2023-06-01 12:58:50] INFO root fetch - main [MainThread]: End processing [udps]: success
+[2023-06-01 12:58:50] INFO root fetch - main [MainThread]: End processing [faps]: success
+[2023-06-01 12:58:50] INFO root fetch - main [MainThread]: End processing [modAL-python]: success
+[2023-06-01 12:58:51] INFO root fetch - main [MainThread]: End processing [blenderline]: success
+[2023-06-01 12:58:51] INFO root fetch - main [MainThread]: End processing [cpptools]: success
+[2023-06-01 12:58:52] INFO root fetch - main [MainThread]: End processing [huntflow-api-client]: success
+[2023-06-01 12:58:54] INFO root fetch - main [MainThread]: End processing [encord-active-components]: success
+[2023-06-01 12:58:54] INFO root fetch - main [MainThread]: Store serial: [18331938]
