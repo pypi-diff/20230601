@@ -9739,3 +9739,35 @@
 [2023-06-01 06:40:54] INFO root fetch - main [MainThread]: End processing [badi-users]: success
 [2023-06-01 06:40:55] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2023-06-01 06:40:55] INFO root fetch - main [MainThread]: Store serial: [18328256]
+[2023-06-01 06:45:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18328256]
+[2023-06-01 06:46:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-01 06:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LANDMarkClassifier
+[2023-06-01 06:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: citric
+[2023-06-01 06:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fsp-pypeaks
+[2023-06-01 06:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysailfish
+[2023-06-01 06:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mwxlib
+[2023-06-01 06:46:04] INFO root fetch - processPackages [pysailfish]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-06-01 06:46:04] INFO root fetch - processPackages [LANDMarkClassifier]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-01 06:46:04] WARNING root fetch - processPackages [fsp-pypeaks]: Skipping, unable to determine old version
+[2023-06-01 06:46:04] INFO root fetch - processPackages [mwxlib]: New version: [0.84.2] Old Version: [0.84.1]
+[2023-06-01 06:46:04] INFO root fetch - main [MainThread]: End processing [fsp-pypeaks] error
+[2023-06-01 06:46:04] INFO root fetch - processPackages [citric]: New version: [0.7.1b3] Old Version: [0.7.1b2]
+[2023-06-01 06:46:04] INFO root fetch - processPackages [LANDMarkClassifier]: Downloading https://files.pythonhosted.org/packages/67/0a/d41f112cb29b4b9a44185c08a07a812b0f685587705ad0ef4c55e91ec035/landmarkclassifier-2.0.4.tar.gz
+[2023-06-01 06:46:04] INFO root fetch - processPackages [citric]: Downloading https://files.pythonhosted.org/packages/93/51/49d236c8438e3eae2c1c375ec4e7322cb4fc91903cdf40e75bdbaae12d9e/citric-0.7.1b2.tar.gz
+[2023-06-01 06:46:04] INFO root fetch - processPackages [pysailfish]: Downloading https://files.pythonhosted.org/packages/12/07/07c68f83fe7cd97bc9e961be1d1ce19294971a365453464cddb8bb7657b9/pysailfish-1.4.0.tar.gz
+[2023-06-01 06:46:04] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/8e/0e/515912e846021cfaabae759baee58cbb3694195cecf9325c8443b8f3edb0/mwxlib-0.84.2-py3-none-any.whl
+[2023-06-01 06:46:04] INFO root fetch - processPackages [pysailfish]: executing diffoscope
+[2023-06-01 06:46:04] INFO root fetch - processPackages [pysailfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysailfish-1.3.0.tar.gz tmp/pysailfish-1.4.0.tar.gz --markdown 20230601/p/pysailfish/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-06-01 06:46:04] INFO root fetch - processPackages [mwxlib]: executing diffoscope
+[2023-06-01 06:46:04] INFO root fetch - processPackages [mwxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwxlib-0.84.1-py3-none-any.whl.zip tmp/mwxlib-0.84.2-py3-none-any.whl.zip --markdown 20230601/m/mwxlib/0.84.1-0.84.2/diff.md --exclude *.pyd
+[2023-06-01 06:46:04] INFO root fetch - processPackages [LANDMarkClassifier]: Downloading https://files.pythonhosted.org/packages/59/47/8eeb42e5f15ae546fd5783551335aa2e98cabf498104acd3ae7bbe6ef7ac/landmarkclassifier-2.0.5.tar.gz
+[2023-06-01 06:46:04] INFO root fetch - processPackages [citric]: Downloading https://files.pythonhosted.org/packages/8f/1e/e3d8baa392c7cfc97bf75270ba4ce1a9663e0746998dac78ac950d1ba063/citric-0.7.1b3.tar.gz
+[2023-06-01 06:46:05] INFO root fetch - processPackages [LANDMarkClassifier]: executing diffoscope
+[2023-06-01 06:46:05] INFO root fetch - processPackages [LANDMarkClassifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landmarkclassifier-2.0.4.tar.gz tmp/landmarkclassifier-2.0.5.tar.gz --markdown 20230601/L/LANDMarkClassifier/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-01 06:46:05] INFO root fetch - processPackages [citric]: executing diffoscope
+[2023-06-01 06:46:05] INFO root fetch - processPackages [citric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citric-0.7.1b2.tar.gz tmp/citric-0.7.1b3.tar.gz --markdown 20230601/c/citric/0.7.1b2-0.7.1b3/diff.md --exclude *.pyd
+[2023-06-01 06:46:06] INFO root fetch - main [MainThread]: End processing [pysailfish]: success
+[2023-06-01 06:46:06] INFO root fetch - main [MainThread]: End processing [LANDMarkClassifier]: success
+[2023-06-01 06:46:06] INFO root fetch - main [MainThread]: End processing [mwxlib]: success
+[2023-06-01 06:46:06] INFO root fetch - main [MainThread]: End processing [citric]: success
+[2023-06-01 06:46:06] INFO root fetch - main [MainThread]: Store serial: [18328278]
