@@ -15189,3 +15189,106 @@
 [2023-06-01 12:04:48] INFO root fetch - main [MainThread]: End processing [PyPartMC]: success
 [2023-06-01 12:05:06] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
 [2023-06-01 12:05:06] INFO root fetch - main [MainThread]: Store serial: [18331417]
+[2023-06-01 12:10:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18331417]
+[2023-06-01 12:10:17] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-01 12:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccdt
+[2023-06-01 12:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-notifications-sdk-preview
+[2023-06-01 12:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akshare
+[2023-06-01 12:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hestia-earth-aggregation
+[2023-06-01 12:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-delivery-multi-destination
+[2023-06-01 12:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-views
+[2023-06-01 12:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: taxOrder
+[2023-06-01 12:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jira
+[2023-06-01 12:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dask-geomodeling
+[2023-06-01 12:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-l10n-es-ticketbai-api
+[2023-06-01 12:10:17] INFO root fetch - processPackages [ccdt]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-06-01 12:10:17] INFO root fetch - processPackages [taxOrder]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-01 12:10:17] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1]
+[2023-06-01 12:10:17] INFO root fetch - processPackages [odoo-addon-delivery-multi-destination]: New version: [15.0.1.0.2] Old Version: [15.0.1.0.1]
+[2023-06-01 12:10:17] INFO root fetch - processPackages [fastapi-views]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-01 12:10:17] INFO root fetch - processPackages [jira]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-06-01 12:10:17] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.718] Old Version: [0.1.717]
+[2023-06-01 12:10:17] INFO root fetch - processPackages [dask-geomodeling]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-06-01 12:10:17] INFO root fetch - processPackages [hestia-earth-aggregation]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-01 12:10:17] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-01 12:10:18] INFO root fetch - processPackages [jira]: Downloading https://files.pythonhosted.org/packages/3b/62/87040b64073bd440a37d674b8cb4e374fc1695f615a4d5d2347f3d930471/jira-3.5.0.tar.gz
+[2023-06-01 12:10:18] INFO root fetch - processPackages [taxOrder]: Downloading https://files.pythonhosted.org/packages/ff/11/3e6acc1a0d47fd37ba79c38c424bfca452f2787b01a1b2fde66987cdf289/taxOrder-0.2.3.tar.gz
+[2023-06-01 12:10:18] INFO root fetch - processPackages [hestia-earth-aggregation]: Downloading https://files.pythonhosted.org/packages/5e/f8/c3f0d3c77a022f0e348386703237222ce289387213d21d03f63c34dfb2e3/hestia-earth-aggregation-0.9.2.tar.gz
+[2023-06-01 12:10:18] INFO root fetch - processPackages [odoo-addon-delivery-multi-destination]: Downloading https://files.pythonhosted.org/packages/4e/5e/54ec1f92400f48d7b5f99c2a43bfee85acab8d56dfff770a5110bcbbb651/odoo_addon_delivery_multi_destination-15.0.1.0.1-py3-none-any.whl
+[2023-06-01 12:10:18] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api]: Downloading https://files.pythonhosted.org/packages/5d/d8/26a68eb9454840ee957199b4c7c5ff9f1d40686f63300a1a66c4a60bd2c3/odoo_addon_l10n_es_ticketbai_api-16.0.1.0.2-py3-none-any.whl
+[2023-06-01 12:10:18] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/8f/4d/499b86f297f8e0cd9e98eddbf26ff31230b602fb693a42433003f271f069/lusid-notifications-sdk-preview-0.1.717.tar.gz
+[2023-06-01 12:10:18] INFO root fetch - processPackages [fastapi-views]: Downloading https://files.pythonhosted.org/packages/77/93/14cf672aeaa140235099aac5b586dc7c66c8f6905f9b5cd93305fca6f313/fastapi_views-0.0.5.tar.gz
+[2023-06-01 12:10:18] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/a1/f9/0c512d79ec1db2340ae4b495d2188c2e70e3683e166c14e8a0922126599b/ccdt-2.1.6.tar.gz
+[2023-06-01 12:10:18] INFO root fetch - processPackages [dask-geomodeling]: Downloading https://files.pythonhosted.org/packages/a3/13/7eb9cd565ba3ee02f9328f9331e96206dd08790ae7158db4ab253e62842d/dask-geomodeling-2.4.3.tar.gz
+[2023-06-01 12:10:18] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api]: executing diffoscope
+[2023-06-01 12:10:18] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_ticketbai_api-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_ticketbai_api-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230601/o/odoo-addon-l10n-es-ticketbai-api/16.0.1.0.1-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-06-01 12:10:18] INFO root fetch - processPackages [taxOrder]: Downloading https://files.pythonhosted.org/packages/86/85/cb59a940f0dc4884eef62d8fc4c7d387aa7904b90c85753f5591d14cd84c/taxOrder-0.2.4.tar.gz
+[2023-06-01 12:10:18] INFO root fetch - processPackages [fastapi-views]: executing diffoscope
+[2023-06-01 12:10:18] INFO root fetch - processPackages [fastapi-views]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_views-0.0.4.tar.gz tmp/fastapi_views-0.0.5.tar.gz --markdown 20230601/f/fastapi-views/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-01 12:10:18] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-06-01 12:10:18] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.5.tar.gz tmp/ccdt-2.1.6.tar.gz --markdown 20230601/c/ccdt/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-06-01 12:10:18] INFO root fetch - processPackages [dask-geomodeling]: executing diffoscope
+[2023-06-01 12:10:18] INFO root fetch - processPackages [dask-geomodeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-geomodeling-2.4.2.tar.gz tmp/dask-geomodeling-2.4.3.tar.gz --markdown 20230601/d/dask-geomodeling/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-06-01 12:10:18] INFO root fetch - processPackages [taxOrder]: executing diffoscope
+[2023-06-01 12:10:18] INFO root fetch - processPackages [taxOrder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxOrder-0.2.3.tar.gz tmp/taxOrder-0.2.4.tar.gz --markdown 20230601/t/taxOrder/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-01 12:10:18] INFO root fetch - processPackages [jira]: Downloading https://files.pythonhosted.org/packages/1e/53/09e1d605f50cf1c0dd7289073f40a294c13fffc6dcaf9b49771827a78e37/jira-3.5.1.tar.gz
+[2023-06-01 12:10:18] INFO root fetch - processPackages [odoo-addon-delivery-multi-destination]: Downloading https://files.pythonhosted.org/packages/56/c1/acca762c04154306d00bf1168a066f0d83ae50b011478181890f2ec334c0/odoo_addon_delivery_multi_destination-15.0.1.0.2-py3-none-any.whl
+[2023-06-01 12:10:18] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/55/b3/ddcbb89f2df261a4f24100e8e1f500b3e00f8fa0fe4cbc01dcdc8ab1f561/lusid-notifications-sdk-preview-0.1.718.tar.gz
+[2023-06-01 12:10:18] INFO root fetch - processPackages [hestia-earth-aggregation]: Downloading https://files.pythonhosted.org/packages/65/c9/38d65314c17e531d4bf2af618fccff360f8867a19ac63232d815ca4b6187/hestia-earth-aggregation-0.9.3.tar.gz
+[2023-06-01 12:10:18] INFO root fetch - processPackages [jira]: executing diffoscope
+[2023-06-01 12:10:18] INFO root fetch - processPackages [jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jira-3.5.0.tar.gz tmp/jira-3.5.1.tar.gz --markdown 20230601/j/jira/3.5.0-3.5.1/diff.md --exclude *.pyd
+[2023-06-01 12:10:18] INFO root fetch - processPackages [odoo-addon-delivery-multi-destination]: executing diffoscope
+[2023-06-01 12:10:18] INFO root fetch - processPackages [odoo-addon-delivery-multi-destination]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_multi_destination-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_delivery_multi_destination-15.0.1.0.2-py3-none-any.whl.zip --markdown 20230601/o/odoo-addon-delivery-multi-destination/15.0.1.0.1-15.0.1.0.2/diff.md --exclude *.pyd
+[2023-06-01 12:10:18] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-06-01 12:10:18] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.717.tar.gz tmp/lusid-notifications-sdk-preview-0.1.718.tar.gz --markdown 20230601/l/lusid-notifications-sdk-preview/0.1.717-0.1.718/diff.md --exclude *.pyd
+[2023-06-01 12:10:18] INFO root fetch - processPackages [hestia-earth-aggregation]: executing diffoscope
+[2023-06-01 12:10:18] INFO root fetch - processPackages [hestia-earth-aggregation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-aggregation-0.9.2.tar.gz tmp/hestia-earth-aggregation-0.9.3.tar.gz --markdown 20230601/h/hestia-earth-aggregation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-01 12:10:18] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-06-01 12:10:18] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230601/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-01 12:10:19] INFO root fetch - processPackages [fastapi-views]: Start processing: infoworkssdk
+[2023-06-01 12:10:19] INFO root fetch - main [MainThread]: End processing [fastapi-views]: success
+[2023-06-01 12:10:19] INFO root fetch - processPackages [infoworkssdk]: New version: [3.0b0] Old Version: [3.0a3]
+[2023-06-01 12:10:19] INFO root fetch - processPackages [infoworkssdk]: Downloading https://files.pythonhosted.org/packages/33/e8/a116d3acfb54cdafec19702508f64b48093b5dcd8e59332910a9ed9f5ec2/infoworkssdk-3.0a3.tar.gz
+[2023-06-01 12:10:20] INFO root fetch - processPackages [taxOrder]: Start processing: molecule-qemu
+[2023-06-01 12:10:20] INFO root fetch - main [MainThread]: End processing [taxOrder]: success
+[2023-06-01 12:10:20] INFO root fetch - processPackages [molecule-qemu]: New version: [0.4.1] Old Version: [0.4.0rc1]
+[2023-06-01 12:10:20] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/62/32/e2b00585218add9220bab6fa9f1de7fa609626b360f6e95a4141206d22af/molecule-qemu-0.4.1.tar.gz
+[2023-06-01 12:10:20] INFO root fetch - processPackages [dask-geomodeling]: Start processing: odoo-addon-stock-delivery-note
+[2023-06-01 12:10:20] INFO root fetch - main [MainThread]: End processing [dask-geomodeling]: success
+[2023-06-01 12:10:20] INFO root fetch - processPackages [odoo-addon-stock-delivery-note]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2023-06-01 12:10:20] INFO root fetch - processPackages [molecule-qemu]: executing diffoscope
+[2023-06-01 12:10:20] INFO root fetch - processPackages [molecule-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-qemu-0.4.0rc1.tar.gz tmp/molecule-qemu-0.4.1.tar.gz --markdown 20230601/m/molecule-qemu/0.4.0rc1-0.4.1/diff.md --exclude *.pyd
+[2023-06-01 12:10:20] INFO root fetch - processPackages [odoo-addon-delivery-multi-destination]: Start processing: br-ci-sdk
+[2023-06-01 12:10:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-multi-destination]: success
+[2023-06-01 12:10:20] INFO root fetch - processPackages [br-ci-sdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 12:10:20] INFO root fetch - processPackages [infoworkssdk]: executing diffoscope
+[2023-06-01 12:10:20] INFO root fetch - processPackages [infoworkssdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infoworkssdk-3.0a3.tar.gz tmp/infoworkssdk-3.0b0.tar.gz --markdown 20230601/i/infoworkssdk/3.0a3-3.0b0/diff.md --exclude *.pyd
+[2023-06-01 12:10:20] INFO root fetch - processPackages [odoo-addon-stock-delivery-note]: Downloading https://files.pythonhosted.org/packages/ca/00/cb8d4069caf2e78ee286d8ffc521af3bae762f1bdd6e537db39594d5f119/odoo_addon_stock_delivery_note-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-01 12:10:20] INFO root fetch - processPackages [br-ci-sdk]: Downloading https://files.pythonhosted.org/packages/b7/e6/9eea54b6727ac2db5e807b09195db0aa0ff50d549f667a2b944c23169296/br-ci-sdk-0.0.1.tar.gz
+[2023-06-01 12:10:20] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api]: Start processing: chaostoolkit-terraform
+[2023-06-01 12:10:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-ticketbai-api]: success
+[2023-06-01 12:10:20] WARNING root fetch - processPackages [chaostoolkit-terraform]: Skipping, unable to determine old version
+[2023-06-01 12:10:20] INFO root fetch - processPackages [chaostoolkit-terraform]: Start processing: rhoknp
+[2023-06-01 12:10:20] INFO root fetch - main [MainThread]: End processing [chaostoolkit-terraform] error
+[2023-06-01 12:10:20] INFO root fetch - processPackages [rhoknp]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-01 12:10:20] INFO root fetch - main [MainThread]: End processing [hestia-earth-aggregation]: success
+[2023-06-01 12:10:20] INFO root fetch - processPackages [br-ci-sdk]: Downloading https://files.pythonhosted.org/packages/ba/a4/7da54d270f9a41282981b58e4106a5aab679c46aecd47c69ccb85e7e4a0f/br-ci-sdk-0.0.2.tar.gz
+[2023-06-01 12:10:20] INFO root fetch - processPackages [br-ci-sdk]: executing diffoscope
+[2023-06-01 12:10:20] INFO root fetch - processPackages [br-ci-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/br-ci-sdk-0.0.1.tar.gz tmp/br-ci-sdk-0.0.2.tar.gz --markdown 20230601/b/br-ci-sdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 12:10:20] INFO root fetch - processPackages [rhoknp]: Downloading https://files.pythonhosted.org/packages/c9/a9/08dc57ef4cc49a6efc403ffd43fe1b24a0c67600e1076236979d0f12a39c/rhoknp-1.3.0.tar.gz
+[2023-06-01 12:10:21] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-06-01 12:10:21] INFO root fetch - processPackages [odoo-addon-stock-delivery-note]: Downloading https://files.pythonhosted.org/packages/20/e3/7fa2db3f9486b8bfa6cc6c26e3fe12e45db65f5e9c701ac48d8cd5ea52a4/odoo_addon_stock_delivery_note-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-01 12:10:21] INFO root fetch - processPackages [odoo-addon-stock-delivery-note]: executing diffoscope
+[2023-06-01 12:10:21] INFO root fetch - processPackages [odoo-addon-stock-delivery-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_delivery_note-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_delivery_note-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230601/o/odoo-addon-stock-delivery-note/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-01 12:10:21] INFO root fetch - processPackages [rhoknp]: Downloading https://files.pythonhosted.org/packages/4b/54/9bedda1f72e5ec779eebd62d4cb46781d3dfee11e28de212646a374a97d9/rhoknp-1.3.1.tar.gz
+[2023-06-01 12:10:21] INFO root fetch - processPackages [rhoknp]: executing diffoscope
+[2023-06-01 12:10:21] INFO root fetch - processPackages [rhoknp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhoknp-1.3.0.tar.gz tmp/rhoknp-1.3.1.tar.gz --markdown 20230601/r/rhoknp/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-01 12:10:21] INFO root fetch - main [MainThread]: End processing [jira]: success
+[2023-06-01 12:10:21] INFO root fetch - main [MainThread]: End processing [molecule-qemu]: success
+[2023-06-01 12:10:22] INFO root fetch - main [MainThread]: End processing [infoworkssdk]: success
+[2023-06-01 12:10:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-delivery-note]: success
+[2023-06-01 12:10:22] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-06-01 12:10:22] INFO root fetch - main [MainThread]: End processing [br-ci-sdk]: success
+[2023-06-01 12:10:22] INFO root fetch - main [MainThread]: End processing [rhoknp]: success
+[2023-06-01 12:10:27] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-06-01 12:10:27] INFO root fetch - main [MainThread]: Store serial: [18331466]
