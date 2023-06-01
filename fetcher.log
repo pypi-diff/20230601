@@ -9001,3 +9001,47 @@
 [2023-06-01 05:37:45] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
 [2023-06-01 05:37:50] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-cloudflare]: success
 [2023-06-01 05:37:50] INFO root fetch - main [MainThread]: Store serial: [18327888]
+[2023-06-01 05:42:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18327888]
+[2023-06-01 05:43:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-01 05:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SplatStats
+[2023-06-01 05:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: execy
+[2023-06-01 05:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt4-api
+[2023-06-01 05:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dmodel
+[2023-06-01 05:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapidexec
+[2023-06-01 05:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quao
+[2023-06-01 05:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: strategais
+[2023-06-01 05:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: landingai
+[2023-06-01 05:43:00] INFO root fetch - processPackages [SplatStats]: New version: [2.1.0] Old Version: [2.0.6]
+[2023-06-01 05:43:00] INFO root fetch - processPackages [execy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-01 05:43:00] WARNING root fetch - processPackages [rapidexec]: Skipping, unable to determine old version
+[2023-06-01 05:43:00] INFO root fetch - main [MainThread]: End processing [rapidexec] error
+[2023-06-01 05:43:00] WARNING root fetch - processPackages [gpt4-api]: Skipping, unable to determine old version
+[2023-06-01 05:43:00] INFO root fetch - main [MainThread]: End processing [gpt4-api] error
+[2023-06-01 05:43:00] INFO root fetch - processPackages [quao]: New version: [0.1.9] Old Version: [0.1.8a1]
+[2023-06-01 05:43:00] INFO root fetch - processPackages [strategais]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-01 05:43:00] INFO root fetch - processPackages [dmodel]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 05:43:00] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-01 05:43:00] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-06-01 05:43:00] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.1.8a1.tar.gz tmp/quao-0.1.9.tar.gz --markdown 20230601/q/quao/0.1.8a1-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 05:43:00] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-06-01 05:43:00] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230601/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-01 05:43:00] INFO root fetch - processPackages [dmodel]: Downloading https://files.pythonhosted.org/packages/c2/66/976302b5fad16fafcb116593c885bc1454e6429c060f7cafe9b2fdf74f68/dmodel-0.0.1.tar.gz
+[2023-06-01 05:43:00] INFO root fetch - processPackages [strategais]: Downloading https://files.pythonhosted.org/packages/37/a9/8cda21edb2dfd3e45d16d9d990c5c63f5bc0ef03a8a07c363df921a23f2c/strategais-0.1.8.tar.gz
+[2023-06-01 05:43:00] INFO root fetch - processPackages [strategais]: executing diffoscope
+[2023-06-01 05:43:00] INFO root fetch - processPackages [strategais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strategais-0.1.7.tar.gz tmp/strategais-0.1.8.tar.gz --markdown 20230601/s/strategais/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-01 05:43:00] INFO root fetch - processPackages [execy]: Downloading https://files.pythonhosted.org/packages/fd/b9/cff52b56c8692861e5ce47ee4abaaf2bd4c80df1543b46cddd7bc987e200/execy-0.1.4.tar.gz
+[2023-06-01 05:43:00] INFO root fetch - processPackages [SplatStats]: Downloading https://files.pythonhosted.org/packages/ff/d8/61c4a8323213c1168a0b74f94762cafc8591497da1a22e8d9cd1034004bd/SplatStats-2.1.0.tar.gz
+[2023-06-01 05:43:00] INFO root fetch - processPackages [execy]: executing diffoscope
+[2023-06-01 05:43:00] INFO root fetch - processPackages [execy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/execy-0.1.3.tar.gz tmp/execy-0.1.4.tar.gz --markdown 20230601/e/execy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-01 05:43:00] INFO root fetch - processPackages [SplatStats]: executing diffoscope
+[2023-06-01 05:43:00] INFO root fetch - processPackages [SplatStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SplatStats-2.0.6.tar.gz tmp/SplatStats-2.1.0.tar.gz --markdown 20230601/S/SplatStats/2.0.6-2.1.0/diff.md --exclude *.pyd
+[2023-06-01 05:43:00] INFO root fetch - processPackages [dmodel]: Downloading https://files.pythonhosted.org/packages/cf/fd/9efb7d3a3da9f75ca7fef193dd1c676bbb8dada2d6668d558c36826b3f4d/dmodel-0.0.2.tar.gz
+[2023-06-01 05:43:00] INFO root fetch - processPackages [dmodel]: executing diffoscope
+[2023-06-01 05:43:00] INFO root fetch - processPackages [dmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmodel-0.0.1.tar.gz tmp/dmodel-0.0.2.tar.gz --markdown 20230601/d/dmodel/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 05:43:01] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-06-01 05:43:01] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-06-01 05:43:01] INFO root fetch - main [MainThread]: End processing [strategais]: success
+[2023-06-01 05:43:01] INFO root fetch - main [MainThread]: End processing [SplatStats]: success
+[2023-06-01 05:43:02] INFO root fetch - main [MainThread]: End processing [execy]: success
+[2023-06-01 05:43:02] INFO root fetch - main [MainThread]: End processing [dmodel]: success
+[2023-06-01 05:43:02] INFO root fetch - main [MainThread]: Store serial: [18327916]
