@@ -20829,3 +20829,139 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-01 16:32:17] INFO root fetch - main [MainThread]: End processing [modnet]: success
 [2023-06-01 16:32:18] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-mongodbatlas]: success
 [2023-06-01 16:32:18] INFO root fetch - main [MainThread]: Store serial: [18335087]
+[2023-06-01 16:37:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18335087]
+[2023-06-01 16:37:30] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-01 16:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voltha-protos
+[2023-06-01 16:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stabilityai
+[2023-06-01 16:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numpyro
+[2023-06-01 16:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pisoundtrack
+[2023-06-01 16:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shepherd-core
+[2023-06-01 16:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shepherd-data
+[2023-06-01 16:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-cdktf-provider-cloudflare
+[2023-06-01 16:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hj-generate
+[2023-06-01 16:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: peachdb-imagebind
+[2023-06-01 16:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MPSPlots
+[2023-06-01 16:37:30] INFO root fetch - processPackages [voltha-protos]: New version: [5.4.5] Old Version: [5.4.4]
+[2023-06-01 16:37:30] INFO root fetch - processPackages [stabilityai]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-01 16:37:30] INFO root fetch - processPackages [hj-generate]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-06-01 16:37:30] INFO root fetch - processPackages [shepherd-data]: New version: [2023.6.1] Old Version: [2023.5.6]
+[2023-06-01 16:37:30] INFO root fetch - processPackages [pisoundtrack]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-01 16:37:30] INFO root fetch - processPackages [shepherd-core]: New version: [2023.6.1] Old Version: [2023.5.6]
+[2023-06-01 16:37:30] INFO root fetch - processPackages [numpyro]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-01 16:37:30] INFO root fetch - processPackages [MPSPlots]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-01 16:37:30] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: New version: [6.0.6] Old Version: [6.0.5]
+[2023-06-01 16:37:30] INFO root fetch - processPackages [peachdb-imagebind]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 16:37:30] INFO root fetch - processPackages [hj-generate]: Downloading https://files.pythonhosted.org/packages/4c/88/6580d69511465c67c2ee2cfca2919f54cf178b2ce22ed90743f623d34d9f/hj-generate-1.6.0.tar.gz
+[2023-06-01 16:37:30] INFO root fetch - processPackages [MPSPlots]: executing diffoscope
+[2023-06-01 16:37:30] INFO root fetch - processPackages [MPSPlots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MPSPlots-0.3.8-py3-none-any.whl.zip tmp/MPSPlots-0.3.9-py3-none-any.whl.zip --markdown 20230601/M/MPSPlots/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-01 16:37:30] INFO root fetch - processPackages [peachdb-imagebind]: Downloading https://files.pythonhosted.org/packages/b7/b2/669010fc4e79520a7209dc7b173906e671bf19044d8069798255f7365bdf/peachdb-imagebind-0.0.1.tar.gz
+[2023-06-01 16:37:30] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Downloading https://files.pythonhosted.org/packages/82/20/c7d7c4c363643c679d64130d4007cb53f8fa99721908b8d8a930b78ed9a9/cdktf-cdktf-provider-cloudflare-6.0.6.tar.gz
+[2023-06-01 16:37:30] INFO root fetch - processPackages [pisoundtrack]: Downloading https://files.pythonhosted.org/packages/c0/fe/f8f7cbcd3db6c11f6aee83d1917a437223ea829fe6660f2008e6077e0631/pisoundtrack-0.2.4.tar.gz
+[2023-06-01 16:37:30] INFO root fetch - processPackages [pisoundtrack]: executing diffoscope
+[2023-06-01 16:37:30] INFO root fetch - processPackages [pisoundtrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pisoundtrack-0.2.3.tar.gz tmp/pisoundtrack-0.2.4.tar.gz --markdown 20230601/p/pisoundtrack/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-01 16:37:30] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: executing diffoscope
+[2023-06-01 16:37:30] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-cloudflare-6.0.5.tar.gz tmp/cdktf-cdktf-provider-cloudflare-6.0.6.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-cloudflare/6.0.5-6.0.6/diff.md --exclude *.pyd
+[2023-06-01 16:37:30] INFO root fetch - processPackages [voltha-protos]: Downloading https://files.pythonhosted.org/packages/ad/c6/c3a7687faf8e73f7233994836fce9f9be5f3cabe4cf9841ad156723f453d/voltha-protos-5.4.5.tar.gz
+[2023-06-01 16:37:30] INFO root fetch - processPackages [shepherd-data]: Downloading https://files.pythonhosted.org/packages/d8/df/3403ed7a8767541b0816e2145668c15bb7ad0185afd4fadbf8bc7a1a89a9/shepherd_data-2023.6.1.tar.gz
+[2023-06-01 16:37:30] INFO root fetch - processPackages [stabilityai]: Downloading https://files.pythonhosted.org/packages/ce/05/e4b150a4754e48332a1eb7748e5010f08f98ac48525b0494c9ade76eca22/stabilityai-1.0.2.tar.gz
+[2023-06-01 16:37:30] INFO root fetch - processPackages [voltha-protos]: executing diffoscope
+[2023-06-01 16:37:30] INFO root fetch - processPackages [voltha-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voltha-protos-5.4.4.tar.gz tmp/voltha-protos-5.4.5.tar.gz --markdown 20230601/v/voltha-protos/5.4.4-5.4.5/diff.md --exclude *.pyd
+[2023-06-01 16:37:30] INFO root fetch - processPackages [shepherd-data]: executing diffoscope
+[2023-06-01 16:37:30] INFO root fetch - processPackages [shepherd-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shepherd_data-2023.5.6.tar.gz tmp/shepherd_data-2023.6.1.tar.gz --markdown 20230601/s/shepherd-data/2023.5.6-2023.6.1/diff.md --exclude *.pyd
+[2023-06-01 16:37:30] INFO root fetch - processPackages [stabilityai]: executing diffoscope
+[2023-06-01 16:37:30] INFO root fetch - processPackages [stabilityai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stabilityai-1.0.1.tar.gz tmp/stabilityai-1.0.2.tar.gz --markdown 20230601/s/stabilityai/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-01 16:37:30] INFO root fetch - processPackages [shepherd-core]: Downloading https://files.pythonhosted.org/packages/54/47/a4d06b832d7731e53c761bb34c9d8c245f376cc908ce70435817458b4a72/shepherd_core-2023.6.1.tar.gz
+[2023-06-01 16:37:30] INFO root fetch - processPackages [hj-generate]: Downloading https://files.pythonhosted.org/packages/a9/c9/134edd92532ba8baab74c0e1fa1baf7ef8a57bfb7ed220bbe5f9bafb1e4b/hj-generate-1.7.0.tar.gz
+[2023-06-01 16:37:30] INFO root fetch - processPackages [numpyro]: executing diffoscope
+[2023-06-01 16:37:30] INFO root fetch - processPackages [numpyro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpyro-0.9.1.tar.gz tmp/numpyro-0.9.2.tar.gz --markdown 20230601/n/numpyro/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-01 16:37:30] INFO root fetch - processPackages [shepherd-core]: executing diffoscope
+[2023-06-01 16:37:30] INFO root fetch - processPackages [shepherd-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shepherd_core-2023.5.6.tar.gz tmp/shepherd_core-2023.6.1.tar.gz --markdown 20230601/s/shepherd-core/2023.5.6-2023.6.1/diff.md --exclude *.pyd
+[2023-06-01 16:37:30] INFO root fetch - processPackages [hj-generate]: executing diffoscope
+[2023-06-01 16:37:30] INFO root fetch - processPackages [hj-generate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hj-generate-1.6.0.tar.gz tmp/hj-generate-1.7.0.tar.gz --markdown 20230601/h/hj-generate/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-06-01 16:37:31] INFO root fetch - processPackages [peachdb-imagebind]: Downloading https://files.pythonhosted.org/packages/af/6f/3c67fb56c7e7ec5c182b118272976e875db00c52a1f0984730ef14875b37/peachdb-imagebind-0.0.2.tar.gz
+[2023-06-01 16:37:31] INFO root fetch - processPackages [peachdb-imagebind]: executing diffoscope
+[2023-06-01 16:37:31] INFO root fetch - processPackages [peachdb-imagebind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peachdb-imagebind-0.0.1.tar.gz tmp/peachdb-imagebind-0.0.2.tar.gz --markdown 20230601/p/peachdb-imagebind/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 16:37:32] INFO root fetch - processPackages [MPSPlots]: Start processing: FileKit
+[2023-06-01 16:37:32] INFO root fetch - main [MainThread]: End processing [MPSPlots]: success
+[2023-06-01 16:37:32] INFO root fetch - processPackages [FileKit]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-01 16:37:32] INFO root fetch - processPackages [pisoundtrack]: Start processing: web-data-extraction
+[2023-06-01 16:37:32] INFO root fetch - main [MainThread]: End processing [pisoundtrack]: success
+[2023-06-01 16:37:32] INFO root fetch - processPackages [web-data-extraction]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 16:37:32] INFO root fetch - processPackages [FileKit]: Downloading https://files.pythonhosted.org/packages/49/92/99968ccd33c27f53f542a0318086528f2831da7009758f6952628f11ac70/FileKit-1.0.1.tar.gz
+[2023-06-01 16:37:32] INFO root fetch - processPackages [web-data-extraction]: Downloading https://files.pythonhosted.org/packages/5b/75/bba8f67afbe1f6a112aefbdbefab8baa6a5a58769e82f7c168f98345eb05/web_data_extraction-0.0.1.tar.gz
+[2023-06-01 16:37:32] INFO root fetch - processPackages [FileKit]: Downloading https://files.pythonhosted.org/packages/1c/30/ffde3a27798ca77b5e46523aabcd8a8aa2e1c0a8c54b9685220a137c68fb/FileKit-1.0.2.tar.gz
+[2023-06-01 16:37:32] INFO root fetch - processPackages [FileKit]: executing diffoscope
+[2023-06-01 16:37:32] INFO root fetch - processPackages [FileKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FileKit-1.0.1.tar.gz tmp/FileKit-1.0.2.tar.gz --markdown 20230601/F/FileKit/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-01 16:37:32] INFO root fetch - processPackages [web-data-extraction]: Downloading https://files.pythonhosted.org/packages/1c/bd/4d870b3899f401632b5da16c110878de55d6c0015e135e1b981a482ceae6/web_data_extraction-0.0.2.tar.gz
+[2023-06-01 16:37:32] INFO root fetch - processPackages [web-data-extraction]: executing diffoscope
+[2023-06-01 16:37:32] INFO root fetch - processPackages [web-data-extraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_data_extraction-0.0.1.tar.gz tmp/web_data_extraction-0.0.2.tar.gz --markdown 20230601/w/web-data-extraction/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 16:37:32] INFO root fetch - processPackages [shepherd-data]: Start processing: planetmapper
+[2023-06-01 16:37:32] INFO root fetch - main [MainThread]: End processing [shepherd-data]: success
+[2023-06-01 16:37:32] INFO root fetch - processPackages [planetmapper]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-06-01 16:37:32] INFO root fetch - processPackages [stabilityai]: Start processing: deep-training
+[2023-06-01 16:37:32] INFO root fetch - main [MainThread]: End processing [stabilityai]: success
+[2023-06-01 16:37:32] INFO root fetch - processPackages [deep-training]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 16:37:33] INFO root fetch - processPackages [hj-generate]: Start processing: pyiron-experimental
+[2023-06-01 16:37:33] INFO root fetch - main [MainThread]: End processing [hj-generate]: success
+[2023-06-01 16:37:33] INFO root fetch - processPackages [pyiron-experimental]: New version: [0.post0.dev1] Old Version: [0.0.2]
+[2023-06-01 16:37:33] INFO root fetch - processPackages [planetmapper]: Downloading https://files.pythonhosted.org/packages/a9/1c/ba5aca5aab9addf690c4c951a67ace8408cda071768282812fe33d7685b2/planetmapper-1.7.2.tar.gz
+[2023-06-01 16:37:33] INFO root fetch - processPackages [planetmapper]: executing diffoscope
+[2023-06-01 16:37:33] INFO root fetch - processPackages [planetmapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetmapper-1.7.1.tar.gz tmp/planetmapper-1.7.2.tar.gz --markdown 20230601/p/planetmapper/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-06-01 16:37:33] INFO root fetch - processPackages [pyiron-experimental]: Downloading https://files.pythonhosted.org/packages/57/11/ddcb7d63bbc10f22bd8539307079fc8565a8423c8e1727d9c1adc9eef67d/pyiron_experimental-0.0.2.tar.gz
+[2023-06-01 16:37:33] INFO root fetch - processPackages [peachdb-imagebind]: Start processing: th2-data-services-lwdp
+[2023-06-01 16:37:33] INFO root fetch - main [MainThread]: End processing [peachdb-imagebind]: success
+[2023-06-01 16:37:33] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-06-01 16:37:33] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.8-py3-none-any.whl.zip tmp/deep_training-0.1.9-py3-none-any.whl.zip --markdown 20230601/d/deep-training/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 16:37:33] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.0.3.0.dev5145634974] Old Version: [2.0.3.0.dev5145617264]
+[2023-06-01 16:37:33] INFO root fetch - processPackages [pyiron-experimental]: Downloading https://files.pythonhosted.org/packages/db/57/6155546cf1dea04f06a205c0e729e6071b383d2d8d0e2bee877f828aaeca/pyiron_experimental-0.post0.dev1.tar.gz
+[2023-06-01 16:37:33] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/d1/76/7bf32dfa5a5ae297cd9ccf795b35917e8b134141051e27f7b6fdae42e76d/th2_data_services_lwdp-2.0.3.0.dev5145617264.tar.gz
+[2023-06-01 16:37:33] INFO root fetch - processPackages [pyiron-experimental]: executing diffoscope
+[2023-06-01 16:37:33] INFO root fetch - processPackages [pyiron-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiron_experimental-0.0.2.tar.gz tmp/pyiron_experimental-0.post0.dev1.tar.gz --markdown 20230601/p/pyiron-experimental/0.0.2-0.post0.dev1/diff.md --exclude *.pyd
+[2023-06-01 16:37:33] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/c1/da/79318036789befc4c790d06ef77ae0ef9043a31f661be46eeb2981e6efd0/th2_data_services_lwdp-2.0.3.0.dev5145634974.tar.gz
+[2023-06-01 16:37:33] INFO root fetch - processPackages [shepherd-core]: Start processing: btyper3
+[2023-06-01 16:37:33] INFO root fetch - main [MainThread]: End processing [shepherd-core]: success
+[2023-06-01 16:37:33] INFO root fetch - processPackages [btyper3]: New version: [3.4.0] Old Version: [3.3.4]
+[2023-06-01 16:37:34] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-01 16:37:34] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.0.3.0.dev5145617264.tar.gz tmp/th2_data_services_lwdp-2.0.3.0.dev5145634974.tar.gz --markdown 20230601/t/th2-data-services-lwdp/2.0.3.0.dev5145617264-2.0.3.0.dev5145634974/diff.md --exclude *.pyd
+[2023-06-01 16:37:34] INFO root fetch - processPackages [numpyro]: Start processing: th2-data-services-lwdp
+[2023-06-01 16:37:34] INFO root fetch - main [MainThread]: End processing [numpyro]: success
+[2023-06-01 16:37:34] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.0.3.0.dev5145634974] Old Version: [2.0.3.0.dev5145617264]
+[2023-06-01 16:37:34] INFO root fetch - processPackages [btyper3]: Downloading https://files.pythonhosted.org/packages/ba/dc/2b5ca4e5df2b01aab626ccf13307c4abd279b5cc1dfb4cffbbdb67a8a6ae/btyper3-3.3.4.tar.gz
+[2023-06-01 16:37:34] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-01 16:37:34] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.0.3.0.dev5145617264.tar.gz tmp/th2_data_services_lwdp-2.0.3.0.dev5145634974.tar.gz --markdown 20230601/t/th2-data-services-lwdp/2.0.3.0.dev5145617264-2.0.3.0.dev5145634974/diff.md --exclude *.pyd
+[2023-06-01 16:37:34] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Start processing: agcoinstall
+[2023-06-01 16:37:34] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-cloudflare]: success
+[2023-06-01 16:37:34] WARNING root fetch - processPackages [agcoinstall]: Skipping, unable to determine old version
+[2023-06-01 16:37:34] INFO root fetch - processPackages [agcoinstall]: Start processing: cloudservices-arg
+[2023-06-01 16:37:34] INFO root fetch - main [MainThread]: End processing [agcoinstall] error
+[2023-06-01 16:37:34] INFO root fetch - processPackages [btyper3]: Downloading https://files.pythonhosted.org/packages/95/3f/cd4ca54fe3c26682913bf40b88dc5ec44f4d1408209f0b00566895e1e1a3/btyper3-3.4.0.tar.gz
+[2023-06-01 16:37:34] INFO root fetch - processPackages [FileKit]: Start processing: eth-abi-parser
+[2023-06-01 16:37:34] INFO root fetch - main [MainThread]: End processing [FileKit]: success
+[2023-06-01 16:37:34] WARNING root fetch - processPackages [cloudservices-arg]: Skipping, unable to determine old version
+[2023-06-01 16:37:34] INFO root fetch - processPackages [cloudservices-arg]: Start processing: elvia-datascience-forecasting
+[2023-06-01 16:37:34] INFO root fetch - main [MainThread]: End processing [cloudservices-arg] error
+[2023-06-01 16:37:34] WARNING root fetch - processPackages [eth-abi-parser]: Skipping, unable to determine old version
+[2023-06-01 16:37:34] INFO root fetch - processPackages [eth-abi-parser]: Start processing: cerebrium
+[2023-06-01 16:37:34] INFO root fetch - main [MainThread]: End processing [eth-abi-parser] error
+[2023-06-01 16:37:34] INFO root fetch - processPackages [btyper3]: executing diffoscope
+[2023-06-01 16:37:34] INFO root fetch - processPackages [btyper3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btyper3-3.3.4.tar.gz tmp/btyper3-3.4.0.tar.gz --markdown 20230601/b/btyper3/3.3.4-3.4.0/diff.md --exclude *.pyd
+[2023-06-01 16:37:34] INFO root fetch - processPackages [elvia-datascience-forecasting]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-06-01 16:37:34] INFO root fetch - processPackages [cerebrium]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-01 16:37:34] INFO root fetch - main [MainThread]: End processing [web-data-extraction]: success
+[2023-06-01 16:37:34] INFO root fetch - processPackages [elvia-datascience-forecasting]: Downloading https://files.pythonhosted.org/packages/ad/62/67315559aab4a7b61fa2fd0b5782f404280d42b352b9dbf45bc499d508c0/elvia-datascience-forecasting-2.3.2.tar.gz
+[2023-06-01 16:37:34] INFO root fetch - processPackages [cerebrium]: Downloading https://files.pythonhosted.org/packages/ff/eb/13baf1289c1bd16b2249dcd0aff2ed439035dfa42b1575dc7ca187c0a7da/cerebrium-0.5.3.tar.gz
+[2023-06-01 16:37:35] INFO root fetch - processPackages [cerebrium]: executing diffoscope
+[2023-06-01 16:37:35] INFO root fetch - processPackages [cerebrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrium-0.5.2.tar.gz tmp/cerebrium-0.5.3.tar.gz --markdown 20230601/c/cerebrium/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-01 16:37:35] INFO root fetch - processPackages [elvia-datascience-forecasting]: Downloading https://files.pythonhosted.org/packages/63/1d/4e991e45a7a11945b6ec40c1dc9466c4112764944021572421434f10ae5d/elvia-datascience-forecasting-2.3.3.tar.gz
+[2023-06-01 16:37:35] INFO root fetch - main [MainThread]: End processing [planetmapper]: success
+[2023-06-01 16:37:35] INFO root fetch - processPackages [elvia-datascience-forecasting]: executing diffoscope
+[2023-06-01 16:37:35] INFO root fetch - processPackages [elvia-datascience-forecasting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elvia-datascience-forecasting-2.3.2.tar.gz tmp/elvia-datascience-forecasting-2.3.3.tar.gz --markdown 20230601/e/elvia-datascience-forecasting/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-06-01 16:37:35] INFO root fetch - main [MainThread]: End processing [pyiron-experimental]: success
+[2023-06-01 16:37:36] INFO root fetch - main [MainThread]: End processing [voltha-protos]: success
+[2023-06-01 16:37:36] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-01 16:37:36] INFO root fetch - main [MainThread]: End processing [btyper3]: success
+[2023-06-01 16:37:36] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-01 16:37:36] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-06-01 16:37:37] INFO root fetch - main [MainThread]: End processing [elvia-datascience-forecasting]: success
+[2023-06-01 16:38:29] INFO root fetch - main [MainThread]: End processing [cerebrium]: success
+[2023-06-01 16:38:29] INFO root fetch - main [MainThread]: Store serial: [18335159]
