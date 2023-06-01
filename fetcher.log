@@ -11691,3 +11691,43 @@
 [2023-06-01 09:29:47] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
 [2023-06-01 09:30:04] INFO root fetch - main [MainThread]: End processing [cybersource-rest-client-python]: success
 [2023-06-01 09:30:04] INFO root fetch - main [MainThread]: Store serial: [18329441]
+[2023-06-01 09:35:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18329441]
+[2023-06-01 09:35:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-01 09:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: piperider
+[2023-06-01 09:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo10-addon-project-recalculate
+[2023-06-01 09:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-adapter-telegram
+[2023-06-01 09:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upgini
+[2023-06-01 09:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hatch-build-scripts
+[2023-06-01 09:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: char-counter
+[2023-06-01 09:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-code-outline
+[2023-06-01 09:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: peinjecter
+[2023-06-01 09:35:14] INFO root fetch - processPackages [odoo10-addon-project-recalculate]: New version: [10.0.1.0.2.99.dev9] Old Version: [10.0.1.0.2.99.dev8]
+[2023-06-01 09:35:14] INFO root fetch - processPackages [hatch-build-scripts]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-01 09:35:14] INFO root fetch - processPackages [nonebot-adapter-telegram]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-01 09:35:14] WARNING root fetch - processPackages [python-code-outline]: Skipping, unable to determine old version
+[2023-06-01 09:35:14] INFO root fetch - main [MainThread]: End processing [python-code-outline] error
+[2023-06-01 09:35:14] WARNING root fetch - processPackages [char-counter]: Skipping, unable to determine old version
+[2023-06-01 09:35:14] INFO root fetch - main [MainThread]: End processing [char-counter] error
+[2023-06-01 09:35:14] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-06-01 09:35:14] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-01 09:35:14] WARNING root fetch - processPackages [peinjecter]: Skipping, unable to determine old version
+[2023-06-01 09:35:14] INFO root fetch - main [MainThread]: End processing [peinjecter] error
+[2023-06-01 09:35:14] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-06-01 09:35:14] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230601/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-01 09:35:14] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-06-01 09:35:14] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230601/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-06-01 09:35:14] INFO root fetch - processPackages [odoo10-addon-project-recalculate]: Downloading https://files.pythonhosted.org/packages/78/43/4d964b73c05b9cf852c753141455cbb1e72f54c61a3ad4dbe8a35c7fbc09/odoo10_addon_project_recalculate-10.0.1.0.2.99.dev8-py2-none-any.whl
+[2023-06-01 09:35:14] INFO root fetch - processPackages [hatch-build-scripts]: Downloading https://files.pythonhosted.org/packages/60/40/eba4063cdfeede304fcfe7fc5c0feeecef9453a69760fa8e83db45f56ef6/hatch_build_scripts-0.0.3.tar.gz
+[2023-06-01 09:35:15] INFO root fetch - processPackages [hatch-build-scripts]: executing diffoscope
+[2023-06-01 09:35:15] INFO root fetch - processPackages [hatch-build-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_build_scripts-0.0.2.tar.gz tmp/hatch_build_scripts-0.0.3.tar.gz --markdown 20230601/h/hatch-build-scripts/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-01 09:35:15] INFO root fetch - processPackages [nonebot-adapter-telegram]: executing diffoscope
+[2023-06-01 09:35:15] INFO root fetch - processPackages [nonebot-adapter-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-adapter-telegram-0.1.0b8.tar.gz tmp/nonebot-adapter-telegram-0.1.0b9.tar.gz --markdown 20230601/n/nonebot-adapter-telegram/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-01 09:35:15] INFO root fetch - processPackages [odoo10-addon-project-recalculate]: Downloading https://files.pythonhosted.org/packages/f2/c6/e9c104e3921f428a8f0353f245193ef9bf0c1e2dfd3e8eef0c0655a77fb5/odoo10_addon_project_recalculate-10.0.1.0.2.99.dev9-py2-none-any.whl
+[2023-06-01 09:35:15] INFO root fetch - processPackages [odoo10-addon-project-recalculate]: executing diffoscope
+[2023-06-01 09:35:15] INFO root fetch - processPackages [odoo10-addon-project-recalculate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_project_recalculate-10.0.1.0.2.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_project_recalculate-10.0.1.0.2.99.dev9-py2-none-any.whl.zip --markdown 20230601/o/odoo10-addon-project-recalculate/10.0.1.0.2.99.dev8-10.0.1.0.2.99.dev9/diff.md --exclude *.pyd
+[2023-06-01 09:35:16] INFO root fetch - main [MainThread]: End processing [hatch-build-scripts]: success
+[2023-06-01 09:35:16] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-06-01 09:35:16] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-telegram]: success
+[2023-06-01 09:35:16] INFO root fetch - main [MainThread]: End processing [odoo10-addon-project-recalculate]: success
+[2023-06-01 09:35:17] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-06-01 09:35:17] INFO root fetch - main [MainThread]: Store serial: [18329473]
