@@ -15775,3 +15775,78 @@
 [2023-06-01 12:37:44] INFO root fetch - main [MainThread]: End processing [blaster-server]: success
 [2023-06-01 12:37:46] INFO root fetch - main [MainThread]: End processing [phidata]: success
 [2023-06-01 12:37:46] INFO root fetch - main [MainThread]: Store serial: [18331717]
+[2023-06-01 12:42:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18331717]
+[2023-06-01 12:42:56] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-01 12:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: caf.space
+[2023-06-01 12:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: StrangeSerializerLab3
+[2023-06-01 12:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blenderline
+[2023-06-01 12:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mmigrator
+[2023-06-01 12:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: logprep
+[2023-06-01 12:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dpr
+[2023-06-01 12:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MUSE-OS
+[2023-06-01 12:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cwl-upgrader
+[2023-06-01 12:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chaostoolkit-terraform
+[2023-06-01 12:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: StrangeSerializerLab3
+[2023-06-01 12:42:56] WARNING root fetch - processPackages [MUSE-OS]: Skipping, unable to determine old version
+[2023-06-01 12:42:56] INFO root fetch - processPackages [MUSE-OS]: Start processing: pydoclint
+[2023-06-01 12:42:56] INFO root fetch - processPackages [caf.space]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-06-01 12:42:56] INFO root fetch - main [MainThread]: End processing [MUSE-OS] error
+[2023-06-01 12:42:56] INFO root fetch - processPackages [StrangeSerializerLab3]: New version: [9.0] Old Version: [8.0]
+[2023-06-01 12:42:56] INFO root fetch - processPackages [logprep]: New version: [6.4.0] Old Version: [6.3.0]
+[2023-06-01 12:42:56] INFO root fetch - processPackages [blenderline]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-01 12:42:56] INFO root fetch - processPackages [mmigrator]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-01 12:42:56] INFO root fetch - processPackages [dpr]: New version: [0.2.1] Old Version: [0.2]
+[2023-06-01 12:42:56] INFO root fetch - processPackages [chaostoolkit-terraform]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-01 12:42:56] INFO root fetch - processPackages [cwl-upgrader]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-01 12:42:56] INFO root fetch - processPackages [pydoclint]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-01 12:42:56] INFO root fetch - processPackages [StrangeSerializerLab3]: New version: [9.0] Old Version: [8.0]
+[2023-06-01 12:42:56] INFO root fetch - processPackages [StrangeSerializerLab3]: executing diffoscope
+[2023-06-01 12:42:56] INFO root fetch - processPackages [StrangeSerializerLab3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StrangeSerializerLab3-8.0.tar.gz tmp/StrangeSerializerLab3-9.0.tar.gz --markdown 20230601/S/StrangeSerializerLab3/8.0-9.0/diff.md --exclude *.pyd
+[2023-06-01 12:42:56] INFO root fetch - processPackages [StrangeSerializerLab3]: executing diffoscope
+[2023-06-01 12:42:56] INFO root fetch - processPackages [StrangeSerializerLab3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StrangeSerializerLab3-8.0.tar.gz tmp/StrangeSerializerLab3-9.0.tar.gz --markdown 20230601/S/StrangeSerializerLab3/8.0-9.0/diff.md --exclude *.pyd
+[2023-06-01 12:42:56] INFO root fetch - processPackages [caf.space]: Downloading https://files.pythonhosted.org/packages/f4/c0/e79964320c797a63471aa62ec8d2137e617ea191aa9dfc2cc8785861c161/caf.space-1.2.2.tar.gz
+[2023-06-01 12:42:56] INFO root fetch - processPackages [blenderline]: Downloading https://files.pythonhosted.org/packages/f2/dc/2c08826b4692c2214e2447f70d1ce8eecf60b49a5ca9f493e67b10bbc3e8/blenderline-0.1.0.tar.gz
+[2023-06-01 12:42:56] INFO root fetch - processPackages [mmigrator]: Downloading https://files.pythonhosted.org/packages/47/ac/88cea5faded37210c54bf495b5434fbc5bfee9d7a0e295d7278359437386/mmigrator-0.2.5.tar.gz
+[2023-06-01 12:42:56] INFO root fetch - processPackages [dpr]: Downloading https://files.pythonhosted.org/packages/98/07/d48c66578cea11d130e0bb3235c826e79d31daf42df26927214aa30cd0eb/dpr-0.2.tar.gz
+[2023-06-01 12:42:56] INFO root fetch - processPackages [cwl-upgrader]: Downloading https://files.pythonhosted.org/packages/ff/63/a5eceeab51e11ffaea535f1ae184755d31e0cd033111ee1638abc907e0e1/cwl-upgrader-1.2.7.tar.gz
+[2023-06-01 12:42:56] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/dc/f7/7336476dab021225856e3701126da7c9e66a0ca65cdb57074dbd607c6129/pydoclint-0.0.7.tar.gz
+[2023-06-01 12:42:56] INFO root fetch - processPackages [mmigrator]: executing diffoscope
+[2023-06-01 12:42:56] INFO root fetch - processPackages [mmigrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmigrator-0.2.4.tar.gz tmp/mmigrator-0.2.5.tar.gz --markdown 20230601/m/mmigrator/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-01 12:42:56] INFO root fetch - processPackages [pydoclint]: executing diffoscope
+[2023-06-01 12:42:56] INFO root fetch - processPackages [pydoclint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoclint-0.0.6.tar.gz tmp/pydoclint-0.0.7.tar.gz --markdown 20230601/p/pydoclint/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-01 12:42:56] INFO root fetch - processPackages [chaostoolkit-terraform]: Downloading https://files.pythonhosted.org/packages/f9/29/0e4f78cc018f752f96ef5df954fb116835b8619dba5989b88d8e786fe5f7/chaostoolkit-terraform-0.0.5.tar.gz
+[2023-06-01 12:42:56] INFO root fetch - processPackages [chaostoolkit-terraform]: executing diffoscope
+[2023-06-01 12:42:56] INFO root fetch - processPackages [chaostoolkit-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-terraform-0.0.4.tar.gz tmp/chaostoolkit-terraform-0.0.5.tar.gz --markdown 20230601/c/chaostoolkit-terraform/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-01 12:42:56] INFO root fetch - processPackages [logprep]: Downloading https://files.pythonhosted.org/packages/e8/b8/82009fd8e20faf9d127a010004bdedcedaa6fee902924fb3cacd955de58d/logprep-6.4.0.tar.gz
+[2023-06-01 12:42:56] INFO root fetch - processPackages [logprep]: executing diffoscope
+[2023-06-01 12:42:56] INFO root fetch - processPackages [logprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logprep-6.3.0.tar.gz tmp/logprep-6.4.0.tar.gz --markdown 20230601/l/logprep/6.3.0-6.4.0/diff.md --exclude *.pyd
+[2023-06-01 12:42:57] INFO root fetch - processPackages [blenderline]: Downloading https://files.pythonhosted.org/packages/59/d2/2bbe716f5f73c00b735bdb881e251e1589a731a332950455dcb4f05cfddd/blenderline-0.1.1.tar.gz
+[2023-06-01 12:42:57] INFO root fetch - processPackages [caf.space]: Downloading https://files.pythonhosted.org/packages/c2/c1/273e59ec94c17ca2b0a5b55d3101e8c6b1b566106abf447b09880eda148a/caf.space-1.3.0.tar.gz
+[2023-06-01 12:42:57] INFO root fetch - processPackages [cwl-upgrader]: Downloading https://files.pythonhosted.org/packages/6b/ed/1211276ace17633c3dca05954c6063c6bb2d95c193c0174cf5ef6e277246/cwl-upgrader-1.2.8.tar.gz
+[2023-06-01 12:42:57] INFO root fetch - processPackages [blenderline]: executing diffoscope
+[2023-06-01 12:42:57] INFO root fetch - processPackages [blenderline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blenderline-0.1.0.tar.gz tmp/blenderline-0.1.1.tar.gz --markdown 20230601/b/blenderline/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-01 12:42:57] INFO root fetch - processPackages [caf.space]: executing diffoscope
+[2023-06-01 12:42:57] INFO root fetch - processPackages [caf.space]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caf.space-1.2.2.tar.gz tmp/caf.space-1.3.0.tar.gz --markdown 20230601/c/caf.space/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-06-01 12:42:57] INFO root fetch - processPackages [cwl-upgrader]: executing diffoscope
+[2023-06-01 12:42:57] INFO root fetch - processPackages [cwl-upgrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwl-upgrader-1.2.7.tar.gz tmp/cwl-upgrader-1.2.8.tar.gz --markdown 20230601/c/cwl-upgrader/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-01 12:42:57] INFO root fetch - processPackages [dpr]: Downloading https://files.pythonhosted.org/packages/68/11/a4424134201b4f75dce625c432e0a75be137c0a862e73b523e20da00855b/dpr-0.2.1.tar.gz
+[2023-06-01 12:42:57] INFO root fetch - processPackages [dpr]: executing diffoscope
+[2023-06-01 12:42:57] INFO root fetch - processPackages [dpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpr-0.2.tar.gz tmp/dpr-0.2.1.tar.gz --markdown 20230601/d/dpr/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-06-01 12:42:58] INFO root fetch - processPackages [StrangeSerializerLab3]: Start processing: bibx
+[2023-06-01 12:42:58] INFO root fetch - main [MainThread]: End processing [StrangeSerializerLab3]: success
+[2023-06-01 12:42:58] INFO root fetch - processPackages [bibx]: New version: [0.0.1a6] Old Version: [0.0.1a5]
+[2023-06-01 12:42:58] INFO root fetch - main [MainThread]: End processing [StrangeSerializerLab3]: success
+[2023-06-01 12:42:58] INFO root fetch - processPackages [bibx]: Downloading https://files.pythonhosted.org/packages/fa/64/45331f7b90e0331efa41d1e49f15eeb1fd17e148e848b05cb8056a6dfa56/bibx-0.0.1a5.tar.gz
+[2023-06-01 12:42:58] INFO root fetch - main [MainThread]: End processing [pydoclint]: success
+[2023-06-01 12:42:58] INFO root fetch - main [MainThread]: End processing [mmigrator]: success
+[2023-06-01 12:42:58] INFO root fetch - main [MainThread]: End processing [chaostoolkit-terraform]: success
+[2023-06-01 12:42:59] INFO root fetch - main [MainThread]: End processing [blenderline]: success
+[2023-06-01 12:42:59] INFO root fetch - main [MainThread]: End processing [cwl-upgrader]: success
+[2023-06-01 12:42:59] INFO root fetch - main [MainThread]: End processing [caf.space]: success
+[2023-06-01 12:42:59] INFO root fetch - processPackages [bibx]: Downloading https://files.pythonhosted.org/packages/70/f0/b82e05f69832679483914a2d89218317a67749f34115e570df895cd54e98/bibx-0.0.1a6.tar.gz
+[2023-06-01 12:43:00] INFO root fetch - processPackages [bibx]: executing diffoscope
+[2023-06-01 12:43:00] INFO root fetch - processPackages [bibx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibx-0.0.1a5.tar.gz tmp/bibx-0.0.1a6.tar.gz --markdown 20230601/b/bibx/0.0.1a5-0.0.1a6/diff.md --exclude *.pyd
+[2023-06-01 12:43:01] INFO root fetch - main [MainThread]: End processing [dpr]: success
+[2023-06-01 12:43:01] INFO root fetch - main [MainThread]: End processing [bibx]: success
+[2023-06-01 12:43:02] INFO root fetch - main [MainThread]: End processing [logprep]: success
+[2023-06-01 12:43:02] INFO root fetch - main [MainThread]: Store serial: [18331757]
