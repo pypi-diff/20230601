@@ -15407,3 +15407,78 @@
 [2023-06-01 12:16:20] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
 [2023-06-01 12:16:32] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-06-01 12:16:32] INFO root fetch - main [MainThread]: Store serial: [18331540]
+[2023-06-01 12:21:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18331540]
+[2023-06-01 12:21:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-01 12:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-serve
+[2023-06-01 12:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: archimedes-python-client
+[2023-06-01 12:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: colablib
+[2023-06-01 12:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yao
+[2023-06-01 12:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mfrc522-i2c
+[2023-06-01 12:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dropbox-api
+[2023-06-01 12:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gopay
+[2023-06-01 12:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sdkit
+[2023-06-01 12:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: league-client
+[2023-06-01 12:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langchain-serve
+[2023-06-01 12:21:49] INFO root fetch - processPackages [yao]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-01 12:21:49] INFO root fetch - processPackages [colablib]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-01 12:21:49] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-01 12:21:49] INFO root fetch - processPackages [mfrc522-i2c]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-01 12:21:49] INFO root fetch - processPackages [archimedes-python-client]: New version: [4.9.0] Old Version: [4.8.3]
+[2023-06-01 12:21:49] INFO root fetch - processPackages [league-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 12:21:49] INFO root fetch - processPackages [dropbox-api]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-01 12:21:49] INFO root fetch - processPackages [gopay]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-01 12:21:49] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-01 12:21:49] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-01 12:21:49] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-06-01 12:21:49] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230601/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-01 12:21:49] INFO root fetch - processPackages [colablib]: Downloading https://files.pythonhosted.org/packages/cc/60/743918e7af740d4e917220a69ac1942f30f281fa9ace20995b2e838054d1/colablib-0.1.2.tar.gz
+[2023-06-01 12:21:49] INFO root fetch - processPackages [dropbox-api]: Downloading https://files.pythonhosted.org/packages/3d/e3/207e7fb98b25bc15addf9299b0f874aac054c249e8f3857c726f28e2b225/dropbox-api-0.2.2.tar.gz
+[2023-06-01 12:21:49] INFO root fetch - processPackages [mfrc522-i2c]: Downloading https://files.pythonhosted.org/packages/33/f4/78d62db1d569dc70ecb73b98943d110220af04dc1bd93b8ae831f30d0f35/mfrc522_i2c-0.0.4.tar.gz
+[2023-06-01 12:21:49] INFO root fetch - processPackages [archimedes-python-client]: Downloading https://files.pythonhosted.org/packages/31/fb/2086e9e3fb37986436ca47dca9879d3d503780a91e0d2c045c319f825059/archimedes_python_client-4.8.3.tar.gz
+[2023-06-01 12:21:49] INFO root fetch - processPackages [gopay]: Downloading https://files.pythonhosted.org/packages/d6/29/67867d16e25142c4e01a22f40b15fbd15fd27761973374a285b288184c93/gopay-1.3.0.tar.gz
+[2023-06-01 12:21:49] INFO root fetch - processPackages [yao]: Downloading https://files.pythonhosted.org/packages/08/b4/bf4a107c361071662daf47f52e157872b05a7012f4d49ef5e2911760324e/yao-0.0.6.tar.gz
+[2023-06-01 12:21:49] INFO root fetch - processPackages [dropbox-api]: executing diffoscope
+[2023-06-01 12:21:49] INFO root fetch - processPackages [dropbox-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dropbox-api-0.2.1.tar.gz tmp/dropbox-api-0.2.2.tar.gz --markdown 20230601/d/dropbox-api/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-01 12:21:49] INFO root fetch - processPackages [colablib]: Downloading https://files.pythonhosted.org/packages/ff/f6/0fffa5a51e9ae5b32ff82e1cddcbeac798407420fa67774b788ed1001f83/colablib-0.1.3.tar.gz
+[2023-06-01 12:21:49] INFO root fetch - processPackages [colablib]: executing diffoscope
+[2023-06-01 12:21:49] INFO root fetch - processPackages [colablib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colablib-0.1.2.tar.gz tmp/colablib-0.1.3.tar.gz --markdown 20230601/c/colablib/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-01 12:21:49] INFO root fetch - processPackages [league-client]: executing diffoscope
+[2023-06-01 12:21:49] INFO root fetch - processPackages [league-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league_client-1.0.8-py3-none-any.whl.zip tmp/league-client-1.0.9.tar.gz --markdown 20230601/l/league-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 12:21:49] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-01 12:21:49] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-01 12:21:49] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230601/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-01 12:21:49] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230601/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-01 12:21:49] INFO root fetch - processPackages [yao]: executing diffoscope
+[2023-06-01 12:21:49] INFO root fetch - processPackages [yao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yao-0.0.5.tar.gz tmp/yao-0.0.6.tar.gz --markdown 20230601/y/yao/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-01 12:21:49] INFO root fetch - processPackages [gopay]: Downloading https://files.pythonhosted.org/packages/21/67/de207f44f9aebbdb322bf6d99a0c08f1310aa03a0455efca517560c45408/gopay-1.3.1.tar.gz
+[2023-06-01 12:21:49] INFO root fetch - processPackages [mfrc522-i2c]: Downloading https://files.pythonhosted.org/packages/a6/82/3cb412e62875dfcc4056d7185f657d3cc5bde1eae0f1bf379b98f4064e7a/mfrc522_i2c-0.0.5.tar.gz
+[2023-06-01 12:21:49] INFO root fetch - processPackages [archimedes-python-client]: Downloading https://files.pythonhosted.org/packages/d2/f1/7c35edeab7f2c8c504b9e00e68f6b64247857ede6f4f85b9f4953a55c15e/archimedes_python_client-4.9.0.tar.gz
+[2023-06-01 12:21:49] INFO root fetch - processPackages [gopay]: executing diffoscope
+[2023-06-01 12:21:49] INFO root fetch - processPackages [gopay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gopay-1.3.0.tar.gz tmp/gopay-1.3.1.tar.gz --markdown 20230601/g/gopay/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-01 12:21:49] INFO root fetch - processPackages [mfrc522-i2c]: executing diffoscope
+[2023-06-01 12:21:49] INFO root fetch - processPackages [mfrc522-i2c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfrc522_i2c-0.0.4.tar.gz tmp/mfrc522_i2c-0.0.5.tar.gz --markdown 20230601/m/mfrc522-i2c/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-01 12:21:50] INFO root fetch - processPackages [archimedes-python-client]: executing diffoscope
+[2023-06-01 12:21:50] INFO root fetch - processPackages [archimedes-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archimedes_python_client-4.8.3.tar.gz tmp/archimedes_python_client-4.9.0.tar.gz --markdown 20230601/a/archimedes-python-client/4.8.3-4.9.0/diff.md --exclude *.pyd
+[2023-06-01 12:21:51] INFO root fetch - processPackages [sdkit]: Start processing: StrangeSerializerLab3
+[2023-06-01 12:21:51] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-06-01 12:21:51] INFO root fetch - processPackages [StrangeSerializerLab3]: New version: [3.0] Old Version: [2.0]
+[2023-06-01 12:21:51] INFO root fetch - processPackages [colablib]: Start processing: cwltool
+[2023-06-01 12:21:51] INFO root fetch - main [MainThread]: End processing [colablib]: success
+[2023-06-01 12:21:51] INFO root fetch - processPackages [cwltool]: New version: [3.1.20230601100705] Old Version: [3.1.20230527103121]
+[2023-06-01 12:21:51] INFO root fetch - processPackages [StrangeSerializerLab3]: Downloading https://files.pythonhosted.org/packages/9b/b0/978d6b9dfb3f68be47adb8ad29a03263e9c12bed752a47518f9eeb22d1f9/StrangeSerializerLab3-3.0.tar.gz
+[2023-06-01 12:21:51] INFO root fetch - main [MainThread]: End processing [dropbox-api]: success
+[2023-06-01 12:21:51] INFO root fetch - main [MainThread]: End processing [league-client]: success
+[2023-06-01 12:21:51] INFO root fetch - processPackages [StrangeSerializerLab3]: executing diffoscope
+[2023-06-01 12:21:51] INFO root fetch - processPackages [StrangeSerializerLab3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StrangeSerializerLab3-2.0.tar.gz tmp/StrangeSerializerLab3-3.0.tar.gz --markdown 20230601/S/StrangeSerializerLab3/2.0-3.0/diff.md --exclude *.pyd
+[2023-06-01 12:21:51] INFO root fetch - processPackages [cwltool]: Downloading https://files.pythonhosted.org/packages/28/84/1a22e454bebf6329eb4900efa0d1e222d17ea84cd98390aeaf26a6ad3c3b/cwltool-3.1.20230601100705.tar.gz
+[2023-06-01 12:21:51] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-06-01 12:21:51] INFO root fetch - main [MainThread]: End processing [mfrc522-i2c]: success
+[2023-06-01 12:21:51] INFO root fetch - processPackages [cwltool]: executing diffoscope
+[2023-06-01 12:21:51] INFO root fetch - processPackages [cwltool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwltool-3.1.20230527103121.tar.gz tmp/cwltool-3.1.20230601100705.tar.gz --markdown 20230601/c/cwltool/3.1.20230527103121-3.1.20230601100705/diff.md --exclude *.pyd
+[2023-06-01 12:21:51] INFO root fetch - main [MainThread]: End processing [gopay]: success
+[2023-06-01 12:21:52] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-06-01 12:21:52] INFO root fetch - main [MainThread]: End processing [yao]: success
+[2023-06-01 12:21:52] INFO root fetch - main [MainThread]: End processing [archimedes-python-client]: success
+[2023-06-01 12:21:52] INFO root fetch - main [MainThread]: End processing [StrangeSerializerLab3]: success
+[2023-06-01 12:22:00] INFO root fetch - main [MainThread]: End processing [cwltool]: success
+[2023-06-01 12:22:00] INFO root fetch - main [MainThread]: Store serial: [18331578]
