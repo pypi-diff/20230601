@@ -8852,3 +8852,45 @@
 [2023-06-01 05:22:09] INFO root fetch - main [MainThread]: End processing [baklabel]: success
 [2023-06-01 05:22:09] INFO root fetch - main [MainThread]: End processing [ibonds]: success
 [2023-06-01 05:22:09] INFO root fetch - main [MainThread]: Store serial: [18327797]
+[2023-06-01 05:27:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18327797]
+[2023-06-01 05:27:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-01 05:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: execy
+[2023-06-01 05:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quao
+[2023-06-01 05:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfsim-nightly
+[2023-06-01 05:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: minidevice
+[2023-06-01 05:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omnata-cli
+[2023-06-01 05:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GANDLF
+[2023-06-01 05:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: async-adbc
+[2023-06-01 05:27:18] INFO root fetch - processPackages [execy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-01 05:27:18] WARNING root fetch - processPackages [omnata-cli]: Skipping, unable to determine old version
+[2023-06-01 05:27:18] INFO root fetch - main [MainThread]: End processing [omnata-cli] error
+[2023-06-01 05:27:18] INFO root fetch - processPackages [quao]: New version: [0.1.9] Old Version: [0.1.8a1]
+[2023-06-01 05:27:18] INFO root fetch - processPackages [async-adbc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 05:27:18] INFO root fetch - processPackages [minidevice]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-01 05:27:18] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230601] Old Version: [0.0.17.dev20230531]
+[2023-06-01 05:27:18] INFO root fetch - processPackages [tfsim-nightly]: New version: [0.18.0.dev5] Old Version: [0.18.0.dev4]
+[2023-06-01 05:27:18] INFO root fetch - processPackages [execy]: Downloading https://files.pythonhosted.org/packages/93/9b/bb66d03bf03dcd7004d79bf0904f5c5c4de0ba58ce307a86efc3a3181ac1/execy-0.1.1.tar.gz
+[2023-06-01 05:27:18] INFO root fetch - processPackages [async-adbc]: executing diffoscope
+[2023-06-01 05:27:18] INFO root fetch - processPackages [async-adbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_adbc-1.0.8.tar.gz tmp/async_adbc-1.0.9.tar.gz --markdown 20230601/a/async-adbc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 05:27:18] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-06-01 05:27:18] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.1.8a1.tar.gz tmp/quao-0.1.9.tar.gz --markdown 20230601/q/quao/0.1.8a1-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 05:27:18] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/4e/4f/8ace3800ea4b1976fac23746c28c22cc90ffad856dfba6520268dee0181c/minidevice-1.0.2.tar.gz
+[2023-06-01 05:27:18] INFO root fetch - processPackages [tfsim-nightly]: Downloading https://files.pythonhosted.org/packages/f3/2b/5df76405cbb4b67fd8168238749250c2ec7ce81cef970e6313c283b1a5c7/tfsim-nightly-0.18.0.dev4.tar.gz
+[2023-06-01 05:27:18] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-01 05:27:18] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-1.0.1.tar.gz tmp/minidevice-1.0.2.tar.gz --markdown 20230601/m/minidevice/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-01 05:27:18] INFO root fetch - processPackages [execy]: Downloading https://files.pythonhosted.org/packages/57/81/95286c2b101818649b16211ed013ebbe63162d5b6de1399c4d8990b1c416/execy-0.1.2.tar.gz
+[2023-06-01 05:27:18] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/9e/66/d85a1d7b4fc40d7ac29e73b935cd8e7fcc71b223801e4824bf90c625b1cd/GANDLF-0.0.17.dev20230601.tar.gz
+[2023-06-01 05:27:18] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-06-01 05:27:18] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230531.tar.gz tmp/GANDLF-0.0.17.dev20230601.tar.gz --markdown 20230601/G/GANDLF/0.0.17.dev20230531-0.0.17.dev20230601/diff.md --exclude *.pyd
+[2023-06-01 05:27:18] INFO root fetch - processPackages [execy]: executing diffoscope
+[2023-06-01 05:27:18] INFO root fetch - processPackages [execy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/execy-0.1.1.tar.gz tmp/execy-0.1.2.tar.gz --markdown 20230601/e/execy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-01 05:27:18] INFO root fetch - processPackages [tfsim-nightly]: Downloading https://files.pythonhosted.org/packages/49/02/95168d043807237d6965e83b33e14c4981bb21996db5404f50ef0b6e0ae2/tfsim-nightly-0.18.0.dev5.tar.gz
+[2023-06-01 05:27:18] INFO root fetch - processPackages [tfsim-nightly]: executing diffoscope
+[2023-06-01 05:27:18] INFO root fetch - processPackages [tfsim-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfsim-nightly-0.18.0.dev4.tar.gz tmp/tfsim-nightly-0.18.0.dev5.tar.gz --markdown 20230601/t/tfsim-nightly/0.18.0.dev4-0.18.0.dev5/diff.md --exclude *.pyd
+[2023-06-01 05:27:19] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-01 05:27:19] INFO root fetch - main [MainThread]: End processing [execy]: success
+[2023-06-01 05:27:19] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-06-01 05:27:20] INFO root fetch - main [MainThread]: End processing [async-adbc]: success
+[2023-06-01 05:27:20] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-06-01 05:27:21] INFO root fetch - main [MainThread]: End processing [tfsim-nightly]: success
+[2023-06-01 05:27:21] INFO root fetch - main [MainThread]: Store serial: [18327821]
