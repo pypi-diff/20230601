@@ -4145,3 +4145,48 @@
 [2023-06-01 03:37:57] INFO root fetch - main [MainThread]: End processing [HawaData]: success
 [2023-06-01 03:37:58] INFO root fetch - main [MainThread]: End processing [metacoag]: success
 [2023-06-01 03:37:58] INFO root fetch - main [MainThread]: Store serial: [18325295]
+[2023-06-01 03:43:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18325295]
+[2023-06-01 03:43:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-01 03:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-stdlib
+[2023-06-01 03:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fypy
+[2023-06-01 03:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-numpy
+[2023-06-01 03:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-pandas
+[2023-06-01 03:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: minidevice
+[2023-06-01 03:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bioregistry
+[2023-06-01 03:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xarray-video
+[2023-06-01 03:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-pytorch
+[2023-06-01 03:43:06] INFO root fetch - processPackages [fypy]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-06-01 03:43:06] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 03:43:06] INFO root fetch - processPackages [minidevice]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-01 03:43:06] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 03:43:06] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 03:43:06] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 03:43:06] INFO root fetch - processPackages [xarray-video]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-01 03:43:06] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-01 03:43:07] INFO root fetch - processPackages [fypy]: Downloading https://files.pythonhosted.org/packages/3b/1e/5f491db71f81b6a40937c046cdbeda6c2ae1b21c44cee75e9d7c8c52c54b/fypy-0.9.0.tar.gz
+[2023-06-01 03:43:07] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-01 03:43:07] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230601/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 03:43:07] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-01 03:43:07] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230601/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 03:43:07] WARNING root fetch - processPackages [fypy]: Skipping package: exceeds size limit 13444810>=10485760
+[2023-06-01 03:43:07] INFO root fetch - main [MainThread]: End processing [fypy] error
+[2023-06-01 03:43:07] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/5d/82/8c3bce9ba186dd80106afea932041bda2b25ec00afd970116a1cb8adba9f/minidevice-1.0.0.tar.gz
+[2023-06-01 03:43:07] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-01 03:43:07] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230601/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 03:43:07] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-06-01 03:43:07] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230601/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-01 03:43:07] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-01 03:43:07] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230601/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 03:43:07] INFO root fetch - processPackages [xarray-video]: Downloading https://files.pythonhosted.org/packages/27/a1/2e2ac6f4b2ef622ab5b64edc32e00733e569cf74c8a7f5d65d4a7a8fe4d7/xarray-video-0.2.6.tar.gz
+[2023-06-01 03:43:07] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/0e/9b/a20d758ed3e2088cb230de14070af27262936787e633dd1a3cbeee457904/minidevice-1.0.1.tar.gz
+[2023-06-01 03:43:07] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-01 03:43:07] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-1.0.0.tar.gz tmp/minidevice-1.0.1.tar.gz --markdown 20230601/m/minidevice/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-01 03:43:07] WARNING root fetch - processPackages [xarray-video]: Skipping package: exceeds size limit 32674373>=10485760
+[2023-06-01 03:43:07] INFO root fetch - main [MainThread]: End processing [xarray-video] error
+[2023-06-01 03:43:08] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-01 03:43:08] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-01 03:43:09] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-01 03:43:09] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-01 03:43:10] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-01 03:45:06] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-06-01 03:45:06] INFO root fetch - main [MainThread]: Store serial: [18325320]
