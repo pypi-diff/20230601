@@ -11521,3 +11521,116 @@
 [2023-06-01 09:19:18] INFO root fetch - main [MainThread]: End processing [alibabacloud-openitag20220616-py2]: success
 [2023-06-01 09:19:18] INFO root fetch - main [MainThread]: End processing [machinable]: success
 [2023-06-01 09:19:18] INFO root fetch - main [MainThread]: Store serial: [18329334]
+[2023-06-01 09:24:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18329334]
+[2023-06-01 09:24:27] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-01 09:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Zeraora
+[2023-06-01 09:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: s2cloudless
+[2023-06-01 09:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: upgini
+[2023-06-01 09:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vfo
+[2023-06-01 09:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edx-enterprise-subsidy-client
+[2023-06-01 09:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: numtoname
+[2023-06-01 09:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assisted-service-client
+[2023-06-01 09:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eyes-soatra
+[2023-06-01 09:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ersciyt
+[2023-06-01 09:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-product-uom-measure-type
+[2023-06-01 09:24:27] INFO root fetch - processPackages [Zeraora]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-01 09:24:27] INFO root fetch - processPackages [numtoname]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-01 09:24:27] INFO root fetch - processPackages [s2cloudless]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-01 09:24:27] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-01 09:24:27] INFO root fetch - processPackages [odoo-addon-product-uom-measure-type]: New version: [16.0.1.0.1.7] Old Version: [16.0.1.0.1.6]
+[2023-06-01 09:24:27] INFO root fetch - processPackages [vfo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 09:24:27] INFO root fetch - processPackages [ersciyt]: New version: [1.97] Old Version: [1.95]
+[2023-06-01 09:24:27] INFO root fetch - processPackages [eyes-soatra]: New version: [0.0.27] Old Version: [0.0.26]
+[2023-06-01 09:24:27] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-01 09:24:27] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-06-01 09:24:28] INFO root fetch - processPackages [s2cloudless]: Downloading https://files.pythonhosted.org/packages/a6/03/2b226619795b87bac5367fd5dd90bd7df0199cf4a9fc0905926f27d8a91f/s2cloudless-1.7.0.tar.gz
+[2023-06-01 09:24:28] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-06-01 09:24:28] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230601/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-06-01 09:24:28] INFO root fetch - processPackages [numtoname]: Downloading https://files.pythonhosted.org/packages/c3/d6/8f1422d6372477a658738d12995e99108caaea6201132c23d465bd7d8ee8/numtoname-0.2.2.tar.gz
+[2023-06-01 09:24:28] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: Downloading https://files.pythonhosted.org/packages/bb/6e/357164a5098683f845f8b79f87a3b48426cce4e8015dc77cc0e9509b184c/edx-enterprise-subsidy-client-0.3.6.tar.gz
+[2023-06-01 09:24:28] INFO root fetch - processPackages [ersciyt]: Downloading https://files.pythonhosted.org/packages/d0/fd/0a9ca097de64058a47d1c5b007f3906be5d63785fef9080bc7284cf91479/ersciyt-1.97.tar.gz
+[2023-06-01 09:24:28] INFO root fetch - processPackages [eyes-soatra]: Downloading https://files.pythonhosted.org/packages/cf/cc/a03a2567c634300ffce45770748968765dddc344d162e8999e1f3fb54820/eyes_soatra-0.0.27.tar.gz
+[2023-06-01 09:24:28] INFO root fetch - processPackages [Zeraora]: executing diffoscope
+[2023-06-01 09:24:28] INFO root fetch - processPackages [Zeraora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Zeraora-0.2.8.tar.gz tmp/Zeraora-0.2.9.tar.gz --markdown 20230601/Z/Zeraora/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-01 09:24:28] INFO root fetch - processPackages [odoo-addon-product-uom-measure-type]: Downloading https://files.pythonhosted.org/packages/7e/73/88ee513f9ea1f376853b3084efe4ca8d9fb24ebb29ce051fa159af209917/odoo_addon_product_uom_measure_type-16.0.1.0.1.7-py3-none-any.whl
+[2023-06-01 09:24:28] INFO root fetch - processPackages [vfo]: executing diffoscope
+[2023-06-01 09:24:28] INFO root fetch - processPackages [vfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vfo-0.0.8.tar.gz tmp/vfo-0.0.9.tar.gz --markdown 20230601/v/vfo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 09:24:28] INFO root fetch - processPackages [eyes-soatra]: executing diffoscope
+[2023-06-01 09:24:28] INFO root fetch - processPackages [eyes-soatra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_soatra-0.0.26.tar.gz tmp/eyes_soatra-0.0.27.tar.gz --markdown 20230601/e/eyes-soatra/0.0.26-0.0.27/diff.md --exclude *.pyd
+[2023-06-01 09:24:28] INFO root fetch - processPackages [ersciyt]: executing diffoscope
+[2023-06-01 09:24:28] INFO root fetch - processPackages [ersciyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ersciyt-1.95.tar.gz tmp/ersciyt-1.97.tar.gz --markdown 20230601/e/ersciyt/1.95-1.97/diff.md --exclude *.pyd
+[2023-06-01 09:24:28] INFO root fetch - processPackages [numtoname]: executing diffoscope
+[2023-06-01 09:24:28] INFO root fetch - processPackages [numtoname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numtoname-0.2.1.tar.gz tmp/numtoname-0.2.2.tar.gz --markdown 20230601/n/numtoname/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-01 09:24:28] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: executing diffoscope
+[2023-06-01 09:24:28] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-subsidy-client-0.3.5.tar.gz tmp/edx-enterprise-subsidy-client-0.3.6.tar.gz --markdown 20230601/e/edx-enterprise-subsidy-client/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-01 09:24:28] INFO root fetch - processPackages [odoo-addon-product-uom-measure-type]: executing diffoscope
+[2023-06-01 09:24:28] INFO root fetch - processPackages [odoo-addon-product-uom-measure-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_uom_measure_type-16.0.1.0.1.6-py3-none-any.whl.zip tmp/odoo_addon_product_uom_measure_type-16.0.1.0.1.7-py3-none-any.whl.zip --markdown 20230601/o/odoo-addon-product-uom-measure-type/16.0.1.0.1.6-16.0.1.0.1.7/diff.md --exclude *.pyd
+[2023-06-01 09:24:28] INFO root fetch - processPackages [s2cloudless]: Downloading https://files.pythonhosted.org/packages/be/8d/b2ecd65152a3345bca795b4ff6b7d0f2cb01741717f49c13ab5d78431583/s2cloudless-1.7.1.tar.gz
+[2023-06-01 09:24:28] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-06-01 09:24:28] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230601/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-01 09:24:28] INFO root fetch - processPackages [s2cloudless]: executing diffoscope
+[2023-06-01 09:24:28] INFO root fetch - processPackages [s2cloudless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2cloudless-1.7.0.tar.gz tmp/s2cloudless-1.7.1.tar.gz --markdown 20230601/s/s2cloudless/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-01 09:24:30] INFO root fetch - processPackages [Zeraora]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-06-01 09:24:30] INFO root fetch - main [MainThread]: End processing [Zeraora]: success
+[2023-06-01 09:24:30] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-06-01 09:24:30] INFO root fetch - processPackages [vfo]: Start processing: odoo-addons-oca-product-attribute
+[2023-06-01 09:24:30] INFO root fetch - main [MainThread]: End processing [vfo]: success
+[2023-06-01 09:24:30] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: New version: [16.0.20230531.0] Old Version: [16.0.20230427.0]
+[2023-06-01 09:24:30] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/9b/9d/e0b01f09029cc3275b5cbb982ad82eb722a32dabcd2db0b85d04e5e1e95e/aws_prototyping_sdk.aws_arch-0.19.8.tar.gz
+[2023-06-01 09:24:30] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19300041>=10485760
+[2023-06-01 09:24:30] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-06-01 09:24:30] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-06-01 09:24:30] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 09:24:30] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/8e/08/2ff17f980b00c67e67847c3f009e28c60f0bf65816a0f4fdf66bb4641abc/odoo_addons_oca_product_attribute-16.0.20230427.0-py3-none-any.whl
+[2023-06-01 09:24:30] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-01 09:24:30] INFO root fetch - main [MainThread]: End processing [edx-enterprise-subsidy-client]: success
+[2023-06-01 09:24:30] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-01 09:24:30] INFO root fetch - processPackages [numtoname]: Start processing: aws-prototyping-sdk.identity
+[2023-06-01 09:24:30] INFO root fetch - main [MainThread]: End processing [numtoname]: success
+[2023-06-01 09:24:30] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 09:24:30] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-06-01 09:24:30] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230601/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 09:24:30] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-01 09:24:30] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230601/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 09:24:30] INFO root fetch - processPackages [odoo-addon-product-uom-measure-type]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-06-01 09:24:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-uom-measure-type]: success
+[2023-06-01 09:24:30] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/50/c5/67a64db3b151eb9d8a85df2d40cfc94049d9d0f445b5563b6a49a9998cc2/odoo_addons_oca_product_attribute-16.0.20230531.0-py3-none-any.whl
+[2023-06-01 09:24:30] INFO root fetch - processPackages [ersciyt]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-06-01 09:24:30] INFO root fetch - main [MainThread]: End processing [ersciyt]: success
+[2023-06-01 09:24:30] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-06-01 09:24:30] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230601/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 09:24:30] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 09:24:30] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 09:24:30] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: executing diffoscope
+[2023-06-01 09:24:30] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_product_attribute-16.0.20230427.0-py3-none-any.whl.zip tmp/odoo_addons_oca_product_attribute-16.0.20230531.0-py3-none-any.whl.zip --markdown 20230601/o/odoo-addons-oca-product-attribute/16.0.20230427.0-16.0.20230531.0/diff.md --exclude *.pyd
+[2023-06-01 09:24:30] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-06-01 09:24:30] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230601/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 09:24:30] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-06-01 09:24:30] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230601/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 09:24:30] INFO root fetch - processPackages [upgini]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-06-01 09:24:30] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-06-01 09:24:30] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 09:24:30] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-06-01 09:24:30] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230601/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 09:24:31] INFO root fetch - processPackages [s2cloudless]: Start processing: natf
+[2023-06-01 09:24:31] INFO root fetch - main [MainThread]: End processing [s2cloudless]: success
+[2023-06-01 09:24:31] INFO root fetch - processPackages [natf]: New version: [2.4.4] Old Version: [2.4.3]
+[2023-06-01 09:24:31] INFO root fetch - processPackages [natf]: Downloading https://files.pythonhosted.org/packages/b4/27/7d18cdb0be6c1d9863feb44b813fa441309c9099a4495a7b65eac92a3310/natf-2.4.4-py3-none-any.whl
+[2023-06-01 09:24:32] INFO root fetch - processPackages [eyes-soatra]: Start processing: aws-prototyping-sdk.pipeline
+[2023-06-01 09:24:32] INFO root fetch - main [MainThread]: End processing [eyes-soatra]: success
+[2023-06-01 09:24:32] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 09:24:32] INFO root fetch - processPackages [natf]: executing diffoscope
+[2023-06-01 09:24:32] INFO root fetch - processPackages [natf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natf-2.4.3-py3-none-any.whl.zip tmp/natf-2.4.4-py3-none-any.whl.zip --markdown 20230601/n/natf/2.4.3-2.4.4/diff.md --exclude *.pyd
+[2023-06-01 09:24:32] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-06-01 09:24:32] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230601/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 09:24:32] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-06-01 09:24:32] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-06-01 09:24:32] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-product-attribute]: success
+[2023-06-01 09:24:32] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-06-01 09:24:32] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-06-01 09:24:33] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-06-01 09:24:33] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-06-01 09:24:33] INFO root fetch - main [MainThread]: End processing [natf]: success
+[2023-06-01 09:24:33] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-06-01 09:24:34] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-01 09:24:34] INFO root fetch - main [MainThread]: Store serial: [18329391]
