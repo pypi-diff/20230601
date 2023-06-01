@@ -13099,3 +13099,119 @@
 [2023-06-01 10:58:51] INFO root fetch - processPackages [rlbot-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlbot_gui-0.0.98.tar.gz tmp/rlbot_gui-0.0.99.tar.gz --markdown 20230601/r/rlbot-gui/0.0.98-0.0.99/diff.md --exclude *.pyd
 [2023-06-01 10:59:07] INFO root fetch - main [MainThread]: End processing [rlbot-gui]: success
 [2023-06-01 10:59:07] INFO root fetch - main [MainThread]: Store serial: [18330229]
+[2023-06-01 11:04:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18330229]
+[2023-06-01 11:04:17] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-01 11:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imgmisc
+[2023-06-01 11:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ez-a-sync
+[2023-06-01 11:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyelectroluxconnect
+[2023-06-01 11:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kbcstorage
+[2023-06-01 11:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytele2api
+[2023-06-01 11:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbt-dragonfly
+[2023-06-01 11:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: databricks-mosaic
+[2023-06-01 11:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycobertura
+[2023-06-01 11:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jax-tools
+[2023-06-01 11:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: modAL-python
+[2023-06-01 11:04:17] INFO root fetch - processPackages [imgmisc]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-01 11:04:17] INFO root fetch - processPackages [jax-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 11:04:17] INFO root fetch - processPackages [pycobertura]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-06-01 11:04:17] INFO root fetch - processPackages [ez-a-sync]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-01 11:04:17] INFO root fetch - processPackages [pyelectroluxconnect]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-01 11:04:17] WARNING root fetch - processPackages [modAL-python]: Skipping, unable to determine old version
+[2023-06-01 11:04:17] WARNING root fetch - processPackages [pytele2api]: Skipping, unable to determine old version
+[2023-06-01 11:04:17] INFO root fetch - processPackages [modAL-python]: Start processing: bakta
+[2023-06-01 11:04:17] INFO root fetch - processPackages [kbcstorage]: New version: [0.5.0] Old Version: [0.0.1]
+[2023-06-01 11:04:17] INFO root fetch - processPackages [databricks-mosaic]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-01 11:04:17] INFO root fetch - processPackages [pytele2api]: Start processing: easys-ordermanager
+[2023-06-01 11:04:17] INFO root fetch - main [MainThread]: End processing [modAL-python] error
+[2023-06-01 11:04:17] INFO root fetch - main [MainThread]: End processing [pytele2api] error
+[2023-06-01 11:04:17] INFO root fetch - processPackages [bakta]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-06-01 11:04:17] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-06-01 11:04:17] INFO root fetch - processPackages [easys-ordermanager]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-01 11:04:17] INFO root fetch - processPackages [imgmisc]: Downloading https://files.pythonhosted.org/packages/23/70/d352f7724655e53137efd5791722a3da3975b05349de7e4ca175f796d526/imgmisc-0.2.1.tar.gz
+[2023-06-01 11:04:17] INFO root fetch - processPackages [easys-ordermanager]: executing diffoscope
+[2023-06-01 11:04:17] INFO root fetch - processPackages [easys-ordermanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easys-ordermanager-2.2.0.tar.gz tmp/easys-ordermanager-2.2.1.tar.gz --markdown 20230601/e/easys-ordermanager/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-01 11:04:17] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2023-06-01 11:04:17] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.8.tar.gz tmp/jax-tools-1.0.9.tar.gz --markdown 20230601/j/jax-tools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 11:04:17] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-06-01 11:04:17] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230601/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-06-01 11:04:17] INFO root fetch - processPackages [pycobertura]: Downloading https://files.pythonhosted.org/packages/c4/6d/ae41adf371e3b9f34e93f9e8e7cbd4fba712ebb9f3a9c3ce7b22227b4d7f/pycobertura-3.2.0.tar.gz
+[2023-06-01 11:04:17] INFO root fetch - processPackages [kbcstorage]: Downloading https://files.pythonhosted.org/packages/9a/71/e2c3f547d2c83e9e91e40e99ec5bc42c9c160140d1896e02593117e0bf28/kbcstorage-0.0.1.tar.gz
+[2023-06-01 11:04:17] INFO root fetch - processPackages [databricks-mosaic]: Downloading https://files.pythonhosted.org/packages/c4/96/f85b86b29569492c62343bf8385f9786433dfcf247abcfc7eee6064a7a20/databricks-mosaic-0.3.8.tar.gz
+[2023-06-01 11:04:17] WARNING root fetch - processPackages [databricks-mosaic]: Skipping package: exceeds size limit 18896121>=10485760
+[2023-06-01 11:04:17] INFO root fetch - processPackages [databricks-mosaic]: Start processing: claude2openai
+[2023-06-01 11:04:17] INFO root fetch - main [MainThread]: End processing [databricks-mosaic] error
+[2023-06-01 11:04:17] WARNING root fetch - processPackages [claude2openai]: Skipping, unable to determine old version
+[2023-06-01 11:04:17] INFO root fetch - processPackages [claude2openai]: Start processing: jax-tools
+[2023-06-01 11:04:17] INFO root fetch - main [MainThread]: End processing [claude2openai] error
+[2023-06-01 11:04:17] INFO root fetch - processPackages [jax-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 11:04:17] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/ac/63/37f3ed218fd922f96d98f076d273ace4faf42d123e0e902bacd7ae4617ee/ez-a-sync-0.1.8.tar.gz
+[2023-06-01 11:04:17] INFO root fetch - processPackages [pyelectroluxconnect]: executing diffoscope
+[2023-06-01 11:04:17] INFO root fetch - processPackages [pyelectroluxconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyelectroluxconnect-0.3.8.tar.gz tmp/pyelectroluxconnect-0.3.9.tar.gz --markdown 20230601/p/pyelectroluxconnect/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-01 11:04:17] INFO root fetch - processPackages [pycobertura]: Downloading https://files.pythonhosted.org/packages/e2/da/beb8541980017ab69f5ec160639347a753912529c5145fd798107f725f3c/pycobertura-3.2.1.tar.gz
+[2023-06-01 11:04:17] INFO root fetch - processPackages [imgmisc]: Downloading https://files.pythonhosted.org/packages/46/cd/d9e0a18411e61c5c854467d03d83050197118684c0602d72a562f1acb41f/imgmisc-0.2.2.tar.gz
+[2023-06-01 11:04:17] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2023-06-01 11:04:17] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.8.tar.gz tmp/jax-tools-1.0.9.tar.gz --markdown 20230601/j/jax-tools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 11:04:17] INFO root fetch - processPackages [bakta]: Downloading https://files.pythonhosted.org/packages/54/05/0a0b07565491351c1465d13151f8c25b1969773908d664b76d749523a97b/bakta-1.8.1.tar.gz
+[2023-06-01 11:04:18] INFO root fetch - processPackages [kbcstorage]: Downloading https://files.pythonhosted.org/packages/1a/e9/096f897f55dcb511bc1efb9f6fa44c0b6d8c760fd7d41b824f355aff5c32/kbcstorage-0.5.0.tar.gz
+[2023-06-01 11:04:18] INFO root fetch - processPackages [pycobertura]: executing diffoscope
+[2023-06-01 11:04:18] INFO root fetch - processPackages [pycobertura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycobertura-3.2.0.tar.gz tmp/pycobertura-3.2.1.tar.gz --markdown 20230601/p/pycobertura/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-06-01 11:04:18] INFO root fetch - processPackages [imgmisc]: executing diffoscope
+[2023-06-01 11:04:18] INFO root fetch - processPackages [imgmisc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgmisc-0.2.1.tar.gz tmp/imgmisc-0.2.2.tar.gz --markdown 20230601/i/imgmisc/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-01 11:04:18] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-06-01 11:04:18] INFO root fetch - processPackages [bakta]: executing diffoscope
+[2023-06-01 11:04:18] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.1.7.tar.gz tmp/ez-a-sync-0.1.8.tar.gz --markdown 20230601/e/ez-a-sync/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-01 11:04:18] INFO root fetch - processPackages [bakta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bakta-1.8.0.tar.gz tmp/bakta-1.8.1.tar.gz --markdown 20230601/b/bakta/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-06-01 11:04:18] INFO root fetch - processPackages [kbcstorage]: executing diffoscope
+[2023-06-01 11:04:18] INFO root fetch - processPackages [kbcstorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kbcstorage-0.0.1.tar.gz tmp/kbcstorage-0.5.0.tar.gz --markdown 20230601/k/kbcstorage/0.0.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-01 11:04:19] INFO root fetch - processPackages [jax-tools]: Start processing: autogluon.common
+[2023-06-01 11:04:19] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2023-06-01 11:04:19] INFO root fetch - processPackages [autogluon.common]: New version: [0.7.1b20230531] Old Version: [0.7.1b20230530]
+[2023-06-01 11:04:19] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-06-01 11:04:19] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.7.1b20230530.tar.gz tmp/autogluon.common-0.7.1b20230531.tar.gz --markdown 20230601/a/autogluon.common/0.7.1b20230530-0.7.1b20230531/diff.md --exclude *.pyd
+[2023-06-01 11:04:19] INFO root fetch - processPackages [pyelectroluxconnect]: Start processing: autogluon.core
+[2023-06-01 11:04:19] INFO root fetch - main [MainThread]: End processing [pyelectroluxconnect]: success
+[2023-06-01 11:04:19] INFO root fetch - processPackages [autogluon.core]: New version: [0.7.1b20230531] Old Version: [0.7.1b20230530]
+[2023-06-01 11:04:19] INFO root fetch - processPackages [lbt-dragonfly]: Start processing: autogluon.features
+[2023-06-01 11:04:19] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-06-01 11:04:19] INFO root fetch - processPackages [autogluon.features]: New version: [0.7.1b20230531] Old Version: [0.7.1b20230530]
+[2023-06-01 11:04:19] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-06-01 11:04:19] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.7.1b20230530.tar.gz tmp/autogluon.core-0.7.1b20230531.tar.gz --markdown 20230601/a/autogluon.core/0.7.1b20230530-0.7.1b20230531/diff.md --exclude *.pyd
+[2023-06-01 11:04:19] INFO root fetch - processPackages [jax-tools]: Start processing: msaDocModels
+[2023-06-01 11:04:19] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2023-06-01 11:04:19] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-06-01 11:04:19] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.7.1b20230530.tar.gz tmp/autogluon.features-0.7.1b20230531.tar.gz --markdown 20230601/a/autogluon.features/0.7.1b20230530-0.7.1b20230531/diff.md --exclude *.pyd
+[2023-06-01 11:04:19] INFO root fetch - processPackages [msaDocModels]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 11:04:20] INFO root fetch - processPackages [msaDocModels]: executing diffoscope
+[2023-06-01 11:04:20] INFO root fetch - processPackages [msaDocModels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaDocModels-0.0.8.tar.gz tmp/msaDocModels-0.0.9.tar.gz --markdown 20230601/m/msaDocModels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 11:04:20] INFO root fetch - processPackages [bakta]: Start processing: autogluon.tabular
+[2023-06-01 11:04:20] INFO root fetch - main [MainThread]: End processing [bakta]: success
+[2023-06-01 11:04:20] INFO root fetch - processPackages [autogluon.tabular]: New version: [0.7.1b20230531] Old Version: [0.7.1b20230530]
+[2023-06-01 11:04:20] INFO root fetch - processPackages [ez-a-sync]: Start processing: EdgeGPT
+[2023-06-01 11:04:20] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-06-01 11:04:20] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2023-06-01 11:04:20] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-0.7.1b20230530.tar.gz tmp/autogluon.tabular-0.7.1b20230531.tar.gz --markdown 20230601/a/autogluon.tabular/0.7.1b20230530-0.7.1b20230531/diff.md --exclude *.pyd
+[2023-06-01 11:04:20] INFO root fetch - processPackages [EdgeGPT]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-06-01 11:04:20] INFO root fetch - processPackages [easys-ordermanager]: Start processing: autogluon.multimodal
+[2023-06-01 11:04:20] INFO root fetch - main [MainThread]: End processing [easys-ordermanager]: success
+[2023-06-01 11:04:20] INFO root fetch - processPackages [autogluon.multimodal]: New version: [0.7.1b20230531] Old Version: [0.7.1b20230530]
+[2023-06-01 11:04:20] INFO root fetch - processPackages [imgmisc]: Start processing: autogluon.timeseries
+[2023-06-01 11:04:20] INFO root fetch - main [MainThread]: End processing [imgmisc]: success
+[2023-06-01 11:04:20] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/02/9f/4b49c9892a74b3382a9f797354b18253d6289f43bc5a6e9084a50b2f3f52/EdgeGPT-0.7.0.tar.gz
+[2023-06-01 11:04:20] INFO root fetch - processPackages [autogluon.timeseries]: New version: [0.7.1b20230531] Old Version: [0.7.1b20230530]
+[2023-06-01 11:04:20] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2023-06-01 11:04:20] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-0.7.1b20230530.tar.gz tmp/autogluon.multimodal-0.7.1b20230531.tar.gz --markdown 20230601/a/autogluon.multimodal/0.7.1b20230530-0.7.1b20230531/diff.md --exclude *.pyd
+[2023-06-01 11:04:20] INFO root fetch - main [MainThread]: End processing [pycobertura]: success
+[2023-06-01 11:04:20] INFO root fetch - main [MainThread]: End processing [kbcstorage]: success
+[2023-06-01 11:04:20] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2023-06-01 11:04:20] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-0.7.1b20230530.tar.gz tmp/autogluon.timeseries-0.7.1b20230531.tar.gz --markdown 20230601/a/autogluon.timeseries/0.7.1b20230530-0.7.1b20230531/diff.md --exclude *.pyd
+[2023-06-01 11:04:20] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-06-01 11:04:20] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.6.9.tar.gz tmp/EdgeGPT-0.7.0.tar.gz --markdown 20230601/E/EdgeGPT/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-06-01 11:04:21] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-06-01 11:04:21] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-06-01 11:04:22] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2023-06-01 11:04:22] INFO root fetch - main [MainThread]: End processing [msaDocModels]: success
+[2023-06-01 11:04:22] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-06-01 11:04:23] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2023-06-01 11:04:23] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-06-01 11:04:24] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2023-06-01 11:04:24] INFO root fetch - main [MainThread]: Store serial: [18330295]
