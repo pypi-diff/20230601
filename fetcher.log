@@ -16167,3 +16167,76 @@
 [2023-06-01 12:58:52] INFO root fetch - main [MainThread]: End processing [huntflow-api-client]: success
 [2023-06-01 12:58:54] INFO root fetch - main [MainThread]: End processing [encord-active-components]: success
 [2023-06-01 12:58:54] INFO root fetch - main [MainThread]: Store serial: [18331938]
+[2023-06-01 13:03:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18331938]
+[2023-06-01 13:04:03] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-01 13:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ariadne-codegen
+[2023-06-01 13:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keypact
+[2023-06-01 13:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: catencfamily
+[2023-06-01 13:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modAL-python
+[2023-06-01 13:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lesscode-database
+[2023-06-01 13:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: text2story
+[2023-06-01 13:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: acdh-transkribus-utils
+[2023-06-01 13:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupyter-education
+[2023-06-01 13:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Googlemapdata-export
+[2023-06-01 13:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdktf-cdktf-provider-hcp
+[2023-06-01 13:04:03] WARNING root fetch - processPackages [jupyter-education]: Skipping, unable to determine old version
+[2023-06-01 13:04:03] INFO root fetch - processPackages [jupyter-education]: Start processing: openshift-cluster-management-python-wrapper
+[2023-06-01 13:04:03] INFO root fetch - main [MainThread]: End processing [jupyter-education] error
+[2023-06-01 13:04:03] INFO root fetch - processPackages [catencfamily]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-01 13:04:03] INFO root fetch - processPackages [text2story]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-01 13:04:03] INFO root fetch - processPackages [keypact]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-01 13:04:03] INFO root fetch - processPackages [modAL-python]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-01 13:04:03] WARNING root fetch - processPackages [Googlemapdata-export]: Skipping, unable to determine old version
+[2023-06-01 13:04:03] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-06-01 13:04:03] INFO root fetch - processPackages [acdh-transkribus-utils]: New version: [2.6] Old Version: [2.5]
+[2023-06-01 13:04:03] INFO root fetch - processPackages [ariadne-codegen]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-01 13:04:03] INFO root fetch - processPackages [Googlemapdata-export]: Start processing: ccxt
+[2023-06-01 13:04:03] INFO root fetch - main [MainThread]: End processing [Googlemapdata-export] error
+[2023-06-01 13:04:03] WARNING root fetch - processPackages [lesscode-database]: Skipping, unable to determine old version
+[2023-06-01 13:04:03] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 13:04:03] INFO root fetch - processPackages [lesscode-database]: Start processing: django-maskpostgresdata
+[2023-06-01 13:04:03] INFO root fetch - main [MainThread]: End processing [lesscode-database] error
+[2023-06-01 13:04:03] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-01 13:04:03] INFO root fetch - processPackages [django-maskpostgresdata]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 13:04:03] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/a4/ea/e1a25a3213bfc77988c760185b4386fe030deb273d0747611bf5fe61b6d7/catencfamily-0.0.6.tar.gz
+[2023-06-01 13:04:03] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Downloading https://files.pythonhosted.org/packages/e6/73/4c8f92ff5b2d6bf99c245d40e9def05e8633171a2cbc01ceb4cea13cc124/cdktf-cdktf-provider-hcp-4.0.0.tar.gz
+[2023-06-01 13:04:03] INFO root fetch - processPackages [modAL-python]: Downloading https://files.pythonhosted.org/packages/86/35/824019af9d74871e3355062b3e78aed58beb93de740ecc9075b5c491cde1/modAL-python-0.4.1.tar.gz
+[2023-06-01 13:04:03] INFO root fetch - processPackages [ariadne-codegen]: Downloading https://files.pythonhosted.org/packages/bd/c0/e00d00ae411fa54ea7a250efe63672ccd9be5e092bb189d3f4a4b28ac7e2/ariadne_codegen-0.6.0.tar.gz
+[2023-06-01 13:04:03] INFO root fetch - processPackages [acdh-transkribus-utils]: Downloading https://files.pythonhosted.org/packages/11/73/4c7600437748d050b3d1b2aa5b1781afed897b44d6e29555ce72471ac5e2/acdh-transkribus-utils-2.5.tar.gz
+[2023-06-01 13:04:03] INFO root fetch - processPackages [keypact]: Downloading https://files.pythonhosted.org/packages/cb/92/2219697feaca070ff2478924ad6de103a6694c7ba959b80fb863298a3933/keypact-0.7.0.tar.gz
+[2023-06-01 13:04:03] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2023-06-01 13:04:03] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.2.8.tar.gz tmp/text2story-1.2.9.tar.gz --markdown 20230601/t/text2story/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-01 13:04:03] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-01 13:04:03] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230601/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-01 13:04:03] INFO root fetch - processPackages [modAL-python]: executing diffoscope
+[2023-06-01 13:04:03] INFO root fetch - processPackages [modAL-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modAL-python-0.4.0.tar.gz tmp/modAL-python-0.4.1.tar.gz --markdown 20230601/m/modAL-python/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-01 13:04:03] INFO root fetch - processPackages [django-maskpostgresdata]: Downloading https://files.pythonhosted.org/packages/a9/5e/12f25fe95330fed17e97ccb1832959fc978d258a87547c6bfaff51c8f4e7/django-maskpostgresdata-0.1.8.tar.gz
+[2023-06-01 13:04:03] INFO root fetch - processPackages [catencfamily]: executing diffoscope
+[2023-06-01 13:04:03] INFO root fetch - processPackages [catencfamily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catencfamily-0.0.5.tar.gz tmp/catencfamily-0.0.6.tar.gz --markdown 20230601/c/catencfamily/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-01 13:04:03] INFO root fetch - processPackages [keypact]: executing diffoscope
+[2023-06-01 13:04:03] INFO root fetch - processPackages [keypact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keypact-0.6.0.tar.gz tmp/keypact-0.7.0.tar.gz --markdown 20230601/k/keypact/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-01 13:04:03] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: executing diffoscope
+[2023-06-01 13:04:03] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-cluster-management-python-wrapper-1.0.8.tar.gz tmp/openshift-cluster-management-python-wrapper-1.0.9.tar.gz --markdown 20230601/o/openshift-cluster-management-python-wrapper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 13:04:03] INFO root fetch - processPackages [ariadne-codegen]: Downloading https://files.pythonhosted.org/packages/74/54/a517e37d52f68dd432f852fd80a8b4d29e2b1915477a4e3108a9a4ca7bf1/ariadne_codegen-0.7.0.tar.gz
+[2023-06-01 13:04:03] INFO root fetch - processPackages [acdh-transkribus-utils]: Downloading https://files.pythonhosted.org/packages/8a/95/75ff42e7efdc2370df58ddd134fa312cbeaf3567e65a80397d67d9ce5472/acdh-transkribus-utils-2.6.tar.gz
+[2023-06-01 13:04:03] INFO root fetch - processPackages [ariadne-codegen]: executing diffoscope
+[2023-06-01 13:04:03] INFO root fetch - processPackages [ariadne-codegen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ariadne_codegen-0.6.0.tar.gz tmp/ariadne_codegen-0.7.0.tar.gz --markdown 20230601/a/ariadne-codegen/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-01 13:04:03] INFO root fetch - processPackages [acdh-transkribus-utils]: executing diffoscope
+[2023-06-01 13:04:03] INFO root fetch - processPackages [acdh-transkribus-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acdh-transkribus-utils-2.5.tar.gz tmp/acdh-transkribus-utils-2.6.tar.gz --markdown 20230601/a/acdh-transkribus-utils/2.5-2.6/diff.md --exclude *.pyd
+[2023-06-01 13:04:04] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Downloading https://files.pythonhosted.org/packages/5f/23/f7711fb5f9d515d06a22644ca3b755aec3d95b72ac4215dcc0b0dfaa75d7/cdktf-cdktf-provider-hcp-4.0.1.tar.gz
+[2023-06-01 13:04:04] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: executing diffoscope
+[2023-06-01 13:04:04] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-hcp-4.0.0.tar.gz tmp/cdktf-cdktf-provider-hcp-4.0.1.tar.gz --markdown 20230601/c/cdktf-cdktf-provider-hcp/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-06-01 13:04:04] INFO root fetch - processPackages [django-maskpostgresdata]: Downloading https://files.pythonhosted.org/packages/ff/87/fae171891fbd277571272904207fd0b98294070b9db48c0905cfe33a04f9/django-maskpostgresdata-0.1.9.tar.gz
+[2023-06-01 13:04:04] INFO root fetch - processPackages [django-maskpostgresdata]: executing diffoscope
+[2023-06-01 13:04:04] INFO root fetch - processPackages [django-maskpostgresdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-maskpostgresdata-0.1.8.tar.gz tmp/django-maskpostgresdata-0.1.9.tar.gz --markdown 20230601/d/django-maskpostgresdata/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 13:04:05] INFO root fetch - main [MainThread]: End processing [modAL-python]: success
+[2023-06-01 13:04:05] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2023-06-01 13:04:05] INFO root fetch - main [MainThread]: End processing [keypact]: success
+[2023-06-01 13:04:06] INFO root fetch - main [MainThread]: End processing [catencfamily]: success
+[2023-06-01 13:04:06] INFO root fetch - main [MainThread]: End processing [acdh-transkribus-utils]: success
+[2023-06-01 13:04:06] INFO root fetch - main [MainThread]: End processing [openshift-cluster-management-python-wrapper]: success
+[2023-06-01 13:04:06] INFO root fetch - main [MainThread]: End processing [django-maskpostgresdata]: success
+[2023-06-01 13:04:06] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-hcp]: success
+[2023-06-01 13:04:07] INFO root fetch - main [MainThread]: End processing [ariadne-codegen]: success
+[2023-06-01 13:04:13] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-01 13:04:13] INFO root fetch - main [MainThread]: Store serial: [18331985]
