@@ -14819,3 +14819,104 @@
 [2023-06-01 11:43:21] INFO root fetch - main [MainThread]: End processing [xircuits]: success
 [2023-06-01 11:43:29] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-06-01 11:43:29] INFO root fetch - main [MainThread]: Store serial: [18331180]
+[2023-06-01 11:48:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18331180]
+[2023-06-01 11:48:38] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-01 11:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prisma-pynext
+[2023-06-01 11:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eolymp
+[2023-06-01 11:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datagit
+[2023-06-01 11:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pamela
+[2023-06-01 11:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb
+[2023-06-01 11:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-client
+[2023-06-01 11:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-dataset
+[2023-06-01 11:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-models
+[2023-06-01 11:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-protos
+[2023-06-01 11:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-sdk
+[2023-06-01 11:48:38] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 11:48:38] INFO root fetch - processPackages [datagit]: New version: [0.3] Old Version: [0.2]
+[2023-06-01 11:48:38] INFO root fetch - processPackages [pamela]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-01 11:48:38] INFO root fetch - processPackages [prisma-pynext]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-01 11:48:38] INFO root fetch - processPackages [eolymp]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-01 11:48:38] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 11:48:38] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 11:48:38] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 11:48:38] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 11:48:38] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 11:48:39] INFO root fetch - processPackages [eolymp]: executing diffoscope
+[2023-06-01 11:48:39] INFO root fetch - processPackages [eolymp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eolymp-0.7.8.tar.gz tmp/eolymp-0.7.9.tar.gz --markdown 20230601/e/eolymp/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-01 11:48:39] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-06-01 11:48:39] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 11:48:39] INFO root fetch - processPackages [prisma-pynext]: executing diffoscope
+[2023-06-01 11:48:39] INFO root fetch - processPackages [prisma-pynext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prisma_pynext-0.8.8.tar.gz tmp/prisma_pynext-0.8.9.tar.gz --markdown 20230601/p/prisma-pynext/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-01 11:48:39] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-06-01 11:48:39] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 11:48:39] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-06-01 11:48:39] INFO root fetch - processPackages [pamela]: Downloading https://files.pythonhosted.org/packages/48/4d/738e0122a263b6631c7112b3e98566a53afe7d00eefc6355370ec6d9edea/pamela-1.0.0.tar.gz
+[2023-06-01 11:48:39] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 11:48:39] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-06-01 11:48:39] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 11:48:39] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-06-01 11:48:39] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 11:48:39] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-06-01 11:48:39] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 11:48:39] INFO root fetch - processPackages [datagit]: Downloading https://files.pythonhosted.org/packages/dc/9a/9a91f1bc1f533697d5ab47b15aed0c7faa2ceaf0468c7d0520c73f6c7b47/datagit-0.3.tar.gz
+[2023-06-01 11:48:39] INFO root fetch - processPackages [pamela]: Downloading https://files.pythonhosted.org/packages/b0/0c/e89683efb8da719cf856cf8156dd7bc665c59d575035d9b44a229019dc27/pamela-1.1.0.tar.gz
+[2023-06-01 11:48:39] INFO root fetch - processPackages [pamela]: executing diffoscope
+[2023-06-01 11:48:39] INFO root fetch - processPackages [pamela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pamela-1.0.0.tar.gz tmp/pamela-1.1.0.tar.gz --markdown 20230601/p/pamela/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-01 11:48:39] INFO root fetch - processPackages [datagit]: executing diffoscope
+[2023-06-01 11:48:39] INFO root fetch - processPackages [datagit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagit-0.2.tar.gz tmp/datagit-0.3.tar.gz --markdown 20230601/d/datagit/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-01 11:48:40] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-utils
+[2023-06-01 11:48:40] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-06-01 11:48:40] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 11:48:40] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-06-01 11:48:40] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 11:48:40] INFO root fetch - processPackages [nucliadb-client]: Start processing: hestia-earth-schema
+[2023-06-01 11:48:40] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-06-01 11:48:40] INFO root fetch - processPackages [hestia-earth-schema]: New version: [9.7.1] Old Version: [9.7.0]
+[2023-06-01 11:48:41] INFO root fetch - processPackages [hestia-earth-schema]: executing diffoscope
+[2023-06-01 11:48:41] INFO root fetch - processPackages [hestia-earth-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-schema-9.7.0.tar.gz tmp/hestia-earth-schema-9.7.1.tar.gz --markdown 20230601/h/hestia-earth-schema/9.7.0-9.7.1/diff.md --exclude *.pyd
+[2023-06-01 11:48:41] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: vqa-cimod
+[2023-06-01 11:48:41] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-06-01 11:48:41] WARNING root fetch - processPackages [vqa-cimod]: Skipping, unable to determine old version
+[2023-06-01 11:48:41] INFO root fetch - processPackages [vqa-cimod]: Start processing: island
+[2023-06-01 11:48:41] INFO root fetch - main [MainThread]: End processing [vqa-cimod] error
+[2023-06-01 11:48:41] INFO root fetch - processPackages [island]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-01 11:48:41] INFO root fetch - processPackages [nucliadb-protos]: Start processing: island
+[2023-06-01 11:48:41] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-06-01 11:48:41] INFO root fetch - processPackages [island]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-01 11:48:41] INFO root fetch - processPackages [nucliadb-models]: Start processing: agera5tools
+[2023-06-01 11:48:41] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-06-01 11:48:41] INFO root fetch - processPackages [agera5tools]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-01 11:48:41] INFO root fetch - processPackages [island]: Downloading https://files.pythonhosted.org/packages/ee/44/475f574fc44f717f7afbad016c7bb23600270f35c6597252cf3cc76248ab/island-1.1.1.tar.gz
+[2023-06-01 11:48:41] INFO root fetch - processPackages [island]: Downloading https://files.pythonhosted.org/packages/ee/44/475f574fc44f717f7afbad016c7bb23600270f35c6597252cf3cc76248ab/island-1.1.1.tar.gz
+[2023-06-01 11:48:41] INFO root fetch - processPackages [agera5tools]: Downloading https://files.pythonhosted.org/packages/ac/0f/49fd8ac6e572b6d0bf3a365743ad415cf327bfad3b4bbdcd2b576cae2ae3/agera5tools-2.0.4.tar.gz
+[2023-06-01 11:48:41] INFO root fetch - processPackages [pamela]: Start processing: nico-font-tool
+[2023-06-01 11:48:41] INFO root fetch - main [MainThread]: End processing [pamela]: success
+[2023-06-01 11:48:41] INFO root fetch - processPackages [datagit]: Start processing: colablib
+[2023-06-01 11:48:41] INFO root fetch - main [MainThread]: End processing [datagit]: success
+[2023-06-01 11:48:41] INFO root fetch - processPackages [colablib]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-01 11:48:41] INFO root fetch - processPackages [nico-font-tool]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-01 11:48:41] INFO root fetch - processPackages [colablib]: executing diffoscope
+[2023-06-01 11:48:41] INFO root fetch - processPackages [colablib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colablib-0.1.0.tar.gz tmp/colablib-0.1.1.tar.gz --markdown 20230601/c/colablib/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-01 11:48:41] INFO root fetch - processPackages [agera5tools]: Downloading https://files.pythonhosted.org/packages/41/f4/d12314e5bc3b95e6ec20197f68d5ab4a0ba709d598792f3762cc72f84660/agera5tools-2.0.5.tar.gz
+[2023-06-01 11:48:41] INFO root fetch - processPackages [island]: Downloading https://files.pythonhosted.org/packages/bc/e6/f8743d24961cabaf156277e49669b7ed6d78201c6e8564977e8251cd4e2d/island-1.1.2.tar.gz
+[2023-06-01 11:48:41] INFO root fetch - processPackages [island]: Downloading https://files.pythonhosted.org/packages/bc/e6/f8743d24961cabaf156277e49669b7ed6d78201c6e8564977e8251cd4e2d/island-1.1.2.tar.gz
+[2023-06-01 11:48:42] INFO root fetch - processPackages [island]: executing diffoscope
+[2023-06-01 11:48:42] INFO root fetch - processPackages [island]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/island-1.1.1.tar.gz tmp/island-1.1.2.tar.gz --markdown 20230601/i/island/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-01 11:48:42] INFO root fetch - processPackages [island]: executing diffoscope
+[2023-06-01 11:48:42] INFO root fetch - processPackages [island]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/island-1.1.1.tar.gz tmp/island-1.1.2.tar.gz --markdown 20230601/i/island/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-01 11:48:42] INFO root fetch - processPackages [nico-font-tool]: Downloading https://files.pythonhosted.org/packages/46/9d/bfdd28124fb937368b02f6e625238854e05805e1ee494a5342ab676ee8fb/nico-font-tool-0.0.5.tar.gz
+[2023-06-01 11:48:42] INFO root fetch - main [MainThread]: End processing [eolymp]: success
+[2023-06-01 11:48:42] INFO root fetch - processPackages [nico-font-tool]: executing diffoscope
+[2023-06-01 11:48:42] INFO root fetch - processPackages [nico-font-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nico-font-tool-0.0.4.tar.gz tmp/nico-font-tool-0.0.5.tar.gz --markdown 20230601/n/nico-font-tool/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-01 11:48:42] INFO root fetch - main [MainThread]: End processing [prisma-pynext]: success
+[2023-06-01 11:48:42] INFO root fetch - processPackages [agera5tools]: executing diffoscope
+[2023-06-01 11:48:42] INFO root fetch - processPackages [agera5tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agera5tools-2.0.4.tar.gz tmp/agera5tools-2.0.5.tar.gz --markdown 20230601/a/agera5tools/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-01 11:48:42] INFO root fetch - main [MainThread]: End processing [hestia-earth-schema]: success
+[2023-06-01 11:48:43] INFO root fetch - main [MainThread]: End processing [colablib]: success
+[2023-06-01 11:48:43] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-06-01 11:48:43] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-06-01 11:48:43] INFO root fetch - main [MainThread]: End processing [island]: success
+[2023-06-01 11:48:43] INFO root fetch - main [MainThread]: End processing [island]: success
+[2023-06-01 11:48:43] INFO root fetch - main [MainThread]: End processing [nico-font-tool]: success
+[2023-06-01 11:48:45] INFO root fetch - main [MainThread]: End processing [agera5tools]: success
+[2023-06-01 11:48:45] INFO root fetch - main [MainThread]: Store serial: [18331234]
