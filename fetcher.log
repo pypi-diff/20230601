@@ -19294,3 +19294,134 @@
 [2023-06-01 15:31:33] INFO root fetch - main [MainThread]: End processing [django-lazycrud]: success
 [2023-06-01 15:31:34] INFO root fetch - main [MainThread]: End processing [pg-activity]: success
 [2023-06-01 15:31:34] INFO root fetch - main [MainThread]: Store serial: [18334140]
+[2023-06-01 15:36:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18334140]
+[2023-06-01 15:36:45] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-01 15:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: index-503
+[2023-06-01 15:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: renovosolutions.aws-cdk-renovo-s3-bucket
+[2023-06-01 15:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: github-actions-utils
+[2023-06-01 15:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-sms-global-digital
+[2023-06-01 15:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biaslyze
+[2023-06-01 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: savant-rs
+[2023-06-01 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flavio
+[2023-06-01 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: msapy
+[2023-06-01 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: streamdeckapi
+[2023-06-01 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spaceone-inventory
+[2023-06-01 15:36:46] WARNING root fetch - processPackages [odoo14-addon-sms-global-digital]: Skipping, unable to determine old version
+[2023-06-01 15:36:46] INFO root fetch - processPackages [odoo14-addon-sms-global-digital]: Start processing: Clone-ChatGPT
+[2023-06-01 15:36:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sms-global-digital] error
+[2023-06-01 15:36:46] INFO root fetch - processPackages [streamdeckapi]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-01 15:36:46] INFO root fetch - processPackages [msapy]: New version: [1.4] Old Version: [1.3]
+[2023-06-01 15:36:46] INFO root fetch - processPackages [biaslyze]: New version: [0.0.5a0] Old Version: [0.0.4a0]
+[2023-06-01 15:36:46] WARNING root fetch - processPackages [github-actions-utils]: Skipping, unable to determine old version
+[2023-06-01 15:36:46] INFO root fetch - processPackages [flavio]: New version: [2.5.5] Old Version: [2.5.4]
+[2023-06-01 15:36:46] INFO root fetch - processPackages [github-actions-utils]: Start processing: CosmoTech-Acceleration-Library
+[2023-06-01 15:36:46] INFO root fetch - main [MainThread]: End processing [github-actions-utils] error
+[2023-06-01 15:36:46] WARNING root fetch - processPackages [Clone-ChatGPT]: Skipping, unable to determine old version
+[2023-06-01 15:36:46] INFO root fetch - processPackages [index-503]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-06-01 15:36:46] INFO root fetch - processPackages [Clone-ChatGPT]: Start processing: pySMART
+[2023-06-01 15:36:46] INFO root fetch - main [MainThread]: End processing [Clone-ChatGPT] error
+[2023-06-01 15:36:46] INFO root fetch - processPackages [spaceone-inventory]: New version: [1.9.7rc1] Old Version: [1.9.7.3]
+[2023-06-01 15:36:46] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-01 15:36:46] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-01 15:36:46] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: New version: [2.2.99] Old Version: [2.2.98]
+[2023-06-01 15:36:46] INFO root fetch - processPackages [pySMART]: New version: [1.2.5.dev28] Old Version: [1.2.5.dev24]
+[2023-06-01 15:36:46] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2023-06-01 15:36:46] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip --markdown 20230601/s/spaceone-inventory/1.9.7.3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-01 15:36:46] INFO root fetch - processPackages [streamdeckapi]: Downloading https://files.pythonhosted.org/packages/91/a8/098fd2fb716c6406da9db5bcf4b3940a702a3f522d5daaa80b54322cd697/streamdeckapi-0.0.3.tar.gz
+[2023-06-01 15:36:46] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: executing diffoscope
+[2023-06-01 15:36:46] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-renovo-s3-bucket/2.2.98-2.2.99/diff.md --exclude *.pyd
+[2023-06-01 15:36:46] INFO root fetch - processPackages [biaslyze]: Downloading https://files.pythonhosted.org/packages/ff/b8/8b5b1694d18aaceb8e79aaf823e7110fb38a81ab14de558167fa2596e96d/biaslyze-0.0.4a0.tar.gz
+[2023-06-01 15:36:46] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-06-01 15:36:46] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230601/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 15:36:46] INFO root fetch - processPackages [flavio]: Downloading https://files.pythonhosted.org/packages/cc/c8/dae8fdd418287ed068353fa6dd0b218b69ca94a4ba9554f8281ee102b3f1/flavio-2.5.4.tar.gz
+[2023-06-01 15:36:46] INFO root fetch - processPackages [index-503]: Downloading https://files.pythonhosted.org/packages/cd/a3/c3ffaf21bbe290068d93018bc0a87ead2d68c548f615d7a06337cdd22293/index_503-0.2.0.tar.gz
+[2023-06-01 15:36:46] INFO root fetch - processPackages [msapy]: Downloading https://files.pythonhosted.org/packages/05/28/3eacb9646b36185cfa7bbfc221549741c21e25fb1f14c4ce8cbf193a270b/msapy-1.4.tar.gz
+[2023-06-01 15:36:46] INFO root fetch - processPackages [index-503]: executing diffoscope
+[2023-06-01 15:36:46] INFO root fetch - processPackages [index-503]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/index_503-0.1.8.tar.gz tmp/index_503-0.2.0.tar.gz --markdown 20230601/i/index-503/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-06-01 15:36:46] INFO root fetch - processPackages [msapy]: executing diffoscope
+[2023-06-01 15:36:46] INFO root fetch - processPackages [msapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msapy-1.3.tar.gz tmp/msapy-1.4.tar.gz --markdown 20230601/m/msapy/1.3-1.4/diff.md --exclude *.pyd
+[2023-06-01 15:36:46] INFO root fetch - processPackages [streamdeckapi]: Downloading https://files.pythonhosted.org/packages/0e/11/d629b26795ea451ef02369dceeeca86cdd9dd393e8682cf1f7c5b89fda5f/streamdeckapi-0.0.4.tar.gz
+[2023-06-01 15:36:46] INFO root fetch - processPackages [biaslyze]: Downloading https://files.pythonhosted.org/packages/cf/24/a9ee2cf4f7107b7869724a620c55f0f05a85787dbc1592a5a41f68152043/biaslyze-0.0.5a0.tar.gz
+[2023-06-01 15:36:46] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: executing diffoscope
+[2023-06-01 15:36:46] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CosmoTech_Acceleration_Library-0.2.8.tar.gz tmp/CosmoTech_Acceleration_Library-0.2.9.tar.gz --markdown 20230601/C/CosmoTech-Acceleration-Library/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-01 15:36:46] INFO root fetch - processPackages [streamdeckapi]: executing diffoscope
+[2023-06-01 15:36:46] INFO root fetch - processPackages [streamdeckapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamdeckapi-0.0.3.tar.gz tmp/streamdeckapi-0.0.4.tar.gz --markdown 20230601/s/streamdeckapi/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-01 15:36:46] INFO root fetch - processPackages [pySMART]: Downloading https://files.pythonhosted.org/packages/3f/a1/e9af3b876286d3ca12633763f224aab9edb514050897774c6dfad857504a/pySMART-1.2.5.dev28.tar.gz
+[2023-06-01 15:36:46] INFO root fetch - processPackages [biaslyze]: executing diffoscope
+[2023-06-01 15:36:46] INFO root fetch - processPackages [biaslyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biaslyze-0.0.4a0.tar.gz tmp/biaslyze-0.0.5a0.tar.gz --markdown 20230601/b/biaslyze/0.0.4a0-0.0.5a0/diff.md --exclude *.pyd
+[2023-06-01 15:36:46] INFO root fetch - processPackages [pySMART]: executing diffoscope
+[2023-06-01 15:36:46] INFO root fetch - processPackages [pySMART]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pySMART-1.2.5.dev24.tar.gz tmp/pySMART-1.2.5.dev28.tar.gz --markdown 20230601/p/pySMART/1.2.5.dev24-1.2.5.dev28/diff.md --exclude *.pyd
+[2023-06-01 15:36:46] INFO root fetch - processPackages [flavio]: Downloading https://files.pythonhosted.org/packages/8a/51/076398b6ccd46de3fbbc690b906873be602a7db858cd12462a6063a2315e/flavio-2.5.5.tar.gz
+[2023-06-01 15:36:47] INFO root fetch - processPackages [flavio]: executing diffoscope
+[2023-06-01 15:36:47] INFO root fetch - processPackages [flavio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flavio-2.5.4.tar.gz tmp/flavio-2.5.5.tar.gz --markdown 20230601/f/flavio/2.5.4-2.5.5/diff.md --exclude *.pyd
+[2023-06-01 15:36:47] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: Start processing: odoo-addon-website-sale-hide-price
+[2023-06-01 15:36:47] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-s3-bucket]: success
+[2023-06-01 15:36:47] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0]
+[2023-06-01 15:36:48] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: executing diffoscope
+[2023-06-01 15:36:48] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_hide_price-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_website_sale_hide_price-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230601/o/odoo-addon-website-sale-hide-price/16.0.1.1.0-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-06-01 15:36:48] INFO root fetch - processPackages [savant-rs]: Start processing: code-qa
+[2023-06-01 15:36:48] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-06-01 15:36:48] INFO root fetch - processPackages [index-503]: Start processing: assemblyline-service-client
+[2023-06-01 15:36:48] INFO root fetch - main [MainThread]: End processing [index-503]: success
+[2023-06-01 15:36:48] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-01 15:36:48] WARNING root fetch - processPackages [code-qa]: Skipping, unable to determine old version
+[2023-06-01 15:36:48] INFO root fetch - processPackages [code-qa]: Start processing: assemblyline-service-server
+[2023-06-01 15:36:48] INFO root fetch - main [MainThread]: End processing [code-qa] error
+[2023-06-01 15:36:48] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-01 15:36:48] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-06-01 15:36:48] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230601/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-01 15:36:48] INFO root fetch - processPackages [spaceone-inventory]: Start processing: assemblyline-ui
+[2023-06-01 15:36:48] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2023-06-01 15:36:48] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-06-01 15:36:48] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230601/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-01 15:36:48] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-01 15:36:48] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: Start processing: coiled
+[2023-06-01 15:36:48] INFO root fetch - main [MainThread]: End processing [CosmoTech-Acceleration-Library]: success
+[2023-06-01 15:36:48] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-06-01 15:36:48] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230601/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-01 15:36:48] INFO root fetch - processPackages [coiled]: New version: [0.6.9] Old Version: [0.6.8.dev9]
+[2023-06-01 15:36:48] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-01 15:36:48] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.8.dev9.tar.gz tmp/coiled-0.6.9.tar.gz --markdown 20230601/c/coiled/0.6.8.dev9-0.6.9/diff.md --exclude *.pyd
+[2023-06-01 15:36:49] INFO root fetch - processPackages [streamdeckapi]: Start processing: cloud-radar
+[2023-06-01 15:36:49] INFO root fetch - main [MainThread]: End processing [streamdeckapi]: success
+[2023-06-01 15:36:49] INFO root fetch - processPackages [biaslyze]: Start processing: assemblyline-v4-service
+[2023-06-01 15:36:49] INFO root fetch - main [MainThread]: End processing [biaslyze]: success
+[2023-06-01 15:36:49] INFO root fetch - processPackages [cloud-radar]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-01 15:36:49] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-01 15:36:49] INFO root fetch - processPackages [msapy]: Start processing: assemblyline
+[2023-06-01 15:36:49] INFO root fetch - main [MainThread]: End processing [msapy]: success
+[2023-06-01 15:36:49] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-01 15:36:49] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-06-01 15:36:49] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230601/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-01 15:36:49] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-06-01 15:36:49] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230601/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-01 15:36:49] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/2d/d3/f05450adbb07ad54f1f083079fa45808f358954063d32757bc4d2948081c/cloud_radar-0.7.0.tar.gz
+[2023-06-01 15:36:49] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/36/2d/d0ab2a20328fc3d9e49ebe2c7eccc1b2d40b7af87881c6a9ce086d207594/cloud_radar-0.7.1.tar.gz
+[2023-06-01 15:36:49] INFO root fetch - processPackages [cloud-radar]: executing diffoscope
+[2023-06-01 15:36:49] INFO root fetch - processPackages [cloud-radar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_radar-0.7.0.tar.gz tmp/cloud_radar-0.7.1.tar.gz --markdown 20230601/c/cloud-radar/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-01 15:36:50] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Start processing: keypact
+[2023-06-01 15:36:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-hide-price]: success
+[2023-06-01 15:36:50] INFO root fetch - processPackages [keypact]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-01 15:36:50] INFO root fetch - processPackages [keypact]: executing diffoscope
+[2023-06-01 15:36:50] INFO root fetch - processPackages [keypact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keypact-0.7.0.tar.gz tmp/keypact-0.8.0.tar.gz --markdown 20230601/k/keypact/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-01 15:36:50] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: assemblyline-core
+[2023-06-01 15:36:50] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-06-01 15:36:50] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-01 15:36:50] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-06-01 15:36:50] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230601/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-01 15:36:51] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: insightconnect-integrations-validators
+[2023-06-01 15:36:51] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-06-01 15:36:51] INFO root fetch - processPackages [insightconnect-integrations-validators]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-06-01 15:36:51] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-06-01 15:36:51] INFO root fetch - processPackages [insightconnect-integrations-validators]: executing diffoscope
+[2023-06-01 15:36:51] INFO root fetch - processPackages [insightconnect-integrations-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insightconnect_integrations_validators-2.8.1.tar.gz tmp/insightconnect_integrations_validators-2.9.0.tar.gz --markdown 20230601/i/insightconnect-integrations-validators/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-06-01 15:36:51] INFO root fetch - main [MainThread]: End processing [cloud-radar]: success
+[2023-06-01 15:36:52] INFO root fetch - main [MainThread]: End processing [keypact]: success
+[2023-06-01 15:36:52] INFO root fetch - main [MainThread]: End processing [flavio]: success
+[2023-06-01 15:36:52] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-06-01 15:36:52] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-01 15:36:52] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-06-01 15:36:52] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-06-01 15:36:53] INFO root fetch - main [MainThread]: End processing [insightconnect-integrations-validators]: success
+[2023-06-01 15:36:53] INFO root fetch - main [MainThread]: End processing [pySMART]: success
+[2023-06-01 15:36:53] INFO root fetch - main [MainThread]: Store serial: [18334232]
