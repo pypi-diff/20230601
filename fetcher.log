@@ -9262,3 +9262,21 @@
 [2023-06-01 05:59:10] INFO root fetch - main [MainThread]: End processing [computing-toolbox]: success
 [2023-06-01 05:59:10] INFO root fetch - main [MainThread]: End processing [pysailfish]: success
 [2023-06-01 05:59:10] INFO root fetch - main [MainThread]: Store serial: [18328043]
+[2023-06-01 06:04:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18328043]
+[2023-06-01 06:04:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-01 06:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yt-fts
+[2023-06-01 06:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quao
+[2023-06-01 06:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: VidBarcodeSimilarities
+[2023-06-01 06:04:19] INFO root fetch - processPackages [VidBarcodeSimilarities]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 06:04:19] INFO root fetch - processPackages [yt-fts]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 06:04:19] INFO root fetch - processPackages [quao]: New version: [0.1.9] Old Version: [0.1.8a1]
+[2023-06-01 06:04:19] INFO root fetch - processPackages [VidBarcodeSimilarities]: executing diffoscope
+[2023-06-01 06:04:19] INFO root fetch - processPackages [VidBarcodeSimilarities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VidBarcodeSimilarities-0.0.1.tar.gz tmp/VidBarcodeSimilarities-0.0.2.tar.gz --markdown 20230601/V/VidBarcodeSimilarities/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 06:04:19] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-06-01 06:04:19] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.1.8a1.tar.gz tmp/quao-0.1.9.tar.gz --markdown 20230601/q/quao/0.1.8a1-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 06:04:20] INFO root fetch - processPackages [yt-fts]: executing diffoscope
+[2023-06-01 06:04:20] INFO root fetch - processPackages [yt-fts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt-fts-0.1.8.tar.gz tmp/yt-fts-0.1.9.tar.gz --markdown 20230601/y/yt-fts/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 06:04:20] INFO root fetch - main [MainThread]: End processing [VidBarcodeSimilarities]: success
+[2023-06-01 06:04:21] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-06-01 06:04:21] INFO root fetch - main [MainThread]: End processing [yt-fts]: success
+[2023-06-01 06:04:21] INFO root fetch - main [MainThread]: Store serial: [18328052]
