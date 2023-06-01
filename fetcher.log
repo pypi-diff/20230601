@@ -16718,3 +16718,61 @@
 [2023-06-01 13:34:07] INFO root fetch - main [MainThread]: End processing [xt-st-common]: success
 [2023-06-01 13:34:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-hide-price]: success
 [2023-06-01 13:34:55] INFO root fetch - main [MainThread]: Store serial: [18332248]
+[2023-06-01 13:40:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18332248]
+[2023-06-01 13:40:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-01 13:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: octopus-sensing
+[2023-06-01 13:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lamindb_setup
+[2023-06-01 13:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zippy-form
+[2023-06-01 13:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: npu-compiler
+[2023-06-01 13:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robusta-cli
+[2023-06-01 13:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: java-access-bridge-wrapper
+[2023-06-01 13:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sysml2py
+[2023-06-01 13:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: midi-clip
+[2023-06-01 13:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shaperone
+[2023-06-01 13:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: otx
+[2023-06-01 13:40:05] INFO root fetch - processPackages [java-access-bridge-wrapper]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-01 13:40:05] INFO root fetch - processPackages [midi-clip]: New version: [0.6] Old Version: [0.5]
+[2023-06-01 13:40:05] INFO root fetch - processPackages [sysml2py]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-06-01 13:40:05] WARNING root fetch - processPackages [lamindb_setup]: Skipping, unable to determine old version
+[2023-06-01 13:40:05] INFO root fetch - main [MainThread]: End processing [lamindb_setup] error
+[2023-06-01 13:40:05] INFO root fetch - processPackages [octopus-sensing]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-06-01 13:40:05] INFO root fetch - processPackages [otx]: New version: [1.3.1rc1] Old Version: [1.3.0rc1]
+[2023-06-01 13:40:05] INFO root fetch - processPackages [shaperone]: New version: [0.41.6] Old Version: [0.41.5]
+[2023-06-01 13:40:05] WARNING root fetch - processPackages [zippy-form]: Skipping, unable to determine old version
+[2023-06-01 13:40:05] INFO root fetch - main [MainThread]: End processing [zippy-form] error
+[2023-06-01 13:40:05] INFO root fetch - processPackages [robusta-cli]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-06-01 13:40:05] INFO root fetch - processPackages [npu-compiler]: New version: [1.5.9rc0] Old Version: [1.5.9a2]
+[2023-06-01 13:40:05] INFO root fetch - processPackages [otx]: executing diffoscope
+[2023-06-01 13:40:05] INFO root fetch - processPackages [otx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otx-1.3.0rc1.tar.gz tmp/otx-1.3.1rc1.tar.gz --markdown 20230601/o/otx/1.3.0rc1-1.3.1rc1/diff.md --exclude *.pyd
+[2023-06-01 13:40:05] INFO root fetch - processPackages [robusta-cli]: executing diffoscope
+[2023-06-01 13:40:05] INFO root fetch - processPackages [robusta-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta-cli-0.9.7.tar.gz tmp/robusta-cli-0.9.9.tar.gz --markdown 20230601/r/robusta-cli/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-06-01 13:40:05] INFO root fetch - processPackages [midi-clip]: Downloading https://files.pythonhosted.org/packages/a7/79/8dc4e868a6f3cf8d2f7806d8cf0ba7bc3121ca3c54383de50c6fe4871949/midi-clip-0.5.tar.gz
+[2023-06-01 13:40:05] INFO root fetch - processPackages [java-access-bridge-wrapper]: Downloading https://files.pythonhosted.org/packages/8f/33/2cdd3b65e0794aec317459cc1b84b29be7a3900a375f5e7fadfadece9f3e/java-access-bridge-wrapper-0.9.6.tar.gz
+[2023-06-01 13:40:05] INFO root fetch - processPackages [npu-compiler]: Downloading https://files.pythonhosted.org/packages/a0/d2/1e7fe9b9189d179f0ba7d5cb12d1feba27e5a38c5569a05350ecb514b067/npu_compiler-1.5.9a2-cp37-cp37m-manylinux_2_5_x86_64.whl
+[2023-06-01 13:40:05] INFO root fetch - processPackages [sysml2py]: Downloading https://files.pythonhosted.org/packages/7e/c7/a3c1e2f51e2f5011234b2eb150f1d668f74bbe8b502d4a6f5047ab40b259/sysml2py-0.0.3.tar.gz
+[2023-06-01 13:40:05] INFO root fetch - processPackages [octopus-sensing]: Downloading https://files.pythonhosted.org/packages/4d/e2/06e5821e6dfcbe217e77de5753bfad6107e8c1742dc0680c301590a2d190/octopus-sensing-4.0.1.tar.gz
+[2023-06-01 13:40:05] WARNING root fetch - processPackages [npu-compiler]: Skipping package: exceeds size limit 33798388>=10485760
+[2023-06-01 13:40:05] INFO root fetch - main [MainThread]: End processing [npu-compiler] error
+[2023-06-01 13:40:05] INFO root fetch - processPackages [shaperone]: Downloading https://files.pythonhosted.org/packages/c3/86/51582b48b30c4dd0dc81cc204907e4944ec62ad23597213948f9b66d3f99/shaperone-0.41.6.tar.gz
+[2023-06-01 13:40:05] INFO root fetch - processPackages [midi-clip]: Downloading https://files.pythonhosted.org/packages/84/e9/f478ba2216d18e913073b29bcb51b42e9735ace1ff8aabedf0954076ba40/midi-clip-0.6.tar.gz
+[2023-06-01 13:40:05] INFO root fetch - processPackages [midi-clip]: executing diffoscope
+[2023-06-01 13:40:05] INFO root fetch - processPackages [midi-clip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midi-clip-0.5.tar.gz tmp/midi-clip-0.6.tar.gz --markdown 20230601/m/midi-clip/0.5-0.6/diff.md --exclude *.pyd
+[2023-06-01 13:40:05] INFO root fetch - processPackages [shaperone]: executing diffoscope
+[2023-06-01 13:40:05] INFO root fetch - processPackages [shaperone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaperone-0.41.5.tar.gz tmp/shaperone-0.41.6.tar.gz --markdown 20230601/s/shaperone/0.41.5-0.41.6/diff.md --exclude *.pyd
+[2023-06-01 13:40:05] INFO root fetch - processPackages [java-access-bridge-wrapper]: Downloading https://files.pythonhosted.org/packages/a6/12/d261da43befaa85b16efd2921f32d9e770dfa2ef16a5ea159757ddee0741/java-access-bridge-wrapper-0.9.7.tar.gz
+[2023-06-01 13:40:05] INFO root fetch - processPackages [sysml2py]: Downloading https://files.pythonhosted.org/packages/7a/25/fce549b9b33f9a98df0fb064f6fa1f0072e315099e334fb537b357e0bede/sysml2py-0.1.0.tar.gz
+[2023-06-01 13:40:05] INFO root fetch - processPackages [octopus-sensing]: Downloading https://files.pythonhosted.org/packages/ec/0a/c9302a646e922cef1a275d61b4bca3fa44fa639a9e4fa86ef13201d99939/octopus-sensing-4.0.2.tar.gz
+[2023-06-01 13:40:05] INFO root fetch - processPackages [sysml2py]: executing diffoscope
+[2023-06-01 13:40:05] INFO root fetch - processPackages [sysml2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysml2py-0.0.3.tar.gz tmp/sysml2py-0.1.0.tar.gz --markdown 20230601/s/sysml2py/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-06-01 13:40:05] INFO root fetch - processPackages [octopus-sensing]: executing diffoscope
+[2023-06-01 13:40:05] INFO root fetch - processPackages [octopus-sensing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octopus-sensing-4.0.1.tar.gz tmp/octopus-sensing-4.0.2.tar.gz --markdown 20230601/o/octopus-sensing/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-06-01 13:40:06] INFO root fetch - processPackages [java-access-bridge-wrapper]: executing diffoscope
+[2023-06-01 13:40:06] INFO root fetch - processPackages [java-access-bridge-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/java-access-bridge-wrapper-0.9.6.tar.gz tmp/java-access-bridge-wrapper-0.9.7.tar.gz --markdown 20230601/j/java-access-bridge-wrapper/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-01 13:40:06] INFO root fetch - main [MainThread]: End processing [midi-clip]: success
+[2023-06-01 13:40:07] INFO root fetch - main [MainThread]: End processing [sysml2py]: success
+[2023-06-01 13:40:07] INFO root fetch - main [MainThread]: End processing [java-access-bridge-wrapper]: success
+[2023-06-01 13:40:07] INFO root fetch - main [MainThread]: End processing [octopus-sensing]: success
+[2023-06-01 13:40:07] INFO root fetch - main [MainThread]: End processing [shaperone]: success
+[2023-06-01 13:40:09] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
+[2023-06-01 13:40:42] INFO root fetch - main [MainThread]: End processing [otx]: success
+[2023-06-01 13:40:42] INFO root fetch - main [MainThread]: Store serial: [18332306]
