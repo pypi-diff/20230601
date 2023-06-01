@@ -11108,3 +11108,63 @@
 [2023-06-01 08:49:47] INFO root fetch - main [MainThread]: End processing [asyncmy]: success
 [2023-06-01 08:49:50] INFO root fetch - main [MainThread]: End processing [deepsearch-toolkit]: success
 [2023-06-01 08:49:50] INFO root fetch - main [MainThread]: Store serial: [18329100]
+[2023-06-01 08:54:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18329100]
+[2023-06-01 08:54:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-01 08:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-rql
+[2023-06-01 08:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SRI-dictionary-mt
+[2023-06-01 08:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: connect-cli
+[2023-06-01 08:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-ipghrms-contract
+[2023-06-01 08:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yapsygui
+[2023-06-01 08:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-cqrs
+[2023-06-01 08:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-majsoul
+[2023-06-01 08:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jax-tools
+[2023-06-01 08:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: themeparks
+[2023-06-01 08:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: recipe
+[2023-06-01 08:54:59] INFO root fetch - processPackages [django-rql]: New version: [4.4.0] Old Version: [4.3.0]
+[2023-06-01 08:54:59] INFO root fetch - processPackages [connect-cli]: New version: [27.6] Old Version: [27.5]
+[2023-06-01 08:54:59] INFO root fetch - processPackages [django-cqrs]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-06-01 08:54:59] WARNING root fetch - processPackages [SRI-dictionary-mt]: Skipping, unable to determine old version
+[2023-06-01 08:54:59] INFO root fetch - main [MainThread]: End processing [SRI-dictionary-mt] error
+[2023-06-01 08:54:59] INFO root fetch - processPackages [nonebot-plugin-majsoul]: New version: [0.2.0.post4] Old Version: [0.2.0.post3]
+[2023-06-01 08:54:59] INFO root fetch - processPackages [jax-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 08:54:59] INFO root fetch - processPackages [yapsygui]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-01 08:54:59] INFO root fetch - processPackages [django-ipghrms-contract]: New version: [1.5] Old Version: [1.4]
+[2023-06-01 08:54:59] WARNING root fetch - processPackages [themeparks]: Skipping, unable to determine old version
+[2023-06-01 08:54:59] INFO root fetch - main [MainThread]: End processing [themeparks] error
+[2023-06-01 08:54:59] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2023-06-01 08:54:59] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.8.tar.gz tmp/jax-tools-1.0.9.tar.gz --markdown 20230601/j/jax-tools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 08:54:59] INFO root fetch - processPackages [django-ipghrms-contract]: Downloading https://files.pythonhosted.org/packages/9b/a7/84bd2a9876b47bfb821bb4521058e6cbf6738712afa79bdc86cfb747fd24/django-ipghrms-contract-1.4.tar.gz
+[2023-06-01 08:54:59] INFO root fetch - processPackages [django-rql]: Downloading https://files.pythonhosted.org/packages/62/88/c54a166d41bca5be5ce883d556a091a4831b7dcdb092cf3cc18ce7eb2b27/django_rql-4.3.0.tar.gz
+[2023-06-01 08:54:59] INFO root fetch - processPackages [recipe]: New version: [0.9.0] Old Version: [0.8.0rc1]
+[2023-06-01 08:54:59] INFO root fetch - processPackages [yapsygui]: Downloading https://files.pythonhosted.org/packages/64/67/4ae4df4f487a3bae91ef127585ac6896289321a736889437ff4506993daf/yapsygui-1.0.3-py3-none-any.whl
+[2023-06-01 08:54:59] INFO root fetch - processPackages [django-cqrs]: Downloading https://files.pythonhosted.org/packages/f1/0e/982f95ac486ceb11865ec6802eb1c16565c1957314db4636446035309cff/django_cqrs-2.5.0.tar.gz
+[2023-06-01 08:54:59] INFO root fetch - processPackages [nonebot-plugin-majsoul]: Downloading https://files.pythonhosted.org/packages/8f/b5/abd994689a49fe3af2fb015267bad88839c25a750013e4641a16c506c5eb/nonebot_plugin_majsoul-0.2.0.post4.tar.gz
+[2023-06-01 08:54:59] INFO root fetch - processPackages [yapsygui]: executing diffoscope
+[2023-06-01 08:54:59] INFO root fetch - processPackages [yapsygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yapsygui-1.0.2-py3-none-any.whl.zip tmp/yapsygui-1.0.3-py3-none-any.whl.zip --markdown 20230601/y/yapsygui/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-01 08:54:59] INFO root fetch - processPackages [connect-cli]: Downloading https://files.pythonhosted.org/packages/ac/1f/31b38d01640afedfd2743744d95b656fbdfa74ef6b2ba78d5d948d00fd69/connect_cli-27.6.tar.gz
+[2023-06-01 08:54:59] INFO root fetch - processPackages [nonebot-plugin-majsoul]: executing diffoscope
+[2023-06-01 08:54:59] INFO root fetch - processPackages [nonebot-plugin-majsoul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_majsoul-0.2.0.post3.tar.gz tmp/nonebot_plugin_majsoul-0.2.0.post4.tar.gz --markdown 20230601/n/nonebot-plugin-majsoul/0.2.0.post3-0.2.0.post4/diff.md --exclude *.pyd
+[2023-06-01 08:55:00] INFO root fetch - processPackages [recipe]: Downloading https://files.pythonhosted.org/packages/ce/15/8c74f6750282094cbabd958b7f2234a420ac7c3017e51bbcfc287946f16a/recipe-0.8.0rc1.tar.gz
+[2023-06-01 08:55:00] INFO root fetch - processPackages [django-cqrs]: Downloading https://files.pythonhosted.org/packages/e9/ae/7d43fd03fa445c2cc313736700dc5e4d5770db94aacab0e8bc87991eaeb1/django_cqrs-2.6.0.tar.gz
+[2023-06-01 08:55:00] INFO root fetch - processPackages [connect-cli]: executing diffoscope
+[2023-06-01 08:55:00] INFO root fetch - processPackages [connect-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect_cli-27.5.tar.gz tmp/connect_cli-27.6.tar.gz --markdown 20230601/c/connect-cli/27.5-27.6/diff.md --exclude *.pyd
+[2023-06-01 08:55:00] INFO root fetch - processPackages [django-ipghrms-contract]: Downloading https://files.pythonhosted.org/packages/f6/94/695db5cc5b1df53ef2bd7e5ddea7ef219a38d4674cd231b7ea7410054d1e/django-ipghrms-contract-1.5.tar.gz
+[2023-06-01 08:55:00] INFO root fetch - processPackages [django-rql]: Downloading https://files.pythonhosted.org/packages/c7/84/914c73100cd34071fd81a109ebafef37272d8db1b39495f48b8020b0dc5a/django_rql-4.4.0.tar.gz
+[2023-06-01 08:55:00] INFO root fetch - processPackages [django-cqrs]: executing diffoscope
+[2023-06-01 08:55:00] INFO root fetch - processPackages [django-cqrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cqrs-2.5.0.tar.gz tmp/django_cqrs-2.6.0.tar.gz --markdown 20230601/d/django-cqrs/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-06-01 08:55:00] INFO root fetch - processPackages [django-rql]: executing diffoscope
+[2023-06-01 08:55:00] INFO root fetch - processPackages [django-rql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_rql-4.3.0.tar.gz tmp/django_rql-4.4.0.tar.gz --markdown 20230601/d/django-rql/4.3.0-4.4.0/diff.md --exclude *.pyd
+[2023-06-01 08:55:00] INFO root fetch - processPackages [django-ipghrms-contract]: executing diffoscope
+[2023-06-01 08:55:00] INFO root fetch - processPackages [django-ipghrms-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-contract-1.4.tar.gz tmp/django-ipghrms-contract-1.5.tar.gz --markdown 20230601/d/django-ipghrms-contract/1.4-1.5/diff.md --exclude *.pyd
+[2023-06-01 08:55:00] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2023-06-01 08:55:01] INFO root fetch - main [MainThread]: End processing [yapsygui]: success
+[2023-06-01 08:55:01] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-majsoul]: success
+[2023-06-01 08:55:01] INFO root fetch - processPackages [recipe]: Downloading https://files.pythonhosted.org/packages/70/76/e165fbbd4c4a88310fc0fad5f0313f35d02956694cdeee97d1a392e638ab/recipe-0.9.0.tar.gz
+[2023-06-01 08:55:01] INFO root fetch - main [MainThread]: End processing [django-cqrs]: success
+[2023-06-01 08:55:01] INFO root fetch - main [MainThread]: End processing [django-rql]: success
+[2023-06-01 08:55:02] INFO root fetch - main [MainThread]: End processing [django-ipghrms-contract]: success
+[2023-06-01 08:55:02] INFO root fetch - main [MainThread]: End processing [connect-cli]: success
+[2023-06-01 08:55:03] INFO root fetch - processPackages [recipe]: executing diffoscope
+[2023-06-01 08:55:03] INFO root fetch - processPackages [recipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recipe-0.8.0rc1.tar.gz tmp/recipe-0.9.0.tar.gz --markdown 20230601/r/recipe/0.8.0rc1-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 08:55:12] INFO root fetch - main [MainThread]: End processing [recipe]: success
+[2023-06-01 08:55:12] INFO root fetch - main [MainThread]: Store serial: [18329131]
