@@ -12631,3 +12631,157 @@
 [2023-06-01 10:37:19] INFO root fetch - main [MainThread]: End processing [bomf]: success
 [2023-06-01 10:37:23] INFO root fetch - main [MainThread]: End processing [ubiops]: success
 [2023-06-01 10:37:23] INFO root fetch - main [MainThread]: Store serial: [18329980]
+[2023-06-01 10:42:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18329980]
+[2023-06-01 10:42:32] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-06-01 10:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Baozun-Winrobot
+[2023-06-01 10:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spotON_sdk
+[2023-06-01 10:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Owlready2
+[2023-06-01 10:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pandasflow
+[2023-06-01 10:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-estimator-nightly
+[2023-06-01 10:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amhelpers
+[2023-06-01 10:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robotframework-jsonquery
+[2023-06-01 10:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-naturel-gpt
+[2023-06-01 10:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: m9s-nereid
+[2023-06-01 10:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sackeylib
+[2023-06-01 10:42:32] WARNING root fetch - processPackages [Baozun-Winrobot]: Skipping, unable to determine old version
+[2023-06-01 10:42:32] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.5.19] Old Version: [0.0.5.18]
+[2023-06-01 10:42:32] INFO root fetch - processPackages [Baozun-Winrobot]: Start processing: baklabel
+[2023-06-01 10:42:32] INFO root fetch - main [MainThread]: End processing [Baozun-Winrobot] error
+[2023-06-01 10:42:32] INFO root fetch - processPackages [Owlready2]: New version: [0.9] Old Version: [0.8]
+[2023-06-01 10:42:32] INFO root fetch - processPackages [amhelpers]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-01 10:42:32] INFO root fetch - processPackages [pandasflow]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-06-01 10:42:32] INFO root fetch - processPackages [robotframework-jsonquery]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-01 10:42:32] INFO root fetch - processPackages [m9s-nereid]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-06-01 10:42:32] INFO root fetch - processPackages [sackeylib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 10:42:32] INFO root fetch - processPackages [nonebot-plugin-naturel-gpt]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-06-01 10:42:32] INFO root fetch - processPackages [baklabel]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-01 10:42:32] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-06-01 10:42:33] INFO root fetch - processPackages [amhelpers]: Downloading https://files.pythonhosted.org/packages/f1/aa/a93ac06e9866371475eeaf1044fe877b0fde522dae4495051a3f21e5f623/amhelpers-0.2.4.tar.gz
+[2023-06-01 10:42:33] INFO root fetch - processPackages [Owlready2]: Downloading https://files.pythonhosted.org/packages/2b/b2/2404c5c9411bed82b96c2ad54c1112105f31e26c0db40f181c77ef4739c2/Owlready2-0.8.tar.gz
+[2023-06-01 10:42:33] INFO root fetch - processPackages [sackeylib]: Downloading https://files.pythonhosted.org/packages/b3/db/83c491c8837619fcd0eaf97b0c4334cb053d48e626bdc0da57fd395d47bc/sackeylib-0.0.8.tar.gz
+[2023-06-01 10:42:33] INFO root fetch - processPackages [pandasflow]: Downloading https://files.pythonhosted.org/packages/95/2a/59311f21a9ee5c51210e1860f8559dab5d9843a001d00b5003359f2dfca6/pandasflow-0.5.7.tar.gz
+[2023-06-01 10:42:33] INFO root fetch - processPackages [m9s-nereid]: Downloading https://files.pythonhosted.org/packages/44/50/8464fcb87826804c4743be1cb09e094136e0430d35a258b8da180b063690/m9s_nereid-6.0.8.tar.gz
+[2023-06-01 10:42:33] INFO root fetch - processPackages [nonebot-plugin-naturel-gpt]: Downloading https://files.pythonhosted.org/packages/89/54/66c22f88b67f316c4614fe426ecdf14682f7f9dc1e10ddaedf2dbd059ae8/nonebot_plugin_naturel_gpt-2.1.7.tar.gz
+[2023-06-01 10:42:33] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-06-01 10:42:33] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230601/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-06-01 10:42:33] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/f2/03/5a642deba3f2128e71aab1d067e2df6a2d26e0a172a2864312efdf3fb87d/spotON_sdk-0.0.5.19.tar.gz
+[2023-06-01 10:42:33] INFO root fetch - processPackages [robotframework-jsonquery]: Downloading https://files.pythonhosted.org/packages/f6/07/54b42219589646c3451031558833f799181278225475a062c3650ec071d7/robotframework_jsonquery-1.0.2.tar.gz
+[2023-06-01 10:42:33] INFO root fetch - processPackages [pandasflow]: executing diffoscope
+[2023-06-01 10:42:33] INFO root fetch - processPackages [pandasflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasflow-0.5.6.tar.gz tmp/pandasflow-0.5.7.tar.gz --markdown 20230601/p/pandasflow/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-06-01 10:42:33] INFO root fetch - processPackages [nonebot-plugin-naturel-gpt]: executing diffoscope
+[2023-06-01 10:42:33] INFO root fetch - processPackages [nonebot-plugin-naturel-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_naturel_gpt-2.1.6.tar.gz tmp/nonebot_plugin_naturel_gpt-2.1.7.tar.gz --markdown 20230601/n/nonebot-plugin-naturel-gpt/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-06-01 10:42:33] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-06-01 10:42:33] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.5.18.tar.gz tmp/spotON_sdk-0.0.5.19.tar.gz --markdown 20230601/s/spotON_sdk/0.0.5.18-0.0.5.19/diff.md --exclude *.pyd
+[2023-06-01 10:42:33] INFO root fetch - processPackages [robotframework-jsonquery]: executing diffoscope
+[2023-06-01 10:42:33] INFO root fetch - processPackages [robotframework-jsonquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_jsonquery-1.0.1.tar.gz tmp/robotframework_jsonquery-1.0.2.tar.gz --markdown 20230601/r/robotframework-jsonquery/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-01 10:42:33] INFO root fetch - processPackages [baklabel]: Downloading https://files.pythonhosted.org/packages/c0/ff/2a38e3e55cc553ebb4f024f0618fbb0ba80500c9fcbf443ab2a9a2610324/baklabel-1.2.3.tar.gz
+[2023-06-01 10:42:33] INFO root fetch - processPackages [baklabel]: executing diffoscope
+[2023-06-01 10:42:33] INFO root fetch - processPackages [baklabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baklabel-1.2.2.tar.gz tmp/baklabel-1.2.3.tar.gz --markdown 20230601/b/baklabel/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-01 10:42:33] INFO root fetch - processPackages [m9s-nereid]: Downloading https://files.pythonhosted.org/packages/3b/be/6d0df15ce91038723a754d65e7bac298741d1544e722747250126e88a7a9/m9s_nereid-6.0.9.tar.gz
+[2023-06-01 10:42:33] INFO root fetch - processPackages [amhelpers]: Downloading https://files.pythonhosted.org/packages/50/96/f64805b8c30176d07c84097bfcc7aad3a9b0e3a9f56047ce1b18a5891d3b/amhelpers-0.2.5.tar.gz
+[2023-06-01 10:42:33] INFO root fetch - processPackages [sackeylib]: Downloading https://files.pythonhosted.org/packages/36/69/e3d0dc04b032e6601f3a97d05f7d7002cfe2ac0b3774f9afdbf5bbb5b569/sackeylib-0.0.9.tar.gz
+[2023-06-01 10:42:33] INFO root fetch - processPackages [amhelpers]: executing diffoscope
+[2023-06-01 10:42:33] INFO root fetch - processPackages [amhelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amhelpers-0.2.4.tar.gz tmp/amhelpers-0.2.5.tar.gz --markdown 20230601/a/amhelpers/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-01 10:42:33] INFO root fetch - processPackages [m9s-nereid]: executing diffoscope
+[2023-06-01 10:42:33] INFO root fetch - processPackages [m9s-nereid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m9s_nereid-6.0.8.tar.gz tmp/m9s_nereid-6.0.9.tar.gz --markdown 20230601/m/m9s-nereid/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-06-01 10:42:33] INFO root fetch - processPackages [Owlready2]: Downloading https://files.pythonhosted.org/packages/f4/de/6ce537d6da10f48e9fe8b37cbd403961767e87e0e48ad5ef94346d359c98/Owlready2-0.9.tar.gz
+[2023-06-01 10:42:33] INFO root fetch - processPackages [sackeylib]: executing diffoscope
+[2023-06-01 10:42:33] INFO root fetch - processPackages [sackeylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sackeylib-0.0.8.tar.gz tmp/sackeylib-0.0.9.tar.gz --markdown 20230601/s/sackeylib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 10:42:33] INFO root fetch - processPackages [Owlready2]: executing diffoscope
+[2023-06-01 10:42:33] INFO root fetch - processPackages [Owlready2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Owlready2-0.8.tar.gz tmp/Owlready2-0.9.tar.gz --markdown 20230601/O/Owlready2/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-01 10:42:34] INFO root fetch - processPackages [pandasflow]: Start processing: lalsuite
+[2023-06-01 10:42:34] INFO root fetch - main [MainThread]: End processing [pandasflow]: success
+[2023-06-01 10:42:34] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-06-01 10:42:35] INFO root fetch - processPackages [nonebot-plugin-naturel-gpt]: Start processing: cassio
+[2023-06-01 10:42:35] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-naturel-gpt]: success
+[2023-06-01 10:42:35] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-01 10:42:35] INFO root fetch - processPackages [cassio]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 10:42:35] INFO root fetch - processPackages [robotframework-jsonquery]: Start processing: django-pfx
+[2023-06-01 10:42:35] INFO root fetch - main [MainThread]: End processing [robotframework-jsonquery]: success
+[2023-06-01 10:42:35] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-06-01 10:42:35] INFO root fetch - processPackages [lalsuite]: Start processing: prisma-pynext
+[2023-06-01 10:42:35] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-06-01 10:42:35] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev6]
+[2023-06-01 10:42:35] INFO root fetch - processPackages [prisma-pynext]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-06-01 10:42:35] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-06-01 10:42:35] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev6.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230601/d/django-pfx/1.2.dev6-1.2.dev8/diff.md --exclude *.pyd
+[2023-06-01 10:42:35] INFO root fetch - processPackages [spotON_sdk]: Start processing: forestadmin-datasource-toolkit
+[2023-06-01 10:42:35] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-06-01 10:42:35] INFO root fetch - processPackages [cassio]: Downloading https://files.pythonhosted.org/packages/f4/4f/d9c9a92b25dca2a348488e1f6564f96199b036d108aaa7fa21ea979a82de/cassio-0.0.1.tar.gz
+[2023-06-01 10:42:35] INFO root fetch - processPackages [prisma-pynext]: executing diffoscope
+[2023-06-01 10:42:35] INFO root fetch - processPackages [prisma-pynext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prisma_pynext-0.8.6.tar.gz tmp/prisma_pynext-0.8.7.tar.gz --markdown 20230601/p/prisma-pynext/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-06-01 10:42:35] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-01 10:42:35] INFO root fetch - processPackages [amhelpers]: Start processing: streamlit-kpi
+[2023-06-01 10:42:35] INFO root fetch - main [MainThread]: End processing [amhelpers]: success
+[2023-06-01 10:42:35] INFO root fetch - processPackages [cassio]: Downloading https://files.pythonhosted.org/packages/0f/86/ab2b8c3c58243019fde794e574043f1d80c760b8fb4a9bfa3a4e1ab5120f/cassio-0.0.2.tar.gz
+[2023-06-01 10:42:35] INFO root fetch - processPackages [tf-estimator-nightly]: Start processing: bdating-common
+[2023-06-01 10:42:35] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-06-01 10:42:35] INFO root fetch - processPackages [streamlit-kpi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 10:42:35] INFO root fetch - processPackages [bdating-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-01 10:42:35] INFO root fetch - processPackages [cassio]: executing diffoscope
+[2023-06-01 10:42:35] INFO root fetch - processPackages [cassio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cassio-0.0.1.tar.gz tmp/cassio-0.0.2.tar.gz --markdown 20230601/c/cassio/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 10:42:35] INFO root fetch - processPackages [baklabel]: Start processing: inference-client
+[2023-06-01 10:42:35] INFO root fetch - main [MainThread]: End processing [baklabel]: success
+[2023-06-01 10:42:35] INFO root fetch - processPackages [sackeylib]: Start processing: sackeylib
+[2023-06-01 10:42:35] INFO root fetch - main [MainThread]: End processing [sackeylib]: success
+[2023-06-01 10:42:35] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: executing diffoscope
+[2023-06-01 10:42:35] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_toolkit-0.1.0b8.tar.gz tmp/forestadmin_datasource_toolkit-0.1.0b9.tar.gz --markdown 20230601/f/forestadmin-datasource-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-01 10:42:35] INFO root fetch - processPackages [sackeylib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 10:42:35] INFO root fetch - processPackages [streamlit-kpi]: Downloading https://files.pythonhosted.org/packages/c8/18/52ff1297e8da4140fc5debb6a94ea35d94aeddff2f5ba94687504a0c1829/streamlit-kpi-0.0.8.tar.gz
+[2023-06-01 10:42:35] INFO root fetch - processPackages [sackeylib]: executing diffoscope
+[2023-06-01 10:42:35] INFO root fetch - processPackages [sackeylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sackeylib-0.0.8.tar.gz tmp/sackeylib-0.0.9.tar.gz --markdown 20230601/s/sackeylib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 10:42:35] INFO root fetch - processPackages [inference-client]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-01 10:42:36] INFO root fetch - processPackages [bdating-common]: executing diffoscope
+[2023-06-01 10:42:36] INFO root fetch - processPackages [bdating-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdating-common-0.9.8.tar.gz tmp/bdating-common-0.9.9.tar.gz --markdown 20230601/b/bdating-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-01 10:42:36] INFO root fetch - processPackages [streamlit-kpi]: Downloading https://files.pythonhosted.org/packages/d6/15/f2db4dea507af4e6b4eefb7e04fa23aecd64ac97696254c49702bcebbe8b/streamlit-kpi-0.0.9.tar.gz
+[2023-06-01 10:42:36] INFO root fetch - processPackages [inference-client]: Downloading https://files.pythonhosted.org/packages/d4/d7/76a71fa42babdce9cd94cdd223f5368478bd7c354854856257e88567d6f2/inference_client-0.0.5.tar.gz
+[2023-06-01 10:42:36] INFO root fetch - processPackages [inference-client]: executing diffoscope
+[2023-06-01 10:42:36] INFO root fetch - processPackages [inference-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inference_client-0.0.4.tar.gz tmp/inference_client-0.0.5.tar.gz --markdown 20230601/i/inference-client/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-01 10:42:36] INFO root fetch - processPackages [streamlit-kpi]: executing diffoscope
+[2023-06-01 10:42:36] INFO root fetch - processPackages [streamlit-kpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-kpi-0.0.8.tar.gz tmp/streamlit-kpi-0.0.9.tar.gz --markdown 20230601/s/streamlit-kpi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 10:42:37] INFO root fetch - processPackages [cassio]: Start processing: forestadmin-datasource-sqlalchemy
+[2023-06-01 10:42:37] INFO root fetch - main [MainThread]: End processing [cassio]: success
+[2023-06-01 10:42:37] INFO root fetch - processPackages [prisma-pynext]: Start processing: honeybee-radiance
+[2023-06-01 10:42:37] INFO root fetch - main [MainThread]: End processing [prisma-pynext]: success
+[2023-06-01 10:42:37] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-01 10:42:37] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-01 10:42:37] INFO root fetch - processPackages [sackeylib]: Start processing: jax-tools
+[2023-06-01 10:42:37] INFO root fetch - main [MainThread]: End processing [sackeylib]: success
+[2023-06-01 10:42:37] INFO root fetch - processPackages [jax-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 10:42:37] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2023-06-01 10:42:37] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.8.tar.gz tmp/jax-tools-1.0.9.tar.gz --markdown 20230601/j/jax-tools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 10:42:37] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: executing diffoscope
+[2023-06-01 10:42:37] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz tmp/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz --markdown 20230601/f/forestadmin-datasource-sqlalchemy/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-01 10:42:37] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Start processing: lXtractor
+[2023-06-01 10:42:37] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-toolkit]: success
+[2023-06-01 10:42:37] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2023-06-01 10:42:37] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20230601/h/honeybee-radiance/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-01 10:42:37] INFO root fetch - processPackages [lXtractor]: New version: [0.1.dev6] Old Version: [0.1.dev5]
+[2023-06-01 10:42:37] INFO root fetch - processPackages [streamlit-kpi]: Start processing: forestadmin-agent-toolkit
+[2023-06-01 10:42:37] INFO root fetch - main [MainThread]: End processing [streamlit-kpi]: success
+[2023-06-01 10:42:37] INFO root fetch - processPackages [bdating-common]: Start processing: tff-nightly
+[2023-06-01 10:42:37] INFO root fetch - main [MainThread]: End processing [bdating-common]: success
+[2023-06-01 10:42:37] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230531] Old Version: [0.0.1.dev20230530]
+[2023-06-01 10:42:37] INFO root fetch - processPackages [forestadmin-agent-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-01 10:42:38] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-01 10:42:38] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230530-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230531-py2.py3-none-any.whl.zip --markdown 20230601/t/tff-nightly/0.0.1.dev20230530-0.0.1.dev20230531/diff.md --exclude *.pyd
+[2023-06-01 10:42:38] INFO root fetch - processPackages [django-pfx]: Start processing: forestadmin-agent-flask
+[2023-06-01 10:42:38] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-06-01 10:42:38] INFO root fetch - main [MainThread]: End processing [inference-client]: success
+[2023-06-01 10:42:38] INFO root fetch - processPackages [lXtractor]: executing diffoscope
+[2023-06-01 10:42:38] INFO root fetch - processPackages [lXtractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lxtractor-0.1.dev5.tar.gz tmp/lxtractor-0.1.dev6.tar.gz --markdown 20230601/l/lXtractor/0.1.dev5-0.1.dev6/diff.md --exclude *.pyd
+[2023-06-01 10:42:38] INFO root fetch - processPackages [forestadmin-agent-toolkit]: executing diffoscope
+[2023-06-01 10:42:38] INFO root fetch - processPackages [forestadmin-agent-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_toolkit-0.1.0b8.tar.gz tmp/forestadmin_agent_toolkit-0.1.0b9.tar.gz --markdown 20230601/f/forestadmin-agent-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-01 10:42:38] INFO root fetch - processPackages [forestadmin-agent-flask]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-01 10:42:38] INFO root fetch - processPackages [forestadmin-agent-flask]: executing diffoscope
+[2023-06-01 10:42:38] INFO root fetch - processPackages [forestadmin-agent-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_flask-0.1.0b8.tar.gz tmp/forestadmin_agent_flask-0.1.0b9.tar.gz --markdown 20230601/f/forestadmin-agent-flask/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-01 10:42:38] INFO root fetch - main [MainThread]: End processing [m9s-nereid]: success
+[2023-06-01 10:42:39] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2023-06-01 10:42:39] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-sqlalchemy]: success
+[2023-06-01 10:42:39] INFO root fetch - main [MainThread]: End processing [lXtractor]: success
+[2023-06-01 10:42:39] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-toolkit]: success
+[2023-06-01 10:42:40] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-flask]: success
+[2023-06-01 10:42:41] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-01 10:42:41] INFO root fetch - main [MainThread]: End processing [Owlready2]: success
+[2023-06-01 10:42:42] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2023-06-01 10:42:42] INFO root fetch - main [MainThread]: Store serial: [18330068]
