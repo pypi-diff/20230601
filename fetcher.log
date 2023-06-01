@@ -22022,3 +22022,68 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-01 17:22:58] INFO root fetch - main [MainThread]: End processing [ESMValCore]: success
 [2023-06-01 17:22:59] INFO root fetch - main [MainThread]: End processing [qiskit-nature]: success
 [2023-06-01 17:22:59] INFO root fetch - main [MainThread]: Store serial: [18335801]
+[2023-06-01 17:28:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18335801]
+[2023-06-01 17:28:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-01 17:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oslo.metrics
+[2023-06-01 17:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oslo.db
+[2023-06-01 17:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudservices-arg
+[2023-06-01 17:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: permutate
+[2023-06-01 17:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Products.CMFCore
+[2023-06-01 17:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openplugin
+[2023-06-01 17:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imscript
+[2023-06-01 17:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: whorl
+[2023-06-01 17:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dcentrapi
+[2023-06-01 17:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: volcengine
+[2023-06-01 17:28:09] INFO root fetch - processPackages [imscript]: New version: [0.7] Old Version: [0.6]
+[2023-06-01 17:28:09] INFO root fetch - processPackages [oslo.metrics]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-06-01 17:28:09] INFO root fetch - processPackages [permutate]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-06-01 17:28:09] WARNING root fetch - processPackages [whorl]: Skipping, unable to determine old version
+[2023-06-01 17:28:09] INFO root fetch - main [MainThread]: End processing [whorl] error
+[2023-06-01 17:28:09] INFO root fetch - processPackages [openplugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 17:28:09] INFO root fetch - processPackages [cloudservices-arg]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-01 17:28:09] INFO root fetch - processPackages [oslo.db]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-06-01 17:28:09] INFO root fetch - processPackages [Products.CMFCore]: New version: [3.1] Old Version: [3.0]
+[2023-06-01 17:28:09] INFO root fetch - processPackages [dcentrapi]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-01 17:28:09] INFO root fetch - processPackages [volcengine]: New version: [1.0.93] Old Version: [1.0.92]
+[2023-06-01 17:28:09] INFO root fetch - processPackages [imscript]: Downloading https://files.pythonhosted.org/packages/28/c3/a4288420ea8474b1476e70c2ef38bd8093f6261ebc58f5f9cb99c30a02bf/imscript-0.6.tar.gz
+[2023-06-01 17:28:09] INFO root fetch - processPackages [oslo.metrics]: Downloading https://files.pythonhosted.org/packages/56/8d/ff6593c678a05c34395b876e07695c5fb1b9e85f691acb979e388ee05dad/oslo.metrics-0.5.1.tar.gz
+[2023-06-01 17:28:09] INFO root fetch - processPackages [cloudservices-arg]: Downloading https://files.pythonhosted.org/packages/e4/d1/155cae305299cf41d5cc13ef03424e98449dcc8d6092884992e0665fdb5b/cloudservices_arg-0.1.5.tar.gz
+[2023-06-01 17:28:09] INFO root fetch - processPackages [openplugin]: Downloading https://files.pythonhosted.org/packages/8f/28/bef3e2be14504f53ef8e386337eccea450267b37312029dafa80213a04d5/openplugin-0.0.9.tar.gz
+[2023-06-01 17:28:09] INFO root fetch - processPackages [permutate]: Downloading https://files.pythonhosted.org/packages/14/cd/41c631e40639b7c6ca3b01924ab4691d8ae38eb8362dd22ab2c22ab82e81/permutate-0.0.3.tar.gz
+[2023-06-01 17:28:09] INFO root fetch - processPackages [oslo.db]: Downloading https://files.pythonhosted.org/packages/11/59/1715a098f5098c5d664cb57ab4ea805314596ef0c1e0bfee67d3dc408949/oslo.db-9.0.0.tar.gz
+[2023-06-01 17:28:09] INFO root fetch - processPackages [Products.CMFCore]: Downloading https://files.pythonhosted.org/packages/e6/a0/96c574b9415f80741705f52678ea7d399e51d329c37c3424ac8063d429e8/Products.CMFCore-3.0.tar.gz
+[2023-06-01 17:28:09] INFO root fetch - processPackages [openplugin]: executing diffoscope
+[2023-06-01 17:28:09] INFO root fetch - processPackages [openplugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openplugin-0.0.8.tar.gz tmp/openplugin-0.0.9.tar.gz --markdown 20230601/o/openplugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 17:28:09] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/a8/a0/9454160b969fe18ecf8cd462970d2368ed45078245319b88898ad00b862f/dcentrapi-0.2.4.tar.gz
+[2023-06-01 17:28:09] INFO root fetch - processPackages [cloudservices-arg]: executing diffoscope
+[2023-06-01 17:28:09] INFO root fetch - processPackages [cloudservices-arg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudservices_arg-0.1.4.tar.gz tmp/cloudservices_arg-0.1.5.tar.gz --markdown 20230601/c/cloudservices-arg/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-01 17:28:09] INFO root fetch - processPackages [volcengine]: Downloading https://files.pythonhosted.org/packages/3c/7b/6c330015a5158008b9badf6dbe58bdb3e031e8db97292e3872b8f4069757/volcengine-1.0.93.tar.gz
+[2023-06-01 17:28:09] INFO root fetch - processPackages [permutate]: Downloading https://files.pythonhosted.org/packages/b3/fd/492a00b555c6b36fe3e8f68e64c19234e2ddaf6a1b8ecb1d5f6b045f3be5/permutate-0.0.5.tar.gz
+[2023-06-01 17:28:09] INFO root fetch - processPackages [dcentrapi]: executing diffoscope
+[2023-06-01 17:28:09] INFO root fetch - processPackages [dcentrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentrapi-0.2.3.tar.gz tmp/dcentrapi-0.2.4.tar.gz --markdown 20230601/d/dcentrapi/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-01 17:28:09] INFO root fetch - processPackages [imscript]: Downloading https://files.pythonhosted.org/packages/84/4a/e23a208ab5c076cfa3e4da40899e556f803df164f8c8e1f6205338163a5f/imscript-0.7.tar.gz
+[2023-06-01 17:28:09] INFO root fetch - processPackages [oslo.metrics]: Downloading https://files.pythonhosted.org/packages/49/98/dd9e54b50b8df3c85360132065badef2469845095ce38e185d40fe24658c/oslo.metrics-0.6.0.tar.gz
+[2023-06-01 17:28:09] INFO root fetch - processPackages [Products.CMFCore]: Downloading https://files.pythonhosted.org/packages/a9/3a/95060c33b6678b0b78ea17fa82a19444a6ce053b8bf536a4cfe3ce626c49/Products.CMFCore-3.1.tar.gz
+[2023-06-01 17:28:09] INFO root fetch - processPackages [permutate]: executing diffoscope
+[2023-06-01 17:28:09] INFO root fetch - processPackages [permutate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permutate-0.0.3.tar.gz tmp/permutate-0.0.5.tar.gz --markdown 20230601/p/permutate/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-06-01 17:28:09] INFO root fetch - processPackages [volcengine]: executing diffoscope
+[2023-06-01 17:28:09] INFO root fetch - processPackages [volcengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-1.0.92.tar.gz tmp/volcengine-1.0.93.tar.gz --markdown 20230601/v/volcengine/1.0.92-1.0.93/diff.md --exclude *.pyd
+[2023-06-01 17:28:09] INFO root fetch - processPackages [Products.CMFCore]: executing diffoscope
+[2023-06-01 17:28:09] INFO root fetch - processPackages [Products.CMFCore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.CMFCore-3.0.tar.gz tmp/Products.CMFCore-3.1.tar.gz --markdown 20230601/P/Products.CMFCore/3.0-3.1/diff.md --exclude *.pyd
+[2023-06-01 17:28:09] INFO root fetch - processPackages [oslo.metrics]: executing diffoscope
+[2023-06-01 17:28:09] INFO root fetch - processPackages [oslo.metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.metrics-0.5.1.tar.gz tmp/oslo.metrics-0.6.0.tar.gz --markdown 20230601/o/oslo.metrics/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-06-01 17:28:09] INFO root fetch - processPackages [imscript]: executing diffoscope
+[2023-06-01 17:28:09] INFO root fetch - processPackages [imscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imscript-0.6.tar.gz tmp/imscript-0.7.tar.gz --markdown 20230601/i/imscript/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-01 17:28:09] INFO root fetch - processPackages [oslo.db]: Downloading https://files.pythonhosted.org/packages/4c/8a/43b149809cdc1911c0c032e9c5dbe946c25c5ac5352c0631114758f9718e/oslo.db-9.1.0.tar.gz
+[2023-06-01 17:28:10] INFO root fetch - processPackages [oslo.db]: executing diffoscope
+[2023-06-01 17:28:10] INFO root fetch - processPackages [oslo.db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.db-9.0.0.tar.gz tmp/oslo.db-9.1.0.tar.gz --markdown 20230601/o/oslo.db/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-06-01 17:28:10] INFO root fetch - main [MainThread]: End processing [openplugin]: success
+[2023-06-01 17:28:10] INFO root fetch - main [MainThread]: End processing [cloudservices-arg]: success
+[2023-06-01 17:28:11] INFO root fetch - main [MainThread]: End processing [dcentrapi]: success
+[2023-06-01 17:28:11] INFO root fetch - main [MainThread]: End processing [permutate]: success
+[2023-06-01 17:28:11] INFO root fetch - main [MainThread]: End processing [oslo.metrics]: success
+[2023-06-01 17:28:12] INFO root fetch - main [MainThread]: End processing [imscript]: success
+[2023-06-01 17:28:12] INFO root fetch - main [MainThread]: End processing [oslo.db]: success
+[2023-06-01 17:28:13] INFO root fetch - main [MainThread]: End processing [Products.CMFCore]: success
+[2023-06-01 17:28:14] INFO root fetch - main [MainThread]: End processing [volcengine]: success
+[2023-06-01 17:28:14] INFO root fetch - main [MainThread]: Store serial: [18335837]
