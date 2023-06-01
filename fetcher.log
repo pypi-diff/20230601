@@ -14342,3 +14342,155 @@
 [2023-06-01 11:21:27] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-01 11:21:44] INFO root fetch - main [MainThread]: End processing [aries-askar]: success
 [2023-06-01 11:21:44] INFO root fetch - main [MainThread]: Store serial: [18330857]
+[2023-06-01 11:26:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18330857]
+[2023-06-01 11:27:01] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-06-01 11:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tbp-nightly
+[2023-06-01 11:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-06-01 11:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chartgpt
+[2023-06-01 11:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: changeforest
+[2023-06-01 11:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytele2api
+[2023-06-01 11:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-admin-multi-select-filter
+[2023-06-01 11:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: perftester
+[2023-06-01 11:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qoqo-qiskit
+[2023-06-01 11:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lsst-ctrl-bps-htcondor
+[2023-06-01 11:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hera
+[2023-06-01 11:27:01] INFO root fetch - processPackages [hera]: New version: [5.4.0] Old Version: [5.3.0]
+[2023-06-01 11:27:01] INFO root fetch - processPackages [chartgpt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 11:27:01] INFO root fetch - processPackages [perftester]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-06-01 11:27:01] INFO root fetch - processPackages [django-admin-multi-select-filter]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-01 11:27:01] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-01 11:27:01] INFO root fetch - processPackages [pytele2api]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-06-01 11:27:01] INFO root fetch - processPackages [qoqo-qiskit]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-01 11:27:01] INFO root fetch - processPackages [changeforest]: New version: [1.0.1] Old Version: [0.7.2]
+[2023-06-01 11:27:01] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-01 11:27:01] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-06-01 11:27:01] INFO root fetch - processPackages [django-admin-multi-select-filter]: Downloading https://files.pythonhosted.org/packages/e6/5c/ec2cebcb0537b086639268f11f81115a717761a417155e64f0c29efeb708/django-admin-multi-select-filter-1.2.0.tar.gz
+[2023-06-01 11:27:01] INFO root fetch - processPackages [perftester]: Downloading https://files.pythonhosted.org/packages/b6/2f/9e073985eba41f29c1db9197a6be569bdd43e04d3f19e4158f41f2f5b017/perftester-0.5.1-py3-none-any.whl
+[2023-06-01 11:27:01] INFO root fetch - processPackages [qoqo-qiskit]: Downloading https://files.pythonhosted.org/packages/ef/9c/e5f7e2c6f5aedcc49635cba4daa9963b78e35e8d70880ba05250851c8e52/qoqo_qiskit-0.1.3.tar.gz
+[2023-06-01 11:27:01] INFO root fetch - processPackages [changeforest]: Downloading https://files.pythonhosted.org/packages/f8/c1/7ac0ef07b26533ae42b26cf2c06e22518e6c6c1567632120c5562019e915/changeforest-0.7.2.tar.gz
+[2023-06-01 11:27:01] INFO root fetch - processPackages [chartgpt]: Downloading https://files.pythonhosted.org/packages/5b/2a/a60b49efa06746362b06afe6289d52235182d71f1268af11c118919fcd19/chartgpt-0.0.1.tar.gz
+[2023-06-01 11:27:01] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-01 11:27:01] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230601/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-01 11:27:01] INFO root fetch - processPackages [pytele2api]: Downloading https://files.pythonhosted.org/packages/95/a8/bed61a444cceb47265a06a11537148be2f656e20d6adeffd238026dde7d6/pytele2api-0.1.3.tar.gz
+[2023-06-01 11:27:01] INFO root fetch - processPackages [hera]: Downloading https://files.pythonhosted.org/packages/b3/6a/2296e1ddc9ef3c2e50bd7b1cb9737354cafeb11ba3e132d4fbc224632094/hera-5.4.0.tar.gz
+[2023-06-01 11:27:01] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: executing diffoscope
+[2023-06-01 11:27:01] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz --markdown 20230601/l/lsst-ctrl-bps-htcondor/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-01 11:27:01] INFO root fetch - processPackages [chartgpt]: Downloading https://files.pythonhosted.org/packages/b7/bf/b927cae39e2bdf3ca13d2092b78b8e18046f14979487e2e493b0d71481bf/chartgpt-0.0.2.tar.gz
+[2023-06-01 11:27:01] INFO root fetch - processPackages [django-admin-multi-select-filter]: Downloading https://files.pythonhosted.org/packages/3c/11/cc174cfb3bdf80b7968a8d68b0181f2abb7506371fa0b6f3bb3f58a06fea/django-admin-multi-select-filter-1.2.1.tar.gz
+[2023-06-01 11:27:01] INFO root fetch - processPackages [pytele2api]: executing diffoscope
+[2023-06-01 11:27:01] INFO root fetch - processPackages [pytele2api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytele2api-0.1.1.tar.gz tmp/pytele2api-0.1.3.tar.gz --markdown 20230601/p/pytele2api/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-06-01 11:27:01] INFO root fetch - processPackages [hera]: executing diffoscope
+[2023-06-01 11:27:01] INFO root fetch - processPackages [hera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hera-5.3.0.tar.gz tmp/hera-5.4.0.tar.gz --markdown 20230601/h/hera/5.3.0-5.4.0/diff.md --exclude *.pyd
+[2023-06-01 11:27:01] INFO root fetch - processPackages [django-admin-multi-select-filter]: executing diffoscope
+[2023-06-01 11:27:01] INFO root fetch - processPackages [django-admin-multi-select-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-multi-select-filter-1.2.0.tar.gz tmp/django-admin-multi-select-filter-1.2.1.tar.gz --markdown 20230601/d/django-admin-multi-select-filter/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-01 11:27:01] INFO root fetch - processPackages [chartgpt]: executing diffoscope
+[2023-06-01 11:27:01] INFO root fetch - processPackages [chartgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartgpt-0.0.1.tar.gz tmp/chartgpt-0.0.2.tar.gz --markdown 20230601/c/chartgpt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 11:27:01] INFO root fetch - processPackages [qoqo-qiskit]: Downloading https://files.pythonhosted.org/packages/1d/8a/20f9bad2e2ae609b6fb111fe4e81dcb881210f0e0df2f9ada43168bb6606/qoqo_qiskit-0.1.4.tar.gz
+[2023-06-01 11:27:01] INFO root fetch - processPackages [perftester]: Downloading https://files.pythonhosted.org/packages/05/c1/c7274bae8f9fe7eac1d27d3c187236ffc7418688382aa1b258856e346154/perftester-0.6.0.tar.gz
+[2023-06-01 11:27:01] INFO root fetch - processPackages [qoqo-qiskit]: executing diffoscope
+[2023-06-01 11:27:01] INFO root fetch - processPackages [qoqo-qiskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_qiskit-0.1.3.tar.gz tmp/qoqo_qiskit-0.1.4.tar.gz --markdown 20230601/q/qoqo-qiskit/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-01 11:27:01] INFO root fetch - processPackages [perftester]: executing diffoscope
+[2023-06-01 11:27:01] INFO root fetch - processPackages [perftester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perftester-0.5.1-py3-none-any.whl.zip tmp/perftester-0.6.0.tar.gz --markdown 20230601/p/perftester/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-06-01 11:27:01] INFO root fetch - processPackages [changeforest]: Downloading https://files.pythonhosted.org/packages/75/80/0dd4fb36f0e7e390e91ad0d5bbe009021ed47fad6cca1659c4020ddc88db/changeforest-1.0.1.tar.gz
+[2023-06-01 11:27:01] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-06-01 11:27:01] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230601/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-06-01 11:27:01] INFO root fetch - processPackages [changeforest]: executing diffoscope
+[2023-06-01 11:27:01] INFO root fetch - processPackages [changeforest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changeforest-0.7.2.tar.gz tmp/changeforest-1.0.1.tar.gz --markdown 20230601/c/changeforest/0.7.2-1.0.1/diff.md --exclude *.pyd
+[2023-06-01 11:27:02] INFO root fetch - processPackages [spanishconjugator]: Start processing: hera-workflows
+[2023-06-01 11:27:02] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-01 11:27:02] INFO root fetch - processPackages [hera-workflows]: New version: [5.4.0] Old Version: [5.3.0]
+[2023-06-01 11:27:03] INFO root fetch - processPackages [hera-workflows]: Downloading https://files.pythonhosted.org/packages/18/a1/9f1424ad950643e6b15b684431148793594654791566cb3fa686a5f0a1d7/hera_workflows-5.4.0.tar.gz
+[2023-06-01 11:27:03] INFO root fetch - processPackages [pytele2api]: Start processing: cornflakes
+[2023-06-01 11:27:03] INFO root fetch - main [MainThread]: End processing [pytele2api]: success
+[2023-06-01 11:27:03] INFO root fetch - processPackages [cornflakes]: New version: [3.3.6] Old Version: [3.3.5]
+[2023-06-01 11:27:03] INFO root fetch - processPackages [hera-workflows]: executing diffoscope
+[2023-06-01 11:27:03] INFO root fetch - processPackages [hera-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hera_workflows-5.3.0.tar.gz tmp/hera_workflows-5.4.0.tar.gz --markdown 20230601/h/hera-workflows/5.3.0-5.4.0/diff.md --exclude *.pyd
+[2023-06-01 11:27:03] INFO root fetch - processPackages [cornflakes]: Downloading https://files.pythonhosted.org/packages/8d/ac/b4082d639da3932c0201e9b61af108d7fd91516e91f04be3945cb250160d/cornflakes-3.3.6.tar.gz
+[2023-06-01 11:27:03] INFO root fetch - processPackages [cornflakes]: executing diffoscope
+[2023-06-01 11:27:03] INFO root fetch - processPackages [cornflakes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornflakes-3.3.5.tar.gz tmp/cornflakes-3.3.6.tar.gz --markdown 20230601/c/cornflakes/3.3.5-3.3.6/diff.md --exclude *.pyd
+[2023-06-01 11:27:03] INFO root fetch - processPackages [chartgpt]: Start processing: astro-metadata-translator
+[2023-06-01 11:27:03] INFO root fetch - main [MainThread]: End processing [chartgpt]: success
+[2023-06-01 11:27:03] INFO root fetch - processPackages [astro-metadata-translator]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-01 11:27:04] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Start processing: django-admin-multi-select-filter
+[2023-06-01 11:27:04] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-htcondor]: success
+[2023-06-01 11:27:04] INFO root fetch - processPackages [django-admin-multi-select-filter]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-01 11:27:04] INFO root fetch - processPackages [perftester]: Start processing: hdsr-fewspy
+[2023-06-01 11:27:04] INFO root fetch - main [MainThread]: End processing [perftester]: success
+[2023-06-01 11:27:04] INFO root fetch - processPackages [hdsr-fewspy]: New version: [1.9] Old Version: [1.8]
+[2023-06-01 11:27:04] INFO root fetch - processPackages [django-admin-multi-select-filter]: executing diffoscope
+[2023-06-01 11:27:04] INFO root fetch - processPackages [django-admin-multi-select-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-multi-select-filter-1.2.0.tar.gz tmp/django-admin-multi-select-filter-1.2.1.tar.gz --markdown 20230601/d/django-admin-multi-select-filter/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-01 11:27:04] INFO root fetch - processPackages [django-admin-multi-select-filter]: Start processing: lsst-utils
+[2023-06-01 11:27:04] INFO root fetch - main [MainThread]: End processing [django-admin-multi-select-filter]: success
+[2023-06-01 11:27:04] INFO root fetch - processPackages [lsst-utils]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-01 11:27:04] INFO root fetch - processPackages [qoqo-qiskit]: Start processing: lsst-ctrl-bps-parsl
+[2023-06-01 11:27:04] INFO root fetch - main [MainThread]: End processing [qoqo-qiskit]: success
+[2023-06-01 11:27:04] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-01 11:27:04] INFO root fetch - processPackages [changeforest]: Start processing: lsst-ctrl-bps-panda
+[2023-06-01 11:27:04] INFO root fetch - main [MainThread]: End processing [changeforest]: success
+[2023-06-01 11:27:04] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-01 11:27:04] INFO root fetch - processPackages [astro-metadata-translator]: executing diffoscope
+[2023-06-01 11:27:04] INFO root fetch - processPackages [astro-metadata-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-metadata-translator-26.0.0a20230400.tar.gz tmp/astro-metadata-translator-26.0.0a20230500.tar.gz --markdown 20230601/a/astro-metadata-translator/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-01 11:27:04] INFO root fetch - processPackages [hdsr-fewspy]: executing diffoscope
+[2023-06-01 11:27:04] INFO root fetch - processPackages [hdsr-fewspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdsr_fewspy-1.8.tar.gz tmp/hdsr_fewspy-1.9.tar.gz --markdown 20230601/h/hdsr-fewspy/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-01 11:27:04] INFO root fetch - processPackages [lsst-utils]: executing diffoscope
+[2023-06-01 11:27:04] INFO root fetch - processPackages [lsst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-utils-26.0.0a20230400.tar.gz tmp/lsst-utils-26.0.0a20230500.tar.gz --markdown 20230601/l/lsst-utils/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-01 11:27:04] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: executing diffoscope
+[2023-06-01 11:27:04] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz --markdown 20230601/l/lsst-ctrl-bps-parsl/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-01 11:27:04] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: executing diffoscope
+[2023-06-01 11:27:04] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz --markdown 20230601/l/lsst-ctrl-bps-panda/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-01 11:27:05] INFO root fetch - processPackages [hera-workflows]: Start processing: mapd
+[2023-06-01 11:27:05] INFO root fetch - main [MainThread]: End processing [hera-workflows]: success
+[2023-06-01 11:27:05] WARNING root fetch - processPackages [mapd]: Skipping, unable to determine old version
+[2023-06-01 11:27:05] INFO root fetch - processPackages [mapd]: Start processing: taxOrder
+[2023-06-01 11:27:05] INFO root fetch - main [MainThread]: End processing [mapd] error
+[2023-06-01 11:27:05] INFO root fetch - processPackages [taxOrder]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-01 11:27:05] INFO root fetch - processPackages [tbp-nightly]: Start processing: torch-spatiotemporal
+[2023-06-01 11:27:05] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-06-01 11:27:05] INFO root fetch - processPackages [torch-spatiotemporal]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-01 11:27:05] INFO root fetch - processPackages [taxOrder]: Downloading https://files.pythonhosted.org/packages/06/44/b03959bad9d61f61cc17a91c5a20d057b0f352dfda361580798fe7f37c88/taxOrder-0.2.1.tar.gz
+[2023-06-01 11:27:05] INFO root fetch - processPackages [taxOrder]: executing diffoscope
+[2023-06-01 11:27:05] INFO root fetch - processPackages [taxOrder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxOrder-0.2.0.tar.gz tmp/taxOrder-0.2.1.tar.gz --markdown 20230601/t/taxOrder/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-01 11:27:05] INFO root fetch - processPackages [torch-spatiotemporal]: Downloading https://files.pythonhosted.org/packages/80/9c/3d2c610dd4106c1d945944dda4e3389d3705c0a444869bf5d206e7516bb0/torch_spatiotemporal-0.9.2-py3-none-any.whl
+[2023-06-01 11:27:05] INFO root fetch - processPackages [django-admin-multi-select-filter]: Start processing: StrangeSerializer-for-lab-3
+[2023-06-01 11:27:05] INFO root fetch - main [MainThread]: End processing [django-admin-multi-select-filter]: success
+[2023-06-01 11:27:05] WARNING root fetch - processPackages [StrangeSerializer-for-lab-3]: Skipping, unable to determine old version
+[2023-06-01 11:27:05] INFO root fetch - processPackages [StrangeSerializer-for-lab-3]: Start processing: mediacatch-s2t
+[2023-06-01 11:27:05] INFO root fetch - main [MainThread]: End processing [StrangeSerializer-for-lab-3] error
+[2023-06-01 11:27:05] INFO root fetch - processPackages [mediacatch-s2t]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-01 11:27:05] INFO root fetch - processPackages [mediacatch-s2t]: executing diffoscope
+[2023-06-01 11:27:05] INFO root fetch - processPackages [mediacatch-s2t]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediacatch-s2t-0.0.5.tar.gz tmp/mediacatch-s2t-0.0.6.tar.gz --markdown 20230601/m/mediacatch-s2t/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-01 11:27:05] INFO root fetch - processPackages [torch-spatiotemporal]: Downloading https://files.pythonhosted.org/packages/2b/5b/24f39711be93b5661ee1016ca9cd7605331e0138d54c55f6815215f6be81/torch_spatiotemporal-0.9.3.tar.gz
+[2023-06-01 11:27:06] INFO root fetch - processPackages [torch-spatiotemporal]: executing diffoscope
+[2023-06-01 11:27:06] INFO root fetch - processPackages [torch-spatiotemporal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_spatiotemporal-0.9.2-py3-none-any.whl.zip tmp/torch_spatiotemporal-0.9.3.tar.gz --markdown 20230601/t/torch-spatiotemporal/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-01 11:27:06] INFO root fetch - processPackages [astro-metadata-translator]: Start processing: ccdt
+[2023-06-01 11:27:06] INFO root fetch - main [MainThread]: End processing [astro-metadata-translator]: success
+[2023-06-01 11:27:06] INFO root fetch - processPackages [ccdt]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-06-01 11:27:06] INFO root fetch - processPackages [hdsr-fewspy]: Start processing: lsst-daf-relation
+[2023-06-01 11:27:06] INFO root fetch - main [MainThread]: End processing [hdsr-fewspy]: success
+[2023-06-01 11:27:06] INFO root fetch - processPackages [lsst-daf-relation]: New version: [1.0.0a20230500] Old Version: [1.0.0a20230400]
+[2023-06-01 11:27:06] INFO root fetch - processPackages [lsst-utils]: Start processing: nucliadb
+[2023-06-01 11:27:06] INFO root fetch - main [MainThread]: End processing [lsst-utils]: success
+[2023-06-01 11:27:06] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/3b/d0/86ca96d16b1a77431ee4e9bed3156f7fe6e50549524ff466c2cf3bc5d922/ccdt-2.1.2.tar.gz
+[2023-06-01 11:27:06] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-06-01 11:27:06] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.1.tar.gz tmp/ccdt-2.1.2.tar.gz --markdown 20230601/c/ccdt/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-06-01 11:27:06] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 11:27:06] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Start processing: nucliadb-client
+[2023-06-01 11:27:06] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-parsl]: success
+[2023-06-01 11:27:06] INFO root fetch - processPackages [lsst-daf-relation]: executing diffoscope
+[2023-06-01 11:27:06] INFO root fetch - processPackages [lsst-daf-relation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-relation-1.0.0a20230400.tar.gz tmp/lsst-daf-relation-1.0.0a20230500.tar.gz --markdown 20230601/l/lsst-daf-relation/1.0.0a20230400-1.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-01 11:27:06] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-panda]: success
+[2023-06-01 11:27:06] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 11:27:07] INFO root fetch - main [MainThread]: End processing [taxOrder]: success
+[2023-06-01 11:27:07] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-06-01 11:27:07] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 11:27:07] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-06-01 11:27:07] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 11:27:07] INFO root fetch - main [MainThread]: End processing [hera]: success
+[2023-06-01 11:27:07] INFO root fetch - main [MainThread]: End processing [mediacatch-s2t]: success
+[2023-06-01 11:27:08] INFO root fetch - main [MainThread]: End processing [torch-spatiotemporal]: success
+[2023-06-01 11:27:08] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-06-01 11:27:08] INFO root fetch - main [MainThread]: End processing [lsst-daf-relation]: success
+[2023-06-01 11:27:08] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-06-01 11:27:11] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-06-01 11:27:19] INFO root fetch - main [MainThread]: End processing [cornflakes]: success
+[2023-06-01 11:27:19] INFO root fetch - main [MainThread]: Store serial: [18330972]
