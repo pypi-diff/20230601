@@ -3652,3 +3652,82 @@
 [2023-06-01 02:46:31] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-01 02:48:34] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
 [2023-06-01 02:48:34] INFO root fetch - main [MainThread]: Store serial: [18324991]
+[2023-06-01 02:53:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18324991]
+[2023-06-01 02:53:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-01 02:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tuneflow-devkit-py
+[2023-06-01 02:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: altimate-dataminion
+[2023-06-01 02:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cardboard.py
+[2023-06-01 02:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fontbakery
+[2023-06-01 02:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kubric-nightly
+[2023-06-01 02:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: state-machine-semaphore
+[2023-06-01 02:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-connect4
+[2023-06-01 02:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: landingai
+[2023-06-01 02:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cardboard.py
+[2023-06-01 02:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: auto-test-common
+[2023-06-01 02:53:59] INFO root fetch - processPackages [tuneflow-devkit-py]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-06-01 02:53:59] INFO root fetch - processPackages [cardboard.py]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-01 02:53:59] INFO root fetch - processPackages [fontbakery]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-01 02:53:59] INFO root fetch - processPackages [altimate-dataminion]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-01 02:53:59] INFO root fetch - processPackages [cardboard.py]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-01 02:53:59] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-01 02:53:59] WARNING root fetch - processPackages [python-connect4]: Skipping, unable to determine old version
+[2023-06-01 02:53:59] INFO root fetch - processPackages [python-connect4]: Start processing: mri-distortion-toolkit
+[2023-06-01 02:53:59] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-01 02:53:59] INFO root fetch - main [MainThread]: End processing [python-connect4] error
+[2023-06-01 02:53:59] INFO root fetch - processPackages [auto-test-common]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-06-01 02:53:59] INFO root fetch - processPackages [mri-distortion-toolkit]: New version: [0.9.0] Old Version: [0.14.6]
+[2023-06-01 02:53:59] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.1] Old Version: [2023.5.9]
+[2023-06-01 02:53:59] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-06-01 02:53:59] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230601/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-01 02:53:59] INFO root fetch - processPackages [cardboard.py]: Downloading https://files.pythonhosted.org/packages/69/4a/a53db7d7e94d1cdd9432bee1db2083b8aba77701dc999201244c09573309/cardboard.py-0.0.5.tar.gz
+[2023-06-01 02:53:59] INFO root fetch - processPackages [cardboard.py]: Downloading https://files.pythonhosted.org/packages/69/4a/a53db7d7e94d1cdd9432bee1db2083b8aba77701dc999201244c09573309/cardboard.py-0.0.5.tar.gz
+[2023-06-01 02:53:59] INFO root fetch - processPackages [mri-distortion-toolkit]: Downloading https://files.pythonhosted.org/packages/d0/3c/45d0398ea68a71e32268bb7970bd326383a28f603cc9504dda7affa74a4f/mri_distortion_toolkit-0.14.6.tar.gz
+[2023-06-01 02:53:59] INFO root fetch - processPackages [fontbakery]: Downloading https://files.pythonhosted.org/packages/9a/0a/0236197c37f53277b73f9e7f5fcfbfe15d3ed57aa1f93cf53ad11be8a208/fontbakery-0.8.8.tar.gz
+[2023-06-01 02:54:00] INFO root fetch - processPackages [altimate-dataminion]: Downloading https://files.pythonhosted.org/packages/0f/da/2227accb534a0cd54c48252cae17c36506e9ea0a5dcd0a06df0327a7c6ec/altimate_dataminion-0.0.2.tar.gz
+[2023-06-01 02:54:00] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/14/8b/01cb5323b9d079210e80c958968dadb02478856b9548929e0b6b00f4dc43/auto-test-common-1.0.4.tar.gz
+[2023-06-01 02:54:00] WARNING root fetch - processPackages [fontbakery]: Skipping package: exceeds size limit 31854112>=10485760
+[2023-06-01 02:54:00] INFO root fetch - processPackages [fontbakery]: Start processing: downscale-image
+[2023-06-01 02:54:00] INFO root fetch - main [MainThread]: End processing [fontbakery] error
+[2023-06-01 02:54:00] INFO root fetch - processPackages [tuneflow-devkit-py]: Downloading https://files.pythonhosted.org/packages/18/34/d7a7641abf4523fb2a27d38f174e3149f7977518e1045af1ab4c529df264/tuneflow-devkit-py-0.8.6.tar.gz
+[2023-06-01 02:54:00] INFO root fetch - processPackages [downscale-image]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-06-01 02:54:00] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2023-06-01 02:54:00] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-1.0.2.tar.gz tmp/auto-test-common-1.0.4.tar.gz --markdown 20230601/a/auto-test-common/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-06-01 02:54:00] INFO root fetch - processPackages [tuneflow-devkit-py]: executing diffoscope
+[2023-06-01 02:54:00] INFO root fetch - processPackages [tuneflow-devkit-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuneflow-devkit-py-0.8.5.tar.gz tmp/tuneflow-devkit-py-0.8.6.tar.gz --markdown 20230601/t/tuneflow-devkit-py/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-06-01 02:54:00] INFO root fetch - processPackages [cardboard.py]: Downloading https://files.pythonhosted.org/packages/2b/64/592264e1a8172dc5700990a52039d56e72af19c745a0948a545a0d3c05c8/cardboard.py-0.0.6.tar.gz
+[2023-06-01 02:54:00] INFO root fetch - processPackages [cardboard.py]: Downloading https://files.pythonhosted.org/packages/2b/64/592264e1a8172dc5700990a52039d56e72af19c745a0948a545a0d3c05c8/cardboard.py-0.0.6.tar.gz
+[2023-06-01 02:54:00] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/f6/b8/9dcafad101e5bd7d2afe3b331ce6b646f1e8f35b641c3a39c5ab25952c46/kubric-nightly-2023.6.1.tar.gz
+[2023-06-01 02:54:00] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-06-01 02:54:00] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230601/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-01 02:54:00] INFO root fetch - processPackages [altimate-dataminion]: Downloading https://files.pythonhosted.org/packages/63/d5/ba1d64dac945cdfb24b77b2bd75d859851be105485e1efd2498bba3dedbe/altimate_dataminion-0.0.3.tar.gz
+[2023-06-01 02:54:00] INFO root fetch - processPackages [cardboard.py]: executing diffoscope
+[2023-06-01 02:54:00] INFO root fetch - processPackages [cardboard.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardboard.py-0.0.5.tar.gz tmp/cardboard.py-0.0.6.tar.gz --markdown 20230601/c/cardboard.py/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-01 02:54:00] INFO root fetch - processPackages [cardboard.py]: executing diffoscope
+[2023-06-01 02:54:00] INFO root fetch - processPackages [cardboard.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardboard.py-0.0.5.tar.gz tmp/cardboard.py-0.0.6.tar.gz --markdown 20230601/c/cardboard.py/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-01 02:54:00] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-01 02:54:00] INFO root fetch - processPackages [downscale-image]: Downloading https://files.pythonhosted.org/packages/bc/5e/ead2344442c0ce997e5a4983c130dd98bedf9c3bdca841c23fe5e08c8ba5/downscale_image-1.4.3.tar.gz
+[2023-06-01 02:54:00] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.5.9.tar.gz tmp/kubric-nightly-2023.6.1.tar.gz --markdown 20230601/k/kubric-nightly/2023.5.9-2023.6.1/diff.md --exclude *.pyd
+[2023-06-01 02:54:00] INFO root fetch - processPackages [altimate-dataminion]: executing diffoscope
+[2023-06-01 02:54:00] INFO root fetch - processPackages [altimate-dataminion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altimate_dataminion-0.0.2.tar.gz tmp/altimate_dataminion-0.0.3.tar.gz --markdown 20230601/a/altimate-dataminion/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-01 02:54:00] INFO root fetch - processPackages [mri-distortion-toolkit]: executing diffoscope
+[2023-06-01 02:54:00] INFO root fetch - processPackages [mri-distortion-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mri_distortion_toolkit-0.14.6.tar.gz tmp/mri_distortion_toolkit-0.9.0.tar.gz --markdown 20230601/m/mri-distortion-toolkit/0.14.6-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 02:54:00] INFO root fetch - processPackages [downscale-image]: executing diffoscope
+[2023-06-01 02:54:00] INFO root fetch - processPackages [downscale-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/downscale_image-1.4.2.tar.gz tmp/downscale_image-1.4.3.tar.gz --markdown 20230601/d/downscale-image/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-06-01 02:54:01] INFO root fetch - processPackages [landingai]: Start processing: fiftyone
+[2023-06-01 02:54:01] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-06-01 02:54:01] INFO root fetch - processPackages [fiftyone]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 02:54:01] INFO root fetch - main [MainThread]: End processing [tuneflow-devkit-py]: success
+[2023-06-01 02:54:01] INFO root fetch - processPackages [fiftyone]: Downloading https://files.pythonhosted.org/packages/3e/6b/4f00edad5ff8f41f3fffc7a3200dd9cfb53214fb7a00fc0a8e15b0847572/fiftyone-0.9.3-py3-none-any.whl
+[2023-06-01 02:54:01] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2023-06-01 02:54:01] INFO root fetch - processPackages [fiftyone]: Downloading https://files.pythonhosted.org/packages/35/07/cd886e684c80920dfc6b8fea4ac8fc9e2c36be66848d2e8dc2508552d529/fiftyone-0.9.4-py3-none-any.whl
+[2023-06-01 02:54:02] INFO root fetch - main [MainThread]: End processing [cardboard.py]: success
+[2023-06-01 02:54:02] INFO root fetch - processPackages [fiftyone]: executing diffoscope
+[2023-06-01 02:54:02] INFO root fetch - processPackages [fiftyone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone-0.9.3-py3-none-any.whl.zip tmp/fiftyone-0.9.4-py3-none-any.whl.zip --markdown 20230601/f/fiftyone/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 02:54:02] INFO root fetch - main [MainThread]: End processing [mri-distortion-toolkit]: success
+[2023-06-01 02:54:02] INFO root fetch - main [MainThread]: End processing [downscale-image]: success
+[2023-06-01 02:54:02] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-01 02:54:02] INFO root fetch - main [MainThread]: End processing [cardboard.py]: success
+[2023-06-01 02:54:02] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-06-01 02:54:02] INFO root fetch - main [MainThread]: End processing [altimate-dataminion]: success
+[2023-06-01 02:54:19] INFO root fetch - main [MainThread]: End processing [fiftyone]: success
+[2023-06-01 02:54:19] INFO root fetch - main [MainThread]: Store serial: [18325032]
