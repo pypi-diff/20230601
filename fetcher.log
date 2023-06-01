@@ -17773,3 +17773,138 @@
 [2023-06-01 14:39:52] INFO root fetch - main [MainThread]: End processing [su6]: success
 [2023-06-01 14:40:11] INFO root fetch - main [MainThread]: End processing [otx]: success
 [2023-06-01 14:40:11] INFO root fetch - main [MainThread]: Store serial: [18333199]
+[2023-06-01 14:45:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18333199]
+[2023-06-01 14:45:21] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-01 14:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cheb3
+[2023-06-01 14:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: renovosolutions.aws-cdk-control-tower-lifecycle-events
+[2023-06-01 14:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: summa-embed
+[2023-06-01 14:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytele2api
+[2023-06-01 14:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cipher-parse
+[2023-06-01 14:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dmodel
+[2023-06-01 14:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bbrl
+[2023-06-01 14:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensorcircuit-nightly
+[2023-06-01 14:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ansys-grantami-serverapi-openapi
+[2023-06-01 14:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyerrors
+[2023-06-01 14:45:21] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-01 14:45:21] INFO root fetch - processPackages [bbrl]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 14:45:21] WARNING root fetch - processPackages [cheb3]: Skipping, unable to determine old version
+[2023-06-01 14:45:21] INFO root fetch - processPackages [dmodel]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-01 14:45:21] INFO root fetch - processPackages [cheb3]: Start processing: renovosolutions.aws-cdk-control-tower-lifecycle-events
+[2023-06-01 14:45:21] INFO root fetch - processPackages [pytele2api]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-01 14:45:21] INFO root fetch - main [MainThread]: End processing [cheb3] error
+[2023-06-01 14:45:21] INFO root fetch - processPackages [ansys-grantami-serverapi-openapi]: New version: [1.0.0rc1] Old Version: [1.0.0rc0]
+[2023-06-01 14:45:21] INFO root fetch - processPackages [pyerrors]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-06-01 14:45:21] INFO root fetch - processPackages [cipher-parse]: New version: [0.5.1a0] Old Version: [0.5.0a3]
+[2023-06-01 14:45:21] INFO root fetch - processPackages [summa-embed]: New version: [0.15.9] Old Version: [0.15.8]
+[2023-06-01 14:45:21] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230531] Old Version: [0.9.1.dev20230530]
+[2023-06-01 14:45:21] INFO root fetch - processPackages [bbrl]: Downloading https://files.pythonhosted.org/packages/d7/e8/97d4e9c8c3e237255308ae545cb43a8d28b7e30c6aaf1032c434d4587efd/bbrl-0.1.8.tar.gz
+[2023-06-01 14:45:21] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-01 14:45:22] WARNING root fetch - processPackages [bbrl]: Skipping package: exceeds size limit 95850648>=10485760
+[2023-06-01 14:45:22] INFO root fetch - processPackages [bbrl]: Start processing: hiperwalk
+[2023-06-01 14:45:22] INFO root fetch - main [MainThread]: End processing [bbrl] error
+[2023-06-01 14:45:22] INFO root fetch - processPackages [hiperwalk]: New version: [2.0a3] Old Version: [2.0a2]
+[2023-06-01 14:45:22] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-06-01 14:45:22] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230530.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230531.tar.gz --markdown 20230601/t/tensorcircuit-nightly/0.9.1.dev20230530-0.9.1.dev20230531/diff.md --exclude *.pyd
+[2023-06-01 14:45:22] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: Downloading https://files.pythonhosted.org/packages/5d/e8/4e165b2f8e043b8a6f533e80c731ae1580c6d388f06d2d292837f02a1aa7/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.98.tar.gz
+[2023-06-01 14:45:22] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: Downloading https://files.pythonhosted.org/packages/5d/e8/4e165b2f8e043b8a6f533e80c731ae1580c6d388f06d2d292837f02a1aa7/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.98.tar.gz
+[2023-06-01 14:45:22] INFO root fetch - processPackages [dmodel]: Downloading https://files.pythonhosted.org/packages/fc/1a/cfea8dd72ff3cb65b5d724b21ffc8c8c468bfcb0951c7b3662436346aa98/dmodel-0.0.4.tar.gz
+[2023-06-01 14:45:22] INFO root fetch - processPackages [ansys-grantami-serverapi-openapi]: Downloading https://files.pythonhosted.org/packages/da/92/e33d907c8f5f1fd72fa32aa1e6e45153241fdf7e2defd3419b9c8fc58e54/ansys_grantami_serverapi_openapi-1.0.0rc0-py3-none-any.whl
+[2023-06-01 14:45:22] INFO root fetch - processPackages [cipher-parse]: Downloading https://files.pythonhosted.org/packages/ff/ba/67db7c5d18cfbbbdaa4e048bb2199e386206eb9b5c90ea6ed136b69b88bb/cipher_parse-0.5.0a3.tar.gz
+[2023-06-01 14:45:22] INFO root fetch - processPackages [dmodel]: executing diffoscope
+[2023-06-01 14:45:22] INFO root fetch - processPackages [dmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmodel-0.0.3.tar.gz tmp/dmodel-0.0.4.tar.gz --markdown 20230601/d/dmodel/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-01 14:45:22] INFO root fetch - processPackages [pytele2api]: Downloading https://files.pythonhosted.org/packages/56/9a/912b5dc409ed7895efbdef4c65dbb04cf69b231a1754c7cc6dcba27ad2ff/pytele2api-0.1.4.tar.gz
+[2023-06-01 14:45:22] INFO root fetch - processPackages [summa-embed]: executing diffoscope
+[2023-06-01 14:45:22] INFO root fetch - processPackages [summa-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summa_embed-0.15.8.tar.gz tmp/summa_embed-0.15.9.tar.gz --markdown 20230601/s/summa-embed/0.15.8-0.15.9/diff.md --exclude *.pyd
+[2023-06-01 14:45:22] INFO root fetch - processPackages [pyerrors]: Downloading https://files.pythonhosted.org/packages/d0/5c/e31dbf2cb7ac46c75557bb2aee07f29ca7fe5d2ef919c5fa85bf65d450ad/pyerrors-2.8.1.tar.gz
+[2023-06-01 14:45:22] INFO root fetch - processPackages [hiperwalk]: Downloading https://files.pythonhosted.org/packages/af/6c/a8ee34afe49a911d81c9780b6bd2d3e827dbdddd037bc4f25e4f7625fee0/hiperwalk-2.0a3.tar.gz
+[2023-06-01 14:45:22] INFO root fetch - processPackages [pytele2api]: executing diffoscope
+[2023-06-01 14:45:22] INFO root fetch - processPackages [pytele2api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytele2api-0.1.3.tar.gz tmp/pytele2api-0.1.4.tar.gz --markdown 20230601/p/pytele2api/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-01 14:45:22] INFO root fetch - processPackages [cipher-parse]: Downloading https://files.pythonhosted.org/packages/75/5a/33ea5c4b6666be54a11863a50e75c82b94758c51e67ae0aded379a2bce0d/cipher_parse-0.5.1a0.tar.gz
+[2023-06-01 14:45:22] INFO root fetch - processPackages [pyerrors]: executing diffoscope
+[2023-06-01 14:45:22] INFO root fetch - processPackages [pyerrors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerrors-2.8.0.tar.gz tmp/pyerrors-2.8.1.tar.gz --markdown 20230601/p/pyerrors/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-06-01 14:45:22] INFO root fetch - processPackages [ansys-grantami-serverapi-openapi]: Downloading https://files.pythonhosted.org/packages/a2/c3/b19bec7c608bf16ca5696123fb666153448fae079060645b3f53d198a6c8/ansys_grantami_serverapi_openapi-1.0.0rc1-py3-none-any.whl
+[2023-06-01 14:45:22] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: Downloading https://files.pythonhosted.org/packages/05/df/7a5fef5d04715e9053c344907162075912807a5afd58dc0cbc9d037f01ac/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.99.tar.gz
+[2023-06-01 14:45:22] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: Downloading https://files.pythonhosted.org/packages/05/df/7a5fef5d04715e9053c344907162075912807a5afd58dc0cbc9d037f01ac/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.99.tar.gz
+[2023-06-01 14:45:22] INFO root fetch - processPackages [hiperwalk]: executing diffoscope
+[2023-06-01 14:45:22] INFO root fetch - processPackages [hiperwalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiperwalk-2.0a2.tar.gz tmp/hiperwalk-2.0a3.tar.gz --markdown 20230601/h/hiperwalk/2.0a2-2.0a3/diff.md --exclude *.pyd
+[2023-06-01 14:45:22] INFO root fetch - processPackages [cipher-parse]: executing diffoscope
+[2023-06-01 14:45:22] INFO root fetch - processPackages [cipher-parse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cipher_parse-0.5.0a3.tar.gz tmp/cipher_parse-0.5.1a0.tar.gz --markdown 20230601/c/cipher-parse/0.5.0a3-0.5.1a0/diff.md --exclude *.pyd
+[2023-06-01 14:45:22] INFO root fetch - processPackages [ansys-grantami-serverapi-openapi]: executing diffoscope
+[2023-06-01 14:45:22] INFO root fetch - processPackages [ansys-grantami-serverapi-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_grantami_serverapi_openapi-1.0.0rc0-py3-none-any.whl.zip tmp/ansys_grantami_serverapi_openapi-1.0.0rc1-py3-none-any.whl.zip --markdown 20230601/a/ansys-grantami-serverapi-openapi/1.0.0rc0-1.0.0rc1/diff.md --exclude *.pyd
+[2023-06-01 14:45:23] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: executing diffoscope
+[2023-06-01 14:45:23] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-control-tower-lifecycle-events/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-01 14:45:23] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: executing diffoscope
+[2023-06-01 14:45:23] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-control-tower-lifecycle-events/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-01 14:45:23] INFO root fetch - processPackages [pytele2api]: Start processing: CliRenderer
+[2023-06-01 14:45:23] INFO root fetch - main [MainThread]: End processing [pytele2api]: success
+[2023-06-01 14:45:23] WARNING root fetch - processPackages [CliRenderer]: Skipping, unable to determine old version
+[2023-06-01 14:45:23] INFO root fetch - processPackages [CliRenderer]: Start processing: wizata-dsapi
+[2023-06-01 14:45:23] INFO root fetch - main [MainThread]: End processing [CliRenderer] error
+[2023-06-01 14:45:23] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 14:45:24] INFO root fetch - processPackages [dmodel]: Start processing: comex
+[2023-06-01 14:45:24] INFO root fetch - main [MainThread]: End processing [dmodel]: success
+[2023-06-01 14:45:24] INFO root fetch - processPackages [comex]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-01 14:45:24] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-06-01 14:45:24] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230601/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 14:45:24] INFO root fetch - processPackages [comex]: Downloading https://files.pythonhosted.org/packages/e1/ef/c200f25cf7ddf653a624d0a01ee57f36a9a7f9dae80f757ac8ff13cefc7d/comex-0.1.1.tar.gz
+[2023-06-01 14:45:24] INFO root fetch - processPackages [comex]: executing diffoscope
+[2023-06-01 14:45:24] INFO root fetch - processPackages [comex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comex-0.1.0.tar.gz tmp/comex-0.1.1.tar.gz --markdown 20230601/c/comex/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-01 14:45:24] INFO root fetch - processPackages [tensorcircuit-nightly]: Start processing: mech-client
+[2023-06-01 14:45:24] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-06-01 14:45:24] INFO root fetch - processPackages [mech-client]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-01 14:45:24] INFO root fetch - processPackages [summa-embed]: Start processing: optool
+[2023-06-01 14:45:24] INFO root fetch - main [MainThread]: End processing [summa-embed]: success
+[2023-06-01 14:45:24] INFO root fetch - processPackages [optool]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-01 14:45:24] INFO root fetch - processPackages [mech-client]: Downloading https://files.pythonhosted.org/packages/b1/3a/a77460cb0664459db69fb146cd371ba1dbf9b88bfaf587963c8ff4621848/mech_client-0.1.6.tar.gz
+[2023-06-01 14:45:24] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: Start processing: simple-alto-parser
+[2023-06-01 14:45:24] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-control-tower-lifecycle-events]: success
+[2023-06-01 14:45:24] INFO root fetch - processPackages [simple-alto-parser]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-01 14:45:25] INFO root fetch - processPackages [optool]: Downloading https://files.pythonhosted.org/packages/62/6a/a324f62299b8f7913c976b41f0c25f8ac28fabc4e22797b0053eee1e1db5/optool-0.4.0-py3-none-any.whl
+[2023-06-01 14:45:25] INFO root fetch - processPackages [mech-client]: executing diffoscope
+[2023-06-01 14:45:25] INFO root fetch - processPackages [mech-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mech_client-0.1.5.tar.gz tmp/mech_client-0.1.6.tar.gz --markdown 20230601/m/mech-client/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-01 14:45:25] INFO root fetch - processPackages [optool]: executing diffoscope
+[2023-06-01 14:45:25] INFO root fetch - processPackages [optool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optool-0.3.0-py3-none-any.whl.zip tmp/optool-0.4.0-py3-none-any.whl.zip --markdown 20230601/o/optool/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-01 14:45:25] INFO root fetch - processPackages [pyerrors]: Start processing: crip
+[2023-06-01 14:45:25] INFO root fetch - main [MainThread]: End processing [pyerrors]: success
+[2023-06-01 14:45:25] INFO root fetch - processPackages [crip]: New version: [1.6.3] Old Version: [1.6.1]
+[2023-06-01 14:45:25] INFO root fetch - processPackages [cipher-parse]: Start processing: DLMS-SPODES
+[2023-06-01 14:45:25] INFO root fetch - main [MainThread]: End processing [cipher-parse]: success
+[2023-06-01 14:45:25] INFO root fetch - processPackages [simple-alto-parser]: Downloading https://files.pythonhosted.org/packages/63/6e/deb0228be6522397dc1985afe0eee62c2cdcafd23453f0e5fb845084f9d1/simple-alto-parser-0.0.6.tar.gz
+[2023-06-01 14:45:25] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-01 14:45:25] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-06-01 14:45:25] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230601/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 14:45:25] INFO root fetch - processPackages [crip]: Downloading https://files.pythonhosted.org/packages/fd/73/453c89fab2ef4d3cc9925505533374278c26bd52f1d5ba92521aa60e7c21/crip-1.6.1-py3-none-any.whl
+[2023-06-01 14:45:25] INFO root fetch - processPackages [simple-alto-parser]: executing diffoscope
+[2023-06-01 14:45:25] INFO root fetch - processPackages [simple-alto-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-alto-parser-0.0.5.tar.gz tmp/simple-alto-parser-0.0.6.tar.gz --markdown 20230601/s/simple-alto-parser/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-01 14:45:25] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: Start processing: agamprimer
+[2023-06-01 14:45:25] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-control-tower-lifecycle-events]: success
+[2023-06-01 14:45:25] INFO root fetch - processPackages [agamprimer]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-01 14:45:25] INFO root fetch - processPackages [agamprimer]: Downloading https://files.pythonhosted.org/packages/09/5c/e11f64fea7ffcfd71daa5973468b9bf363c9012e13665aa907cb3d475446/agamprimer-0.6.1.tar.gz
+[2023-06-01 14:45:25] INFO root fetch - processPackages [agamprimer]: executing diffoscope
+[2023-06-01 14:45:25] INFO root fetch - processPackages [agamprimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agamprimer-0.6.0.tar.gz tmp/agamprimer-0.6.1.tar.gz --markdown 20230601/a/agamprimer/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-01 14:45:26] INFO root fetch - processPackages [wizata-dsapi]: Start processing: sysml2py
+[2023-06-01 14:45:26] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-06-01 14:45:26] INFO root fetch - processPackages [sysml2py]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-01 14:45:26] INFO root fetch - processPackages [sysml2py]: Downloading https://files.pythonhosted.org/packages/77/8c/c36bf81572f4ab0ce8f316453422836202d8fd29f677a0232d9d2836edc9/sysml2py-0.1.2.tar.gz
+[2023-06-01 14:45:26] INFO root fetch - processPackages [comex]: Start processing: wlkatapython
+[2023-06-01 14:45:26] INFO root fetch - main [MainThread]: End processing [comex]: success
+[2023-06-01 14:45:26] INFO root fetch - processPackages [wlkatapython]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-01 14:45:26] INFO root fetch - processPackages [sysml2py]: executing diffoscope
+[2023-06-01 14:45:26] INFO root fetch - processPackages [sysml2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysml2py-0.1.1.tar.gz tmp/sysml2py-0.1.2.tar.gz --markdown 20230601/s/sysml2py/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-01 14:45:26] INFO root fetch - processPackages [wlkatapython]: Downloading https://files.pythonhosted.org/packages/57/23/2bf5b8f6c619d966504d865a65721d5837dda94917f6c4970c216d73f795/wlkatapython-0.0.3.tar.gz
+[2023-06-01 14:45:26] INFO root fetch - processPackages [wlkatapython]: executing diffoscope
+[2023-06-01 14:45:26] INFO root fetch - processPackages [wlkatapython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wlkatapython-0.0.2.tar.gz tmp/wlkatapython-0.0.3.tar.gz --markdown 20230601/w/wlkatapython/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-01 14:45:26] INFO root fetch - main [MainThread]: End processing [mech-client]: success
+[2023-06-01 14:45:27] INFO root fetch - main [MainThread]: End processing [optool]: success
+[2023-06-01 14:45:27] INFO root fetch - main [MainThread]: End processing [simple-alto-parser]: success
+[2023-06-01 14:45:27] INFO root fetch - processPackages [crip]: Downloading https://files.pythonhosted.org/packages/43/6c/ebca5c935b0a80bbd94e9b25bd7d88341dfabdba90c02c42dabbf10f41a1/crip-1.6.3-py3-none-any.whl
+[2023-06-01 14:45:27] INFO root fetch - main [MainThread]: End processing [agamprimer]: success
+[2023-06-01 14:45:27] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-06-01 14:45:27] INFO root fetch - main [MainThread]: End processing [sysml2py]: success
+[2023-06-01 14:45:28] INFO root fetch - processPackages [crip]: executing diffoscope
+[2023-06-01 14:45:28] INFO root fetch - processPackages [crip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crip-1.6.1-py3-none-any.whl.zip tmp/crip-1.6.3-py3-none-any.whl.zip --markdown 20230601/c/crip/1.6.1-1.6.3/diff.md --exclude *.pyd
+[2023-06-01 14:45:28] INFO root fetch - main [MainThread]: End processing [wlkatapython]: success
+[2023-06-01 14:45:28] INFO root fetch - main [MainThread]: End processing [ansys-grantami-serverapi-openapi]: success
+[2023-06-01 14:45:30] INFO root fetch - main [MainThread]: End processing [crip]: success
+[2023-06-01 14:45:56] INFO root fetch - main [MainThread]: End processing [hiperwalk]: success
+[2023-06-01 14:45:56] INFO root fetch - main [MainThread]: Store serial: [18333297]
