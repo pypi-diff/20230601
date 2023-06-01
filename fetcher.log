@@ -9823,3 +9823,60 @@
 [2023-06-01 06:56:28] INFO root fetch - main [MainThread]: End processing [pydavinci18]: success
 [2023-06-01 06:56:32] INFO root fetch - main [MainThread]: End processing [django-ledger]: success
 [2023-06-01 06:56:32] INFO root fetch - main [MainThread]: Store serial: [18328305]
+[2023-06-01 07:01:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18328305]
+[2023-06-01 07:01:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-01 07:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DLMS-SPODES
+[2023-06-01 07:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: v3iofs
+[2023-06-01 07:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OpihiExarata
+[2023-06-01 07:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: klp-commons
+[2023-06-01 07:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pip-inside
+[2023-06-01 07:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jax-tools
+[2023-06-01 07:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: custodial-registration-proxy
+[2023-06-01 07:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cryptopp
+[2023-06-01 07:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: klp-commons
+[2023-06-01 07:01:41] INFO root fetch - processPackages [v3iofs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 07:01:41] INFO root fetch - processPackages [klp-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 07:01:41] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-01 07:01:41] INFO root fetch - processPackages [jax-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 07:01:41] INFO root fetch - processPackages [OpihiExarata]: New version: [2023.6.1] Old Version: [2023.5.26]
+[2023-06-01 07:01:41] INFO root fetch - processPackages [cryptopp]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-01 07:01:41] INFO root fetch - processPackages [custodial-registration-proxy]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-01 07:01:41] INFO root fetch - processPackages [klp-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 07:01:41] INFO root fetch - processPackages [pip-inside]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 07:01:41] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/a3/de/5131302142b5378bec570b89997f930a698db75f39b38a9ea4338d58146b/jax-tools-1.0.8.tar.gz
+[2023-06-01 07:01:41] INFO root fetch - processPackages [cryptopp]: Downloading https://files.pythonhosted.org/packages/bf/7d/8afc8e21064134ea5719a5511fb774329d8395802e88c73d34a2d84d7c40/cryptopp-1.0.2.tar.gz
+[2023-06-01 07:01:41] INFO root fetch - processPackages [v3iofs]: Downloading https://files.pythonhosted.org/packages/d0/45/4b9d981eaa618733d5eea3f7b216c22615d1fef2273299ca61ad8ea855f1/v3iofs-0.1.8.tar.gz
+[2023-06-01 07:01:41] INFO root fetch - processPackages [custodial-registration-proxy]: Downloading https://files.pythonhosted.org/packages/89/67/b094c9241f28582ebad836c4a117c98beb81ae700ff44089c15f5a6ff3f2/custodial-registration-proxy-0.1.0.tar.gz
+[2023-06-01 07:01:41] INFO root fetch - processPackages [pip-inside]: executing diffoscope
+[2023-06-01 07:01:41] INFO root fetch - processPackages [pip-inside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-inside-0.1.8.tar.gz tmp/pip-inside-0.1.9.tar.gz --markdown 20230601/p/pip-inside/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 07:01:41] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/72/59/036d17fbc6b655482cb0760419e87b448171be464471afa03d8596c39864/jax-tools-1.0.9.tar.gz
+[2023-06-01 07:01:41] INFO root fetch - processPackages [klp-commons]: executing diffoscope
+[2023-06-01 07:01:41] INFO root fetch - processPackages [klp-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klp-commons-0.0.8.tar.gz tmp/klp-commons-0.0.9.tar.gz --markdown 20230601/k/klp-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 07:01:41] INFO root fetch - processPackages [OpihiExarata]: Downloading https://files.pythonhosted.org/packages/e4/a9/e759b4bf3da86a80800f1b64497279b60ef0867cea3c4f99997b0c4dbead/OpihiExarata-2023.6.1.tar.gz
+[2023-06-01 07:01:41] INFO root fetch - processPackages [klp-commons]: executing diffoscope
+[2023-06-01 07:01:41] INFO root fetch - processPackages [klp-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klp-commons-0.0.8.tar.gz tmp/klp-commons-0.0.9.tar.gz --markdown 20230601/k/klp-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 07:01:41] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-06-01 07:01:41] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230601/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 07:01:41] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2023-06-01 07:01:41] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.8.tar.gz tmp/jax-tools-1.0.9.tar.gz --markdown 20230601/j/jax-tools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 07:01:41] INFO root fetch - processPackages [v3iofs]: Downloading https://files.pythonhosted.org/packages/5d/03/fcc3a4b430e10bfa1c8fdd2febd7cecbab27bb567e50b08933acb6706551/v3iofs-0.1.9.tar.gz
+[2023-06-01 07:01:41] INFO root fetch - processPackages [cryptopp]: Downloading https://files.pythonhosted.org/packages/0a/fe/14eba2908aab100e9b482cd319c4ca9667fecde6440305cee7c766833db0/cryptopp-1.0.3.tar.gz
+[2023-06-01 07:01:41] INFO root fetch - processPackages [v3iofs]: executing diffoscope
+[2023-06-01 07:01:41] INFO root fetch - processPackages [v3iofs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v3iofs-0.1.8.tar.gz tmp/v3iofs-0.1.9.tar.gz --markdown 20230601/v/v3iofs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 07:01:41] INFO root fetch - processPackages [cryptopp]: executing diffoscope
+[2023-06-01 07:01:41] INFO root fetch - processPackages [cryptopp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptopp-1.0.2.tar.gz tmp/cryptopp-1.0.3.tar.gz --markdown 20230601/c/cryptopp/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-01 07:01:41] INFO root fetch - processPackages [custodial-registration-proxy]: Downloading https://files.pythonhosted.org/packages/27/51/e9f317336728b26dfc747da36486703e0a7dcab7326aa3edf1ba18a317ad/custodial-registration-proxy-0.2.0.tar.gz
+[2023-06-01 07:01:41] INFO root fetch - processPackages [OpihiExarata]: executing diffoscope
+[2023-06-01 07:01:41] INFO root fetch - processPackages [OpihiExarata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpihiExarata-2023.5.26.tar.gz tmp/OpihiExarata-2023.6.1.tar.gz --markdown 20230601/O/OpihiExarata/2023.5.26-2023.6.1/diff.md --exclude *.pyd
+[2023-06-01 07:01:41] INFO root fetch - processPackages [custodial-registration-proxy]: executing diffoscope
+[2023-06-01 07:01:41] INFO root fetch - processPackages [custodial-registration-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custodial-registration-proxy-0.1.0.tar.gz tmp/custodial-registration-proxy-0.2.0.tar.gz --markdown 20230601/c/custodial-registration-proxy/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-01 07:01:43] INFO root fetch - main [MainThread]: End processing [klp-commons]: success
+[2023-06-01 07:01:43] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2023-06-01 07:01:43] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-06-01 07:01:43] INFO root fetch - main [MainThread]: End processing [klp-commons]: success
+[2023-06-01 07:01:43] INFO root fetch - main [MainThread]: End processing [pip-inside]: success
+[2023-06-01 07:01:43] INFO root fetch - main [MainThread]: End processing [cryptopp]: success
+[2023-06-01 07:01:43] INFO root fetch - main [MainThread]: End processing [v3iofs]: success
+[2023-06-01 07:01:44] INFO root fetch - main [MainThread]: End processing [custodial-registration-proxy]: success
+[2023-06-01 07:01:46] INFO root fetch - main [MainThread]: End processing [OpihiExarata]: success
+[2023-06-01 07:01:46] INFO root fetch - main [MainThread]: Store serial: [18328329]
