@@ -4190,3 +4190,74 @@
 [2023-06-01 03:43:10] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
 [2023-06-01 03:45:06] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-06-01 03:45:06] INFO root fetch - main [MainThread]: Store serial: [18325320]
+[2023-06-01 03:50:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18325320]
+[2023-06-01 03:50:16] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-01 03:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proactive
+[2023-06-01 03:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strategais
+[2023-06-01 03:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-scipy
+[2023-06-01 03:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proactive-jupyter-kernel
+[2023-06-01 03:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proactive-jupyter-kernel
+[2023-06-01 03:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datachain-sources
+[2023-06-01 03:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-sphinx
+[2023-06-01 03:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rongdavbaaddins
+[2023-06-01 03:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: astro-elk
+[2023-06-01 03:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-django
+[2023-06-01 03:50:16] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-01 03:50:16] WARNING root fetch - processPackages [rongdavbaaddins]: Skipping, unable to determine old version
+[2023-06-01 03:50:16] INFO root fetch - processPackages [rongdavbaaddins]: Start processing: server-roberta
+[2023-06-01 03:50:16] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins] error
+[2023-06-01 03:50:16] INFO root fetch - processPackages [astro-elk]: New version: [0.9] Old Version: [0.8]
+[2023-06-01 03:50:16] WARNING root fetch - processPackages [datachain-sources]: Skipping, unable to determine old version
+[2023-06-01 03:50:16] INFO root fetch - processPackages [datachain-sources]: Start processing: nbdev-apl
+[2023-06-01 03:50:16] INFO root fetch - main [MainThread]: End processing [datachain-sources] error
+[2023-06-01 03:50:16] INFO root fetch - processPackages [strategais]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-01 03:50:16] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-06-01 03:50:16] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 03:50:16] INFO root fetch - processPackages [server-roberta]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-01 03:50:16] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-01 03:50:16] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 03:50:16] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 03:50:16] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.807] Old Version: [0.0.806]
+[2023-06-01 03:50:17] INFO root fetch - processPackages [astro-elk]: Downloading https://files.pythonhosted.org/packages/89/83/940e4c7d67be79fddf55c5f9abd869a5e9075212a7d8383e73793f56d278/astro-elk-0.8.tar.gz
+[2023-06-01 03:50:17] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-01 03:50:17] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230601/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 03:50:17] INFO root fetch - processPackages [server-roberta]: Downloading https://files.pythonhosted.org/packages/fd/15/3ac27744692597c37761431a1e13fbced3b4851963753da745c0171f467f/server-roberta-0.0.3.tar.gz
+[2023-06-01 03:50:17] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-06-01 03:50:17] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-01 03:50:17] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230601/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 03:50:17] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-06-01 03:50:17] INFO root fetch - processPackages [proactive]: Start processing: pref-voting
+[2023-06-01 03:50:17] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-06-01 03:50:17] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/36/76/e7a908f05a4a900af83bcd434eca7d00e8db8013014469bfede20c55b8a6/nbdev-apl-0.0.807.tar.gz
+[2023-06-01 03:50:17] INFO root fetch - processPackages [pref-voting]: New version: [0.4] Old Version: [0.3.4]
+[2023-06-01 03:50:17] INFO root fetch - processPackages [strategais]: Downloading https://files.pythonhosted.org/packages/aa/d8/dd151eb45dc35c1d12dce53c0a88abedd84095510a04c609a42293e88e84/strategais-0.1.2.tar.gz
+[2023-06-01 03:50:17] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-06-01 03:50:17] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.806.tar.gz tmp/nbdev-apl-0.0.807.tar.gz --markdown 20230601/n/nbdev-apl/0.0.806-0.0.807/diff.md --exclude *.pyd
+[2023-06-01 03:50:17] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-01 03:50:17] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230601/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 03:50:17] INFO root fetch - processPackages [strategais]: executing diffoscope
+[2023-06-01 03:50:17] INFO root fetch - processPackages [strategais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strategais-0.1.1.tar.gz tmp/strategais-0.1.2.tar.gz --markdown 20230601/s/strategais/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-01 03:50:17] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-01 03:50:17] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230601/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-01 03:50:17] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-01 03:50:17] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230601/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-01 03:50:17] INFO root fetch - processPackages [server-roberta]: Downloading https://files.pythonhosted.org/packages/12/f0/944b3aa8be522f9a06e151bdd66f24c9c487b150eed2af15223958597eee/server-roberta-0.0.4.tar.gz
+[2023-06-01 03:50:17] INFO root fetch - processPackages [astro-elk]: Downloading https://files.pythonhosted.org/packages/b2/e5/23e12a3b70725b5454d3c5f1323ba1b3646df0e67b524e1a7c6da01b863e/astro-elk-0.9.tar.gz
+[2023-06-01 03:50:17] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/0e/f8/bdb3f7cf676905f565411f2d0cf62ea82958ed102e71762d09b8d94d2093/pref_voting-0.4.tar.gz
+[2023-06-01 03:50:17] INFO root fetch - processPackages [server-roberta]: executing diffoscope
+[2023-06-01 03:50:17] INFO root fetch - processPackages [server-roberta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/server-roberta-0.0.3.tar.gz tmp/server-roberta-0.0.4.tar.gz --markdown 20230601/s/server-roberta/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-01 03:50:17] INFO root fetch - processPackages [astro-elk]: executing diffoscope
+[2023-06-01 03:50:17] INFO root fetch - processPackages [astro-elk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-elk-0.8.tar.gz tmp/astro-elk-0.9.tar.gz --markdown 20230601/a/astro-elk/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-01 03:50:17] INFO root fetch - processPackages [pref-voting]: executing diffoscope
+[2023-06-01 03:50:17] INFO root fetch - processPackages [pref-voting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pref_voting-0.3.4.tar.gz tmp/pref_voting-0.4.tar.gz --markdown 20230601/p/pref-voting/0.3.4-0.4/diff.md --exclude *.pyd
+[2023-06-01 03:50:18] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-01 03:50:18] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-06-01 03:50:18] INFO root fetch - main [MainThread]: End processing [strategais]: success
+[2023-06-01 03:50:19] INFO root fetch - main [MainThread]: End processing [server-roberta]: success
+[2023-06-01 03:50:19] INFO root fetch - main [MainThread]: End processing [astro-elk]: success
+[2023-06-01 03:50:19] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-06-01 03:50:19] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-06-01 03:50:19] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
+[2023-06-01 03:50:19] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-01 03:50:20] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-01 03:50:20] INFO root fetch - main [MainThread]: Store serial: [18325360]
