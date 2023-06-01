@@ -17042,3 +17042,87 @@
 [2023-06-01 13:56:27] INFO root fetch - main [MainThread]: End processing [napari-boxmanager]: success
 [2023-06-01 13:56:27] INFO root fetch - main [MainThread]: End processing [hestia-earth-models]: success
 [2023-06-01 13:56:27] INFO root fetch - main [MainThread]: Store serial: [18332464]
+[2023-06-01 14:01:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18332464]
+[2023-06-01 14:01:37] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-01 14:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: canvaslms
+[2023-06-01 14:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tracebloc-package-dev
+[2023-06-01 14:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeref
+[2023-06-01 14:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: config-yml
+[2023-06-01 14:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flare-floss
+[2023-06-01 14:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: huza
+[2023-06-01 14:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FuncsForSPO
+[2023-06-01 14:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: domjudge-utility
+[2023-06-01 14:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cliconfig
+[2023-06-01 14:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pykeadhcp
+[2023-06-01 14:01:37] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-01 14:01:37] INFO root fetch - processPackages [flare-floss]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-06-01 14:01:37] INFO root fetch - processPackages [config-yml]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-01 14:01:37] INFO root fetch - processPackages [pykeadhcp]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-01 14:01:37] INFO root fetch - processPackages [huza]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-01 14:01:37] INFO root fetch - processPackages [yeref]: New version: [0.1.72] Old Version: [0.1.71]
+[2023-06-01 14:01:37] INFO root fetch - processPackages [domjudge-utility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 14:01:37] INFO root fetch - processPackages [cliconfig]: New version: [1.0.0b4] Old Version: [1.0.0b3]
+[2023-06-01 14:01:37] INFO root fetch - processPackages [canvaslms]: New version: [2.9] Old Version: [2.8]
+[2023-06-01 14:01:37] INFO root fetch - processPackages [FuncsForSPO]: New version: [4.44.2] Old Version: [4.44.1]
+[2023-06-01 14:01:37] INFO root fetch - processPackages [canvaslms]: executing diffoscope
+[2023-06-01 14:01:37] INFO root fetch - processPackages [canvaslms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canvaslms-2.8.tar.gz tmp/canvaslms-2.9.tar.gz --markdown 20230601/c/canvaslms/2.8-2.9/diff.md --exclude *.pyd
+[2023-06-01 14:01:37] INFO root fetch - processPackages [domjudge-utility]: executing diffoscope
+[2023-06-01 14:01:37] INFO root fetch - processPackages [domjudge-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domjudge_utility-0.0.8.tar.gz tmp/domjudge_utility-0.0.9.tar.gz --markdown 20230601/d/domjudge-utility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 14:01:37] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/67/30/37fe7e589f16708a2558775c7bc5cff22f16aa97c2256293fca5b1ae08b5/tracebloc_package-dev-0.4.3.tar.gz
+[2023-06-01 14:01:37] INFO root fetch - processPackages [flare-floss]: Downloading https://files.pythonhosted.org/packages/2c/18/00fd3d2cb4921231f327a8c422528054ab5d32708074d986460f59447730/flare-floss-2.2.0.tar.gz
+[2023-06-01 14:01:37] INFO root fetch - processPackages [huza]: Downloading https://files.pythonhosted.org/packages/4a/dc/e8dedef054a8b1138d0206a6b7324a30f569a3f30add09539aed7012c9a6/huza-0.2.8.tar.gz
+[2023-06-01 14:01:37] INFO root fetch - processPackages [pykeadhcp]: Downloading https://files.pythonhosted.org/packages/ac/ee/fb5af52ce1d67911a24c1fbc196fa7e7ebe95bcceac2fe6a95400bf6e329/pykeadhcp-0.1.1.tar.gz
+[2023-06-01 14:01:37] WARNING root fetch - processPackages [flare-floss]: Skipping package: exceeds size limit 15149016>=10485760
+[2023-06-01 14:01:37] INFO root fetch - processPackages [flare-floss]: Start processing: bigdl-dllib
+[2023-06-01 14:01:37] INFO root fetch - main [MainThread]: End processing [flare-floss] error
+[2023-06-01 14:01:37] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/2d/fb/4cd72b7a0db9104e75b92fed3978aef3c0164e1da95a2cb858144c01b17d/yeref-0.1.72.tar.gz
+[2023-06-01 14:01:37] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2023-06-01 14:01:37] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.4.2.tar.gz tmp/tracebloc_package-dev-0.4.3.tar.gz --markdown 20230601/t/tracebloc-package-dev/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-01 14:01:37] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230601] Old Version: [2.4.0b20230531]
+[2023-06-01 14:01:37] INFO root fetch - processPackages [config-yml]: Downloading https://files.pythonhosted.org/packages/c3/12/3778f0e74fca60c8edebb02b1d8cbdd4276efb752a9d7166fbe41931fbe0/config_yml-0.3.1.tar.gz
+[2023-06-01 14:01:37] INFO root fetch - processPackages [pykeadhcp]: executing diffoscope
+[2023-06-01 14:01:37] INFO root fetch - processPackages [pykeadhcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykeadhcp-0.1.0.tar.gz tmp/pykeadhcp-0.1.1.tar.gz --markdown 20230601/p/pykeadhcp/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-01 14:01:37] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/2b/9e/c47558610098cf490bb4e29fdcdceb0e2bf2414e0ff3ce0f6d8a375ddaca/FuncsForSPO-4.44.2.tar.gz
+[2023-06-01 14:01:37] INFO root fetch - processPackages [cliconfig]: Downloading https://files.pythonhosted.org/packages/db/99/ce393db9f69a3b96b272123f5151ea6de970088c7738bd466878fa92ed66/cliconfig-1.0.0b4.tar.gz
+[2023-06-01 14:01:37] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-01 14:01:37] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.71.tar.gz tmp/yeref-0.1.72.tar.gz --markdown 20230601/y/yeref/0.1.71-0.1.72/diff.md --exclude *.pyd
+[2023-06-01 14:01:37] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-01 14:01:37] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-4.44.1.tar.gz tmp/FuncsForSPO-4.44.2.tar.gz --markdown 20230601/F/FuncsForSPO/4.44.1-4.44.2/diff.md --exclude *.pyd
+[2023-06-01 14:01:37] INFO root fetch - processPackages [cliconfig]: executing diffoscope
+[2023-06-01 14:01:37] INFO root fetch - processPackages [cliconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliconfig-1.0.0b3.tar.gz tmp/cliconfig-1.0.0b4.tar.gz --markdown 20230601/c/cliconfig/1.0.0b3-1.0.0b4/diff.md --exclude *.pyd
+[2023-06-01 14:01:37] INFO root fetch - processPackages [config-yml]: executing diffoscope
+[2023-06-01 14:01:37] INFO root fetch - processPackages [config-yml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config_yml-0.3.0.tar.gz tmp/config_yml-0.3.1.tar.gz --markdown 20230601/c/config-yml/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-01 14:01:37] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/28/dc/4a16d654547dc18b57296f2e1e10159844ab61e67b13210e786ed039c639/bigdl-dllib-2.4.0b20230531.tar.gz
+[2023-06-01 14:01:37] INFO root fetch - processPackages [huza]: Downloading https://files.pythonhosted.org/packages/97/6f/1f32bc0b4d50df2fe53edb286c1e75702196fe17a4417eb12400da611c09/huza-0.2.9.tar.gz
+[2023-06-01 14:01:37] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53560018>=10485760
+[2023-06-01 14:01:37] INFO root fetch - processPackages [bigdl-dllib]: Start processing: odoo14-addon-mail-template-multi-attachment
+[2023-06-01 14:01:37] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-06-01 14:01:37] INFO root fetch - processPackages [huza]: executing diffoscope
+[2023-06-01 14:01:37] INFO root fetch - processPackages [huza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huza-0.2.8.tar.gz tmp/huza-0.2.9.tar.gz --markdown 20230601/h/huza/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-01 14:01:37] WARNING root fetch - processPackages [odoo14-addon-mail-template-multi-attachment]: Skipping, unable to determine old version
+[2023-06-01 14:01:37] INFO root fetch - processPackages [odoo14-addon-mail-template-multi-attachment]: Start processing: bigdl-orca
+[2023-06-01 14:01:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mail-template-multi-attachment] error
+[2023-06-01 14:01:37] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230531] Old Version: [2.4.0b20230530]
+[2023-06-01 14:01:38] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/7f/c6/28b6d463c95e9dfa800a7fb04b106fc08ae20bedf77fe72981e22825295e/bigdl_orca-2.4.0b20230530-py3-none-manylinux1_x86_64.whl
+[2023-06-01 14:01:38] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369342>=10485760
+[2023-06-01 14:01:38] INFO root fetch - processPackages [bigdl-orca]: Start processing: bigdl-friesian
+[2023-06-01 14:01:38] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-06-01 14:01:38] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230531] Old Version: [2.4.0b20230530]
+[2023-06-01 14:01:38] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-06-01 14:01:38] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230530-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230531-py3-none-manylinux1_x86_64.whl.zip --markdown 20230601/b/bigdl-friesian/2.4.0b20230530-2.4.0b20230531/diff.md --exclude *.pyd
+[2023-06-01 14:01:38] INFO root fetch - processPackages [domjudge-utility]: Start processing: bigdl
+[2023-06-01 14:01:38] INFO root fetch - main [MainThread]: End processing [domjudge-utility]: success
+[2023-06-01 14:01:38] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230531] Old Version: [2.4.0b20230530]
+[2023-06-01 14:01:39] INFO root fetch - main [MainThread]: End processing [canvaslms]: success
+[2023-06-01 14:01:39] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2023-06-01 14:01:39] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-06-01 14:01:39] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230530-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230531-py3-none-manylinux1_x86_64.whl.zip --markdown 20230601/b/bigdl/2.4.0b20230530-2.4.0b20230531/diff.md --exclude *.pyd
+[2023-06-01 14:01:39] INFO root fetch - main [MainThread]: End processing [pykeadhcp]: success
+[2023-06-01 14:01:39] INFO root fetch - main [MainThread]: End processing [config-yml]: success
+[2023-06-01 14:01:39] INFO root fetch - main [MainThread]: End processing [huza]: success
+[2023-06-01 14:01:39] INFO root fetch - main [MainThread]: End processing [cliconfig]: success
+[2023-06-01 14:01:40] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-06-01 14:01:40] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-06-01 14:01:40] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-01 14:01:41] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-01 14:01:41] INFO root fetch - main [MainThread]: Store serial: [18332526]
