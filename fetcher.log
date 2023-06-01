@@ -21629,3 +21629,151 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-01 17:06:34] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2023-06-01 17:06:54] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-06-01 17:06:54] INFO root fetch - main [MainThread]: Store serial: [18335586]
+[2023-06-01 17:11:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18335586]
+[2023-06-01 17:12:04] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-01 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mongo-ninja-python
+[2023-06-01 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudservices-arg
+[2023-06-01 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: brightwind
+[2023-06-01 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foundationdb
+[2023-06-01 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-fieldservice-geoengine
+[2023-06-01 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: program-markers
+[2023-06-01 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hj-generate
+[2023-06-01 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: config-patterns
+[2023-06-01 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openplugin
+[2023-06-01 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oslo.messaging
+[2023-06-01 17:12:04] INFO root fetch - processPackages [foundationdb]: New version: [7.3.2] Old Version: [7.3.1]
+[2023-06-01 17:12:04] INFO root fetch - processPackages [mongo-ninja-python]: New version: [1.11.1.5] Old Version: [1.11.1.4]
+[2023-06-01 17:12:04] INFO root fetch - processPackages [cloudservices-arg]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-01 17:12:04] INFO root fetch - processPackages [odoo14-addon-fieldservice-geoengine]: New version: [14.0.1.2.1] Old Version: [14.0.1.2.0]
+[2023-06-01 17:12:04] INFO root fetch - processPackages [program-markers]: New version: [0.5.1] Old Version: [0.4.4]
+[2023-06-01 17:12:04] INFO root fetch - processPackages [config-patterns]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-01 17:12:04] INFO root fetch - processPackages [hj-generate]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-01 17:12:04] INFO root fetch - processPackages [openplugin]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-01 17:12:04] INFO root fetch - processPackages [oslo.messaging]: New version: [9.8.0] Old Version: [9.7.2]
+[2023-06-01 17:12:04] INFO root fetch - processPackages [brightwind]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-01 17:12:05] INFO root fetch - processPackages [openplugin]: Downloading https://files.pythonhosted.org/packages/8c/b6/a676b91bd3782999d837beb976c87740bb2460d8b275e108c20ad81eef83/openplugin-0.0.6.tar.gz
+[2023-06-01 17:12:05] INFO root fetch - processPackages [hj-generate]: Downloading https://files.pythonhosted.org/packages/ad/5e/f9488e0548474f9b5f42bb28e084b002ce67d0717af281c88a7c75b905e8/hj-generate-2.1.0.tar.gz
+[2023-06-01 17:12:05] INFO root fetch - processPackages [odoo14-addon-fieldservice-geoengine]: Downloading https://files.pythonhosted.org/packages/27/5e/0a78454fe1cfa5eef9c2cffacdcddaf022e0c6598cd13f6774ff83da8ae1/odoo14_addon_fieldservice_geoengine-14.0.1.2.0-py3-none-any.whl
+[2023-06-01 17:12:05] INFO root fetch - processPackages [oslo.messaging]: Downloading https://files.pythonhosted.org/packages/28/a4/eab12125ef0e6bb481958f203218f35ce6e19f030080a6567646469b6ba3/oslo.messaging-9.7.2.tar.gz
+[2023-06-01 17:12:05] INFO root fetch - processPackages [cloudservices-arg]: Downloading https://files.pythonhosted.org/packages/94/b4/7ebb6308b421ba9ae3d010821f9880768f55e88e13ebe2413f6a69678058/cloudservices_arg-0.1.2.tar.gz
+[2023-06-01 17:12:05] INFO root fetch - processPackages [program-markers]: Downloading https://files.pythonhosted.org/packages/3d/60/c24dd0109acb7cc9e443d1527dbbaa2b0e8ed27de338a9d10c48a6857a1f/program_markers-0.4.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl
+[2023-06-01 17:12:05] INFO root fetch - processPackages [brightwind]: Downloading https://files.pythonhosted.org/packages/4f/58/145215c074d220f8cd07bb3e61da15902fc8cd8cfd2deea8006fd4b3ffdb/brightwind-2.0.0.tar.gz
+[2023-06-01 17:12:05] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/8b/5c/b1711ce868005f0943a39fbcc358461dbc258bb5df831cc561e780483748/foundationdb-7.3.2.tar.gz
+[2023-06-01 17:12:05] WARNING root fetch - processPackages [brightwind]: Skipping package: exceeds size limit 32351124>=10485760
+[2023-06-01 17:12:05] INFO root fetch - processPackages [brightwind]: Start processing: textual-textarea
+[2023-06-01 17:12:05] INFO root fetch - main [MainThread]: End processing [brightwind] error
+[2023-06-01 17:12:05] INFO root fetch - processPackages [textual-textarea]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-01 17:12:05] INFO root fetch - processPackages [mongo-ninja-python]: Downloading https://files.pythonhosted.org/packages/19/04/599b23fe721e4c2c3db70c644b3922ef57bf8f76bde90b17c2b6725f41a8/mongo_ninja_python-1.11.1.5-py2.py3-none-manylinux_2_24_aarch64.whl
+[2023-06-01 17:12:05] INFO root fetch - processPackages [config-patterns]: Downloading https://files.pythonhosted.org/packages/4b/2f/312fb36ea880b39117b83297572e786dc7f37d8951fe3f78a84a8f6aff29/config_patterns-1.0.2.tar.gz
+[2023-06-01 17:12:05] INFO root fetch - processPackages [hj-generate]: Downloading https://files.pythonhosted.org/packages/2b/9a/2e4db4b2e51c458bb6ae852082acf08b1ac51da9087befbc4208959ebdba/hj-generate-2.1.1.tar.gz
+[2023-06-01 17:12:05] WARNING root fetch - processPackages [program-markers]: Skipping package: exceeds size limit 16835922>=10485760
+[2023-06-01 17:12:05] INFO root fetch - processPackages [program-markers]: Start processing: genetikaplusIO
+[2023-06-01 17:12:05] INFO root fetch - main [MainThread]: End processing [program-markers] error
+[2023-06-01 17:12:05] INFO root fetch - processPackages [foundationdb]: executing diffoscope
+[2023-06-01 17:12:05] INFO root fetch - processPackages [foundationdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundationdb-7.3.1.tar.gz tmp/foundationdb-7.3.2.tar.gz --markdown 20230601/f/foundationdb/7.3.1-7.3.2/diff.md --exclude *.pyd
+[2023-06-01 17:12:05] INFO root fetch - processPackages [cloudservices-arg]: executing diffoscope
+[2023-06-01 17:12:05] INFO root fetch - processPackages [openplugin]: Downloading https://files.pythonhosted.org/packages/03/52/a02f527da824be6115447055846c5e4a5f9c5cafa4f044c5205d3d077f49/openplugin-0.0.7.tar.gz
+[2023-06-01 17:12:05] INFO root fetch - processPackages [cloudservices-arg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudservices_arg-0.1.1.tar.gz tmp/cloudservices_arg-0.1.2.tar.gz --markdown 20230601/c/cloudservices-arg/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-01 17:12:05] WARNING root fetch - processPackages [genetikaplusIO]: Skipping, unable to determine old version
+[2023-06-01 17:12:05] INFO root fetch - processPackages [genetikaplusIO]: Start processing: loggerml
+[2023-06-01 17:12:05] INFO root fetch - main [MainThread]: End processing [genetikaplusIO] error
+[2023-06-01 17:12:05] INFO root fetch - processPackages [odoo14-addon-fieldservice-geoengine]: Downloading https://files.pythonhosted.org/packages/b1/df/6a4190e14d137359eaa23c731e1e4bd8e6fa50f996c8007b92a2f842480a/odoo14_addon_fieldservice_geoengine-14.0.1.2.1-py3-none-any.whl
+[2023-06-01 17:12:05] INFO root fetch - processPackages [loggerml]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-01 17:12:05] INFO root fetch - processPackages [config-patterns]: executing diffoscope
+[2023-06-01 17:12:05] INFO root fetch - processPackages [config-patterns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config_patterns-1.0.1.tar.gz tmp/config_patterns-1.0.2.tar.gz --markdown 20230601/c/config-patterns/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-01 17:12:05] INFO root fetch - processPackages [textual-textarea]: Downloading https://files.pythonhosted.org/packages/b1/2c/c5a22ccfecc2d11ffbe21e40ea05acb1a6acd2dbaa526003e556b28cb36a/textual_textarea-0.1.0.tar.gz
+[2023-06-01 17:12:05] INFO root fetch - processPackages [mongo-ninja-python]: executing diffoscope
+[2023-06-01 17:12:05] INFO root fetch - processPackages [hj-generate]: executing diffoscope
+[2023-06-01 17:12:05] INFO root fetch - processPackages [mongo-ninja-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_ninja_python-1.11.1.4-py2.py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/mongo_ninja_python-1.11.1.5-py2.py3-none-manylinux_2_24_aarch64.whl.zip --markdown 20230601/m/mongo-ninja-python/1.11.1.4-1.11.1.5/diff.md --exclude *.pyd
+[2023-06-01 17:12:05] INFO root fetch - processPackages [hj-generate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hj-generate-2.1.0.tar.gz tmp/hj-generate-2.1.1.tar.gz --markdown 20230601/h/hj-generate/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-01 17:12:05] INFO root fetch - processPackages [openplugin]: executing diffoscope
+[2023-06-01 17:12:05] INFO root fetch - processPackages [openplugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openplugin-0.0.6.tar.gz tmp/openplugin-0.0.7.tar.gz --markdown 20230601/o/openplugin/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-01 17:12:05] INFO root fetch - processPackages [odoo14-addon-fieldservice-geoengine]: executing diffoscope
+[2023-06-01 17:12:05] INFO root fetch - processPackages [odoo14-addon-fieldservice-geoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice_geoengine-14.0.1.2.0-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice_geoengine-14.0.1.2.1-py3-none-any.whl.zip --markdown 20230601/o/odoo14-addon-fieldservice-geoengine/14.0.1.2.0-14.0.1.2.1/diff.md --exclude *.pyd
+[2023-06-01 17:12:05] INFO root fetch - processPackages [oslo.messaging]: Downloading https://files.pythonhosted.org/packages/d9/c3/0126f2b275f9307f7a87f5edb3f46ef26d6693c9bae2b30add9009deeff8/oslo.messaging-9.8.0.tar.gz
+[2023-06-01 17:12:05] INFO root fetch - processPackages [loggerml]: Downloading https://files.pythonhosted.org/packages/6a/c7/b8da66e4ba3439695deb46778c6941ff623cdc2b23784290fbc04d987dd6/loggerml-1.1.0.tar.gz
+[2023-06-01 17:12:05] INFO root fetch - processPackages [textual-textarea]: Downloading https://files.pythonhosted.org/packages/41/54/e379c4f0874bcb635085ad91e87c718fae7045241f3df2ad9f1422f084e2/textual_textarea-0.1.1.tar.gz
+[2023-06-01 17:12:05] INFO root fetch - processPackages [oslo.messaging]: executing diffoscope
+[2023-06-01 17:12:05] INFO root fetch - processPackages [oslo.messaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.messaging-9.7.2.tar.gz tmp/oslo.messaging-9.8.0.tar.gz --markdown 20230601/o/oslo.messaging/9.7.2-9.8.0/diff.md --exclude *.pyd
+[2023-06-01 17:12:05] INFO root fetch - processPackages [loggerml]: Downloading https://files.pythonhosted.org/packages/87/03/c8aa0320d7863faae48ab032b3b663b20f4fb6750a9281b5e5fccbe3be4f/loggerml-1.1.1.tar.gz
+[2023-06-01 17:12:05] INFO root fetch - processPackages [textual-textarea]: executing diffoscope
+[2023-06-01 17:12:05] INFO root fetch - processPackages [textual-textarea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual_textarea-0.1.0.tar.gz tmp/textual_textarea-0.1.1.tar.gz --markdown 20230601/t/textual-textarea/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-01 17:12:06] INFO root fetch - processPackages [loggerml]: executing diffoscope
+[2023-06-01 17:12:06] INFO root fetch - processPackages [loggerml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggerml-1.1.0.tar.gz tmp/loggerml-1.1.1.tar.gz --markdown 20230601/l/loggerml/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-01 17:12:06] INFO root fetch - processPackages [foundationdb]: Start processing: bxsolana-trader-proto
+[2023-06-01 17:12:06] INFO root fetch - main [MainThread]: End processing [foundationdb]: success
+[2023-06-01 17:12:06] INFO root fetch - processPackages [bxsolana-trader-proto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 17:12:07] INFO root fetch - processPackages [cloudservices-arg]: Start processing: th2-data-services-lwdp
+[2023-06-01 17:12:07] INFO root fetch - main [MainThread]: End processing [cloudservices-arg]: success
+[2023-06-01 17:12:07] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.0.3.0.dev5146030867] Old Version: [2.0.3.0.dev5145827351]
+[2023-06-01 17:12:07] INFO root fetch - processPackages [hj-generate]: Start processing: python-automation-framework
+[2023-06-01 17:12:07] INFO root fetch - main [MainThread]: End processing [hj-generate]: success
+[2023-06-01 17:12:07] INFO root fetch - processPackages [python-automation-framework]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-01 17:12:07] INFO root fetch - processPackages [bxsolana-trader-proto]: executing diffoscope
+[2023-06-01 17:12:07] INFO root fetch - processPackages [bxsolana-trader-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bxsolana-trader-proto-0.0.8.tar.gz tmp/bxsolana-trader-proto-0.0.9.tar.gz --markdown 20230601/b/bxsolana-trader-proto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 17:12:07] INFO root fetch - processPackages [config-patterns]: Start processing: docassemble.EFSPIntegration
+[2023-06-01 17:12:07] INFO root fetch - main [MainThread]: End processing [config-patterns]: success
+[2023-06-01 17:12:07] INFO root fetch - processPackages [docassemble.EFSPIntegration]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-01 17:12:07] INFO root fetch - processPackages [python-automation-framework]: Downloading https://files.pythonhosted.org/packages/a2/50/d250c9774f791e55ea9a536e3d8b99fd606bbc7e4273eb3fd5530f3a5f90/python-automation-framework-0.0.9.tar.gz
+[2023-06-01 17:12:07] INFO root fetch - processPackages [docassemble.EFSPIntegration]: Downloading https://files.pythonhosted.org/packages/4e/24/731875943f463d13a64b99c8b44954e7487e6d878e457c14fe15f9d7a0df/docassemble.EFSPIntegration-1.2.1.tar.gz
+[2023-06-01 17:12:07] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/04/46/031ac9f815290d5775408e46af840462c35772db0f9c2653806f6a07cb91/th2_data_services_lwdp-2.0.3.0.dev5146030867.tar.gz
+[2023-06-01 17:12:07] INFO root fetch - processPackages [odoo14-addon-fieldservice-geoengine]: Start processing: byecycle
+[2023-06-01 17:12:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice-geoengine]: success
+[2023-06-01 17:12:07] INFO root fetch - processPackages [byecycle]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-01 17:12:07] INFO root fetch - processPackages [openplugin]: Start processing: stactools
+[2023-06-01 17:12:07] INFO root fetch - main [MainThread]: End processing [openplugin]: success
+[2023-06-01 17:12:07] INFO root fetch - processPackages [docassemble.EFSPIntegration]: Downloading https://files.pythonhosted.org/packages/08/40/8fe3772956727714ca896fb68527dcd3c16776fc048b9fa60b6d68fb6c6e/docassemble.EFSPIntegration-1.2.2.tar.gz
+[2023-06-01 17:12:07] INFO root fetch - processPackages [stactools]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-06-01 17:12:07] INFO root fetch - processPackages [python-automation-framework]: Downloading https://files.pythonhosted.org/packages/be/f7/8a24aa3a320e205cf519a24c4c574c4dab77706647f130c052808b83e500/python-automation-framework-0.1.0.tar.gz
+[2023-06-01 17:12:07] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-01 17:12:07] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.0.3.0.dev5145827351.tar.gz tmp/th2_data_services_lwdp-2.0.3.0.dev5146030867.tar.gz --markdown 20230601/t/th2-data-services-lwdp/2.0.3.0.dev5145827351-2.0.3.0.dev5146030867/diff.md --exclude *.pyd
+[2023-06-01 17:12:07] INFO root fetch - processPackages [docassemble.EFSPIntegration]: executing diffoscope
+[2023-06-01 17:12:07] INFO root fetch - processPackages [docassemble.EFSPIntegration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.EFSPIntegration-1.2.1.tar.gz tmp/docassemble.EFSPIntegration-1.2.2.tar.gz --markdown 20230601/d/docassemble.EFSPIntegration/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-01 17:12:07] INFO root fetch - processPackages [python-automation-framework]: executing diffoscope
+[2023-06-01 17:12:07] INFO root fetch - processPackages [python-automation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-automation-framework-0.0.9.tar.gz tmp/python-automation-framework-0.1.0.tar.gz --markdown 20230601/p/python-automation-framework/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-01 17:12:08] INFO root fetch - processPackages [stactools]: Downloading https://files.pythonhosted.org/packages/6a/24/93477be650d0694481975eeefa3336298470f3c5c05bc4757a3285d0a305/stactools-0.4.7.tar.gz
+[2023-06-01 17:12:08] INFO root fetch - processPackages [textual-textarea]: Start processing: MPSPlots
+[2023-06-01 17:12:08] INFO root fetch - main [MainThread]: End processing [textual-textarea]: success
+[2023-06-01 17:12:08] INFO root fetch - processPackages [MPSPlots]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-01 17:12:08] INFO root fetch - processPackages [byecycle]: Downloading https://files.pythonhosted.org/packages/a2/dc/0fed02dbf223c4336a170e4ea19c3ca92fe4591fd37bcd67732398b2340f/byecycle-0.1.3.tar.gz
+[2023-06-01 17:12:08] INFO root fetch - processPackages [MPSPlots]: executing diffoscope
+[2023-06-01 17:12:08] INFO root fetch - processPackages [MPSPlots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MPSPlots-0.3.8-py3-none-any.whl.zip tmp/MPSPlots-0.3.9-py3-none-any.whl.zip --markdown 20230601/M/MPSPlots/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-01 17:12:08] INFO root fetch - processPackages [byecycle]: executing diffoscope
+[2023-06-01 17:12:08] INFO root fetch - processPackages [byecycle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byecycle-0.1.2.tar.gz tmp/byecycle-0.1.3.tar.gz --markdown 20230601/b/byecycle/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-01 17:12:08] INFO root fetch - processPackages [stactools]: Downloading https://files.pythonhosted.org/packages/75/1a/df8b71f4e66959d7de832c622413572c5088be14331e01c449872c1e3231/stactools-0.4.8.tar.gz
+[2023-06-01 17:12:08] INFO root fetch - processPackages [stactools]: executing diffoscope
+[2023-06-01 17:12:08] INFO root fetch - processPackages [stactools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stactools-0.4.7.tar.gz tmp/stactools-0.4.8.tar.gz --markdown 20230601/s/stactools/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-06-01 17:12:08] INFO root fetch - processPackages [mongo-ninja-python]: Start processing: NewareNDA
+[2023-06-01 17:12:08] INFO root fetch - main [MainThread]: End processing [mongo-ninja-python]: success
+[2023-06-01 17:12:08] INFO root fetch - processPackages [NewareNDA]: New version: [2023.6.1] Old Version: [2023.5.1]
+[2023-06-01 17:12:09] INFO root fetch - processPackages [NewareNDA]: Downloading https://files.pythonhosted.org/packages/e9/c8/904b3b7ede2ef3148d2b7446bfceeb37a8d1e61863cb375afd3548126d3c/NewareNDA-2023.5.1-py3-none-any.whl
+[2023-06-01 17:12:09] INFO root fetch - processPackages [oslo.messaging]: Start processing: openplugin
+[2023-06-01 17:12:09] INFO root fetch - main [MainThread]: End processing [oslo.messaging]: success
+[2023-06-01 17:12:09] INFO root fetch - processPackages [openplugin]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-01 17:12:09] INFO root fetch - processPackages [openplugin]: executing diffoscope
+[2023-06-01 17:12:09] INFO root fetch - processPackages [openplugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openplugin-0.0.6.tar.gz tmp/openplugin-0.0.7.tar.gz --markdown 20230601/o/openplugin/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-01 17:12:09] INFO root fetch - processPackages [NewareNDA]: Downloading https://files.pythonhosted.org/packages/8a/a8/b4550ee38e04f18d84466cc9eb02858ffc9957e9a5c6822e4d1dfc24c31e/NewareNDA-2023.6.1.tar.gz
+[2023-06-01 17:12:09] INFO root fetch - processPackages [NewareNDA]: executing diffoscope
+[2023-06-01 17:12:09] INFO root fetch - processPackages [NewareNDA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NewareNDA-2023.5.1-py3-none-any.whl.zip tmp/NewareNDA-2023.6.1.tar.gz --markdown 20230601/N/NewareNDA/2023.5.1-2023.6.1/diff.md --exclude *.pyd
+[2023-06-01 17:12:09] INFO root fetch - processPackages [th2-data-services-lwdp]: Start processing: splight-cli
+[2023-06-01 17:12:09] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-01 17:12:09] INFO root fetch - processPackages [splight-cli]: New version: [3.0.0.dev2] Old Version: [3.0.0.dev1]
+[2023-06-01 17:12:09] INFO root fetch - processPackages [splight-cli]: Downloading https://files.pythonhosted.org/packages/50/06/7e4aa4fded58724e6e5746be97d8225a6d2b835b34afeb6626e1172bfd5d/splight-cli-3.0.0.dev2.tar.gz
+[2023-06-01 17:12:09] INFO root fetch - processPackages [bxsolana-trader-proto]: Start processing: speakeasy-client-sdk-python
+[2023-06-01 17:12:09] INFO root fetch - processPackages [splight-cli]: executing diffoscope
+[2023-06-01 17:12:09] INFO root fetch - main [MainThread]: End processing [bxsolana-trader-proto]: success
+[2023-06-01 17:12:09] INFO root fetch - processPackages [splight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-cli-3.0.0.dev1.tar.gz tmp/splight-cli-3.0.0.dev2.tar.gz --markdown 20230601/s/splight-cli/3.0.0.dev1-3.0.0.dev2/diff.md --exclude *.pyd
+[2023-06-01 17:12:09] INFO root fetch - main [MainThread]: End processing [docassemble.EFSPIntegration]: success
+[2023-06-01 17:12:09] INFO root fetch - main [MainThread]: End processing [python-automation-framework]: success
+[2023-06-01 17:12:10] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-01 17:12:10] INFO root fetch - main [MainThread]: End processing [byecycle]: success
+[2023-06-01 17:12:10] INFO root fetch - main [MainThread]: End processing [MPSPlots]: success
+[2023-06-01 17:12:10] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2023-06-01 17:12:10] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-1.9.0.tar.gz tmp/speakeasy-client-sdk-python-1.9.1.tar.gz --markdown 20230601/s/speakeasy-client-sdk-python/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-01 17:12:10] INFO root fetch - main [MainThread]: End processing [loggerml]: success
+[2023-06-01 17:12:11] INFO root fetch - main [MainThread]: End processing [openplugin]: success
+[2023-06-01 17:12:11] INFO root fetch - main [MainThread]: End processing [stactools]: success
+[2023-06-01 17:12:11] INFO root fetch - main [MainThread]: End processing [NewareNDA]: success
+[2023-06-01 17:12:11] INFO root fetch - main [MainThread]: End processing [splight-cli]: success
+[2023-06-01 17:12:11] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2023-06-01 17:12:11] INFO root fetch - main [MainThread]: Store serial: [18335656]
