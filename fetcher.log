@@ -21515,3 +21515,117 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-01 17:01:05] INFO root fetch - main [MainThread]: End processing [pyagrum]: success
 [2023-06-01 17:01:05] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
 [2023-06-01 17:01:05] INFO root fetch - main [MainThread]: Store serial: [18335502]
+[2023-06-01 17:06:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18335502]
+[2023-06-01 17:06:15] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-01 17:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huggingface-hub
+[2023-06-01 17:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nowcasting-datamodel
+[2023-06-01 17:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bdffont
+[2023-06-01 17:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: splight-cli
+[2023-06-01 17:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: taxi-zebra
+[2023-06-01 17:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dwave-gate
+[2023-06-01 17:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MPSPlots
+[2023-06-01 17:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qoqo-qasm
+[2023-06-01 17:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: heaven
+[2023-06-01 17:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyFinitDiff
+[2023-06-01 17:06:15] INFO root fetch - processPackages [bdffont]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 17:06:15] INFO root fetch - processPackages [huggingface-hub]: New version: [0.9.1] Old Version: [0.9.0rc3]
+[2023-06-01 17:06:15] INFO root fetch - processPackages [taxi-zebra]: New version: [4.0.0] Old Version: [3.1.0]
+[2023-06-01 17:06:15] INFO root fetch - processPackages [heaven]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-01 17:06:15] INFO root fetch - processPackages [PyFinitDiff]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-01 17:06:15] INFO root fetch - processPackages [dwave-gate]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-01 17:06:15] INFO root fetch - processPackages [MPSPlots]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-01 17:06:15] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-01 17:06:15] INFO root fetch - processPackages [splight-cli]: New version: [3.0.0.dev1] Old Version: [2.3.9]
+[2023-06-01 17:06:15] INFO root fetch - processPackages [qoqo-qasm]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-06-01 17:06:15] INFO root fetch - processPackages [bdffont]: executing diffoscope
+[2023-06-01 17:06:15] INFO root fetch - processPackages [bdffont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdffont-0.0.8.tar.gz tmp/bdffont-0.0.9.tar.gz --markdown 20230601/b/bdffont/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 17:06:15] INFO root fetch - processPackages [MPSPlots]: executing diffoscope
+[2023-06-01 17:06:15] INFO root fetch - processPackages [MPSPlots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MPSPlots-0.3.8-py3-none-any.whl.zip tmp/MPSPlots-0.3.9-py3-none-any.whl.zip --markdown 20230601/M/MPSPlots/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-01 17:06:15] INFO root fetch - processPackages [taxi-zebra]: Downloading https://files.pythonhosted.org/packages/d7/8e/fd435e9398a2a27dae411304547d16c1424b8b0f7eaeda6730292501cfb7/taxi_zebra-3.1.0.tar.gz
+[2023-06-01 17:06:15] INFO root fetch - processPackages [dwave-gate]: Downloading https://files.pythonhosted.org/packages/ec/f9/24f4bdb7678e3c6d062f185fa7c4be3c08c504c798a9e8fa235572d6648d/dwave-gate-0.2.0.tar.gz
+[2023-06-01 17:06:15] INFO root fetch - processPackages [heaven]: Downloading https://files.pythonhosted.org/packages/35/5a/d1a2a0f6098368ced6788db878549a3461a0e283884b080d2ff699e0b682/heaven-0.0.1.tar.gz
+[2023-06-01 17:06:15] INFO root fetch - processPackages [PyFinitDiff]: Downloading https://files.pythonhosted.org/packages/62/d5/c915d86f76dd13622940875d22c03f0b67662f843c7b0b1c5ac854a2dc95/PyFinitDiff-0.4.3-py3-none-any.whl
+[2023-06-01 17:06:15] INFO root fetch - processPackages [PyFinitDiff]: executing diffoscope
+[2023-06-01 17:06:15] INFO root fetch - processPackages [PyFinitDiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFinitDiff-0.4.2-py3-none-any.whl.zip tmp/PyFinitDiff-0.4.3-py3-none-any.whl.zip --markdown 20230601/P/PyFinitDiff/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-01 17:06:15] INFO root fetch - processPackages [qoqo-qasm]: Downloading https://files.pythonhosted.org/packages/62/e4/a17241e432d8b8c5cd18920509237a25f3d398bcc3f94ba39eca316403c2/qoqo_qasm-0.7.5.tar.gz
+[2023-06-01 17:06:15] INFO root fetch - processPackages [huggingface-hub]: executing diffoscope
+[2023-06-01 17:06:15] INFO root fetch - processPackages [huggingface-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huggingface_hub-0.9.0rc3.tar.gz tmp/huggingface_hub-0.9.1.tar.gz --markdown 20230601/h/huggingface-hub/0.9.0rc3-0.9.1/diff.md --exclude *.pyd
+[2023-06-01 17:06:15] INFO root fetch - processPackages [splight-cli]: Downloading https://files.pythonhosted.org/packages/13/d0/11a0e3c54c15e9b6459568148eddb1ccc7d6661ed6520732ecaafb52f9bc/splight-cli-3.0.0.dev1.tar.gz
+[2023-06-01 17:06:15] INFO root fetch - processPackages [heaven]: Downloading https://files.pythonhosted.org/packages/31/01/dcaa0958a4fbd7d5a5a73e6247220f2186c30d13040d32ea9a5874d6d604/heaven-0.0.2.tar.gz
+[2023-06-01 17:06:15] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-06-01 17:06:15] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.3.8.tar.gz tmp/nowcasting_datamodel-1.3.9.tar.gz --markdown 20230601/n/nowcasting-datamodel/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-01 17:06:15] INFO root fetch - processPackages [dwave-gate]: Downloading https://files.pythonhosted.org/packages/4d/a4/f1c4cd4d935619c40ef5bf284e968503a986551a68274d8c33ee4b91df49/dwave-gate-0.2.1.tar.gz
+[2023-06-01 17:06:15] INFO root fetch - processPackages [qoqo-qasm]: executing diffoscope
+[2023-06-01 17:06:15] INFO root fetch - processPackages [qoqo-qasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_qasm-0.7.4.tar.gz tmp/qoqo_qasm-0.7.5.tar.gz --markdown 20230601/q/qoqo-qasm/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-06-01 17:06:15] INFO root fetch - processPackages [splight-cli]: executing diffoscope
+[2023-06-01 17:06:15] INFO root fetch - processPackages [splight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-cli-2.3.9.tar.gz tmp/splight-cli-3.0.0.dev1.tar.gz --markdown 20230601/s/splight-cli/2.3.9-3.0.0.dev1/diff.md --exclude *.pyd
+[2023-06-01 17:06:15] INFO root fetch - processPackages [taxi-zebra]: Downloading https://files.pythonhosted.org/packages/e0/42/03d6994e5db8d135656576ea27ce10389e1edd1c4f2c9aac0ac524d227d1/taxi_zebra-4.0.0.tar.gz
+[2023-06-01 17:06:15] INFO root fetch - processPackages [heaven]: executing diffoscope
+[2023-06-01 17:06:15] INFO root fetch - processPackages [heaven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaven-0.0.1.tar.gz tmp/heaven-0.0.2.tar.gz --markdown 20230601/h/heaven/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-01 17:06:15] INFO root fetch - processPackages [dwave-gate]: executing diffoscope
+[2023-06-01 17:06:15] INFO root fetch - processPackages [dwave-gate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwave-gate-0.2.0.tar.gz tmp/dwave-gate-0.2.1.tar.gz --markdown 20230601/d/dwave-gate/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-01 17:06:15] INFO root fetch - processPackages [taxi-zebra]: executing diffoscope
+[2023-06-01 17:06:15] INFO root fetch - processPackages [taxi-zebra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxi_zebra-3.1.0.tar.gz tmp/taxi_zebra-4.0.0.tar.gz --markdown 20230601/t/taxi-zebra/3.1.0-4.0.0/diff.md --exclude *.pyd
+[2023-06-01 17:06:17] INFO root fetch - processPackages [MPSPlots]: Start processing: lusid-sdk
+[2023-06-01 17:06:17] INFO root fetch - main [MainThread]: End processing [MPSPlots]: success
+[2023-06-01 17:06:17] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-01 17:06:17] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-06-01 17:06:17] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230601/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-01 17:06:17] INFO root fetch - processPackages [bdffont]: Start processing: lusid-sdk-preview
+[2023-06-01 17:06:17] INFO root fetch - main [MainThread]: End processing [bdffont]: success
+[2023-06-01 17:06:17] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-01 17:06:17] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-06-01 17:06:17] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230601/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-01 17:06:17] INFO root fetch - processPackages [nowcasting-datamodel]: Start processing: pyasic
+[2023-06-01 17:06:17] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-06-01 17:06:17] INFO root fetch - processPackages [pyasic]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-01 17:06:17] INFO root fetch - processPackages [PyFinitDiff]: Start processing: ironic-python-agent
+[2023-06-01 17:06:17] INFO root fetch - main [MainThread]: End processing [PyFinitDiff]: success
+[2023-06-01 17:06:17] INFO root fetch - processPackages [ironic-python-agent]: New version: [9.5.0] Old Version: [9.4.0]
+[2023-06-01 17:06:17] INFO root fetch - processPackages [heaven]: Start processing: lesscode-database
+[2023-06-01 17:06:17] INFO root fetch - main [MainThread]: End processing [heaven]: success
+[2023-06-01 17:06:17] WARNING root fetch - processPackages [lesscode-database]: Skipping, unable to determine old version
+[2023-06-01 17:06:17] INFO root fetch - processPackages [lesscode-database]: Start processing: paketmutfak
+[2023-06-01 17:06:17] INFO root fetch - main [MainThread]: End processing [lesscode-database] error
+[2023-06-01 17:06:17] INFO root fetch - processPackages [huggingface-hub]: Start processing: ovos-classifiers
+[2023-06-01 17:06:17] INFO root fetch - main [MainThread]: End processing [huggingface-hub]: success
+[2023-06-01 17:06:18] INFO root fetch - processPackages [paketmutfak]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-01 17:06:18] INFO root fetch - processPackages [ironic-python-agent]: Downloading https://files.pythonhosted.org/packages/be/a0/8cfed44808752312ef1c80387e6d16108efdcd2a30ef40595da0761b872c/ironic-python-agent-9.4.0.tar.gz
+[2023-06-01 17:06:18] INFO root fetch - processPackages [paketmutfak]: executing diffoscope
+[2023-06-01 17:06:18] INFO root fetch - processPackages [paketmutfak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paketmutfak-1.1.8.tar.gz tmp/paketmutfak-1.1.9.tar.gz --markdown 20230601/p/paketmutfak/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-01 17:06:18] INFO root fetch - processPackages [ovos-classifiers]: New version: [0.0.0a9] Old Version: [0.0.0a8]
+[2023-06-01 17:06:18] INFO root fetch - processPackages [pyasic]: executing diffoscope
+[2023-06-01 17:06:18] INFO root fetch - processPackages [pyasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasic-0.9.3.tar.gz tmp/pyasic-0.9.4.tar.gz --markdown 20230601/p/pyasic/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-01 17:06:18] INFO root fetch - processPackages [taxi-zebra]: Start processing: pyrepresent
+[2023-06-01 17:06:18] INFO root fetch - main [MainThread]: End processing [taxi-zebra]: success
+[2023-06-01 17:06:18] INFO root fetch - processPackages [splight-cli]: Start processing: tensorflow-text-nightly
+[2023-06-01 17:06:18] INFO root fetch - main [MainThread]: End processing [splight-cli]: success
+[2023-06-01 17:06:18] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230531] Old Version: [2.14.0.dev20230530]
+[2023-06-01 17:06:18] INFO root fetch - processPackages [ovos-classifiers]: executing diffoscope
+[2023-06-01 17:06:18] INFO root fetch - processPackages [ovos-classifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_classifiers-0.0.0a8-py3-none-any.whl.zip tmp/ovos_classifiers-0.0.0a9-py3-none-any.whl.zip --markdown 20230601/o/ovos-classifiers/0.0.0a8-0.0.0a9/diff.md --exclude *.pyd
+[2023-06-01 17:06:18] INFO root fetch - processPackages [ironic-python-agent]: Downloading https://files.pythonhosted.org/packages/23/48/0ee1b95c8817dcbf485f79e80252613252005f5b16b41f97d4f88f6515fe/ironic-python-agent-9.5.0.tar.gz
+[2023-06-01 17:06:18] INFO root fetch - processPackages [pyrepresent]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 17:06:18] INFO root fetch - processPackages [ironic-python-agent]: executing diffoscope
+[2023-06-01 17:06:18] INFO root fetch - processPackages [ironic-python-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ironic-python-agent-9.4.0.tar.gz tmp/ironic-python-agent-9.5.0.tar.gz --markdown 20230601/i/ironic-python-agent/9.4.0-9.5.0/diff.md --exclude *.pyd
+[2023-06-01 17:06:18] INFO root fetch - processPackages [dwave-gate]: Start processing: hj-generate
+[2023-06-01 17:06:18] INFO root fetch - main [MainThread]: End processing [dwave-gate]: success
+[2023-06-01 17:06:18] INFO root fetch - processPackages [hj-generate]: New version: [2.0.0] Old Version: [1.9.0]
+[2023-06-01 17:06:18] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-06-01 17:06:18] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230530-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230531-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230601/t/tensorflow-text-nightly/2.14.0.dev20230530-2.14.0.dev20230531/diff.md --exclude *.pyd
+[2023-06-01 17:06:18] INFO root fetch - processPackages [hj-generate]: executing diffoscope
+[2023-06-01 17:06:18] INFO root fetch - processPackages [hj-generate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hj-generate-1.9.0.tar.gz tmp/hj-generate-2.0.0.tar.gz --markdown 20230601/h/hj-generate/1.9.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-01 17:06:18] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/ca/2d/2b126a2b08c36ec6974cf5653cb464f84e22a6538fa85423922a990661ab/pyrepresent-0.0.8.tar.gz
+[2023-06-01 17:06:19] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/7b/18/ef6544251e6b9db01f6f48f8079e4f5de7a7e7f92ebc43c0ad54551a386b/pyrepresent-0.0.9.tar.gz
+[2023-06-01 17:06:19] INFO root fetch - processPackages [pyrepresent]: executing diffoscope
+[2023-06-01 17:06:19] INFO root fetch - processPackages [pyrepresent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrepresent-0.0.8.tar.gz tmp/pyrepresent-0.0.9.tar.gz --markdown 20230601/p/pyrepresent/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 17:06:19] INFO root fetch - main [MainThread]: End processing [paketmutfak]: success
+[2023-06-01 17:06:20] INFO root fetch - main [MainThread]: End processing [hj-generate]: success
+[2023-06-01 17:06:20] INFO root fetch - main [MainThread]: End processing [ovos-classifiers]: success
+[2023-06-01 17:06:20] INFO root fetch - main [MainThread]: End processing [pyasic]: success
+[2023-06-01 17:06:21] INFO root fetch - main [MainThread]: End processing [pyrepresent]: success
+[2023-06-01 17:06:21] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-06-01 17:06:21] INFO root fetch - main [MainThread]: End processing [qoqo-qasm]: success
+[2023-06-01 17:06:23] INFO root fetch - main [MainThread]: End processing [ironic-python-agent]: success
+[2023-06-01 17:06:34] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-06-01 17:06:54] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-06-01 17:06:54] INFO root fetch - main [MainThread]: Store serial: [18335586]
