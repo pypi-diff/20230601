@@ -9621,3 +9621,77 @@
 [2023-06-01 06:30:27] INFO root fetch - main [MainThread]: End processing [qibo]: success
 [2023-06-01 06:30:28] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-06-01 06:30:28] INFO root fetch - main [MainThread]: Store serial: [18328196]
+[2023-06-01 06:35:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18328196]
+[2023-06-01 06:35:37] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-01 06:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ptyme-track
+[2023-06-01 06:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lchelper
+[2023-06-01 06:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-hr-personal-equipment-stock
+[2023-06-01 06:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-hr-personal-equipment-variant-configurator
+[2023-06-01 06:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mindlakesdk
+[2023-06-01 06:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-hr-personal-equipment-request
+[2023-06-01 06:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-hr-employee-ppe
+[2023-06-01 06:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ponder
+[2023-06-01 06:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-hr-personal-equipment-request
+[2023-06-01 06:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-hr-personal-equipment-request-tier-validation
+[2023-06-01 06:35:37] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-variant-configurator]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev5]
+[2023-06-01 06:35:37] INFO root fetch - processPackages [lchelper]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-01 06:35:37] INFO root fetch - processPackages [odoo14-addon-hr-employee-ppe]: New version: [14.0.1.0.2.dev3] Old Version: [14.0.1.0.2.dev2]
+[2023-06-01 06:35:37] INFO root fetch - processPackages [ptyme-track]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-01 06:35:37] INFO root fetch - processPackages [mindlakesdk]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-01 06:35:37] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-stock]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-06-01 06:35:37] INFO root fetch - processPackages [odoo-addon-hr-personal-equipment-request]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-06-01 06:35:37] INFO root fetch - processPackages [ponder]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 06:35:37] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-request]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev26]
+[2023-06-01 06:35:37] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-request-tier-validation]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2023-06-01 06:35:37] INFO root fetch - processPackages [ptyme-track]: Downloading https://files.pythonhosted.org/packages/4a/01/5160f3c55c55bcad39b5ca14bd7566d58b8a34c1683a9da2e25f2fecb8a2/ptyme_track-0.1.0.tar.gz
+[2023-06-01 06:35:37] INFO root fetch - processPackages [mindlakesdk]: Downloading https://files.pythonhosted.org/packages/50/6b/f8885323c92ed1e079ecd809f950460933fcd0e425728930bba565bad4fd/mindlakesdk-0.9.1.tar.gz
+[2023-06-01 06:35:37] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-request]: Downloading https://files.pythonhosted.org/packages/c7/5c/d5c6fecadbc6b9b1d2a8dd0f7f3c3824611519d7b25c54efc7cff18e301e/odoo14_addon_hr_personal_equipment_request-14.0.1.0.1.dev26-py3-none-any.whl
+[2023-06-01 06:35:37] INFO root fetch - processPackages [lchelper]: Downloading https://files.pythonhosted.org/packages/74/7c/04d9f6fed0cfa114e7dad8fe099680505cdb92d833fb5bba35469eeb886a/lchelper-0.0.3.tar.gz
+[2023-06-01 06:35:38] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-variant-configurator]: Downloading https://files.pythonhosted.org/packages/b1/9e/7e4839847bce2f19033d85f20d212e74df9a5e2e991205762e9411ae5535/odoo14_addon_hr_personal_equipment_variant_configurator-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-06-01 06:35:38] INFO root fetch - processPackages [odoo14-addon-hr-employee-ppe]: Downloading https://files.pythonhosted.org/packages/03/1e/a5690acc9838e12b780a94ee81ae19a3762351bd169da9162fde44b104e0/odoo14_addon_hr_employee_ppe-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-06-01 06:35:38] INFO root fetch - processPackages [lchelper]: executing diffoscope
+[2023-06-01 06:35:38] INFO root fetch - processPackages [lchelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lchelper-0.0.2.tar.gz tmp/lchelper-0.0.3.tar.gz --markdown 20230601/l/lchelper/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-01 06:35:38] INFO root fetch - processPackages [mindlakesdk]: Downloading https://files.pythonhosted.org/packages/34/5a/a028cc1485bff662dbfc84697a9a82b263eebe9a1216d281fccb45fe1a70/mindlakesdk-0.9.2.tar.gz
+[2023-06-01 06:35:38] INFO root fetch - processPackages [ponder]: Downloading https://files.pythonhosted.org/packages/58/a8/114c7590f22c3d0cbdd91fb5e3b48100248c937ae5c6c7cbc4764d62b91f/ponder-0.1.9-cp39-cp39-win_amd64.whl
+[2023-06-01 06:35:38] INFO root fetch - processPackages [ptyme-track]: Downloading https://files.pythonhosted.org/packages/9f/af/f4400258fd9d1157a71a29160593590a4650b6e5c7f7742c0a2eab96f675/ptyme_track-0.1.2.tar.gz
+[2023-06-01 06:35:38] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-request-tier-validation]: Downloading https://files.pythonhosted.org/packages/88/c8/e7d5f0b08000de67a5b662d69b4486d6362c94bd40894860d5d263300f44/odoo14_addon_hr_personal_equipment_request_tier_validation-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-06-01 06:35:38] INFO root fetch - processPackages [odoo-addon-hr-personal-equipment-request]: executing diffoscope
+[2023-06-01 06:35:38] INFO root fetch - processPackages [odoo-addon-hr-personal-equipment-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_personal_equipment_request-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_hr_personal_equipment_request-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230601/o/odoo-addon-hr-personal-equipment-request/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-01 06:35:38] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-stock]: executing diffoscope
+[2023-06-01 06:35:38] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-variant-configurator]: executing diffoscope
+[2023-06-01 06:35:38] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_personal_equipment_stock-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_hr_personal_equipment_stock-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230601/o/odoo14-addon-hr-personal-equipment-stock/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-06-01 06:35:38] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-variant-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_personal_equipment_variant_configurator-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_hr_personal_equipment_variant_configurator-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230601/o/odoo14-addon-hr-personal-equipment-variant-configurator/14.0.1.0.1.dev5-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-06-01 06:35:38] INFO root fetch - processPackages [odoo14-addon-hr-employee-ppe]: executing diffoscope
+[2023-06-01 06:35:38] INFO root fetch - processPackages [odoo14-addon-hr-employee-ppe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_employee_ppe-14.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_hr_employee_ppe-14.0.1.0.2.dev3-py3-none-any.whl.zip --markdown 20230601/o/odoo14-addon-hr-employee-ppe/14.0.1.0.2.dev2-14.0.1.0.2.dev3/diff.md --exclude *.pyd
+[2023-06-01 06:35:38] INFO root fetch - processPackages [ponder]: executing diffoscope
+[2023-06-01 06:35:38] INFO root fetch - processPackages [mindlakesdk]: executing diffoscope
+[2023-06-01 06:35:38] INFO root fetch - processPackages [ponder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ponder-0.1.8-cp39-cp39-win_amd64.whl.zip tmp/ponder-0.1.9-cp39-cp39-win_amd64.whl.zip --markdown 20230601/p/ponder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 06:35:38] INFO root fetch - processPackages [mindlakesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindlakesdk-0.9.1.tar.gz tmp/mindlakesdk-0.9.2.tar.gz --markdown 20230601/m/mindlakesdk/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-01 06:35:38] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-request]: executing diffoscope
+[2023-06-01 06:35:38] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_personal_equipment_request-14.0.1.0.1.dev26-py3-none-any.whl.zip tmp/odoo14_addon_hr_personal_equipment_request-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230601/o/odoo14-addon-hr-personal-equipment-request/14.0.1.0.1.dev26-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-06-01 06:35:38] INFO root fetch - processPackages [ptyme-track]: executing diffoscope
+[2023-06-01 06:35:38] INFO root fetch - processPackages [ptyme-track]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptyme_track-0.1.0.tar.gz tmp/ptyme_track-0.1.2.tar.gz --markdown 20230601/p/ptyme-track/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-01 06:35:38] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-request-tier-validation]: executing diffoscope
+[2023-06-01 06:35:38] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-request-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_personal_equipment_request_tier_validation-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_hr_personal_equipment_request_tier_validation-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230601/o/odoo14-addon-hr-personal-equipment-request-tier-validation/14.0.1.0.1.dev4-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-06-01 06:35:39] INFO root fetch - processPackages [lchelper]: Start processing: GoogleBard
+[2023-06-01 06:35:39] INFO root fetch - main [MainThread]: End processing [lchelper]: success
+[2023-06-01 06:35:39] INFO root fetch - processPackages [GoogleBard]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-01 06:35:39] INFO root fetch - processPackages [GoogleBard]: Downloading https://files.pythonhosted.org/packages/47/04/86d39db3391ac0b53e498b1c3e08b03dce1b2298f17f9df58e15cdcef6c6/GoogleBard-1.2.1.tar.gz
+[2023-06-01 06:35:39] INFO root fetch - processPackages [GoogleBard]: executing diffoscope
+[2023-06-01 06:35:39] INFO root fetch - processPackages [GoogleBard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GoogleBard-1.2.0.tar.gz tmp/GoogleBard-1.2.1.tar.gz --markdown 20230601/G/GoogleBard/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-01 06:35:40] INFO root fetch - processPackages [ponder]: Start processing: minidevice
+[2023-06-01 06:35:40] INFO root fetch - main [MainThread]: End processing [ponder]: success
+[2023-06-01 06:35:40] INFO root fetch - processPackages [minidevice]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-01 06:35:40] INFO root fetch - main [MainThread]: End processing [mindlakesdk]: success
+[2023-06-01 06:35:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-personal-equipment-request]: success
+[2023-06-01 06:35:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-employee-ppe]: success
+[2023-06-01 06:35:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-personal-equipment-variant-configurator]: success
+[2023-06-01 06:35:40] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-01 06:35:40] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-1.0.2.tar.gz tmp/minidevice-1.0.3.tar.gz --markdown 20230601/m/minidevice/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-01 06:35:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-personal-equipment-stock]: success
+[2023-06-01 06:35:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-personal-equipment-request-tier-validation]: success
+[2023-06-01 06:35:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-personal-equipment-request]: success
+[2023-06-01 06:35:40] INFO root fetch - main [MainThread]: End processing [ptyme-track]: success
+[2023-06-01 06:35:41] INFO root fetch - main [MainThread]: End processing [GoogleBard]: success
+[2023-06-01 06:35:42] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-01 06:35:42] INFO root fetch - main [MainThread]: Store serial: [18328235]
