@@ -3828,3 +3828,49 @@
 [2023-06-01 03:06:05] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-01 03:06:09] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
 [2023-06-01 03:06:09] INFO root fetch - main [MainThread]: Store serial: [18325090]
+[2023-06-01 03:11:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18325090]
+[2023-06-01 03:11:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-01 03:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vector-vault
+[2023-06-01 03:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: serializerLiza153501
+[2023-06-01 03:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-databrew-cicd
+[2023-06-01 03:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fabrics
+[2023-06-01 03:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ktch
+[2023-06-01 03:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhonghong-climate
+[2023-06-01 03:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cardboard.py
+[2023-06-01 03:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: server-roberta
+[2023-06-01 03:11:19] INFO root fetch - processPackages [ktch]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-01 03:11:19] INFO root fetch - processPackages [vector-vault]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-06-01 03:11:19] WARNING root fetch - processPackages [serializerLiza153501]: Skipping, unable to determine old version
+[2023-06-01 03:11:19] INFO root fetch - processPackages [fabrics]: New version: [0.7.3] Old Version: [0.7.1]
+[2023-06-01 03:11:19] INFO root fetch - main [MainThread]: End processing [serializerLiza153501] error
+[2023-06-01 03:11:19] INFO root fetch - processPackages [zhonghong-climate]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-06-01 03:11:19] INFO root fetch - processPackages [cardboard.py]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-01 03:11:19] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-01 03:11:19] WARNING root fetch - processPackages [server-roberta]: Skipping, unable to determine old version
+[2023-06-01 03:11:19] INFO root fetch - main [MainThread]: End processing [server-roberta] error
+[2023-06-01 03:11:19] INFO root fetch - processPackages [cardboard.py]: Downloading https://files.pythonhosted.org/packages/6f/87/b942e78f29390e2709b74e459ce08999592bc6f7edd2d549a604f5c74f0d/cardboard.py-0.0.7.tar.gz
+[2023-06-01 03:11:19] INFO root fetch - processPackages [zhonghong-climate]: Downloading https://files.pythonhosted.org/packages/80/b9/a0be4d1d09682c1ee80235ef340dad2b6bfd5542926dc0a2336b2d4b5e95/zhonghong_climate-1.0.5.tar.gz
+[2023-06-01 03:11:19] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/90/7f/a14827f38f5fdd3104bbaeea6bba890eb7454b95c4e71b73d8c747a58d32/vector_vault-1.6.4.tar.gz
+[2023-06-01 03:11:19] INFO root fetch - processPackages [fabrics]: Downloading https://files.pythonhosted.org/packages/16/1a/57b258d1a1c71bbf6eb14e1e81b617dea5be6f28acf41a1813894a178a6f/fabrics-0.7.1.tar.gz
+[2023-06-01 03:11:19] INFO root fetch - processPackages [ktch]: Downloading https://files.pythonhosted.org/packages/75/09/67a7847190574e0e976c07cd3728a2b6fef473c4e98e438ad92c2c56c16f/ktch-0.1.2.tar.gz
+[2023-06-01 03:11:19] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-06-01 03:11:19] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230601/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-01 03:11:19] INFO root fetch - processPackages [zhonghong-climate]: executing diffoscope
+[2023-06-01 03:11:19] INFO root fetch - processPackages [zhonghong-climate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhonghong_climate-1.0.3.tar.gz tmp/zhonghong_climate-1.0.5.tar.gz --markdown 20230601/z/zhonghong-climate/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-06-01 03:11:19] INFO root fetch - processPackages [cardboard.py]: executing diffoscope
+[2023-06-01 03:11:19] INFO root fetch - processPackages [cardboard.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardboard.py-0.0.6.tar.gz tmp/cardboard.py-0.0.7.tar.gz --markdown 20230601/c/cardboard.py/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-01 03:11:19] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-06-01 03:11:19] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-1.6.3.tar.gz tmp/vector_vault-1.6.4.tar.gz --markdown 20230601/v/vector-vault/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-06-01 03:11:20] INFO root fetch - processPackages [ktch]: Downloading https://files.pythonhosted.org/packages/83/49/ab28c79ea6ccb44a0b2647a6aea6c62274674de8aff27f1fd8df7e0bd362/ktch-0.2.0.tar.gz
+[2023-06-01 03:11:20] INFO root fetch - processPackages [ktch]: executing diffoscope
+[2023-06-01 03:11:20] INFO root fetch - processPackages [ktch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ktch-0.1.2.tar.gz tmp/ktch-0.2.0.tar.gz --markdown 20230601/k/ktch/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-01 03:11:20] INFO root fetch - processPackages [fabrics]: Downloading https://files.pythonhosted.org/packages/66/8d/a2eb3d8a552b6ce0d179102f0c31cadd473c8a86e6b325828ebadade9c91/fabrics-0.7.3.tar.gz
+[2023-06-01 03:11:20] INFO root fetch - processPackages [fabrics]: executing diffoscope
+[2023-06-01 03:11:20] INFO root fetch - processPackages [fabrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrics-0.7.1.tar.gz tmp/fabrics-0.7.3.tar.gz --markdown 20230601/f/fabrics/0.7.1-0.7.3/diff.md --exclude *.pyd
+[2023-06-01 03:11:21] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-06-01 03:11:21] INFO root fetch - main [MainThread]: End processing [zhonghong-climate]: success
+[2023-06-01 03:11:21] INFO root fetch - main [MainThread]: End processing [cardboard.py]: success
+[2023-06-01 03:11:21] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-06-01 03:11:21] INFO root fetch - main [MainThread]: End processing [ktch]: success
+[2023-06-01 03:11:22] INFO root fetch - main [MainThread]: End processing [fabrics]: success
+[2023-06-01 03:11:22] INFO root fetch - main [MainThread]: Store serial: [18325127]
