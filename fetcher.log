@@ -16502,3 +16502,121 @@
 [2023-06-01 13:22:18] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-06-01 13:23:12] INFO root fetch - main [MainThread]: End processing [drf-spectacular-sidecar]: success
 [2023-06-01 13:23:12] INFO root fetch - main [MainThread]: Store serial: [18332108]
+[2023-06-01 13:28:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18332108]
+[2023-06-01 13:28:22] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-01 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mqt.qmap
+[2023-06-01 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensordict-nightly
+[2023-06-01 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: UEVaultManager
+[2023-06-01 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2023-06-01 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchrl-nightly
+[2023-06-01 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchtnt-nightly
+[2023-06-01 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: uc-sgsim
+[2023-06-01 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rasm-arch
+[2023-06-01 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autovf
+[2023-06-01 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kevin-toolbox
+[2023-06-01 13:28:22] INFO root fetch - processPackages [UEVaultManager]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-06-01 13:28:22] INFO root fetch - processPackages [rasm-arch]: New version: [1.2.5] Old Version: [1.2.1]
+[2023-06-01 13:28:22] INFO root fetch - processPackages [autovf]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-01 13:28:22] INFO root fetch - processPackages [uc-sgsim]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-01 13:28:22] INFO root fetch - processPackages [kevin-toolbox]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 13:28:22] INFO root fetch - processPackages [cg]: New version: [33.1.0] Old Version: [33.0.6]
+[2023-06-01 13:28:22] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-06-01 13:28:22] INFO root fetch - processPackages [mqt.qmap]: New version: [2.2.0] Old Version: [2.1.4]
+[2023-06-01 13:28:22] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.6.1] Old Version: [2023.5.9]
+[2023-06-01 13:28:22] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.6.1] Old Version: [2023.5.9]
+[2023-06-01 13:28:22] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-06-01 13:28:22] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.5.8.tar.gz tmp/torchtnt-nightly-2023.5.9.tar.gz --markdown 20230601/t/torchtnt-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-06-01 13:28:22] INFO root fetch - processPackages [autovf]: Downloading https://files.pythonhosted.org/packages/73/42/8afd53bef7cd6e6e1707eca754142401ebe2f4c7e7d5dd0170b0e8a8f9d6/autovf-0.0.6.tar.gz
+[2023-06-01 13:28:22] INFO root fetch - processPackages [rasm-arch]: Downloading https://files.pythonhosted.org/packages/97/eb/586b808026973d1c01a9030cf0abd6938cef5990e83e2bf1c46829d8be7c/rasm_arch-1.2.5.tar.gz
+[2023-06-01 13:28:22] INFO root fetch - processPackages [mqt.qmap]: Downloading https://files.pythonhosted.org/packages/b9/e5/22660586d1cdcdca462e979bbae7d4f9b9aad7824f2f420a822fbfeada37/mqt.qmap-2.1.4.tar.gz
+[2023-06-01 13:28:22] INFO root fetch - processPackages [uc-sgsim]: Downloading https://files.pythonhosted.org/packages/6f/28/bb6e014a0e0a5740421c4c8fe6360c054ca837ec3dc9f1474e5b34836a90/uc_sgsim-1.2.2.tar.gz
+[2023-06-01 13:28:22] INFO root fetch - processPackages [rasm-arch]: executing diffoscope
+[2023-06-01 13:28:22] INFO root fetch - processPackages [rasm-arch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasm_arch-1.2.1.tar.gz tmp/rasm_arch-1.2.5.tar.gz --markdown 20230601/r/rasm-arch/1.2.1-1.2.5/diff.md --exclude *.pyd
+[2023-06-01 13:28:22] INFO root fetch - processPackages [uc-sgsim]: executing diffoscope
+[2023-06-01 13:28:22] INFO root fetch - processPackages [uc-sgsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uc_sgsim-1.2.1.tar.gz tmp/uc_sgsim-1.2.2.tar.gz --markdown 20230601/u/uc-sgsim/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-01 13:28:22] INFO root fetch - processPackages [autovf]: executing diffoscope
+[2023-06-01 13:28:22] INFO root fetch - processPackages [autovf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autovf-0.0.5.tar.gz tmp/autovf-0.0.6.tar.gz --markdown 20230601/a/autovf/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-01 13:28:22] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/fc/d0/7e14c6db2ab31199285dc654aa8e9d1ffb57b945c6e89d1e9b4cd9623798/cg-33.1.0.tar.gz
+[2023-06-01 13:28:22] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/95/d2/259c0fd83db8c2245498b3cb9434b8ed951944c14fb8255ffc8ffffe74d4/kevin-toolbox-1.0.9.tar.gz
+[2023-06-01 13:28:22] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/4f/9b/93caf568ed3beed1779f6bc31cc3b91a738645362dcb152f1d267fdd0f4f/tensordict_nightly-2023.6.1-py39-none-any.whl
+[2023-06-01 13:28:22] INFO root fetch - processPackages [kevin-toolbox]: executing diffoscope
+[2023-06-01 13:28:22] INFO root fetch - processPackages [kevin-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-1.0.8.tar.gz tmp/kevin-toolbox-1.0.9.tar.gz --markdown 20230601/k/kevin-toolbox/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 13:28:22] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-01 13:28:22] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-33.0.6.tar.gz tmp/cg-33.1.0.tar.gz --markdown 20230601/c/cg/33.0.6-33.1.0/diff.md --exclude *.pyd
+[2023-06-01 13:28:22] INFO root fetch - processPackages [UEVaultManager]: Downloading https://files.pythonhosted.org/packages/2c/fc/799c186f8733bacf8cc5b3fbf184528d94dce550ca9a58519b8ee6340ea2/UEVaultManager-1.6.6.tar.gz
+[2023-06-01 13:28:22] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/37/c3/d93e54538338115298418e0eb4b7e6e947f7d95c90dabeced9be4e879ec6/torchrl_nightly-2023.6.1-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-06-01 13:28:23] INFO root fetch - processPackages [UEVaultManager]: executing diffoscope
+[2023-06-01 13:28:23] INFO root fetch - processPackages [UEVaultManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UEVaultManager-1.6.5.tar.gz tmp/UEVaultManager-1.6.6.tar.gz --markdown 20230601/U/UEVaultManager/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-06-01 13:28:23] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-06-01 13:28:23] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.5.9-py39-none-any.whl.zip tmp/tensordict_nightly-2023.6.1-py39-none-any.whl.zip --markdown 20230601/t/tensordict-nightly/2023.5.9-2023.6.1/diff.md --exclude *.pyd
+[2023-06-01 13:28:23] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-06-01 13:28:23] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.5.9-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.6.1-cp39-cp39-macosx_11_0_x86_64.whl.zip --markdown 20230601/t/torchrl-nightly/2023.5.9-2023.6.1/diff.md --exclude *.pyd
+[2023-06-01 13:28:23] INFO root fetch - processPackages [mqt.qmap]: Downloading https://files.pythonhosted.org/packages/b9/ca/db67f394c440d00f0e150d19c49526d769c38aa2f29891c7805fbcb94c9e/mqt.qmap-2.2.0.tar.gz
+[2023-06-01 13:28:23] INFO root fetch - processPackages [mqt.qmap]: executing diffoscope
+[2023-06-01 13:28:23] INFO root fetch - processPackages [mqt.qmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqt.qmap-2.1.4.tar.gz tmp/mqt.qmap-2.2.0.tar.gz --markdown 20230601/m/mqt.qmap/2.1.4-2.2.0/diff.md --exclude *.pyd
+[2023-06-01 13:28:24] INFO root fetch - processPackages [autovf]: Start processing: bridgecrew
+[2023-06-01 13:28:24] INFO root fetch - main [MainThread]: End processing [autovf]: success
+[2023-06-01 13:28:24] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-01 13:28:24] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-06-01 13:28:24] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230601/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-01 13:28:25] INFO root fetch - processPackages [torchtnt-nightly]: Start processing: aiosmpplib
+[2023-06-01 13:28:25] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-06-01 13:28:25] INFO root fetch - processPackages [rasm-arch]: Start processing: kevin-toolbox-dev
+[2023-06-01 13:28:25] INFO root fetch - main [MainThread]: End processing [rasm-arch]: success
+[2023-06-01 13:28:25] INFO root fetch - processPackages [aiosmpplib]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-01 13:28:25] INFO root fetch - processPackages [kevin-toolbox-dev]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-01 13:28:25] INFO root fetch - processPackages [aiosmpplib]: Downloading https://files.pythonhosted.org/packages/b5/cc/3dbae2f08116154ba0fefac2fac11e863a86c127069ce4def8ec70eaaed0/aiosmpplib-0.6.3.tar.gz
+[2023-06-01 13:28:25] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/50/51/6f85ab7120f80babd9c87d198cc1f3f2afbf36a523b5db9ee86218150ffe/kevin-toolbox-dev-1.0.9.tar.gz
+[2023-06-01 13:28:25] INFO root fetch - processPackages [kevin-toolbox-dev]: executing diffoscope
+[2023-06-01 13:28:25] INFO root fetch - processPackages [kevin-toolbox-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-dev-1.0.8.tar.gz tmp/kevin-toolbox-dev-1.0.9.tar.gz --markdown 20230601/k/kevin-toolbox-dev/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-01 13:28:25] INFO root fetch - processPackages [aiosmpplib]: Downloading https://files.pythonhosted.org/packages/4e/03/011e468ab53889e7e649590770be985fe0ac6f47cc885508208f10961c1b/aiosmpplib-0.6.4.tar.gz
+[2023-06-01 13:28:25] INFO root fetch - processPackages [tensordict-nightly]: Start processing: blenderline
+[2023-06-01 13:28:25] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-06-01 13:28:25] INFO root fetch - processPackages [aiosmpplib]: executing diffoscope
+[2023-06-01 13:28:25] INFO root fetch - processPackages [aiosmpplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosmpplib-0.6.3.tar.gz tmp/aiosmpplib-0.6.4.tar.gz --markdown 20230601/a/aiosmpplib/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-01 13:28:25] INFO root fetch - processPackages [blenderline]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-01 13:28:25] INFO root fetch - processPackages [uc-sgsim]: Start processing: paketmutfak
+[2023-06-01 13:28:25] INFO root fetch - main [MainThread]: End processing [uc-sgsim]: success
+[2023-06-01 13:28:25] INFO root fetch - processPackages [blenderline]: Downloading https://files.pythonhosted.org/packages/b9/d3/6f9937de28cad43317980c35d1cfb82a0c999cb03bc24aa7bac3ea972e6e/blenderline-0.1.5.tar.gz
+[2023-06-01 13:28:25] INFO root fetch - processPackages [paketmutfak]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-01 13:28:25] INFO root fetch - processPackages [blenderline]: executing diffoscope
+[2023-06-01 13:28:25] INFO root fetch - processPackages [blenderline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blenderline-0.1.4.tar.gz tmp/blenderline-0.1.5.tar.gz --markdown 20230601/b/blenderline/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-01 13:28:26] INFO root fetch - processPackages [paketmutfak]: executing diffoscope
+[2023-06-01 13:28:26] INFO root fetch - processPackages [paketmutfak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paketmutfak-1.1.8.tar.gz tmp/paketmutfak-1.1.9.tar.gz --markdown 20230601/p/paketmutfak/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-01 13:28:26] INFO root fetch - processPackages [bridgecrew]: Start processing: torchx-nightly
+[2023-06-01 13:28:26] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-06-01 13:28:26] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.6.1] Old Version: [2023.5.9]
+[2023-06-01 13:28:27] INFO root fetch - processPackages [UEVaultManager]: Start processing: load-atoms
+[2023-06-01 13:28:27] INFO root fetch - main [MainThread]: End processing [UEVaultManager]: success
+[2023-06-01 13:28:27] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/c8/69/e0f9e282e2acfe18a21278c0c2fd3c32a8560de664b2e6f3914332486d6a/torchx_nightly-2023.6.1-py3-none-any.whl
+[2023-06-01 13:28:27] INFO root fetch - processPackages [load-atoms]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 13:28:27] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-06-01 13:28:27] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.5.9-py3-none-any.whl.zip tmp/torchx_nightly-2023.6.1-py3-none-any.whl.zip --markdown 20230601/t/torchx-nightly/2023.5.9-2023.6.1/diff.md --exclude *.pyd
+[2023-06-01 13:28:27] INFO root fetch - processPackages [load-atoms]: Downloading https://files.pythonhosted.org/packages/87/b0/e1018f2e1c3385c1ff26d69d0307902beb12fda0dde5f8036f7ec9448eb5/load-atoms-0.0.8.tar.gz
+[2023-06-01 13:28:27] INFO root fetch - processPackages [kevin-toolbox]: Start processing: discopy
+[2023-06-01 13:28:27] INFO root fetch - main [MainThread]: End processing [kevin-toolbox]: success
+[2023-06-01 13:28:27] INFO root fetch - processPackages [discopy]: New version: [1.1.2] Old Version: [1.0.0]
+[2023-06-01 13:28:27] INFO root fetch - processPackages [load-atoms]: Downloading https://files.pythonhosted.org/packages/db/fd/b94c92ee70a8d26b65872f25a6c07bcc4a0cde8336d34ff30c6cd9c95452/load-atoms-0.0.9.tar.gz
+[2023-06-01 13:28:27] INFO root fetch - processPackages [discopy]: Downloading https://files.pythonhosted.org/packages/88/27/c86fe7f8ec0fe287f2e48d21377700d04871876c5edcca3fc5a8cda2211d/discopy-1.0.0-py3-none-any.whl
+[2023-06-01 13:28:27] INFO root fetch - processPackages [blenderline]: Start processing: google-cloud-container
+[2023-06-01 13:28:27] INFO root fetch - main [MainThread]: End processing [blenderline]: success
+[2023-06-01 13:28:27] INFO root fetch - processPackages [load-atoms]: executing diffoscope
+[2023-06-01 13:28:27] INFO root fetch - processPackages [load-atoms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/load-atoms-0.0.8.tar.gz tmp/load-atoms-0.0.9.tar.gz --markdown 20230601/l/load-atoms/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 13:28:28] INFO root fetch - processPackages [google-cloud-container]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-06-01 13:28:28] INFO root fetch - main [MainThread]: End processing [aiosmpplib]: success
+[2023-06-01 13:28:28] INFO root fetch - processPackages [google-cloud-container]: Downloading https://files.pythonhosted.org/packages/9f/8d/5d2864511401e860531a2dc96c9b966237756ea7efcabaff757e216c3eff/google-cloud-container-2.8.1.tar.gz
+[2023-06-01 13:28:28] INFO root fetch - processPackages [discopy]: executing diffoscope
+[2023-06-01 13:28:28] INFO root fetch - processPackages [discopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discopy-1.0.0-py3-none-any.whl.zip tmp/discopy-1.1.2.tar.gz --markdown 20230601/d/discopy/1.0.0-1.1.2/diff.md --exclude *.pyd
+[2023-06-01 13:28:28] INFO root fetch - main [MainThread]: End processing [paketmutfak]: success
+[2023-06-01 13:28:28] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-06-01 13:28:28] INFO root fetch - processPackages [google-cloud-container]: Downloading https://files.pythonhosted.org/packages/a6/0f/71a16bec82f5b84b1aa6c4b9e6d8d7c40de8f7abe8d0b150e7a45bbb927c/google-cloud-container-2.9.0.tar.gz
+[2023-06-01 13:28:28] INFO root fetch - main [MainThread]: End processing [kevin-toolbox-dev]: success
+[2023-06-01 13:28:28] INFO root fetch - processPackages [google-cloud-container]: executing diffoscope
+[2023-06-01 13:28:28] INFO root fetch - processPackages [google-cloud-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-container-2.8.1.tar.gz tmp/google-cloud-container-2.9.0.tar.gz --markdown 20230601/g/google-cloud-container/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-06-01 13:28:29] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-06-01 13:28:29] INFO root fetch - main [MainThread]: End processing [load-atoms]: success
+[2023-06-01 13:28:31] INFO root fetch - main [MainThread]: End processing [google-cloud-container]: success
+[2023-06-01 13:28:32] INFO root fetch - main [MainThread]: End processing [discopy]: success
+[2023-06-01 13:28:37] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-01 13:28:42] INFO root fetch - main [MainThread]: End processing [mqt.qmap]: success
+[2023-06-01 13:28:42] INFO root fetch - main [MainThread]: Store serial: [18332182]
