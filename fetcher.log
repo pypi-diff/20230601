@@ -10543,3 +10543,52 @@
 [2023-06-01 08:02:56] INFO root fetch - main [MainThread]: End processing [badi-users]: success
 [2023-06-01 08:02:57] INFO root fetch - main [MainThread]: End processing [piperider]: success
 [2023-06-01 08:02:57] INFO root fetch - main [MainThread]: Store serial: [18328707]
+[2023-06-01 08:08:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18328707]
+[2023-06-01 08:08:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-01 08:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mindlakesdk
+[2023-06-01 08:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: innerverz
+[2023-06-01 08:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webuiapi
+[2023-06-01 08:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qi-compute-api-client
+[2023-06-01 08:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-picstatus
+[2023-06-01 08:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyg-nightly
+[2023-06-01 08:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: midi-clip
+[2023-06-01 08:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: antchain-stlr
+[2023-06-01 08:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: beancount-china-income-tax
+[2023-06-01 08:08:06] WARNING root fetch - processPackages [midi-clip]: Skipping, unable to determine old version
+[2023-06-01 08:08:06] INFO root fetch - main [MainThread]: End processing [midi-clip] error
+[2023-06-01 08:08:06] INFO root fetch - processPackages [innerverz]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-06-01 08:08:06] WARNING root fetch - processPackages [beancount-china-income-tax]: Skipping, unable to determine old version
+[2023-06-01 08:08:06] INFO root fetch - main [MainThread]: End processing [beancount-china-income-tax] error
+[2023-06-01 08:08:06] INFO root fetch - processPackages [nonebot-plugin-picstatus]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-06-01 08:08:06] INFO root fetch - processPackages [mindlakesdk]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-01 08:08:06] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230531] Old Version: [2.4.0.dev20230530]
+[2023-06-01 08:08:06] INFO root fetch - processPackages [nonebot-plugin-picstatus]: Downloading https://files.pythonhosted.org/packages/a6/11/d89b5686b2e1ff98e376ef0d9c577c227bc50ccc6f2998221604a11c0fa3/nonebot_plugin_picstatus-0.3.5.tar.gz
+[2023-06-01 08:08:06] INFO root fetch - processPackages [innerverz]: executing diffoscope
+[2023-06-01 08:08:06] INFO root fetch - processPackages [innerverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz-0.0.22.tar.gz tmp/innerverz-0.0.23.tar.gz --markdown 20230601/i/innerverz/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-06-01 08:08:06] INFO root fetch - processPackages [qi-compute-api-client]: New version: [0.4.0] Old Version: [0.1.0]
+[2023-06-01 08:08:06] INFO root fetch - processPackages [webuiapi]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-01 08:08:06] INFO root fetch - processPackages [antchain-stlr]: New version: [2.3.0] Old Version: [2.2.1]
+[2023-06-01 08:08:06] WARNING root fetch - processPackages [nonebot-plugin-picstatus]: Skipping package: exceeds size limit 16080494>=10485760
+[2023-06-01 08:08:06] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-picstatus] error
+[2023-06-01 08:08:06] INFO root fetch - processPackages [mindlakesdk]: executing diffoscope
+[2023-06-01 08:08:06] INFO root fetch - processPackages [mindlakesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindlakesdk-0.9.2.tar.gz tmp/mindlakesdk-0.9.3.tar.gz --markdown 20230601/m/mindlakesdk/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-01 08:08:06] INFO root fetch - processPackages [qi-compute-api-client]: Downloading https://files.pythonhosted.org/packages/61/dc/bb6a97606bf6bb2e4330dd203a82b3ed8fda5a716b5eb0245eb6dbfdf8b0/qi_compute_api_client-0.1.0.tar.gz
+[2023-06-01 08:08:06] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/b3/41/df8d63e6c6afc5b35f1f87f112a4645c6985304f6d457c9ac830eb2b94bd/pyg_nightly-2.4.0.dev20230531.tar.gz
+[2023-06-01 08:08:06] INFO root fetch - processPackages [antchain-stlr]: Downloading https://files.pythonhosted.org/packages/46/32/0a89359376a955f97bd1c3630319285776ff7ac1274f6195a1b1e16109c3/antchain_stlr-2.3.0.tar.gz
+[2023-06-01 08:08:06] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-06-01 08:08:06] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230530.tar.gz tmp/pyg_nightly-2.4.0.dev20230531.tar.gz --markdown 20230601/p/pyg-nightly/2.4.0.dev20230530-2.4.0.dev20230531/diff.md --exclude *.pyd
+[2023-06-01 08:08:06] INFO root fetch - processPackages [webuiapi]: Downloading https://files.pythonhosted.org/packages/55/46/607a32bcbea65d085516a21d3e48f4005ce6bac8ef0a29854d3ecb47e2c4/webuiapi-0.9.1-py3-none-any.whl
+[2023-06-01 08:08:06] INFO root fetch - processPackages [antchain-stlr]: executing diffoscope
+[2023-06-01 08:08:06] INFO root fetch - processPackages [antchain-stlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_stlr-2.2.1.tar.gz tmp/antchain_stlr-2.3.0.tar.gz --markdown 20230601/a/antchain-stlr/2.2.1-2.3.0/diff.md --exclude *.pyd
+[2023-06-01 08:08:06] INFO root fetch - processPackages [webuiapi]: executing diffoscope
+[2023-06-01 08:08:06] INFO root fetch - processPackages [webuiapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webuiapi-0.9.0-py3-none-any.whl.zip tmp/webuiapi-0.9.1-py3-none-any.whl.zip --markdown 20230601/w/webuiapi/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-01 08:08:06] INFO root fetch - processPackages [qi-compute-api-client]: Downloading https://files.pythonhosted.org/packages/65/d2/679b0440925a43bb9da20f9bb94f0bbe86cd6d6fdfad883e5792db96b2b9/qi_compute_api_client-0.4.0.tar.gz
+[2023-06-01 08:08:07] INFO root fetch - processPackages [qi-compute-api-client]: executing diffoscope
+[2023-06-01 08:08:07] INFO root fetch - processPackages [qi-compute-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qi_compute_api_client-0.1.0.tar.gz tmp/qi_compute_api_client-0.4.0.tar.gz --markdown 20230601/q/qi-compute-api-client/0.1.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-01 08:08:07] INFO root fetch - main [MainThread]: End processing [mindlakesdk]: success
+[2023-06-01 08:08:08] INFO root fetch - main [MainThread]: End processing [webuiapi]: success
+[2023-06-01 08:08:08] INFO root fetch - main [MainThread]: End processing [innerverz]: success
+[2023-06-01 08:08:08] INFO root fetch - main [MainThread]: End processing [antchain-stlr]: success
+[2023-06-01 08:08:09] INFO root fetch - main [MainThread]: End processing [qi-compute-api-client]: success
+[2023-06-01 08:08:11] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-06-01 08:08:11] INFO root fetch - main [MainThread]: Store serial: [18328734]
