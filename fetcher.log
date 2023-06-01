@@ -16414,3 +16414,91 @@
 [2023-06-01 13:15:41] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-snowflake]: success
 [2023-06-01 13:16:28] INFO root fetch - main [MainThread]: End processing [pydevd-pycharm]: success
 [2023-06-01 13:16:28] INFO root fetch - main [MainThread]: Store serial: [18332060]
+[2023-06-01 13:21:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18332060]
+[2023-06-01 13:21:38] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-01 13:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cohere
+[2023-06-01 13:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: influxdb3-python-cli
+[2023-06-01 13:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkov
+[2023-06-01 13:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cerbos
+[2023-06-01 13:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simple_openid_connect
+[2023-06-01 13:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-takauma
+[2023-06-01 13:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Gmap-export
+[2023-06-01 13:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: volsite-postgres-common
+[2023-06-01 13:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: drf-spectacular-sidecar
+[2023-06-01 13:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: modAL-python
+[2023-06-01 13:21:38] INFO root fetch - processPackages [influxdb3-python-cli]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-06-01 13:21:38] INFO root fetch - processPackages [python-takauma]: New version: [0.5.3] Old Version: [0.5.1]
+[2023-06-01 13:21:38] INFO root fetch - processPackages [drf-spectacular-sidecar]: New version: [2023.6.1] Old Version: [2023.5.1]
+[2023-06-01 13:21:38] WARNING root fetch - processPackages [Gmap-export]: Skipping, unable to determine old version
+[2023-06-01 13:21:38] INFO root fetch - processPackages [Gmap-export]: Start processing: cqwu
+[2023-06-01 13:21:38] INFO root fetch - main [MainThread]: End processing [Gmap-export] error
+[2023-06-01 13:21:38] INFO root fetch - processPackages [modAL-python]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-01 13:21:38] INFO root fetch - processPackages [simple_openid_connect]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-01 13:21:38] INFO root fetch - processPackages [volsite-postgres-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 13:21:38] INFO root fetch - processPackages [cqwu]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 13:21:38] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-01 13:21:38] INFO root fetch - processPackages [cerbos]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-01 13:21:38] INFO root fetch - processPackages [cohere]: New version: [4.6.1] Old Version: [4.6.0]
+[2023-06-01 13:21:38] INFO root fetch - processPackages [influxdb3-python-cli]: Downloading https://files.pythonhosted.org/packages/b1/7d/2722303ed95d87aa9eda6daa4430e0e5d9cb6b0d6c5780cb8efdc7dd2223/influxdb3-python-cli-0.0.0.tar.gz
+[2023-06-01 13:21:38] INFO root fetch - processPackages [volsite-postgres-common]: executing diffoscope
+[2023-06-01 13:21:38] INFO root fetch - processPackages [volsite-postgres-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volsite_postgres_common-0.1.8.tar.gz tmp/volsite_postgres_common-0.1.9.tar.gz --markdown 20230601/v/volsite-postgres-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 13:21:38] INFO root fetch - processPackages [drf-spectacular-sidecar]: Downloading https://files.pythonhosted.org/packages/7e/1e/ac307efd06055373e6ce865dbe709253c33f36e9458a2495a29a84c5aef2/drf-spectacular-sidecar-2023.5.1.tar.gz
+[2023-06-01 13:21:38] INFO root fetch - processPackages [cqwu]: executing diffoscope
+[2023-06-01 13:21:38] INFO root fetch - processPackages [cqwu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cqwu-0.0.8.tar.gz tmp/cqwu-0.0.9.tar.gz --markdown 20230601/c/cqwu/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 13:21:38] INFO root fetch - processPackages [python-takauma]: Downloading https://files.pythonhosted.org/packages/f4/c3/8e03459f8228fe04fd84ad82b851a2a6fbde0a1ad86842ff744649cf49e1/python-takauma-0.5.1.tar.gz
+[2023-06-01 13:21:38] INFO root fetch - processPackages [modAL-python]: Downloading https://files.pythonhosted.org/packages/e0/d5/d2f4f9c66875649ef966742890ce9fccf854964d1f52c746434c71770e57/modAL-python-0.4.2.tar.gz
+[2023-06-01 13:21:38] INFO root fetch - processPackages [cerbos]: Downloading https://files.pythonhosted.org/packages/ed/cb/864bdd7592ab02e367fb2a3d48ff4b12af64e42da145152b892b5ab78d3e/cerbos-0.6.0.tar.gz
+[2023-06-01 13:21:38] INFO root fetch - processPackages [simple_openid_connect]: Downloading https://files.pythonhosted.org/packages/27/8f/932f5efc679550ccc42a395f2e8961d5974d65dccd2a36c1c61c3042e4dd/simple_openid_connect-0.2.5.tar.gz
+[2023-06-01 13:21:38] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/16/d3/f7ec29ea7daef84ac190683786d22fc08de6669b24c01c86e1dec3bf9b59/cohere-4.6.1.tar.gz
+[2023-06-01 13:21:38] INFO root fetch - processPackages [influxdb3-python-cli]: Downloading https://files.pythonhosted.org/packages/95/3a/bca94ed8e99fa74b4db74bee5242974eaf451c00d09aaf73cd3122b66007/influxdb3-python-cli-0.1.0.tar.gz
+[2023-06-01 13:21:38] INFO root fetch - processPackages [modAL-python]: executing diffoscope
+[2023-06-01 13:21:38] INFO root fetch - processPackages [modAL-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modAL-python-0.4.1.tar.gz tmp/modAL-python-0.4.2.tar.gz --markdown 20230601/m/modAL-python/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-01 13:21:38] INFO root fetch - processPackages [simple_openid_connect]: executing diffoscope
+[2023-06-01 13:21:38] INFO root fetch - processPackages [simple_openid_connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_openid_connect-0.2.4.tar.gz tmp/simple_openid_connect-0.2.5.tar.gz --markdown 20230601/s/simple_openid_connect/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-01 13:21:38] INFO root fetch - processPackages [python-takauma]: Downloading https://files.pythonhosted.org/packages/db/66/1156c5fad30a0a0df940121b7411a06e095567acd4e1c308d603abe27b9f/python-takauma-0.5.3.tar.gz
+[2023-06-01 13:21:39] INFO root fetch - processPackages [drf-spectacular-sidecar]: Downloading https://files.pythonhosted.org/packages/c6/63/953c5fdace65236b8a441cabc4575ab0b792693232362bef43ee5a2ea4e1/drf-spectacular-sidecar-2023.6.1.tar.gz
+[2023-06-01 13:21:39] INFO root fetch - processPackages [cohere]: executing diffoscope
+[2023-06-01 13:21:39] INFO root fetch - processPackages [cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere-4.6.0.tar.gz tmp/cohere-4.6.1.tar.gz --markdown 20230601/c/cohere/4.6.0-4.6.1/diff.md --exclude *.pyd
+[2023-06-01 13:21:39] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-06-01 13:21:39] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230601/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-01 13:21:39] INFO root fetch - processPackages [influxdb3-python-cli]: executing diffoscope
+[2023-06-01 13:21:39] INFO root fetch - processPackages [influxdb3-python-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influxdb3-python-cli-0.0.0.tar.gz tmp/influxdb3-python-cli-0.1.0.tar.gz --markdown 20230601/i/influxdb3-python-cli/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-06-01 13:21:39] INFO root fetch - processPackages [python-takauma]: executing diffoscope
+[2023-06-01 13:21:39] INFO root fetch - processPackages [python-takauma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-takauma-0.5.1.tar.gz tmp/python-takauma-0.5.3.tar.gz --markdown 20230601/p/python-takauma/0.5.1-0.5.3/diff.md --exclude *.pyd
+[2023-06-01 13:21:39] INFO root fetch - processPackages [cerbos]: Downloading https://files.pythonhosted.org/packages/c0/69/bf5a0428c8c6e3c8c5633a1f56df354f9e401529ae0608f7295be4a8d4a8/cerbos-0.7.0.tar.gz
+[2023-06-01 13:21:39] INFO root fetch - processPackages [drf-spectacular-sidecar]: executing diffoscope
+[2023-06-01 13:21:39] INFO root fetch - processPackages [drf-spectacular-sidecar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-spectacular-sidecar-2023.5.1.tar.gz tmp/drf-spectacular-sidecar-2023.6.1.tar.gz --markdown 20230601/d/drf-spectacular-sidecar/2023.5.1-2023.6.1/diff.md --exclude *.pyd
+[2023-06-01 13:21:39] INFO root fetch - processPackages [cerbos]: executing diffoscope
+[2023-06-01 13:21:39] INFO root fetch - processPackages [cerbos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerbos-0.6.0.tar.gz tmp/cerbos-0.7.0.tar.gz --markdown 20230601/c/cerbos/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-01 13:21:40] INFO root fetch - processPackages [volsite-postgres-common]: Start processing: forevd
+[2023-06-01 13:21:40] INFO root fetch - main [MainThread]: End processing [volsite-postgres-common]: success
+[2023-06-01 13:21:40] INFO root fetch - processPackages [forevd]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-01 13:21:40] INFO root fetch - processPackages [forevd]: Downloading https://files.pythonhosted.org/packages/78/09/f7b1fef505301c3c8aba0451346bd6138b374f07945e8f949b408a77d127/forevd-0.1.6.tar.gz
+[2023-06-01 13:21:40] INFO root fetch - processPackages [forevd]: executing diffoscope
+[2023-06-01 13:21:40] INFO root fetch - processPackages [forevd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forevd-0.1.5.tar.gz tmp/forevd-0.1.6.tar.gz --markdown 20230601/f/forevd/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-01 13:21:40] INFO root fetch - processPackages [cqwu]: Start processing: influxdb3-python-cli
+[2023-06-01 13:21:40] INFO root fetch - main [MainThread]: End processing [cqwu]: success
+[2023-06-01 13:21:40] INFO root fetch - processPackages [influxdb3-python-cli]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-06-01 13:21:40] INFO root fetch - processPackages [influxdb3-python-cli]: executing diffoscope
+[2023-06-01 13:21:40] INFO root fetch - processPackages [influxdb3-python-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influxdb3-python-cli-0.0.0.tar.gz tmp/influxdb3-python-cli-0.1.0.tar.gz --markdown 20230601/i/influxdb3-python-cli/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-06-01 13:21:40] INFO root fetch - processPackages [python-takauma]: Start processing: tb-nightly
+[2023-06-01 13:21:40] INFO root fetch - main [MainThread]: End processing [python-takauma]: success
+[2023-06-01 13:21:40] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-06-01 13:21:41] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-06-01 13:21:41] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230601/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-06-01 13:21:41] INFO root fetch - processPackages [influxdb3-python-cli]: Start processing: budy
+[2023-06-01 13:21:41] INFO root fetch - main [MainThread]: End processing [influxdb3-python-cli]: success
+[2023-06-01 13:21:41] INFO root fetch - processPackages [budy]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-01 13:21:41] INFO root fetch - processPackages [budy]: executing diffoscope
+[2023-06-01 13:21:41] INFO root fetch - processPackages [budy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/budy-0.8.2.tar.gz tmp/budy-0.8.3.tar.gz --markdown 20230601/b/budy/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-01 13:21:41] INFO root fetch - main [MainThread]: End processing [cerbos]: success
+[2023-06-01 13:21:41] INFO root fetch - main [MainThread]: End processing [modAL-python]: success
+[2023-06-01 13:21:41] INFO root fetch - main [MainThread]: End processing [cohere]: success
+[2023-06-01 13:21:42] INFO root fetch - main [MainThread]: End processing [forevd]: success
+[2023-06-01 13:21:42] INFO root fetch - main [MainThread]: End processing [simple_openid_connect]: success
+[2023-06-01 13:21:42] INFO root fetch - main [MainThread]: End processing [influxdb3-python-cli]: success
+[2023-06-01 13:21:43] INFO root fetch - main [MainThread]: End processing [budy]: success
+[2023-06-01 13:21:45] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-06-01 13:22:18] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-06-01 13:23:12] INFO root fetch - main [MainThread]: End processing [drf-spectacular-sidecar]: success
+[2023-06-01 13:23:12] INFO root fetch - main [MainThread]: Store serial: [18332108]
