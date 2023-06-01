@@ -2964,3 +2964,57 @@
 [2023-06-01 02:01:25] INFO root fetch - main [MainThread]: End processing [pymorlocinternals]: success
 [2023-06-01 02:01:25] INFO root fetch - main [MainThread]: End processing [bspy]: success
 [2023-06-01 02:01:25] INFO root fetch - main [MainThread]: Store serial: [18324612]
+[2023-06-01 02:06:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18324612]
+[2023-06-01 02:06:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-01 02:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: policyengine-us
+[2023-06-01 02:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: serializer-from-hell
+[2023-06-01 02:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mltable
+[2023-06-01 02:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchdatasets-nightly
+[2023-06-01 02:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mct-nightly
+[2023-06-01 02:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxkern-nightly
+[2023-06-01 02:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yt-fts
+[2023-06-01 02:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hdlib
+[2023-06-01 02:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jaxutils-nightly
+[2023-06-01 02:06:34] INFO root fetch - processPackages [serializer-from-hell]: New version: [1.1] Old Version: [1.0]
+[2023-06-01 02:06:34] INFO root fetch - processPackages [yt-fts]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 02:06:34] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230531] Old Version: [0.0.8.dev20230530]
+[2023-06-01 02:06:34] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-06-01 02:06:34] INFO root fetch - processPackages [mltable]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-06-01 02:06:34] INFO root fetch - processPackages [hdlib]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-01 02:06:34] INFO root fetch - processPackages [policyengine-us]: New version: [0.331.0] Old Version: [0.330.1]
+[2023-06-01 02:06:34] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1685491387] Old Version: [1685404999]
+[2023-06-01 02:06:34] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9052023.post348] Old Version: [1.8.0.9042023.post411]
+[2023-06-01 02:06:34] INFO root fetch - processPackages [serializer-from-hell]: Downloading https://files.pythonhosted.org/packages/fb/2e/561a4992ddae9ca27e6a8a3c075fd207945623b6f21403af59bdea55a33f/serializer-from-hell-1.0.tar.gz
+[2023-06-01 02:06:34] INFO root fetch - processPackages [hdlib]: executing diffoscope
+[2023-06-01 02:06:34] INFO root fetch - processPackages [hdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdlib-0.1.1.tar.gz tmp/hdlib-0.1.2.tar.gz --markdown 20230601/h/hdlib/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-01 02:06:34] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-06-01 02:06:34] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9042023.post411.tar.gz tmp/mct-nightly-1.8.0.9052023.post348.tar.gz --markdown 20230601/m/mct-nightly/1.8.0.9042023.post411-1.8.0.9052023.post348/diff.md --exclude *.pyd
+[2023-06-01 02:06:34] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/3e/2d/3560d15ab9bd2dfb0c01fbeffec34d9827cb6b07a092178d80d9e14177ff/policyengine-us-0.331.0.tar.gz
+[2023-06-01 02:06:34] INFO root fetch - processPackages [mltable]: Downloading https://files.pythonhosted.org/packages/b9/ca/3d8e2a597c9ea645ef9965e00090af91cfa41aa30a6fa7895443687ff342/mltable-1.3.0-py3-none-any.whl
+[2023-06-01 02:06:34] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-06-01 02:06:34] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230601/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-06-01 02:06:34] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-06-01 02:06:34] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1685404999.tar.gz tmp/torchdatasets-nightly-1685491387.tar.gz --markdown 20230601/t/torchdatasets-nightly/1685404999-1685491387/diff.md --exclude *.pyd
+[2023-06-01 02:06:34] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/83/9f/18903bd26fec1d85afac283c36a4667d979ffa714a29ac675e842708dacc/jaxutils-nightly-0.0.8.dev20230531.tar.gz
+[2023-06-01 02:06:34] INFO root fetch - processPackages [yt-fts]: executing diffoscope
+[2023-06-01 02:06:34] INFO root fetch - processPackages [yt-fts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt-fts-0.1.8.tar.gz tmp/yt-fts-0.1.9.tar.gz --markdown 20230601/y/yt-fts/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 02:06:34] INFO root fetch - processPackages [serializer-from-hell]: Downloading https://files.pythonhosted.org/packages/b6/0d/78c99371b355ca7c4d3b157f961b9f876f7598aa6ce424e60b2ef0ca9be5/serializer-from-hell-1.1.tar.gz
+[2023-06-01 02:06:34] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-06-01 02:06:34] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230530.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230531.tar.gz --markdown 20230601/j/jaxutils-nightly/0.0.8.dev20230530-0.0.8.dev20230531/diff.md --exclude *.pyd
+[2023-06-01 02:06:34] INFO root fetch - processPackages [serializer-from-hell]: executing diffoscope
+[2023-06-01 02:06:34] INFO root fetch - processPackages [serializer-from-hell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serializer-from-hell-1.0.tar.gz tmp/serializer-from-hell-1.1.tar.gz --markdown 20230601/s/serializer-from-hell/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-01 02:06:34] INFO root fetch - processPackages [mltable]: Downloading https://files.pythonhosted.org/packages/1b/75/0a6e6cf6a85d37165b7f4d313dab6d815e7414cd84614a6ba890ee15d811/mltable-1.4.0-py3-none-any.whl
+[2023-06-01 02:06:35] INFO root fetch - processPackages [mltable]: executing diffoscope
+[2023-06-01 02:06:35] INFO root fetch - processPackages [mltable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltable-1.3.0-py3-none-any.whl.zip tmp/mltable-1.4.0-py3-none-any.whl.zip --markdown 20230601/m/mltable/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-06-01 02:06:35] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-01 02:06:35] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.330.1.tar.gz tmp/policyengine-us-0.331.0.tar.gz --markdown 20230601/p/policyengine-us/0.330.1-0.331.0/diff.md --exclude *.pyd
+[2023-06-01 02:06:36] INFO root fetch - main [MainThread]: End processing [hdlib]: success
+[2023-06-01 02:06:36] INFO root fetch - main [MainThread]: End processing [serializer-from-hell]: success
+[2023-06-01 02:06:36] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-06-01 02:06:36] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-06-01 02:06:36] INFO root fetch - main [MainThread]: End processing [yt-fts]: success
+[2023-06-01 02:06:36] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-06-01 02:06:37] INFO root fetch - main [MainThread]: End processing [mltable]: success
+[2023-06-01 02:06:45] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-06-01 02:07:57] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-01 02:07:57] INFO root fetch - main [MainThread]: Store serial: [18324637]
