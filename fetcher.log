@@ -9786,3 +9786,40 @@
 [2023-06-01 06:51:15] INFO root fetch - processPackages [eyes-soatra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_soatra-0.0.25.tar.gz tmp/eyes_soatra-0.0.26.tar.gz --markdown 20230601/e/eyes-soatra/0.0.25-0.0.26/diff.md --exclude *.pyd
 [2023-06-01 06:51:17] INFO root fetch - main [MainThread]: End processing [eyes-soatra]: success
 [2023-06-01 06:51:17] INFO root fetch - main [MainThread]: Store serial: [18328290]
+[2023-06-01 06:56:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18328290]
+[2023-06-01 06:56:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-01 06:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VidBarcodeSimilarities
+[2023-06-01 06:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-ledger
+[2023-06-01 06:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kinde-python-sdk
+[2023-06-01 06:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydavinci18
+[2023-06-01 06:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydavinci18
+[2023-06-01 06:56:26] INFO root fetch - processPackages [kinde-python-sdk]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-01 06:56:26] INFO root fetch - processPackages [VidBarcodeSimilarities]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-01 06:56:26] INFO root fetch - processPackages [pydavinci18]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-01 06:56:26] INFO root fetch - processPackages [django-ledger]: New version: [0.5.3.2] Old Version: [0.5.3.1]
+[2023-06-01 06:56:26] INFO root fetch - processPackages [pydavinci18]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-01 06:56:26] INFO root fetch - processPackages [VidBarcodeSimilarities]: Downloading https://files.pythonhosted.org/packages/50/91/2e23681232c44eda23136b0b9f5f95e0786e87f04547e5f64fde4b2bca71/VidBarcodeSimilarities-0.0.3.tar.gz
+[2023-06-01 06:56:26] INFO root fetch - processPackages [pydavinci18]: Downloading https://files.pythonhosted.org/packages/d2/7d/03f7a82ff7d1574490223a741b38c391a7c2fc8f04b95f3cd746e1c6a715/pydavinci18-0.2.2.tar.gz
+[2023-06-01 06:56:26] INFO root fetch - processPackages [pydavinci18]: Downloading https://files.pythonhosted.org/packages/d2/7d/03f7a82ff7d1574490223a741b38c391a7c2fc8f04b95f3cd746e1c6a715/pydavinci18-0.2.2.tar.gz
+[2023-06-01 06:56:26] INFO root fetch - processPackages [django-ledger]: Downloading https://files.pythonhosted.org/packages/7d/da/5ec24ca22b20ec4f01e3b485b0a3791be981d5cd2c00e090ebeea8d782ad/django_ledger-0.5.3.1-py3-none-any.whl
+[2023-06-01 06:56:26] INFO root fetch - processPackages [kinde-python-sdk]: Downloading https://files.pythonhosted.org/packages/df/f6/d5217a7aac4065ceb9643baa9fecdac3426f536c3a0d8286b84eef317c55/kinde_python_sdk-1.2.1-py3-none-any.whl
+[2023-06-01 06:56:26] INFO root fetch - processPackages [kinde-python-sdk]: executing diffoscope
+[2023-06-01 06:56:26] INFO root fetch - processPackages [kinde-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kinde-python-sdk-1.2.0.tar.gz tmp/kinde_python_sdk-1.2.1-py3-none-any.whl.zip --markdown 20230601/k/kinde-python-sdk/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-01 06:56:26] INFO root fetch - processPackages [VidBarcodeSimilarities]: Downloading https://files.pythonhosted.org/packages/e0/00/05771e5521e18a09b1af848b40f37ffa2f459783ab7f6ca07bf3358c0c26/VidBarcodeSimilarities-0.0.4.tar.gz
+[2023-06-01 06:56:26] INFO root fetch - processPackages [pydavinci18]: Downloading https://files.pythonhosted.org/packages/4d/f9/68deb353d490efde9f268f37da7beaa0eac3b20603ffdd55c48946b26d8b/pydavinci18-0.3.0.tar.gz
+[2023-06-01 06:56:26] INFO root fetch - processPackages [VidBarcodeSimilarities]: executing diffoscope
+[2023-06-01 06:56:26] INFO root fetch - processPackages [pydavinci18]: Downloading https://files.pythonhosted.org/packages/4d/f9/68deb353d490efde9f268f37da7beaa0eac3b20603ffdd55c48946b26d8b/pydavinci18-0.3.0.tar.gz
+[2023-06-01 06:56:26] INFO root fetch - processPackages [VidBarcodeSimilarities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VidBarcodeSimilarities-0.0.3.tar.gz tmp/VidBarcodeSimilarities-0.0.4.tar.gz --markdown 20230601/V/VidBarcodeSimilarities/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-01 06:56:26] INFO root fetch - processPackages [pydavinci18]: executing diffoscope
+[2023-06-01 06:56:26] INFO root fetch - processPackages [pydavinci18]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydavinci18-0.2.2.tar.gz tmp/pydavinci18-0.3.0.tar.gz --markdown 20230601/p/pydavinci18/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-01 06:56:26] INFO root fetch - processPackages [pydavinci18]: executing diffoscope
+[2023-06-01 06:56:26] INFO root fetch - processPackages [pydavinci18]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydavinci18-0.2.2.tar.gz tmp/pydavinci18-0.3.0.tar.gz --markdown 20230601/p/pydavinci18/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-01 06:56:27] INFO root fetch - processPackages [django-ledger]: Downloading https://files.pythonhosted.org/packages/da/c3/a54aecc9c87dc98b654f70e3558522d3630d94e206b3758bedd0b4fdfd48/django_ledger-0.5.3.2-py3-none-any.whl
+[2023-06-01 06:56:27] INFO root fetch - processPackages [django-ledger]: executing diffoscope
+[2023-06-01 06:56:27] INFO root fetch - processPackages [django-ledger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ledger-0.5.3.1-py3-none-any.whl.zip tmp/django_ledger-0.5.3.2-py3-none-any.whl.zip --markdown 20230601/d/django-ledger/0.5.3.1-0.5.3.2/diff.md --exclude *.pyd
+[2023-06-01 06:56:27] INFO root fetch - main [MainThread]: End processing [kinde-python-sdk]: success
+[2023-06-01 06:56:28] INFO root fetch - main [MainThread]: End processing [VidBarcodeSimilarities]: success
+[2023-06-01 06:56:28] INFO root fetch - main [MainThread]: End processing [pydavinci18]: success
+[2023-06-01 06:56:28] INFO root fetch - main [MainThread]: End processing [pydavinci18]: success
+[2023-06-01 06:56:32] INFO root fetch - main [MainThread]: End processing [django-ledger]: success
+[2023-06-01 06:56:32] INFO root fetch - main [MainThread]: Store serial: [18328305]
