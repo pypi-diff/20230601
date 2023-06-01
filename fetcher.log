@@ -4104,3 +4104,44 @@
 [2023-06-01 03:32:46] INFO root fetch - main [MainThread]: End processing [plynx]: success
 [2023-06-01 03:32:46] INFO root fetch - main [MainThread]: End processing [deta-discord-interactions]: success
 [2023-06-01 03:32:46] INFO root fetch - main [MainThread]: Store serial: [18325272]
+[2023-06-01 03:37:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18325272]
+[2023-06-01 03:37:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-01 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wpiformat
+[2023-06-01 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metacoag
+[2023-06-01 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HawaData
+[2023-06-01 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-sops-secrets
+[2023-06-01 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quantplay
+[2023-06-01 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chatarena
+[2023-06-01 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: minidevice
+[2023-06-01 03:37:55] INFO root fetch - processPackages [wpiformat]: New version: [2023.16] Old Version: [2023.15]
+[2023-06-01 03:37:55] INFO root fetch - processPackages [metacoag]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-01 03:37:55] INFO root fetch - processPackages [chatarena]: New version: [0.1.9] Old Version: [0.1.8.dev0]
+[2023-06-01 03:37:55] INFO root fetch - processPackages [HawaData]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-01 03:37:55] INFO root fetch - processPackages [quantplay]: New version: [1.2.92] Old Version: [1.2.91]
+[2023-06-01 03:37:55] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-01 03:37:55] WARNING root fetch - processPackages [minidevice]: Skipping, unable to determine old version
+[2023-06-01 03:37:55] INFO root fetch - main [MainThread]: End processing [minidevice] error
+[2023-06-01 03:37:55] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-01 03:37:55] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230601/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-01 03:37:55] INFO root fetch - processPackages [chatarena]: executing diffoscope
+[2023-06-01 03:37:55] INFO root fetch - processPackages [chatarena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatarena-0.1.8.dev0.tar.gz tmp/chatarena-0.1.9.tar.gz --markdown 20230601/c/chatarena/0.1.8.dev0-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 03:37:55] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/32/4e/cb1f298aa51414129203eed906a2c0a59c10384937fbee857bb513e71bf1/quantplay-1.2.92.tar.gz
+[2023-06-01 03:37:55] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/99/d8/96d1465039bb05e277629e64c940c7b283cf7bed99f64a941592a592b9cd/HawaData-0.5.9.tar.gz
+[2023-06-01 03:37:55] INFO root fetch - processPackages [metacoag]: Downloading https://files.pythonhosted.org/packages/6d/90/2403523aadc2956207e9d7414658d4b895c13944e3b37dfad4d3ea64ca54/metacoag-1.1.1.tar.gz
+[2023-06-01 03:37:55] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-06-01 03:37:55] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.5.8.tar.gz tmp/HawaData-0.5.9.tar.gz --markdown 20230601/H/HawaData/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-01 03:37:55] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-06-01 03:37:55] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.91.tar.gz tmp/quantplay-1.2.92.tar.gz --markdown 20230601/q/quantplay/1.2.91-1.2.92/diff.md --exclude *.pyd
+[2023-06-01 03:37:55] INFO root fetch - processPackages [wpiformat]: Downloading https://files.pythonhosted.org/packages/7b/2a/afeec0de40b91553da59a35e716a71272cbc6ccea90c6b63a8eeb0366726/wpiformat-2023.16-py3-none-any.whl
+[2023-06-01 03:37:55] INFO root fetch - processPackages [wpiformat]: executing diffoscope
+[2023-06-01 03:37:55] INFO root fetch - processPackages [wpiformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpiformat-2023.15-py3-none-any.whl.zip tmp/wpiformat-2023.16-py3-none-any.whl.zip --markdown 20230601/w/wpiformat/2023.15-2023.16/diff.md --exclude *.pyd
+[2023-06-01 03:37:55] INFO root fetch - processPackages [metacoag]: Downloading https://files.pythonhosted.org/packages/0f/9b/896a254790e8372de730ea20a6f119dd57f86ad63f6b4183400e829151d2/metacoag-1.1.2.tar.gz
+[2023-06-01 03:37:55] INFO root fetch - processPackages [metacoag]: executing diffoscope
+[2023-06-01 03:37:55] INFO root fetch - processPackages [metacoag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metacoag-1.1.1.tar.gz tmp/metacoag-1.1.2.tar.gz --markdown 20230601/m/metacoag/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-01 03:37:56] INFO root fetch - main [MainThread]: End processing [chatarena]: success
+[2023-06-01 03:37:57] INFO root fetch - main [MainThread]: End processing [wpiformat]: success
+[2023-06-01 03:37:57] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-01 03:37:57] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-06-01 03:37:57] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-06-01 03:37:58] INFO root fetch - main [MainThread]: End processing [metacoag]: success
+[2023-06-01 03:37:58] INFO root fetch - main [MainThread]: Store serial: [18325295]
