@@ -18535,3 +18535,204 @@
 [2023-06-01 15:02:44] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-multi-account-az-mapping]: success
 [2023-06-01 15:02:45] INFO root fetch - main [MainThread]: End processing [imscript]: success
 [2023-06-01 15:02:45] INFO root fetch - main [MainThread]: Store serial: [18333723]
+[2023-06-01 15:08:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18333723]
+[2023-06-01 15:08:06] INFO root fetch - main [MainThread]: Found 36 changed packages
+[2023-06-01 15:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickstart-vdk
+[2023-06-01 15:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openhexa.sdk
+[2023-06-01 15:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-selve-new
+[2023-06-01 15:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: renovosolutions.aws-iam-access-key
+[2023-06-01 15:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dktotoolkit
+[2023-06-01 15:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: renovosolutions.aws-cdk-route53targets
+[2023-06-01 15:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: viktor
+[2023-06-01 15:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-06-01 15:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eea.website.policy
+[2023-06-01 15:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: renovosolutions.aws-cdk-aws-ipam
+[2023-06-01 15:08:06] INFO root fetch - processPackages [openhexa.sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-01 15:08:06] INFO root fetch - processPackages [renovosolutions.aws-cdk-route53targets]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 15:08:06] INFO root fetch - processPackages [dktotoolkit]: New version: [1.0.0a12] Old Version: [1.0.0]
+[2023-06-01 15:08:06] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.886059298.dev11048] Old Version: [0.2.885470096.dev11032]
+[2023-06-01 15:08:06] INFO root fetch - processPackages [python-selve-new]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-01 15:08:06] INFO root fetch - processPackages [renovosolutions.aws-iam-access-key]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 15:08:06] INFO root fetch - processPackages [eea.website.policy]: New version: [3.0] Old Version: [2.0]
+[2023-06-01 15:08:06] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-01 15:08:06] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.5.31] Old Version: [2023.5.30]
+[2023-06-01 15:08:06] INFO root fetch - processPackages [viktor]: New version: [14.2.0rc1] Old Version: [14.1.0]
+[2023-06-01 15:08:06] INFO root fetch - processPackages [renovosolutions.aws-cdk-route53targets]: executing diffoscope
+[2023-06-01 15:08:06] INFO root fetch - processPackages [renovosolutions.aws-cdk-route53targets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-route53targets-0.0.98.tar.gz tmp/renovosolutions.aws-cdk-route53targets-0.0.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-route53targets/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 15:08:06] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: executing diffoscope
+[2023-06-01 15:08:06] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aws-ipam-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-aws-ipam-0.1.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-aws-ipam/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-01 15:08:07] INFO root fetch - processPackages [dktotoolkit]: Downloading https://files.pythonhosted.org/packages/ad/93/85c9ed4dd104f054686215c23cf674cf81153158d4dfddd2cf87070aa554/dktotoolkit-1.0.0.tar.gz
+[2023-06-01 15:08:07] INFO root fetch - processPackages [renovosolutions.aws-iam-access-key]: executing diffoscope
+[2023-06-01 15:08:07] INFO root fetch - processPackages [renovosolutions.aws-iam-access-key]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-iam-access-key-0.0.8.tar.gz tmp/renovosolutions.aws-iam-access-key-0.0.9.tar.gz --markdown 20230601/r/renovosolutions.aws-iam-access-key/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 15:08:07] INFO root fetch - processPackages [eea.website.policy]: Downloading https://files.pythonhosted.org/packages/6a/76/1fff80d896d4d04ca5b8acec636fc051be7d7c0a1c413508d05028e8cd9a/eea.website.policy-2.0.zip
+[2023-06-01 15:08:07] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/b3/40/c4c6acfed198ed77ca576c1c3db55d8eeb2c7da01072ac83b3fa57ed9cbe/fbgemm_gpu_nightly_cpu-2023.5.31-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-01 15:08:07] INFO root fetch - processPackages [dktotoolkit]: executing diffoscope
+[2023-06-01 15:08:07] INFO root fetch - processPackages [dktotoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dktotoolkit-1.0.0.tar.gz tmp/dktotoolkit-1.0.0a12.tar.gz --markdown 20230601/d/dktotoolkit/1.0.0-1.0.0a12/diff.md --exclude *.pyd
+[2023-06-01 15:08:07] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/89/30/1d9a25be8c335c7f0e0146a9cc7a66dfe64b1cc7e5a100713da0cfc4c35a/quickstart-vdk-0.2.886059298.dev11048.tar.gz
+[2023-06-01 15:08:07] INFO root fetch - processPackages [viktor]: Downloading https://files.pythonhosted.org/packages/12/dd/ea849b2116ad24e6d6f5d5b9eea7acea4f88ec174afebde9e46867ea67b6/viktor-14.2.0rc1-cp39-cp39-win_amd64.whl
+[2023-06-01 15:08:07] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-06-01 15:08:07] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.0.8.tar.gz tmp/python-selve-new-2.0.9.tar.gz --markdown 20230601/p/python-selve-new/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-01 15:08:07] INFO root fetch - processPackages [openhexa.sdk]: executing diffoscope
+[2023-06-01 15:08:07] INFO root fetch - processPackages [openhexa.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa.sdk-0.1.8.tar.gz tmp/openhexa.sdk-0.1.9.tar.gz --markdown 20230601/o/openhexa.sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-01 15:08:07] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-01 15:08:07] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.885470096.dev11032.tar.gz tmp/quickstart-vdk-0.2.886059298.dev11048.tar.gz --markdown 20230601/q/quickstart-vdk/0.2.885470096.dev11032-0.2.886059298.dev11048/diff.md --exclude *.pyd
+[2023-06-01 15:08:07] INFO root fetch - processPackages [eea.website.policy]: Downloading https://files.pythonhosted.org/packages/a0/8b/b116bf12c32cf55550bd5b7c1ec1d48ecd482d3a7222ce88d623fd7b6a9d/eea.website.policy-3.0.zip
+[2023-06-01 15:08:07] INFO root fetch - processPackages [eea.website.policy]: executing diffoscope
+[2023-06-01 15:08:07] INFO root fetch - processPackages [eea.website.policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.website.policy-2.0.zip tmp/eea.website.policy-3.0.zip --markdown 20230601/e/eea.website.policy/2.0-3.0/diff.md --exclude *.pyd
+[2023-06-01 15:08:08] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-06-01 15:08:08] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.5.30-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.5.31-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230601/f/fbgemm-gpu-nightly-cpu/2023.5.30-2023.5.31/diff.md --exclude *.pyd
+[2023-06-01 15:08:08] INFO root fetch - processPackages [renovosolutions.aws-cdk-route53targets]: Start processing: pami
+[2023-06-01 15:08:08] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-route53targets]: success
+[2023-06-01 15:08:08] INFO root fetch - processPackages [pami]: New version: [2023.4.1] Old Version: [2023.3.1]
+[2023-06-01 15:08:08] INFO root fetch - processPackages [viktor]: executing diffoscope
+[2023-06-01 15:08:08] INFO root fetch - processPackages [viktor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viktor-14.1.0-cp39-cp39-win_amd64.whl.zip tmp/viktor-14.2.0rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230601/v/viktor/14.1.0-14.2.0rc1/diff.md --exclude *.pyd
+[2023-06-01 15:08:08] INFO root fetch - processPackages [renovosolutions.aws-iam-access-key]: Start processing: FileKit
+[2023-06-01 15:08:08] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-iam-access-key]: success
+[2023-06-01 15:08:08] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/64/10/0e50bace08423f308542b4e0d00226e745018432f04910c0c7486d26ccae/pami-2023.3.1.tar.gz
+[2023-06-01 15:08:08] WARNING root fetch - processPackages [FileKit]: Skipping, unable to determine old version
+[2023-06-01 15:08:08] INFO root fetch - processPackages [FileKit]: Start processing: gadgethiServerUtils
+[2023-06-01 15:08:08] INFO root fetch - main [MainThread]: End processing [FileKit] error
+[2023-06-01 15:08:08] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: Start processing: rysk-client
+[2023-06-01 15:08:08] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aws-ipam]: success
+[2023-06-01 15:08:08] INFO root fetch - processPackages [gadgethiServerUtils]: New version: [999.999] Old Version: [0.3.8]
+[2023-06-01 15:08:08] INFO root fetch - processPackages [rysk-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-01 15:08:08] INFO root fetch - processPackages [gadgethiServerUtils]: Downloading https://files.pythonhosted.org/packages/b4/f0/0c420702a3d7e546aedbeeab43e4d79bf52b3c225038959d9c31c53944b7/gadgethiServerUtils-0.3.8-py3-none-any.whl
+[2023-06-01 15:08:08] INFO root fetch - processPackages [rysk-client]: Downloading https://files.pythonhosted.org/packages/33/4e/2a1860dca26423dc5b894fe33acb943d53f3859e38e80ad5d6cdeb1b2ae3/rysk_client-0.1.2.tar.gz
+[2023-06-01 15:08:08] INFO root fetch - processPackages [dktotoolkit]: Start processing: EdiHeadyTrack
+[2023-06-01 15:08:08] INFO root fetch - main [MainThread]: End processing [dktotoolkit]: success
+[2023-06-01 15:08:08] INFO root fetch - processPackages [EdiHeadyTrack]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-01 15:08:08] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/88/50/4883c546aeb515f032d3c9bcb6ab103bd9df2e9fa36dafa32ffdcdd9e5cd/pami-2023.4.1.tar.gz
+[2023-06-01 15:08:08] INFO root fetch - processPackages [rysk-client]: executing diffoscope
+[2023-06-01 15:08:08] INFO root fetch - processPackages [rysk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rysk_client-0.1.1.tar.gz tmp/rysk_client-0.1.2.tar.gz --markdown 20230601/r/rysk-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-01 15:08:09] INFO root fetch - processPackages [pami]: executing diffoscope
+[2023-06-01 15:08:09] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2023.3.1.tar.gz tmp/pami-2023.4.1.tar.gz --markdown 20230601/p/pami/2023.3.1-2023.4.1/diff.md --exclude *.pyd
+[2023-06-01 15:08:09] INFO root fetch - processPackages [gadgethiServerUtils]: Downloading https://files.pythonhosted.org/packages/be/2e/9b8a63e5e1eab6dad1eddeee2db7c327a4112b574ccb968d9b4e09b49e38/gadgethiServerUtils-999.999-py3-none-any.whl
+[2023-06-01 15:08:09] INFO root fetch - processPackages [python-selve-new]: Start processing: renovosolutions.aws-cdk-certbot
+[2023-06-01 15:08:09] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-06-01 15:08:09] INFO root fetch - processPackages [EdiHeadyTrack]: Downloading https://files.pythonhosted.org/packages/ed/79/35b6d20035f8c4ec464d40b03a04fe37f82b03f6d8377fec68b537f23f2a/EdiHeadyTrack-0.0.5.tar.gz
+[2023-06-01 15:08:09] INFO root fetch - processPackages [renovosolutions.aws-cdk-certbot]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-06-01 15:08:09] INFO root fetch - processPackages [quickstart-vdk]: Start processing: circup
+[2023-06-01 15:08:09] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-01 15:08:09] INFO root fetch - processPackages [renovosolutions.aws-cdk-certbot]: Downloading https://files.pythonhosted.org/packages/72/f5/626fc4d513cf2ea8d1bbbb6f1196caaa2997129e564519db0b427203bbeb/renovosolutions.aws-cdk-certbot-2.4.2.tar.gz
+[2023-06-01 15:08:09] INFO root fetch - processPackages [circup]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-01 15:08:09] WARNING root fetch - processPackages [renovosolutions.aws-cdk-certbot]: Skipping package: exceeds size limit 18415477>=10485760
+[2023-06-01 15:08:09] INFO root fetch - processPackages [renovosolutions.aws-cdk-certbot]: Start processing: chatdocs
+[2023-06-01 15:08:09] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-certbot] error
+[2023-06-01 15:08:09] WARNING root fetch - processPackages [chatdocs]: Skipping, unable to determine old version
+[2023-06-01 15:08:09] INFO root fetch - processPackages [chatdocs]: Start processing: acconeer-exptool
+[2023-06-01 15:08:09] INFO root fetch - main [MainThread]: End processing [chatdocs] error
+[2023-06-01 15:08:09] INFO root fetch - processPackages [gadgethiServerUtils]: executing diffoscope
+[2023-06-01 15:08:09] INFO root fetch - processPackages [gadgethiServerUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gadgethiServerUtils-0.3.8-py3-none-any.whl.zip tmp/gadgethiServerUtils-999.999-py3-none-any.whl.zip --markdown 20230601/g/gadgethiServerUtils/0.3.8-999.999/diff.md --exclude *.pyd
+[2023-06-01 15:08:09] INFO root fetch - processPackages [acconeer-exptool]: New version: [7.0.2] Old Version: [7.0.1]
+[2023-06-01 15:08:09] INFO root fetch - processPackages [EdiHeadyTrack]: Downloading https://files.pythonhosted.org/packages/87/47/dbba240ca4b69acee9ba5509ad993d46bf7a4f9d286797f602c46a3a9937/EdiHeadyTrack-0.0.6.tar.gz
+[2023-06-01 15:08:09] INFO root fetch - processPackages [circup]: Downloading https://files.pythonhosted.org/packages/7b/fb/558863d412b758879f709795f92c05fa6acbbc0c05da576edd944a5352f2/circup-1.2.2.tar.gz
+[2023-06-01 15:08:09] INFO root fetch - processPackages [openhexa.sdk]: Start processing: renovosolutions.aws-cdk-aws-ipam
+[2023-06-01 15:08:09] INFO root fetch - main [MainThread]: End processing [openhexa.sdk]: success
+[2023-06-01 15:08:09] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-01 15:08:09] INFO root fetch - processPackages [EdiHeadyTrack]: executing diffoscope
+[2023-06-01 15:08:09] INFO root fetch - processPackages [EdiHeadyTrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdiHeadyTrack-0.0.5.tar.gz tmp/EdiHeadyTrack-0.0.6.tar.gz --markdown 20230601/E/EdiHeadyTrack/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-01 15:08:09] INFO root fetch - processPackages [acconeer-exptool]: Downloading https://files.pythonhosted.org/packages/c1/f3/aad12458513014366d352c4ced1f715f495a2b4ba783a852f20ac5c34ef8/acconeer-exptool-7.0.1.tar.gz
+[2023-06-01 15:08:09] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: executing diffoscope
+[2023-06-01 15:08:09] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aws-ipam-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-aws-ipam-0.1.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-aws-ipam/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-01 15:08:09] INFO root fetch - processPackages [circup]: Downloading https://files.pythonhosted.org/packages/34/75/3ded13527065bdf94523aa0b6c338560966546ebae147106ea6ff7fd92ba/circup-1.2.3.tar.gz
+[2023-06-01 15:08:09] INFO root fetch - processPackages [eea.website.policy]: Start processing: collectd-transmission
+[2023-06-01 15:08:09] INFO root fetch - main [MainThread]: End processing [eea.website.policy]: success
+[2023-06-01 15:08:09] INFO root fetch - processPackages [collectd-transmission]: New version: [v2.3] Old Version: [v2.2]
+[2023-06-01 15:08:09] INFO root fetch - processPackages [circup]: executing diffoscope
+[2023-06-01 15:08:09] INFO root fetch - processPackages [circup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circup-1.2.2.tar.gz tmp/circup-1.2.3.tar.gz --markdown 20230601/c/circup/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-01 15:08:09] INFO root fetch - processPackages [acconeer-exptool]: Downloading https://files.pythonhosted.org/packages/c4/d0/b075724e9f20cddddf0a5ced27b57e47321e44b97d4fd500e055fb071ec3/acconeer-exptool-7.0.2.tar.gz
+[2023-06-01 15:08:09] INFO root fetch - processPackages [collectd-transmission]: Downloading https://files.pythonhosted.org/packages/63/39/819b722d72add4369d35a229e67e01a2371a7f2ddc5c717918afdb47ec50/collectd_transmission-v2.2.tar.gz
+[2023-06-01 15:08:09] INFO root fetch - processPackages [acconeer-exptool]: executing diffoscope
+[2023-06-01 15:08:09] INFO root fetch - processPackages [acconeer-exptool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acconeer-exptool-7.0.1.tar.gz tmp/acconeer-exptool-7.0.2.tar.gz --markdown 20230601/a/acconeer-exptool/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2023-06-01 15:08:10] INFO root fetch - processPackages [collectd-transmission]: Downloading https://files.pythonhosted.org/packages/97/cf/6f498ace0a64db396dba1f0b1bf637afd84b172e4cc9acb4b4ddbe6de4a2/collectd_transmission-v2.3.tar.gz
+[2023-06-01 15:08:10] INFO root fetch - processPackages [collectd-transmission]: executing diffoscope
+[2023-06-01 15:08:10] INFO root fetch - processPackages [collectd-transmission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collectd_transmission-v2.2.tar.gz tmp/collectd_transmission-v2.3.tar.gz --markdown 20230601/c/collectd-transmission/v2.2-v2.3/diff.md --exclude *.pyd
+[2023-06-01 15:08:11] INFO root fetch - processPackages [gadgethiServerUtils]: Start processing: yang-vlp
+[2023-06-01 15:08:11] INFO root fetch - main [MainThread]: End processing [gadgethiServerUtils]: success
+[2023-06-01 15:08:11] INFO root fetch - processPackages [yang-vlp]: New version: [0.2.20] Old Version: [0.2.19]
+[2023-06-01 15:08:11] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: Start processing: renovosolutions.aws-cdk-renovo-microapi
+[2023-06-01 15:08:11] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aws-ipam]: success
+[2023-06-01 15:08:11] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 15:08:11] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: executing diffoscope
+[2023-06-01 15:08:11] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-microapi-0.0.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-microapi-0.0.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-renovo-microapi/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 15:08:11] INFO root fetch - processPackages [yang-vlp]: Downloading https://files.pythonhosted.org/packages/36/f5/883c2e18067bfc2e6f0ac8dd8a619f315f612275fdb5f82ca36d5e1b7246/yang-vlp-0.2.19.tar.gz
+[2023-06-01 15:08:11] INFO root fetch - processPackages [EdiHeadyTrack]: Start processing: nucliadb
+[2023-06-01 15:08:11] INFO root fetch - main [MainThread]: End processing [EdiHeadyTrack]: success
+[2023-06-01 15:08:11] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 15:08:11] INFO root fetch - processPackages [circup]: Start processing: nucliadb-client
+[2023-06-01 15:08:11] INFO root fetch - main [MainThread]: End processing [circup]: success
+[2023-06-01 15:08:11] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 15:08:11] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-06-01 15:08:11] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 15:08:11] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-06-01 15:08:11] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 15:08:12] INFO root fetch - processPackages [yang-vlp]: Downloading https://files.pythonhosted.org/packages/47/aa/659fe0a358ea9704042a34e5617ebc9bc05e02fb0aba93330c4d199516c7/yang-vlp-0.2.20.tar.gz
+[2023-06-01 15:08:12] INFO root fetch - processPackages [yang-vlp]: executing diffoscope
+[2023-06-01 15:08:12] INFO root fetch - processPackages [yang-vlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yang-vlp-0.2.19.tar.gz tmp/yang-vlp-0.2.20.tar.gz --markdown 20230601/y/yang-vlp/0.2.19-0.2.20/diff.md --exclude *.pyd
+[2023-06-01 15:08:12] INFO root fetch - processPackages [collectd-transmission]: Start processing: nucliadb-dataset
+[2023-06-01 15:08:12] INFO root fetch - main [MainThread]: End processing [collectd-transmission]: success
+[2023-06-01 15:08:12] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 15:08:12] INFO root fetch - processPackages [rysk-client]: Start processing: nucliadb-models
+[2023-06-01 15:08:12] INFO root fetch - main [MainThread]: End processing [rysk-client]: success
+[2023-06-01 15:08:12] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 15:08:12] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-06-01 15:08:12] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 15:08:12] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-06-01 15:08:12] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 15:08:13] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: Start processing: nucliadb-protos
+[2023-06-01 15:08:13] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-microapi]: success
+[2023-06-01 15:08:13] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 15:08:13] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-06-01 15:08:13] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 15:08:13] INFO root fetch - processPackages [pami]: Start processing: nucliadb-sdk
+[2023-06-01 15:08:13] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2023-06-01 15:08:13] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 15:08:13] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-06-01 15:08:13] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 15:08:13] INFO root fetch - processPackages [nucliadb-client]: Start processing: nucliadb-utils
+[2023-06-01 15:08:13] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-06-01 15:08:13] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-01 15:08:14] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-06-01 15:08:14] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230601/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-01 15:08:14] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: wlkatapython
+[2023-06-01 15:08:14] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-06-01 15:08:14] INFO root fetch - processPackages [wlkatapython]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-01 15:08:14] INFO root fetch - processPackages [wlkatapython]: Downloading https://files.pythonhosted.org/packages/e5/d0/ba89154753a2257177bb654f967ee1d62c742227a2ced1dff0ea7d9c37ca/wlkatapython-0.0.4.tar.gz
+[2023-06-01 15:08:14] INFO root fetch - processPackages [wlkatapython]: executing diffoscope
+[2023-06-01 15:08:14] INFO root fetch - processPackages [wlkatapython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wlkatapython-0.0.3.tar.gz tmp/wlkatapython-0.0.4.tar.gz --markdown 20230601/w/wlkatapython/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-01 15:08:14] INFO root fetch - processPackages [yang-vlp]: Start processing: renovosolutions.aws-cdk-aspects-security-group
+[2023-06-01 15:08:14] INFO root fetch - main [MainThread]: End processing [yang-vlp]: success
+[2023-06-01 15:08:14] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-06-01 15:08:14] INFO root fetch - processPackages [nucliadb-models]: Start processing: avnet-scotty
+[2023-06-01 15:08:14] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-06-01 15:08:14] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: executing diffoscope
+[2023-06-01 15:08:14] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.98.tar.gz tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.99.tar.gz --markdown 20230601/r/renovosolutions.aws-cdk-aspects-security-group/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-06-01 15:08:14] INFO root fetch - processPackages [avnet-scotty]: New version: [2023.5] Old Version: [2023.4.1]
+[2023-06-01 15:08:15] INFO root fetch - processPackages [avnet-scotty]: Downloading https://files.pythonhosted.org/packages/c1/d4/234232cf8ca8d5da1518453b6f5b862a9f3ae3df558c0461a559e36bd70b/avnet-scotty-2023.4.1.tar.gz
+[2023-06-01 15:08:15] INFO root fetch - processPackages [nucliadb-protos]: Start processing: nbdev-stdlib
+[2023-06-01 15:08:15] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-06-01 15:08:15] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-01 15:08:15] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-01 15:08:15] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230601/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-01 15:08:15] INFO root fetch - processPackages [avnet-scotty]: Downloading https://files.pythonhosted.org/packages/ef/d6/2caf7f63a2988716affec22dc05e1f186225945f224fd7b23a7dbe20b81b/avnet-scotty-2023.5.tar.gz
+[2023-06-01 15:08:15] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: nydok
+[2023-06-01 15:08:15] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-06-01 15:08:15] INFO root fetch - processPackages [avnet-scotty]: executing diffoscope
+[2023-06-01 15:08:15] INFO root fetch - processPackages [avnet-scotty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avnet-scotty-2023.4.1.tar.gz tmp/avnet-scotty-2023.5.tar.gz --markdown 20230601/a/avnet-scotty/2023.4.1-2023.5/diff.md --exclude *.pyd
+[2023-06-01 15:08:15] WARNING root fetch - processPackages [nydok]: Skipping, unable to determine old version
+[2023-06-01 15:08:15] INFO root fetch - processPackages [nydok]: Start processing: pyheartlib
+[2023-06-01 15:08:15] INFO root fetch - main [MainThread]: End processing [nydok] error
+[2023-06-01 15:08:15] INFO root fetch - processPackages [pyheartlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-01 15:08:15] INFO root fetch - processPackages [pyheartlib]: executing diffoscope
+[2023-06-01 15:08:15] INFO root fetch - processPackages [pyheartlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyheartlib-0.0.8.tar.gz tmp/pyheartlib-0.0.9.tar.gz --markdown 20230601/p/pyheartlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-01 15:08:16] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-06-01 15:08:16] INFO root fetch - main [MainThread]: End processing [wlkatapython]: success
+[2023-06-01 15:08:16] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-06-01 15:08:16] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aspects-security-group]: success
+[2023-06-01 15:08:17] INFO root fetch - main [MainThread]: End processing [avnet-scotty]: success
+[2023-06-01 15:08:17] INFO root fetch - main [MainThread]: End processing [pyheartlib]: success
+[2023-06-01 15:08:18] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-01 15:08:18] INFO root fetch - main [MainThread]: End processing [acconeer-exptool]: success
+[2023-06-01 15:08:22] INFO root fetch - main [MainThread]: End processing [viktor]: success
+[2023-06-01 15:08:57] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-06-01 15:08:57] INFO root fetch - main [MainThread]: Store serial: [18333832]
