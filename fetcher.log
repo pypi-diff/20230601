@@ -19947,3 +19947,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-01 15:59:15] INFO root fetch - main [MainThread]: End processing [novalabs-backtest]: success
 [2023-06-01 15:59:18] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-06-01 15:59:18] INFO root fetch - main [MainThread]: Store serial: [18334496]
+[2023-06-01 16:04:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18334496]
+[2023-06-01 16:04:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-01 16:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inventree-wireviz-plugin
+[2023-06-01 16:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyilz
+[2023-06-01 16:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyEasyML
+[2023-06-01 16:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: e57
+[2023-06-01 16:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Geode-Explicit
+[2023-06-01 16:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fief-server
+[2023-06-01 16:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hukudo-ingress
+[2023-06-01 16:04:28] WARNING root fetch - processPackages [e57]: Skipping, unable to determine old version
+[2023-06-01 16:04:28] INFO root fetch - main [MainThread]: End processing [e57] error
+[2023-06-01 16:04:28] INFO root fetch - processPackages [inventree-wireviz-plugin]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-06-01 16:04:28] WARNING root fetch - processPackages [pyilz]: Skipping, unable to determine old version
+[2023-06-01 16:04:28] INFO root fetch - processPackages [pyEasyML]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-01 16:04:28] INFO root fetch - main [MainThread]: End processing [pyilz] error
+[2023-06-01 16:04:28] INFO root fetch - processPackages [fief-server]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-01 16:04:28] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.0.0rc5] Old Version: [4.0.0rc4]
+[2023-06-01 16:04:29] INFO root fetch - processPackages [hukudo-ingress]: New version: [2.0.0] Old Version: [1.1.0]
+[2023-06-01 16:04:29] INFO root fetch - processPackages [fief-server]: executing diffoscope
+[2023-06-01 16:04:29] INFO root fetch - processPackages [fief-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fief-server-0.8.2.tar.gz tmp/fief-server-0.9.0.tar.gz --markdown 20230601/f/fief-server/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-01 16:04:29] INFO root fetch - processPackages [pyEasyML]: Downloading https://files.pythonhosted.org/packages/57/62/6163bb190358fd499421070f1eb816188255e8ecbda0b072bed3edb2b019/pyEasyML-1.0.0.tar.gz
+[2023-06-01 16:04:29] INFO root fetch - processPackages [hukudo-ingress]: Downloading https://files.pythonhosted.org/packages/44/6f/349caff7731dab4c1d4b4d286249c85738ef34f9aef20a97e095fdb4b451/hukudo-ingress-1.1.0.tar.gz
+[2023-06-01 16:04:29] INFO root fetch - processPackages [inventree-wireviz-plugin]: Downloading https://files.pythonhosted.org/packages/5b/1b/77aece8cdf09f17f8c3aaaa7ee81fbe521269f35c167e98d89f3bf463c8f/inventree-wireviz-plugin-0.4.0.tar.gz
+[2023-06-01 16:04:29] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2023-06-01 16:04:29] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.0.0rc4-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-4.0.0rc5-cp39-cp39-win_amd64.whl.zip --markdown 20230601/G/Geode-Explicit/4.0.0rc4-4.0.0rc5/diff.md --exclude *.pyd
+[2023-06-01 16:04:29] INFO root fetch - processPackages [inventree-wireviz-plugin]: executing diffoscope
+[2023-06-01 16:04:29] INFO root fetch - processPackages [inventree-wireviz-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventree-wireviz-plugin-0.3.3.tar.gz tmp/inventree-wireviz-plugin-0.4.0.tar.gz --markdown 20230601/i/inventree-wireviz-plugin/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-06-01 16:04:29] INFO root fetch - processPackages [pyEasyML]: Downloading https://files.pythonhosted.org/packages/28/8d/19972a99b10666556a51ea7d76c4cdbf9c141cbd46eb07d1cb0f50e3a2fa/pyEasyML-1.0.1.tar.gz
+[2023-06-01 16:04:29] INFO root fetch - processPackages [pyEasyML]: executing diffoscope
+[2023-06-01 16:04:29] INFO root fetch - processPackages [pyEasyML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyEasyML-1.0.0.tar.gz tmp/pyEasyML-1.0.1.tar.gz --markdown 20230601/p/pyEasyML/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-01 16:04:29] INFO root fetch - processPackages [hukudo-ingress]: Downloading https://files.pythonhosted.org/packages/8f/6a/c1d7a392c693332e9d460b9cb4157adee0f85d7239a42fc98b88b480ef0b/hukudo-ingress-2.0.0.tar.gz
+[2023-06-01 16:04:29] INFO root fetch - processPackages [hukudo-ingress]: executing diffoscope
+[2023-06-01 16:04:29] INFO root fetch - processPackages [hukudo-ingress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hukudo-ingress-1.1.0.tar.gz tmp/hukudo-ingress-2.0.0.tar.gz --markdown 20230601/h/hukudo-ingress/1.1.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-01 16:04:30] INFO root fetch - main [MainThread]: End processing [inventree-wireviz-plugin]: success
+[2023-06-01 16:04:30] INFO root fetch - main [MainThread]: End processing [pyEasyML]: success
+[2023-06-01 16:04:30] INFO root fetch - main [MainThread]: End processing [hukudo-ingress]: success
+[2023-06-01 16:04:31] INFO root fetch - main [MainThread]: End processing [fief-server]: success
+[2023-06-01 16:04:46] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2023-06-01 16:04:46] INFO root fetch - main [MainThread]: Store serial: [18334594]
