@@ -4037,3 +4037,33 @@
 [2023-06-01 03:22:06] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
 [2023-06-01 03:22:08] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-06-01 03:22:08] INFO root fetch - main [MainThread]: Store serial: [18325217]
+[2023-06-01 03:27:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18325217]
+[2023-06-01 03:27:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-01 03:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyagrum-nightly
+[2023-06-01 03:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tigrisdb
+[2023-06-01 03:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-organizations
+[2023-06-01 03:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: portage
+[2023-06-01 03:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prodsys
+[2023-06-01 03:27:23] INFO root fetch - processPackages [tigrisdb]: New version: [1.0.0b4] Old Version: [1.0.0b3]
+[2023-06-01 03:27:23] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-01 03:27:23] WARNING root fetch - processPackages [prodsys]: Skipping, unable to determine old version
+[2023-06-01 03:27:23] INFO root fetch - main [MainThread]: End processing [prodsys] error
+[2023-06-01 03:27:23] INFO root fetch - processPackages [portage]: New version: [3.0.48] Old Version: [3.0.47]
+[2023-06-01 03:27:23] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.1.dev202305251684934970] Old Version: [1.8.1.9.dev202305311685427304]
+[2023-06-01 03:27:23] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-01 03:27:23] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230601/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-01 03:27:23] INFO root fetch - processPackages [portage]: Downloading https://files.pythonhosted.org/packages/5c/e8/535c55b0554a564c99b9ac1e56726a423482791d91743eed03cfe0f8c25b/portage-3.0.47.tar.gz
+[2023-06-01 03:27:23] INFO root fetch - processPackages [tigrisdb]: Downloading https://files.pythonhosted.org/packages/dd/62/aa5ca38fe924a26abb5926b2dad9bdf94cdd1cc08563ab4712e31bc1ed45/tigrisdb-1.0.0b4.tar.gz
+[2023-06-01 03:27:23] INFO root fetch - processPackages [tigrisdb]: executing diffoscope
+[2023-06-01 03:27:23] INFO root fetch - processPackages [tigrisdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigrisdb-1.0.0b3.tar.gz tmp/tigrisdb-1.0.0b4.tar.gz --markdown 20230601/t/tigrisdb/1.0.0b3-1.0.0b4/diff.md --exclude *.pyd
+[2023-06-01 03:27:24] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/ca/54/408dd42ea13c44115c0d4c39c6734522f79b532cae881d5c36e714a81a7a/pyAgrum_nightly-1.8.1.9.dev202305311685427304-cp39-cp39-win_amd64.whl
+[2023-06-01 03:27:24] INFO root fetch - processPackages [portage]: Downloading https://files.pythonhosted.org/packages/c6/7b/f7f48068fe9e6ea07c7572161638b20b85613fc12723a9481b69ae8661d0/portage-3.0.48.tar.gz
+[2023-06-01 03:27:24] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-06-01 03:27:24] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.1.9.dev202305311685427304-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.1.dev202305251684934970-cp39-cp39-win_amd64.whl.zip --markdown 20230601/p/pyagrum-nightly/1.8.1.9.dev202305311685427304-1.8.1.dev202305251684934970/diff.md --exclude *.pyd
+[2023-06-01 03:27:24] INFO root fetch - processPackages [portage]: executing diffoscope
+[2023-06-01 03:27:24] INFO root fetch - processPackages [portage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230601:/home/abi/fetcher/20230601:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portage-3.0.47.tar.gz tmp/portage-3.0.48.tar.gz --markdown 20230601/p/portage/3.0.47-3.0.48/diff.md --exclude *.pyd
+[2023-06-01 03:27:24] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-01 03:27:25] INFO root fetch - main [MainThread]: End processing [tigrisdb]: success
+[2023-06-01 03:27:26] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-06-01 03:27:34] INFO root fetch - main [MainThread]: End processing [portage]: success
+[2023-06-01 03:27:34] INFO root fetch - main [MainThread]: Store serial: [18325255]
